@@ -17,8 +17,13 @@ import sys.FileSystem;
 
 class PlayState extends FlxState
 {
+	var bg:FlxSprite;
+
 	override public function create()
 	{
+		bg = new FlxSprite(FlxG.width / 2, FlxG.height / 2).loadGraphic('assets/images/bg/school.png');
+		add(bg);
+		
 		super.create();
 	}
 
