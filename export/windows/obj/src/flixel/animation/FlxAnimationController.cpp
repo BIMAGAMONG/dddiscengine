@@ -766,15 +766,24 @@ void FlxAnimationController_obj::byPrefixHelper(::Array< int > addTo,::Array< ::
             	HX_STACKFRAME(&_hx_pos_5ed655cc53689dfd_725_byPrefixHelper)
 HXLINE( 726)		::String name = frames->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >()->name;
 HXLINE( 727)		int postIndex = name.indexOf(HX_(".",2e,00,00,00),prefix.length);
-HXLINE( 728)		int postFix;
+HXLINE( 728)		int suffix;
 HXDLIN( 728)		if ((postIndex == -1)) {
-HXLINE( 728)			postFix = name.length;
+HXLINE( 728)			suffix = name.length;
             		}
             		else {
-HXLINE( 728)			postFix = postIndex;
+HXLINE( 728)			suffix = postIndex;
             		}
-HXDLIN( 728)		::String postFix1 = name.substring(postFix,name.length);
-HXLINE( 729)		::flixel::graphics::frames::FlxFrame_obj::sort(frames,prefix.length,postFix1.length);
+HXDLIN( 728)		::String suffix1 = name.substring(suffix,name.length);
+HXLINE( 729)		{
+HXLINE( 729)			int _hx_tmp;
+HXDLIN( 729)			if (::hx::IsNull( suffix1 )) {
+HXLINE( 729)				_hx_tmp = 0;
+            			}
+            			else {
+HXLINE( 729)				_hx_tmp = suffix1.length;
+            			}
+HXDLIN( 729)			::flixel::graphics::frames::FlxFrame_obj::sortHelper(frames,prefix.length,_hx_tmp,true);
+            		}
 HXLINE( 731)		{
 HXLINE( 731)			int _g = 0;
 HXDLIN( 731)			while((_g < frames->length)){

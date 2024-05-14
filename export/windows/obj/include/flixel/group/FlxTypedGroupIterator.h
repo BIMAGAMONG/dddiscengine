@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_a2c5aad29e94c731_927_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_a2c5aad29e94c731_934_new)
 HX_DECLARE_CLASS2(flixel,group,FlxTypedGroupIterator)
 
 namespace flixel{
@@ -39,11 +39,11 @@ class HXCPP_CLASS_ATTRIBUTES FlxTypedGroupIterator_obj : public ::hx::Object
 			FlxTypedGroupIterator_obj *__this = (FlxTypedGroupIterator_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(FlxTypedGroupIterator_obj), true, "flixel.group.FlxTypedGroupIterator"));
 			*(void **)__this = FlxTypedGroupIterator_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_927_new)
-HXLINE( 928)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_groupMembers = groupMembers;
-HXLINE( 929)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_filter = filter;
-HXLINE( 930)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_cursor = 0;
-HXLINE( 931)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_length = ( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_groupMembers->get_length();
+            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_934_new)
+HXLINE( 935)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_groupMembers = groupMembers;
+HXLINE( 936)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_filter = filter;
+HXLINE( 937)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_cursor = 0;
+HXLINE( 938)		( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_length = ( ( ::flixel::group::FlxTypedGroupIterator)(__this) )->_groupMembers->get_length();
             	}
 		
 			return __this;

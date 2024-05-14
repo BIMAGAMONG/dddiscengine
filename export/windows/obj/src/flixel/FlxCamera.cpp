@@ -257,9 +257,9 @@ HX_LOCAL_STACK_FRAME(_hx_pos_d1aae230bd422321_600_boot,"flixel.FlxCamera","boot"
 HX_LOCAL_STACK_FRAME(_hx_pos_d1aae230bd422321_602_boot,"flixel.FlxCamera","boot",0xa2d9e93b,"flixel.FlxCamera.boot","flixel/FlxCamera.hx",602,0xe7aeb95a)
 namespace flixel{
 
-void FlxCamera_obj::__construct(::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom){
-            		int X = __o_X.Default(0);
-            		int Y = __o_Y.Default(0);
+void FlxCamera_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom){
+            		Float X = __o_X.Default(0);
+            		Float Y = __o_Y.Default(0);
             		int Width = __o_Width.Default(0);
             		int Height = __o_Height.Default(0);
             		Float Zoom = __o_Zoom.Default(0);
@@ -326,8 +326,8 @@ HXLINE(  95)		this->scaleX = ((Float)0);
 HXLINE(  89)		this->y = ((Float)0);
 HXLINE(  82)		this->x = ((Float)0);
 HXLINE(1033)		super::__construct();
-HXLINE(1035)		this->set_x(( (Float)(X) ));
-HXLINE(1036)		this->set_y(( (Float)(Y) ));
+HXLINE(1035)		this->set_x(X);
+HXLINE(1036)		this->set_y(Y);
 HXLINE(1039)		int _hx_tmp;
 HXDLIN(1039)		if ((Width <= 0)) {
 HXLINE(1039)			_hx_tmp = ::flixel::FlxG_obj::width;
@@ -2622,13 +2622,13 @@ HXDLIN(2081)		return (::flixel::FlxCamera_obj::_defaultCameras = value);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxCamera_obj,set_defaultCameras,return )
 
 
-::hx::ObjectPtr< FlxCamera_obj > FlxCamera_obj::__new(::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom) {
+::hx::ObjectPtr< FlxCamera_obj > FlxCamera_obj::__new(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom) {
 	::hx::ObjectPtr< FlxCamera_obj > __this = new FlxCamera_obj();
 	__this->__construct(__o_X,__o_Y,__o_Width,__o_Height,__o_Zoom);
 	return __this;
 }
 
-::hx::ObjectPtr< FlxCamera_obj > FlxCamera_obj::__alloc(::hx::Ctx *_hx_ctx,::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom) {
+::hx::ObjectPtr< FlxCamera_obj > FlxCamera_obj::__alloc(::hx::Ctx *_hx_ctx,::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom) {
 	FlxCamera_obj *__this = (FlxCamera_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(FlxCamera_obj), true, "flixel.FlxCamera"));
 	*(void **)__this = FlxCamera_obj::_hx_vtable;
 	__this->__construct(__o_X,__o_Y,__o_Width,__o_Height,__o_Zoom);

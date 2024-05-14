@@ -65,21 +65,21 @@ HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_129_getFrameIndex,"flixel.graphics
 HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_133_destroy,"flixel.graphics.frames.FlxFramesCollection","destroy",0x3c5f048b,"flixel.graphics.frames.FlxFramesCollection.destroy","flixel/graphics/frames/FlxFramesCollection.hx",133,0xe09dd200)
 HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_149_addEmptyFrame,"flixel.graphics.frames.FlxFramesCollection","addEmptyFrame",0x8f5bf232,"flixel.graphics.frames.FlxFramesCollection.addEmptyFrame","flixel/graphics/frames/FlxFramesCollection.hx",149,0xe09dd200)
 HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_165_addSpriteSheetFrame,"flixel.graphics.frames.FlxFramesCollection","addSpriteSheetFrame",0x98036ac5,"flixel.graphics.frames.FlxFramesCollection.addSpriteSheetFrame","flixel/graphics/frames/FlxFramesCollection.hx",165,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_190_addAtlasFrame,"flixel.graphics.frames.FlxFramesCollection","addAtlasFrame",0xf1c62eb4,"flixel.graphics.frames.FlxFramesCollection.addAtlasFrame","flixel/graphics/frames/FlxFramesCollection.hx",190,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_213_getAllByPrefix,"flixel.graphics.frames.FlxFramesCollection","getAllByPrefix",0x99ac5ca3,"flixel.graphics.frames.FlxFramesCollection.getAllByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",213,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_230_forEachByPrefix,"flixel.graphics.frames.FlxFramesCollection","forEachByPrefix",0xa4950f24,"flixel.graphics.frames.FlxFramesCollection.forEachByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",230,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_258_setFrameOffset,"flixel.graphics.frames.FlxFramesCollection","setFrameOffset",0xbcd84bad,"flixel.graphics.frames.FlxFramesCollection.setFrameOffset","flixel/graphics/frames/FlxFramesCollection.hx",258,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_277_addFrameOffset,"flixel.graphics.frames.FlxFramesCollection","addFrameOffset",0xaaf1178e,"flixel.graphics.frames.FlxFramesCollection.addFrameOffset","flixel/graphics/frames/FlxFramesCollection.hx",277,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_296_setFramesOffsetByPrefix,"flixel.graphics.frames.FlxFramesCollection","setFramesOffsetByPrefix",0x71d30615,"flixel.graphics.frames.FlxFramesCollection.setFramesOffsetByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",296,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_312_addFramesOffsetByPrefix,"flixel.graphics.frames.FlxFramesCollection","addFramesOffsetByPrefix",0x0f3c3614,"flixel.graphics.frames.FlxFramesCollection.addFramesOffsetByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",312,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_327_setFrameDuration,"flixel.graphics.frames.FlxFramesCollection","setFrameDuration",0x4fcf7dee,"flixel.graphics.frames.FlxFramesCollection.setFrameDuration","flixel/graphics/frames/FlxFramesCollection.hx",327,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_341_checkFrame,"flixel.graphics.frames.FlxFramesCollection","checkFrame",0xf252f354,"flixel.graphics.frames.FlxFramesCollection.checkFrame","flixel/graphics/frames/FlxFramesCollection.hx",341,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_364_pushFrame,"flixel.graphics.frames.FlxFramesCollection","pushFrame",0xac097dc4,"flixel.graphics.frames.FlxFramesCollection.pushFrame","flixel/graphics/frames/FlxFramesCollection.hx",364,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_386_addBorder,"flixel.graphics.frames.FlxFramesCollection","addBorder",0x7da91fbe,"flixel.graphics.frames.FlxFramesCollection.addBorder","flixel/graphics/frames/FlxFramesCollection.hx",386,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_392_toString,"flixel.graphics.frames.FlxFramesCollection","toString",0xfe5297fb,"flixel.graphics.frames.FlxFramesCollection.toString","flixel/graphics/frames/FlxFramesCollection.hx",392,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_397_get_numFrames,"flixel.graphics.frames.FlxFramesCollection","get_numFrames",0xbd2728b4,"flixel.graphics.frames.FlxFramesCollection.get_numFrames","flixel/graphics/frames/FlxFramesCollection.hx",397,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_402_get_framesHash,"flixel.graphics.frames.FlxFramesCollection","get_framesHash",0x03770b6c,"flixel.graphics.frames.FlxFramesCollection.get_framesHash","flixel/graphics/frames/FlxFramesCollection.hx",402,0xe09dd200)
-HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_407_set_framesHash,"flixel.graphics.frames.FlxFramesCollection","set_framesHash",0x2396f3e0,"flixel.graphics.frames.FlxFramesCollection.set_framesHash","flixel/graphics/frames/FlxFramesCollection.hx",407,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_191_addAtlasFrame,"flixel.graphics.frames.FlxFramesCollection","addAtlasFrame",0xf1c62eb4,"flixel.graphics.frames.FlxFramesCollection.addAtlasFrame","flixel/graphics/frames/FlxFramesCollection.hx",191,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_214_getAllByPrefix,"flixel.graphics.frames.FlxFramesCollection","getAllByPrefix",0x99ac5ca3,"flixel.graphics.frames.FlxFramesCollection.getAllByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",214,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_231_forEachByPrefix,"flixel.graphics.frames.FlxFramesCollection","forEachByPrefix",0xa4950f24,"flixel.graphics.frames.FlxFramesCollection.forEachByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",231,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_259_setFrameOffset,"flixel.graphics.frames.FlxFramesCollection","setFrameOffset",0xbcd84bad,"flixel.graphics.frames.FlxFramesCollection.setFrameOffset","flixel/graphics/frames/FlxFramesCollection.hx",259,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_278_addFrameOffset,"flixel.graphics.frames.FlxFramesCollection","addFrameOffset",0xaaf1178e,"flixel.graphics.frames.FlxFramesCollection.addFrameOffset","flixel/graphics/frames/FlxFramesCollection.hx",278,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_297_setFramesOffsetByPrefix,"flixel.graphics.frames.FlxFramesCollection","setFramesOffsetByPrefix",0x71d30615,"flixel.graphics.frames.FlxFramesCollection.setFramesOffsetByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",297,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_313_addFramesOffsetByPrefix,"flixel.graphics.frames.FlxFramesCollection","addFramesOffsetByPrefix",0x0f3c3614,"flixel.graphics.frames.FlxFramesCollection.addFramesOffsetByPrefix","flixel/graphics/frames/FlxFramesCollection.hx",313,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_328_setFrameDuration,"flixel.graphics.frames.FlxFramesCollection","setFrameDuration",0x4fcf7dee,"flixel.graphics.frames.FlxFramesCollection.setFrameDuration","flixel/graphics/frames/FlxFramesCollection.hx",328,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_342_checkFrame,"flixel.graphics.frames.FlxFramesCollection","checkFrame",0xf252f354,"flixel.graphics.frames.FlxFramesCollection.checkFrame","flixel/graphics/frames/FlxFramesCollection.hx",342,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_365_pushFrame,"flixel.graphics.frames.FlxFramesCollection","pushFrame",0xac097dc4,"flixel.graphics.frames.FlxFramesCollection.pushFrame","flixel/graphics/frames/FlxFramesCollection.hx",365,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_387_addBorder,"flixel.graphics.frames.FlxFramesCollection","addBorder",0x7da91fbe,"flixel.graphics.frames.FlxFramesCollection.addBorder","flixel/graphics/frames/FlxFramesCollection.hx",387,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_393_toString,"flixel.graphics.frames.FlxFramesCollection","toString",0xfe5297fb,"flixel.graphics.frames.FlxFramesCollection.toString","flixel/graphics/frames/FlxFramesCollection.hx",393,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_398_get_numFrames,"flixel.graphics.frames.FlxFramesCollection","get_numFrames",0xbd2728b4,"flixel.graphics.frames.FlxFramesCollection.get_numFrames","flixel/graphics/frames/FlxFramesCollection.hx",398,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_403_get_framesHash,"flixel.graphics.frames.FlxFramesCollection","get_framesHash",0x03770b6c,"flixel.graphics.frames.FlxFramesCollection.get_framesHash","flixel/graphics/frames/FlxFramesCollection.hx",403,0xe09dd200)
+HX_LOCAL_STACK_FRAME(_hx_pos_8894dc9191d7a9ff_408_set_framesHash,"flixel.graphics.frames.FlxFramesCollection","set_framesHash",0x2396f3e0,"flixel.graphics.frames.FlxFramesCollection.set_framesHash","flixel/graphics/frames/FlxFramesCollection.hx",408,0xe09dd200)
 namespace flixel{
 namespace graphics{
 namespace frames{
@@ -249,74 +249,74 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxFramesCollection_obj,addSpriteSheetFrame,return )
             		bool flipX = __o_flipX.Default(false);
             		bool flipY = __o_flipY.Default(false);
             		Float duration = __o_duration.Default(((Float)0.0));
-            	HX_GC_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_190_addAtlasFrame)
-HXLINE( 191)		bool _hx_tmp;
-HXDLIN( 191)		if (::hx::IsNotNull( name )) {
-HXLINE( 191)			_hx_tmp = this->framesByName->exists(name);
+            	HX_GC_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_191_addAtlasFrame)
+HXLINE( 192)		bool _hx_tmp;
+HXDLIN( 192)		if (::hx::IsNotNull( name )) {
+HXLINE( 192)			_hx_tmp = this->framesByName->exists(name);
             		}
             		else {
-HXLINE( 191)			_hx_tmp = false;
+HXLINE( 192)			_hx_tmp = false;
             		}
-HXDLIN( 191)		if (_hx_tmp) {
-HXLINE( 192)			return ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) );
+HXDLIN( 192)		if (_hx_tmp) {
+HXLINE( 193)			return ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) );
             		}
-HXLINE( 194)		 ::flixel::graphics::frames::FlxFrame texFrame =  ::flixel::graphics::frames::FlxFrame_obj::__alloc( HX_CTX ,this->parent,angle,flipX,flipY,duration);
-HXLINE( 195)		texFrame->name = name;
-HXLINE( 196)		{
-HXLINE( 196)			 ::flixel::math::FlxBasePoint this1 = texFrame->sourceSize;
-HXDLIN( 196)			Float y = sourceSize->y;
-HXDLIN( 196)			this1->set_x(sourceSize->x);
-HXDLIN( 196)			this1->set_y(y);
-            		}
+HXLINE( 195)		 ::flixel::graphics::frames::FlxFrame texFrame =  ::flixel::graphics::frames::FlxFrame_obj::__alloc( HX_CTX ,this->parent,angle,flipX,flipY,duration);
+HXLINE( 196)		texFrame->name = name;
 HXLINE( 197)		{
-HXLINE( 197)			 ::flixel::math::FlxBasePoint this2 = texFrame->offset;
-HXDLIN( 197)			Float y1 = offset->y;
-HXDLIN( 197)			this2->set_x(offset->x);
-HXDLIN( 197)			this2->set_y(y1);
+HXLINE( 197)			 ::flixel::math::FlxBasePoint this1 = texFrame->sourceSize;
+HXDLIN( 197)			Float y = sourceSize->y;
+HXDLIN( 197)			this1->set_x(sourceSize->x);
+HXDLIN( 197)			this1->set_y(y);
             		}
-HXLINE( 198)		texFrame->set_frame(this->checkFrame(frame,name));
-HXLINE( 200)		sourceSize = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(sourceSize)) );
-HXLINE( 201)		offset = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(offset)) );
-HXLINE( 203)		return this->pushFrame(texFrame,null());
+HXLINE( 198)		{
+HXLINE( 198)			 ::flixel::math::FlxBasePoint this2 = texFrame->offset;
+HXDLIN( 198)			Float y1 = offset->y;
+HXDLIN( 198)			this2->set_x(offset->x);
+HXDLIN( 198)			this2->set_y(y1);
+            		}
+HXLINE( 199)		texFrame->set_frame(this->checkFrame(frame,name));
+HXLINE( 201)		sourceSize = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(sourceSize)) );
+HXLINE( 202)		offset = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(offset)) );
+HXLINE( 204)		return this->pushFrame(texFrame,null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC8(FlxFramesCollection_obj,addAtlasFrame,return )
 
 ::Array< ::Dynamic> FlxFramesCollection_obj::getAllByPrefix(::String prefix){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_213_getAllByPrefix)
-HXLINE( 214)		::Array< ::Dynamic> list = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 215)		{
-HXLINE( 215)			::String warningMsg = null();
-HXDLIN( 215)			bool warn = false;
-HXDLIN( 215)			{
-HXLINE( 215)				::Dynamic map = this->framesByName;
-HXDLIN( 215)				::Dynamic _g_map = map;
-HXDLIN( 215)				 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
-HXDLIN( 215)				while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 215)					::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXDLIN( 215)					 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
-HXDLIN( 215)					::String _g_key = key;
-HXDLIN( 215)					::String name = _g_key;
-HXDLIN( 215)					 ::flixel::graphics::frames::FlxFrame frame = _g_value;
-HXDLIN( 215)					if ((name.indexOf(prefix,null()) == 0)) {
-HXLINE( 236)						warn = false;
-HXLINE( 215)						list->push(frame);
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_214_getAllByPrefix)
+HXLINE( 215)		::Array< ::Dynamic> list = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 216)		{
+HXLINE( 216)			::String warningMsg = null();
+HXDLIN( 216)			bool warn = false;
+HXDLIN( 216)			{
+HXLINE( 216)				::Dynamic map = this->framesByName;
+HXDLIN( 216)				::Dynamic _g_map = map;
+HXDLIN( 216)				 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
+HXDLIN( 216)				while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 216)					::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 216)					 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
+HXDLIN( 216)					::String _g_key = key;
+HXDLIN( 216)					::String name = _g_key;
+HXDLIN( 216)					 ::flixel::graphics::frames::FlxFrame frame = _g_value;
+HXDLIN( 216)					if ((name.indexOf(prefix,null()) == 0)) {
+HXLINE( 237)						warn = false;
+HXLINE( 216)						list->push(frame);
             					}
             				}
             			}
-HXDLIN( 215)			if (warn) {
-HXLINE( 215)				 ::Dynamic _hx_tmp;
-HXDLIN( 215)				if (::hx::IsNotNull( warningMsg )) {
-HXLINE( 215)					_hx_tmp = warningMsg;
+HXDLIN( 216)			if (warn) {
+HXLINE( 216)				 ::Dynamic _hx_tmp;
+HXDLIN( 216)				if (::hx::IsNotNull( warningMsg )) {
+HXLINE( 216)					_hx_tmp = warningMsg;
             				}
             				else {
-HXLINE( 215)					_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
+HXLINE( 216)					_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
             				}
-HXDLIN( 215)				::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXDLIN( 216)				::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             			}
             		}
-HXLINE( 216)		return list;
+HXLINE( 217)		return list;
             	}
 
 
@@ -324,33 +324,33 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxFramesCollection_obj,getAllByPrefix,return )
 
 void FlxFramesCollection_obj::forEachByPrefix(::String prefix, ::Dynamic func,::hx::Null< bool >  __o_warnIfEmpty,::String warningMsg){
             		bool warnIfEmpty = __o_warnIfEmpty.Default(true);
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_230_forEachByPrefix)
-HXLINE( 231)		bool warn = warnIfEmpty;
-HXLINE( 232)		{
-HXLINE( 232)			::Dynamic map = this->framesByName;
-HXDLIN( 232)			::Dynamic _g_map = map;
-HXDLIN( 232)			 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
-HXDLIN( 232)			while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 232)				::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXDLIN( 232)				 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
-HXDLIN( 232)				::String _g_key = key;
-HXDLIN( 232)				::String name = _g_key;
-HXDLIN( 232)				 ::flixel::graphics::frames::FlxFrame frame = _g_value;
-HXLINE( 234)				if ((name.indexOf(prefix,null()) == 0)) {
-HXLINE( 236)					warn = false;
-HXLINE( 237)					func(frame);
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_231_forEachByPrefix)
+HXLINE( 232)		bool warn = warnIfEmpty;
+HXLINE( 233)		{
+HXLINE( 233)			::Dynamic map = this->framesByName;
+HXDLIN( 233)			::Dynamic _g_map = map;
+HXDLIN( 233)			 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
+HXDLIN( 233)			while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 233)				::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 233)				 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
+HXDLIN( 233)				::String _g_key = key;
+HXDLIN( 233)				::String name = _g_key;
+HXDLIN( 233)				 ::flixel::graphics::frames::FlxFrame frame = _g_value;
+HXLINE( 235)				if ((name.indexOf(prefix,null()) == 0)) {
+HXLINE( 237)					warn = false;
+HXLINE( 238)					func(frame);
             				}
             			}
             		}
-HXLINE( 241)		if (warn) {
-HXLINE( 242)			 ::Dynamic _hx_tmp;
-HXDLIN( 242)			if (::hx::IsNotNull( warningMsg )) {
-HXLINE( 242)				_hx_tmp = warningMsg;
+HXLINE( 242)		if (warn) {
+HXLINE( 243)			 ::Dynamic _hx_tmp;
+HXDLIN( 243)			if (::hx::IsNotNull( warningMsg )) {
+HXLINE( 243)				_hx_tmp = warningMsg;
             			}
             			else {
-HXLINE( 242)				_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
+HXLINE( 243)				_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
             			}
-HXDLIN( 242)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXDLIN( 243)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             		}
             	}
 
@@ -358,14 +358,14 @@ HXDLIN( 242)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::d
 HX_DEFINE_DYNAMIC_FUNC4(FlxFramesCollection_obj,forEachByPrefix,(void))
 
 void FlxFramesCollection_obj::setFrameOffset(::String name,Float offsetX,Float offsetY){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_258_setFrameOffset)
-HXDLIN( 258)		if (this->framesByName->exists(name)) {
-HXLINE( 259)			 ::flixel::math::FlxBasePoint this1 = ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) )->offset;
-HXDLIN( 259)			this1->set_x(offsetX);
-HXDLIN( 259)			this1->set_y(offsetY);
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_259_setFrameOffset)
+HXDLIN( 259)		if (this->framesByName->exists(name)) {
+HXLINE( 260)			 ::flixel::math::FlxBasePoint this1 = ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) )->offset;
+HXDLIN( 260)			this1->set_x(offsetX);
+HXDLIN( 260)			this1->set_y(offsetY);
             		}
             		else {
-HXLINE( 261)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4c,19) + name),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXLINE( 262)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4c,19) + name),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             		}
             	}
 
@@ -373,14 +373,14 @@ HXLINE( 261)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4
 HX_DEFINE_DYNAMIC_FUNC3(FlxFramesCollection_obj,setFrameOffset,(void))
 
 void FlxFramesCollection_obj::addFrameOffset(::String name,Float offsetX,Float offsetY){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_277_addFrameOffset)
-HXDLIN( 277)		if (this->framesByName->exists(name)) {
-HXLINE( 278)			 ::flixel::math::FlxBasePoint this1 = ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) )->offset;
-HXDLIN( 278)			this1->set_x((this1->x + offsetX));
-HXDLIN( 278)			this1->set_y((this1->y + offsetY));
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_278_addFrameOffset)
+HXDLIN( 278)		if (this->framesByName->exists(name)) {
+HXLINE( 279)			 ::flixel::math::FlxBasePoint this1 = ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) )->offset;
+HXDLIN( 279)			this1->set_x((this1->x + offsetX));
+HXDLIN( 279)			this1->set_y((this1->y + offsetY));
             		}
             		else {
-HXLINE( 280)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4c,19) + name),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXLINE( 281)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4c,19) + name),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             		}
             	}
 
@@ -389,38 +389,38 @@ HX_DEFINE_DYNAMIC_FUNC3(FlxFramesCollection_obj,addFrameOffset,(void))
 
 void FlxFramesCollection_obj::setFramesOffsetByPrefix(::String prefix,Float offsetX,Float offsetY,::hx::Null< bool >  __o_warnIfEmpty){
             		bool warnIfEmpty = __o_warnIfEmpty.Default(true);
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_296_setFramesOffsetByPrefix)
-HXDLIN( 296)		::String warningMsg = null();
-HXDLIN( 296)		bool warn = warnIfEmpty;
-HXDLIN( 296)		{
-HXDLIN( 296)			::Dynamic map = this->framesByName;
-HXDLIN( 296)			::Dynamic _g_map = map;
-HXDLIN( 296)			 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
-HXDLIN( 296)			while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXDLIN( 296)				::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXDLIN( 296)				 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
-HXDLIN( 296)				::String _g_key = key;
-HXDLIN( 296)				::String name = _g_key;
-HXDLIN( 296)				 ::flixel::graphics::frames::FlxFrame frame = _g_value;
-HXDLIN( 296)				if ((name.indexOf(prefix,null()) == 0)) {
-HXLINE( 236)					warn = false;
-HXLINE( 296)					{
-HXDLIN( 296)						 ::flixel::math::FlxBasePoint this1 = frame->offset;
-HXDLIN( 296)						this1->set_x(offsetX);
-HXDLIN( 296)						this1->set_y(offsetY);
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_297_setFramesOffsetByPrefix)
+HXDLIN( 297)		::String warningMsg = null();
+HXDLIN( 297)		bool warn = warnIfEmpty;
+HXDLIN( 297)		{
+HXDLIN( 297)			::Dynamic map = this->framesByName;
+HXDLIN( 297)			::Dynamic _g_map = map;
+HXDLIN( 297)			 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
+HXDLIN( 297)			while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXDLIN( 297)				::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 297)				 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
+HXDLIN( 297)				::String _g_key = key;
+HXDLIN( 297)				::String name = _g_key;
+HXDLIN( 297)				 ::flixel::graphics::frames::FlxFrame frame = _g_value;
+HXDLIN( 297)				if ((name.indexOf(prefix,null()) == 0)) {
+HXLINE( 237)					warn = false;
+HXLINE( 297)					{
+HXDLIN( 297)						 ::flixel::math::FlxBasePoint this1 = frame->offset;
+HXDLIN( 297)						this1->set_x(offsetX);
+HXDLIN( 297)						this1->set_y(offsetY);
             					}
             				}
             			}
             		}
-HXDLIN( 296)		if (warn) {
-HXDLIN( 296)			 ::Dynamic _hx_tmp;
-HXDLIN( 296)			if (::hx::IsNotNull( warningMsg )) {
-HXDLIN( 296)				_hx_tmp = warningMsg;
+HXDLIN( 297)		if (warn) {
+HXDLIN( 297)			 ::Dynamic _hx_tmp;
+HXDLIN( 297)			if (::hx::IsNotNull( warningMsg )) {
+HXDLIN( 297)				_hx_tmp = warningMsg;
             			}
             			else {
-HXDLIN( 296)				_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
+HXDLIN( 297)				_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
             			}
-HXDLIN( 296)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXDLIN( 297)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             		}
             	}
 
@@ -429,38 +429,38 @@ HX_DEFINE_DYNAMIC_FUNC4(FlxFramesCollection_obj,setFramesOffsetByPrefix,(void))
 
 void FlxFramesCollection_obj::addFramesOffsetByPrefix(::String prefix,Float offsetX,Float offsetY,::hx::Null< bool >  __o_warnIfEmpty){
             		bool warnIfEmpty = __o_warnIfEmpty.Default(true);
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_312_addFramesOffsetByPrefix)
-HXDLIN( 312)		::String warningMsg = null();
-HXDLIN( 312)		bool warn = warnIfEmpty;
-HXDLIN( 312)		{
-HXDLIN( 312)			::Dynamic map = this->framesByName;
-HXDLIN( 312)			::Dynamic _g_map = map;
-HXDLIN( 312)			 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
-HXDLIN( 312)			while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXDLIN( 312)				::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXDLIN( 312)				 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
-HXDLIN( 312)				::String _g_key = key;
-HXDLIN( 312)				::String name = _g_key;
-HXDLIN( 312)				 ::flixel::graphics::frames::FlxFrame frame = _g_value;
-HXDLIN( 312)				if ((name.indexOf(prefix,null()) == 0)) {
-HXLINE( 236)					warn = false;
-HXLINE( 312)					{
-HXDLIN( 312)						 ::flixel::math::FlxBasePoint this1 = frame->offset;
-HXDLIN( 312)						this1->set_x((this1->x + offsetX));
-HXDLIN( 312)						this1->set_y((this1->y + offsetY));
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_313_addFramesOffsetByPrefix)
+HXDLIN( 313)		::String warningMsg = null();
+HXDLIN( 313)		bool warn = warnIfEmpty;
+HXDLIN( 313)		{
+HXDLIN( 313)			::Dynamic map = this->framesByName;
+HXDLIN( 313)			::Dynamic _g_map = map;
+HXDLIN( 313)			 ::Dynamic _g_keys = ::haxe::IMap_obj::keys(map);
+HXDLIN( 313)			while(( (bool)(_g_keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXDLIN( 313)				::String key = ( (::String)(_g_keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 313)				 ::flixel::graphics::frames::FlxFrame _g_value = ( ( ::flixel::graphics::frames::FlxFrame)(::haxe::IMap_obj::get(_g_map,key)) );
+HXDLIN( 313)				::String _g_key = key;
+HXDLIN( 313)				::String name = _g_key;
+HXDLIN( 313)				 ::flixel::graphics::frames::FlxFrame frame = _g_value;
+HXDLIN( 313)				if ((name.indexOf(prefix,null()) == 0)) {
+HXLINE( 237)					warn = false;
+HXLINE( 313)					{
+HXDLIN( 313)						 ::flixel::math::FlxBasePoint this1 = frame->offset;
+HXDLIN( 313)						this1->set_x((this1->x + offsetX));
+HXDLIN( 313)						this1->set_y((this1->y + offsetY));
             					}
             				}
             			}
             		}
-HXDLIN( 312)		if (warn) {
-HXDLIN( 312)			 ::Dynamic _hx_tmp;
-HXDLIN( 312)			if (::hx::IsNotNull( warningMsg )) {
-HXDLIN( 312)				_hx_tmp = warningMsg;
+HXDLIN( 313)		if (warn) {
+HXDLIN( 313)			 ::Dynamic _hx_tmp;
+HXDLIN( 313)			if (::hx::IsNotNull( warningMsg )) {
+HXDLIN( 313)				_hx_tmp = warningMsg;
             			}
             			else {
-HXDLIN( 312)				_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
+HXDLIN( 313)				_hx_tmp = ((HX_("no frames found with the prefix \"",24,d9,96,27) + prefix) + HX_("\"",22,00,00,00));
             			}
-HXDLIN( 312)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXDLIN( 313)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             		}
             	}
 
@@ -468,12 +468,12 @@ HXDLIN( 312)			::flixel::FlxG_obj::log->advanced(_hx_tmp,::flixel::_hx_system::d
 HX_DEFINE_DYNAMIC_FUNC4(FlxFramesCollection_obj,addFramesOffsetByPrefix,(void))
 
 void FlxFramesCollection_obj::setFrameDuration(::String name,Float duration){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_327_setFrameDuration)
-HXDLIN( 327)		if (this->framesByName->exists(name)) {
-HXLINE( 328)			( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) )->duration = duration;
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_328_setFrameDuration)
+HXDLIN( 328)		if (this->framesByName->exists(name)) {
+HXLINE( 329)			( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) )->duration = duration;
             		}
             		else {
-HXLINE( 330)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4c,19) + name),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXLINE( 331)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4c,19) + name),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             		}
             	}
 
@@ -481,116 +481,116 @@ HXLINE( 330)			::flixel::FlxG_obj::log->advanced((HX_("No frame called ",11,02,4
 HX_DEFINE_DYNAMIC_FUNC2(FlxFramesCollection_obj,setFrameDuration,(void))
 
  ::flixel::math::FlxRect FlxFramesCollection_obj::checkFrame( ::flixel::math::FlxRect frame,::String name){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_341_checkFrame)
-HXLINE( 342)		Float Value = frame->x;
-HXDLIN( 342)		 ::Dynamic Max = this->parent->width;
-HXDLIN( 342)		Float lowerBound;
-HXDLIN( 342)		if ((Value < 0)) {
-HXLINE( 342)			lowerBound = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_342_checkFrame)
+HXLINE( 343)		Float Value = frame->x;
+HXDLIN( 343)		 ::Dynamic Max = this->parent->width;
+HXDLIN( 343)		Float lowerBound;
+HXDLIN( 343)		if ((Value < 0)) {
+HXLINE( 343)			lowerBound = ( (Float)(0) );
             		}
             		else {
-HXLINE( 342)			lowerBound = Value;
+HXLINE( 343)			lowerBound = Value;
             		}
-HXDLIN( 342)		Float x;
-HXDLIN( 342)		bool x1;
-HXDLIN( 342)		if (::hx::IsNotNull( Max )) {
-HXLINE( 342)			x1 = ::hx::IsGreater( lowerBound,Max );
-            		}
-            		else {
-HXLINE( 342)			x1 = false;
-            		}
-HXDLIN( 342)		if (x1) {
-HXLINE( 342)			x = ( (Float)(Max) );
+HXDLIN( 343)		Float x;
+HXDLIN( 343)		bool x1;
+HXDLIN( 343)		if (::hx::IsNotNull( Max )) {
+HXLINE( 343)			x1 = ::hx::IsGreater( lowerBound,Max );
             		}
             		else {
-HXLINE( 342)			x = lowerBound;
+HXLINE( 343)			x1 = false;
             		}
-HXLINE( 343)		Float Value1 = frame->y;
-HXDLIN( 343)		 ::Dynamic Max1 = this->parent->height;
-HXDLIN( 343)		Float lowerBound1;
-HXDLIN( 343)		if ((Value1 < 0)) {
-HXLINE( 343)			lowerBound1 = ( (Float)(0) );
+HXDLIN( 343)		if (x1) {
+HXLINE( 343)			x = ( (Float)(Max) );
             		}
             		else {
-HXLINE( 343)			lowerBound1 = Value1;
+HXLINE( 343)			x = lowerBound;
             		}
-HXDLIN( 343)		Float y;
-HXDLIN( 343)		bool y1;
-HXDLIN( 343)		if (::hx::IsNotNull( Max1 )) {
-HXLINE( 343)			y1 = ::hx::IsGreater( lowerBound1,Max1 );
-            		}
-            		else {
-HXLINE( 343)			y1 = false;
-            		}
-HXDLIN( 343)		if (y1) {
-HXLINE( 343)			y = ( (Float)(Max1) );
+HXLINE( 344)		Float Value1 = frame->y;
+HXDLIN( 344)		 ::Dynamic Max1 = this->parent->height;
+HXDLIN( 344)		Float lowerBound1;
+HXDLIN( 344)		if ((Value1 < 0)) {
+HXLINE( 344)			lowerBound1 = ( (Float)(0) );
             		}
             		else {
-HXLINE( 343)			y = lowerBound1;
+HXLINE( 344)			lowerBound1 = Value1;
             		}
-HXLINE( 345)		Float Value2 = (frame->x + frame->width);
-HXDLIN( 345)		 ::Dynamic Max2 = this->parent->width;
-HXDLIN( 345)		Float lowerBound2;
-HXDLIN( 345)		if ((Value2 < 0)) {
-HXLINE( 345)			lowerBound2 = ( (Float)(0) );
-            		}
-            		else {
-HXLINE( 345)			lowerBound2 = Value2;
-            		}
-HXDLIN( 345)		Float r;
-HXDLIN( 345)		bool r1;
-HXDLIN( 345)		if (::hx::IsNotNull( Max2 )) {
-HXLINE( 345)			r1 = ::hx::IsGreater( lowerBound2,Max2 );
+HXDLIN( 344)		Float y;
+HXDLIN( 344)		bool y1;
+HXDLIN( 344)		if (::hx::IsNotNull( Max1 )) {
+HXLINE( 344)			y1 = ::hx::IsGreater( lowerBound1,Max1 );
             		}
             		else {
-HXLINE( 345)			r1 = false;
+HXLINE( 344)			y1 = false;
             		}
-HXDLIN( 345)		if (r1) {
-HXLINE( 345)			r = ( (Float)(Max2) );
-            		}
-            		else {
-HXLINE( 345)			r = lowerBound2;
-            		}
-HXLINE( 346)		Float Value3 = (frame->y + frame->height);
-HXDLIN( 346)		 ::Dynamic Max3 = this->parent->height;
-HXDLIN( 346)		Float lowerBound3;
-HXDLIN( 346)		if ((Value3 < 0)) {
-HXLINE( 346)			lowerBound3 = ( (Float)(0) );
+HXDLIN( 344)		if (y1) {
+HXLINE( 344)			y = ( (Float)(Max1) );
             		}
             		else {
-HXLINE( 346)			lowerBound3 = Value3;
+HXLINE( 344)			y = lowerBound1;
             		}
-HXDLIN( 346)		Float b;
-HXDLIN( 346)		bool b1;
-HXDLIN( 346)		if (::hx::IsNotNull( Max3 )) {
-HXLINE( 346)			b1 = ::hx::IsGreater( lowerBound3,Max3 );
-            		}
-            		else {
-HXLINE( 346)			b1 = false;
-            		}
-HXDLIN( 346)		if (b1) {
-HXLINE( 346)			b = ( (Float)(Max3) );
+HXLINE( 346)		Float Value2 = (frame->x + frame->width);
+HXDLIN( 346)		 ::Dynamic Max2 = this->parent->width;
+HXDLIN( 346)		Float lowerBound2;
+HXDLIN( 346)		if ((Value2 < 0)) {
+HXLINE( 346)			lowerBound2 = ( (Float)(0) );
             		}
             		else {
-HXLINE( 346)			b = lowerBound3;
+HXLINE( 346)			lowerBound2 = Value2;
             		}
-HXLINE( 348)		{
-HXLINE( 348)			frame->x = x;
-HXDLIN( 348)			frame->y = y;
-HXDLIN( 348)			frame->width = (r - x);
-HXDLIN( 348)			frame->height = (b - y);
-            		}
-HXLINE( 350)		bool _hx_tmp;
-HXDLIN( 350)		if (!((frame->width <= 0))) {
-HXLINE( 350)			_hx_tmp = (frame->height <= 0);
+HXDLIN( 346)		Float r;
+HXDLIN( 346)		bool r1;
+HXDLIN( 346)		if (::hx::IsNotNull( Max2 )) {
+HXLINE( 346)			r1 = ::hx::IsGreater( lowerBound2,Max2 );
             		}
             		else {
-HXLINE( 350)			_hx_tmp = true;
+HXLINE( 346)			r1 = false;
             		}
-HXDLIN( 350)		if (_hx_tmp) {
-HXLINE( 351)			::flixel::FlxG_obj::log->advanced(((HX_("The frame ",42,8b,9d,3a) + name) + HX_(" has incorrect data and results in an image with the size of (0, 0)",63,cf,34,3e)),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXDLIN( 346)		if (r1) {
+HXLINE( 346)			r = ( (Float)(Max2) );
             		}
-HXLINE( 353)		return frame;
+            		else {
+HXLINE( 346)			r = lowerBound2;
+            		}
+HXLINE( 347)		Float Value3 = (frame->y + frame->height);
+HXDLIN( 347)		 ::Dynamic Max3 = this->parent->height;
+HXDLIN( 347)		Float lowerBound3;
+HXDLIN( 347)		if ((Value3 < 0)) {
+HXLINE( 347)			lowerBound3 = ( (Float)(0) );
+            		}
+            		else {
+HXLINE( 347)			lowerBound3 = Value3;
+            		}
+HXDLIN( 347)		Float b;
+HXDLIN( 347)		bool b1;
+HXDLIN( 347)		if (::hx::IsNotNull( Max3 )) {
+HXLINE( 347)			b1 = ::hx::IsGreater( lowerBound3,Max3 );
+            		}
+            		else {
+HXLINE( 347)			b1 = false;
+            		}
+HXDLIN( 347)		if (b1) {
+HXLINE( 347)			b = ( (Float)(Max3) );
+            		}
+            		else {
+HXLINE( 347)			b = lowerBound3;
+            		}
+HXLINE( 349)		{
+HXLINE( 349)			frame->x = x;
+HXDLIN( 349)			frame->y = y;
+HXDLIN( 349)			frame->width = (r - x);
+HXDLIN( 349)			frame->height = (b - y);
+            		}
+HXLINE( 351)		bool _hx_tmp;
+HXDLIN( 351)		if (!((frame->width <= 0))) {
+HXLINE( 351)			_hx_tmp = (frame->height <= 0);
+            		}
+            		else {
+HXLINE( 351)			_hx_tmp = true;
+            		}
+HXDLIN( 351)		if (_hx_tmp) {
+HXLINE( 352)			::flixel::FlxG_obj::log->advanced(((HX_("The frame ",42,8b,9d,3a) + name) + HX_(" has incorrect data and results in an image with the size of (0, 0)",63,cf,34,3e)),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+            		}
+HXLINE( 354)		return frame;
             	}
 
 
@@ -598,80 +598,80 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxFramesCollection_obj,checkFrame,return )
 
  ::flixel::graphics::frames::FlxFrame FlxFramesCollection_obj::pushFrame( ::flixel::graphics::frames::FlxFrame frameObj,::hx::Null< bool >  __o_overwriteHash){
             		bool overwriteHash = __o_overwriteHash.Default(false);
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_364_pushFrame)
-HXLINE( 365)		::String name = frameObj->name;
-HXLINE( 366)		bool _hx_tmp;
-HXDLIN( 366)		bool _hx_tmp1;
-HXDLIN( 366)		if (::hx::IsNotNull( name )) {
-HXLINE( 366)			_hx_tmp1 = this->framesByName->exists(name);
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_365_pushFrame)
+HXLINE( 366)		::String name = frameObj->name;
+HXLINE( 367)		bool _hx_tmp;
+HXDLIN( 367)		bool _hx_tmp1;
+HXDLIN( 367)		if (::hx::IsNotNull( name )) {
+HXLINE( 367)			_hx_tmp1 = this->framesByName->exists(name);
             		}
             		else {
-HXLINE( 366)			_hx_tmp1 = false;
+HXLINE( 367)			_hx_tmp1 = false;
             		}
-HXDLIN( 366)		if (_hx_tmp1) {
-HXLINE( 366)			_hx_tmp = !(overwriteHash);
+HXDLIN( 367)		if (_hx_tmp1) {
+HXLINE( 367)			_hx_tmp = !(overwriteHash);
             		}
             		else {
-HXLINE( 366)			_hx_tmp = false;
+HXLINE( 367)			_hx_tmp = false;
             		}
-HXDLIN( 366)		if (_hx_tmp) {
-HXLINE( 367)			return ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) );
+HXDLIN( 367)		if (_hx_tmp) {
+HXLINE( 368)			return ( ( ::flixel::graphics::frames::FlxFrame)(this->framesByName->get(name)) );
             		}
-HXLINE( 369)		this->frames->push(frameObj);
-HXLINE( 370)		frameObj->cacheFrameMatrix();
-HXLINE( 372)		if (::hx::IsNotNull( name )) {
-HXLINE( 373)			this->framesByName->set(name,frameObj);
+HXLINE( 370)		this->frames->push(frameObj);
+HXLINE( 371)		frameObj->cacheFrameMatrix();
+HXLINE( 373)		if (::hx::IsNotNull( name )) {
+HXLINE( 374)			this->framesByName->set(name,frameObj);
             		}
-HXLINE( 375)		return frameObj;
+HXLINE( 376)		return frameObj;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxFramesCollection_obj,pushFrame,return )
 
  ::flixel::graphics::frames::FlxFramesCollection FlxFramesCollection_obj::addBorder( ::flixel::math::FlxBasePoint border){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_386_addBorder)
-HXDLIN( 386)		HX_STACK_DO_THROW(HX_("To be overriden in subclasses",8b,78,89,60));
-HXDLIN( 386)		return null();
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_387_addBorder)
+HXDLIN( 387)		HX_STACK_DO_THROW(HX_("To be overriden in subclasses",8b,78,89,60));
+HXDLIN( 387)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxFramesCollection_obj,addBorder,return )
 
 ::String FlxFramesCollection_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_392_toString)
-HXDLIN( 392)		 ::Dynamic value = this->frames;
-HXDLIN( 392)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 392)		_this->label = HX_("frames",a6,af,85,ac);
-HXDLIN( 392)		_this->value = value;
-HXDLIN( 392)		 ::Dynamic value1 = this->type;
-HXDLIN( 392)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 392)		_this1->label = HX_("type",ba,f2,08,4d);
-HXDLIN( 392)		_this1->value = value1;
-HXDLIN( 392)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(2)->init(0,_this)->init(1,_this1));
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_393_toString)
+HXDLIN( 393)		 ::Dynamic value = this->frames;
+HXDLIN( 393)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 393)		_this->label = HX_("frames",a6,af,85,ac);
+HXDLIN( 393)		_this->value = value;
+HXDLIN( 393)		 ::Dynamic value1 = this->type;
+HXDLIN( 393)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 393)		_this1->label = HX_("type",ba,f2,08,4d);
+HXDLIN( 393)		_this1->value = value1;
+HXDLIN( 393)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(2)->init(0,_this)->init(1,_this1));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxFramesCollection_obj,toString,return )
 
 int FlxFramesCollection_obj::get_numFrames(){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_397_get_numFrames)
-HXDLIN( 397)		return this->frames->length;
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_398_get_numFrames)
+HXDLIN( 398)		return this->frames->length;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxFramesCollection_obj,get_numFrames,return )
 
  ::haxe::ds::StringMap FlxFramesCollection_obj::get_framesHash(){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_402_get_framesHash)
-HXDLIN( 402)		return this->framesByName;
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_403_get_framesHash)
+HXDLIN( 403)		return this->framesByName;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxFramesCollection_obj,get_framesHash,return )
 
  ::haxe::ds::StringMap FlxFramesCollection_obj::set_framesHash( ::haxe::ds::StringMap value){
-            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_407_set_framesHash)
-HXDLIN( 407)		return (this->framesByName = value);
+            	HX_STACKFRAME(&_hx_pos_8894dc9191d7a9ff_408_set_framesHash)
+HXDLIN( 408)		return (this->framesByName = value);
             	}
 
 

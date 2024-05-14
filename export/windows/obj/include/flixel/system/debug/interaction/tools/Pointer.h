@@ -10,6 +10,7 @@
 #include <flixel/system/debug/interaction/tools/Tool.h>
 #endif
 HX_DECLARE_CLASS1(flixel,FlxBasic)
+HX_DECLARE_CLASS1(flixel,FlxObject)
 HX_DECLARE_CLASS2(flixel,math,FlxBasePoint)
 HX_DECLARE_CLASS2(flixel,math,FlxRect)
 HX_DECLARE_CLASS3(flixel,_hx_system,debug,Window)
@@ -68,9 +69,7 @@ class HXCPP_CLASS_ATTRIBUTES Pointer_obj : public  ::flixel::_hx_system::debug::
 		 ::flixel::math::FlxBasePoint _selectionStartPoint;
 		 ::flixel::math::FlxBasePoint _selectionEndPoint;
 		bool _selectionHappening;
-		bool _selectionCancelled;
 		 ::flixel::math::FlxRect _selectionArea;
-		::Array< ::Dynamic> _itemsInSelectionArea;
 		 ::flixel::_hx_system::debug::interaction::tools::Tool init( ::flixel::_hx_system::debug::interaction::Interaction brain);
 
 		void update();
@@ -84,14 +83,17 @@ class HXCPP_CLASS_ATTRIBUTES Pointer_obj : public  ::flixel::_hx_system::debug::
 		void cancelSelection();
 		::Dynamic cancelSelection_dyn();
 
-		void stopSelection(::hx::Null< bool >  findItems);
+		void stopSelection();
 		::Dynamic stopSelection_dyn();
 
-		void updateConsoleSelection();
+		::Array< ::Dynamic> stopSelectionAndFindItems();
+		::Dynamic stopSelectionAndFindItems_dyn();
+
+		void updateConsoleSelection(::Array< ::Dynamic> items);
 		::Dynamic updateConsoleSelection_dyn();
 
-		void handleItemAddition(::Array< ::Dynamic> itemsInSelectionArea);
-		::Dynamic handleItemAddition_dyn();
+		void updateSelectedItems(::Array< ::Dynamic> items,bool drewRect);
+		::Dynamic updateSelectedItems_dyn();
 
 		void draw();
 

@@ -77,16 +77,16 @@
 #include <openfl/utils/IDataOutput.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_215_drawLogo,"flixel.system.FlxAssets","drawLogo",0xabec0035,"flixel.system.FlxAssets.drawLogo","flixel/system/FlxAssets.hx",215,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_271_getBitmapData,"flixel.system.FlxAssets","getBitmapData",0x17128189,"flixel.system.FlxAssets.getBitmapData","flixel/system/FlxAssets.hx",271,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_286_getBitmapFromClass,"flixel.system.FlxAssets","getBitmapFromClass",0x223d9eaf,"flixel.system.FlxAssets.getBitmapFromClass","flixel/system/FlxAssets.hx",286,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_300_resolveBitmapData,"flixel.system.FlxAssets","resolveBitmapData",0x02df705f,"flixel.system.FlxAssets.resolveBitmapData","flixel/system/FlxAssets.hx",300,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_329_resolveKey,"flixel.system.FlxAssets","resolveKey",0xd790f639,"flixel.system.FlxAssets.resolveKey","flixel/system/FlxAssets.hx",329,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_359_getSound,"flixel.system.FlxAssets","getSound",0x306e52ff,"flixel.system.FlxAssets.getSound","flixel/system/FlxAssets.hx",359,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_367_getVirtualInputFrames,"flixel.system.FlxAssets","getVirtualInputFrames",0xfe1716d5,"flixel.system.FlxAssets.getVirtualInputFrames","flixel/system/FlxAssets.hx",367,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_120_boot,"flixel.system.FlxAssets","boot",0x48106fd8,"flixel.system.FlxAssets.boot","flixel/system/FlxAssets.hx",120,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_211_boot,"flixel.system.FlxAssets","boot",0x48106fd8,"flixel.system.FlxAssets.boot","flixel/system/FlxAssets.hx",211,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_212_boot,"flixel.system.FlxAssets","boot",0x48106fd8,"flixel.system.FlxAssets.boot","flixel/system/FlxAssets.hx",212,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_221_drawLogo,"flixel.system.FlxAssets","drawLogo",0xabec0035,"flixel.system.FlxAssets.drawLogo","flixel/system/FlxAssets.hx",221,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_277_getBitmapData,"flixel.system.FlxAssets","getBitmapData",0x17128189,"flixel.system.FlxAssets.getBitmapData","flixel/system/FlxAssets.hx",277,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_292_getBitmapFromClass,"flixel.system.FlxAssets","getBitmapFromClass",0x223d9eaf,"flixel.system.FlxAssets.getBitmapFromClass","flixel/system/FlxAssets.hx",292,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_306_resolveBitmapData,"flixel.system.FlxAssets","resolveBitmapData",0x02df705f,"flixel.system.FlxAssets.resolveBitmapData","flixel/system/FlxAssets.hx",306,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_335_resolveKey,"flixel.system.FlxAssets","resolveKey",0xd790f639,"flixel.system.FlxAssets.resolveKey","flixel/system/FlxAssets.hx",335,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_365_getSound,"flixel.system.FlxAssets","getSound",0x306e52ff,"flixel.system.FlxAssets.getSound","flixel/system/FlxAssets.hx",365,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_373_getVirtualInputFrames,"flixel.system.FlxAssets","getVirtualInputFrames",0xfe1716d5,"flixel.system.FlxAssets.getVirtualInputFrames","flixel/system/FlxAssets.hx",373,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_126_boot,"flixel.system.FlxAssets","boot",0x48106fd8,"flixel.system.FlxAssets.boot","flixel/system/FlxAssets.hx",126,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_217_boot,"flixel.system.FlxAssets","boot",0x48106fd8,"flixel.system.FlxAssets.boot","flixel/system/FlxAssets.hx",217,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4ce3a91bdd58bc5_218_boot,"flixel.system.FlxAssets","boot",0x48106fd8,"flixel.system.FlxAssets.boot","flixel/system/FlxAssets.hx",218,0xd3ac1356)
 namespace flixel{
 namespace _hx_system{
 
@@ -114,159 +114,159 @@ bool FlxAssets_obj::_hx_isInstanceOf(int inClassId) {
 ::String FlxAssets_obj::FONT_DEBUGGER;
 
 void FlxAssets_obj::drawLogo( ::openfl::display::Graphics graph){
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_215_drawLogo)
-HXLINE( 217)		graph->beginFill(47394,null());
-HXLINE( 218)		graph->moveTo(( (Float)(50) ),( (Float)(13) ));
-HXLINE( 219)		graph->lineTo(( (Float)(51) ),( (Float)(13) ));
-HXLINE( 220)		graph->lineTo(( (Float)(87) ),( (Float)(50) ));
-HXLINE( 221)		graph->lineTo(( (Float)(87) ),( (Float)(51) ));
-HXLINE( 222)		graph->lineTo(( (Float)(51) ),( (Float)(87) ));
-HXLINE( 223)		graph->lineTo(( (Float)(50) ),( (Float)(87) ));
-HXLINE( 224)		graph->lineTo(( (Float)(13) ),( (Float)(51) ));
-HXLINE( 225)		graph->lineTo(( (Float)(13) ),( (Float)(50) ));
-HXLINE( 226)		graph->lineTo(( (Float)(50) ),( (Float)(13) ));
-HXLINE( 227)		graph->endFill();
-HXLINE( 230)		graph->beginFill(16761138,null());
-HXLINE( 231)		graph->moveTo(( (Float)(0) ),( (Float)(0) ));
-HXLINE( 232)		graph->lineTo(( (Float)(25) ),( (Float)(0) ));
-HXLINE( 233)		graph->lineTo(( (Float)(50) ),( (Float)(13) ));
-HXLINE( 234)		graph->lineTo(( (Float)(13) ),( (Float)(50) ));
-HXLINE( 235)		graph->lineTo(( (Float)(0) ),( (Float)(25) ));
-HXLINE( 236)		graph->lineTo(( (Float)(0) ),( (Float)(0) ));
-HXLINE( 237)		graph->endFill();
-HXLINE( 240)		graph->beginFill(16066382,null());
-HXLINE( 241)		graph->moveTo(( (Float)(100) ),( (Float)(0) ));
-HXLINE( 242)		graph->lineTo(( (Float)(75) ),( (Float)(0) ));
-HXLINE( 243)		graph->lineTo(( (Float)(51) ),( (Float)(13) ));
-HXLINE( 244)		graph->lineTo(( (Float)(87) ),( (Float)(50) ));
-HXLINE( 245)		graph->lineTo(( (Float)(100) ),( (Float)(25) ));
-HXLINE( 246)		graph->lineTo(( (Float)(100) ),( (Float)(0) ));
-HXLINE( 247)		graph->endFill();
-HXLINE( 250)		graph->beginFill(3555839,null());
-HXLINE( 251)		graph->moveTo(( (Float)(0) ),( (Float)(100) ));
-HXLINE( 252)		graph->lineTo(( (Float)(25) ),( (Float)(100) ));
-HXLINE( 253)		graph->lineTo(( (Float)(50) ),( (Float)(87) ));
-HXLINE( 254)		graph->lineTo(( (Float)(13) ),( (Float)(51) ));
-HXLINE( 255)		graph->lineTo(( (Float)(0) ),( (Float)(75) ));
-HXLINE( 256)		graph->lineTo(( (Float)(0) ),( (Float)(100) ));
-HXLINE( 257)		graph->endFill();
-HXLINE( 260)		graph->beginFill(314875,null());
-HXLINE( 261)		graph->moveTo(( (Float)(100) ),( (Float)(100) ));
-HXLINE( 262)		graph->lineTo(( (Float)(75) ),( (Float)(100) ));
-HXLINE( 263)		graph->lineTo(( (Float)(51) ),( (Float)(87) ));
-HXLINE( 264)		graph->lineTo(( (Float)(87) ),( (Float)(51) ));
-HXLINE( 265)		graph->lineTo(( (Float)(100) ),( (Float)(75) ));
-HXLINE( 266)		graph->lineTo(( (Float)(100) ),( (Float)(100) ));
-HXLINE( 267)		graph->endFill();
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_221_drawLogo)
+HXLINE( 223)		graph->beginFill(47394,null());
+HXLINE( 224)		graph->moveTo(( (Float)(50) ),( (Float)(13) ));
+HXLINE( 225)		graph->lineTo(( (Float)(51) ),( (Float)(13) ));
+HXLINE( 226)		graph->lineTo(( (Float)(87) ),( (Float)(50) ));
+HXLINE( 227)		graph->lineTo(( (Float)(87) ),( (Float)(51) ));
+HXLINE( 228)		graph->lineTo(( (Float)(51) ),( (Float)(87) ));
+HXLINE( 229)		graph->lineTo(( (Float)(50) ),( (Float)(87) ));
+HXLINE( 230)		graph->lineTo(( (Float)(13) ),( (Float)(51) ));
+HXLINE( 231)		graph->lineTo(( (Float)(13) ),( (Float)(50) ));
+HXLINE( 232)		graph->lineTo(( (Float)(50) ),( (Float)(13) ));
+HXLINE( 233)		graph->endFill();
+HXLINE( 236)		graph->beginFill(16761138,null());
+HXLINE( 237)		graph->moveTo(( (Float)(0) ),( (Float)(0) ));
+HXLINE( 238)		graph->lineTo(( (Float)(25) ),( (Float)(0) ));
+HXLINE( 239)		graph->lineTo(( (Float)(50) ),( (Float)(13) ));
+HXLINE( 240)		graph->lineTo(( (Float)(13) ),( (Float)(50) ));
+HXLINE( 241)		graph->lineTo(( (Float)(0) ),( (Float)(25) ));
+HXLINE( 242)		graph->lineTo(( (Float)(0) ),( (Float)(0) ));
+HXLINE( 243)		graph->endFill();
+HXLINE( 246)		graph->beginFill(16066382,null());
+HXLINE( 247)		graph->moveTo(( (Float)(100) ),( (Float)(0) ));
+HXLINE( 248)		graph->lineTo(( (Float)(75) ),( (Float)(0) ));
+HXLINE( 249)		graph->lineTo(( (Float)(51) ),( (Float)(13) ));
+HXLINE( 250)		graph->lineTo(( (Float)(87) ),( (Float)(50) ));
+HXLINE( 251)		graph->lineTo(( (Float)(100) ),( (Float)(25) ));
+HXLINE( 252)		graph->lineTo(( (Float)(100) ),( (Float)(0) ));
+HXLINE( 253)		graph->endFill();
+HXLINE( 256)		graph->beginFill(3555839,null());
+HXLINE( 257)		graph->moveTo(( (Float)(0) ),( (Float)(100) ));
+HXLINE( 258)		graph->lineTo(( (Float)(25) ),( (Float)(100) ));
+HXLINE( 259)		graph->lineTo(( (Float)(50) ),( (Float)(87) ));
+HXLINE( 260)		graph->lineTo(( (Float)(13) ),( (Float)(51) ));
+HXLINE( 261)		graph->lineTo(( (Float)(0) ),( (Float)(75) ));
+HXLINE( 262)		graph->lineTo(( (Float)(0) ),( (Float)(100) ));
+HXLINE( 263)		graph->endFill();
+HXLINE( 266)		graph->beginFill(314875,null());
+HXLINE( 267)		graph->moveTo(( (Float)(100) ),( (Float)(100) ));
+HXLINE( 268)		graph->lineTo(( (Float)(75) ),( (Float)(100) ));
+HXLINE( 269)		graph->lineTo(( (Float)(51) ),( (Float)(87) ));
+HXLINE( 270)		graph->lineTo(( (Float)(87) ),( (Float)(51) ));
+HXLINE( 271)		graph->lineTo(( (Float)(100) ),( (Float)(75) ));
+HXLINE( 272)		graph->lineTo(( (Float)(100) ),( (Float)(100) ));
+HXLINE( 273)		graph->endFill();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxAssets_obj,drawLogo,(void))
 
  ::openfl::display::BitmapData FlxAssets_obj::getBitmapData(::String id){
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_271_getBitmapData)
-HXLINE( 272)		if (::openfl::utils::Assets_obj::exists(id,null())) {
-HXLINE( 273)			return ::openfl::utils::Assets_obj::getBitmapData(id,false);
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_277_getBitmapData)
+HXLINE( 278)		if (::openfl::utils::Assets_obj::exists(id,null())) {
+HXLINE( 279)			return ::openfl::utils::Assets_obj::getBitmapData(id,false);
             		}
-HXLINE( 274)		::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + id) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
-HXLINE( 275)		return null();
+HXLINE( 280)		::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + id) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+HXLINE( 281)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxAssets_obj,getBitmapData,return )
 
  ::openfl::display::BitmapData FlxAssets_obj::getBitmapFromClass(::hx::Class source){
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_286_getBitmapFromClass)
-HXDLIN( 286)		return ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(source,::cpp::VirtualArray_obj::__new(0))) );
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_292_getBitmapFromClass)
+HXDLIN( 292)		return ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(source,::cpp::VirtualArray_obj::__new(0))) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxAssets_obj,getBitmapFromClass,return )
 
  ::openfl::display::BitmapData FlxAssets_obj::resolveBitmapData( ::Dynamic Graphic){
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_300_resolveBitmapData)
-HXLINE( 301)		if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::openfl::display::BitmapData >())) {
-HXLINE( 303)			return ( ( ::openfl::display::BitmapData)(Graphic) );
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_306_resolveBitmapData)
+HXLINE( 307)		if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::openfl::display::BitmapData >())) {
+HXLINE( 309)			return ( ( ::openfl::display::BitmapData)(Graphic) );
             		}
             		else {
-HXLINE( 305)			if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::hx::Class >())) {
-HXLINE( 307)				return ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(Graphic,::cpp::VirtualArray_obj::__new(0))) );
+HXLINE( 311)			if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::hx::Class >())) {
+HXLINE( 313)				return ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(Graphic,::cpp::VirtualArray_obj::__new(0))) );
             			}
             			else {
-HXLINE( 309)				if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::String >())) {
-HXLINE( 311)					 ::openfl::display::BitmapData _hx_tmp;
-HXDLIN( 311)					if (::openfl::utils::Assets_obj::exists(( (::String)(Graphic) ),null())) {
-HXLINE( 311)						_hx_tmp = ::openfl::utils::Assets_obj::getBitmapData(( (::String)(Graphic) ),false);
+HXLINE( 315)				if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::String >())) {
+HXLINE( 317)					 ::openfl::display::BitmapData _hx_tmp;
+HXDLIN( 317)					if (::openfl::utils::Assets_obj::exists(( (::String)(Graphic) ),null())) {
+HXLINE( 317)						_hx_tmp = ::openfl::utils::Assets_obj::getBitmapData(( (::String)(Graphic) ),false);
             					}
             					else {
-HXLINE( 311)						::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + Graphic) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
-HXDLIN( 311)						_hx_tmp = null();
+HXLINE( 317)						::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + Graphic) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+HXDLIN( 317)						_hx_tmp = null();
             					}
-HXDLIN( 311)					return _hx_tmp;
+HXDLIN( 317)					return _hx_tmp;
             				}
             			}
             		}
-HXLINE( 314)		return null();
+HXLINE( 320)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxAssets_obj,resolveBitmapData,return )
 
 ::String FlxAssets_obj::resolveKey( ::Dynamic Graphic,::String Key){
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_329_resolveKey)
-HXLINE( 330)		if (::hx::IsNotNull( Key )) {
-HXLINE( 332)			return Key;
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_335_resolveKey)
+HXLINE( 336)		if (::hx::IsNotNull( Key )) {
+HXLINE( 338)			return Key;
             		}
-HXLINE( 335)		if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::openfl::display::BitmapData >())) {
-HXLINE( 337)			return Key;
+HXLINE( 341)		if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::openfl::display::BitmapData >())) {
+HXLINE( 343)			return Key;
             		}
             		else {
-HXLINE( 339)			if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::hx::Class >())) {
-HXLINE( 341)				 ::flixel::_hx_system::frontEnds::BitmapFrontEnd _this = ::flixel::FlxG_obj::bitmap;
-HXDLIN( 341)				return ::Type_obj::getClassName(Graphic);
+HXLINE( 345)			if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::hx::Class >())) {
+HXLINE( 347)				 ::flixel::_hx_system::frontEnds::BitmapFrontEnd _this = ::flixel::FlxG_obj::bitmap;
+HXDLIN( 347)				return ::Type_obj::getClassName(Graphic);
             			}
             			else {
-HXLINE( 343)				if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::String >())) {
-HXLINE( 345)					return ( (::String)(Graphic) );
+HXLINE( 349)				if (::Std_obj::isOfType(Graphic,::hx::ClassOf< ::String >())) {
+HXLINE( 351)					return ( (::String)(Graphic) );
             				}
             			}
             		}
-HXLINE( 348)		return null();
+HXLINE( 354)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxAssets_obj,resolveKey,return )
 
  ::openfl::media::Sound FlxAssets_obj::getSound(::String id){
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_359_getSound)
-HXLINE( 360)		bool _hx_tmp;
-HXDLIN( 360)		bool _hx_tmp1;
-HXDLIN( 360)		if (!(::StringTools_obj::endsWith(id,HX_(".mp3",02,e8,ba,1e)))) {
-HXLINE( 360)			_hx_tmp1 = !(::StringTools_obj::endsWith(id,HX_(".ogg",e1,64,bc,1e)));
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_365_getSound)
+HXLINE( 366)		bool _hx_tmp;
+HXDLIN( 366)		bool _hx_tmp1;
+HXDLIN( 366)		if (!(::StringTools_obj::endsWith(id,HX_(".mp3",02,e8,ba,1e)))) {
+HXLINE( 366)			_hx_tmp1 = !(::StringTools_obj::endsWith(id,HX_(".ogg",e1,64,bc,1e)));
             		}
             		else {
-HXLINE( 360)			_hx_tmp1 = false;
+HXLINE( 366)			_hx_tmp1 = false;
             		}
-HXDLIN( 360)		if (_hx_tmp1) {
-HXLINE( 360)			_hx_tmp = !(::StringTools_obj::endsWith(id,HX_(".wav",be,71,c2,1e)));
+HXDLIN( 366)		if (_hx_tmp1) {
+HXLINE( 366)			_hx_tmp = !(::StringTools_obj::endsWith(id,HX_(".wav",be,71,c2,1e)));
             		}
             		else {
-HXLINE( 360)			_hx_tmp = false;
+HXLINE( 366)			_hx_tmp = false;
             		}
-HXDLIN( 360)		if (_hx_tmp) {
-HXLINE( 361)			id = (id + (HX_(".",2e,00,00,00) + ::flixel::_hx_system::FlxAssets_obj::defaultSoundExtension));
+HXDLIN( 366)		if (_hx_tmp) {
+HXLINE( 367)			id = (id + (HX_(".",2e,00,00,00) + ::flixel::_hx_system::FlxAssets_obj::defaultSoundExtension));
             		}
-HXLINE( 363)		return ::openfl::utils::Assets_obj::getSound(id,null());
+HXLINE( 369)		return ::openfl::utils::Assets_obj::getSound(id,null());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxAssets_obj,getSound,return )
 
  ::flixel::graphics::frames::FlxAtlasFrames FlxAssets_obj::getVirtualInputFrames(){
-            	HX_GC_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_367_getVirtualInputFrames)
-HXLINE( 368)		 ::flixel::_hx_system::GraphicVirtualInput bitmapData =  ::flixel::_hx_system::GraphicVirtualInput_obj::__alloc( HX_CTX ,0,0,null(),null());
-HXLINE( 373)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(bitmapData,null(),null(),null());
-HXLINE( 374)		return ::flixel::graphics::frames::FlxAtlasFrames_obj::fromSpriteSheetPacker(graphic,::Std_obj::string( ::flixel::_hx_system::VirtualInputData_obj::__alloc( HX_CTX ,null())));
+            	HX_GC_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_373_getVirtualInputFrames)
+HXLINE( 374)		 ::flixel::_hx_system::GraphicVirtualInput bitmapData =  ::flixel::_hx_system::GraphicVirtualInput_obj::__alloc( HX_CTX ,0,0,null(),null());
+HXLINE( 379)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(bitmapData,null(),null(),null());
+HXLINE( 380)		return ::flixel::graphics::frames::FlxAtlasFrames_obj::fromSpriteSheetPacker(graphic,::Std_obj::string( ::flixel::_hx_system::VirtualInputData_obj::__alloc( HX_CTX ,null())));
             	}
 
 
@@ -393,16 +393,16 @@ void FlxAssets_obj::__register()
 void FlxAssets_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_120_boot)
-HXDLIN( 120)		defaultSoundExtension = HX_("ogg",4f,94,54,00);
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_126_boot)
+HXDLIN( 126)		defaultSoundExtension = HX_("ogg",4f,94,54,00);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_211_boot)
-HXDLIN( 211)		FONT_DEFAULT = HX_("Nokia Cellphone FC Small",d6,2f,44,ca);
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_217_boot)
+HXDLIN( 217)		FONT_DEFAULT = HX_("Nokia Cellphone FC Small",d6,2f,44,ca);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_212_boot)
-HXDLIN( 212)		FONT_DEBUGGER = HX_("Monsterrat",2b,92,73,63);
+            	HX_STACKFRAME(&_hx_pos_a4ce3a91bdd58bc5_218_boot)
+HXDLIN( 218)		FONT_DEBUGGER = HX_("Monsterrat",2b,92,73,63);
             	}
 }
 

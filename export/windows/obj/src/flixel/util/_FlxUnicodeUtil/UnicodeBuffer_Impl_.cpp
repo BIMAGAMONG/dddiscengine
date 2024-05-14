@@ -5,9 +5,9 @@
 #include <flixel/util/_FlxUnicodeUtil/UnicodeBuffer_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_118c490c28c43de2_36__new,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_","_new",0x2e99190e,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_._new","flixel/util/FlxUnicodeUtil.hx",36,0x26f9f857)
-HX_LOCAL_STACK_FRAME(_hx_pos_118c490c28c43de2_43_addChar,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_","addChar",0x64c0680a,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_.addChar","flixel/util/FlxUnicodeUtil.hx",43,0x26f9f857)
-HX_LOCAL_STACK_FRAME(_hx_pos_118c490c28c43de2_48_toString,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_","toString",0x3cf8aed9,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_.toString","flixel/util/FlxUnicodeUtil.hx",48,0x26f9f857)
+HX_LOCAL_STACK_FRAME(_hx_pos_118c490c28c43de2_37__new,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_","_new",0x2e99190e,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_._new","flixel/util/FlxUnicodeUtil.hx",37,0x26f9f857)
+HX_LOCAL_STACK_FRAME(_hx_pos_118c490c28c43de2_44_addChar,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_","addChar",0x64c0680a,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_.addChar","flixel/util/FlxUnicodeUtil.hx",44,0x26f9f857)
+HX_LOCAL_STACK_FRAME(_hx_pos_118c490c28c43de2_49_toString,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_","toString",0x3cf8aed9,"flixel.util._FlxUnicodeUtil.UnicodeBuffer_Impl_.toString","flixel/util/FlxUnicodeUtil.hx",49,0x26f9f857)
 namespace flixel{
 namespace util{
 namespace _FlxUnicodeUtil{
@@ -32,28 +32,28 @@ bool UnicodeBuffer_Impl__obj::_hx_isInstanceOf(int inClassId) {
 ::String UnicodeBuffer_Impl__obj::_new(::String __o_s){
             		::String s = __o_s;
             		if (::hx::IsNull(__o_s)) s = HX_("",00,00,00,00);
-            	HX_STACKFRAME(&_hx_pos_118c490c28c43de2_36__new)
-HXDLIN(  36)		return s;
+            	HX_STACKFRAME(&_hx_pos_118c490c28c43de2_37__new)
+HXDLIN(  37)		return s;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(UnicodeBuffer_Impl__obj,_new,return )
 
 ::String UnicodeBuffer_Impl__obj::addChar(::String this1,int c){
-            	HX_STACKFRAME(&_hx_pos_118c490c28c43de2_43_addChar)
-HXDLIN(  43)		::String s = (this1 + ::String::fromCharCode(c));
-HXDLIN(  43)		if (::hx::IsNull( s )) {
-HXDLIN(  43)			s = HX_("",00,00,00,00);
+            	HX_STACKFRAME(&_hx_pos_118c490c28c43de2_44_addChar)
+HXDLIN(  44)		::String s = (this1 + ::String::fromCharCode(c));
+HXDLIN(  44)		if (::hx::IsNull( s )) {
+HXDLIN(  44)			s = HX_("",00,00,00,00);
             		}
-HXDLIN(  43)		return s;
+HXDLIN(  44)		return s;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(UnicodeBuffer_Impl__obj,addChar,return )
 
 ::String UnicodeBuffer_Impl__obj::toString(::String this1){
-            	HX_STACKFRAME(&_hx_pos_118c490c28c43de2_48_toString)
-HXDLIN(  48)		return this1;
+            	HX_STACKFRAME(&_hx_pos_118c490c28c43de2_49_toString)
+HXDLIN(  49)		return this1;
             	}
 
 

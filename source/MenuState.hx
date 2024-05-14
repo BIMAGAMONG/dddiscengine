@@ -9,7 +9,6 @@ import flixel.addons.display.FlxBackdrop;
 import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
-//import flixel.system.FlxSound;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
@@ -18,12 +17,20 @@ import flixel.util.FlxTimer;
 import lime.app.Application;
 import sys.FileSystem;
 
+import flixel.addons.transition.FlxTransitionSprite.GraphicTransTileDiamond;
+import flixel.addons.transition.FlxTransitionableState;
+import flixel.graphics.FlxGraphic;
+import flixel.addons.transition.TransitionData;
+import flixel.math.FlxPoint;
+import flixel.math.FlxRect;
+
 class MenuState extends FlxState
 {	
 	// WARNING: I SUCK AT CODING DON'T SCREAM AT ME ALRIGHT :(
+
 	// this is a randomizer for the splash messages, it picks a value between 1 to 6 and the value determines the splash message.
 	// not the best way but why the fuck not
-	var splashMessageRandomizer:Int = FlxG.random.int(1, 6);
+	var splashMessageRandomizer:Int = FlxG.random.int(1, 7);
 
 	// this defines the splash messgae itself
 	var splashMessage:FlxText;
@@ -51,22 +58,32 @@ class MenuState extends FlxState
 	public var uparrow:FlxSprite;
 	public var downarrow:FlxSprite;
 
-	// Credits pop-up thingy
-	public var creditsPopUp:FlxSprite;
+	public static var initialized:Bool = false;
+
+	var introFinished:Bool = false;
 
 	override public function create()
 	{
-		FlxG.sound.playMusic("assets/music/mainmenu.ogg");
+		if (!initialized)
+			{
+				initialized = true;
+					
+				var diamond:FlxGraphic = FlxGraphic.fromClass(GraphicTransTileDiamond);
+				diamond.persist = true;
+				diamond.destroyOnNoUse = false;
+
+				FlxTransitionableState.defaultTransIn = new TransitionData(TILES, FlxColor.WHITE, 1, new FlxPoint(0, 1), {asset: diamond, width: 32, height: 32},
+				new FlxRect(-200, -200, FlxG.width * 1.4, FlxG.height * 1.4));
+				FlxTransitionableState.defaultTransOut = new TransitionData(TILES, FlxColor.WHITE, 1, new FlxPoint(0, 1), {asset: diamond, width: 32, height: 32},
+				new FlxRect(-200, -200, FlxG.width * 1.4, FlxG.height * 1.4));
+			}	
+
+		FlxG.mouse.visible = true;
 
 		if (FlxG.sound.music == null)
 			{
 				FlxG.sound.playMusic("assets/music/mainmenu.ogg");
 			}
-
-		creditsPopUp = new FlxSprite(1200, 10);
-		creditsPopUp.loadGraphic("assets/images/ui/credits.png");
-		creditsPopUp.setGraphicSize(Std.int(creditsPopUp.width / 1.5));
-		creditsPopUp.alpha = 1;
 
 		menuOptions = new FlxText(-200, 436, 0, "");
 		menuOptions.setFormat("assets/fonts/RifficFree-Bold.ttf", FlxColor.WHITE, CENTER, OUTLINE, FlxColor.MAGENTA);
@@ -128,6 +145,8 @@ class MenuState extends FlxState
 				splashMessage.text = 'Monika is not watching you code, thank me for your security.';
 			case 6:
 				splashMessage.text = 'What will it take, just to find that special day?';
+			case 7:
+				splashMessage.text = "It's been long overdue for something unique.";
 		}
 
 		// so many stuff fr
@@ -140,15 +159,17 @@ class MenuState extends FlxState
 		add(menuOptions);
 		add(uparrow);
 		add(downarrow);
-		add(creditsPopUp);
 
+		// the logo fades in
 		FlxTween.tween(logoSplash, {alpha: 1}, 1);
 
+		// the logo fades out
 		new FlxTimer().start(2, function(timer:FlxTimer)
 		{
 			FlxTween.tween(logoSplash, {alpha: 0}, 1);
 		});
 
+		// then it fades out, when complete, the splash text fades in
 		new FlxTimer().start(3, function(timer:FlxTimer)
 		{
 			FlxTween.tween(splashMessage, {alpha: 1}, 1);
@@ -158,6 +179,7 @@ class MenuState extends FlxState
 			});
 		});
 
+		// all the main menu shit comes in
 		new FlxTimer().start(7, function(timer:FlxTimer)
 		{
 			FlxTween.tween(circles, {alpha: 1}, 1);
@@ -166,6 +188,7 @@ class MenuState extends FlxState
 			FlxTween.tween(menuOptions, {x: 100, y: 436}, 4, {ease: FlxEase.circOut});
 			FlxTween.tween(uparrow, {x: -200, y: 200}, 4, {ease: FlxEase.circOut});
 			FlxTween.tween(downarrow, {x: -200, y: 260}, 4, {ease: FlxEase.circOut});
+		    introFinished = true;
 		});
 
 		super.create();
@@ -176,76 +199,69 @@ class MenuState extends FlxState
 		speen.screenCenter(Y);
 		speen.angle += elapsed * 15;
 
-		creditsPopUp.screenCenter(Y);
-
 		circles.velocity.x = 10;
 		circles.velocity.y = 25;
 
-		if (FlxG.keys.justPressed.UP)
-		{
-			curSelected -= 1;
+		if (introFinished) {
+		    if (FlxG.keys.justPressed.UP || FlxG.mouse.wheel < 0)
+		    {
+			    curSelected -= 1;
+		    }
 
-			if (curSelected == 0)
-			{
-				curSelected = 1;
-			}
-		}
+		    if (FlxG.keys.justPressed.DOWN || FlxG.mouse.wheel > 0) 
+		    {
+			    curSelected += 1;
+		    }
 
-		if (FlxG.keys.justPressed.DOWN)
-		{
-			curSelected += 1;
+			if (curSelected == 0 || curSelected < 0)
+			    {
+				    curSelected = 1;
+			    }
+			if (curSelected == 6 || curSelected > 6)
+				{
+					curSelected = 5;
+				}
 
-			if (curSelected == 6)
-			{
-				curSelected = 5;
-			}
-		}
+		    if ((FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed && FlxG.mouse.overlaps(menuOptions)) && curSelected == 1)
+		    {
+			    FlxG.switchState(new PlayState());
+		    }
+		    else if ((FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed && FlxG.mouse.overlaps(menuOptions)) && curSelected == 2)
+		    {
+			    trace("SIDE STORIES");
+		    }
+		    else if ((FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed && FlxG.mouse.overlaps(menuOptions)) && curSelected == 3)
+		    {
+			    trace("OPTIONS");
+		    }
+		    else if ((FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed && FlxG.mouse.overlaps(menuOptions)) && curSelected == 4)
+		    {
+			    trace("CREDITS");
+		    }
+		    else if ((FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed && FlxG.mouse.overlaps(menuOptions)) && curSelected == 5)
+		    {
+			    trace("QUIT GAME");
+			    System.exit(0);
+		    }
 
-		if (FlxG.keys.justPressed.ENTER && curSelected == 1)
-		{
-			trace("START");
-		}
-		else if (FlxG.keys.justPressed.ENTER && curSelected == 2)
-		{
-			trace("SIDE STORIES");
-		}
-		else if (FlxG.keys.justPressed.ENTER && curSelected == 3)
-		{
-			trace("OPTIONS");
-		}
-		else if (FlxG.keys.justPressed.ENTER && curSelected == 4)
-		{
-			FlxTween.tween(creditsPopUp, {x: 500, y: 10}, 2, {ease: FlxEase.circOut});
-			trace("CREDITS");
-		}
-		else if (FlxG.keys.justPressed.ENTER && curSelected == 5)
-		{
-			trace("QUIT GAME");
-			System.exit(0);
-		}
-
-		switch (curSelected)
-		{
-			case 1:
-				menuOptions.text = 'Start';
-				uparrow.alpha = 0;
-				creditsPopUp.x = 1300;
-			case 2:
-				menuOptions.text = 'Side Stories';
-				uparrow.alpha = 1;
-				creditsPopUp.x = 1300;
-			case 3:
-				menuOptions.text = 'Options';
-				creditsPopUp.x = 1300;
-			case 4:
-				menuOptions.text = 'Credits';
-				downarrow.alpha = 1;
-				creditsPopUp.alpha = 1;
-			case 5:
-				menuOptions.text = 'Quit Game';
-				downarrow.alpha = 0;
-				creditsPopUp.x = 1300;
-		}
+		    switch (curSelected)
+		    {
+			    case 1:
+				    menuOptions.text = 'Start';
+				    uparrow.alpha = 0;
+			    case 2:
+				    menuOptions.text = 'Side Stories';
+				    uparrow.alpha = 1;
+			    case 3:
+				    menuOptions.text = 'Options';
+			    case 4:
+				    menuOptions.text = 'Credits';
+				    downarrow.alpha = 1;
+			    case 5:
+				    menuOptions.text = 'Quit Game';
+				    downarrow.alpha = 0;
+		    }
+	    }
 
 		super.update(elapsed);
 	}

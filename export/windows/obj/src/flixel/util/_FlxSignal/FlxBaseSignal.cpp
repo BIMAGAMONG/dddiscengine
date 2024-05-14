@@ -21,11 +21,12 @@ HX_DEFINE_STACK_FRAME(_hx_pos_06997c0c7386deb2_100_new,"flixel.util._FlxSignal.F
 HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_119_add,"flixel.util._FlxSignal.FlxBaseSignal","add",0x245ee4c5,"flixel.util._FlxSignal.FlxBaseSignal.add","flixel/util/FlxSignal.hx",119,0x3c758c5e)
 HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_125_addOnce,"flixel.util._FlxSignal.FlxBaseSignal","addOnce",0xaa1cd4e6,"flixel.util._FlxSignal.FlxBaseSignal.addOnce","flixel/util/FlxSignal.hx",125,0x3c758c5e)
 HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_131_remove,"flixel.util._FlxSignal.FlxBaseSignal","remove",0x06fde820,"flixel.util._FlxSignal.FlxBaseSignal.remove","flixel/util/FlxSignal.hx",131,0x3c758c5e)
-HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_148_has,"flixel.util._FlxSignal.FlxBaseSignal","has",0x246431fe,"flixel.util._FlxSignal.FlxBaseSignal.has","flixel/util/FlxSignal.hx",148,0x3c758c5e)
-HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_156_removeAll,"flixel.util._FlxSignal.FlxBaseSignal","removeAll",0x23fb9ce1,"flixel.util._FlxSignal.FlxBaseSignal.removeAll","flixel/util/FlxSignal.hx",156,0x3c758c5e)
-HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_160_destroy,"flixel.util._FlxSignal.FlxBaseSignal","destroy",0x48b3419e,"flixel.util._FlxSignal.FlxBaseSignal.destroy","flixel/util/FlxSignal.hx",160,0x3c758c5e)
-HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_167_registerListener,"flixel.util._FlxSignal.FlxBaseSignal","registerListener",0xa63a34d3,"flixel.util._FlxSignal.FlxBaseSignal.registerListener","flixel/util/FlxSignal.hx",167,0x3c758c5e)
-HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_188_getHandler,"flixel.util._FlxSignal.FlxBaseSignal","getHandler",0x2fd59fb0,"flixel.util._FlxSignal.FlxBaseSignal.getHandler","flixel/util/FlxSignal.hx",188,0x3c758c5e)
+HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_143_removeHandler,"flixel.util._FlxSignal.FlxBaseSignal","removeHandler",0x7384338a,"flixel.util._FlxSignal.FlxBaseSignal.removeHandler","flixel/util/FlxSignal.hx",143,0x3c758c5e)
+HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_153_has,"flixel.util._FlxSignal.FlxBaseSignal","has",0x246431fe,"flixel.util._FlxSignal.FlxBaseSignal.has","flixel/util/FlxSignal.hx",153,0x3c758c5e)
+HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_161_removeAll,"flixel.util._FlxSignal.FlxBaseSignal","removeAll",0x23fb9ce1,"flixel.util._FlxSignal.FlxBaseSignal.removeAll","flixel/util/FlxSignal.hx",161,0x3c758c5e)
+HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_165_destroy,"flixel.util._FlxSignal.FlxBaseSignal","destroy",0x48b3419e,"flixel.util._FlxSignal.FlxBaseSignal.destroy","flixel/util/FlxSignal.hx",165,0x3c758c5e)
+HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_172_registerListener,"flixel.util._FlxSignal.FlxBaseSignal","registerListener",0xa63a34d3,"flixel.util._FlxSignal.FlxBaseSignal.registerListener","flixel/util/FlxSignal.hx",172,0x3c758c5e)
+HX_LOCAL_STACK_FRAME(_hx_pos_06997c0c7386deb2_193_getHandler,"flixel.util._FlxSignal.FlxBaseSignal","getHandler",0x2fd59fb0,"flixel.util._FlxSignal.FlxBaseSignal.getHandler","flixel/util/FlxSignal.hx",193,0x3c758c5e)
 namespace flixel{
 namespace util{
 namespace _FlxSignal{
@@ -103,11 +104,11 @@ HXDLIN( 131)		if (::hx::IsNotNull( listener )) {
 HXLINE( 133)			 ::flixel::util::_FlxSignal::FlxSignalHandler handler = this->getHandler(listener);
 HXLINE( 134)			if (::hx::IsNotNull( handler )) {
 HXLINE( 136)				if (this->processingListeners) {
-HXLINE( 137)					this->pendingRemove->push(handler);
+HXLINE( 136)					this->pendingRemove->push(handler);
             				}
             				else {
-HXLINE( 140)					this->handlers->remove(handler);
-HXLINE( 141)					handler->destroy();
+HXLINE( 136)					this->handlers->remove(handler);
+HXDLIN( 136)					handler->destroy();
             				}
             			}
             		}
@@ -116,71 +117,85 @@ HXLINE( 141)					handler->destroy();
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxBaseSignal_obj,remove,(void))
 
-bool FlxBaseSignal_obj::has( ::Dynamic listener){
-            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_148_has)
-HXLINE( 149)		if (::hx::IsNull( listener )) {
-HXLINE( 150)			return false;
+void FlxBaseSignal_obj::removeHandler( ::flixel::util::_FlxSignal::FlxSignalHandler handler){
+            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_143_removeHandler)
+HXDLIN( 143)		if (this->processingListeners) {
+HXLINE( 144)			this->pendingRemove->push(handler);
             		}
-HXLINE( 151)		return ::hx::IsNotNull( this->getHandler(listener) );
+            		else {
+HXLINE( 147)			this->handlers->remove(handler);
+HXLINE( 148)			handler->destroy();
+            		}
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(FlxBaseSignal_obj,removeHandler,(void))
+
+bool FlxBaseSignal_obj::has( ::Dynamic listener){
+            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_153_has)
+HXLINE( 154)		if (::hx::IsNull( listener )) {
+HXLINE( 155)			return false;
+            		}
+HXLINE( 156)		return ::hx::IsNotNull( this->getHandler(listener) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxBaseSignal_obj,has,return )
 
 void FlxBaseSignal_obj::removeAll(){
-            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_156_removeAll)
-HXDLIN( 156)		::flixel::util::FlxDestroyUtil_obj::destroyArray(this->handlers);
+            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_161_removeAll)
+HXDLIN( 161)		::flixel::util::FlxDestroyUtil_obj::destroyArray(this->handlers);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxBaseSignal_obj,removeAll,(void))
 
 void FlxBaseSignal_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_160_destroy)
-HXLINE( 161)		::flixel::util::FlxDestroyUtil_obj::destroyArray(this->handlers);
-HXLINE( 162)		this->handlers = null();
-HXLINE( 163)		this->pendingRemove = null();
+            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_165_destroy)
+HXLINE( 166)		::flixel::util::FlxDestroyUtil_obj::destroyArray(this->handlers);
+HXLINE( 167)		this->handlers = null();
+HXLINE( 168)		this->pendingRemove = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxBaseSignal_obj,destroy,(void))
 
  ::flixel::util::_FlxSignal::FlxSignalHandler FlxBaseSignal_obj::registerListener( ::Dynamic listener,bool dispatchOnce){
-            	HX_GC_STACKFRAME(&_hx_pos_06997c0c7386deb2_167_registerListener)
-HXLINE( 168)		 ::flixel::util::_FlxSignal::FlxSignalHandler handler = this->getHandler(listener);
-HXLINE( 170)		if (::hx::IsNull( handler )) {
-HXLINE( 172)			handler =  ::flixel::util::_FlxSignal::FlxSignalHandler_obj::__alloc( HX_CTX ,listener,dispatchOnce);
-HXLINE( 173)			this->handlers->push(handler);
-HXLINE( 174)			return handler;
+            	HX_GC_STACKFRAME(&_hx_pos_06997c0c7386deb2_172_registerListener)
+HXLINE( 173)		 ::flixel::util::_FlxSignal::FlxSignalHandler handler = this->getHandler(listener);
+HXLINE( 175)		if (::hx::IsNull( handler )) {
+HXLINE( 177)			handler =  ::flixel::util::_FlxSignal::FlxSignalHandler_obj::__alloc( HX_CTX ,listener,dispatchOnce);
+HXLINE( 178)			this->handlers->push(handler);
+HXLINE( 179)			return handler;
             		}
             		else {
-HXLINE( 180)			if ((handler->dispatchOnce != dispatchOnce)) {
-HXLINE( 181)				HX_STACK_DO_THROW(HX_("You cannot addOnce() then add() the same listener without removing the relationship first.",19,c7,3c,a5));
+HXLINE( 185)			if ((handler->dispatchOnce != dispatchOnce)) {
+HXLINE( 186)				HX_STACK_DO_THROW(HX_("You cannot addOnce() then add() the same listener without removing the relationship first.",19,c7,3c,a5));
             			}
             			else {
-HXLINE( 183)				return handler;
+HXLINE( 188)				return handler;
             			}
             		}
-HXLINE( 170)		return null();
+HXLINE( 175)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxBaseSignal_obj,registerListener,return )
 
  ::flixel::util::_FlxSignal::FlxSignalHandler FlxBaseSignal_obj::getHandler( ::Dynamic listener){
-            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_188_getHandler)
-HXLINE( 189)		{
-HXLINE( 189)			int _g = 0;
-HXDLIN( 189)			::Array< ::Dynamic> _g1 = this->handlers;
-HXDLIN( 189)			while((_g < _g1->length)){
-HXLINE( 189)				 ::flixel::util::_FlxSignal::FlxSignalHandler handler = _g1->__get(_g).StaticCast<  ::flixel::util::_FlxSignal::FlxSignalHandler >();
-HXDLIN( 189)				_g = (_g + 1);
-HXLINE( 191)				if (::hx::IsEq( handler->listener,listener )) {
-HXLINE( 194)					return handler;
+            	HX_STACKFRAME(&_hx_pos_06997c0c7386deb2_193_getHandler)
+HXLINE( 194)		{
+HXLINE( 194)			int _g = 0;
+HXDLIN( 194)			::Array< ::Dynamic> _g1 = this->handlers;
+HXDLIN( 194)			while((_g < _g1->length)){
+HXLINE( 194)				 ::flixel::util::_FlxSignal::FlxSignalHandler handler = _g1->__get(_g).StaticCast<  ::flixel::util::_FlxSignal::FlxSignalHandler >();
+HXDLIN( 194)				_g = (_g + 1);
+HXLINE( 196)				if (::hx::IsEq( handler->listener,listener )) {
+HXLINE( 199)					return handler;
             				}
             			}
             		}
-HXLINE( 197)		return null();
+HXLINE( 202)		return null();
             	}
 
 
@@ -248,6 +263,7 @@ void FlxBaseSignal_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 13:
 		if (HX_FIELD_EQ(inName,"pendingRemove") ) { return ::hx::Val( pendingRemove ); }
+		if (HX_FIELD_EQ(inName,"removeHandler") ) { return ::hx::Val( removeHandler_dyn() ); }
 		break;
 	case 16:
 		if (HX_FIELD_EQ(inName,"registerListener") ) { return ::hx::Val( registerListener_dyn() ); }
@@ -302,6 +318,7 @@ static ::String FlxBaseSignal_obj_sMemberFields[] = {
 	HX_("add",21,f2,49,00),
 	HX_("addOnce",42,c0,ef,85),
 	HX_("remove",44,9c,88,04),
+	HX_("removeHandler",e6,0b,90,1e),
 	HX_("has",5a,3f,4f,00),
 	HX_("removeAll",3d,17,e5,ca),
 	HX_("destroy",fa,2c,86,24),

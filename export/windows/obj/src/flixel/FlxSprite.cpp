@@ -136,70 +136,70 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_cfd221447aa7194b_129_new,"flixel.FlxSprite","new",0x4dfa64d7,"flixel.FlxSprite.new","flixel/FlxSprite.hx",129,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_388_initVars,"flixel.FlxSprite","initVars",0x31793705,"flixel.FlxSprite.initVars","flixel/FlxSprite.hx",388,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_417_destroy,"flixel.FlxSprite","destroy",0x0fb5c8f1,"flixel.FlxSprite.destroy","flixel/FlxSprite.hx",417,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_448_clone,"flixel.FlxSprite","clone",0x3c30f394,"flixel.FlxSprite.clone","flixel/FlxSprite.hx",448,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_459_loadGraphicFromSprite,"flixel.FlxSprite","loadGraphicFromSprite",0xd0637b08,"flixel.FlxSprite.loadGraphicFromSprite","flixel/FlxSprite.hx",459,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_498_loadGraphic,"flixel.FlxSprite","loadGraphic",0x47377c99,"flixel.FlxSprite.loadGraphic","flixel/FlxSprite.hx",498,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_545_loadRotatedGraphic,"flixel.FlxSprite","loadRotatedGraphic",0xceb71e2e,"flixel.FlxSprite.loadRotatedGraphic","flixel/FlxSprite.hx",545,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_606_loadRotatedFrame,"flixel.FlxSprite","loadRotatedFrame",0xe0d52e33,"flixel.FlxSprite.loadRotatedFrame","flixel/FlxSprite.hx",606,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_643_makeGraphic,"flixel.FlxSprite","makeGraphic",0xbaa3e5d1,"flixel.FlxSprite.makeGraphic","flixel/FlxSprite.hx",643,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_652_graphicLoaded,"flixel.FlxSprite","graphicLoaded",0xacabf404,"flixel.FlxSprite.graphicLoaded","flixel/FlxSprite.hx",652,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_658_resetSize,"flixel.FlxSprite","resetSize",0x5d8771e7,"flixel.FlxSprite.resetSize","flixel/FlxSprite.hx",658,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_669_resetFrameSize,"flixel.FlxSprite","resetFrameSize",0xb7baa4a8,"flixel.FlxSprite.resetFrameSize","flixel/FlxSprite.hx",669,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_683_resetSizeFromFrame,"flixel.FlxSprite","resetSizeFromFrame",0xf893db7c,"flixel.FlxSprite.resetSizeFromFrame","flixel/FlxSprite.hx",683,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_696_resetFrame,"flixel.FlxSprite","resetFrame",0x02a6a847,"flixel.FlxSprite.resetFrame","flixel/FlxSprite.hx",696,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_707_setGraphicSize,"flixel.FlxSprite","setGraphicSize",0x516eb7f0,"flixel.FlxSprite.setGraphicSize","flixel/FlxSprite.hx",707,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_726_updateHitbox,"flixel.FlxSprite","updateHitbox",0x9470392a,"flixel.FlxSprite.updateHitbox","flixel/FlxSprite.hx",726,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_738_resetHelpers,"flixel.FlxSprite","resetHelpers",0x6fc22ddf,"flixel.FlxSprite.resetHelpers","flixel/FlxSprite.hx",738,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_760_update,"flixel.FlxSprite","update",0xe75bd5f2,"flixel.FlxSprite.update","flixel/FlxSprite.hx",760,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_770_updateAnimation,"flixel.FlxSprite","updateAnimation",0x7e6eaab2,"flixel.FlxSprite.updateAnimation","flixel/FlxSprite.hx",770,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_776_checkEmptyFrame,"flixel.FlxSprite","checkEmptyFrame",0xe3dea03f,"flixel.FlxSprite.checkEmptyFrame","flixel/FlxSprite.hx",776,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_784_draw,"flixel.FlxSprite","draw",0xe68b7fad,"flixel.FlxSprite.draw","flixel/FlxSprite.hx",784,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_816_drawSimple,"flixel.FlxSprite","drawSimple",0x0dc977bf,"flixel.FlxSprite.drawSimple","flixel/FlxSprite.hx",816,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_827_drawComplex,"flixel.FlxSprite","drawComplex",0xcf4c0e03,"flixel.FlxSprite.drawComplex","flixel/FlxSprite.hx",827,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_862_stamp,"flixel.FlxSprite","stamp",0x77d9503a,"flixel.FlxSprite.stamp","flixel/FlxSprite.hx",862,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_909_drawFrame,"flixel.FlxSprite","drawFrame",0x99d67540,"flixel.FlxSprite.drawFrame","flixel/FlxSprite.hx",909,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_930_centerOffsets,"flixel.FlxSprite","centerOffsets",0x583e0f62,"flixel.FlxSprite.centerOffsets","flixel/FlxSprite.hx",930,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_946_centerOrigin,"flixel.FlxSprite","centerOrigin",0x4cbae644,"flixel.FlxSprite.centerOrigin","flixel/FlxSprite.hx",946,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_959_replaceColor,"flixel.FlxSprite","replaceColor",0x7b700138,"flixel.FlxSprite.replaceColor","flixel/FlxSprite.hx",959,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_981_setColorTransform,"flixel.FlxSprite","setColorTransform",0xa09a3582,"flixel.FlxSprite.setColorTransform","flixel/FlxSprite.hx",981,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_993_updateColorTransform,"flixel.FlxSprite","updateColorTransform",0x79f9051b,"flixel.FlxSprite.updateColorTransform","flixel/FlxSprite.hx",993,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1017_pixelsOverlapPoint,"flixel.FlxSprite","pixelsOverlapPoint",0x4c878b7f,"flixel.FlxSprite.pixelsOverlapPoint","flixel/FlxSprite.hx",1017,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1037_getPixelAt,"flixel.FlxSprite","getPixelAt",0xeaefab8c,"flixel.FlxSprite.getPixelAt","flixel/FlxSprite.hx",1037,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1060_getPixelAtScreen,"flixel.FlxSprite","getPixelAtScreen",0x58308c18,"flixel.FlxSprite.getPixelAtScreen","flixel/FlxSprite.hx",1060,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1083_transformWorldToPixels,"flixel.FlxSprite","transformWorldToPixels",0x1a2b2c57,"flixel.FlxSprite.transformWorldToPixels","flixel/FlxSprite.hx",1083,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1101_transformWorldToPixelsSimple,"flixel.FlxSprite","transformWorldToPixelsSimple",0x4bb2ffe9,"flixel.FlxSprite.transformWorldToPixelsSimple","flixel/FlxSprite.hx",1101,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1127_transformScreenToPixels,"flixel.FlxSprite","transformScreenToPixels",0x8dfcfb17,"flixel.FlxSprite.transformScreenToPixels","flixel/FlxSprite.hx",1127,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1150_calcFrame,"flixel.FlxSprite","calcFrame",0xc4d45b0f,"flixel.FlxSprite.calcFrame","flixel/FlxSprite.hx",1150,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1163_updateFramePixels,"flixel.FlxSprite","updateFramePixels",0x2cd43e68,"flixel.FlxSprite.updateFramePixels","flixel/FlxSprite.hx",1163,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1212_getGraphicMidpoint,"flixel.FlxSprite","getGraphicMidpoint",0xc420be03,"flixel.FlxSprite.getGraphicMidpoint","flixel/FlxSprite.hx",1212,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1226_isOnScreen,"flixel.FlxSprite","isOnScreen",0xb5403c5e,"flixel.FlxSprite.isOnScreen","flixel/FlxSprite.hx",1226,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1238_isSimpleRender,"flixel.FlxSprite","isSimpleRender",0x6aa0d51b,"flixel.FlxSprite.isSimpleRender","flixel/FlxSprite.hx",1238,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1254_isSimpleRenderBlit,"flixel.FlxSprite","isSimpleRenderBlit",0x4bf362f0,"flixel.FlxSprite.isSimpleRenderBlit","flixel/FlxSprite.hx",1254,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1270_getRotatedBounds,"flixel.FlxSprite","getRotatedBounds",0x9196bfb1,"flixel.FlxSprite.getRotatedBounds","flixel/FlxSprite.hx",1270,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1287_getScreenBounds,"flixel.FlxSprite","getScreenBounds",0x49d4cfae,"flixel.FlxSprite.getScreenBounds","flixel/FlxSprite.hx",1287,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1318_setFacingFlip,"flixel.FlxSprite","setFacingFlip",0x6816c060,"flixel.FlxSprite.setFacingFlip","flixel/FlxSprite.hx",1318,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1330_setFrames,"flixel.FlxSprite","setFrames",0xd774ec9f,"flixel.FlxSprite.setFrames","flixel/FlxSprite.hx",1330,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1367_get_pixels,"flixel.FlxSprite","get_pixels",0x90b8575f,"flixel.FlxSprite.get_pixels","flixel/FlxSprite.hx",1367,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1372_set_pixels,"flixel.FlxSprite","set_pixels",0x9435f5d3,"flixel.FlxSprite.set_pixels","flixel/FlxSprite.hx",1372,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1391_set_frame,"flixel.FlxSprite","set_frame",0xf8c58847,"flixel.FlxSprite.set_frame","flixel/FlxSprite.hx",1391,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1427_set_facing,"flixel.FlxSprite","set_facing",0xeb9145c0,"flixel.FlxSprite.set_facing","flixel/FlxSprite.hx",1427,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1440_set_alpha,"flixel.FlxSprite","set_alpha",0x13d8b778,"flixel.FlxSprite.set_alpha","flixel/FlxSprite.hx",1440,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1452_set_color,"flixel.FlxSprite","set_color",0x3c9e817d,"flixel.FlxSprite.set_color","flixel/FlxSprite.hx",1452,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1464_set_angle,"flixel.FlxSprite","set_angle",0x152453ed,"flixel.FlxSprite.set_angle","flixel/FlxSprite.hx",1464,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1478_updateTrig,"flixel.FlxSprite","updateTrig",0x193f7fee,"flixel.FlxSprite.updateTrig","flixel/FlxSprite.hx",1478,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1490_set_blend,"flixel.FlxSprite","set_blend",0xa736f86b,"flixel.FlxSprite.set_blend","flixel/FlxSprite.hx",1490,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1499_set_graphic,"flixel.FlxSprite","set_graphic",0x07012542,"flixel.FlxSprite.set_graphic","flixel/FlxSprite.hx",1499,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1518_set_clipRect,"flixel.FlxSprite","set_clipRect",0x60020c3a,"flixel.FlxSprite.set_clipRect","flixel/FlxSprite.hx",1518,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1539_set_frames,"flixel.FlxSprite","set_frames",0xb411b64c,"flixel.FlxSprite.set_frames","flixel/FlxSprite.hx",1539,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1565_get_numFrames,"flixel.FlxSprite","get_numFrames",0xb5763d9a,"flixel.FlxSprite.get_numFrames","flixel/FlxSprite.hx",1565,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1574_set_flipX,"flixel.FlxSprite","set_flipX",0xf4d45525,"flixel.FlxSprite.set_flipX","flixel/FlxSprite.hx",1574,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1585_set_flipY,"flixel.FlxSprite","set_flipY",0xf4d45526,"flixel.FlxSprite.set_flipY","flixel/FlxSprite.hx",1585,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1597_set_antialiasing,"flixel.FlxSprite","set_antialiasing",0xf8f29e1a,"flixel.FlxSprite.set_antialiasing","flixel/FlxSprite.hx",1597,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1603_set_useFramePixels,"flixel.FlxSprite","set_useFramePixels",0x72e62ad9,"flixel.FlxSprite.set_useFramePixels","flixel/FlxSprite.hx",1603,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1627_checkFlipX,"flixel.FlxSprite","checkFlipX",0x26093f8c,"flixel.FlxSprite.checkFlipX","flixel/FlxSprite.hx",1627,0x0384bffa)
-HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1638_checkFlipY,"flixel.FlxSprite","checkFlipY",0x26093f8d,"flixel.FlxSprite.checkFlipY","flixel/FlxSprite.hx",1638,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_384_initVars,"flixel.FlxSprite","initVars",0x31793705,"flixel.FlxSprite.initVars","flixel/FlxSprite.hx",384,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_413_destroy,"flixel.FlxSprite","destroy",0x0fb5c8f1,"flixel.FlxSprite.destroy","flixel/FlxSprite.hx",413,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_444_clone,"flixel.FlxSprite","clone",0x3c30f394,"flixel.FlxSprite.clone","flixel/FlxSprite.hx",444,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_455_loadGraphicFromSprite,"flixel.FlxSprite","loadGraphicFromSprite",0xd0637b08,"flixel.FlxSprite.loadGraphicFromSprite","flixel/FlxSprite.hx",455,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_494_loadGraphic,"flixel.FlxSprite","loadGraphic",0x47377c99,"flixel.FlxSprite.loadGraphic","flixel/FlxSprite.hx",494,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_541_loadRotatedGraphic,"flixel.FlxSprite","loadRotatedGraphic",0xceb71e2e,"flixel.FlxSprite.loadRotatedGraphic","flixel/FlxSprite.hx",541,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_602_loadRotatedFrame,"flixel.FlxSprite","loadRotatedFrame",0xe0d52e33,"flixel.FlxSprite.loadRotatedFrame","flixel/FlxSprite.hx",602,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_639_makeGraphic,"flixel.FlxSprite","makeGraphic",0xbaa3e5d1,"flixel.FlxSprite.makeGraphic","flixel/FlxSprite.hx",639,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_648_graphicLoaded,"flixel.FlxSprite","graphicLoaded",0xacabf404,"flixel.FlxSprite.graphicLoaded","flixel/FlxSprite.hx",648,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_654_resetSize,"flixel.FlxSprite","resetSize",0x5d8771e7,"flixel.FlxSprite.resetSize","flixel/FlxSprite.hx",654,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_665_resetFrameSize,"flixel.FlxSprite","resetFrameSize",0xb7baa4a8,"flixel.FlxSprite.resetFrameSize","flixel/FlxSprite.hx",665,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_679_resetSizeFromFrame,"flixel.FlxSprite","resetSizeFromFrame",0xf893db7c,"flixel.FlxSprite.resetSizeFromFrame","flixel/FlxSprite.hx",679,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_692_resetFrame,"flixel.FlxSprite","resetFrame",0x02a6a847,"flixel.FlxSprite.resetFrame","flixel/FlxSprite.hx",692,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_703_setGraphicSize,"flixel.FlxSprite","setGraphicSize",0x516eb7f0,"flixel.FlxSprite.setGraphicSize","flixel/FlxSprite.hx",703,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_722_updateHitbox,"flixel.FlxSprite","updateHitbox",0x9470392a,"flixel.FlxSprite.updateHitbox","flixel/FlxSprite.hx",722,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_734_resetHelpers,"flixel.FlxSprite","resetHelpers",0x6fc22ddf,"flixel.FlxSprite.resetHelpers","flixel/FlxSprite.hx",734,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_756_update,"flixel.FlxSprite","update",0xe75bd5f2,"flixel.FlxSprite.update","flixel/FlxSprite.hx",756,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_766_updateAnimation,"flixel.FlxSprite","updateAnimation",0x7e6eaab2,"flixel.FlxSprite.updateAnimation","flixel/FlxSprite.hx",766,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_772_checkEmptyFrame,"flixel.FlxSprite","checkEmptyFrame",0xe3dea03f,"flixel.FlxSprite.checkEmptyFrame","flixel/FlxSprite.hx",772,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_790_draw,"flixel.FlxSprite","draw",0xe68b7fad,"flixel.FlxSprite.draw","flixel/FlxSprite.hx",790,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_822_drawSimple,"flixel.FlxSprite","drawSimple",0x0dc977bf,"flixel.FlxSprite.drawSimple","flixel/FlxSprite.hx",822,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_833_drawComplex,"flixel.FlxSprite","drawComplex",0xcf4c0e03,"flixel.FlxSprite.drawComplex","flixel/FlxSprite.hx",833,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_868_stamp,"flixel.FlxSprite","stamp",0x77d9503a,"flixel.FlxSprite.stamp","flixel/FlxSprite.hx",868,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_915_drawFrame,"flixel.FlxSprite","drawFrame",0x99d67540,"flixel.FlxSprite.drawFrame","flixel/FlxSprite.hx",915,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_936_centerOffsets,"flixel.FlxSprite","centerOffsets",0x583e0f62,"flixel.FlxSprite.centerOffsets","flixel/FlxSprite.hx",936,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_952_centerOrigin,"flixel.FlxSprite","centerOrigin",0x4cbae644,"flixel.FlxSprite.centerOrigin","flixel/FlxSprite.hx",952,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_965_replaceColor,"flixel.FlxSprite","replaceColor",0x7b700138,"flixel.FlxSprite.replaceColor","flixel/FlxSprite.hx",965,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_987_setColorTransform,"flixel.FlxSprite","setColorTransform",0xa09a3582,"flixel.FlxSprite.setColorTransform","flixel/FlxSprite.hx",987,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_999_updateColorTransform,"flixel.FlxSprite","updateColorTransform",0x79f9051b,"flixel.FlxSprite.updateColorTransform","flixel/FlxSprite.hx",999,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1023_pixelsOverlapPoint,"flixel.FlxSprite","pixelsOverlapPoint",0x4c878b7f,"flixel.FlxSprite.pixelsOverlapPoint","flixel/FlxSprite.hx",1023,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1043_getPixelAt,"flixel.FlxSprite","getPixelAt",0xeaefab8c,"flixel.FlxSprite.getPixelAt","flixel/FlxSprite.hx",1043,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1066_getPixelAtScreen,"flixel.FlxSprite","getPixelAtScreen",0x58308c18,"flixel.FlxSprite.getPixelAtScreen","flixel/FlxSprite.hx",1066,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1089_transformWorldToPixels,"flixel.FlxSprite","transformWorldToPixels",0x1a2b2c57,"flixel.FlxSprite.transformWorldToPixels","flixel/FlxSprite.hx",1089,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1107_transformWorldToPixelsSimple,"flixel.FlxSprite","transformWorldToPixelsSimple",0x4bb2ffe9,"flixel.FlxSprite.transformWorldToPixelsSimple","flixel/FlxSprite.hx",1107,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1133_transformScreenToPixels,"flixel.FlxSprite","transformScreenToPixels",0x8dfcfb17,"flixel.FlxSprite.transformScreenToPixels","flixel/FlxSprite.hx",1133,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1156_calcFrame,"flixel.FlxSprite","calcFrame",0xc4d45b0f,"flixel.FlxSprite.calcFrame","flixel/FlxSprite.hx",1156,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1169_updateFramePixels,"flixel.FlxSprite","updateFramePixels",0x2cd43e68,"flixel.FlxSprite.updateFramePixels","flixel/FlxSprite.hx",1169,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1218_getGraphicMidpoint,"flixel.FlxSprite","getGraphicMidpoint",0xc420be03,"flixel.FlxSprite.getGraphicMidpoint","flixel/FlxSprite.hx",1218,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1232_isOnScreen,"flixel.FlxSprite","isOnScreen",0xb5403c5e,"flixel.FlxSprite.isOnScreen","flixel/FlxSprite.hx",1232,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1244_isSimpleRender,"flixel.FlxSprite","isSimpleRender",0x6aa0d51b,"flixel.FlxSprite.isSimpleRender","flixel/FlxSprite.hx",1244,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1260_isSimpleRenderBlit,"flixel.FlxSprite","isSimpleRenderBlit",0x4bf362f0,"flixel.FlxSprite.isSimpleRenderBlit","flixel/FlxSprite.hx",1260,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1276_getRotatedBounds,"flixel.FlxSprite","getRotatedBounds",0x9196bfb1,"flixel.FlxSprite.getRotatedBounds","flixel/FlxSprite.hx",1276,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1293_getScreenBounds,"flixel.FlxSprite","getScreenBounds",0x49d4cfae,"flixel.FlxSprite.getScreenBounds","flixel/FlxSprite.hx",1293,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1324_setFacingFlip,"flixel.FlxSprite","setFacingFlip",0x6816c060,"flixel.FlxSprite.setFacingFlip","flixel/FlxSprite.hx",1324,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1336_setFrames,"flixel.FlxSprite","setFrames",0xd774ec9f,"flixel.FlxSprite.setFrames","flixel/FlxSprite.hx",1336,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1373_get_pixels,"flixel.FlxSprite","get_pixels",0x90b8575f,"flixel.FlxSprite.get_pixels","flixel/FlxSprite.hx",1373,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1378_set_pixels,"flixel.FlxSprite","set_pixels",0x9435f5d3,"flixel.FlxSprite.set_pixels","flixel/FlxSprite.hx",1378,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1397_set_frame,"flixel.FlxSprite","set_frame",0xf8c58847,"flixel.FlxSprite.set_frame","flixel/FlxSprite.hx",1397,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1433_set_facing,"flixel.FlxSprite","set_facing",0xeb9145c0,"flixel.FlxSprite.set_facing","flixel/FlxSprite.hx",1433,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1446_set_alpha,"flixel.FlxSprite","set_alpha",0x13d8b778,"flixel.FlxSprite.set_alpha","flixel/FlxSprite.hx",1446,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1458_set_color,"flixel.FlxSprite","set_color",0x3c9e817d,"flixel.FlxSprite.set_color","flixel/FlxSprite.hx",1458,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1470_set_angle,"flixel.FlxSprite","set_angle",0x152453ed,"flixel.FlxSprite.set_angle","flixel/FlxSprite.hx",1470,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1484_updateTrig,"flixel.FlxSprite","updateTrig",0x193f7fee,"flixel.FlxSprite.updateTrig","flixel/FlxSprite.hx",1484,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1496_set_blend,"flixel.FlxSprite","set_blend",0xa736f86b,"flixel.FlxSprite.set_blend","flixel/FlxSprite.hx",1496,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1505_set_graphic,"flixel.FlxSprite","set_graphic",0x07012542,"flixel.FlxSprite.set_graphic","flixel/FlxSprite.hx",1505,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1524_set_clipRect,"flixel.FlxSprite","set_clipRect",0x60020c3a,"flixel.FlxSprite.set_clipRect","flixel/FlxSprite.hx",1524,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1545_set_frames,"flixel.FlxSprite","set_frames",0xb411b64c,"flixel.FlxSprite.set_frames","flixel/FlxSprite.hx",1545,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1571_get_numFrames,"flixel.FlxSprite","get_numFrames",0xb5763d9a,"flixel.FlxSprite.get_numFrames","flixel/FlxSprite.hx",1571,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1580_set_flipX,"flixel.FlxSprite","set_flipX",0xf4d45525,"flixel.FlxSprite.set_flipX","flixel/FlxSprite.hx",1580,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1591_set_flipY,"flixel.FlxSprite","set_flipY",0xf4d45526,"flixel.FlxSprite.set_flipY","flixel/FlxSprite.hx",1591,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1603_set_antialiasing,"flixel.FlxSprite","set_antialiasing",0xf8f29e1a,"flixel.FlxSprite.set_antialiasing","flixel/FlxSprite.hx",1603,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1609_set_useFramePixels,"flixel.FlxSprite","set_useFramePixels",0x72e62ad9,"flixel.FlxSprite.set_useFramePixels","flixel/FlxSprite.hx",1609,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1633_checkFlipX,"flixel.FlxSprite","checkFlipX",0x26093f8c,"flixel.FlxSprite.checkFlipX","flixel/FlxSprite.hx",1633,0x0384bffa)
+HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_1644_checkFlipY,"flixel.FlxSprite","checkFlipY",0x26093f8d,"flixel.FlxSprite.checkFlipY","flixel/FlxSprite.hx",1644,0x0384bffa)
 HX_LOCAL_STACK_FRAME(_hx_pos_cfd221447aa7194b_136_boot,"flixel.FlxSprite","boot",0xe536d7db,"flixel.FlxSprite.boot","flixel/FlxSprite.hx",136,0x0384bffa)
 namespace flixel{
 
@@ -209,12 +209,12 @@ void FlxSprite_obj::__construct( ::Dynamic __o_X, ::Dynamic __o_Y, ::Dynamic Sim
             		 ::Dynamic Y = __o_Y;
             		if (::hx::IsNull(__o_Y)) Y = 0;
             	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_129_new)
-HXLINE( 366)		this->_facingFlip =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-HXLINE( 360)		this->_angleChanged = true;
-HXLINE( 358)		this->_cosAngle = ((Float)1);
-HXLINE( 355)		this->_sinAngle = ((Float)0);
-HXLINE( 306)		this->_facingVerticalMult = 1;
-HXLINE( 304)		this->_facingHorizontalMult = 1;
+HXLINE( 362)		this->_facingFlip =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE( 356)		this->_angleChanged = true;
+HXLINE( 354)		this->_cosAngle = ((Float)1);
+HXLINE( 351)		this->_sinAngle = ((Float)0);
+HXLINE( 302)		this->_facingVerticalMult = 1;
+HXLINE( 300)		this->_facingHorizontalMult = 1;
 HXLINE( 271)		this->useColorTransform = false;
 HXLINE( 264)		this->color = 16777215;
 HXLINE( 231)		this->flipY = false;
@@ -227,10 +227,10 @@ HXLINE( 183)		this->frameWidth = 0;
 HXLINE( 167)		this->dirty = true;
 HXLINE( 161)		this->antialiasing = ::flixel::FlxSprite_obj::defaultAntialiasing;
 HXLINE( 156)		this->useFramePixels = true;
-HXLINE( 379)		super::__construct(X,Y,null(),null());
-HXLINE( 381)		this->set_useFramePixels(::flixel::FlxG_obj::renderBlit);
-HXLINE( 382)		if (::hx::IsNotNull( SimpleGraphic )) {
-HXLINE( 383)			this->loadGraphic(SimpleGraphic,null(),null(),null(),null(),null());
+HXLINE( 375)		super::__construct(X,Y,null(),null());
+HXLINE( 377)		this->set_useFramePixels(::flixel::FlxG_obj::renderBlit);
+HXLINE( 378)		if (::hx::IsNotNull( SimpleGraphic )) {
+HXLINE( 379)			this->loadGraphic(SimpleGraphic,null(),null(),null(),null(),null());
             		}
             	}
 
@@ -258,78 +258,78 @@ bool FlxSprite_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxSprite_obj::initVars(){
-            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_388_initVars)
-HXLINE( 389)		this->super::initVars();
-HXLINE( 391)		this->animation =  ::flixel::animation::FlxAnimationController_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 393)		this->_flashPoint =  ::openfl::geom::Point_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 394)		this->_flashRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
-HXLINE( 395)		this->_flashRect2 =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
-HXLINE( 396)		this->_flashPointZero =  ::openfl::geom::Point_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 397)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 397)		point->_inPool = false;
-HXDLIN( 397)		this->offset = point;
-HXLINE( 398)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 398)		point1->_inPool = false;
-HXDLIN( 398)		this->origin = point1;
-HXLINE( 399)		 ::flixel::math::FlxBasePoint point2 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(1,1);
-HXDLIN( 399)		point2->_inPool = false;
-HXDLIN( 399)		this->scale = point2;
-HXLINE( 400)		 ::flixel::math::FlxBasePoint point3 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 400)		point3->_inPool = false;
-HXDLIN( 400)		this->_halfSize = point3;
-HXLINE( 401)		this->_matrix =  ::flixel::math::FlxMatrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 402)		this->colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 403)		this->_scaledOrigin =  ::flixel::math::FlxBasePoint_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ));
+            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_384_initVars)
+HXLINE( 385)		this->super::initVars();
+HXLINE( 387)		this->animation =  ::flixel::animation::FlxAnimationController_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 389)		this->_flashPoint =  ::openfl::geom::Point_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 390)		this->_flashRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE( 391)		this->_flashRect2 =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE( 392)		this->_flashPointZero =  ::openfl::geom::Point_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 393)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 393)		point->_inPool = false;
+HXDLIN( 393)		this->offset = point;
+HXLINE( 394)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 394)		point1->_inPool = false;
+HXDLIN( 394)		this->origin = point1;
+HXLINE( 395)		 ::flixel::math::FlxBasePoint point2 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(1,1);
+HXDLIN( 395)		point2->_inPool = false;
+HXDLIN( 395)		this->scale = point2;
+HXLINE( 396)		 ::flixel::math::FlxBasePoint point3 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 396)		point3->_inPool = false;
+HXDLIN( 396)		this->_halfSize = point3;
+HXLINE( 397)		this->_matrix =  ::flixel::math::FlxMatrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE( 398)		this->colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE( 399)		this->_scaledOrigin =  ::flixel::math::FlxBasePoint_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ));
             	}
 
 
 void FlxSprite_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_417_destroy)
-HXLINE( 418)		this->super::destroy();
-HXLINE( 420)		this->animation = ( ( ::flixel::animation::FlxAnimationController)(::flixel::util::FlxDestroyUtil_obj::destroy(this->animation)) );
-HXLINE( 422)		this->offset = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->offset)) );
-HXLINE( 423)		this->origin = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->origin)) );
-HXLINE( 424)		this->scale = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->scale)) );
-HXLINE( 425)		this->_halfSize = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_halfSize)) );
-HXLINE( 426)		this->_scaledOrigin = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_scaledOrigin)) );
-HXLINE( 428)		this->framePixels = ::flixel::util::FlxDestroyUtil_obj::dispose(this->framePixels);
-HXLINE( 430)		this->_flashPoint = null();
-HXLINE( 431)		this->_flashRect = null();
-HXLINE( 432)		this->_flashRect2 = null();
-HXLINE( 433)		this->_flashPointZero = null();
-HXLINE( 434)		this->_matrix = null();
-HXLINE( 435)		this->colorTransform = null();
-HXLINE( 436)		this->set_blend(null());
-HXLINE( 438)		this->set_frames(null());
-HXLINE( 439)		this->set_graphic(null());
-HXLINE( 440)		this->_frame = ( ( ::flixel::graphics::frames::FlxFrame)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frame)) );
-HXLINE( 441)		this->_frameGraphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frameGraphic)) );
-HXLINE( 443)		this->shader = null();
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_413_destroy)
+HXLINE( 414)		this->super::destroy();
+HXLINE( 416)		this->animation = ( ( ::flixel::animation::FlxAnimationController)(::flixel::util::FlxDestroyUtil_obj::destroy(this->animation)) );
+HXLINE( 418)		this->offset = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->offset)) );
+HXLINE( 419)		this->origin = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->origin)) );
+HXLINE( 420)		this->scale = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->scale)) );
+HXLINE( 421)		this->_halfSize = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_halfSize)) );
+HXLINE( 422)		this->_scaledOrigin = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_scaledOrigin)) );
+HXLINE( 424)		this->framePixels = ::flixel::util::FlxDestroyUtil_obj::dispose(this->framePixels);
+HXLINE( 426)		this->_flashPoint = null();
+HXLINE( 427)		this->_flashRect = null();
+HXLINE( 428)		this->_flashRect2 = null();
+HXLINE( 429)		this->_flashPointZero = null();
+HXLINE( 430)		this->_matrix = null();
+HXLINE( 431)		this->colorTransform = null();
+HXLINE( 432)		this->set_blend(null());
+HXLINE( 434)		this->set_frames(null());
+HXLINE( 435)		this->set_graphic(null());
+HXLINE( 436)		this->_frame = ( ( ::flixel::graphics::frames::FlxFrame)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frame)) );
+HXLINE( 437)		this->_frameGraphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frameGraphic)) );
+HXLINE( 439)		this->shader = null();
             	}
 
 
  ::flixel::FlxSprite FlxSprite_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_448_clone)
-HXDLIN( 448)		return  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->loadGraphicFromSprite(::hx::ObjectPtr<OBJ_>(this));
+            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_444_clone)
+HXDLIN( 444)		return  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->loadGraphicFromSprite(::hx::ObjectPtr<OBJ_>(this));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,clone,return )
 
  ::flixel::FlxSprite FlxSprite_obj::loadGraphicFromSprite( ::flixel::FlxSprite Sprite){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_459_loadGraphicFromSprite)
-HXLINE( 460)		this->set_frames(Sprite->frames);
-HXLINE( 461)		this->bakedRotationAngle = Sprite->bakedRotationAngle;
-HXLINE( 462)		if ((this->bakedRotationAngle > 0)) {
-HXLINE( 464)			this->set_width(Sprite->get_width());
-HXLINE( 465)			this->set_height(Sprite->get_height());
-HXLINE( 466)			this->centerOffsets(null());
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_455_loadGraphicFromSprite)
+HXLINE( 456)		this->set_frames(Sprite->frames);
+HXLINE( 457)		this->bakedRotationAngle = Sprite->bakedRotationAngle;
+HXLINE( 458)		if ((this->bakedRotationAngle > 0)) {
+HXLINE( 460)			this->set_width(Sprite->get_width());
+HXLINE( 461)			this->set_height(Sprite->get_height());
+HXLINE( 462)			this->centerOffsets(null());
             		}
-HXLINE( 468)		this->set_antialiasing(Sprite->antialiasing);
-HXLINE( 469)		this->animation->copyFrom(Sprite->animation);
-HXLINE( 470)		this->graphicLoaded();
-HXLINE( 471)		this->set_clipRect(Sprite->clipRect);
-HXLINE( 472)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 464)		this->set_antialiasing(Sprite->antialiasing);
+HXLINE( 465)		this->animation->copyFrom(Sprite->animation);
+HXLINE( 466)		this->graphicLoaded();
+HXLINE( 467)		this->set_clipRect(Sprite->clipRect);
+HXLINE( 468)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -340,52 +340,52 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,loadGraphicFromSprite,return )
             		int frameWidth = __o_frameWidth.Default(0);
             		int frameHeight = __o_frameHeight.Default(0);
             		bool unique = __o_unique.Default(false);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_498_loadGraphic)
-HXLINE( 499)		 ::flixel::graphics::FlxGraphic graph = ::flixel::FlxG_obj::bitmap->add(graphic,unique,key);
-HXLINE( 500)		if (::hx::IsNull( graph )) {
-HXLINE( 501)			return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_494_loadGraphic)
+HXLINE( 495)		 ::flixel::graphics::FlxGraphic graph = ::flixel::FlxG_obj::bitmap->add(graphic,unique,key);
+HXLINE( 496)		if (::hx::IsNull( graph )) {
+HXLINE( 497)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 503)		if ((frameWidth == 0)) {
-HXLINE( 505)			if (animated) {
-HXLINE( 505)				frameWidth = graph->height;
+HXLINE( 499)		if ((frameWidth == 0)) {
+HXLINE( 501)			if (animated) {
+HXLINE( 501)				frameWidth = graph->height;
             			}
             			else {
-HXLINE( 505)				frameWidth = graph->width;
+HXLINE( 501)				frameWidth = graph->width;
             			}
-HXLINE( 506)			if ((frameWidth > graph->width)) {
-HXLINE( 506)				frameWidth = graph->width;
+HXLINE( 502)			if ((frameWidth > graph->width)) {
+HXLINE( 502)				frameWidth = graph->width;
             			}
             		}
             		else {
-HXLINE( 508)			if ((frameWidth > graph->width)) {
-HXLINE( 509)				::flixel::FlxG_obj::log->advanced((((HX_("frameWidth:",81,5b,44,2a) + frameWidth) + HX_(" is larger than the graphic's width:",7b,c4,23,c9)) + graph->width),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXLINE( 504)			if ((frameWidth > graph->width)) {
+HXLINE( 505)				::flixel::FlxG_obj::log->advanced((((HX_("frameWidth:",81,5b,44,2a) + frameWidth) + HX_(" is larger than the graphic's width:",7b,c4,23,c9)) + graph->width),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             			}
             		}
-HXLINE( 511)		if ((frameHeight == 0)) {
-HXLINE( 513)			if (animated) {
-HXLINE( 513)				frameHeight = frameWidth;
+HXLINE( 507)		if ((frameHeight == 0)) {
+HXLINE( 509)			if (animated) {
+HXLINE( 509)				frameHeight = frameWidth;
             			}
             			else {
-HXLINE( 513)				frameHeight = graph->height;
+HXLINE( 509)				frameHeight = graph->height;
             			}
-HXLINE( 514)			if ((frameHeight > graph->height)) {
-HXLINE( 514)				frameHeight = graph->height;
+HXLINE( 510)			if ((frameHeight > graph->height)) {
+HXLINE( 510)				frameHeight = graph->height;
             			}
             		}
             		else {
-HXLINE( 516)			if ((frameHeight > graph->height)) {
-HXLINE( 517)				::flixel::FlxG_obj::log->advanced((((HX_("frameHeight:",c6,a1,c5,a0) + frameHeight) + HX_(" is larger than the graphic's height:",8c,13,62,05)) + graph->height),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXLINE( 512)			if ((frameHeight > graph->height)) {
+HXLINE( 513)				::flixel::FlxG_obj::log->advanced((((HX_("frameHeight:",c6,a1,c5,a0) + frameHeight) + HX_(" is larger than the graphic's height:",8c,13,62,05)) + graph->height),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             			}
             		}
-HXLINE( 519)		if (animated) {
-HXLINE( 520)			 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(frameWidth,frameHeight);
-HXDLIN( 520)			point->_inPool = false;
-HXDLIN( 520)			this->set_frames(::flixel::graphics::frames::FlxTileFrames_obj::fromGraphic(graph,point,null(),null()));
+HXLINE( 515)		if (animated) {
+HXLINE( 516)			 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(frameWidth,frameHeight);
+HXDLIN( 516)			point->_inPool = false;
+HXDLIN( 516)			this->set_frames(::flixel::graphics::frames::FlxTileFrames_obj::fromGraphic(graph,point,null(),null()));
             		}
             		else {
-HXLINE( 522)			this->set_frames(graph->get_imageFrame());
+HXLINE( 518)			this->set_frames(graph->get_imageFrame());
             		}
-HXLINE( 524)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 520)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -396,59 +396,59 @@ HX_DEFINE_DYNAMIC_FUNC6(FlxSprite_obj,loadGraphic,return )
             		int Frame = __o_Frame.Default(-1);
             		bool AntiAliasing = __o_AntiAliasing.Default(false);
             		bool AutoBuffer = __o_AutoBuffer.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_545_loadRotatedGraphic)
-HXLINE( 546)		 ::flixel::graphics::FlxGraphic brushGraphic = ::flixel::FlxG_obj::bitmap->add(Graphic,false,Key);
-HXLINE( 547)		if (::hx::IsNull( brushGraphic )) {
-HXLINE( 548)			return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_541_loadRotatedGraphic)
+HXLINE( 542)		 ::flixel::graphics::FlxGraphic brushGraphic = ::flixel::FlxG_obj::bitmap->add(Graphic,false,Key);
+HXLINE( 543)		if (::hx::IsNull( brushGraphic )) {
+HXLINE( 544)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 550)		 ::openfl::display::BitmapData brush = brushGraphic->bitmap;
-HXLINE( 551)		::String key = brushGraphic->key;
-HXLINE( 553)		if ((Frame >= 0)) {
-HXLINE( 556)			int brushSize = brush->height;
-HXLINE( 557)			int framesNum = ::Std_obj::_hx_int((( (Float)(brush->width) ) / ( (Float)(brushSize) )));
-HXLINE( 558)			bool Frame1;
-HXDLIN( 558)			if ((framesNum <= Frame)) {
-HXLINE( 558)				Frame1 = (framesNum == 0);
+HXLINE( 546)		 ::openfl::display::BitmapData brush = brushGraphic->bitmap;
+HXLINE( 547)		::String key = brushGraphic->key;
+HXLINE( 549)		if ((Frame >= 0)) {
+HXLINE( 552)			int brushSize = brush->height;
+HXLINE( 553)			int framesNum = ::Std_obj::_hx_int((( (Float)(brush->width) ) / ( (Float)(brushSize) )));
+HXLINE( 554)			bool Frame1;
+HXDLIN( 554)			if ((framesNum <= Frame)) {
+HXLINE( 554)				Frame1 = (framesNum == 0);
             			}
             			else {
-HXLINE( 558)				Frame1 = true;
+HXLINE( 554)				Frame1 = true;
             			}
-HXDLIN( 558)			if (!(Frame1)) {
-HXLINE( 558)				Frame = ::hx::Mod(Frame,framesNum);
+HXDLIN( 554)			if (!(Frame1)) {
+HXLINE( 554)				Frame = ::hx::Mod(Frame,framesNum);
             			}
-HXLINE( 559)			key = (key + (HX_(":",3a,00,00,00) + Frame));
-HXLINE( 561)			 ::openfl::display::BitmapData full = brush;
-HXLINE( 562)			brush =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,brushSize,brushSize,true,0);
-HXLINE( 563)			this->_flashRect->setTo(( (Float)((Frame * brushSize)) ),( (Float)(0) ),( (Float)(brushSize) ),( (Float)(brushSize) ));
-HXLINE( 564)			brush->copyPixels(full,this->_flashRect,this->_flashPointZero,null(),null(),null());
+HXLINE( 555)			key = (key + (HX_(":",3a,00,00,00) + Frame));
+HXLINE( 557)			 ::openfl::display::BitmapData full = brush;
+HXLINE( 558)			brush =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,brushSize,brushSize,true,0);
+HXLINE( 559)			this->_flashRect->setTo(( (Float)((Frame * brushSize)) ),( (Float)(0) ),( (Float)(brushSize) ),( (Float)(brushSize) ));
+HXLINE( 560)			brush->copyPixels(full,this->_flashRect,this->_flashPointZero,null(),null(),null());
             		}
-HXLINE( 567)		key = (key + (((HX_(":",3a,00,00,00) + Rotations) + HX_(":",3a,00,00,00)) + ::Std_obj::string(AutoBuffer)));
-HXLINE( 570)		 ::flixel::graphics::FlxGraphic tempGraph = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE( 571)		if (::hx::IsNull( tempGraph )) {
-HXLINE( 573)			 ::openfl::display::BitmapData bitmap = ::flixel::util::FlxBitmapDataUtil_obj::generateRotations(brush,Rotations,AntiAliasing,AutoBuffer);
-HXLINE( 574)			tempGraph = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(bitmap,false,key,null());
+HXLINE( 563)		key = (key + (((HX_(":",3a,00,00,00) + Rotations) + HX_(":",3a,00,00,00)) + ::Std_obj::string(AutoBuffer)));
+HXLINE( 566)		 ::flixel::graphics::FlxGraphic tempGraph = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE( 567)		if (::hx::IsNull( tempGraph )) {
+HXLINE( 569)			 ::openfl::display::BitmapData bitmap = ::flixel::util::FlxBitmapDataUtil_obj::generateRotations(brush,Rotations,AntiAliasing,AutoBuffer);
+HXLINE( 570)			tempGraph = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(bitmap,false,key,null());
             		}
-HXLINE( 577)		int max;
-HXDLIN( 577)		if ((brush->height > brush->width)) {
-HXLINE( 577)			max = brush->height;
+HXLINE( 573)		int max;
+HXDLIN( 573)		if ((brush->height > brush->width)) {
+HXLINE( 573)			max = brush->height;
             		}
             		else {
-HXLINE( 577)			max = brush->width;
+HXLINE( 573)			max = brush->width;
             		}
+HXLINE( 574)		if (AutoBuffer) {
+HXLINE( 574)			max = ::Std_obj::_hx_int((( (Float)(max) ) * ((Float)1.5)));
+            		}
+HXLINE( 576)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(max,max);
+HXDLIN( 576)		point->_inPool = false;
+HXDLIN( 576)		this->set_frames(::flixel::graphics::frames::FlxTileFrames_obj::fromGraphic(tempGraph,point,null(),null()));
 HXLINE( 578)		if (AutoBuffer) {
-HXLINE( 578)			max = ::Std_obj::_hx_int((( (Float)(max) ) * ((Float)1.5)));
+HXLINE( 580)			this->set_width(( (Float)(brush->width) ));
+HXLINE( 581)			this->set_height(( (Float)(brush->height) ));
+HXLINE( 582)			this->centerOffsets(null());
             		}
-HXLINE( 580)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(max,max);
-HXDLIN( 580)		point->_inPool = false;
-HXDLIN( 580)		this->set_frames(::flixel::graphics::frames::FlxTileFrames_obj::fromGraphic(tempGraph,point,null(),null()));
-HXLINE( 582)		if (AutoBuffer) {
-HXLINE( 584)			this->set_width(( (Float)(brush->width) ));
-HXLINE( 585)			this->set_height(( (Float)(brush->height) ));
-HXLINE( 586)			this->centerOffsets(null());
-            		}
-HXLINE( 589)		this->bakedRotationAngle = (( (Float)(360) ) / ( (Float)(Rotations) ));
-HXLINE( 590)		this->animation->createPrerotated(null());
-HXLINE( 591)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 585)		this->bakedRotationAngle = (( (Float)(360) ) / ( (Float)(Rotations) ));
+HXLINE( 586)		this->animation->createPrerotated(null());
+HXLINE( 587)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -458,36 +458,36 @@ HX_DEFINE_DYNAMIC_FUNC6(FlxSprite_obj,loadRotatedGraphic,return )
             		int Rotations = __o_Rotations.Default(16);
             		bool AntiAliasing = __o_AntiAliasing.Default(false);
             		bool AutoBuffer = __o_AutoBuffer.Default(false);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_606_loadRotatedFrame)
-HXLINE( 607)		::String key = Frame->parent->key;
-HXLINE( 608)		if (::hx::IsNotNull( Frame->name )) {
-HXLINE( 609)			key = (key + (HX_(":",3a,00,00,00) + Frame->name));
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_602_loadRotatedFrame)
+HXLINE( 603)		::String key = Frame->parent->key;
+HXLINE( 604)		if (::hx::IsNotNull( Frame->name )) {
+HXLINE( 605)			key = (key + (HX_(":",3a,00,00,00) + Frame->name));
             		}
             		else {
-HXLINE( 611)			 ::flixel::math::FlxRect _this = Frame->frame;
-HXDLIN( 611)			 ::Dynamic value = _this->x;
-HXDLIN( 611)			 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 611)			_this1->label = HX_("x",78,00,00,00);
-HXDLIN( 611)			_this1->value = value;
-HXDLIN( 611)			 ::Dynamic value1 = _this->y;
-HXDLIN( 611)			 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 611)			_this2->label = HX_("y",79,00,00,00);
-HXDLIN( 611)			_this2->value = value1;
-HXDLIN( 611)			 ::Dynamic value2 = _this->width;
-HXDLIN( 611)			 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 611)			_this3->label = HX_("w",77,00,00,00);
-HXDLIN( 611)			_this3->value = value2;
-HXDLIN( 611)			 ::Dynamic value3 = _this->height;
-HXDLIN( 611)			 ::flixel::util::LabelValuePair _this4 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 611)			_this4->label = HX_("h",68,00,00,00);
-HXDLIN( 611)			_this4->value = value3;
-HXDLIN( 611)			key = (key + (HX_(":",3a,00,00,00) + ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(4)->init(0,_this1)->init(1,_this2)->init(2,_this3)->init(3,_this4))));
+HXLINE( 607)			 ::flixel::math::FlxRect _this = Frame->frame;
+HXDLIN( 607)			 ::Dynamic value = _this->x;
+HXDLIN( 607)			 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 607)			_this1->label = HX_("x",78,00,00,00);
+HXDLIN( 607)			_this1->value = value;
+HXDLIN( 607)			 ::Dynamic value1 = _this->y;
+HXDLIN( 607)			 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 607)			_this2->label = HX_("y",79,00,00,00);
+HXDLIN( 607)			_this2->value = value1;
+HXDLIN( 607)			 ::Dynamic value2 = _this->width;
+HXDLIN( 607)			 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 607)			_this3->label = HX_("w",77,00,00,00);
+HXDLIN( 607)			_this3->value = value2;
+HXDLIN( 607)			 ::Dynamic value3 = _this->height;
+HXDLIN( 607)			 ::flixel::util::LabelValuePair _this4 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 607)			_this4->label = HX_("h",68,00,00,00);
+HXDLIN( 607)			_this4->value = value3;
+HXDLIN( 607)			key = (key + (HX_(":",3a,00,00,00) + ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(4)->init(0,_this1)->init(1,_this2)->init(2,_this3)->init(3,_this4))));
             		}
-HXLINE( 613)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE( 614)		if (::hx::IsNull( graphic )) {
-HXLINE( 615)			graphic = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(Frame->paint(null(),null(),null(),null()),false,key,null());
+HXLINE( 609)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE( 610)		if (::hx::IsNull( graphic )) {
+HXLINE( 611)			graphic = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(Frame->paint(null(),null(),null(),null()),false,key,null());
             		}
-HXLINE( 617)		return this->loadRotatedGraphic(graphic,Rotations,-1,AntiAliasing,AutoBuffer,null());
+HXLINE( 613)		return this->loadRotatedGraphic(graphic,Rotations,-1,AntiAliasing,AutoBuffer,null());
             	}
 
 
@@ -496,50 +496,50 @@ HX_DEFINE_DYNAMIC_FUNC4(FlxSprite_obj,loadRotatedFrame,return )
  ::flixel::FlxSprite FlxSprite_obj::makeGraphic(int Width,int Height,::hx::Null< int >  __o_Color,::hx::Null< bool >  __o_Unique,::String Key){
             		int Color = __o_Color.Default(-1);
             		bool Unique = __o_Unique.Default(false);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_643_makeGraphic)
-HXLINE( 644)		 ::flixel::graphics::FlxGraphic graph = ::flixel::FlxG_obj::bitmap->create(Width,Height,Color,Unique,Key);
-HXLINE( 645)		this->set_frames(graph->get_imageFrame());
-HXLINE( 646)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_639_makeGraphic)
+HXLINE( 640)		 ::flixel::graphics::FlxGraphic graph = ::flixel::FlxG_obj::bitmap->create(Width,Height,Color,Unique,Key);
+HXLINE( 641)		this->set_frames(graph->get_imageFrame());
+HXLINE( 642)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC5(FlxSprite_obj,makeGraphic,return )
 
 void FlxSprite_obj::graphicLoaded(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_652_graphicLoaded)
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_648_graphicLoaded)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,graphicLoaded,(void))
 
 void FlxSprite_obj::resetSize(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_658_resetSize)
-HXLINE( 659)		this->_flashRect->x = ( (Float)(0) );
-HXLINE( 660)		this->_flashRect->y = ( (Float)(0) );
-HXLINE( 661)		this->_flashRect->width = ( (Float)(this->frameWidth) );
-HXLINE( 662)		this->_flashRect->height = ( (Float)(this->frameHeight) );
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_654_resetSize)
+HXLINE( 655)		this->_flashRect->x = ( (Float)(0) );
+HXLINE( 656)		this->_flashRect->y = ( (Float)(0) );
+HXLINE( 657)		this->_flashRect->width = ( (Float)(this->frameWidth) );
+HXLINE( 658)		this->_flashRect->height = ( (Float)(this->frameHeight) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,resetSize,(void))
 
 void FlxSprite_obj::resetFrameSize(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_669_resetFrameSize)
-HXLINE( 670)		if (::hx::IsNotNull( this->frame )) {
-HXLINE( 672)			this->frameWidth = ::Std_obj::_hx_int(this->frame->sourceSize->x);
-HXLINE( 673)			this->frameHeight = ::Std_obj::_hx_int(this->frame->sourceSize->y);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_665_resetFrameSize)
+HXLINE( 666)		if (::hx::IsNotNull( this->frame )) {
+HXLINE( 668)			this->frameWidth = ::Std_obj::_hx_int(this->frame->sourceSize->x);
+HXLINE( 669)			this->frameHeight = ::Std_obj::_hx_int(this->frame->sourceSize->y);
             		}
-HXLINE( 675)		{
-HXLINE( 675)			 ::flixel::math::FlxBasePoint this1 = this->_halfSize;
-HXDLIN( 675)			Float y = (((Float)0.5) * ( (Float)(this->frameHeight) ));
-HXDLIN( 675)			this1->set_x((((Float)0.5) * ( (Float)(this->frameWidth) )));
-HXDLIN( 675)			this1->set_y(y);
+HXLINE( 671)		{
+HXLINE( 671)			 ::flixel::math::FlxBasePoint this1 = this->_halfSize;
+HXDLIN( 671)			Float y = (((Float)0.5) * ( (Float)(this->frameHeight) ));
+HXDLIN( 671)			this1->set_x((((Float)0.5) * ( (Float)(this->frameWidth) )));
+HXDLIN( 671)			this1->set_y(y);
             		}
-HXLINE( 676)		{
-HXLINE( 676)			this->_flashRect->x = ( (Float)(0) );
-HXDLIN( 676)			this->_flashRect->y = ( (Float)(0) );
-HXDLIN( 676)			this->_flashRect->width = ( (Float)(this->frameWidth) );
-HXDLIN( 676)			this->_flashRect->height = ( (Float)(this->frameHeight) );
+HXLINE( 672)		{
+HXLINE( 672)			this->_flashRect->x = ( (Float)(0) );
+HXDLIN( 672)			this->_flashRect->y = ( (Float)(0) );
+HXDLIN( 672)			this->_flashRect->width = ( (Float)(this->frameWidth) );
+HXDLIN( 672)			this->_flashRect->height = ( (Float)(this->frameHeight) );
             		}
             	}
 
@@ -547,17 +547,17 @@ HXDLIN( 676)			this->_flashRect->height = ( (Float)(this->frameHeight) );
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,resetFrameSize,(void))
 
 void FlxSprite_obj::resetSizeFromFrame(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_683_resetSizeFromFrame)
-HXLINE( 684)		this->set_width(( (Float)(this->frameWidth) ));
-HXLINE( 685)		this->set_height(( (Float)(this->frameHeight) ));
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_679_resetSizeFromFrame)
+HXLINE( 680)		this->set_width(( (Float)(this->frameWidth) ));
+HXLINE( 681)		this->set_height(( (Float)(this->frameHeight) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,resetSizeFromFrame,(void))
 
 void FlxSprite_obj::resetFrame(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_696_resetFrame)
-HXDLIN( 696)		this->set_frame(this->frame);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_692_resetFrame)
+HXDLIN( 692)		this->set_frame(this->frame);
             	}
 
 
@@ -566,30 +566,30 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,resetFrame,(void))
 void FlxSprite_obj::setGraphicSize(::hx::Null< Float >  __o_width,::hx::Null< Float >  __o_height){
             		Float width = __o_width.Default(((Float)0.0));
             		Float height = __o_height.Default(((Float)0.0));
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_707_setGraphicSize)
-HXLINE( 708)		bool _hx_tmp;
-HXDLIN( 708)		if ((width <= 0)) {
-HXLINE( 708)			_hx_tmp = (height <= 0);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_703_setGraphicSize)
+HXLINE( 704)		bool _hx_tmp;
+HXDLIN( 704)		if ((width <= 0)) {
+HXLINE( 704)			_hx_tmp = (height <= 0);
             		}
             		else {
-HXLINE( 708)			_hx_tmp = false;
+HXLINE( 704)			_hx_tmp = false;
             		}
-HXDLIN( 708)		if (_hx_tmp) {
-HXLINE( 709)			return;
+HXDLIN( 704)		if (_hx_tmp) {
+HXLINE( 705)			return;
             		}
-HXLINE( 711)		Float newScaleX = (width / ( (Float)(this->frameWidth) ));
-HXLINE( 712)		Float newScaleY = (height / ( (Float)(this->frameHeight) ));
-HXLINE( 713)		{
-HXLINE( 713)			 ::flixel::math::FlxBasePoint this1 = this->scale;
-HXDLIN( 713)			this1->set_x(newScaleX);
-HXDLIN( 713)			this1->set_y(newScaleY);
+HXLINE( 707)		Float newScaleX = (width / ( (Float)(this->frameWidth) ));
+HXLINE( 708)		Float newScaleY = (height / ( (Float)(this->frameHeight) ));
+HXLINE( 709)		{
+HXLINE( 709)			 ::flixel::math::FlxBasePoint this1 = this->scale;
+HXDLIN( 709)			this1->set_x(newScaleX);
+HXDLIN( 709)			this1->set_y(newScaleY);
             		}
-HXLINE( 715)		if ((width <= 0)) {
-HXLINE( 716)			this->scale->set_x(newScaleY);
+HXLINE( 711)		if ((width <= 0)) {
+HXLINE( 712)			this->scale->set_x(newScaleY);
             		}
             		else {
-HXLINE( 717)			if ((height <= 0)) {
-HXLINE( 718)				this->scale->set_y(newScaleX);
+HXLINE( 713)			if ((height <= 0)) {
+HXLINE( 714)				this->scale->set_y(newScaleX);
             			}
             		}
             	}
@@ -598,23 +598,23 @@ HXLINE( 718)				this->scale->set_y(newScaleX);
 HX_DEFINE_DYNAMIC_FUNC2(FlxSprite_obj,setGraphicSize,(void))
 
 void FlxSprite_obj::updateHitbox(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_726_updateHitbox)
-HXLINE( 727)		this->set_width((::Math_obj::abs(this->scale->x) * ( (Float)(this->frameWidth) )));
-HXLINE( 728)		this->set_height((::Math_obj::abs(this->scale->y) * ( (Float)(this->frameHeight) )));
-HXLINE( 729)		{
-HXLINE( 729)			 ::flixel::math::FlxBasePoint this1 = this->offset;
-HXDLIN( 729)			Float x = this->get_width();
-HXDLIN( 729)			Float x1 = (((Float)-0.5) * (x - ( (Float)(this->frameWidth) )));
-HXDLIN( 729)			Float y = this->get_height();
-HXDLIN( 729)			Float y1 = (((Float)-0.5) * (y - ( (Float)(this->frameHeight) )));
-HXDLIN( 729)			this1->set_x(x1);
-HXDLIN( 729)			this1->set_y(y1);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_722_updateHitbox)
+HXLINE( 723)		this->set_width((::Math_obj::abs(this->scale->x) * ( (Float)(this->frameWidth) )));
+HXLINE( 724)		this->set_height((::Math_obj::abs(this->scale->y) * ( (Float)(this->frameHeight) )));
+HXLINE( 725)		{
+HXLINE( 725)			 ::flixel::math::FlxBasePoint this1 = this->offset;
+HXDLIN( 725)			Float x = this->get_width();
+HXDLIN( 725)			Float x1 = (((Float)-0.5) * (x - ( (Float)(this->frameWidth) )));
+HXDLIN( 725)			Float y = this->get_height();
+HXDLIN( 725)			Float y1 = (((Float)-0.5) * (y - ( (Float)(this->frameHeight) )));
+HXDLIN( 725)			this1->set_x(x1);
+HXDLIN( 725)			this1->set_y(y1);
             		}
-HXLINE( 730)		{
-HXLINE( 730)			 ::flixel::math::FlxBasePoint this2 = this->origin;
-HXDLIN( 730)			Float y2 = (( (Float)(this->frameHeight) ) * ((Float)0.5));
-HXDLIN( 730)			this2->set_x((( (Float)(this->frameWidth) ) * ((Float)0.5)));
-HXDLIN( 730)			this2->set_y(y2);
+HXLINE( 726)		{
+HXLINE( 726)			 ::flixel::math::FlxBasePoint this2 = this->origin;
+HXDLIN( 726)			Float y2 = (( (Float)(this->frameHeight) ) * ((Float)0.5));
+HXDLIN( 726)			this2->set_x((( (Float)(this->frameWidth) ) * ((Float)0.5)));
+HXDLIN( 726)			this2->set_y(y2);
             		}
             	}
 
@@ -622,44 +622,44 @@ HXDLIN( 730)			this2->set_y(y2);
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,updateHitbox,(void))
 
 void FlxSprite_obj::resetHelpers(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_738_resetHelpers)
-HXLINE( 739)		{
-HXLINE( 739)			if (::hx::IsNotNull( this->frame )) {
-HXLINE( 739)				this->frameWidth = ::Std_obj::_hx_int(this->frame->sourceSize->x);
-HXDLIN( 739)				this->frameHeight = ::Std_obj::_hx_int(this->frame->sourceSize->y);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_734_resetHelpers)
+HXLINE( 735)		{
+HXLINE( 735)			if (::hx::IsNotNull( this->frame )) {
+HXLINE( 735)				this->frameWidth = ::Std_obj::_hx_int(this->frame->sourceSize->x);
+HXDLIN( 735)				this->frameHeight = ::Std_obj::_hx_int(this->frame->sourceSize->y);
             			}
-HXDLIN( 739)			{
-HXLINE( 739)				 ::flixel::math::FlxBasePoint this1 = this->_halfSize;
-HXDLIN( 739)				Float y = (((Float)0.5) * ( (Float)(this->frameHeight) ));
-HXDLIN( 739)				this1->set_x((((Float)0.5) * ( (Float)(this->frameWidth) )));
-HXDLIN( 739)				this1->set_y(y);
+HXDLIN( 735)			{
+HXLINE( 735)				 ::flixel::math::FlxBasePoint this1 = this->_halfSize;
+HXDLIN( 735)				Float y = (((Float)0.5) * ( (Float)(this->frameHeight) ));
+HXDLIN( 735)				this1->set_x((((Float)0.5) * ( (Float)(this->frameWidth) )));
+HXDLIN( 735)				this1->set_y(y);
             			}
-HXDLIN( 739)			{
-HXLINE( 739)				this->_flashRect->x = ( (Float)(0) );
-HXDLIN( 739)				this->_flashRect->y = ( (Float)(0) );
-HXDLIN( 739)				this->_flashRect->width = ( (Float)(this->frameWidth) );
-HXDLIN( 739)				this->_flashRect->height = ( (Float)(this->frameHeight) );
+HXDLIN( 735)			{
+HXLINE( 735)				this->_flashRect->x = ( (Float)(0) );
+HXDLIN( 735)				this->_flashRect->y = ( (Float)(0) );
+HXDLIN( 735)				this->_flashRect->width = ( (Float)(this->frameWidth) );
+HXDLIN( 735)				this->_flashRect->height = ( (Float)(this->frameHeight) );
             			}
             		}
-HXLINE( 740)		{
-HXLINE( 740)			this->set_width(( (Float)(this->frameWidth) ));
-HXDLIN( 740)			this->set_height(( (Float)(this->frameHeight) ));
+HXLINE( 736)		{
+HXLINE( 736)			this->set_width(( (Float)(this->frameWidth) ));
+HXDLIN( 736)			this->set_height(( (Float)(this->frameHeight) ));
             		}
-HXLINE( 741)		this->_flashRect2->x = ( (Float)(0) );
-HXLINE( 742)		this->_flashRect2->y = ( (Float)(0) );
-HXLINE( 744)		if (::hx::IsNotNull( this->graphic )) {
-HXLINE( 746)			this->_flashRect2->width = ( (Float)(this->graphic->width) );
-HXLINE( 747)			this->_flashRect2->height = ( (Float)(this->graphic->height) );
+HXLINE( 737)		this->_flashRect2->x = ( (Float)(0) );
+HXLINE( 738)		this->_flashRect2->y = ( (Float)(0) );
+HXLINE( 740)		if (::hx::IsNotNull( this->graphic )) {
+HXLINE( 742)			this->_flashRect2->width = ( (Float)(this->graphic->width) );
+HXLINE( 743)			this->_flashRect2->height = ( (Float)(this->graphic->height) );
             		}
-HXLINE( 750)		{
-HXLINE( 750)			 ::flixel::math::FlxBasePoint this2 = this->origin;
-HXDLIN( 750)			Float y1 = (( (Float)(this->frameHeight) ) * ((Float)0.5));
-HXDLIN( 750)			this2->set_x((( (Float)(this->frameWidth) ) * ((Float)0.5)));
-HXDLIN( 750)			this2->set_y(y1);
+HXLINE( 746)		{
+HXLINE( 746)			 ::flixel::math::FlxBasePoint this2 = this->origin;
+HXDLIN( 746)			Float y1 = (( (Float)(this->frameHeight) ) * ((Float)0.5));
+HXDLIN( 746)			this2->set_x((( (Float)(this->frameWidth) ) * ((Float)0.5)));
+HXDLIN( 746)			this2->set_y(y1);
             		}
-HXLINE( 752)		if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 754)			this->dirty = true;
-HXLINE( 755)			this->updateFramePixels();
+HXLINE( 748)		if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 750)			this->dirty = true;
+HXLINE( 751)			this->updateFramePixels();
             		}
             	}
 
@@ -667,24 +667,41 @@ HXLINE( 755)			this->updateFramePixels();
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,resetHelpers,(void))
 
 void FlxSprite_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_760_update)
-HXLINE( 761)		this->super::update(elapsed);
-HXLINE( 762)		this->updateAnimation(elapsed);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_756_update)
+HXLINE( 757)		this->super::update(elapsed);
+HXLINE( 758)		this->updateAnimation(elapsed);
             	}
 
 
 void FlxSprite_obj::updateAnimation(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_770_updateAnimation)
-HXDLIN( 770)		this->animation->update(elapsed);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_766_updateAnimation)
+HXDLIN( 766)		this->animation->update(elapsed);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,updateAnimation,(void))
 
 void FlxSprite_obj::checkEmptyFrame(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_776_checkEmptyFrame)
-HXDLIN( 776)		if (::hx::IsNull( this->_frame )) {
-HXLINE( 777)			this->loadGraphic(HX_("flixel/images/logo/default.png",1c,39,3e,0e),null(),null(),null(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_772_checkEmptyFrame)
+HXDLIN( 772)		if (::hx::IsNull( this->_frame )) {
+HXLINE( 773)			this->loadGraphic(HX_("flixel/images/logo/default.png",1c,39,3e,0e),null(),null(),null(),null(),null());
+            		}
+            		else {
+HXLINE( 774)			bool _hx_tmp;
+HXDLIN( 774)			if (::hx::IsNotNull( this->graphic )) {
+HXLINE( 774)				_hx_tmp = ::hx::IsNull( this->graphic->shader );
+            			}
+            			else {
+HXLINE( 774)				_hx_tmp = false;
+            			}
+HXDLIN( 774)			if (_hx_tmp) {
+HXLINE( 777)				Float width = this->get_width();
+HXLINE( 778)				Float height = this->get_height();
+HXLINE( 779)				::flixel::FlxG_obj::log->advanced(HX_("Cannot render a destroyed graphic, the placeholder image will be used instead",38,ee,6c,03),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+HXLINE( 780)				this->loadGraphic(HX_("flixel/images/logo/default.png",1c,39,3e,0e),null(),null(),null(),null(),null());
+HXLINE( 781)				this->set_width(width);
+HXLINE( 782)				this->set_height(height);
+            			}
             		}
             	}
 
@@ -692,49 +709,49 @@ HXLINE( 777)			this->loadGraphic(HX_("flixel/images/logo/default.png",1c,39,3e,0
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,checkEmptyFrame,(void))
 
 void FlxSprite_obj::draw(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_784_draw)
-HXLINE( 785)		this->checkEmptyFrame();
-HXLINE( 787)		bool _hx_tmp;
-HXDLIN( 787)		if ((this->alpha != 0)) {
-HXLINE( 787)			_hx_tmp = (this->_frame->type == 2);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_790_draw)
+HXLINE( 791)		this->checkEmptyFrame();
+HXLINE( 793)		bool _hx_tmp;
+HXDLIN( 793)		if ((this->alpha != 0)) {
+HXLINE( 793)			_hx_tmp = (this->_frame->type == 2);
             		}
             		else {
-HXLINE( 787)			_hx_tmp = true;
+HXLINE( 793)			_hx_tmp = true;
             		}
-HXDLIN( 787)		if (_hx_tmp) {
-HXLINE( 788)			return;
+HXDLIN( 793)		if (_hx_tmp) {
+HXLINE( 794)			return;
             		}
-HXLINE( 790)		if (this->dirty) {
-HXLINE( 791)			this->calcFrame(this->useFramePixels);
+HXLINE( 796)		if (this->dirty) {
+HXLINE( 797)			this->calcFrame(this->useFramePixels);
             		}
-HXLINE( 793)		{
-HXLINE( 793)			int _g = 0;
-HXDLIN( 793)			::Array< ::Dynamic> _g1 = this->get_cameras();
-HXDLIN( 793)			while((_g < _g1->length)){
-HXLINE( 793)				 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
-HXDLIN( 793)				_g = (_g + 1);
-HXLINE( 795)				bool _hx_tmp1;
-HXDLIN( 795)				bool _hx_tmp2;
-HXDLIN( 795)				if (camera->visible) {
-HXLINE( 795)					_hx_tmp2 = !(camera->exists);
+HXLINE( 799)		{
+HXLINE( 799)			int _g = 0;
+HXDLIN( 799)			::Array< ::Dynamic> _g1 = this->get_cameras();
+HXDLIN( 799)			while((_g < _g1->length)){
+HXLINE( 799)				 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
+HXDLIN( 799)				_g = (_g + 1);
+HXLINE( 801)				bool _hx_tmp1;
+HXDLIN( 801)				bool _hx_tmp2;
+HXDLIN( 801)				if (camera->visible) {
+HXLINE( 801)					_hx_tmp2 = !(camera->exists);
             				}
             				else {
-HXLINE( 795)					_hx_tmp2 = true;
+HXLINE( 801)					_hx_tmp2 = true;
             				}
-HXDLIN( 795)				if (!(_hx_tmp2)) {
-HXLINE( 795)					_hx_tmp1 = !(this->isOnScreen(camera));
-            				}
-            				else {
-HXLINE( 795)					_hx_tmp1 = true;
-            				}
-HXDLIN( 795)				if (_hx_tmp1) {
-HXLINE( 796)					continue;
-            				}
-HXLINE( 798)				if (this->isSimpleRender(camera)) {
-HXLINE( 799)					this->drawSimple(camera);
+HXDLIN( 801)				if (!(_hx_tmp2)) {
+HXLINE( 801)					_hx_tmp1 = !(this->isOnScreen(camera));
             				}
             				else {
-HXLINE( 801)					this->drawComplex(camera);
+HXLINE( 801)					_hx_tmp1 = true;
+            				}
+HXDLIN( 801)				if (_hx_tmp1) {
+HXLINE( 802)					continue;
+            				}
+HXLINE( 804)				if (this->isSimpleRender(camera)) {
+HXLINE( 805)					this->drawSimple(camera);
+            				}
+            				else {
+HXLINE( 807)					this->drawComplex(camera);
             				}
             			}
             		}
@@ -742,106 +759,106 @@ HXLINE( 801)					this->drawComplex(camera);
 
 
 void FlxSprite_obj::drawSimple( ::flixel::FlxCamera camera){
-            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_816_drawSimple)
-HXLINE( 817)		{
-HXLINE( 817)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
-HXDLIN( 817)			 ::flixel::math::FlxBasePoint point = this->offset;
-HXDLIN( 817)			{
-HXLINE( 817)				Float y = point->y;
-HXDLIN( 817)				this1->set_x((this1->x - point->x));
-HXDLIN( 817)				this1->set_y((this1->y - y));
+            	HX_GC_STACKFRAME(&_hx_pos_cfd221447aa7194b_822_drawSimple)
+HXLINE( 823)		{
+HXLINE( 823)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
+HXDLIN( 823)			 ::flixel::math::FlxBasePoint point = this->offset;
+HXDLIN( 823)			{
+HXLINE( 823)				Float y = point->y;
+HXDLIN( 823)				this1->set_x((this1->x - point->x));
+HXDLIN( 823)				this1->set_y((this1->y - y));
             			}
-HXDLIN( 817)			if (point->_weak) {
-HXLINE( 817)				point->put();
+HXDLIN( 823)			if (point->_weak) {
+HXLINE( 823)				point->put();
             			}
             		}
-HXLINE( 818)		if (this->isPixelPerfectRender(camera)) {
-HXLINE( 819)			 ::flixel::math::FlxBasePoint this2 = this->_point;
-HXDLIN( 819)			this2->set_x(( (Float)(::Math_obj::floor(this2->x)) ));
-HXDLIN( 819)			this2->set_y(( (Float)(::Math_obj::floor(this2->y)) ));
+HXLINE( 824)		if (this->isPixelPerfectRender(camera)) {
+HXLINE( 825)			 ::flixel::math::FlxBasePoint this2 = this->_point;
+HXDLIN( 825)			this2->set_x(( (Float)(::Math_obj::floor(this2->x)) ));
+HXDLIN( 825)			this2->set_y(( (Float)(::Math_obj::floor(this2->y)) ));
             		}
-HXLINE( 821)		{
-HXLINE( 821)			 ::flixel::math::FlxBasePoint this3 = this->_point;
-HXDLIN( 821)			 ::openfl::geom::Point p = this->_flashPoint;
-HXDLIN( 821)			if (::hx::IsNull( p )) {
-HXLINE( 821)				p =  ::openfl::geom::Point_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 827)		{
+HXLINE( 827)			 ::flixel::math::FlxBasePoint this3 = this->_point;
+HXDLIN( 827)			 ::openfl::geom::Point p = this->_flashPoint;
+HXDLIN( 827)			if (::hx::IsNull( p )) {
+HXLINE( 827)				p =  ::openfl::geom::Point_obj::__alloc( HX_CTX ,null(),null());
             			}
-HXDLIN( 821)			p->x = this3->x;
-HXDLIN( 821)			p->y = this3->y;
+HXDLIN( 827)			p->x = this3->x;
+HXDLIN( 827)			p->y = this3->y;
             		}
-HXLINE( 822)		camera->copyPixels(this->_frame,this->framePixels,this->_flashRect,this->_flashPoint,this->colorTransform,this->blend,this->antialiasing,null());
+HXLINE( 828)		camera->copyPixels(this->_frame,this->framePixels,this->_flashRect,this->_flashPoint,this->colorTransform,this->blend,this->antialiasing,null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,drawSimple,(void))
 
 void FlxSprite_obj::drawComplex( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_827_drawComplex)
-HXLINE( 828)		bool doFlipX = (this->flipX != this->_frame->flipX);
-HXDLIN( 828)		bool _hx_tmp;
-HXDLIN( 828)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE( 828)			_hx_tmp = (doFlipX != this->animation->_curAnim->flipX);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_833_drawComplex)
+HXLINE( 834)		bool doFlipX = (this->flipX != this->_frame->flipX);
+HXDLIN( 834)		bool _hx_tmp;
+HXDLIN( 834)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE( 834)			_hx_tmp = (doFlipX != this->animation->_curAnim->flipX);
             		}
             		else {
-HXLINE( 828)			_hx_tmp = doFlipX;
+HXLINE( 834)			_hx_tmp = doFlipX;
             		}
-HXDLIN( 828)		bool doFlipY = (this->flipY != this->_frame->flipY);
-HXDLIN( 828)		bool _hx_tmp1;
-HXDLIN( 828)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE( 828)			_hx_tmp1 = (doFlipY != this->animation->_curAnim->flipY);
+HXDLIN( 834)		bool doFlipY = (this->flipY != this->_frame->flipY);
+HXDLIN( 834)		bool _hx_tmp1;
+HXDLIN( 834)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE( 834)			_hx_tmp1 = (doFlipY != this->animation->_curAnim->flipY);
             		}
             		else {
-HXLINE( 828)			_hx_tmp1 = doFlipY;
+HXLINE( 834)			_hx_tmp1 = doFlipY;
             		}
-HXDLIN( 828)		this->_frame->prepareMatrix(this->_matrix,0,_hx_tmp,_hx_tmp1);
-HXLINE( 829)		this->_matrix->translate(-(this->origin->x),-(this->origin->y));
-HXLINE( 830)		this->_matrix->scale(this->scale->x,this->scale->y);
-HXLINE( 832)		if ((this->bakedRotationAngle <= 0)) {
-HXLINE( 834)			if (this->_angleChanged) {
-HXLINE( 834)				Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
-HXDLIN( 834)				this->_sinAngle = ::Math_obj::sin(radians);
-HXDLIN( 834)				this->_cosAngle = ::Math_obj::cos(radians);
-HXDLIN( 834)				this->_angleChanged = false;
+HXDLIN( 834)		this->_frame->prepareMatrix(this->_matrix,0,_hx_tmp,_hx_tmp1);
+HXLINE( 835)		this->_matrix->translate(-(this->origin->x),-(this->origin->y));
+HXLINE( 836)		this->_matrix->scale(this->scale->x,this->scale->y);
+HXLINE( 838)		if ((this->bakedRotationAngle <= 0)) {
+HXLINE( 840)			if (this->_angleChanged) {
+HXLINE( 840)				Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
+HXDLIN( 840)				this->_sinAngle = ::Math_obj::sin(radians);
+HXDLIN( 840)				this->_cosAngle = ::Math_obj::cos(radians);
+HXDLIN( 840)				this->_angleChanged = false;
             			}
-HXLINE( 836)			if ((this->angle != 0)) {
-HXLINE( 837)				 ::flixel::math::FlxMatrix _this = this->_matrix;
-HXDLIN( 837)				Float cos = this->_cosAngle;
-HXDLIN( 837)				Float sin = this->_sinAngle;
-HXDLIN( 837)				Float a1 = ((_this->a * cos) - (_this->b * sin));
-HXDLIN( 837)				_this->b = ((_this->a * sin) + (_this->b * cos));
-HXDLIN( 837)				_this->a = a1;
-HXDLIN( 837)				Float c1 = ((_this->c * cos) - (_this->d * sin));
-HXDLIN( 837)				_this->d = ((_this->c * sin) + (_this->d * cos));
-HXDLIN( 837)				_this->c = c1;
-HXDLIN( 837)				Float tx1 = ((_this->tx * cos) - (_this->ty * sin));
-HXDLIN( 837)				_this->ty = ((_this->tx * sin) + (_this->ty * cos));
-HXDLIN( 837)				_this->tx = tx1;
-            			}
-            		}
-HXLINE( 840)		{
-HXLINE( 840)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
-HXDLIN( 840)			 ::flixel::math::FlxBasePoint point = this->offset;
-HXDLIN( 840)			{
-HXLINE( 840)				Float y = point->y;
-HXDLIN( 840)				this1->set_x((this1->x - point->x));
-HXDLIN( 840)				this1->set_y((this1->y - y));
-            			}
-HXDLIN( 840)			if (point->_weak) {
-HXLINE( 840)				point->put();
+HXLINE( 842)			if ((this->angle != 0)) {
+HXLINE( 843)				 ::flixel::math::FlxMatrix _this = this->_matrix;
+HXDLIN( 843)				Float cos = this->_cosAngle;
+HXDLIN( 843)				Float sin = this->_sinAngle;
+HXDLIN( 843)				Float a1 = ((_this->a * cos) - (_this->b * sin));
+HXDLIN( 843)				_this->b = ((_this->a * sin) + (_this->b * cos));
+HXDLIN( 843)				_this->a = a1;
+HXDLIN( 843)				Float c1 = ((_this->c * cos) - (_this->d * sin));
+HXDLIN( 843)				_this->d = ((_this->c * sin) + (_this->d * cos));
+HXDLIN( 843)				_this->c = c1;
+HXDLIN( 843)				Float tx1 = ((_this->tx * cos) - (_this->ty * sin));
+HXDLIN( 843)				_this->ty = ((_this->tx * sin) + (_this->ty * cos));
+HXDLIN( 843)				_this->tx = tx1;
             			}
             		}
-HXLINE( 841)		{
-HXLINE( 841)			 ::flixel::math::FlxBasePoint this2 = this->_point;
-HXDLIN( 841)			Float y1 = this->origin->y;
-HXDLIN( 841)			this2->set_x((this2->x + this->origin->x));
-HXDLIN( 841)			this2->set_y((this2->y + y1));
+HXLINE( 846)		{
+HXLINE( 846)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
+HXDLIN( 846)			 ::flixel::math::FlxBasePoint point = this->offset;
+HXDLIN( 846)			{
+HXLINE( 846)				Float y = point->y;
+HXDLIN( 846)				this1->set_x((this1->x - point->x));
+HXDLIN( 846)				this1->set_y((this1->y - y));
+            			}
+HXDLIN( 846)			if (point->_weak) {
+HXLINE( 846)				point->put();
+            			}
             		}
-HXLINE( 842)		this->_matrix->translate(this->_point->x,this->_point->y);
-HXLINE( 844)		if (this->isPixelPerfectRender(camera)) {
-HXLINE( 846)			this->_matrix->tx = ( (Float)(::Math_obj::floor(this->_matrix->tx)) );
-HXLINE( 847)			this->_matrix->ty = ( (Float)(::Math_obj::floor(this->_matrix->ty)) );
+HXLINE( 847)		{
+HXLINE( 847)			 ::flixel::math::FlxBasePoint this2 = this->_point;
+HXDLIN( 847)			Float y1 = this->origin->y;
+HXDLIN( 847)			this2->set_x((this2->x + this->origin->x));
+HXDLIN( 847)			this2->set_y((this2->y + y1));
             		}
-HXLINE( 850)		camera->drawPixels(this->_frame,this->framePixels,this->_matrix,this->colorTransform,this->blend,this->antialiasing,this->shader);
+HXLINE( 848)		this->_matrix->translate(this->_point->x,this->_point->y);
+HXLINE( 850)		if (this->isPixelPerfectRender(camera)) {
+HXLINE( 852)			this->_matrix->tx = ( (Float)(::Math_obj::floor(this->_matrix->tx)) );
+HXLINE( 853)			this->_matrix->ty = ( (Float)(::Math_obj::floor(this->_matrix->ty)) );
+            		}
+HXLINE( 856)		camera->drawPixels(this->_frame,this->framePixels,this->_matrix,this->colorTransform,this->blend,this->antialiasing,this->shader);
             	}
 
 
@@ -850,42 +867,42 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,drawComplex,(void))
 void FlxSprite_obj::stamp( ::flixel::FlxSprite Brush,::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y){
             		int X = __o_X.Default(0);
             		int Y = __o_Y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_862_stamp)
-HXLINE( 863)		Brush->drawFrame(null());
-HXLINE( 865)		bool _hx_tmp;
-HXDLIN( 865)		if (::hx::IsNotNull( this->graphic )) {
-HXLINE( 865)			_hx_tmp = ::hx::IsNull( Brush->graphic );
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_868_stamp)
+HXLINE( 869)		Brush->drawFrame(null());
+HXLINE( 871)		bool _hx_tmp;
+HXDLIN( 871)		if (::hx::IsNotNull( this->graphic )) {
+HXLINE( 871)			_hx_tmp = ::hx::IsNull( Brush->graphic );
             		}
             		else {
-HXLINE( 865)			_hx_tmp = true;
+HXLINE( 871)			_hx_tmp = true;
             		}
-HXDLIN( 865)		if (_hx_tmp) {
-HXLINE( 866)			HX_STACK_DO_THROW(HX_("Cannot stamp to or from a FlxSprite with no graphics.",72,0b,d4,aa));
+HXDLIN( 871)		if (_hx_tmp) {
+HXLINE( 872)			HX_STACK_DO_THROW(HX_("Cannot stamp to or from a FlxSprite with no graphics.",72,0b,d4,aa));
             		}
-HXLINE( 868)		 ::openfl::display::BitmapData bitmapData = Brush->framePixels;
-HXLINE( 870)		if (this->isSimpleRenderBlit(null())) {
-HXLINE( 872)			this->_flashPoint->x = (X + this->frame->frame->x);
-HXLINE( 873)			this->_flashPoint->y = (Y + this->frame->frame->y);
-HXLINE( 874)			this->_flashRect2->width = ( (Float)(bitmapData->width) );
-HXLINE( 875)			this->_flashRect2->height = ( (Float)(bitmapData->height) );
-HXLINE( 876)			this->graphic->bitmap->copyPixels(bitmapData,this->_flashRect2,this->_flashPoint,null(),null(),true);
-HXLINE( 877)			this->_flashRect2->width = ( (Float)(this->graphic->bitmap->width) );
-HXLINE( 878)			this->_flashRect2->height = ( (Float)(this->graphic->bitmap->height) );
+HXLINE( 874)		 ::openfl::display::BitmapData bitmapData = Brush->framePixels;
+HXLINE( 876)		if (this->isSimpleRenderBlit(null())) {
+HXLINE( 878)			this->_flashPoint->x = (X + this->frame->frame->x);
+HXLINE( 879)			this->_flashPoint->y = (Y + this->frame->frame->y);
+HXLINE( 880)			this->_flashRect2->width = ( (Float)(bitmapData->width) );
+HXLINE( 881)			this->_flashRect2->height = ( (Float)(bitmapData->height) );
+HXLINE( 882)			this->graphic->bitmap->copyPixels(bitmapData,this->_flashRect2,this->_flashPoint,null(),null(),true);
+HXLINE( 883)			this->_flashRect2->width = ( (Float)(this->graphic->bitmap->width) );
+HXLINE( 884)			this->_flashRect2->height = ( (Float)(this->graphic->bitmap->height) );
             		}
             		else {
-HXLINE( 882)			this->_matrix->identity();
-HXLINE( 883)			this->_matrix->translate(-(Brush->origin->x),-(Brush->origin->y));
-HXLINE( 884)			this->_matrix->scale(Brush->scale->x,Brush->scale->y);
-HXLINE( 885)			if ((Brush->angle != 0)) {
-HXLINE( 887)				this->_matrix->rotate((Brush->angle * (::Math_obj::PI / ( (Float)(180) ))));
+HXLINE( 888)			this->_matrix->identity();
+HXLINE( 889)			this->_matrix->translate(-(Brush->origin->x),-(Brush->origin->y));
+HXLINE( 890)			this->_matrix->scale(Brush->scale->x,Brush->scale->y);
+HXLINE( 891)			if ((Brush->angle != 0)) {
+HXLINE( 893)				this->_matrix->rotate((Brush->angle * (::Math_obj::PI / ( (Float)(180) ))));
             			}
-HXLINE( 889)			this->_matrix->translate(((X + this->frame->frame->x) + Brush->origin->x),((Y + this->frame->frame->y) + Brush->origin->y));
-HXLINE( 890)			 ::Dynamic brushBlend = Brush->blend;
-HXLINE( 891)			this->graphic->bitmap->draw(bitmapData,this->_matrix,null(),brushBlend,null(),Brush->antialiasing);
+HXLINE( 895)			this->_matrix->translate(((X + this->frame->frame->x) + Brush->origin->x),((Y + this->frame->frame->y) + Brush->origin->y));
+HXLINE( 896)			 ::Dynamic brushBlend = Brush->blend;
+HXLINE( 897)			this->graphic->bitmap->draw(bitmapData,this->_matrix,null(),brushBlend,null(),Brush->antialiasing);
             		}
-HXLINE( 894)		if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 896)			this->dirty = true;
-HXLINE( 897)			this->calcFrame(null());
+HXLINE( 900)		if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 902)			this->dirty = true;
+HXLINE( 903)			this->calcFrame(null());
             		}
             	}
 
@@ -894,23 +911,23 @@ HX_DEFINE_DYNAMIC_FUNC3(FlxSprite_obj,stamp,(void))
 
 void FlxSprite_obj::drawFrame(::hx::Null< bool >  __o_Force){
             		bool Force = __o_Force.Default(false);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_909_drawFrame)
-HXDLIN( 909)		if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 911)			bool _hx_tmp;
-HXDLIN( 911)			if (!(Force)) {
-HXLINE( 911)				_hx_tmp = this->dirty;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_915_drawFrame)
+HXDLIN( 915)		if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 917)			bool _hx_tmp;
+HXDLIN( 917)			if (!(Force)) {
+HXLINE( 917)				_hx_tmp = this->dirty;
             			}
             			else {
-HXLINE( 911)				_hx_tmp = true;
+HXLINE( 917)				_hx_tmp = true;
             			}
-HXDLIN( 911)			if (_hx_tmp) {
-HXLINE( 913)				this->dirty = true;
-HXLINE( 914)				this->calcFrame(null());
+HXDLIN( 917)			if (_hx_tmp) {
+HXLINE( 919)				this->dirty = true;
+HXLINE( 920)				this->calcFrame(null());
             			}
             		}
             		else {
-HXLINE( 919)			this->dirty = true;
-HXLINE( 920)			this->calcFrame(true);
+HXLINE( 925)			this->dirty = true;
+HXLINE( 926)			this->calcFrame(true);
             		}
             	}
 
@@ -919,20 +936,20 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,drawFrame,(void))
 
 void FlxSprite_obj::centerOffsets(::hx::Null< bool >  __o_AdjustPosition){
             		bool AdjustPosition = __o_AdjustPosition.Default(false);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_930_centerOffsets)
-HXLINE( 931)		{
-HXLINE( 931)			 ::flixel::math::FlxBasePoint this1 = this->offset;
-HXDLIN( 931)			int x = this->frameWidth;
-HXDLIN( 931)			this1->set_x(((( (Float)(x) ) - this->get_width()) * ((Float)0.5)));
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_936_centerOffsets)
+HXLINE( 937)		{
+HXLINE( 937)			 ::flixel::math::FlxBasePoint this1 = this->offset;
+HXDLIN( 937)			int x = this->frameWidth;
+HXDLIN( 937)			this1->set_x(((( (Float)(x) ) - this->get_width()) * ((Float)0.5)));
             		}
-HXLINE( 932)		{
-HXLINE( 932)			 ::flixel::math::FlxBasePoint this2 = this->offset;
-HXDLIN( 932)			int y = this->frameHeight;
-HXDLIN( 932)			this2->set_y(((( (Float)(y) ) - this->get_height()) * ((Float)0.5)));
+HXLINE( 938)		{
+HXLINE( 938)			 ::flixel::math::FlxBasePoint this2 = this->offset;
+HXDLIN( 938)			int y = this->frameHeight;
+HXDLIN( 938)			this2->set_y(((( (Float)(y) ) - this->get_height()) * ((Float)0.5)));
             		}
-HXLINE( 933)		if (AdjustPosition) {
-HXLINE( 935)			this->set_x((this->x + this->offset->x));
-HXLINE( 936)			this->set_y((this->y + this->offset->y));
+HXLINE( 939)		if (AdjustPosition) {
+HXLINE( 941)			this->set_x((this->x + this->offset->x));
+HXLINE( 942)			this->set_y((this->y + this->offset->y));
             		}
             	}
 
@@ -940,11 +957,11 @@ HXLINE( 936)			this->set_y((this->y + this->offset->y));
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,centerOffsets,(void))
 
 void FlxSprite_obj::centerOrigin(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_946_centerOrigin)
-HXDLIN( 946)		 ::flixel::math::FlxBasePoint this1 = this->origin;
-HXDLIN( 946)		Float y = (( (Float)(this->frameHeight) ) * ((Float)0.5));
-HXDLIN( 946)		this1->set_x((( (Float)(this->frameWidth) ) * ((Float)0.5)));
-HXDLIN( 946)		this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_952_centerOrigin)
+HXDLIN( 952)		 ::flixel::math::FlxBasePoint this1 = this->origin;
+HXDLIN( 952)		Float y = (( (Float)(this->frameHeight) ) * ((Float)0.5));
+HXDLIN( 952)		this1->set_x((( (Float)(this->frameWidth) ) * ((Float)0.5)));
+HXDLIN( 952)		this1->set_y(y);
             	}
 
 
@@ -952,12 +969,12 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,centerOrigin,(void))
 
 ::Array< ::Dynamic> FlxSprite_obj::replaceColor(int Color,int NewColor,::hx::Null< bool >  __o_FetchPositions){
             		bool FetchPositions = __o_FetchPositions.Default(false);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_959_replaceColor)
-HXLINE( 960)		::Array< ::Dynamic> positions = ::flixel::util::FlxBitmapDataUtil_obj::replaceColor(this->graphic->bitmap,Color,NewColor,FetchPositions,null());
-HXLINE( 961)		if (::hx::IsNotNull( positions )) {
-HXLINE( 962)			this->dirty = true;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_965_replaceColor)
+HXLINE( 966)		::Array< ::Dynamic> positions = ::flixel::util::FlxBitmapDataUtil_obj::replaceColor(this->graphic->bitmap,Color,NewColor,FetchPositions,null());
+HXLINE( 967)		if (::hx::IsNotNull( positions )) {
+HXLINE( 968)			this->dirty = true;
             		}
-HXLINE( 963)		return positions;
+HXLINE( 969)		return positions;
             	}
 
 
@@ -972,122 +989,122 @@ void FlxSprite_obj::setColorTransform(::hx::Null< Float >  __o_redMultiplier,::h
             		Float greenOffset = __o_greenOffset.Default(((Float)0.0));
             		Float blueOffset = __o_blueOffset.Default(((Float)0.0));
             		Float alphaOffset = __o_alphaOffset.Default(((Float)0.0));
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_981_setColorTransform)
-HXLINE( 982)		Float Alpha = ( (Float)(1) );
-HXDLIN( 982)		int color = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
-HXDLIN( 982)		{
-HXLINE( 982)			int Value = ::Math_obj::round((redMultiplier * ( (Float)(255) )));
-HXDLIN( 982)			color = (color & -16711681);
-HXDLIN( 982)			int color1;
-HXDLIN( 982)			if ((Value > 255)) {
-HXLINE( 982)				color1 = 255;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_987_setColorTransform)
+HXLINE( 988)		Float Alpha = ( (Float)(1) );
+HXDLIN( 988)		int color = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
+HXDLIN( 988)		{
+HXLINE( 988)			int Value = ::Math_obj::round((redMultiplier * ( (Float)(255) )));
+HXDLIN( 988)			color = (color & -16711681);
+HXDLIN( 988)			int color1;
+HXDLIN( 988)			if ((Value > 255)) {
+HXLINE( 988)				color1 = 255;
             			}
             			else {
-HXLINE( 982)				if ((Value < 0)) {
-HXLINE( 982)					color1 = 0;
+HXLINE( 988)				if ((Value < 0)) {
+HXLINE( 988)					color1 = 0;
             				}
             				else {
-HXLINE( 982)					color1 = Value;
+HXLINE( 988)					color1 = Value;
             				}
             			}
-HXDLIN( 982)			color = (color | (color1 << 16));
+HXDLIN( 988)			color = (color | (color1 << 16));
             		}
-HXDLIN( 982)		{
-HXLINE( 982)			int Value1 = ::Math_obj::round((greenMultiplier * ( (Float)(255) )));
-HXDLIN( 982)			color = (color & -65281);
-HXDLIN( 982)			int color2;
-HXDLIN( 982)			if ((Value1 > 255)) {
-HXLINE( 982)				color2 = 255;
+HXDLIN( 988)		{
+HXLINE( 988)			int Value1 = ::Math_obj::round((greenMultiplier * ( (Float)(255) )));
+HXDLIN( 988)			color = (color & -65281);
+HXDLIN( 988)			int color2;
+HXDLIN( 988)			if ((Value1 > 255)) {
+HXLINE( 988)				color2 = 255;
             			}
             			else {
-HXLINE( 982)				if ((Value1 < 0)) {
-HXLINE( 982)					color2 = 0;
+HXLINE( 988)				if ((Value1 < 0)) {
+HXLINE( 988)					color2 = 0;
             				}
             				else {
-HXLINE( 982)					color2 = Value1;
+HXLINE( 988)					color2 = Value1;
             				}
             			}
-HXDLIN( 982)			color = (color | (color2 << 8));
+HXDLIN( 988)			color = (color | (color2 << 8));
             		}
-HXDLIN( 982)		{
-HXLINE( 982)			int Value2 = ::Math_obj::round((blueMultiplier * ( (Float)(255) )));
-HXDLIN( 982)			color = (color & -256);
-HXDLIN( 982)			int color3;
-HXDLIN( 982)			if ((Value2 > 255)) {
-HXLINE( 982)				color3 = 255;
+HXDLIN( 988)		{
+HXLINE( 988)			int Value2 = ::Math_obj::round((blueMultiplier * ( (Float)(255) )));
+HXDLIN( 988)			color = (color & -256);
+HXDLIN( 988)			int color3;
+HXDLIN( 988)			if ((Value2 > 255)) {
+HXLINE( 988)				color3 = 255;
             			}
             			else {
-HXLINE( 982)				if ((Value2 < 0)) {
-HXLINE( 982)					color3 = 0;
+HXLINE( 988)				if ((Value2 < 0)) {
+HXLINE( 988)					color3 = 0;
             				}
             				else {
-HXLINE( 982)					color3 = Value2;
+HXLINE( 988)					color3 = Value2;
             				}
             			}
-HXDLIN( 982)			color = (color | color3);
+HXDLIN( 988)			color = (color | color3);
             		}
-HXDLIN( 982)		{
-HXLINE( 982)			int Value3 = ::Math_obj::round((Alpha * ( (Float)(255) )));
-HXDLIN( 982)			color = (color & 16777215);
-HXDLIN( 982)			int color4;
-HXDLIN( 982)			if ((Value3 > 255)) {
-HXLINE( 982)				color4 = 255;
+HXDLIN( 988)		{
+HXLINE( 988)			int Value3 = ::Math_obj::round((Alpha * ( (Float)(255) )));
+HXDLIN( 988)			color = (color & 16777215);
+HXDLIN( 988)			int color4;
+HXDLIN( 988)			if ((Value3 > 255)) {
+HXLINE( 988)				color4 = 255;
             			}
             			else {
-HXLINE( 982)				if ((Value3 < 0)) {
-HXLINE( 982)					color4 = 0;
+HXLINE( 988)				if ((Value3 < 0)) {
+HXLINE( 988)					color4 = 0;
             				}
             				else {
-HXLINE( 982)					color4 = Value3;
+HXLINE( 988)					color4 = Value3;
             				}
             			}
-HXDLIN( 982)			color = (color | (color4 << 24));
+HXDLIN( 988)			color = (color | (color4 << 24));
             		}
-HXDLIN( 982)		this->set_color((color & 16777215));
-HXLINE( 983)		this->set_alpha(alphaMultiplier);
-HXLINE( 985)		::flixel::util::FlxColorTransformUtil_obj::setMultipliers(this->colorTransform,redMultiplier,greenMultiplier,blueMultiplier,alphaMultiplier);
-HXLINE( 986)		::flixel::util::FlxColorTransformUtil_obj::setOffsets(this->colorTransform,redOffset,greenOffset,blueOffset,alphaOffset);
-HXLINE( 988)		bool _hx_tmp;
-HXDLIN( 988)		bool _hx_tmp1;
-HXDLIN( 988)		if ((this->alpha == 1)) {
-HXLINE( 988)			_hx_tmp1 = (this->color != 16777215);
+HXDLIN( 988)		this->set_color((color & 16777215));
+HXLINE( 989)		this->set_alpha(alphaMultiplier);
+HXLINE( 991)		::flixel::util::FlxColorTransformUtil_obj::setMultipliers(this->colorTransform,redMultiplier,greenMultiplier,blueMultiplier,alphaMultiplier);
+HXLINE( 992)		::flixel::util::FlxColorTransformUtil_obj::setOffsets(this->colorTransform,redOffset,greenOffset,blueOffset,alphaOffset);
+HXLINE( 994)		bool _hx_tmp;
+HXDLIN( 994)		bool _hx_tmp1;
+HXDLIN( 994)		if ((this->alpha == 1)) {
+HXLINE( 994)			_hx_tmp1 = (this->color != 16777215);
             		}
             		else {
-HXLINE( 988)			_hx_tmp1 = true;
+HXLINE( 994)			_hx_tmp1 = true;
             		}
-HXDLIN( 988)		if (!(_hx_tmp1)) {
-HXLINE( 988)			_hx_tmp = ::flixel::util::FlxColorTransformUtil_obj::hasRGBOffsets(this->colorTransform);
+HXDLIN( 994)		if (!(_hx_tmp1)) {
+HXLINE( 994)			_hx_tmp = ::flixel::util::FlxColorTransformUtil_obj::hasRGBOffsets(this->colorTransform);
             		}
             		else {
-HXLINE( 988)			_hx_tmp = true;
+HXLINE( 994)			_hx_tmp = true;
             		}
-HXDLIN( 988)		this->useColorTransform = _hx_tmp;
-HXLINE( 989)		this->dirty = true;
+HXDLIN( 994)		this->useColorTransform = _hx_tmp;
+HXLINE( 995)		this->dirty = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC8(FlxSprite_obj,setColorTransform,(void))
 
 void FlxSprite_obj::updateColorTransform(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_993_updateColorTransform)
-HXLINE( 994)		if (::hx::IsNull( this->colorTransform )) {
-HXLINE( 995)			return;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_999_updateColorTransform)
+HXLINE(1000)		if (::hx::IsNull( this->colorTransform )) {
+HXLINE(1001)			return;
             		}
-HXLINE( 997)		bool _hx_tmp;
-HXDLIN( 997)		if ((this->alpha == 1)) {
-HXLINE( 997)			_hx_tmp = (this->color != 16777215);
-            		}
-            		else {
-HXLINE( 997)			_hx_tmp = true;
-            		}
-HXDLIN( 997)		this->useColorTransform = _hx_tmp;
-HXLINE( 998)		if (this->useColorTransform) {
-HXLINE( 999)			::flixel::util::FlxColorTransformUtil_obj::setMultipliers(this->colorTransform,(( (Float)(((this->color >> 16) & 255)) ) / ( (Float)(255) )),(( (Float)(((this->color >> 8) & 255)) ) / ( (Float)(255) )),(( (Float)((this->color & 255)) ) / ( (Float)(255) )),this->alpha);
+HXLINE(1003)		bool _hx_tmp;
+HXDLIN(1003)		if ((this->alpha == 1)) {
+HXLINE(1003)			_hx_tmp = (this->color != 16777215);
             		}
             		else {
-HXLINE(1001)			::flixel::util::FlxColorTransformUtil_obj::setMultipliers(this->colorTransform,( (Float)(1) ),( (Float)(1) ),( (Float)(1) ),( (Float)(1) ));
+HXLINE(1003)			_hx_tmp = true;
             		}
-HXLINE(1003)		this->dirty = true;
+HXDLIN(1003)		this->useColorTransform = _hx_tmp;
+HXLINE(1004)		if (this->useColorTransform) {
+HXLINE(1005)			::flixel::util::FlxColorTransformUtil_obj::setMultipliers(this->colorTransform,(( (Float)(((this->color >> 16) & 255)) ) / ( (Float)(255) )),(( (Float)(((this->color >> 8) & 255)) ) / ( (Float)(255) )),(( (Float)((this->color & 255)) ) / ( (Float)(255) )),this->alpha);
+            		}
+            		else {
+HXLINE(1007)			::flixel::util::FlxColorTransformUtil_obj::setMultipliers(this->colorTransform,( (Float)(1) ),( (Float)(1) ),( (Float)(1) ),( (Float)(1) ));
+            		}
+HXLINE(1009)		this->dirty = true;
             	}
 
 
@@ -1095,249 +1112,249 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,updateColorTransform,(void))
 
 bool FlxSprite_obj::pixelsOverlapPoint( ::flixel::math::FlxBasePoint worldPoint,::hx::Null< int >  __o_alphaTolerance, ::flixel::FlxCamera camera){
             		int alphaTolerance = __o_alphaTolerance.Default(255);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1017_pixelsOverlapPoint)
-HXLINE(1018)		 ::Dynamic pixelColor = this->getPixelAt(worldPoint,camera);
-HXLINE(1020)		if (::hx::IsNotNull( pixelColor )) {
-HXLINE(1021)			return ((( (Float)(((( (int)(pixelColor) ) >> 24) & 255)) ) * this->alpha) >= alphaTolerance);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1023_pixelsOverlapPoint)
+HXLINE(1024)		 ::Dynamic pixelColor = this->getPixelAt(worldPoint,camera);
+HXLINE(1026)		if (::hx::IsNotNull( pixelColor )) {
+HXLINE(1027)			return ((( (Float)(((( (int)(pixelColor) ) >> 24) & 255)) ) * this->alpha) >= alphaTolerance);
             		}
-HXLINE(1024)		return false;
+HXLINE(1030)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxSprite_obj,pixelsOverlapPoint,return )
 
  ::Dynamic FlxSprite_obj::getPixelAt( ::flixel::math::FlxBasePoint worldPoint, ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1037_getPixelAt)
-HXLINE(1038)		this->transformWorldToPixels(worldPoint,camera,this->_point);
-HXLINE(1041)		bool _hx_tmp;
-HXDLIN(1041)		bool _hx_tmp1;
-HXDLIN(1041)		bool _hx_tmp2;
-HXDLIN(1041)		if ((this->_point->x >= 0)) {
-HXLINE(1041)			_hx_tmp2 = (this->_point->x <= this->frameWidth);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1043_getPixelAt)
+HXLINE(1044)		this->transformWorldToPixels(worldPoint,camera,this->_point);
+HXLINE(1047)		bool _hx_tmp;
+HXDLIN(1047)		bool _hx_tmp1;
+HXDLIN(1047)		bool _hx_tmp2;
+HXDLIN(1047)		if ((this->_point->x >= 0)) {
+HXLINE(1047)			_hx_tmp2 = (this->_point->x <= this->frameWidth);
             		}
             		else {
-HXLINE(1041)			_hx_tmp2 = false;
+HXLINE(1047)			_hx_tmp2 = false;
             		}
-HXDLIN(1041)		if (_hx_tmp2) {
-HXLINE(1041)			_hx_tmp1 = (this->_point->y >= 0);
-            		}
-            		else {
-HXLINE(1041)			_hx_tmp1 = false;
-            		}
-HXDLIN(1041)		if (_hx_tmp1) {
-HXLINE(1041)			_hx_tmp = (this->_point->y <= this->frameHeight);
+HXDLIN(1047)		if (_hx_tmp2) {
+HXLINE(1047)			_hx_tmp1 = (this->_point->y >= 0);
             		}
             		else {
-HXLINE(1041)			_hx_tmp = false;
+HXLINE(1047)			_hx_tmp1 = false;
             		}
-HXDLIN(1041)		if (_hx_tmp) {
-HXLINE(1043)			 ::openfl::display::BitmapData frameData = this->updateFramePixels();
-HXLINE(1044)			int _hx_tmp3 = ::Std_obj::_hx_int(this->_point->x);
-HXDLIN(1044)			return frameData->getPixel32(_hx_tmp3,::Std_obj::_hx_int(this->_point->y));
+HXDLIN(1047)		if (_hx_tmp1) {
+HXLINE(1047)			_hx_tmp = (this->_point->y <= this->frameHeight);
             		}
-HXLINE(1047)		return null();
+            		else {
+HXLINE(1047)			_hx_tmp = false;
+            		}
+HXDLIN(1047)		if (_hx_tmp) {
+HXLINE(1049)			 ::openfl::display::BitmapData frameData = this->updateFramePixels();
+HXLINE(1050)			int _hx_tmp3 = ::Std_obj::_hx_int(this->_point->x);
+HXDLIN(1050)			return frameData->getPixel32(_hx_tmp3,::Std_obj::_hx_int(this->_point->y));
+            		}
+HXLINE(1053)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxSprite_obj,getPixelAt,return )
 
  ::Dynamic FlxSprite_obj::getPixelAtScreen( ::flixel::math::FlxBasePoint screenPoint, ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1060_getPixelAtScreen)
-HXLINE(1061)		this->transformScreenToPixels(screenPoint,camera,this->_point);
-HXLINE(1064)		bool _hx_tmp;
-HXDLIN(1064)		bool _hx_tmp1;
-HXDLIN(1064)		bool _hx_tmp2;
-HXDLIN(1064)		if ((this->_point->x >= 0)) {
-HXLINE(1064)			_hx_tmp2 = (this->_point->x <= this->frameWidth);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1066_getPixelAtScreen)
+HXLINE(1067)		this->transformScreenToPixels(screenPoint,camera,this->_point);
+HXLINE(1070)		bool _hx_tmp;
+HXDLIN(1070)		bool _hx_tmp1;
+HXDLIN(1070)		bool _hx_tmp2;
+HXDLIN(1070)		if ((this->_point->x >= 0)) {
+HXLINE(1070)			_hx_tmp2 = (this->_point->x <= this->frameWidth);
             		}
             		else {
-HXLINE(1064)			_hx_tmp2 = false;
+HXLINE(1070)			_hx_tmp2 = false;
             		}
-HXDLIN(1064)		if (_hx_tmp2) {
-HXLINE(1064)			_hx_tmp1 = (this->_point->y >= 0);
-            		}
-            		else {
-HXLINE(1064)			_hx_tmp1 = false;
-            		}
-HXDLIN(1064)		if (_hx_tmp1) {
-HXLINE(1064)			_hx_tmp = (this->_point->y <= this->frameHeight);
+HXDLIN(1070)		if (_hx_tmp2) {
+HXLINE(1070)			_hx_tmp1 = (this->_point->y >= 0);
             		}
             		else {
-HXLINE(1064)			_hx_tmp = false;
+HXLINE(1070)			_hx_tmp1 = false;
             		}
-HXDLIN(1064)		if (_hx_tmp) {
-HXLINE(1066)			 ::openfl::display::BitmapData frameData = this->updateFramePixels();
-HXLINE(1067)			int _hx_tmp3 = ::Std_obj::_hx_int(this->_point->x);
-HXDLIN(1067)			return frameData->getPixel32(_hx_tmp3,::Std_obj::_hx_int(this->_point->y));
+HXDLIN(1070)		if (_hx_tmp1) {
+HXLINE(1070)			_hx_tmp = (this->_point->y <= this->frameHeight);
             		}
-HXLINE(1070)		return null();
+            		else {
+HXLINE(1070)			_hx_tmp = false;
+            		}
+HXDLIN(1070)		if (_hx_tmp) {
+HXLINE(1072)			 ::openfl::display::BitmapData frameData = this->updateFramePixels();
+HXLINE(1073)			int _hx_tmp3 = ::Std_obj::_hx_int(this->_point->x);
+HXDLIN(1073)			return frameData->getPixel32(_hx_tmp3,::Std_obj::_hx_int(this->_point->y));
+            		}
+HXLINE(1076)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxSprite_obj,getPixelAtScreen,return )
 
  ::flixel::math::FlxBasePoint FlxSprite_obj::transformWorldToPixels( ::flixel::math::FlxBasePoint worldPoint, ::flixel::FlxCamera camera, ::flixel::math::FlxBasePoint result){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1083_transformWorldToPixels)
-HXLINE(1084)		if (::hx::IsNull( camera )) {
-HXLINE(1085)			camera = ::flixel::FlxG_obj::camera;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1089_transformWorldToPixels)
+HXLINE(1090)		if (::hx::IsNull( camera )) {
+HXLINE(1091)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1087)		Float x = (worldPoint->x - camera->scroll->x);
-HXDLIN(1087)		Float y = (worldPoint->y - camera->scroll->y);
-HXDLIN(1087)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
-HXDLIN(1087)		point->_inPool = false;
-HXDLIN(1087)		 ::flixel::math::FlxBasePoint point1 = point;
-HXDLIN(1087)		point1->_weak = true;
-HXDLIN(1087)		 ::flixel::math::FlxBasePoint screenPoint = point1;
-HXLINE(1088)		if (worldPoint->_weak) {
-HXLINE(1088)			worldPoint->put();
+HXLINE(1093)		Float x = (worldPoint->x - camera->scroll->x);
+HXDLIN(1093)		Float y = (worldPoint->y - camera->scroll->y);
+HXDLIN(1093)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
+HXDLIN(1093)		point->_inPool = false;
+HXDLIN(1093)		 ::flixel::math::FlxBasePoint point1 = point;
+HXDLIN(1093)		point1->_weak = true;
+HXDLIN(1093)		 ::flixel::math::FlxBasePoint screenPoint = point1;
+HXLINE(1094)		if (worldPoint->_weak) {
+HXLINE(1094)			worldPoint->put();
             		}
-HXLINE(1089)		return this->transformScreenToPixels(screenPoint,camera,result);
+HXLINE(1095)		return this->transformScreenToPixels(screenPoint,camera,result);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxSprite_obj,transformWorldToPixels,return )
 
  ::flixel::math::FlxBasePoint FlxSprite_obj::transformWorldToPixelsSimple( ::flixel::math::FlxBasePoint worldPoint, ::flixel::math::FlxBasePoint result){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1101_transformWorldToPixelsSimple)
-HXLINE(1102)		result = this->getPosition(result);
-HXLINE(1104)		{
-HXLINE(1104)			Float y = worldPoint->y;
-HXDLIN(1104)			result->set_x((result->x - worldPoint->x));
-HXDLIN(1104)			result->set_y((result->y - y));
-            		}
-HXLINE(1105)		{
-HXLINE(1105)			result->set_x((result->x * ( (Float)(-1) )));
-HXDLIN(1105)			result->set_y((result->y * ( (Float)(-1) )));
-            		}
-HXLINE(1106)		{
-HXLINE(1106)			 ::flixel::math::FlxBasePoint point = this->offset;
-HXDLIN(1106)			{
-HXLINE(1106)				Float y1 = point->y;
-HXDLIN(1106)				result->set_x((result->x + point->x));
-HXDLIN(1106)				result->set_y((result->y + y1));
-            			}
-HXDLIN(1106)			if (point->_weak) {
-HXLINE(1106)				point->put();
-            			}
-            		}
-HXLINE(1107)		{
-HXLINE(1107)			 ::flixel::math::FlxBasePoint point1 = this->origin;
-HXDLIN(1107)			{
-HXLINE(1107)				Float y2 = point1->y;
-HXDLIN(1107)				result->set_x((result->x - point1->x));
-HXDLIN(1107)				result->set_y((result->y - y2));
-            			}
-HXDLIN(1107)			if (point1->_weak) {
-HXLINE(1107)				point1->put();
-            			}
-            		}
-HXLINE(1108)		{
-HXLINE(1108)			Float x = (( (Float)(1) ) / this->scale->x);
-HXDLIN(1108)			 ::Dynamic y3 = (( (Float)(1) ) / this->scale->y);
-HXDLIN(1108)			if (::hx::IsNull( y3 )) {
-HXLINE(1108)				y3 = x;
-            			}
-HXDLIN(1108)			result->set_x((result->x * x));
-HXDLIN(1108)			result->set_y((result->y * ( (Float)(y3) )));
-            		}
-HXLINE(1109)		{
-HXLINE(1109)			Float degs = ::flixel::math::_FlxPoint::FlxPoint_Impl__obj::get_radians(result);
-HXDLIN(1109)			Float degs1 = ((degs * (( (Float)(180) ) / ::Math_obj::PI)) - this->angle);
-HXDLIN(1109)			{
-HXLINE(1109)				Float rads = (degs1 * (::Math_obj::PI / ( (Float)(180) )));
-HXDLIN(1109)				Float len = ::Math_obj::sqrt(((result->x * result->x) + (result->y * result->y)));
-HXDLIN(1109)				result->set_x((len * ::Math_obj::cos(rads)));
-HXDLIN(1109)				result->set_y((len * ::Math_obj::sin(rads)));
-            			}
-            		}
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1107_transformWorldToPixelsSimple)
+HXLINE(1108)		result = this->getPosition(result);
 HXLINE(1110)		{
-HXLINE(1110)			 ::flixel::math::FlxBasePoint point2 = this->origin;
-HXDLIN(1110)			{
-HXLINE(1110)				Float y4 = point2->y;
-HXDLIN(1110)				result->set_x((result->x + point2->x));
-HXDLIN(1110)				result->set_y((result->y + y4));
+HXLINE(1110)			Float y = worldPoint->y;
+HXDLIN(1110)			result->set_x((result->x - worldPoint->x));
+HXDLIN(1110)			result->set_y((result->y - y));
+            		}
+HXLINE(1111)		{
+HXLINE(1111)			result->set_x((result->x * ( (Float)(-1) )));
+HXDLIN(1111)			result->set_y((result->y * ( (Float)(-1) )));
+            		}
+HXLINE(1112)		{
+HXLINE(1112)			 ::flixel::math::FlxBasePoint point = this->offset;
+HXDLIN(1112)			{
+HXLINE(1112)				Float y1 = point->y;
+HXDLIN(1112)				result->set_x((result->x + point->x));
+HXDLIN(1112)				result->set_y((result->y + y1));
             			}
-HXDLIN(1110)			if (point2->_weak) {
-HXLINE(1110)				point2->put();
+HXDLIN(1112)			if (point->_weak) {
+HXLINE(1112)				point->put();
             			}
             		}
-HXLINE(1112)		if (worldPoint->_weak) {
-HXLINE(1112)			worldPoint->put();
+HXLINE(1113)		{
+HXLINE(1113)			 ::flixel::math::FlxBasePoint point1 = this->origin;
+HXDLIN(1113)			{
+HXLINE(1113)				Float y2 = point1->y;
+HXDLIN(1113)				result->set_x((result->x - point1->x));
+HXDLIN(1113)				result->set_y((result->y - y2));
+            			}
+HXDLIN(1113)			if (point1->_weak) {
+HXLINE(1113)				point1->put();
+            			}
             		}
-HXLINE(1114)		return result;
+HXLINE(1114)		{
+HXLINE(1114)			Float x = (( (Float)(1) ) / this->scale->x);
+HXDLIN(1114)			 ::Dynamic y3 = (( (Float)(1) ) / this->scale->y);
+HXDLIN(1114)			if (::hx::IsNull( y3 )) {
+HXLINE(1114)				y3 = x;
+            			}
+HXDLIN(1114)			result->set_x((result->x * x));
+HXDLIN(1114)			result->set_y((result->y * ( (Float)(y3) )));
+            		}
+HXLINE(1115)		{
+HXLINE(1115)			Float degs = ::flixel::math::_FlxPoint::FlxPoint_Impl__obj::get_radians(result);
+HXDLIN(1115)			Float degs1 = ((degs * (( (Float)(180) ) / ::Math_obj::PI)) - this->angle);
+HXDLIN(1115)			{
+HXLINE(1115)				Float rads = (degs1 * (::Math_obj::PI / ( (Float)(180) )));
+HXDLIN(1115)				Float len = ::Math_obj::sqrt(((result->x * result->x) + (result->y * result->y)));
+HXDLIN(1115)				result->set_x((len * ::Math_obj::cos(rads)));
+HXDLIN(1115)				result->set_y((len * ::Math_obj::sin(rads)));
+            			}
+            		}
+HXLINE(1116)		{
+HXLINE(1116)			 ::flixel::math::FlxBasePoint point2 = this->origin;
+HXDLIN(1116)			{
+HXLINE(1116)				Float y4 = point2->y;
+HXDLIN(1116)				result->set_x((result->x + point2->x));
+HXDLIN(1116)				result->set_y((result->y + y4));
+            			}
+HXDLIN(1116)			if (point2->_weak) {
+HXLINE(1116)				point2->put();
+            			}
+            		}
+HXLINE(1118)		if (worldPoint->_weak) {
+HXLINE(1118)			worldPoint->put();
+            		}
+HXLINE(1120)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxSprite_obj,transformWorldToPixelsSimple,return )
 
  ::flixel::math::FlxBasePoint FlxSprite_obj::transformScreenToPixels( ::flixel::math::FlxBasePoint screenPoint, ::flixel::FlxCamera camera, ::flixel::math::FlxBasePoint result){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1127_transformScreenToPixels)
-HXLINE(1128)		result = this->getScreenPosition(result,camera);
-HXLINE(1130)		{
-HXLINE(1130)			Float y = screenPoint->y;
-HXDLIN(1130)			result->set_x((result->x - screenPoint->x));
-HXDLIN(1130)			result->set_y((result->y - y));
-            		}
-HXLINE(1131)		{
-HXLINE(1131)			result->set_x((result->x * ( (Float)(-1) )));
-HXDLIN(1131)			result->set_y((result->y * ( (Float)(-1) )));
-            		}
-HXLINE(1132)		{
-HXLINE(1132)			 ::flixel::math::FlxBasePoint point = this->offset;
-HXDLIN(1132)			{
-HXLINE(1132)				Float y1 = point->y;
-HXDLIN(1132)				result->set_x((result->x + point->x));
-HXDLIN(1132)				result->set_y((result->y + y1));
-            			}
-HXDLIN(1132)			if (point->_weak) {
-HXLINE(1132)				point->put();
-            			}
-            		}
-HXLINE(1133)		{
-HXLINE(1133)			 ::flixel::math::FlxBasePoint point1 = this->origin;
-HXDLIN(1133)			{
-HXLINE(1133)				Float y2 = point1->y;
-HXDLIN(1133)				result->set_x((result->x - point1->x));
-HXDLIN(1133)				result->set_y((result->y - y2));
-            			}
-HXDLIN(1133)			if (point1->_weak) {
-HXLINE(1133)				point1->put();
-            			}
-            		}
-HXLINE(1134)		{
-HXLINE(1134)			Float x = (( (Float)(1) ) / this->scale->x);
-HXDLIN(1134)			 ::Dynamic y3 = (( (Float)(1) ) / this->scale->y);
-HXDLIN(1134)			if (::hx::IsNull( y3 )) {
-HXLINE(1134)				y3 = x;
-            			}
-HXDLIN(1134)			result->set_x((result->x * x));
-HXDLIN(1134)			result->set_y((result->y * ( (Float)(y3) )));
-            		}
-HXLINE(1135)		{
-HXLINE(1135)			Float degs = ::flixel::math::_FlxPoint::FlxPoint_Impl__obj::get_radians(result);
-HXDLIN(1135)			Float degs1 = ((degs * (( (Float)(180) ) / ::Math_obj::PI)) - this->angle);
-HXDLIN(1135)			{
-HXLINE(1135)				Float rads = (degs1 * (::Math_obj::PI / ( (Float)(180) )));
-HXDLIN(1135)				Float len = ::Math_obj::sqrt(((result->x * result->x) + (result->y * result->y)));
-HXDLIN(1135)				result->set_x((len * ::Math_obj::cos(rads)));
-HXDLIN(1135)				result->set_y((len * ::Math_obj::sin(rads)));
-            			}
-            		}
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1133_transformScreenToPixels)
+HXLINE(1134)		result = this->getScreenPosition(result,camera);
 HXLINE(1136)		{
-HXLINE(1136)			 ::flixel::math::FlxBasePoint point2 = this->origin;
-HXDLIN(1136)			{
-HXLINE(1136)				Float y4 = point2->y;
-HXDLIN(1136)				result->set_x((result->x + point2->x));
-HXDLIN(1136)				result->set_y((result->y + y4));
+HXLINE(1136)			Float y = screenPoint->y;
+HXDLIN(1136)			result->set_x((result->x - screenPoint->x));
+HXDLIN(1136)			result->set_y((result->y - y));
+            		}
+HXLINE(1137)		{
+HXLINE(1137)			result->set_x((result->x * ( (Float)(-1) )));
+HXDLIN(1137)			result->set_y((result->y * ( (Float)(-1) )));
+            		}
+HXLINE(1138)		{
+HXLINE(1138)			 ::flixel::math::FlxBasePoint point = this->offset;
+HXDLIN(1138)			{
+HXLINE(1138)				Float y1 = point->y;
+HXDLIN(1138)				result->set_x((result->x + point->x));
+HXDLIN(1138)				result->set_y((result->y + y1));
             			}
-HXDLIN(1136)			if (point2->_weak) {
-HXLINE(1136)				point2->put();
+HXDLIN(1138)			if (point->_weak) {
+HXLINE(1138)				point->put();
             			}
             		}
-HXLINE(1138)		if (screenPoint->_weak) {
-HXLINE(1138)			screenPoint->put();
+HXLINE(1139)		{
+HXLINE(1139)			 ::flixel::math::FlxBasePoint point1 = this->origin;
+HXDLIN(1139)			{
+HXLINE(1139)				Float y2 = point1->y;
+HXDLIN(1139)				result->set_x((result->x - point1->x));
+HXDLIN(1139)				result->set_y((result->y - y2));
+            			}
+HXDLIN(1139)			if (point1->_weak) {
+HXLINE(1139)				point1->put();
+            			}
             		}
-HXLINE(1140)		return result;
+HXLINE(1140)		{
+HXLINE(1140)			Float x = (( (Float)(1) ) / this->scale->x);
+HXDLIN(1140)			 ::Dynamic y3 = (( (Float)(1) ) / this->scale->y);
+HXDLIN(1140)			if (::hx::IsNull( y3 )) {
+HXLINE(1140)				y3 = x;
+            			}
+HXDLIN(1140)			result->set_x((result->x * x));
+HXDLIN(1140)			result->set_y((result->y * ( (Float)(y3) )));
+            		}
+HXLINE(1141)		{
+HXLINE(1141)			Float degs = ::flixel::math::_FlxPoint::FlxPoint_Impl__obj::get_radians(result);
+HXDLIN(1141)			Float degs1 = ((degs * (( (Float)(180) ) / ::Math_obj::PI)) - this->angle);
+HXDLIN(1141)			{
+HXLINE(1141)				Float rads = (degs1 * (::Math_obj::PI / ( (Float)(180) )));
+HXDLIN(1141)				Float len = ::Math_obj::sqrt(((result->x * result->x) + (result->y * result->y)));
+HXDLIN(1141)				result->set_x((len * ::Math_obj::cos(rads)));
+HXDLIN(1141)				result->set_y((len * ::Math_obj::sin(rads)));
+            			}
+            		}
+HXLINE(1142)		{
+HXLINE(1142)			 ::flixel::math::FlxBasePoint point2 = this->origin;
+HXDLIN(1142)			{
+HXLINE(1142)				Float y4 = point2->y;
+HXDLIN(1142)				result->set_x((result->x + point2->x));
+HXDLIN(1142)				result->set_y((result->y + y4));
+            			}
+HXDLIN(1142)			if (point2->_weak) {
+HXLINE(1142)				point2->put();
+            			}
+            		}
+HXLINE(1144)		if (screenPoint->_weak) {
+HXLINE(1144)			screenPoint->put();
+            		}
+HXLINE(1146)		return result;
             	}
 
 
@@ -1345,302 +1362,302 @@ HX_DEFINE_DYNAMIC_FUNC3(FlxSprite_obj,transformScreenToPixels,return )
 
 void FlxSprite_obj::calcFrame(::hx::Null< bool >  __o_force){
             		bool force = __o_force.Default(false);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1150_calcFrame)
-HXLINE(1151)		this->checkEmptyFrame();
-HXLINE(1153)		bool _hx_tmp;
-HXDLIN(1153)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1153)			_hx_tmp = !(force);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1156_calcFrame)
+HXLINE(1157)		this->checkEmptyFrame();
+HXLINE(1159)		bool _hx_tmp;
+HXDLIN(1159)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1159)			_hx_tmp = !(force);
             		}
             		else {
-HXLINE(1153)			_hx_tmp = false;
+HXLINE(1159)			_hx_tmp = false;
             		}
-HXDLIN(1153)		if (_hx_tmp) {
-HXLINE(1154)			return;
+HXDLIN(1159)		if (_hx_tmp) {
+HXLINE(1160)			return;
             		}
-HXLINE(1156)		this->updateFramePixels();
+HXLINE(1162)		this->updateFramePixels();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,calcFrame,(void))
 
  ::openfl::display::BitmapData FlxSprite_obj::updateFramePixels(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1163_updateFramePixels)
-HXLINE(1164)		bool _hx_tmp;
-HXDLIN(1164)		if (::hx::IsNotNull( this->_frame )) {
-HXLINE(1164)			_hx_tmp = !(this->dirty);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1169_updateFramePixels)
+HXLINE(1170)		bool _hx_tmp;
+HXDLIN(1170)		if (::hx::IsNotNull( this->_frame )) {
+HXLINE(1170)			_hx_tmp = !(this->dirty);
             		}
             		else {
-HXLINE(1164)			_hx_tmp = true;
+HXLINE(1170)			_hx_tmp = true;
             		}
-HXDLIN(1164)		if (_hx_tmp) {
-HXLINE(1165)			return this->framePixels;
+HXDLIN(1170)		if (_hx_tmp) {
+HXLINE(1171)			return this->framePixels;
             		}
-HXLINE(1169)		bool _hx_tmp1;
-HXDLIN(1169)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1169)			_hx_tmp1 = ::hx::IsNotNull( this->_frameGraphic );
-            		}
-            		else {
-HXLINE(1169)			_hx_tmp1 = false;
-            		}
-HXDLIN(1169)		if (_hx_tmp1) {
-HXLINE(1171)			this->dirty = false;
-HXLINE(1172)			return this->framePixels;
-            		}
-HXLINE(1175)		bool doFlipX = (this->flipX != this->_frame->flipX);
-HXDLIN(1175)		bool doFlipX1;
-HXDLIN(1175)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE(1175)			doFlipX1 = (doFlipX != this->animation->_curAnim->flipX);
+HXLINE(1175)		bool _hx_tmp1;
+HXDLIN(1175)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1175)			_hx_tmp1 = ::hx::IsNotNull( this->_frameGraphic );
             		}
             		else {
-HXLINE(1175)			doFlipX1 = doFlipX;
+HXLINE(1175)			_hx_tmp1 = false;
             		}
-HXLINE(1176)		bool doFlipY = (this->flipY != this->_frame->flipY);
-HXDLIN(1176)		bool doFlipY1;
-HXDLIN(1176)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE(1176)			doFlipY1 = (doFlipY != this->animation->_curAnim->flipY);
+HXDLIN(1175)		if (_hx_tmp1) {
+HXLINE(1177)			this->dirty = false;
+HXLINE(1178)			return this->framePixels;
             		}
-            		else {
-HXLINE(1176)			doFlipY1 = doFlipY;
-            		}
-HXLINE(1178)		bool _hx_tmp2;
-HXDLIN(1178)		bool _hx_tmp3;
-HXDLIN(1178)		if (!(doFlipX1)) {
-HXLINE(1178)			_hx_tmp3 = !(doFlipY1);
+HXLINE(1181)		bool doFlipX = (this->flipX != this->_frame->flipX);
+HXDLIN(1181)		bool doFlipX1;
+HXDLIN(1181)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE(1181)			doFlipX1 = (doFlipX != this->animation->_curAnim->flipX);
             		}
             		else {
-HXLINE(1178)			_hx_tmp3 = false;
+HXLINE(1181)			doFlipX1 = doFlipX;
             		}
-HXDLIN(1178)		if (_hx_tmp3) {
-HXLINE(1178)			_hx_tmp2 = (this->_frame->type == 0);
-            		}
-            		else {
-HXLINE(1178)			_hx_tmp2 = false;
-            		}
-HXDLIN(1178)		if (_hx_tmp2) {
-HXLINE(1180)			this->framePixels = this->_frame->paint(this->framePixels,this->_flashPointZero,false,true);
+HXLINE(1182)		bool doFlipY = (this->flipY != this->_frame->flipY);
+HXDLIN(1182)		bool doFlipY1;
+HXDLIN(1182)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE(1182)			doFlipY1 = (doFlipY != this->animation->_curAnim->flipY);
             		}
             		else {
-HXLINE(1184)			this->framePixels = this->_frame->paintRotatedAndFlipped(this->framePixels,this->_flashPointZero,0,doFlipX1,doFlipY1,false,true);
+HXLINE(1182)			doFlipY1 = doFlipY;
             		}
-HXLINE(1187)		if (this->useColorTransform) {
-HXLINE(1189)			this->framePixels->colorTransform(this->_flashRect,this->colorTransform);
-            		}
-HXLINE(1192)		bool _hx_tmp4;
-HXDLIN(1192)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1192)			_hx_tmp4 = this->useFramePixels;
+HXLINE(1184)		bool _hx_tmp2;
+HXDLIN(1184)		bool _hx_tmp3;
+HXDLIN(1184)		if (!(doFlipX1)) {
+HXLINE(1184)			_hx_tmp3 = !(doFlipY1);
             		}
             		else {
-HXLINE(1192)			_hx_tmp4 = false;
+HXLINE(1184)			_hx_tmp3 = false;
             		}
-HXDLIN(1192)		if (_hx_tmp4) {
-HXLINE(1195)			this->_frameGraphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frameGraphic)) );
-HXLINE(1196)			this->_frameGraphic = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(this->framePixels,false,null(),false);
-HXLINE(1197)			this->_frame = this->_frameGraphic->get_imageFrame()->get_frame()->copyTo(this->_frame);
+HXDLIN(1184)		if (_hx_tmp3) {
+HXLINE(1184)			_hx_tmp2 = (this->_frame->type == 0);
             		}
-HXLINE(1200)		this->dirty = false;
-HXLINE(1201)		return this->framePixels;
+            		else {
+HXLINE(1184)			_hx_tmp2 = false;
+            		}
+HXDLIN(1184)		if (_hx_tmp2) {
+HXLINE(1186)			this->framePixels = this->_frame->paint(this->framePixels,this->_flashPointZero,false,true);
+            		}
+            		else {
+HXLINE(1190)			this->framePixels = this->_frame->paintRotatedAndFlipped(this->framePixels,this->_flashPointZero,0,doFlipX1,doFlipY1,false,true);
+            		}
+HXLINE(1193)		if (this->useColorTransform) {
+HXLINE(1195)			this->framePixels->colorTransform(this->_flashRect,this->colorTransform);
+            		}
+HXLINE(1198)		bool _hx_tmp4;
+HXDLIN(1198)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1198)			_hx_tmp4 = this->useFramePixels;
+            		}
+            		else {
+HXLINE(1198)			_hx_tmp4 = false;
+            		}
+HXDLIN(1198)		if (_hx_tmp4) {
+HXLINE(1201)			this->_frameGraphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frameGraphic)) );
+HXLINE(1202)			this->_frameGraphic = ::flixel::graphics::FlxGraphic_obj::fromBitmapData(this->framePixels,false,null(),false);
+HXLINE(1203)			this->_frame = this->_frameGraphic->get_imageFrame()->get_frame()->copyTo(this->_frame);
+            		}
+HXLINE(1206)		this->dirty = false;
+HXLINE(1207)		return this->framePixels;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,updateFramePixels,return )
 
  ::flixel::math::FlxBasePoint FlxSprite_obj::getGraphicMidpoint( ::flixel::math::FlxBasePoint point){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1212_getGraphicMidpoint)
-HXLINE(1213)		if (::hx::IsNull( point )) {
-HXLINE(1214)			 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN(1214)			point1->_inPool = false;
-HXDLIN(1214)			point = point1;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1218_getGraphicMidpoint)
+HXLINE(1219)		if (::hx::IsNull( point )) {
+HXLINE(1220)			 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN(1220)			point1->_inPool = false;
+HXDLIN(1220)			point = point1;
             		}
-HXLINE(1215)		Float y = (this->y + (( (Float)(this->frameHeight) ) * ((Float)0.5)));
-HXDLIN(1215)		point->set_x((this->x + (( (Float)(this->frameWidth) ) * ((Float)0.5))));
-HXDLIN(1215)		point->set_y(y);
-HXDLIN(1215)		return point;
+HXLINE(1221)		Float y = (this->y + (( (Float)(this->frameHeight) ) * ((Float)0.5)));
+HXDLIN(1221)		point->set_x((this->x + (( (Float)(this->frameWidth) ) * ((Float)0.5))));
+HXDLIN(1221)		point->set_y(y);
+HXDLIN(1221)		return point;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,getGraphicMidpoint,return )
 
 bool FlxSprite_obj::isOnScreen( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1226_isOnScreen)
-HXLINE(1227)		if (::hx::IsNull( camera )) {
-HXLINE(1228)			camera = ::flixel::FlxG_obj::camera;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1232_isOnScreen)
+HXLINE(1233)		if (::hx::IsNull( camera )) {
+HXLINE(1234)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1230)		 ::flixel::math::FlxRect rect = this->getScreenBounds(this->_rect,camera);
-HXDLIN(1230)		bool contained;
-HXDLIN(1230)		bool contained1;
-HXDLIN(1230)		bool contained2;
-HXDLIN(1230)		if (((rect->x + rect->width) > camera->viewMarginX)) {
-HXLINE(1230)			contained2 = (rect->x < (( (Float)(camera->width) ) - camera->viewMarginX));
-            		}
-            		else {
-HXLINE(1230)			contained2 = false;
-            		}
-HXDLIN(1230)		if (contained2) {
-HXLINE(1230)			contained1 = ((rect->y + rect->height) > camera->viewMarginY);
+HXLINE(1236)		 ::flixel::math::FlxRect rect = this->getScreenBounds(this->_rect,camera);
+HXDLIN(1236)		bool contained;
+HXDLIN(1236)		bool contained1;
+HXDLIN(1236)		bool contained2;
+HXDLIN(1236)		if (((rect->x + rect->width) > camera->viewMarginX)) {
+HXLINE(1236)			contained2 = (rect->x < (( (Float)(camera->width) ) - camera->viewMarginX));
             		}
             		else {
-HXLINE(1230)			contained1 = false;
+HXLINE(1236)			contained2 = false;
             		}
-HXDLIN(1230)		if (contained1) {
-HXLINE(1230)			contained = (rect->y < (( (Float)(camera->height) ) - camera->viewMarginY));
+HXDLIN(1236)		if (contained2) {
+HXLINE(1236)			contained1 = ((rect->y + rect->height) > camera->viewMarginY);
             		}
             		else {
-HXLINE(1230)			contained = false;
+HXLINE(1236)			contained1 = false;
             		}
-HXDLIN(1230)		if (rect->_weak) {
-HXLINE(1230)			if (!(rect->_inPool)) {
-HXLINE(1230)				rect->_inPool = true;
-HXDLIN(1230)				rect->_weak = false;
-HXDLIN(1230)				::flixel::math::FlxRect_obj::_pool->putUnsafe(rect);
+HXDLIN(1236)		if (contained1) {
+HXLINE(1236)			contained = (rect->y < (( (Float)(camera->height) ) - camera->viewMarginY));
+            		}
+            		else {
+HXLINE(1236)			contained = false;
+            		}
+HXDLIN(1236)		if (rect->_weak) {
+HXLINE(1236)			if (!(rect->_inPool)) {
+HXLINE(1236)				rect->_inPool = true;
+HXDLIN(1236)				rect->_weak = false;
+HXDLIN(1236)				::flixel::math::FlxRect_obj::_pool->putUnsafe(rect);
             			}
             		}
-HXDLIN(1230)		return contained;
+HXDLIN(1236)		return contained;
             	}
 
 
 bool FlxSprite_obj::isSimpleRender( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1238_isSimpleRender)
-HXLINE(1239)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1240)			return false;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1244_isSimpleRender)
+HXLINE(1245)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1246)			return false;
             		}
-HXLINE(1242)		return this->isSimpleRenderBlit(camera);
+HXLINE(1248)		return this->isSimpleRenderBlit(camera);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,isSimpleRender,return )
 
 bool FlxSprite_obj::isSimpleRenderBlit( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1254_isSimpleRenderBlit)
-HXLINE(1255)		bool result;
-HXDLIN(1255)		bool result1;
-HXDLIN(1255)		bool result2;
-HXDLIN(1255)		bool result3;
-HXDLIN(1255)		if ((this->angle != 0)) {
-HXLINE(1255)			result3 = (this->bakedRotationAngle > 0);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1260_isSimpleRenderBlit)
+HXLINE(1261)		bool result;
+HXDLIN(1261)		bool result1;
+HXDLIN(1261)		bool result2;
+HXDLIN(1261)		bool result3;
+HXDLIN(1261)		if ((this->angle != 0)) {
+HXLINE(1261)			result3 = (this->bakedRotationAngle > 0);
             		}
             		else {
-HXLINE(1255)			result3 = true;
+HXLINE(1261)			result3 = true;
             		}
-HXDLIN(1255)		if (result3) {
-HXLINE(1255)			result2 = (this->scale->x == 1);
-            		}
-            		else {
-HXLINE(1255)			result2 = false;
-            		}
-HXDLIN(1255)		if (result2) {
-HXLINE(1255)			result1 = (this->scale->y == 1);
+HXDLIN(1261)		if (result3) {
+HXLINE(1261)			result2 = (this->scale->x == 1);
             		}
             		else {
-HXLINE(1255)			result1 = false;
+HXLINE(1261)			result2 = false;
             		}
-HXDLIN(1255)		if (result1) {
-HXLINE(1255)			result = ::hx::IsNull( this->blend );
+HXDLIN(1261)		if (result2) {
+HXLINE(1261)			result1 = (this->scale->y == 1);
             		}
             		else {
-HXLINE(1255)			result = false;
+HXLINE(1261)			result1 = false;
             		}
-HXLINE(1256)		if (result) {
-HXLINE(1256)			if (::hx::IsNotNull( camera )) {
-HXLINE(1256)				result = this->isPixelPerfectRender(camera);
+HXDLIN(1261)		if (result1) {
+HXLINE(1261)			result = ::hx::IsNull( this->blend );
+            		}
+            		else {
+HXLINE(1261)			result = false;
+            		}
+HXLINE(1262)		if (result) {
+HXLINE(1262)			if (::hx::IsNotNull( camera )) {
+HXLINE(1262)				result = this->isPixelPerfectRender(camera);
             			}
             			else {
-HXLINE(1256)				result = ( (bool)(this->pixelPerfectRender) );
+HXLINE(1262)				result = ( (bool)(this->pixelPerfectRender) );
             			}
             		}
             		else {
-HXLINE(1256)			result = false;
+HXLINE(1262)			result = false;
             		}
-HXLINE(1257)		return result;
+HXLINE(1263)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,isSimpleRenderBlit,return )
 
  ::flixel::math::FlxRect FlxSprite_obj::getRotatedBounds( ::flixel::math::FlxRect newRect){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1270_getRotatedBounds)
-HXLINE(1271)		if (::hx::IsNull( newRect )) {
-HXLINE(1272)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN(1272)			_this->x = ( (Float)(0) );
-HXDLIN(1272)			_this->y = ( (Float)(0) );
-HXDLIN(1272)			_this->width = ( (Float)(0) );
-HXDLIN(1272)			_this->height = ( (Float)(0) );
-HXDLIN(1272)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN(1272)			rect->_inPool = false;
-HXDLIN(1272)			newRect = rect;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1276_getRotatedBounds)
+HXLINE(1277)		if (::hx::IsNull( newRect )) {
+HXLINE(1278)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN(1278)			_this->x = ( (Float)(0) );
+HXDLIN(1278)			_this->y = ( (Float)(0) );
+HXDLIN(1278)			_this->width = ( (Float)(0) );
+HXDLIN(1278)			_this->height = ( (Float)(0) );
+HXDLIN(1278)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN(1278)			rect->_inPool = false;
+HXDLIN(1278)			newRect = rect;
             		}
-HXLINE(1274)		{
-HXLINE(1274)			Float X = this->x;
-HXDLIN(1274)			Float Y = this->y;
-HXDLIN(1274)			Float Width = this->get_width();
-HXDLIN(1274)			Float Height = this->get_height();
-HXDLIN(1274)			newRect->x = X;
-HXDLIN(1274)			newRect->y = Y;
-HXDLIN(1274)			newRect->width = Width;
-HXDLIN(1274)			newRect->height = Height;
+HXLINE(1280)		{
+HXLINE(1280)			Float X = this->x;
+HXDLIN(1280)			Float Y = this->y;
+HXDLIN(1280)			Float Width = this->get_width();
+HXDLIN(1280)			Float Height = this->get_height();
+HXDLIN(1280)			newRect->x = X;
+HXDLIN(1280)			newRect->y = Y;
+HXDLIN(1280)			newRect->width = Width;
+HXDLIN(1280)			newRect->height = Height;
             		}
-HXLINE(1275)		return newRect->getRotatedBounds(this->angle,this->origin,newRect);
+HXLINE(1281)		return newRect->getRotatedBounds(this->angle,this->origin,newRect);
             	}
 
 
  ::flixel::math::FlxRect FlxSprite_obj::getScreenBounds( ::flixel::math::FlxRect newRect, ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1287_getScreenBounds)
-HXLINE(1288)		if (::hx::IsNull( newRect )) {
-HXLINE(1289)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN(1289)			_this->x = ( (Float)(0) );
-HXDLIN(1289)			_this->y = ( (Float)(0) );
-HXDLIN(1289)			_this->width = ( (Float)(0) );
-HXDLIN(1289)			_this->height = ( (Float)(0) );
-HXDLIN(1289)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN(1289)			rect->_inPool = false;
-HXDLIN(1289)			newRect = rect;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1293_getScreenBounds)
+HXLINE(1294)		if (::hx::IsNull( newRect )) {
+HXLINE(1295)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN(1295)			_this->x = ( (Float)(0) );
+HXDLIN(1295)			_this->y = ( (Float)(0) );
+HXDLIN(1295)			_this->width = ( (Float)(0) );
+HXDLIN(1295)			_this->height = ( (Float)(0) );
+HXDLIN(1295)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN(1295)			rect->_inPool = false;
+HXDLIN(1295)			newRect = rect;
             		}
-HXLINE(1291)		if (::hx::IsNull( camera )) {
-HXLINE(1292)			camera = ::flixel::FlxG_obj::camera;
+HXLINE(1297)		if (::hx::IsNull( camera )) {
+HXLINE(1298)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1294)		{
-HXLINE(1294)			newRect->x = this->x;
-HXDLIN(1294)			newRect->y = this->y;
+HXLINE(1300)		{
+HXLINE(1300)			newRect->x = this->x;
+HXDLIN(1300)			newRect->y = this->y;
             		}
-HXLINE(1295)		if (this->pixelPerfectPosition) {
-HXLINE(1296)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
-HXDLIN(1296)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
-HXDLIN(1296)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
-HXDLIN(1296)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
+HXLINE(1301)		if (this->pixelPerfectPosition) {
+HXLINE(1302)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
+HXDLIN(1302)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
+HXDLIN(1302)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
+HXDLIN(1302)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
             		}
-HXLINE(1297)		{
-HXLINE(1297)			 ::flixel::math::FlxBasePoint this1 = this->_scaledOrigin;
-HXDLIN(1297)			Float y = (this->origin->y * this->scale->y);
-HXDLIN(1297)			this1->set_x((this->origin->x * this->scale->x));
-HXDLIN(1297)			this1->set_y(y);
+HXLINE(1303)		{
+HXLINE(1303)			 ::flixel::math::FlxBasePoint this1 = this->_scaledOrigin;
+HXDLIN(1303)			Float y = (this->origin->y * this->scale->y);
+HXDLIN(1303)			this1->set_x((this->origin->x * this->scale->x));
+HXDLIN(1303)			this1->set_y(y);
             		}
-HXLINE(1298)		 ::flixel::math::FlxRect newRect1 = newRect;
-HXDLIN(1298)		Float newRect2 = newRect1->x;
-HXDLIN(1298)		Float _hx_tmp = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->x * this->scrollFactor->x)))) ) - this->offset->x);
-HXDLIN(1298)		newRect1->x = (newRect2 + ((_hx_tmp + this->origin->x) - this->_scaledOrigin->x));
-HXLINE(1299)		 ::flixel::math::FlxRect newRect3 = newRect;
-HXDLIN(1299)		Float newRect4 = newRect3->y;
-HXDLIN(1299)		Float _hx_tmp1 = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->y * this->scrollFactor->y)))) ) - this->offset->y);
-HXDLIN(1299)		newRect3->y = (newRect4 + ((_hx_tmp1 + this->origin->y) - this->_scaledOrigin->y));
-HXLINE(1300)		if (this->isPixelPerfectRender(camera)) {
-HXLINE(1301)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
-HXDLIN(1301)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
-HXDLIN(1301)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
-HXDLIN(1301)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
+HXLINE(1304)		 ::flixel::math::FlxRect newRect1 = newRect;
+HXDLIN(1304)		Float newRect2 = newRect1->x;
+HXDLIN(1304)		Float _hx_tmp = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->x * this->scrollFactor->x)))) ) - this->offset->x);
+HXDLIN(1304)		newRect1->x = (newRect2 + ((_hx_tmp + this->origin->x) - this->_scaledOrigin->x));
+HXLINE(1305)		 ::flixel::math::FlxRect newRect3 = newRect;
+HXDLIN(1305)		Float newRect4 = newRect3->y;
+HXDLIN(1305)		Float _hx_tmp1 = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->y * this->scrollFactor->y)))) ) - this->offset->y);
+HXDLIN(1305)		newRect3->y = (newRect4 + ((_hx_tmp1 + this->origin->y) - this->_scaledOrigin->y));
+HXLINE(1306)		if (this->isPixelPerfectRender(camera)) {
+HXLINE(1307)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
+HXDLIN(1307)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
+HXDLIN(1307)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
+HXDLIN(1307)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
             		}
-HXLINE(1302)		{
-HXLINE(1302)			Float Height = (( (Float)(this->frameHeight) ) * ::Math_obj::abs(this->scale->y));
-HXDLIN(1302)			newRect->width = (( (Float)(this->frameWidth) ) * ::Math_obj::abs(this->scale->x));
-HXDLIN(1302)			newRect->height = Height;
+HXLINE(1308)		{
+HXLINE(1308)			Float Height = (( (Float)(this->frameHeight) ) * ::Math_obj::abs(this->scale->y));
+HXDLIN(1308)			newRect->width = (( (Float)(this->frameWidth) ) * ::Math_obj::abs(this->scale->x));
+HXDLIN(1308)			newRect->height = Height;
             		}
-HXLINE(1303)		return newRect->getRotatedBounds(this->angle,this->_scaledOrigin,newRect);
+HXLINE(1309)		return newRect->getRotatedBounds(this->angle,this->_scaledOrigin,newRect);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxSprite_obj,getScreenBounds,return )
 
 void FlxSprite_obj::setFacingFlip(int Direction,bool FlipX,bool FlipY){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1318_setFacingFlip)
-HXDLIN(1318)		this->_facingFlip->set(Direction, ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1324_setFacingFlip)
+HXDLIN(1324)		this->_facingFlip->set(Direction, ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("x",78,00,00,00),FlipX)
             			->setFixed(1,HX_("y",79,00,00,00),FlipY)));
             	}
@@ -1650,200 +1667,200 @@ HX_DEFINE_DYNAMIC_FUNC3(FlxSprite_obj,setFacingFlip,(void))
 
  ::flixel::FlxSprite FlxSprite_obj::setFrames( ::flixel::graphics::frames::FlxFramesCollection Frames,::hx::Null< bool >  __o_saveAnimations){
             		bool saveAnimations = __o_saveAnimations.Default(true);
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1330_setFrames)
-HXLINE(1331)		if (saveAnimations) {
-HXLINE(1333)			 ::haxe::ds::StringMap animations = this->animation->_animations;
-HXLINE(1334)			bool reverse = false;
-HXLINE(1335)			int index = 0;
-HXLINE(1336)			int frameIndex = this->animation->frameIndex;
-HXLINE(1337)			::String currName = null();
-HXLINE(1339)			if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE(1341)				reverse = this->animation->_curAnim->reversed;
-HXLINE(1342)				index = this->animation->_curAnim->curFrame;
-HXLINE(1343)				currName = this->animation->_curAnim->name;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1336_setFrames)
+HXLINE(1337)		if (saveAnimations) {
+HXLINE(1339)			 ::haxe::ds::StringMap animations = this->animation->_animations;
+HXLINE(1340)			bool reverse = false;
+HXLINE(1341)			int index = 0;
+HXLINE(1342)			int frameIndex = this->animation->frameIndex;
+HXLINE(1343)			::String currName = null();
+HXLINE(1345)			if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE(1347)				reverse = this->animation->_curAnim->reversed;
+HXLINE(1348)				index = this->animation->_curAnim->curFrame;
+HXLINE(1349)				currName = this->animation->_curAnim->name;
             			}
-HXLINE(1346)			this->animation->_animations = null();
-HXLINE(1347)			this->set_frames(Frames);
-HXLINE(1348)			this->set_frame(this->frames->frames->__get(frameIndex).StaticCast<  ::flixel::graphics::frames::FlxFrame >());
-HXLINE(1349)			this->animation->_animations = animations;
-HXLINE(1351)			if (::hx::IsNotNull( currName )) {
-HXLINE(1353)				this->animation->play(currName,false,reverse,index);
+HXLINE(1352)			this->animation->_animations = null();
+HXLINE(1353)			this->set_frames(Frames);
+HXLINE(1354)			this->set_frame(this->frames->frames->__get(frameIndex).StaticCast<  ::flixel::graphics::frames::FlxFrame >());
+HXLINE(1355)			this->animation->_animations = animations;
+HXLINE(1357)			if (::hx::IsNotNull( currName )) {
+HXLINE(1359)				this->animation->play(currName,false,reverse,index);
             			}
             		}
             		else {
-HXLINE(1358)			this->set_frames(Frames);
+HXLINE(1364)			this->set_frames(Frames);
             		}
-HXLINE(1361)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1367)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxSprite_obj,setFrames,return )
 
  ::openfl::display::BitmapData FlxSprite_obj::get_pixels(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1367_get_pixels)
-HXDLIN(1367)		if (::hx::IsNull( this->graphic )) {
-HXDLIN(1367)			return null();
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1373_get_pixels)
+HXDLIN(1373)		if (::hx::IsNull( this->graphic )) {
+HXDLIN(1373)			return null();
             		}
             		else {
-HXDLIN(1367)			return this->graphic->bitmap;
+HXDLIN(1373)			return this->graphic->bitmap;
             		}
-HXDLIN(1367)		return null();
+HXDLIN(1373)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,get_pixels,return )
 
  ::openfl::display::BitmapData FlxSprite_obj::set_pixels( ::openfl::display::BitmapData Pixels){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1372_set_pixels)
-HXLINE(1373)		::String key = ::flixel::FlxG_obj::bitmap->findKeyForBitmap(Pixels);
-HXLINE(1375)		if (::hx::IsNull( key )) {
-HXLINE(1377)			key = ::flixel::FlxG_obj::bitmap->getUniqueKey(null());
-HXLINE(1378)			this->set_graphic(::flixel::FlxG_obj::bitmap->add(Pixels,false,key));
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1378_set_pixels)
+HXLINE(1379)		::String key = ::flixel::FlxG_obj::bitmap->findKeyForBitmap(Pixels);
+HXLINE(1381)		if (::hx::IsNull( key )) {
+HXLINE(1383)			key = ::flixel::FlxG_obj::bitmap->getUniqueKey(null());
+HXLINE(1384)			this->set_graphic(::flixel::FlxG_obj::bitmap->add(Pixels,false,key));
             		}
             		else {
-HXLINE(1382)			this->set_graphic(( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) ));
+HXLINE(1388)			this->set_graphic(( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) ));
             		}
-HXLINE(1385)		this->set_frames(this->graphic->get_imageFrame());
-HXLINE(1386)		return Pixels;
+HXLINE(1391)		this->set_frames(this->graphic->get_imageFrame());
+HXLINE(1392)		return Pixels;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_pixels,return )
 
  ::flixel::graphics::frames::FlxFrame FlxSprite_obj::set_frame( ::flixel::graphics::frames::FlxFrame Value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1391_set_frame)
-HXLINE(1392)		this->frame = Value;
-HXLINE(1393)		if (::hx::IsNotNull( this->frame )) {
-HXLINE(1395)			{
-HXLINE(1395)				if (::hx::IsNotNull( this->frame )) {
-HXLINE(1395)					this->frameWidth = ::Std_obj::_hx_int(this->frame->sourceSize->x);
-HXDLIN(1395)					this->frameHeight = ::Std_obj::_hx_int(this->frame->sourceSize->y);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1397_set_frame)
+HXLINE(1398)		this->frame = Value;
+HXLINE(1399)		if (::hx::IsNotNull( this->frame )) {
+HXLINE(1401)			{
+HXLINE(1401)				if (::hx::IsNotNull( this->frame )) {
+HXLINE(1401)					this->frameWidth = ::Std_obj::_hx_int(this->frame->sourceSize->x);
+HXDLIN(1401)					this->frameHeight = ::Std_obj::_hx_int(this->frame->sourceSize->y);
             				}
-HXDLIN(1395)				{
-HXLINE(1395)					 ::flixel::math::FlxBasePoint this1 = this->_halfSize;
-HXDLIN(1395)					Float y = (((Float)0.5) * ( (Float)(this->frameHeight) ));
-HXDLIN(1395)					this1->set_x((((Float)0.5) * ( (Float)(this->frameWidth) )));
-HXDLIN(1395)					this1->set_y(y);
+HXDLIN(1401)				{
+HXLINE(1401)					 ::flixel::math::FlxBasePoint this1 = this->_halfSize;
+HXDLIN(1401)					Float y = (((Float)0.5) * ( (Float)(this->frameHeight) ));
+HXDLIN(1401)					this1->set_x((((Float)0.5) * ( (Float)(this->frameWidth) )));
+HXDLIN(1401)					this1->set_y(y);
             				}
-HXDLIN(1395)				{
-HXLINE(1395)					this->_flashRect->x = ( (Float)(0) );
-HXDLIN(1395)					this->_flashRect->y = ( (Float)(0) );
-HXDLIN(1395)					this->_flashRect->width = ( (Float)(this->frameWidth) );
-HXDLIN(1395)					this->_flashRect->height = ( (Float)(this->frameHeight) );
+HXDLIN(1401)				{
+HXLINE(1401)					this->_flashRect->x = ( (Float)(0) );
+HXDLIN(1401)					this->_flashRect->y = ( (Float)(0) );
+HXDLIN(1401)					this->_flashRect->width = ( (Float)(this->frameWidth) );
+HXDLIN(1401)					this->_flashRect->height = ( (Float)(this->frameHeight) );
             				}
             			}
-HXLINE(1396)			this->dirty = true;
+HXLINE(1402)			this->dirty = true;
             		}
             		else {
-HXLINE(1398)			bool _hx_tmp;
-HXDLIN(1398)			bool _hx_tmp1;
-HXDLIN(1398)			if (::hx::IsNotNull( this->frames )) {
-HXLINE(1398)				_hx_tmp1 = ::hx::IsNotNull( this->frames->frames );
+HXLINE(1404)			bool _hx_tmp;
+HXDLIN(1404)			bool _hx_tmp1;
+HXDLIN(1404)			if (::hx::IsNotNull( this->frames )) {
+HXLINE(1404)				_hx_tmp1 = ::hx::IsNotNull( this->frames->frames );
             			}
             			else {
-HXLINE(1398)				_hx_tmp1 = false;
+HXLINE(1404)				_hx_tmp1 = false;
             			}
-HXDLIN(1398)			if (_hx_tmp1) {
-HXLINE(1398)				_hx_tmp = (this->get_numFrames() > 0);
-            			}
-            			else {
-HXLINE(1398)				_hx_tmp = false;
-            			}
-HXDLIN(1398)			if (_hx_tmp) {
-HXLINE(1400)				this->frame = this->frames->frames->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >();
-HXLINE(1401)				this->dirty = true;
+HXDLIN(1404)			if (_hx_tmp1) {
+HXLINE(1404)				_hx_tmp = (this->get_numFrames() > 0);
             			}
             			else {
-HXLINE(1405)				return null();
+HXLINE(1404)				_hx_tmp = false;
+            			}
+HXDLIN(1404)			if (_hx_tmp) {
+HXLINE(1406)				this->frame = this->frames->frames->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >();
+HXLINE(1407)				this->dirty = true;
+            			}
+            			else {
+HXLINE(1411)				return null();
             			}
             		}
-HXLINE(1408)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1410)			this->_frameGraphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frameGraphic)) );
+HXLINE(1414)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1416)			this->_frameGraphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::util::FlxDestroyUtil_obj::destroy(this->_frameGraphic)) );
             		}
-HXLINE(1413)		if (::hx::IsNotNull( this->clipRect )) {
-HXLINE(1415)			this->_frame = this->frame->clipTo(this->clipRect,this->_frame);
+HXLINE(1419)		if (::hx::IsNotNull( this->clipRect )) {
+HXLINE(1421)			this->_frame = this->frame->clipTo(this->clipRect,this->_frame);
             		}
             		else {
-HXLINE(1419)			this->_frame = this->frame->copyTo(this->_frame);
+HXLINE(1425)			this->_frame = this->frame->copyTo(this->_frame);
             		}
-HXLINE(1422)		return this->frame;
+HXLINE(1428)		return this->frame;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_frame,return )
 
 int FlxSprite_obj::set_facing(int Direction){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1427_set_facing)
-HXLINE(1428)		 ::Dynamic flip = this->_facingFlip->get(Direction);
-HXLINE(1429)		if (::hx::IsNotNull( flip )) {
-HXLINE(1431)			this->set_flipX(( (bool)(flip->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) ));
-HXLINE(1432)			this->set_flipY(( (bool)(flip->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) ));
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1433_set_facing)
+HXLINE(1434)		 ::Dynamic flip = this->_facingFlip->get(Direction);
+HXLINE(1435)		if (::hx::IsNotNull( flip )) {
+HXLINE(1437)			this->set_flipX(( (bool)(flip->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) ));
+HXLINE(1438)			this->set_flipY(( (bool)(flip->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) ));
             		}
-HXLINE(1435)		return (this->facing = Direction);
+HXLINE(1441)		return (this->facing = Direction);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_facing,return )
 
 Float FlxSprite_obj::set_alpha(Float Alpha){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1440_set_alpha)
-HXLINE(1441)		if ((this->alpha == Alpha)) {
-HXLINE(1443)			return Alpha;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1446_set_alpha)
+HXLINE(1447)		if ((this->alpha == Alpha)) {
+HXLINE(1449)			return Alpha;
             		}
-HXLINE(1445)		Float lowerBound;
-HXDLIN(1445)		if ((Alpha < 0)) {
-HXLINE(1445)			lowerBound = ( (Float)(0) );
-            		}
-            		else {
-HXLINE(1445)			lowerBound = Alpha;
-            		}
-HXDLIN(1445)		Float _hx_tmp;
-HXDLIN(1445)		if ((lowerBound > 1)) {
-HXLINE(1445)			_hx_tmp = ( (Float)(1) );
+HXLINE(1451)		Float lowerBound;
+HXDLIN(1451)		if ((Alpha < 0)) {
+HXLINE(1451)			lowerBound = ( (Float)(0) );
             		}
             		else {
-HXLINE(1445)			_hx_tmp = lowerBound;
+HXLINE(1451)			lowerBound = Alpha;
             		}
-HXDLIN(1445)		this->alpha = _hx_tmp;
-HXLINE(1446)		this->updateColorTransform();
-HXLINE(1447)		return this->alpha;
+HXDLIN(1451)		Float _hx_tmp;
+HXDLIN(1451)		if ((lowerBound > 1)) {
+HXLINE(1451)			_hx_tmp = ( (Float)(1) );
+            		}
+            		else {
+HXLINE(1451)			_hx_tmp = lowerBound;
+            		}
+HXDLIN(1451)		this->alpha = _hx_tmp;
+HXLINE(1452)		this->updateColorTransform();
+HXLINE(1453)		return this->alpha;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_alpha,return )
 
 int FlxSprite_obj::set_color(int Color){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1452_set_color)
-HXLINE(1453)		if ((this->color == Color)) {
-HXLINE(1455)			return Color;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1458_set_color)
+HXLINE(1459)		if ((this->color == Color)) {
+HXLINE(1461)			return Color;
             		}
-HXLINE(1457)		this->color = Color;
-HXLINE(1458)		this->updateColorTransform();
-HXLINE(1459)		return this->color;
+HXLINE(1463)		this->color = Color;
+HXLINE(1464)		this->updateColorTransform();
+HXLINE(1465)		return this->color;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_color,return )
 
 Float FlxSprite_obj::set_angle(Float Value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1464_set_angle)
-HXLINE(1465)		bool newAngle = (this->angle != Value);
-HXLINE(1466)		Float ret = this->super::set_angle(Value);
-HXLINE(1467)		if (newAngle) {
-HXLINE(1469)			this->_angleChanged = true;
-HXLINE(1470)			this->animation->update(( (Float)(0) ));
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1470_set_angle)
+HXLINE(1471)		bool newAngle = (this->angle != Value);
+HXLINE(1472)		Float ret = this->super::set_angle(Value);
+HXLINE(1473)		if (newAngle) {
+HXLINE(1475)			this->_angleChanged = true;
+HXLINE(1476)			this->animation->update(( (Float)(0) ));
             		}
-HXLINE(1472)		return ret;
+HXLINE(1478)		return ret;
             	}
 
 
 void FlxSprite_obj::updateTrig(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1478_updateTrig)
-HXDLIN(1478)		if (this->_angleChanged) {
-HXLINE(1480)			Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
-HXLINE(1481)			this->_sinAngle = ::Math_obj::sin(radians);
-HXLINE(1482)			this->_cosAngle = ::Math_obj::cos(radians);
-HXLINE(1483)			this->_angleChanged = false;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1484_updateTrig)
+HXDLIN(1484)		if (this->_angleChanged) {
+HXLINE(1486)			Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
+HXLINE(1487)			this->_sinAngle = ::Math_obj::sin(radians);
+HXLINE(1488)			this->_cosAngle = ::Math_obj::cos(radians);
+HXLINE(1489)			this->_angleChanged = false;
             		}
             	}
 
@@ -1851,188 +1868,188 @@ HXLINE(1483)			this->_angleChanged = false;
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,updateTrig,(void))
 
  ::Dynamic FlxSprite_obj::set_blend( ::Dynamic Value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1490_set_blend)
-HXDLIN(1490)		return (this->blend = Value);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1496_set_blend)
+HXDLIN(1496)		return (this->blend = Value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_blend,return )
 
  ::flixel::graphics::FlxGraphic FlxSprite_obj::set_graphic( ::flixel::graphics::FlxGraphic value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1499_set_graphic)
-HXLINE(1500)		if (::hx::IsInstanceNotEq( this->graphic,value )) {
-HXLINE(1503)			if (::hx::IsNotNull( value )) {
-HXLINE(1504)				value->incrementUseCount();
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1505_set_graphic)
+HXLINE(1506)		if (::hx::IsInstanceNotEq( this->graphic,value )) {
+HXLINE(1509)			if (::hx::IsNotNull( value )) {
+HXLINE(1510)				value->incrementUseCount();
             			}
-HXLINE(1507)			if (::hx::IsNotNull( this->graphic )) {
-HXLINE(1508)				this->graphic->decrementUseCount();
+HXLINE(1513)			if (::hx::IsNotNull( this->graphic )) {
+HXLINE(1514)				this->graphic->decrementUseCount();
             			}
-HXLINE(1510)			this->graphic = value;
+HXLINE(1516)			this->graphic = value;
             		}
-HXLINE(1513)		return value;
+HXLINE(1519)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_graphic,return )
 
  ::flixel::math::FlxRect FlxSprite_obj::set_clipRect( ::flixel::math::FlxRect rect){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1518_set_clipRect)
-HXLINE(1519)		if (::hx::IsNotNull( rect )) {
-HXLINE(1520)			rect->x = ( (Float)(::Math_obj::round(rect->x)) );
-HXDLIN(1520)			rect->y = ( (Float)(::Math_obj::round(rect->y)) );
-HXDLIN(1520)			rect->width = ( (Float)(::Math_obj::round(rect->width)) );
-HXDLIN(1520)			rect->height = ( (Float)(::Math_obj::round(rect->height)) );
-HXDLIN(1520)			this->clipRect = rect;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1524_set_clipRect)
+HXLINE(1525)		if (::hx::IsNotNull( rect )) {
+HXLINE(1526)			rect->x = ( (Float)(::Math_obj::round(rect->x)) );
+HXDLIN(1526)			rect->y = ( (Float)(::Math_obj::round(rect->y)) );
+HXDLIN(1526)			rect->width = ( (Float)(::Math_obj::round(rect->width)) );
+HXDLIN(1526)			rect->height = ( (Float)(::Math_obj::round(rect->height)) );
+HXDLIN(1526)			this->clipRect = rect;
             		}
             		else {
-HXLINE(1522)			this->clipRect = null();
+HXLINE(1528)			this->clipRect = null();
             		}
-HXLINE(1524)		if (::hx::IsNotNull( this->frames )) {
-HXLINE(1525)			this->set_frame(this->frames->frames->__get(this->animation->frameIndex).StaticCast<  ::flixel::graphics::frames::FlxFrame >());
+HXLINE(1530)		if (::hx::IsNotNull( this->frames )) {
+HXLINE(1531)			this->set_frame(this->frames->frames->__get(this->animation->frameIndex).StaticCast<  ::flixel::graphics::frames::FlxFrame >());
             		}
-HXLINE(1527)		return rect;
+HXLINE(1533)		return rect;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_clipRect,return )
 
  ::flixel::graphics::frames::FlxFramesCollection FlxSprite_obj::set_frames( ::flixel::graphics::frames::FlxFramesCollection Frames){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1539_set_frames)
-HXLINE(1540)		if (::hx::IsNotNull( this->animation )) {
-HXLINE(1542)			this->animation->destroyAnimations();
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1545_set_frames)
+HXLINE(1546)		if (::hx::IsNotNull( this->animation )) {
+HXLINE(1548)			this->animation->destroyAnimations();
             		}
-HXLINE(1545)		if (::hx::IsNotNull( Frames )) {
-HXLINE(1547)			this->set_graphic(Frames->parent);
-HXLINE(1548)			this->frames = Frames;
-HXLINE(1549)			this->set_frame(this->frames->frames->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >());
-HXLINE(1550)			this->resetHelpers();
-HXLINE(1551)			this->bakedRotationAngle = ( (Float)(0) );
-HXLINE(1552)			this->animation->set_frameIndex(0);
-HXLINE(1553)			this->graphicLoaded();
+HXLINE(1551)		if (::hx::IsNotNull( Frames )) {
+HXLINE(1553)			this->set_graphic(Frames->parent);
+HXLINE(1554)			this->frames = Frames;
+HXLINE(1555)			this->set_frame(this->frames->frames->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >());
+HXLINE(1556)			this->resetHelpers();
+HXLINE(1557)			this->bakedRotationAngle = ( (Float)(0) );
+HXLINE(1558)			this->animation->set_frameIndex(0);
+HXLINE(1559)			this->graphicLoaded();
             		}
             		else {
-HXLINE(1557)			this->frames = null();
-HXLINE(1558)			this->set_frame(null());
-HXLINE(1559)			this->set_graphic(null());
+HXLINE(1563)			this->frames = null();
+HXLINE(1564)			this->set_frame(null());
+HXLINE(1565)			this->set_graphic(null());
             		}
-HXLINE(1562)		return Frames;
+HXLINE(1568)		return Frames;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_frames,return )
 
 int FlxSprite_obj::get_numFrames(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1565_get_numFrames)
-HXLINE(1566)		if (::hx::IsNotNull( this->frames )) {
-HXLINE(1567)			return this->frames->frames->length;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1571_get_numFrames)
+HXLINE(1572)		if (::hx::IsNotNull( this->frames )) {
+HXLINE(1573)			return this->frames->frames->length;
             		}
-HXLINE(1569)		return 0;
+HXLINE(1575)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,get_numFrames,return )
 
 bool FlxSprite_obj::set_flipX(bool Value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1574_set_flipX)
-HXLINE(1575)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1577)			int _hx_tmp;
-HXDLIN(1577)			if (Value) {
-HXLINE(1577)				_hx_tmp = -1;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1580_set_flipX)
+HXLINE(1581)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1583)			int _hx_tmp;
+HXDLIN(1583)			if (Value) {
+HXLINE(1583)				_hx_tmp = -1;
             			}
             			else {
-HXLINE(1577)				_hx_tmp = 1;
+HXLINE(1583)				_hx_tmp = 1;
             			}
-HXDLIN(1577)			this->_facingHorizontalMult = _hx_tmp;
+HXDLIN(1583)			this->_facingHorizontalMult = _hx_tmp;
             		}
-HXLINE(1579)		bool _hx_tmp1;
-HXDLIN(1579)		if ((this->flipX == Value)) {
-HXLINE(1579)			_hx_tmp1 = this->dirty;
+HXLINE(1585)		bool _hx_tmp1;
+HXDLIN(1585)		if ((this->flipX == Value)) {
+HXLINE(1585)			_hx_tmp1 = this->dirty;
             		}
             		else {
-HXLINE(1579)			_hx_tmp1 = true;
+HXLINE(1585)			_hx_tmp1 = true;
             		}
-HXDLIN(1579)		this->dirty = _hx_tmp1;
-HXLINE(1580)		return (this->flipX = Value);
+HXDLIN(1585)		this->dirty = _hx_tmp1;
+HXLINE(1586)		return (this->flipX = Value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_flipX,return )
 
 bool FlxSprite_obj::set_flipY(bool Value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1585_set_flipY)
-HXLINE(1586)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1588)			int _hx_tmp;
-HXDLIN(1588)			if (Value) {
-HXLINE(1588)				_hx_tmp = -1;
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1591_set_flipY)
+HXLINE(1592)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1594)			int _hx_tmp;
+HXDLIN(1594)			if (Value) {
+HXLINE(1594)				_hx_tmp = -1;
             			}
             			else {
-HXLINE(1588)				_hx_tmp = 1;
+HXLINE(1594)				_hx_tmp = 1;
             			}
-HXDLIN(1588)			this->_facingVerticalMult = _hx_tmp;
+HXDLIN(1594)			this->_facingVerticalMult = _hx_tmp;
             		}
-HXLINE(1590)		bool _hx_tmp1;
-HXDLIN(1590)		if ((this->flipY == Value)) {
-HXLINE(1590)			_hx_tmp1 = this->dirty;
+HXLINE(1596)		bool _hx_tmp1;
+HXDLIN(1596)		if ((this->flipY == Value)) {
+HXLINE(1596)			_hx_tmp1 = this->dirty;
             		}
             		else {
-HXLINE(1590)			_hx_tmp1 = true;
+HXLINE(1596)			_hx_tmp1 = true;
             		}
-HXDLIN(1590)		this->dirty = _hx_tmp1;
-HXLINE(1591)		return (this->flipY = Value);
+HXDLIN(1596)		this->dirty = _hx_tmp1;
+HXLINE(1597)		return (this->flipY = Value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_flipY,return )
 
 bool FlxSprite_obj::set_antialiasing(bool value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1597_set_antialiasing)
-HXDLIN(1597)		return (this->antialiasing = value);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1603_set_antialiasing)
+HXDLIN(1603)		return (this->antialiasing = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_antialiasing,return )
 
 bool FlxSprite_obj::set_useFramePixels(bool value){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1603_set_useFramePixels)
-HXDLIN(1603)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1605)			if ((value != this->useFramePixels)) {
-HXLINE(1607)				this->useFramePixels = value;
-HXLINE(1608)				this->set_frame(this->frame);
-HXLINE(1610)				if (value) {
-HXLINE(1612)					this->updateFramePixels();
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1609_set_useFramePixels)
+HXDLIN(1609)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE(1611)			if ((value != this->useFramePixels)) {
+HXLINE(1613)				this->useFramePixels = value;
+HXLINE(1614)				this->set_frame(this->frame);
+HXLINE(1616)				if (value) {
+HXLINE(1618)					this->updateFramePixels();
             				}
             			}
-HXLINE(1616)			return value;
+HXLINE(1622)			return value;
             		}
             		else {
-HXLINE(1620)			this->useFramePixels = true;
-HXLINE(1621)			return true;
+HXLINE(1626)			this->useFramePixels = true;
+HXLINE(1627)			return true;
             		}
-HXLINE(1603)		return false;
+HXLINE(1609)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSprite_obj,set_useFramePixels,return )
 
 bool FlxSprite_obj::checkFlipX(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1627_checkFlipX)
-HXLINE(1628)		bool doFlipX = (this->flipX != this->_frame->flipX);
-HXLINE(1629)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE(1631)			return (doFlipX != this->animation->_curAnim->flipX);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1633_checkFlipX)
+HXLINE(1634)		bool doFlipX = (this->flipX != this->_frame->flipX);
+HXLINE(1635)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE(1637)			return (doFlipX != this->animation->_curAnim->flipX);
             		}
-HXLINE(1633)		return doFlipX;
+HXLINE(1639)		return doFlipX;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSprite_obj,checkFlipX,return )
 
 bool FlxSprite_obj::checkFlipY(){
-            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1638_checkFlipY)
-HXLINE(1639)		bool doFlipY = (this->flipY != this->_frame->flipY);
-HXLINE(1640)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE(1642)			return (doFlipY != this->animation->_curAnim->flipY);
+            	HX_STACKFRAME(&_hx_pos_cfd221447aa7194b_1644_checkFlipY)
+HXLINE(1645)		bool doFlipY = (this->flipY != this->_frame->flipY);
+HXLINE(1646)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE(1648)			return (doFlipY != this->animation->_curAnim->flipY);
             		}
-HXLINE(1644)		return doFlipY;
+HXLINE(1650)		return doFlipY;
             	}
 
 

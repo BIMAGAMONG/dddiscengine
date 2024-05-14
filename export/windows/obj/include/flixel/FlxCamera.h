@@ -59,13 +59,13 @@ class HXCPP_CLASS_ATTRIBUTES FlxCamera_obj : public  ::flixel::FlxBasic_obj
 	public:
 		enum { _hx_ClassId = 0x1ff7ce3b };
 
-		void __construct(::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom);
+		void __construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="flixel.FlxCamera")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"flixel.FlxCamera"); }
-		static ::hx::ObjectPtr< FlxCamera_obj > __new(::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom);
-		static ::hx::ObjectPtr< FlxCamera_obj > __alloc(::hx::Ctx *_hx_ctx,::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom);
+		static ::hx::ObjectPtr< FlxCamera_obj > __new(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom);
+		static ::hx::ObjectPtr< FlxCamera_obj > __alloc(::hx::Ctx *_hx_ctx,::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< int >  __o_Width,::hx::Null< int >  __o_Height,::hx::Null< Float >  __o_Zoom);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);

@@ -49,11 +49,11 @@
 
 HX_DEFINE_STACK_FRAME(_hx_pos_86aaea01378aa57b_26_new,"flixel.input.keyboard.FlxKeyboard","new",0xa12d657a,"flixel.input.keyboard.FlxKeyboard.new","flixel/input/keyboard/FlxKeyboard.hx",26,0x41882875)
 HX_DEFINE_STACK_FRAME(_hx_pos_86aaea01378aa57b_25_new,"flixel.input.keyboard.FlxKeyboard","new",0xa12d657a,"flixel.input.keyboard.FlxKeyboard.new","flixel/input/keyboard/FlxKeyboard.hx",25,0x41882875)
-HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_99_onKeyUp,"flixel.input.keyboard.FlxKeyboard","onKeyUp",0xa36f8255,"flixel.input.keyboard.FlxKeyboard.onKeyUp","flixel/input/keyboard/FlxKeyboard.hx",99,0x41882875)
-HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_112_onKeyDown,"flixel.input.keyboard.FlxKeyboard","onKeyDown",0xf4d786dc,"flixel.input.keyboard.FlxKeyboard.onKeyDown","flixel/input/keyboard/FlxKeyboard.hx",112,0x41882875)
-HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_124_resolveKeyCode,"flixel.input.keyboard.FlxKeyboard","resolveKeyCode",0x581c5a06,"flixel.input.keyboard.FlxKeyboard.resolveKeyCode","flixel/input/keyboard/FlxKeyboard.hx",124,0x41882875)
-HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_142_record,"flixel.input.keyboard.FlxKeyboard","record",0x38ad8db7,"flixel.input.keyboard.FlxKeyboard.record","flixel/input/keyboard/FlxKeyboard.hx",142,0x41882875)
-HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_171_playback,"flixel.input.keyboard.FlxKeyboard","playback",0x84dcbec1,"flixel.input.keyboard.FlxKeyboard.playback","flixel/input/keyboard/FlxKeyboard.hx",171,0x41882875)
+HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_100_onKeyUp,"flixel.input.keyboard.FlxKeyboard","onKeyUp",0xa36f8255,"flixel.input.keyboard.FlxKeyboard.onKeyUp","flixel/input/keyboard/FlxKeyboard.hx",100,0x41882875)
+HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_113_onKeyDown,"flixel.input.keyboard.FlxKeyboard","onKeyDown",0xf4d786dc,"flixel.input.keyboard.FlxKeyboard.onKeyDown","flixel/input/keyboard/FlxKeyboard.hx",113,0x41882875)
+HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_125_resolveKeyCode,"flixel.input.keyboard.FlxKeyboard","resolveKeyCode",0x581c5a06,"flixel.input.keyboard.FlxKeyboard.resolveKeyCode","flixel/input/keyboard/FlxKeyboard.hx",125,0x41882875)
+HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_143_record,"flixel.input.keyboard.FlxKeyboard","record",0x38ad8db7,"flixel.input.keyboard.FlxKeyboard.record","flixel/input/keyboard/FlxKeyboard.hx",143,0x41882875)
+HX_LOCAL_STACK_FRAME(_hx_pos_86aaea01378aa57b_172_playback,"flixel.input.keyboard.FlxKeyboard","playback",0x84dcbec1,"flixel.input.keyboard.FlxKeyboard.playback","flixel/input/keyboard/FlxKeyboard.hx",172,0x41882875)
 namespace flixel{
 namespace input{
 namespace keyboard{
@@ -96,42 +96,42 @@ HXLINE(  50)		this->_nativeCorrection->set(HX_("0_266",23,3d,2d,e2),46);
 HXLINE(  51)		this->_nativeCorrection->set(HX_("123_222",a5,bc,d4,8f),219);
 HXLINE(  52)		this->_nativeCorrection->set(HX_("125_187",a5,28,a1,b6),221);
 HXLINE(  53)		this->_nativeCorrection->set(HX_("126_233",08,7b,08,4a),192);
-HXLINE(  55)		this->_nativeCorrection->set(HX_("0_80",e7,84,02,20),112);
-HXLINE(  56)		this->_nativeCorrection->set(HX_("0_81",e8,84,02,20),113);
-HXLINE(  57)		this->_nativeCorrection->set(HX_("0_82",e9,84,02,20),114);
-HXLINE(  58)		this->_nativeCorrection->set(HX_("0_83",ea,84,02,20),115);
-HXLINE(  59)		this->_nativeCorrection->set(HX_("0_84",eb,84,02,20),116);
-HXLINE(  60)		this->_nativeCorrection->set(HX_("0_85",ec,84,02,20),117);
-HXLINE(  61)		this->_nativeCorrection->set(HX_("0_86",ed,84,02,20),118);
-HXLINE(  62)		this->_nativeCorrection->set(HX_("0_87",ee,84,02,20),119);
-HXLINE(  63)		this->_nativeCorrection->set(HX_("0_88",ef,84,02,20),120);
-HXLINE(  64)		this->_nativeCorrection->set(HX_("0_89",f0,84,02,20),121);
-HXLINE(  65)		this->_nativeCorrection->set(HX_("0_90",c6,85,02,20),122);
-HXLINE(  67)		this->_nativeCorrection->set(HX_("48_224",f9,a0,f0,47),48);
-HXLINE(  68)		this->_nativeCorrection->set(HX_("49_38",5f,96,cb,16),49);
-HXLINE(  69)		this->_nativeCorrection->set(HX_("50_233",2e,5a,17,13),50);
-HXLINE(  70)		this->_nativeCorrection->set(HX_("51_34",e4,75,e8,a4),51);
-HXLINE(  71)		this->_nativeCorrection->set(HX_("52_222",50,82,e4,39),52);
-HXLINE(  72)		this->_nativeCorrection->set(HX_("53_40",fd,e3,3a,a6),53);
-HXLINE(  73)		this->_nativeCorrection->set(HX_("54_189",52,ee,b0,60),54);
-HXLINE(  74)		this->_nativeCorrection->set(HX_("55_232",b2,40,18,f4),55);
-HXLINE(  75)		this->_nativeCorrection->set(HX_("56_95",3a,8c,36,a8),56);
-HXLINE(  76)		this->_nativeCorrection->set(HX_("57_231",b3,69,e5,1a),57);
-HXLINE(  78)		this->_nativeCorrection->set(HX_("48_64",59,62,22,16),96);
-HXLINE(  79)		this->_nativeCorrection->set(HX_("49_65",f9,98,cb,16),97);
-HXLINE(  80)		this->_nativeCorrection->set(HX_("50_66",e4,41,3f,a4),98);
-HXLINE(  81)		this->_nativeCorrection->set(HX_("51_67",84,78,e8,a4),99);
-HXLINE(  82)		this->_nativeCorrection->set(HX_("52_68",24,af,91,a5),100);
-HXLINE(  83)		this->_nativeCorrection->set(HX_("53_69",c4,e5,3a,a6),101);
-HXLINE(  84)		this->_nativeCorrection->set(HX_("54_70",39,1d,e4,a6),102);
-HXLINE(  85)		this->_nativeCorrection->set(HX_("55_71",d9,53,8d,a7),103);
-HXLINE(  86)		this->_nativeCorrection->set(HX_("56_72",79,8a,36,a8),104);
-HXLINE(  87)		this->_nativeCorrection->set(HX_("57_73",19,c1,df,a8),105);
-HXLINE(  89)		this->_nativeCorrection->set(HX_("43_75",1e,52,d4,12),107);
-HXLINE(  90)		this->_nativeCorrection->set(HX_("45_77",5e,bf,26,14),109);
-HXLINE(  91)		this->_nativeCorrection->set(HX_("47_79",9e,2c,79,15),191);
-HXLINE(  92)		this->_nativeCorrection->set(HX_("46_78",fe,f5,cf,14),110);
-HXLINE(  93)		this->_nativeCorrection->set(HX_("42_74",7e,1b,2b,12),106);
+HXLINE(  56)		this->_nativeCorrection->set(HX_("0_80",e7,84,02,20),112);
+HXLINE(  57)		this->_nativeCorrection->set(HX_("0_81",e8,84,02,20),113);
+HXLINE(  58)		this->_nativeCorrection->set(HX_("0_82",e9,84,02,20),114);
+HXLINE(  59)		this->_nativeCorrection->set(HX_("0_83",ea,84,02,20),115);
+HXLINE(  60)		this->_nativeCorrection->set(HX_("0_84",eb,84,02,20),116);
+HXLINE(  61)		this->_nativeCorrection->set(HX_("0_85",ec,84,02,20),117);
+HXLINE(  62)		this->_nativeCorrection->set(HX_("0_86",ed,84,02,20),118);
+HXLINE(  63)		this->_nativeCorrection->set(HX_("0_87",ee,84,02,20),119);
+HXLINE(  64)		this->_nativeCorrection->set(HX_("0_88",ef,84,02,20),120);
+HXLINE(  65)		this->_nativeCorrection->set(HX_("0_89",f0,84,02,20),121);
+HXLINE(  66)		this->_nativeCorrection->set(HX_("0_90",c6,85,02,20),122);
+HXLINE(  68)		this->_nativeCorrection->set(HX_("48_224",f9,a0,f0,47),48);
+HXLINE(  69)		this->_nativeCorrection->set(HX_("49_38",5f,96,cb,16),49);
+HXLINE(  70)		this->_nativeCorrection->set(HX_("50_233",2e,5a,17,13),50);
+HXLINE(  71)		this->_nativeCorrection->set(HX_("51_34",e4,75,e8,a4),51);
+HXLINE(  72)		this->_nativeCorrection->set(HX_("52_222",50,82,e4,39),52);
+HXLINE(  73)		this->_nativeCorrection->set(HX_("53_40",fd,e3,3a,a6),53);
+HXLINE(  74)		this->_nativeCorrection->set(HX_("54_189",52,ee,b0,60),54);
+HXLINE(  75)		this->_nativeCorrection->set(HX_("55_232",b2,40,18,f4),55);
+HXLINE(  76)		this->_nativeCorrection->set(HX_("56_95",3a,8c,36,a8),56);
+HXLINE(  77)		this->_nativeCorrection->set(HX_("57_231",b3,69,e5,1a),57);
+HXLINE(  79)		this->_nativeCorrection->set(HX_("48_64",59,62,22,16),96);
+HXLINE(  80)		this->_nativeCorrection->set(HX_("49_65",f9,98,cb,16),97);
+HXLINE(  81)		this->_nativeCorrection->set(HX_("50_66",e4,41,3f,a4),98);
+HXLINE(  82)		this->_nativeCorrection->set(HX_("51_67",84,78,e8,a4),99);
+HXLINE(  83)		this->_nativeCorrection->set(HX_("52_68",24,af,91,a5),100);
+HXLINE(  84)		this->_nativeCorrection->set(HX_("53_69",c4,e5,3a,a6),101);
+HXLINE(  85)		this->_nativeCorrection->set(HX_("54_70",39,1d,e4,a6),102);
+HXLINE(  86)		this->_nativeCorrection->set(HX_("55_71",d9,53,8d,a7),103);
+HXLINE(  87)		this->_nativeCorrection->set(HX_("56_72",79,8a,36,a8),104);
+HXLINE(  88)		this->_nativeCorrection->set(HX_("57_73",19,c1,df,a8),105);
+HXLINE(  90)		this->_nativeCorrection->set(HX_("43_75",1e,52,d4,12),107);
+HXLINE(  91)		this->_nativeCorrection->set(HX_("45_77",5e,bf,26,14),109);
+HXLINE(  92)		this->_nativeCorrection->set(HX_("47_79",9e,2c,79,15),191);
+HXLINE(  93)		this->_nativeCorrection->set(HX_("46_78",fe,f5,cf,14),110);
+HXLINE(  94)		this->_nativeCorrection->set(HX_("42_74",7e,1b,2b,12),106);
             	}
 
 Dynamic FlxKeyboard_obj::__CreateEmpty() { return new FlxKeyboard_obj; }
@@ -154,75 +154,75 @@ bool FlxKeyboard_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxKeyboard_obj::onKeyUp( ::openfl::events::KeyboardEvent event){
-            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_99_onKeyUp)
-HXDLIN(  99)		this->super::onKeyUp(event);
+            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_100_onKeyUp)
+HXDLIN( 100)		this->super::onKeyUp(event);
             	}
 
 
 void FlxKeyboard_obj::onKeyDown( ::openfl::events::KeyboardEvent event){
-            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_112_onKeyDown)
-HXDLIN( 112)		this->super::onKeyDown(event);
+            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_113_onKeyDown)
+HXDLIN( 113)		this->super::onKeyDown(event);
             	}
 
 
 int FlxKeyboard_obj::resolveKeyCode( ::openfl::events::KeyboardEvent e){
-            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_124_resolveKeyCode)
-HXLINE( 128)		 ::Dynamic code = this->_nativeCorrection->get(((e->charCode + HX_("_",5f,00,00,00)) + e->keyCode));
-HXLINE( 129)		if (::hx::IsNull( code )) {
-HXLINE( 129)			return e->keyCode;
+            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_125_resolveKeyCode)
+HXLINE( 129)		 ::Dynamic code = this->_nativeCorrection->get(((e->charCode + HX_("_",5f,00,00,00)) + e->keyCode));
+HXLINE( 130)		if (::hx::IsNull( code )) {
+HXLINE( 130)			return e->keyCode;
             		}
             		else {
-HXLINE( 129)			return ( (int)(code) );
+HXLINE( 130)			return ( (int)(code) );
             		}
-HXDLIN( 129)		return 0;
+HXDLIN( 130)		return 0;
             	}
 
 
 ::Array< ::Dynamic> FlxKeyboard_obj::record(){
-            	HX_GC_STACKFRAME(&_hx_pos_86aaea01378aa57b_142_record)
-HXLINE( 143)		::Array< ::Dynamic> data = null();
-HXLINE( 145)		{
-HXLINE( 145)			int _g = 0;
-HXDLIN( 145)			::Array< ::Dynamic> _g1 = this->_keyListArray;
-HXDLIN( 145)			while((_g < _g1->length)){
-HXLINE( 145)				 ::flixel::input::FlxInput key = _g1->__get(_g).StaticCast<  ::flixel::input::FlxInput >();
-HXDLIN( 145)				_g = (_g + 1);
-HXLINE( 147)				bool _hx_tmp;
-HXDLIN( 147)				if (::hx::IsNotNull( key )) {
-HXLINE( 147)					if ((key->current != 0)) {
-HXLINE( 147)						_hx_tmp = (key->current == -1);
+            	HX_GC_STACKFRAME(&_hx_pos_86aaea01378aa57b_143_record)
+HXLINE( 144)		::Array< ::Dynamic> data = null();
+HXLINE( 146)		{
+HXLINE( 146)			int _g = 0;
+HXDLIN( 146)			::Array< ::Dynamic> _g1 = this->_keyListArray;
+HXDLIN( 146)			while((_g < _g1->length)){
+HXLINE( 146)				 ::flixel::input::FlxInput key = _g1->__get(_g).StaticCast<  ::flixel::input::FlxInput >();
+HXDLIN( 146)				_g = (_g + 1);
+HXLINE( 148)				bool _hx_tmp;
+HXDLIN( 148)				if (::hx::IsNotNull( key )) {
+HXLINE( 148)					if ((key->current != 0)) {
+HXLINE( 148)						_hx_tmp = (key->current == -1);
             					}
             					else {
-HXLINE( 147)						_hx_tmp = true;
+HXLINE( 148)						_hx_tmp = true;
             					}
             				}
             				else {
-HXLINE( 147)					_hx_tmp = true;
+HXLINE( 148)					_hx_tmp = true;
             				}
-HXDLIN( 147)				if (_hx_tmp) {
-HXLINE( 149)					continue;
+HXDLIN( 148)				if (_hx_tmp) {
+HXLINE( 150)					continue;
             				}
-HXLINE( 152)				if (::hx::IsNull( data )) {
-HXLINE( 154)					data = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 153)				if (::hx::IsNull( data )) {
+HXLINE( 155)					data = ::Array_obj< ::Dynamic>::__new();
             				}
-HXLINE( 157)				data->push( ::flixel::_hx_system::replay::CodeValuePair_obj::__alloc( HX_CTX ,( (int)(key->ID) ),key->current));
+HXLINE( 158)				data->push( ::flixel::_hx_system::replay::CodeValuePair_obj::__alloc( HX_CTX ,( (int)(key->ID) ),key->current));
             			}
             		}
-HXLINE( 160)		return data;
+HXLINE( 161)		return data;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxKeyboard_obj,record,return )
 
 void FlxKeyboard_obj::playback(::Array< ::Dynamic> Record){
-            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_171_playback)
-HXLINE( 172)		int i = 0;
-HXLINE( 173)		int l = Record->length;
-HXLINE( 175)		while((i < l)){
-HXLINE( 177)			i = (i + 1);
-HXDLIN( 177)			 ::flixel::_hx_system::replay::CodeValuePair o = Record->__get((i - 1)).StaticCast<  ::flixel::_hx_system::replay::CodeValuePair >();
-HXLINE( 178)			 ::flixel::input::FlxInput o2 = ( ( ::flixel::input::FlxInput)(this->_keyListMap->get(o->code)) );
-HXLINE( 179)			o2->current = o->value;
+            	HX_STACKFRAME(&_hx_pos_86aaea01378aa57b_172_playback)
+HXLINE( 173)		int i = 0;
+HXLINE( 174)		int l = Record->length;
+HXLINE( 176)		while((i < l)){
+HXLINE( 178)			i = (i + 1);
+HXDLIN( 178)			 ::flixel::_hx_system::replay::CodeValuePair o = Record->__get((i - 1)).StaticCast<  ::flixel::_hx_system::replay::CodeValuePair >();
+HXLINE( 179)			 ::flixel::input::FlxInput o2 = ( ( ::flixel::input::FlxInput)(this->_keyListMap->get(o->code)) );
+HXLINE( 180)			o2->current = o->value;
             		}
             	}
 

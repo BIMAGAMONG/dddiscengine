@@ -12,10 +12,12 @@
 HX_DECLARE_CLASS2(haxe,io,Bytes)
 HX_DECLARE_CLASS2(lime,app,Future)
 HX_DECLARE_CLASS2(lime,media,AudioBuffer)
-HX_DECLARE_CLASS2(lime,media,AudioSource)
 HX_DECLARE_CLASS2(lime,media,OpenALAudioContext)
+HX_DECLARE_CLASS2(lime,utils,ArrayBufferView)
+HX_DECLARE_CLASS2(openfl,events,Event)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
 HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
+HX_DECLARE_CLASS2(openfl,events,SampleDataEvent)
 HX_DECLARE_CLASS2(openfl,media,ID3Info)
 HX_DECLARE_CLASS2(openfl,media,Sound)
 HX_DECLARE_CLASS2(openfl,media,SoundChannel)
@@ -79,11 +81,16 @@ class HXCPP_CLASS_ATTRIBUTES Sound_obj : public  ::openfl::events::EventDispatch
 		int bytesTotal;
 		bool isBuffering;
 		::String url;
-		bool _hx___urlLoading;
-		 ::openfl::media::SoundChannel _hx___pendingSoundChannel;
-		 ::lime::media::AudioSource _hx___pendingAudioSource;
 		 ::lime::media::AudioBuffer _hx___buffer;
-		 ::lime::media::OpenALAudioContext _hx___alAudioContext;
+		 ::lime::media::OpenALAudioContext _hx___ALAudioContext;
+		 ::openfl::events::SampleDataEvent _hx___sampleData;
+		 ::Dynamic _hx___source;
+		 ::openfl::utils::ByteArrayData _hx___outputBuffer;
+		 ::lime::utils::ArrayBufferView _hx___bufferView;
+		::cpp::VirtualArray _hx___buffers;
+		int _hx___numberOFBuffers;
+		bool _hx___listenerRemoved;
+		::cpp::VirtualArray _hx___emptyBuffers;
 		void close();
 		::Dynamic close_dyn();
 
@@ -99,8 +106,13 @@ class HXCPP_CLASS_ATTRIBUTES Sound_obj : public  ::openfl::events::EventDispatch
 		 ::openfl::media::SoundChannel play(::hx::Null< Float >  startTime,::hx::Null< int >  loops, ::openfl::media::SoundTransform sndTransform);
 		::Dynamic play_dyn();
 
+		void watchBuffers(int i);
+		::Dynamic watchBuffers_dyn();
+
 		int get_sampleRate();
 		::Dynamic get_sampleRate_dyn();
+
+		void removeEventListener(::String _tmp_type, ::Dynamic _tmp_listener,::hx::Null< bool >  useCapture);
 
 		 ::openfl::media::ID3Info get_id3();
 		::Dynamic get_id3_dyn();

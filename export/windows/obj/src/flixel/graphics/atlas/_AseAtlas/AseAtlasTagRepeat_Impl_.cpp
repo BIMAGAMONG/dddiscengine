@@ -35,10 +35,10 @@ bool AseAtlasTagRepeat_Impl__obj::_hx_isInstanceOf(int inClassId) {
 bool AseAtlasTagRepeat_Impl__obj::get_loops(::String this1){
             	HX_STACKFRAME(&_hx_pos_2f741f9caaa7676a_121_get_loops)
 HXDLIN( 121)		if (::hx::IsNotNull( this1 )) {
-HXDLIN( 121)			return ::hx::IsGreater( ::Std_obj::parseInt(this1),0 );
+HXDLIN( 121)			return ::hx::IsGreater( ::Std_obj::parseInt(this1),1 );
             		}
             		else {
-HXDLIN( 121)			return false;
+HXDLIN( 121)			return true;
             		}
 HXDLIN( 121)		return false;
             	}

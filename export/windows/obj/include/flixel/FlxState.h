@@ -31,13 +31,13 @@ class HXCPP_CLASS_ATTRIBUTES FlxState_obj : public  ::flixel::group::FlxTypedGro
 	public:
 		enum { _hx_ClassId = 0x7c795c9f };
 
-		void __construct( ::Dynamic MaxSize);
+		void __construct();
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="flixel.FlxState")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"flixel.FlxState"); }
-		static ::hx::ObjectPtr< FlxState_obj > __new( ::Dynamic MaxSize);
-		static ::hx::ObjectPtr< FlxState_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic MaxSize);
+		static ::hx::ObjectPtr< FlxState_obj > __new();
+		static ::hx::ObjectPtr< FlxState_obj > __alloc(::hx::Ctx *_hx_ctx);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);
@@ -56,6 +56,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxState_obj : public  ::flixel::group::FlxTypedGro
 		bool persistentUpdate;
 		bool persistentDraw;
 		bool destroySubStates;
+		 ::Dynamic _constructor;
 		 ::flixel::FlxSubState subState;
 		 ::flixel::FlxSubState _requestedSubState;
 		bool _requestSubStateReset;
@@ -80,7 +81,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxState_obj : public  ::flixel::group::FlxTypedGro
 		bool switchTo( ::flixel::FlxState nextState);
 		::Dynamic switchTo_dyn();
 
-		void startOutro( ::Dynamic onOutroComplete);
+		virtual void startOutro( ::Dynamic onOutroComplete);
 		::Dynamic startOutro_dyn();
 
 		void onFocusLost();

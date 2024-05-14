@@ -58,74 +58,75 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_c625bfaa5b4263df_75_new,"flixel.FlxObject","new",0x2aa4ec91,"flixel.FlxObject.new","flixel/FlxObject.hx",75,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_813_initVars,"flixel.FlxObject","initVars",0xb8a66d0b,"flixel.FlxObject.initVars","flixel/FlxObject.hx",813,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_827_initMotionVars,"flixel.FlxObject","initMotionVars",0xb01943a1,"flixel.FlxObject.initMotionVars","flixel/FlxObject.hx",827,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_845_destroy,"flixel.FlxObject","destroy",0xba37b5ab,"flixel.FlxObject.destroy","flixel/FlxObject.hx",845,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_863_update,"flixel.FlxObject","update",0x87b15e78,"flixel.FlxObject.update","flixel/FlxObject.hx",863,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_888_updateMotion,"flixel.FlxObject","updateMotion",0x420d82ce,"flixel.FlxObject.updateMotion","flixel/FlxObject.hx",888,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_911_draw,"flixel.FlxObject","draw",0x1f17bab3,"flixel.FlxObject.draw","flixel/FlxObject.hx",911,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_933_overlaps,"flixel.FlxObject","overlaps",0xaad0e53b,"flixel.FlxObject.overlaps","flixel/FlxObject.hx",933,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_937_overlaps,"flixel.FlxObject","overlaps",0xaad0e53b,"flixel.FlxObject.overlaps","flixel/FlxObject.hx",937,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_969_overlapsCallback,"flixel.FlxObject","overlapsCallback",0xe4196e20,"flixel.FlxObject.overlapsCallback","flixel/FlxObject.hx",969,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_992_overlapsAt,"flixel.FlxObject","overlapsAt",0xacc1230e,"flixel.FlxObject.overlapsAt","flixel/FlxObject.hx",992,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_996_overlapsAt,"flixel.FlxObject","overlapsAt",0xacc1230e,"flixel.FlxObject.overlapsAt","flixel/FlxObject.hx",996,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1030_overlapsAtCallback,"flixel.FlxObject","overlapsAtCallback",0xb90836f3,"flixel.FlxObject.overlapsAtCallback","flixel/FlxObject.hx",1030,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1043_overlapsPoint,"flixel.FlxObject","overlapsPoint",0xcd9c6915,"flixel.FlxObject.overlapsPoint","flixel/FlxObject.hx",1043,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1068_inWorldBounds,"flixel.FlxObject","inWorldBounds",0x89d0e9f3,"flixel.FlxObject.inWorldBounds","flixel/FlxObject.hx",1068,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1079_getScreenPosition,"flixel.FlxObject","getScreenPosition",0x643c435c,"flixel.FlxObject.getScreenPosition","flixel/FlxObject.hx",1079,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1100_getPosition,"flixel.FlxObject","getPosition",0x1bf09890,"flixel.FlxObject.getPosition","flixel/FlxObject.hx",1100,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1115_getMidpoint,"flixel.FlxObject","getMidpoint",0x7bfe0daf,"flixel.FlxObject.getMidpoint","flixel/FlxObject.hx",1115,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1122_getHitbox,"flixel.FlxObject","getHitbox",0x5f284dbf,"flixel.FlxObject.getHitbox","flixel/FlxObject.hx",1122,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1136_reset,"flixel.FlxObject","reset",0x1cbd9440,"flixel.FlxObject.reset","flixel/FlxObject.hx",1136,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1153_isOnScreen,"flixel.FlxObject","isOnScreen",0x4aab7fe4,"flixel.FlxObject.isOnScreen","flixel/FlxObject.hx",1153,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1165_isPixelPerfectRender,"flixel.FlxObject","isPixelPerfectRender",0xc4c93916,"flixel.FlxObject.isPixelPerfectRender","flixel/FlxObject.hx",1165,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1180_isTouching,"flixel.FlxObject","isTouching",0x23c6647c,"flixel.FlxObject.isTouching","flixel/FlxObject.hx",1180,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1192_justTouched,"flixel.FlxObject","justTouched",0xbcba8e43,"flixel.FlxObject.justTouched","flixel/FlxObject.hx",1192,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1202_hurt,"flixel.FlxObject","hurt",0x21beeabe,"flixel.FlxObject.hurt","flixel/FlxObject.hx",1202,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1215_screenCenter,"flixel.FlxObject","screenCenter",0x59e58410,"flixel.FlxObject.screenCenter","flixel/FlxObject.hx",1215,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1233_setPosition,"flixel.FlxObject","setPosition",0x265d9f9c,"flixel.FlxObject.setPosition","flixel/FlxObject.hx",1233,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1245_setSize,"flixel.FlxObject","setSize",0xa7896a34,"flixel.FlxObject.setSize","flixel/FlxObject.hx",1245,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1325_getBoundingBox,"flixel.FlxObject","getBoundingBox",0x58364780,"flixel.FlxObject.getBoundingBox","flixel/FlxObject.hx",1325,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1349_getRotatedBounds,"flixel.FlxObject","getRotatedBounds",0x6b926bb7,"flixel.FlxObject.getRotatedBounds","flixel/FlxObject.hx",1349,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1362_toString,"flixel.FlxObject","toString",0x9e14e2db,"flixel.FlxObject.toString","flixel/FlxObject.hx",1362,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1375_set_x,"flixel.FlxObject","set_x",0xb024e5cc,"flixel.FlxObject.set_x","flixel/FlxObject.hx",1375,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1381_set_y,"flixel.FlxObject","set_y",0xb024e5cd,"flixel.FlxObject.set_y","flixel/FlxObject.hx",1381,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1395_set_width,"flixel.FlxObject","set_width",0x7d06d55a,"flixel.FlxObject.set_width","flixel/FlxObject.hx",1395,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1409_set_height,"flixel.FlxObject","set_height",0x9f435213,"flixel.FlxObject.set_height","flixel/FlxObject.hx",1409,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1415_get_width,"flixel.FlxObject","get_width",0x99b5e94e,"flixel.FlxObject.get_width","flixel/FlxObject.hx",1415,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1421_get_height,"flixel.FlxObject","get_height",0x9bc5b39f,"flixel.FlxObject.get_height","flixel/FlxObject.hx",1421,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1427_get_solid,"flixel.FlxObject","get_solid",0x5018e773,"flixel.FlxObject.get_solid","flixel/FlxObject.hx",1427,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1432_set_solid,"flixel.FlxObject","set_solid",0x3369d37f,"flixel.FlxObject.set_solid","flixel/FlxObject.hx",1432,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1440_set_angle,"flixel.FlxObject","set_angle",0xd5866327,"flixel.FlxObject.set_angle","flixel/FlxObject.hx",1440,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1446_set_moves,"flixel.FlxObject","set_moves",0xbf09eb96,"flixel.FlxObject.set_moves","flixel/FlxObject.hx",1446,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1452_set_immovable,"flixel.FlxObject","set_immovable",0xc5b8805e,"flixel.FlxObject.set_immovable","flixel/FlxObject.hx",1452,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1458_set_pixelPerfectRender,"flixel.FlxObject","set_pixelPerfectRender",0x84233609,"flixel.FlxObject.set_pixelPerfectRender","flixel/FlxObject.hx",1458,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1464_set_allowCollisions,"flixel.FlxObject","set_allowCollisions",0x7975d9fe,"flixel.FlxObject.set_allowCollisions","flixel/FlxObject.hx",1464,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1470_get_collisonXDrag,"flixel.FlxObject","get_collisonXDrag",0x511e85df,"flixel.FlxObject.get_collisonXDrag","flixel/FlxObject.hx",1470,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1475_set_collisonXDrag,"flixel.FlxObject","set_collisonXDrag",0x748c5deb,"flixel.FlxObject.set_collisonXDrag","flixel/FlxObject.hx",1475,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1502_set_path,"flixel.FlxObject","set_path",0xde100cd1,"flixel.FlxObject.set_path","flixel/FlxObject.hx",1502,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_174_separate,"flixel.FlxObject","separate",0x6cc23192,"flixel.FlxObject.separate","flixel/FlxObject.hx",174,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_189_updateTouchingFlags,"flixel.FlxObject","updateTouchingFlags",0x15a0502c,"flixel.FlxObject.updateTouchingFlags","flixel/FlxObject.hx",189,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_197_allowCollisionDrag,"flixel.FlxObject","allowCollisionDrag",0x3ed42e2c,"flixel.FlxObject.allowCollisionDrag","flixel/FlxObject.hx",197,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_213_computeOverlapX,"flixel.FlxObject","computeOverlapX",0x240ec739,"flixel.FlxObject.computeOverlapX","flixel/FlxObject.hx",213,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_281_separateX,"flixel.FlxObject","separateX",0xbd292e86,"flixel.FlxObject.separateX","flixel/FlxObject.hx",281,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_372_updateTouchingFlagsX,"flixel.FlxObject","updateTouchingFlagsX",0xd6a5d6ac,"flixel.FlxObject.updateTouchingFlagsX","flixel/FlxObject.hx",372,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_395_computeOverlapY,"flixel.FlxObject","computeOverlapY",0x240ec73a,"flixel.FlxObject.computeOverlapY","flixel/FlxObject.hx",395,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_463_separateY,"flixel.FlxObject","separateY",0xbd292e87,"flixel.FlxObject.separateY","flixel/FlxObject.hx",463,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_554_updateTouchingFlagsY,"flixel.FlxObject","updateTouchingFlagsY",0xd6a5d6ad,"flixel.FlxObject.updateTouchingFlagsY","flixel/FlxObject.hx",554,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_820_initVars,"flixel.FlxObject","initVars",0xb8a66d0b,"flixel.FlxObject.initVars","flixel/FlxObject.hx",820,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_834_initMotionVars,"flixel.FlxObject","initMotionVars",0xb01943a1,"flixel.FlxObject.initMotionVars","flixel/FlxObject.hx",834,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_852_destroy,"flixel.FlxObject","destroy",0xba37b5ab,"flixel.FlxObject.destroy","flixel/FlxObject.hx",852,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_870_update,"flixel.FlxObject","update",0x87b15e78,"flixel.FlxObject.update","flixel/FlxObject.hx",870,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_895_updateMotion,"flixel.FlxObject","updateMotion",0x420d82ce,"flixel.FlxObject.updateMotion","flixel/FlxObject.hx",895,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_918_draw,"flixel.FlxObject","draw",0x1f17bab3,"flixel.FlxObject.draw","flixel/FlxObject.hx",918,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_940_overlaps,"flixel.FlxObject","overlaps",0xaad0e53b,"flixel.FlxObject.overlaps","flixel/FlxObject.hx",940,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_944_overlaps,"flixel.FlxObject","overlaps",0xaad0e53b,"flixel.FlxObject.overlaps","flixel/FlxObject.hx",944,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_976_overlapsCallback,"flixel.FlxObject","overlapsCallback",0xe4196e20,"flixel.FlxObject.overlapsCallback","flixel/FlxObject.hx",976,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_999_overlapsAt,"flixel.FlxObject","overlapsAt",0xacc1230e,"flixel.FlxObject.overlapsAt","flixel/FlxObject.hx",999,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1003_overlapsAt,"flixel.FlxObject","overlapsAt",0xacc1230e,"flixel.FlxObject.overlapsAt","flixel/FlxObject.hx",1003,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1037_overlapsAtCallback,"flixel.FlxObject","overlapsAtCallback",0xb90836f3,"flixel.FlxObject.overlapsAtCallback","flixel/FlxObject.hx",1037,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1050_overlapsPoint,"flixel.FlxObject","overlapsPoint",0xcd9c6915,"flixel.FlxObject.overlapsPoint","flixel/FlxObject.hx",1050,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1075_inWorldBounds,"flixel.FlxObject","inWorldBounds",0x89d0e9f3,"flixel.FlxObject.inWorldBounds","flixel/FlxObject.hx",1075,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1086_getScreenPosition,"flixel.FlxObject","getScreenPosition",0x643c435c,"flixel.FlxObject.getScreenPosition","flixel/FlxObject.hx",1086,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1107_getPosition,"flixel.FlxObject","getPosition",0x1bf09890,"flixel.FlxObject.getPosition","flixel/FlxObject.hx",1107,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1122_getMidpoint,"flixel.FlxObject","getMidpoint",0x7bfe0daf,"flixel.FlxObject.getMidpoint","flixel/FlxObject.hx",1122,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1129_getHitbox,"flixel.FlxObject","getHitbox",0x5f284dbf,"flixel.FlxObject.getHitbox","flixel/FlxObject.hx",1129,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1143_reset,"flixel.FlxObject","reset",0x1cbd9440,"flixel.FlxObject.reset","flixel/FlxObject.hx",1143,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1160_isOnScreen,"flixel.FlxObject","isOnScreen",0x4aab7fe4,"flixel.FlxObject.isOnScreen","flixel/FlxObject.hx",1160,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1172_isPixelPerfectRender,"flixel.FlxObject","isPixelPerfectRender",0xc4c93916,"flixel.FlxObject.isPixelPerfectRender","flixel/FlxObject.hx",1172,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1187_isTouching,"flixel.FlxObject","isTouching",0x23c6647c,"flixel.FlxObject.isTouching","flixel/FlxObject.hx",1187,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1199_justTouched,"flixel.FlxObject","justTouched",0xbcba8e43,"flixel.FlxObject.justTouched","flixel/FlxObject.hx",1199,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1209_hurt,"flixel.FlxObject","hurt",0x21beeabe,"flixel.FlxObject.hurt","flixel/FlxObject.hx",1209,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1222_screenCenter,"flixel.FlxObject","screenCenter",0x59e58410,"flixel.FlxObject.screenCenter","flixel/FlxObject.hx",1222,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1240_setPosition,"flixel.FlxObject","setPosition",0x265d9f9c,"flixel.FlxObject.setPosition","flixel/FlxObject.hx",1240,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1252_setSize,"flixel.FlxObject","setSize",0xa7896a34,"flixel.FlxObject.setSize","flixel/FlxObject.hx",1252,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1332_getBoundingBox,"flixel.FlxObject","getBoundingBox",0x58364780,"flixel.FlxObject.getBoundingBox","flixel/FlxObject.hx",1332,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1356_getRotatedBounds,"flixel.FlxObject","getRotatedBounds",0x6b926bb7,"flixel.FlxObject.getRotatedBounds","flixel/FlxObject.hx",1356,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1369_toString,"flixel.FlxObject","toString",0x9e14e2db,"flixel.FlxObject.toString","flixel/FlxObject.hx",1369,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1382_set_x,"flixel.FlxObject","set_x",0xb024e5cc,"flixel.FlxObject.set_x","flixel/FlxObject.hx",1382,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1388_set_y,"flixel.FlxObject","set_y",0xb024e5cd,"flixel.FlxObject.set_y","flixel/FlxObject.hx",1388,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1402_set_width,"flixel.FlxObject","set_width",0x7d06d55a,"flixel.FlxObject.set_width","flixel/FlxObject.hx",1402,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1416_set_height,"flixel.FlxObject","set_height",0x9f435213,"flixel.FlxObject.set_height","flixel/FlxObject.hx",1416,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1422_get_width,"flixel.FlxObject","get_width",0x99b5e94e,"flixel.FlxObject.get_width","flixel/FlxObject.hx",1422,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1428_get_height,"flixel.FlxObject","get_height",0x9bc5b39f,"flixel.FlxObject.get_height","flixel/FlxObject.hx",1428,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1434_get_solid,"flixel.FlxObject","get_solid",0x5018e773,"flixel.FlxObject.get_solid","flixel/FlxObject.hx",1434,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1439_set_solid,"flixel.FlxObject","set_solid",0x3369d37f,"flixel.FlxObject.set_solid","flixel/FlxObject.hx",1439,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1447_set_angle,"flixel.FlxObject","set_angle",0xd5866327,"flixel.FlxObject.set_angle","flixel/FlxObject.hx",1447,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1453_set_moves,"flixel.FlxObject","set_moves",0xbf09eb96,"flixel.FlxObject.set_moves","flixel/FlxObject.hx",1453,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1459_set_immovable,"flixel.FlxObject","set_immovable",0xc5b8805e,"flixel.FlxObject.set_immovable","flixel/FlxObject.hx",1459,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1465_set_pixelPerfectRender,"flixel.FlxObject","set_pixelPerfectRender",0x84233609,"flixel.FlxObject.set_pixelPerfectRender","flixel/FlxObject.hx",1465,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1471_set_allowCollisions,"flixel.FlxObject","set_allowCollisions",0x7975d9fe,"flixel.FlxObject.set_allowCollisions","flixel/FlxObject.hx",1471,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1477_get_collisonXDrag,"flixel.FlxObject","get_collisonXDrag",0x511e85df,"flixel.FlxObject.get_collisonXDrag","flixel/FlxObject.hx",1477,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1482_set_collisonXDrag,"flixel.FlxObject","set_collisonXDrag",0x748c5deb,"flixel.FlxObject.set_collisonXDrag","flixel/FlxObject.hx",1482,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_1509_set_path,"flixel.FlxObject","set_path",0xde100cd1,"flixel.FlxObject.set_path","flixel/FlxObject.hx",1509,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_181_separate,"flixel.FlxObject","separate",0x6cc23192,"flixel.FlxObject.separate","flixel/FlxObject.hx",181,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_196_updateTouchingFlags,"flixel.FlxObject","updateTouchingFlags",0x15a0502c,"flixel.FlxObject.updateTouchingFlags","flixel/FlxObject.hx",196,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_204_allowCollisionDrag,"flixel.FlxObject","allowCollisionDrag",0x3ed42e2c,"flixel.FlxObject.allowCollisionDrag","flixel/FlxObject.hx",204,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_220_computeOverlapX,"flixel.FlxObject","computeOverlapX",0x240ec739,"flixel.FlxObject.computeOverlapX","flixel/FlxObject.hx",220,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_288_separateX,"flixel.FlxObject","separateX",0xbd292e86,"flixel.FlxObject.separateX","flixel/FlxObject.hx",288,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_379_updateTouchingFlagsX,"flixel.FlxObject","updateTouchingFlagsX",0xd6a5d6ac,"flixel.FlxObject.updateTouchingFlagsX","flixel/FlxObject.hx",379,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_402_computeOverlapY,"flixel.FlxObject","computeOverlapY",0x240ec73a,"flixel.FlxObject.computeOverlapY","flixel/FlxObject.hx",402,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_470_separateY,"flixel.FlxObject","separateY",0xbd292e87,"flixel.FlxObject.separateY","flixel/FlxObject.hx",470,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_561_updateTouchingFlagsY,"flixel.FlxObject","updateTouchingFlagsY",0xd6a5d6ad,"flixel.FlxObject.updateTouchingFlagsY","flixel/FlxObject.hx",561,0xf0fe0d80)
 HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_80_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",80,0xf0fe0d80)
 HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_87_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",87,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_95_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",95,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_103_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",103,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_111_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",111,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_119_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",119,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_127_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",127,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_135_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",135,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_143_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",143,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_151_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",151,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_159_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",159,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_162_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",162,0xf0fe0d80)
-HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_164_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",164,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_94_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",94,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_102_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",102,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_110_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",110,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_118_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",118,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_126_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",126,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_134_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",134,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_142_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",142,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_150_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",150,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_158_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",158,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_166_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",166,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_169_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",169,0xf0fe0d80)
+HX_LOCAL_STACK_FRAME(_hx_pos_c625bfaa5b4263df_171_boot,"flixel.FlxObject","boot",0x1dc312e1,"flixel.FlxObject.boot","flixel/FlxObject.hx",171,0xf0fe0d80)
 namespace flixel{
 
 void FlxObject_obj::__construct(::hx::Null< Float >  __o_x,::hx::Null< Float >  __o_y,::hx::Null< Float >  __o_width,::hx::Null< Float >  __o_height){
@@ -134,42 +135,42 @@ void FlxObject_obj::__construct(::hx::Null< Float >  __o_x,::hx::Null< Float >  
             		Float width = __o_width.Default(0);
             		Float height = __o_height.Default(0);
             	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_75_new)
-HXLINE( 788)		 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 788)		_this->x = ( (Float)(0) );
-HXDLIN( 788)		_this->y = ( (Float)(0) );
-HXDLIN( 788)		_this->width = ( (Float)(0) );
-HXDLIN( 788)		_this->height = ( (Float)(0) );
-HXDLIN( 788)		 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 788)		rect->_inPool = false;
-HXDLIN( 788)		this->_rect = rect;
-HXLINE( 786)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 786)		point->_inPool = false;
-HXDLIN( 786)		this->_point = point;
-HXLINE( 783)		this->path = null();
-HXLINE( 741)		this->collisionYDrag = 0;
-HXLINE( 733)		this->collisionXDrag = 2;
-HXLINE( 716)		this->allowCollisions = 4369;
-HXLINE( 710)		this->wasTouching = 0;
-HXLINE( 704)		this->touching = 0;
-HXLINE( 698)		this->health = ((Float)1);
-HXLINE( 693)		this->maxAngular = ((Float)10000);
-HXLINE( 688)		this->angularDrag = ((Float)0);
-HXLINE( 683)		this->angularAcceleration = ((Float)0);
-HXLINE( 678)		this->angularVelocity = ((Float)0);
-HXLINE( 673)		this->elasticity = ((Float)0);
-HXLINE( 668)		this->mass = ((Float)1);
-HXLINE( 620)		this->immovable = false;
-HXLINE( 615)		this->moves = true;
-HXLINE( 609)		this->angle = ((Float)0);
-HXLINE( 603)		this->pixelPerfectPosition = true;
-HXLINE( 578)		this->y = ((Float)0);
-HXLINE( 573)		this->x = ((Float)0);
-HXLINE( 798)		super::__construct();
-HXLINE( 800)		this->set_x(x);
-HXLINE( 801)		this->set_y(y);
-HXLINE( 802)		this->set_width(width);
-HXLINE( 803)		this->set_height(height);
-HXLINE( 805)		this->initVars();
+HXLINE( 795)		 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 795)		_this->x = ( (Float)(0) );
+HXDLIN( 795)		_this->y = ( (Float)(0) );
+HXDLIN( 795)		_this->width = ( (Float)(0) );
+HXDLIN( 795)		_this->height = ( (Float)(0) );
+HXDLIN( 795)		 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 795)		rect->_inPool = false;
+HXDLIN( 795)		this->_rect = rect;
+HXLINE( 793)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 793)		point->_inPool = false;
+HXDLIN( 793)		this->_point = point;
+HXLINE( 790)		this->path = null();
+HXLINE( 748)		this->collisionYDrag = 0;
+HXLINE( 740)		this->collisionXDrag = 2;
+HXLINE( 723)		this->allowCollisions = 4369;
+HXLINE( 717)		this->wasTouching = 0;
+HXLINE( 711)		this->touching = 0;
+HXLINE( 705)		this->health = ((Float)1);
+HXLINE( 700)		this->maxAngular = ((Float)10000);
+HXLINE( 695)		this->angularDrag = ((Float)0);
+HXLINE( 690)		this->angularAcceleration = ((Float)0);
+HXLINE( 685)		this->angularVelocity = ((Float)0);
+HXLINE( 680)		this->elasticity = ((Float)0);
+HXLINE( 675)		this->mass = ((Float)1);
+HXLINE( 627)		this->immovable = false;
+HXLINE( 622)		this->moves = ::flixel::FlxObject_obj::defaultMoves;
+HXLINE( 616)		this->angle = ((Float)0);
+HXLINE( 610)		this->pixelPerfectPosition = true;
+HXLINE( 585)		this->y = ((Float)0);
+HXLINE( 580)		this->x = ((Float)0);
+HXLINE( 805)		super::__construct();
+HXLINE( 807)		this->set_x(x);
+HXLINE( 808)		this->set_y(y);
+HXLINE( 809)		this->set_width(width);
+HXLINE( 810)		this->set_height(height);
+HXLINE( 812)		this->initVars();
             	}
 
 Dynamic FlxObject_obj::__CreateEmpty() { return new FlxObject_obj; }
@@ -192,30 +193,30 @@ bool FlxObject_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxObject_obj::initVars(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_813_initVars)
-HXLINE( 814)		this->flixelType = 1;
-HXLINE( 815)		Float x = this->x;
-HXDLIN( 815)		Float y = this->y;
-HXDLIN( 815)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
-HXDLIN( 815)		point->_inPool = false;
-HXDLIN( 815)		this->last = point;
-HXLINE( 816)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(1,1);
-HXDLIN( 816)		point1->_inPool = false;
-HXDLIN( 816)		this->scrollFactor = point1;
-HXLINE( 817)		this->pixelPerfectPosition = ::flixel::FlxObject_obj::defaultPixelPerfectPosition;
-HXLINE( 819)		{
-HXLINE( 819)			 ::flixel::math::FlxBasePoint point2 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 819)			point2->_inPool = false;
-HXDLIN( 819)			this->velocity = point2;
-HXDLIN( 819)			 ::flixel::math::FlxBasePoint point3 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 819)			point3->_inPool = false;
-HXDLIN( 819)			this->acceleration = point3;
-HXDLIN( 819)			 ::flixel::math::FlxBasePoint point4 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 819)			point4->_inPool = false;
-HXDLIN( 819)			this->drag = point4;
-HXDLIN( 819)			 ::flixel::math::FlxBasePoint point5 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(10000,10000);
-HXDLIN( 819)			point5->_inPool = false;
-HXDLIN( 819)			this->maxVelocity = point5;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_820_initVars)
+HXLINE( 821)		this->flixelType = 1;
+HXLINE( 822)		Float x = this->x;
+HXDLIN( 822)		Float y = this->y;
+HXDLIN( 822)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
+HXDLIN( 822)		point->_inPool = false;
+HXDLIN( 822)		this->last = point;
+HXLINE( 823)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(1,1);
+HXDLIN( 823)		point1->_inPool = false;
+HXDLIN( 823)		this->scrollFactor = point1;
+HXLINE( 824)		this->pixelPerfectPosition = ::flixel::FlxObject_obj::defaultPixelPerfectPosition;
+HXLINE( 826)		{
+HXLINE( 826)			 ::flixel::math::FlxBasePoint point2 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 826)			point2->_inPool = false;
+HXDLIN( 826)			this->velocity = point2;
+HXDLIN( 826)			 ::flixel::math::FlxBasePoint point3 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 826)			point3->_inPool = false;
+HXDLIN( 826)			this->acceleration = point3;
+HXDLIN( 826)			 ::flixel::math::FlxBasePoint point4 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 826)			point4->_inPool = false;
+HXDLIN( 826)			this->drag = point4;
+HXDLIN( 826)			 ::flixel::math::FlxBasePoint point5 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(10000,10000);
+HXDLIN( 826)			point5->_inPool = false;
+HXDLIN( 826)			this->maxVelocity = point5;
             		}
             	}
 
@@ -223,191 +224,191 @@ HXDLIN( 819)			this->maxVelocity = point5;
 HX_DEFINE_DYNAMIC_FUNC0(FlxObject_obj,initVars,(void))
 
 void FlxObject_obj::initMotionVars(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_827_initMotionVars)
-HXLINE( 828)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 828)		point->_inPool = false;
-HXDLIN( 828)		this->velocity = point;
-HXLINE( 829)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 829)		point1->_inPool = false;
-HXDLIN( 829)		this->acceleration = point1;
-HXLINE( 830)		 ::flixel::math::FlxBasePoint point2 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 830)		point2->_inPool = false;
-HXDLIN( 830)		this->drag = point2;
-HXLINE( 831)		 ::flixel::math::FlxBasePoint point3 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(10000,10000);
-HXDLIN( 831)		point3->_inPool = false;
-HXDLIN( 831)		this->maxVelocity = point3;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_834_initMotionVars)
+HXLINE( 835)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 835)		point->_inPool = false;
+HXDLIN( 835)		this->velocity = point;
+HXLINE( 836)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 836)		point1->_inPool = false;
+HXDLIN( 836)		this->acceleration = point1;
+HXLINE( 837)		 ::flixel::math::FlxBasePoint point2 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 837)		point2->_inPool = false;
+HXDLIN( 837)		this->drag = point2;
+HXLINE( 838)		 ::flixel::math::FlxBasePoint point3 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(10000,10000);
+HXDLIN( 838)		point3->_inPool = false;
+HXDLIN( 838)		this->maxVelocity = point3;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxObject_obj,initMotionVars,(void))
 
 void FlxObject_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_845_destroy)
-HXLINE( 846)		this->super::destroy();
-HXLINE( 848)		this->velocity = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->velocity)) );
-HXLINE( 849)		this->acceleration = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->acceleration)) );
-HXLINE( 850)		this->drag = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->drag)) );
-HXLINE( 851)		this->maxVelocity = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->maxVelocity)) );
-HXLINE( 852)		this->scrollFactor = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->scrollFactor)) );
-HXLINE( 853)		this->last = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->last)) );
-HXLINE( 854)		this->_point = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_point)) );
-HXLINE( 855)		this->_rect = ( ( ::flixel::math::FlxRect)(::flixel::util::FlxDestroyUtil_obj::put(this->_rect)) );
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_852_destroy)
+HXLINE( 853)		this->super::destroy();
+HXLINE( 855)		this->velocity = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->velocity)) );
+HXLINE( 856)		this->acceleration = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->acceleration)) );
+HXLINE( 857)		this->drag = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->drag)) );
+HXLINE( 858)		this->maxVelocity = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->maxVelocity)) );
+HXLINE( 859)		this->scrollFactor = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->scrollFactor)) );
+HXLINE( 860)		this->last = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->last)) );
+HXLINE( 861)		this->_point = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_point)) );
+HXLINE( 862)		this->_rect = ( ( ::flixel::math::FlxRect)(::flixel::util::FlxDestroyUtil_obj::put(this->_rect)) );
             	}
 
 
 void FlxObject_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_863_update)
-HXLINE( 869)		{
-HXLINE( 869)			 ::flixel::math::FlxBasePoint this1 = this->last;
-HXDLIN( 869)			Float y = this->y;
-HXDLIN( 869)			this1->set_x(this->x);
-HXDLIN( 869)			this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_870_update)
+HXLINE( 876)		{
+HXLINE( 876)			 ::flixel::math::FlxBasePoint this1 = this->last;
+HXDLIN( 876)			Float y = this->y;
+HXDLIN( 876)			this1->set_x(this->x);
+HXDLIN( 876)			this1->set_y(y);
             		}
-HXLINE( 871)		bool _hx_tmp;
-HXDLIN( 871)		if (::hx::IsNotNull( this->path )) {
-HXLINE( 871)			_hx_tmp = this->path->active;
+HXLINE( 878)		bool _hx_tmp;
+HXDLIN( 878)		if (::hx::IsNotNull( this->path )) {
+HXLINE( 878)			_hx_tmp = this->path->active;
             		}
             		else {
-HXLINE( 871)			_hx_tmp = false;
+HXLINE( 878)			_hx_tmp = false;
             		}
-HXDLIN( 871)		if (_hx_tmp) {
-HXLINE( 872)			this->path->update(elapsed);
+HXDLIN( 878)		if (_hx_tmp) {
+HXLINE( 879)			this->path->update(elapsed);
             		}
-HXLINE( 874)		if (this->moves) {
-HXLINE( 875)			this->updateMotion(elapsed);
+HXLINE( 881)		if (this->moves) {
+HXLINE( 882)			this->updateMotion(elapsed);
             		}
-HXLINE( 877)		this->wasTouching = this->touching;
-HXLINE( 878)		this->touching = 0;
+HXLINE( 884)		this->wasTouching = this->touching;
+HXLINE( 885)		this->touching = 0;
             	}
 
 
 void FlxObject_obj::updateMotion(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_888_updateMotion)
-HXLINE( 889)		Float velocityDelta = ::flixel::math::FlxVelocity_obj::computeVelocity(this->angularVelocity,this->angularAcceleration,this->angularDrag,this->maxAngular,elapsed);
-HXDLIN( 889)		Float velocityDelta1 = (((Float)0.5) * (velocityDelta - this->angularVelocity));
-HXLINE( 890)		 ::flixel::FlxObject _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 890)		_hx_tmp->angularVelocity = (_hx_tmp->angularVelocity + velocityDelta1);
-HXLINE( 891)		this->set_angle((this->angle + (this->angularVelocity * elapsed)));
-HXLINE( 892)		 ::flixel::FlxObject _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 892)		_hx_tmp1->angularVelocity = (_hx_tmp1->angularVelocity + velocityDelta1);
-HXLINE( 894)		Float velocityDelta2 = ::flixel::math::FlxVelocity_obj::computeVelocity(this->velocity->x,this->acceleration->x,this->drag->x,this->maxVelocity->x,elapsed);
-HXDLIN( 894)		velocityDelta1 = (((Float)0.5) * (velocityDelta2 - this->velocity->x));
-HXLINE( 895)		this->velocity->set_x((this->velocity->x + velocityDelta1));
-HXLINE( 896)		Float delta = (this->velocity->x * elapsed);
-HXLINE( 897)		this->velocity->set_x((this->velocity->x + velocityDelta1));
-HXLINE( 898)		this->set_x((this->x + delta));
-HXLINE( 900)		Float velocityDelta3 = ::flixel::math::FlxVelocity_obj::computeVelocity(this->velocity->y,this->acceleration->y,this->drag->y,this->maxVelocity->y,elapsed);
-HXDLIN( 900)		velocityDelta1 = (((Float)0.5) * (velocityDelta3 - this->velocity->y));
-HXLINE( 901)		this->velocity->set_y((this->velocity->y + velocityDelta1));
-HXLINE( 902)		delta = (this->velocity->y * elapsed);
-HXLINE( 903)		this->velocity->set_y((this->velocity->y + velocityDelta1));
-HXLINE( 904)		this->set_y((this->y + delta));
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_895_updateMotion)
+HXLINE( 896)		Float velocityDelta = ::flixel::math::FlxVelocity_obj::computeVelocity(this->angularVelocity,this->angularAcceleration,this->angularDrag,this->maxAngular,elapsed);
+HXDLIN( 896)		Float velocityDelta1 = (((Float)0.5) * (velocityDelta - this->angularVelocity));
+HXLINE( 897)		 ::flixel::FlxObject _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 897)		_hx_tmp->angularVelocity = (_hx_tmp->angularVelocity + velocityDelta1);
+HXLINE( 898)		this->set_angle((this->angle + (this->angularVelocity * elapsed)));
+HXLINE( 899)		 ::flixel::FlxObject _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 899)		_hx_tmp1->angularVelocity = (_hx_tmp1->angularVelocity + velocityDelta1);
+HXLINE( 901)		Float velocityDelta2 = ::flixel::math::FlxVelocity_obj::computeVelocity(this->velocity->x,this->acceleration->x,this->drag->x,this->maxVelocity->x,elapsed);
+HXDLIN( 901)		velocityDelta1 = (((Float)0.5) * (velocityDelta2 - this->velocity->x));
+HXLINE( 902)		this->velocity->set_x((this->velocity->x + velocityDelta1));
+HXLINE( 903)		Float delta = (this->velocity->x * elapsed);
+HXLINE( 904)		this->velocity->set_x((this->velocity->x + velocityDelta1));
+HXLINE( 905)		this->set_x((this->x + delta));
+HXLINE( 907)		Float velocityDelta3 = ::flixel::math::FlxVelocity_obj::computeVelocity(this->velocity->y,this->acceleration->y,this->drag->y,this->maxVelocity->y,elapsed);
+HXDLIN( 907)		velocityDelta1 = (((Float)0.5) * (velocityDelta3 - this->velocity->y));
+HXLINE( 908)		this->velocity->set_y((this->velocity->y + velocityDelta1));
+HXLINE( 909)		delta = (this->velocity->y * elapsed);
+HXLINE( 910)		this->velocity->set_y((this->velocity->y + velocityDelta1));
+HXLINE( 911)		this->set_y((this->y + delta));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,updateMotion,(void))
 
 void FlxObject_obj::draw(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_911_draw)
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_918_draw)
             	}
 
 
 bool FlxObject_obj::overlaps( ::flixel::FlxBasic objectOrGroup,::hx::Null< bool >  __o_inScreenSpace, ::flixel::FlxCamera camera){
             		bool inScreenSpace = __o_inScreenSpace.Default(false);
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_933_overlaps)
-HXLINE( 934)		 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(objectOrGroup);
-HXLINE( 935)		if (::hx::IsNotNull( group )) {
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_940_overlaps)
+HXLINE( 941)		 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(objectOrGroup);
+HXLINE( 942)		if (::hx::IsNotNull( group )) {
             			HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxObject,_g,bool,inScreenSpace1, ::flixel::FlxCamera,camera1) HXARGC(1)
             			bool _hx_run( ::flixel::FlxBasic objectOrGroup){
-            				HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_937_overlaps)
-HXLINE( 937)				return _g->overlaps(objectOrGroup,inScreenSpace1,camera1);
+            				HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_944_overlaps)
+HXLINE( 944)				return _g->overlaps(objectOrGroup,inScreenSpace1,camera1);
             			}
             			HX_END_LOCAL_FUNC1(return)
 
-HXLINE( 937)			 ::flixel::FlxObject _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 937)			Float x = ( (Float)(0) );
-HXDLIN( 937)			Float y = ( (Float)(0) );
-HXDLIN( 937)			bool inScreenSpace1 = inScreenSpace;
-HXDLIN( 937)			 ::flixel::FlxCamera camera1 = camera;
-HXDLIN( 937)			return group->any( ::Dynamic(new _hx_Closure_0(_g,inScreenSpace1,camera1)));
+HXLINE( 944)			 ::flixel::FlxObject _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 944)			Float x = ( (Float)(0) );
+HXDLIN( 944)			Float y = ( (Float)(0) );
+HXDLIN( 944)			bool inScreenSpace1 = inScreenSpace;
+HXDLIN( 944)			 ::flixel::FlxCamera camera1 = camera;
+HXDLIN( 944)			return group->any( ::Dynamic(new _hx_Closure_0(_g,inScreenSpace1,camera1)));
             		}
-HXLINE( 940)		if ((objectOrGroup->flixelType == 3)) {
-HXLINE( 944)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(objectOrGroup) );
-HXLINE( 945)			return tilemap->overlaps(::hx::ObjectPtr<OBJ_>(this),inScreenSpace,camera);
+HXLINE( 947)		if ((objectOrGroup->flixelType == 3)) {
+HXLINE( 951)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(objectOrGroup) );
+HXLINE( 952)			return tilemap->overlaps(::hx::ObjectPtr<OBJ_>(this),inScreenSpace,camera);
             		}
-HXLINE( 948)		 ::flixel::FlxObject object = ( ( ::flixel::FlxObject)(objectOrGroup) );
-HXLINE( 949)		if (!(inScreenSpace)) {
-HXLINE( 951)			bool _hx_tmp;
-HXDLIN( 951)			bool _hx_tmp1;
-HXDLIN( 951)			Float object1 = object->x;
-HXDLIN( 951)			Float _hx_tmp2 = (object1 + object->get_width());
-HXDLIN( 951)			if ((_hx_tmp2 > this->x)) {
-HXLINE( 951)				Float object2 = object->x;
-HXDLIN( 951)				Float _hx_tmp3 = this->x;
-HXDLIN( 951)				_hx_tmp1 = (object2 < (_hx_tmp3 + this->get_width()));
+HXLINE( 955)		 ::flixel::FlxObject object = ( ( ::flixel::FlxObject)(objectOrGroup) );
+HXLINE( 956)		if (!(inScreenSpace)) {
+HXLINE( 958)			bool _hx_tmp;
+HXDLIN( 958)			bool _hx_tmp1;
+HXDLIN( 958)			Float object1 = object->x;
+HXDLIN( 958)			Float _hx_tmp2 = (object1 + object->get_width());
+HXDLIN( 958)			if ((_hx_tmp2 > this->x)) {
+HXLINE( 958)				Float object2 = object->x;
+HXDLIN( 958)				Float _hx_tmp3 = this->x;
+HXDLIN( 958)				_hx_tmp1 = (object2 < (_hx_tmp3 + this->get_width()));
             			}
             			else {
-HXLINE( 951)				_hx_tmp1 = false;
+HXLINE( 958)				_hx_tmp1 = false;
             			}
-HXDLIN( 951)			if (_hx_tmp1) {
-HXLINE( 951)				Float object3 = object->y;
-HXDLIN( 951)				Float _hx_tmp4 = (object3 + object->get_height());
-HXDLIN( 951)				_hx_tmp = (_hx_tmp4 > this->y);
-            			}
-            			else {
-HXLINE( 951)				_hx_tmp = false;
-            			}
-HXDLIN( 951)			if (_hx_tmp) {
-HXLINE( 951)				Float object4 = object->y;
-HXDLIN( 951)				Float _hx_tmp5 = this->y;
-HXDLIN( 951)				return (object4 < (_hx_tmp5 + this->get_height()));
+HXDLIN( 958)			if (_hx_tmp1) {
+HXLINE( 958)				Float object3 = object->y;
+HXDLIN( 958)				Float _hx_tmp4 = (object3 + object->get_height());
+HXDLIN( 958)				_hx_tmp = (_hx_tmp4 > this->y);
             			}
             			else {
-HXLINE( 951)				return false;
+HXLINE( 958)				_hx_tmp = false;
+            			}
+HXDLIN( 958)			if (_hx_tmp) {
+HXLINE( 958)				Float object4 = object->y;
+HXDLIN( 958)				Float _hx_tmp5 = this->y;
+HXDLIN( 958)				return (object4 < (_hx_tmp5 + this->get_height()));
+            			}
+            			else {
+HXLINE( 958)				return false;
             			}
             		}
-HXLINE( 954)		if (::hx::IsNull( camera )) {
-HXLINE( 956)			camera = ::flixel::FlxG_obj::camera;
+HXLINE( 961)		if (::hx::IsNull( camera )) {
+HXLINE( 963)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE( 958)		 ::flixel::math::FlxBasePoint objectScreenPos = object->getScreenPosition(null(),camera);
-HXLINE( 959)		this->getScreenPosition(this->_point,camera);
-HXLINE( 960)		bool _hx_tmp6;
-HXDLIN( 960)		bool _hx_tmp7;
-HXDLIN( 960)		Float objectScreenPos1 = objectScreenPos->x;
-HXDLIN( 960)		Float _hx_tmp8 = (objectScreenPos1 + object->get_width());
-HXDLIN( 960)		if ((_hx_tmp8 > this->_point->x)) {
-HXLINE( 961)			Float objectScreenPos2 = objectScreenPos->x;
-HXDLIN( 961)			Float _hx_tmp9 = this->_point->x;
-HXLINE( 960)			_hx_tmp7 = (objectScreenPos2 < (_hx_tmp9 + this->get_width()));
-            		}
-            		else {
-HXLINE( 960)			_hx_tmp7 = false;
-            		}
-HXDLIN( 960)		if (_hx_tmp7) {
-HXLINE( 962)			Float objectScreenPos3 = objectScreenPos->y;
-HXDLIN( 962)			Float _hx_tmp10 = (objectScreenPos3 + object->get_height());
-HXLINE( 960)			_hx_tmp6 = (_hx_tmp10 > this->_point->y);
+HXLINE( 965)		 ::flixel::math::FlxBasePoint objectScreenPos = object->getScreenPosition(null(),camera);
+HXLINE( 966)		this->getScreenPosition(this->_point,camera);
+HXLINE( 967)		bool _hx_tmp6;
+HXDLIN( 967)		bool _hx_tmp7;
+HXDLIN( 967)		Float objectScreenPos1 = objectScreenPos->x;
+HXDLIN( 967)		Float _hx_tmp8 = (objectScreenPos1 + object->get_width());
+HXDLIN( 967)		if ((_hx_tmp8 > this->_point->x)) {
+HXLINE( 968)			Float objectScreenPos2 = objectScreenPos->x;
+HXDLIN( 968)			Float _hx_tmp9 = this->_point->x;
+HXLINE( 967)			_hx_tmp7 = (objectScreenPos2 < (_hx_tmp9 + this->get_width()));
             		}
             		else {
-HXLINE( 960)			_hx_tmp6 = false;
+HXLINE( 967)			_hx_tmp7 = false;
             		}
-HXDLIN( 960)		if (_hx_tmp6) {
-HXLINE( 963)			Float objectScreenPos4 = objectScreenPos->y;
-HXDLIN( 963)			Float _hx_tmp11 = this->_point->y;
-HXDLIN( 963)			return (objectScreenPos4 < (_hx_tmp11 + this->get_height()));
+HXDLIN( 967)		if (_hx_tmp7) {
+HXLINE( 969)			Float objectScreenPos3 = objectScreenPos->y;
+HXDLIN( 969)			Float _hx_tmp10 = (objectScreenPos3 + object->get_height());
+HXLINE( 967)			_hx_tmp6 = (_hx_tmp10 > this->_point->y);
             		}
             		else {
-HXLINE( 960)			return false;
+HXLINE( 967)			_hx_tmp6 = false;
             		}
-HXDLIN( 960)		return false;
+HXDLIN( 967)		if (_hx_tmp6) {
+HXLINE( 970)			Float objectScreenPos4 = objectScreenPos->y;
+HXDLIN( 970)			Float _hx_tmp11 = this->_point->y;
+HXDLIN( 970)			return (objectScreenPos4 < (_hx_tmp11 + this->get_height()));
+            		}
+            		else {
+HXLINE( 967)			return false;
+            		}
+HXDLIN( 967)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxObject_obj,overlaps,return )
 
 bool FlxObject_obj::overlapsCallback( ::flixel::FlxBasic objectOrGroup,Float x,Float y,bool inScreenSpace, ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_969_overlapsCallback)
-HXDLIN( 969)		return this->overlaps(objectOrGroup,inScreenSpace,camera);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_976_overlapsCallback)
+HXDLIN( 976)		return this->overlaps(objectOrGroup,inScreenSpace,camera);
             	}
 
 
@@ -415,96 +416,96 @@ HX_DEFINE_DYNAMIC_FUNC5(FlxObject_obj,overlapsCallback,return )
 
 bool FlxObject_obj::overlapsAt(Float x,Float y, ::flixel::FlxBasic objectOrGroup,::hx::Null< bool >  __o_inScreenSpace, ::flixel::FlxCamera camera){
             		bool inScreenSpace = __o_inScreenSpace.Default(false);
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_992_overlapsAt)
-HXLINE( 993)		 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(objectOrGroup);
-HXLINE( 994)		if (::hx::IsNotNull( group )) {
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_999_overlapsAt)
+HXLINE(1000)		 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(objectOrGroup);
+HXLINE(1001)		if (::hx::IsNotNull( group )) {
             			HX_BEGIN_LOCAL_FUNC_S5(::hx::LocalFunc,_hx_Closure_0,Float,y1,Float,x1, ::flixel::FlxObject,_g,bool,inScreenSpace1, ::flixel::FlxCamera,camera1) HXARGC(1)
             			bool _hx_run( ::flixel::FlxBasic objectOrGroup){
-            				HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_996_overlapsAt)
-HXLINE( 996)				return _g->overlapsAt(x1,y1,objectOrGroup,inScreenSpace1,camera1);
+            				HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1003_overlapsAt)
+HXLINE(1003)				return _g->overlapsAt(x1,y1,objectOrGroup,inScreenSpace1,camera1);
             			}
             			HX_END_LOCAL_FUNC1(return)
 
-HXLINE( 996)			 ::flixel::FlxObject _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 996)			Float x1 = x;
-HXDLIN( 996)			Float y1 = y;
-HXDLIN( 996)			bool inScreenSpace1 = inScreenSpace;
-HXDLIN( 996)			 ::flixel::FlxCamera camera1 = camera;
-HXDLIN( 996)			return group->any( ::Dynamic(new _hx_Closure_0(y1,x1,_g,inScreenSpace1,camera1)));
+HXLINE(1003)			 ::flixel::FlxObject _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(1003)			Float x1 = x;
+HXDLIN(1003)			Float y1 = y;
+HXDLIN(1003)			bool inScreenSpace1 = inScreenSpace;
+HXDLIN(1003)			 ::flixel::FlxCamera camera1 = camera;
+HXDLIN(1003)			return group->any( ::Dynamic(new _hx_Closure_0(y1,x1,_g,inScreenSpace1,camera1)));
             		}
-HXLINE( 999)		if ((objectOrGroup->flixelType == 3)) {
-HXLINE(1005)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(objectOrGroup) );
-HXLINE(1006)			return tilemap->overlapsAt((tilemap->x - (x - this->x)),(tilemap->y - (y - this->y)),::hx::ObjectPtr<OBJ_>(this),inScreenSpace,camera);
+HXLINE(1006)		if ((objectOrGroup->flixelType == 3)) {
+HXLINE(1012)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(objectOrGroup) );
+HXLINE(1013)			return tilemap->overlapsAt((tilemap->x - (x - this->x)),(tilemap->y - (y - this->y)),::hx::ObjectPtr<OBJ_>(this),inScreenSpace,camera);
             		}
-HXLINE(1009)		 ::flixel::FlxObject object = ( ( ::flixel::FlxObject)(objectOrGroup) );
-HXLINE(1010)		if (!(inScreenSpace)) {
-HXLINE(1012)			bool _hx_tmp;
-HXDLIN(1012)			bool _hx_tmp1;
-HXDLIN(1012)			Float object1 = object->x;
-HXDLIN(1012)			if (((object1 + object->get_width()) > x)) {
-HXLINE(1012)				Float object2 = object->x;
-HXDLIN(1012)				_hx_tmp1 = (object2 < (x + this->get_width()));
+HXLINE(1016)		 ::flixel::FlxObject object = ( ( ::flixel::FlxObject)(objectOrGroup) );
+HXLINE(1017)		if (!(inScreenSpace)) {
+HXLINE(1019)			bool _hx_tmp;
+HXDLIN(1019)			bool _hx_tmp1;
+HXDLIN(1019)			Float object1 = object->x;
+HXDLIN(1019)			if (((object1 + object->get_width()) > x)) {
+HXLINE(1019)				Float object2 = object->x;
+HXDLIN(1019)				_hx_tmp1 = (object2 < (x + this->get_width()));
             			}
             			else {
-HXLINE(1012)				_hx_tmp1 = false;
+HXLINE(1019)				_hx_tmp1 = false;
             			}
-HXDLIN(1012)			if (_hx_tmp1) {
-HXLINE(1012)				Float object3 = object->y;
-HXDLIN(1012)				_hx_tmp = ((object3 + object->get_height()) > y);
-            			}
-            			else {
-HXLINE(1012)				_hx_tmp = false;
-            			}
-HXDLIN(1012)			if (_hx_tmp) {
-HXLINE(1012)				Float object4 = object->y;
-HXDLIN(1012)				return (object4 < (y + this->get_height()));
+HXDLIN(1019)			if (_hx_tmp1) {
+HXLINE(1019)				Float object3 = object->y;
+HXDLIN(1019)				_hx_tmp = ((object3 + object->get_height()) > y);
             			}
             			else {
-HXLINE(1012)				return false;
+HXLINE(1019)				_hx_tmp = false;
+            			}
+HXDLIN(1019)			if (_hx_tmp) {
+HXLINE(1019)				Float object4 = object->y;
+HXDLIN(1019)				return (object4 < (y + this->get_height()));
+            			}
+            			else {
+HXLINE(1019)				return false;
             			}
             		}
-HXLINE(1015)		if (::hx::IsNull( camera )) {
-HXLINE(1017)			camera = ::flixel::FlxG_obj::camera;
+HXLINE(1022)		if (::hx::IsNull( camera )) {
+HXLINE(1024)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1019)		 ::flixel::math::FlxBasePoint objectScreenPos = object->getScreenPosition(null(),camera);
-HXLINE(1020)		this->getScreenPosition(this->_point,camera);
-HXLINE(1021)		bool _hx_tmp2;
-HXDLIN(1021)		bool _hx_tmp3;
-HXDLIN(1021)		Float objectScreenPos1 = objectScreenPos->x;
-HXDLIN(1021)		Float _hx_tmp4 = (objectScreenPos1 + object->get_width());
-HXDLIN(1021)		if ((_hx_tmp4 > this->_point->x)) {
-HXLINE(1022)			Float objectScreenPos2 = objectScreenPos->x;
-HXDLIN(1022)			Float _hx_tmp5 = this->_point->x;
-HXLINE(1021)			_hx_tmp3 = (objectScreenPos2 < (_hx_tmp5 + this->get_width()));
-            		}
-            		else {
-HXLINE(1021)			_hx_tmp3 = false;
-            		}
-HXDLIN(1021)		if (_hx_tmp3) {
-HXLINE(1023)			Float objectScreenPos3 = objectScreenPos->y;
-HXDLIN(1023)			Float _hx_tmp6 = (objectScreenPos3 + object->get_height());
-HXLINE(1021)			_hx_tmp2 = (_hx_tmp6 > this->_point->y);
+HXLINE(1026)		 ::flixel::math::FlxBasePoint objectScreenPos = object->getScreenPosition(null(),camera);
+HXLINE(1027)		this->getScreenPosition(this->_point,camera);
+HXLINE(1028)		bool _hx_tmp2;
+HXDLIN(1028)		bool _hx_tmp3;
+HXDLIN(1028)		Float objectScreenPos1 = objectScreenPos->x;
+HXDLIN(1028)		Float _hx_tmp4 = (objectScreenPos1 + object->get_width());
+HXDLIN(1028)		if ((_hx_tmp4 > this->_point->x)) {
+HXLINE(1029)			Float objectScreenPos2 = objectScreenPos->x;
+HXDLIN(1029)			Float _hx_tmp5 = this->_point->x;
+HXLINE(1028)			_hx_tmp3 = (objectScreenPos2 < (_hx_tmp5 + this->get_width()));
             		}
             		else {
-HXLINE(1021)			_hx_tmp2 = false;
+HXLINE(1028)			_hx_tmp3 = false;
             		}
-HXDLIN(1021)		if (_hx_tmp2) {
-HXLINE(1024)			Float objectScreenPos4 = objectScreenPos->y;
-HXDLIN(1024)			Float _hx_tmp7 = this->_point->y;
-HXDLIN(1024)			return (objectScreenPos4 < (_hx_tmp7 + this->get_height()));
+HXDLIN(1028)		if (_hx_tmp3) {
+HXLINE(1030)			Float objectScreenPos3 = objectScreenPos->y;
+HXDLIN(1030)			Float _hx_tmp6 = (objectScreenPos3 + object->get_height());
+HXLINE(1028)			_hx_tmp2 = (_hx_tmp6 > this->_point->y);
             		}
             		else {
-HXLINE(1021)			return false;
+HXLINE(1028)			_hx_tmp2 = false;
             		}
-HXDLIN(1021)		return false;
+HXDLIN(1028)		if (_hx_tmp2) {
+HXLINE(1031)			Float objectScreenPos4 = objectScreenPos->y;
+HXDLIN(1031)			Float _hx_tmp7 = this->_point->y;
+HXDLIN(1031)			return (objectScreenPos4 < (_hx_tmp7 + this->get_height()));
+            		}
+            		else {
+HXLINE(1028)			return false;
+            		}
+HXDLIN(1028)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC5(FlxObject_obj,overlapsAt,return )
 
 bool FlxObject_obj::overlapsAtCallback( ::flixel::FlxBasic objectOrGroup,Float x,Float y,bool inScreenSpace, ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1030_overlapsAtCallback)
-HXDLIN(1030)		return this->overlapsAt(x,y,objectOrGroup,inScreenSpace,camera);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1037_overlapsAtCallback)
+HXDLIN(1037)		return this->overlapsAt(x,y,objectOrGroup,inScreenSpace,camera);
             	}
 
 
@@ -512,298 +513,298 @@ HX_DEFINE_DYNAMIC_FUNC5(FlxObject_obj,overlapsAtCallback,return )
 
 bool FlxObject_obj::overlapsPoint( ::flixel::math::FlxBasePoint point,::hx::Null< bool >  __o_inScreenSpace, ::flixel::FlxCamera camera){
             		bool inScreenSpace = __o_inScreenSpace.Default(false);
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1043_overlapsPoint)
-HXLINE(1044)		if (!(inScreenSpace)) {
-HXLINE(1046)			bool _hx_tmp;
-HXDLIN(1046)			bool _hx_tmp1;
-HXDLIN(1046)			if ((point->x >= this->x)) {
-HXLINE(1046)				Float point1 = point->x;
-HXDLIN(1046)				Float _hx_tmp2 = this->x;
-HXDLIN(1046)				_hx_tmp1 = (point1 < (_hx_tmp2 + this->get_width()));
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1050_overlapsPoint)
+HXLINE(1051)		if (!(inScreenSpace)) {
+HXLINE(1053)			bool _hx_tmp;
+HXDLIN(1053)			bool _hx_tmp1;
+HXDLIN(1053)			if ((point->x >= this->x)) {
+HXLINE(1053)				Float point1 = point->x;
+HXDLIN(1053)				Float _hx_tmp2 = this->x;
+HXDLIN(1053)				_hx_tmp1 = (point1 < (_hx_tmp2 + this->get_width()));
             			}
             			else {
-HXLINE(1046)				_hx_tmp1 = false;
+HXLINE(1053)				_hx_tmp1 = false;
             			}
-HXDLIN(1046)			if (_hx_tmp1) {
-HXLINE(1046)				_hx_tmp = (point->y >= this->y);
-            			}
-            			else {
-HXLINE(1046)				_hx_tmp = false;
-            			}
-HXDLIN(1046)			if (_hx_tmp) {
-HXLINE(1046)				Float point2 = point->y;
-HXDLIN(1046)				Float _hx_tmp3 = this->y;
-HXDLIN(1046)				return (point2 < (_hx_tmp3 + this->get_height()));
+HXDLIN(1053)			if (_hx_tmp1) {
+HXLINE(1053)				_hx_tmp = (point->y >= this->y);
             			}
             			else {
-HXLINE(1046)				return false;
+HXLINE(1053)				_hx_tmp = false;
+            			}
+HXDLIN(1053)			if (_hx_tmp) {
+HXLINE(1053)				Float point2 = point->y;
+HXDLIN(1053)				Float _hx_tmp3 = this->y;
+HXDLIN(1053)				return (point2 < (_hx_tmp3 + this->get_height()));
+            			}
+            			else {
+HXLINE(1053)				return false;
             			}
             		}
-HXLINE(1049)		if (::hx::IsNull( camera )) {
-HXLINE(1051)			camera = ::flixel::FlxG_obj::camera;
+HXLINE(1056)		if (::hx::IsNull( camera )) {
+HXLINE(1058)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1053)		Float xPos = (point->x - camera->scroll->x);
-HXLINE(1054)		Float yPos = (point->y - camera->scroll->y);
-HXLINE(1055)		this->getScreenPosition(this->_point,camera);
-HXLINE(1056)		if (point->_weak) {
-HXLINE(1056)			point->put();
+HXLINE(1060)		Float xPos = (point->x - camera->scroll->x);
+HXLINE(1061)		Float yPos = (point->y - camera->scroll->y);
+HXLINE(1062)		this->getScreenPosition(this->_point,camera);
+HXLINE(1063)		if (point->_weak) {
+HXLINE(1063)			point->put();
             		}
-HXLINE(1057)		bool _hx_tmp4;
-HXDLIN(1057)		bool _hx_tmp5;
-HXDLIN(1057)		if ((xPos >= this->_point->x)) {
-HXLINE(1057)			Float _hx_tmp6 = this->_point->x;
-HXDLIN(1057)			_hx_tmp5 = (xPos < (_hx_tmp6 + this->get_width()));
-            		}
-            		else {
-HXLINE(1057)			_hx_tmp5 = false;
-            		}
-HXDLIN(1057)		if (_hx_tmp5) {
-HXLINE(1057)			_hx_tmp4 = (yPos >= this->_point->y);
+HXLINE(1064)		bool _hx_tmp4;
+HXDLIN(1064)		bool _hx_tmp5;
+HXDLIN(1064)		if ((xPos >= this->_point->x)) {
+HXLINE(1064)			Float _hx_tmp6 = this->_point->x;
+HXDLIN(1064)			_hx_tmp5 = (xPos < (_hx_tmp6 + this->get_width()));
             		}
             		else {
-HXLINE(1057)			_hx_tmp4 = false;
+HXLINE(1064)			_hx_tmp5 = false;
             		}
-HXDLIN(1057)		if (_hx_tmp4) {
-HXLINE(1057)			Float _hx_tmp7 = this->_point->y;
-HXDLIN(1057)			return (yPos < (_hx_tmp7 + this->get_height()));
+HXDLIN(1064)		if (_hx_tmp5) {
+HXLINE(1064)			_hx_tmp4 = (yPos >= this->_point->y);
             		}
             		else {
-HXLINE(1057)			return false;
+HXLINE(1064)			_hx_tmp4 = false;
             		}
-HXDLIN(1057)		return false;
+HXDLIN(1064)		if (_hx_tmp4) {
+HXLINE(1064)			Float _hx_tmp7 = this->_point->y;
+HXDLIN(1064)			return (yPos < (_hx_tmp7 + this->get_height()));
+            		}
+            		else {
+HXLINE(1064)			return false;
+            		}
+HXDLIN(1064)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxObject_obj,overlapsPoint,return )
 
 bool FlxObject_obj::inWorldBounds(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1068_inWorldBounds)
-HXDLIN(1068)		bool _hx_tmp;
-HXDLIN(1068)		bool _hx_tmp1;
-HXDLIN(1068)		Float _hx_tmp2 = this->x;
-HXDLIN(1068)		Float _hx_tmp3 = (_hx_tmp2 + this->get_width());
-HXDLIN(1068)		if ((_hx_tmp3 > ::flixel::FlxG_obj::worldBounds->x)) {
-HXDLIN(1068)			 ::flixel::math::FlxRect _this = ::flixel::FlxG_obj::worldBounds;
-HXDLIN(1068)			_hx_tmp1 = (this->x < (_this->x + _this->width));
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1075_inWorldBounds)
+HXDLIN(1075)		bool _hx_tmp;
+HXDLIN(1075)		bool _hx_tmp1;
+HXDLIN(1075)		Float _hx_tmp2 = this->x;
+HXDLIN(1075)		Float _hx_tmp3 = (_hx_tmp2 + this->get_width());
+HXDLIN(1075)		if ((_hx_tmp3 > ::flixel::FlxG_obj::worldBounds->x)) {
+HXDLIN(1075)			 ::flixel::math::FlxRect _this = ::flixel::FlxG_obj::worldBounds;
+HXDLIN(1075)			_hx_tmp1 = (this->x < (_this->x + _this->width));
             		}
             		else {
-HXDLIN(1068)			_hx_tmp1 = false;
+HXDLIN(1075)			_hx_tmp1 = false;
             		}
-HXDLIN(1068)		if (_hx_tmp1) {
-HXDLIN(1068)			Float _hx_tmp4 = this->y;
-HXDLIN(1068)			Float _hx_tmp5 = (_hx_tmp4 + this->get_height());
-HXDLIN(1068)			_hx_tmp = (_hx_tmp5 > ::flixel::FlxG_obj::worldBounds->y);
-            		}
-            		else {
-HXDLIN(1068)			_hx_tmp = false;
-            		}
-HXDLIN(1068)		if (_hx_tmp) {
-HXDLIN(1068)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxG_obj::worldBounds;
-HXDLIN(1068)			return (this->y < (_this1->y + _this1->height));
+HXDLIN(1075)		if (_hx_tmp1) {
+HXDLIN(1075)			Float _hx_tmp4 = this->y;
+HXDLIN(1075)			Float _hx_tmp5 = (_hx_tmp4 + this->get_height());
+HXDLIN(1075)			_hx_tmp = (_hx_tmp5 > ::flixel::FlxG_obj::worldBounds->y);
             		}
             		else {
-HXDLIN(1068)			return false;
+HXDLIN(1075)			_hx_tmp = false;
             		}
-HXDLIN(1068)		return false;
+HXDLIN(1075)		if (_hx_tmp) {
+HXDLIN(1075)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxG_obj::worldBounds;
+HXDLIN(1075)			return (this->y < (_this1->y + _this1->height));
+            		}
+            		else {
+HXDLIN(1075)			return false;
+            		}
+HXDLIN(1075)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxObject_obj,inWorldBounds,return )
 
  ::flixel::math::FlxBasePoint FlxObject_obj::getScreenPosition( ::flixel::math::FlxBasePoint result, ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1079_getScreenPosition)
-HXLINE(1080)		if (::hx::IsNull( result )) {
-HXLINE(1081)			 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN(1081)			point->_inPool = false;
-HXDLIN(1081)			result = point;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1086_getScreenPosition)
+HXLINE(1087)		if (::hx::IsNull( result )) {
+HXLINE(1088)			 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN(1088)			point->_inPool = false;
+HXDLIN(1088)			result = point;
             		}
-HXLINE(1083)		if (::hx::IsNull( camera )) {
-HXLINE(1084)			camera = ::flixel::FlxG_obj::camera;
+HXLINE(1090)		if (::hx::IsNull( camera )) {
+HXLINE(1091)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1086)		{
-HXLINE(1086)			Float y = this->y;
-HXDLIN(1086)			result->set_x(this->x);
-HXDLIN(1086)			result->set_y(y);
+HXLINE(1093)		{
+HXLINE(1093)			Float y = this->y;
+HXDLIN(1093)			result->set_x(this->x);
+HXDLIN(1093)			result->set_y(y);
             		}
-HXLINE(1087)		if (this->pixelPerfectPosition) {
-HXLINE(1088)			result->set_x(( (Float)(::Math_obj::floor(result->x)) ));
-HXDLIN(1088)			result->set_y(( (Float)(::Math_obj::floor(result->y)) ));
+HXLINE(1094)		if (this->pixelPerfectPosition) {
+HXLINE(1095)			result->set_x(( (Float)(::Math_obj::floor(result->x)) ));
+HXDLIN(1095)			result->set_y(( (Float)(::Math_obj::floor(result->y)) ));
             		}
-HXLINE(1090)		Float y1 = (camera->scroll->y * this->scrollFactor->y);
-HXDLIN(1090)		result->set_x((result->x - (camera->scroll->x * this->scrollFactor->x)));
-HXDLIN(1090)		result->set_y((result->y - y1));
-HXDLIN(1090)		return result;
+HXLINE(1097)		Float y1 = (camera->scroll->y * this->scrollFactor->y);
+HXDLIN(1097)		result->set_x((result->x - (camera->scroll->x * this->scrollFactor->x)));
+HXDLIN(1097)		result->set_y((result->y - y1));
+HXDLIN(1097)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,getScreenPosition,return )
 
  ::flixel::math::FlxBasePoint FlxObject_obj::getPosition( ::flixel::math::FlxBasePoint result){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1100_getPosition)
-HXLINE(1101)		if (::hx::IsNull( result )) {
-HXLINE(1102)			 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN(1102)			point->_inPool = false;
-HXDLIN(1102)			result = point;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1107_getPosition)
+HXLINE(1108)		if (::hx::IsNull( result )) {
+HXLINE(1109)			 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN(1109)			point->_inPool = false;
+HXDLIN(1109)			result = point;
             		}
-HXLINE(1104)		Float y = this->y;
-HXDLIN(1104)		result->set_x(this->x);
-HXDLIN(1104)		result->set_y(y);
-HXDLIN(1104)		return result;
+HXLINE(1111)		Float y = this->y;
+HXDLIN(1111)		result->set_x(this->x);
+HXDLIN(1111)		result->set_y(y);
+HXDLIN(1111)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,getPosition,return )
 
  ::flixel::math::FlxBasePoint FlxObject_obj::getMidpoint( ::flixel::math::FlxBasePoint point){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1115_getMidpoint)
-HXLINE(1116)		if (::hx::IsNull( point )) {
-HXLINE(1117)			 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN(1117)			point1->_inPool = false;
-HXDLIN(1117)			point = point1;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1122_getMidpoint)
+HXLINE(1123)		if (::hx::IsNull( point )) {
+HXLINE(1124)			 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN(1124)			point1->_inPool = false;
+HXDLIN(1124)			point = point1;
             		}
-HXLINE(1118)		Float x = this->x;
-HXDLIN(1118)		Float x1 = (x + (this->get_width() * ((Float)0.5)));
-HXDLIN(1118)		Float y = this->y;
-HXDLIN(1118)		Float y1 = (y + (this->get_height() * ((Float)0.5)));
-HXDLIN(1118)		point->set_x(x1);
-HXDLIN(1118)		point->set_y(y1);
-HXDLIN(1118)		return point;
+HXLINE(1125)		Float x = this->x;
+HXDLIN(1125)		Float x1 = (x + (this->get_width() * ((Float)0.5)));
+HXDLIN(1125)		Float y = this->y;
+HXDLIN(1125)		Float y1 = (y + (this->get_height() * ((Float)0.5)));
+HXDLIN(1125)		point->set_x(x1);
+HXDLIN(1125)		point->set_y(y1);
+HXDLIN(1125)		return point;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,getMidpoint,return )
 
  ::flixel::math::FlxRect FlxObject_obj::getHitbox( ::flixel::math::FlxRect rect){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1122_getHitbox)
-HXLINE(1123)		if (::hx::IsNull( rect )) {
-HXLINE(1124)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN(1124)			_this->x = ( (Float)(0) );
-HXDLIN(1124)			_this->y = ( (Float)(0) );
-HXDLIN(1124)			_this->width = ( (Float)(0) );
-HXDLIN(1124)			_this->height = ( (Float)(0) );
-HXDLIN(1124)			 ::flixel::math::FlxRect rect1 = _this;
-HXDLIN(1124)			rect1->_inPool = false;
-HXDLIN(1124)			rect = rect1;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1129_getHitbox)
+HXLINE(1130)		if (::hx::IsNull( rect )) {
+HXLINE(1131)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN(1131)			_this->x = ( (Float)(0) );
+HXDLIN(1131)			_this->y = ( (Float)(0) );
+HXDLIN(1131)			_this->width = ( (Float)(0) );
+HXDLIN(1131)			_this->height = ( (Float)(0) );
+HXDLIN(1131)			 ::flixel::math::FlxRect rect1 = _this;
+HXDLIN(1131)			rect1->_inPool = false;
+HXDLIN(1131)			rect = rect1;
             		}
-HXLINE(1125)		Float X = this->x;
-HXDLIN(1125)		Float Y = this->y;
-HXDLIN(1125)		Float Width = this->get_width();
-HXDLIN(1125)		Float Height = this->get_height();
-HXDLIN(1125)		rect->x = X;
-HXDLIN(1125)		rect->y = Y;
-HXDLIN(1125)		rect->width = Width;
-HXDLIN(1125)		rect->height = Height;
-HXDLIN(1125)		return rect;
+HXLINE(1132)		Float X = this->x;
+HXDLIN(1132)		Float Y = this->y;
+HXDLIN(1132)		Float Width = this->get_width();
+HXDLIN(1132)		Float Height = this->get_height();
+HXDLIN(1132)		rect->x = X;
+HXDLIN(1132)		rect->y = Y;
+HXDLIN(1132)		rect->width = Width;
+HXDLIN(1132)		rect->height = Height;
+HXDLIN(1132)		return rect;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,getHitbox,return )
 
 void FlxObject_obj::reset(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1136_reset)
-HXLINE(1137)		this->touching = 0;
-HXLINE(1138)		this->wasTouching = 0;
-HXLINE(1139)		this->setPosition(x,y);
-HXLINE(1140)		{
-HXLINE(1140)			 ::flixel::math::FlxBasePoint this1 = this->last;
-HXDLIN(1140)			Float y1 = this->y;
-HXDLIN(1140)			this1->set_x(this->x);
-HXDLIN(1140)			this1->set_y(y1);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1143_reset)
+HXLINE(1144)		this->touching = 0;
+HXLINE(1145)		this->wasTouching = 0;
+HXLINE(1146)		this->setPosition(x,y);
+HXLINE(1147)		{
+HXLINE(1147)			 ::flixel::math::FlxBasePoint this1 = this->last;
+HXDLIN(1147)			Float y1 = this->y;
+HXDLIN(1147)			this1->set_x(this->x);
+HXDLIN(1147)			this1->set_y(y1);
             		}
-HXLINE(1141)		{
-HXLINE(1141)			 ::flixel::math::FlxBasePoint this2 = this->velocity;
-HXDLIN(1141)			this2->set_x(( (Float)(0) ));
-HXDLIN(1141)			this2->set_y(( (Float)(0) ));
+HXLINE(1148)		{
+HXLINE(1148)			 ::flixel::math::FlxBasePoint this2 = this->velocity;
+HXDLIN(1148)			this2->set_x(( (Float)(0) ));
+HXDLIN(1148)			this2->set_y(( (Float)(0) ));
             		}
-HXLINE(1142)		this->revive();
+HXLINE(1149)		this->revive();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,reset,(void))
 
 bool FlxObject_obj::isOnScreen( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1153_isOnScreen)
-HXLINE(1154)		if (::hx::IsNull( camera )) {
-HXLINE(1155)			camera = ::flixel::FlxG_obj::camera;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1160_isOnScreen)
+HXLINE(1161)		if (::hx::IsNull( camera )) {
+HXLINE(1162)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1157)		this->getScreenPosition(this->_point,camera);
-HXLINE(1158)		 ::flixel::math::FlxBasePoint point = this->_point;
-HXDLIN(1158)		Float width = this->get_width();
-HXDLIN(1158)		Float height = this->get_height();
-HXDLIN(1158)		bool contained;
-HXDLIN(1158)		bool contained1;
-HXDLIN(1158)		bool contained2;
-HXDLIN(1158)		if (((point->x + width) > camera->viewMarginX)) {
-HXLINE(1158)			contained2 = (point->x < (( (Float)(camera->width) ) - camera->viewMarginX));
-            		}
-            		else {
-HXLINE(1158)			contained2 = false;
-            		}
-HXDLIN(1158)		if (contained2) {
-HXLINE(1158)			contained1 = ((point->y + height) > camera->viewMarginY);
+HXLINE(1164)		this->getScreenPosition(this->_point,camera);
+HXLINE(1165)		 ::flixel::math::FlxBasePoint point = this->_point;
+HXDLIN(1165)		Float width = this->get_width();
+HXDLIN(1165)		Float height = this->get_height();
+HXDLIN(1165)		bool contained;
+HXDLIN(1165)		bool contained1;
+HXDLIN(1165)		bool contained2;
+HXDLIN(1165)		if (((point->x + width) > camera->viewMarginX)) {
+HXLINE(1165)			contained2 = (point->x < (( (Float)(camera->width) ) - camera->viewMarginX));
             		}
             		else {
-HXLINE(1158)			contained1 = false;
+HXLINE(1165)			contained2 = false;
             		}
-HXDLIN(1158)		if (contained1) {
-HXLINE(1158)			contained = (point->y < (( (Float)(camera->height) ) - camera->viewMarginY));
+HXDLIN(1165)		if (contained2) {
+HXLINE(1165)			contained1 = ((point->y + height) > camera->viewMarginY);
             		}
             		else {
-HXLINE(1158)			contained = false;
+HXLINE(1165)			contained1 = false;
             		}
-HXDLIN(1158)		if (point->_weak) {
-HXLINE(1158)			point->put();
+HXDLIN(1165)		if (contained1) {
+HXLINE(1165)			contained = (point->y < (( (Float)(camera->height) ) - camera->viewMarginY));
             		}
-HXDLIN(1158)		return contained;
+            		else {
+HXLINE(1165)			contained = false;
+            		}
+HXDLIN(1165)		if (point->_weak) {
+HXLINE(1165)			point->put();
+            		}
+HXDLIN(1165)		return contained;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,isOnScreen,return )
 
 bool FlxObject_obj::isPixelPerfectRender( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1165_isPixelPerfectRender)
-HXLINE(1166)		if (::hx::IsNull( camera )) {
-HXLINE(1167)			camera = ::flixel::FlxG_obj::camera;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1172_isPixelPerfectRender)
+HXLINE(1173)		if (::hx::IsNull( camera )) {
+HXLINE(1174)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE(1168)		if (::hx::IsNull( this->pixelPerfectRender )) {
-HXLINE(1168)			return camera->pixelPerfectRender;
+HXLINE(1175)		if (::hx::IsNull( this->pixelPerfectRender )) {
+HXLINE(1175)			return camera->pixelPerfectRender;
             		}
             		else {
-HXLINE(1168)			return ( (bool)(this->pixelPerfectRender) );
+HXLINE(1175)			return ( (bool)(this->pixelPerfectRender) );
             		}
-HXDLIN(1168)		return false;
+HXDLIN(1175)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,isPixelPerfectRender,return )
 
 bool FlxObject_obj::isTouching(int direction){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1180_isTouching)
-HXDLIN(1180)		return ((this->touching & direction) > 0);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1187_isTouching)
+HXDLIN(1187)		return ((this->touching & direction) > 0);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,isTouching,return )
 
 bool FlxObject_obj::justTouched(int direction){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1192_justTouched)
-HXDLIN(1192)		if (((this->touching & direction) > 0)) {
-HXDLIN(1192)			return !(((this->wasTouching & direction) > 0));
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1199_justTouched)
+HXDLIN(1199)		if (((this->touching & direction) > 0)) {
+HXDLIN(1199)			return !(((this->wasTouching & direction) > 0));
             		}
             		else {
-HXDLIN(1192)			return false;
+HXDLIN(1199)			return false;
             		}
-HXDLIN(1192)		return false;
+HXDLIN(1199)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,justTouched,return )
 
 void FlxObject_obj::hurt(Float damage){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1202_hurt)
-HXLINE(1203)		this->health = (this->health - damage);
-HXLINE(1204)		if ((this->health <= 0)) {
-HXLINE(1205)			this->kill();
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1209_hurt)
+HXLINE(1210)		this->health = (this->health - damage);
+HXLINE(1211)		if ((this->health <= 0)) {
+HXLINE(1212)			this->kill();
             		}
             	}
 
@@ -812,30 +813,30 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,hurt,(void))
 
  ::flixel::FlxObject FlxObject_obj::screenCenter(::hx::Null< int >  __o_axes){
             		int axes = __o_axes.Default(17);
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1215_screenCenter)
-HXLINE(1216)		bool _hx_tmp;
-HXDLIN(1216)		if ((axes != 1)) {
-HXLINE(1216)			_hx_tmp = (axes == 17);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1222_screenCenter)
+HXLINE(1223)		bool _hx_tmp;
+HXDLIN(1223)		if ((axes != 1)) {
+HXLINE(1223)			_hx_tmp = (axes == 17);
             		}
             		else {
-HXLINE(1216)			_hx_tmp = true;
+HXLINE(1223)			_hx_tmp = true;
             		}
-HXDLIN(1216)		if (_hx_tmp) {
-HXLINE(1217)			int _hx_tmp1 = ::flixel::FlxG_obj::width;
-HXDLIN(1217)			this->set_x(((( (Float)(_hx_tmp1) ) - this->get_width()) / ( (Float)(2) )));
+HXDLIN(1223)		if (_hx_tmp) {
+HXLINE(1224)			int _hx_tmp1 = ::flixel::FlxG_obj::width;
+HXDLIN(1224)			this->set_x(((( (Float)(_hx_tmp1) ) - this->get_width()) / ( (Float)(2) )));
             		}
-HXLINE(1219)		bool _hx_tmp2;
-HXDLIN(1219)		if ((axes != 16)) {
-HXLINE(1219)			_hx_tmp2 = (axes == 17);
+HXLINE(1226)		bool _hx_tmp2;
+HXDLIN(1226)		if ((axes != 16)) {
+HXLINE(1226)			_hx_tmp2 = (axes == 17);
             		}
             		else {
-HXLINE(1219)			_hx_tmp2 = true;
+HXLINE(1226)			_hx_tmp2 = true;
             		}
-HXDLIN(1219)		if (_hx_tmp2) {
-HXLINE(1220)			int _hx_tmp3 = ::flixel::FlxG_obj::height;
-HXDLIN(1220)			this->set_y(((( (Float)(_hx_tmp3) ) - this->get_height()) / ( (Float)(2) )));
+HXDLIN(1226)		if (_hx_tmp2) {
+HXLINE(1227)			int _hx_tmp3 = ::flixel::FlxG_obj::height;
+HXDLIN(1227)			this->set_y(((( (Float)(_hx_tmp3) ) - this->get_height()) / ( (Float)(2) )));
             		}
-HXLINE(1222)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1229)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -844,257 +845,257 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,screenCenter,return )
 void FlxObject_obj::setPosition(::hx::Null< Float >  __o_x,::hx::Null< Float >  __o_y){
             		Float x = __o_x.Default(((Float)0.0));
             		Float y = __o_y.Default(((Float)0.0));
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1233_setPosition)
-HXLINE(1234)		this->set_x(x);
-HXLINE(1235)		this->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1240_setPosition)
+HXLINE(1241)		this->set_x(x);
+HXLINE(1242)		this->set_y(y);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,setPosition,(void))
 
 void FlxObject_obj::setSize(Float width,Float height){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1245_setSize)
-HXLINE(1246)		this->set_width(width);
-HXLINE(1247)		this->set_height(height);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1252_setSize)
+HXLINE(1253)		this->set_width(width);
+HXLINE(1254)		this->set_height(height);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,setSize,(void))
 
  ::flixel::math::FlxRect FlxObject_obj::getBoundingBox( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1325_getBoundingBox)
-HXLINE(1326)		this->getScreenPosition(this->_point,camera);
-HXLINE(1328)		{
-HXLINE(1328)			 ::flixel::math::FlxRect _this = this->_rect;
-HXDLIN(1328)			Float X = this->_point->x;
-HXDLIN(1328)			Float Y = this->_point->y;
-HXDLIN(1328)			Float Width = this->get_width();
-HXDLIN(1328)			Float Height = this->get_height();
-HXDLIN(1328)			_this->x = X;
-HXDLIN(1328)			_this->y = Y;
-HXDLIN(1328)			_this->width = Width;
-HXDLIN(1328)			_this->height = Height;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1332_getBoundingBox)
+HXLINE(1333)		this->getScreenPosition(this->_point,camera);
+HXLINE(1335)		{
+HXLINE(1335)			 ::flixel::math::FlxRect _this = this->_rect;
+HXDLIN(1335)			Float X = this->_point->x;
+HXDLIN(1335)			Float Y = this->_point->y;
+HXDLIN(1335)			Float Width = this->get_width();
+HXDLIN(1335)			Float Height = this->get_height();
+HXDLIN(1335)			_this->x = X;
+HXDLIN(1335)			_this->y = Y;
+HXDLIN(1335)			_this->width = Width;
+HXDLIN(1335)			_this->height = Height;
             		}
-HXLINE(1329)		this->_rect = camera->transformRect(this->_rect);
-HXLINE(1331)		if (this->isPixelPerfectRender(camera)) {
-HXLINE(1333)			 ::flixel::math::FlxRect _this1 = this->_rect;
-HXDLIN(1333)			_this1->x = ( (Float)(::Math_obj::floor(_this1->x)) );
-HXDLIN(1333)			_this1->y = ( (Float)(::Math_obj::floor(_this1->y)) );
-HXDLIN(1333)			_this1->width = ( (Float)(::Math_obj::floor(_this1->width)) );
-HXDLIN(1333)			_this1->height = ( (Float)(::Math_obj::floor(_this1->height)) );
+HXLINE(1336)		this->_rect = camera->transformRect(this->_rect);
+HXLINE(1338)		if (this->isPixelPerfectRender(camera)) {
+HXLINE(1340)			 ::flixel::math::FlxRect _this1 = this->_rect;
+HXDLIN(1340)			_this1->x = ( (Float)(::Math_obj::floor(_this1->x)) );
+HXDLIN(1340)			_this1->y = ( (Float)(::Math_obj::floor(_this1->y)) );
+HXDLIN(1340)			_this1->width = ( (Float)(::Math_obj::floor(_this1->width)) );
+HXDLIN(1340)			_this1->height = ( (Float)(::Math_obj::floor(_this1->height)) );
             		}
-HXLINE(1336)		return this->_rect;
+HXLINE(1343)		return this->_rect;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,getBoundingBox,return )
 
  ::flixel::math::FlxRect FlxObject_obj::getRotatedBounds( ::flixel::math::FlxRect newRect){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1349_getRotatedBounds)
-HXLINE(1350)		if (::hx::IsNull( newRect )) {
-HXLINE(1351)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN(1351)			_this->x = ( (Float)(0) );
-HXDLIN(1351)			_this->y = ( (Float)(0) );
-HXDLIN(1351)			_this->width = ( (Float)(0) );
-HXDLIN(1351)			_this->height = ( (Float)(0) );
-HXDLIN(1351)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN(1351)			rect->_inPool = false;
-HXDLIN(1351)			newRect = rect;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1356_getRotatedBounds)
+HXLINE(1357)		if (::hx::IsNull( newRect )) {
+HXLINE(1358)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN(1358)			_this->x = ( (Float)(0) );
+HXDLIN(1358)			_this->y = ( (Float)(0) );
+HXDLIN(1358)			_this->width = ( (Float)(0) );
+HXDLIN(1358)			_this->height = ( (Float)(0) );
+HXDLIN(1358)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN(1358)			rect->_inPool = false;
+HXDLIN(1358)			newRect = rect;
             		}
-HXLINE(1353)		{
-HXLINE(1353)			Float X = this->x;
-HXDLIN(1353)			Float Y = this->y;
-HXDLIN(1353)			Float Width = this->get_width();
-HXDLIN(1353)			Float Height = this->get_height();
-HXDLIN(1353)			newRect->x = X;
-HXDLIN(1353)			newRect->y = Y;
-HXDLIN(1353)			newRect->width = Width;
-HXDLIN(1353)			newRect->height = Height;
+HXLINE(1360)		{
+HXLINE(1360)			Float X = this->x;
+HXDLIN(1360)			Float Y = this->y;
+HXDLIN(1360)			Float Width = this->get_width();
+HXDLIN(1360)			Float Height = this->get_height();
+HXDLIN(1360)			newRect->x = X;
+HXDLIN(1360)			newRect->y = Y;
+HXDLIN(1360)			newRect->width = Width;
+HXDLIN(1360)			newRect->height = Height;
             		}
-HXLINE(1354)		return newRect->getRotatedBounds(this->angle,null(),newRect);
+HXLINE(1361)		return newRect->getRotatedBounds(this->angle,null(),newRect);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,getRotatedBounds,return )
 
 ::String FlxObject_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1362_toString)
-HXLINE(1363)		 ::Dynamic value = this->x;
-HXDLIN(1363)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN(1363)		_this->label = HX_("x",78,00,00,00);
-HXDLIN(1363)		_this->value = value;
-HXLINE(1364)		 ::Dynamic value1 = this->y;
-HXDLIN(1364)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN(1364)		_this1->label = HX_("y",79,00,00,00);
-HXDLIN(1364)		_this1->value = value1;
-HXLINE(1365)		 ::Dynamic value2 = this->get_width();
-HXDLIN(1365)		 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN(1365)		_this2->label = HX_("w",77,00,00,00);
-HXDLIN(1365)		_this2->value = value2;
-HXLINE(1366)		 ::Dynamic value3 = this->get_height();
-HXDLIN(1366)		 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN(1366)		_this3->label = HX_("h",68,00,00,00);
-HXDLIN(1366)		_this3->value = value3;
-HXLINE(1367)		 ::Dynamic value4 = this->visible;
-HXDLIN(1367)		 ::flixel::util::LabelValuePair _this4 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN(1367)		_this4->label = HX_("visible",72,78,24,a3);
-HXDLIN(1367)		_this4->value = value4;
-HXLINE(1368)		 ::Dynamic value5 = this->velocity;
-HXDLIN(1368)		 ::flixel::util::LabelValuePair _this5 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN(1368)		_this5->label = HX_("velocity",1d,02,fe,1e);
-HXDLIN(1368)		_this5->value = value5;
-HXLINE(1362)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(6)->init(0,_this)->init(1,_this1)->init(2,_this2)->init(3,_this3)->init(4,_this4)->init(5,_this5));
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1369_toString)
+HXLINE(1370)		 ::Dynamic value = this->x;
+HXDLIN(1370)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN(1370)		_this->label = HX_("x",78,00,00,00);
+HXDLIN(1370)		_this->value = value;
+HXLINE(1371)		 ::Dynamic value1 = this->y;
+HXDLIN(1371)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN(1371)		_this1->label = HX_("y",79,00,00,00);
+HXDLIN(1371)		_this1->value = value1;
+HXLINE(1372)		 ::Dynamic value2 = this->get_width();
+HXDLIN(1372)		 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN(1372)		_this2->label = HX_("w",77,00,00,00);
+HXDLIN(1372)		_this2->value = value2;
+HXLINE(1373)		 ::Dynamic value3 = this->get_height();
+HXDLIN(1373)		 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN(1373)		_this3->label = HX_("h",68,00,00,00);
+HXDLIN(1373)		_this3->value = value3;
+HXLINE(1374)		 ::Dynamic value4 = this->visible;
+HXDLIN(1374)		 ::flixel::util::LabelValuePair _this4 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN(1374)		_this4->label = HX_("visible",72,78,24,a3);
+HXDLIN(1374)		_this4->value = value4;
+HXLINE(1375)		 ::Dynamic value5 = this->velocity;
+HXDLIN(1375)		 ::flixel::util::LabelValuePair _this5 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN(1375)		_this5->label = HX_("velocity",1d,02,fe,1e);
+HXDLIN(1375)		_this5->value = value5;
+HXLINE(1369)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(6)->init(0,_this)->init(1,_this1)->init(2,_this2)->init(3,_this3)->init(4,_this4)->init(5,_this5));
             	}
 
 
 Float FlxObject_obj::set_x(Float value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1375_set_x)
-HXDLIN(1375)		return (this->x = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1382_set_x)
+HXDLIN(1382)		return (this->x = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_x,return )
 
 Float FlxObject_obj::set_y(Float value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1381_set_y)
-HXDLIN(1381)		return (this->y = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1388_set_y)
+HXDLIN(1388)		return (this->y = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_y,return )
 
 Float FlxObject_obj::set_width(Float value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1395_set_width)
-HXDLIN(1395)		return (this->width = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1402_set_width)
+HXDLIN(1402)		return (this->width = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_width,return )
 
 Float FlxObject_obj::set_height(Float value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1409_set_height)
-HXDLIN(1409)		return (this->height = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1416_set_height)
+HXDLIN(1416)		return (this->height = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_height,return )
 
 Float FlxObject_obj::get_width(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1415_get_width)
-HXDLIN(1415)		return this->width;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1422_get_width)
+HXDLIN(1422)		return this->width;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxObject_obj,get_width,return )
 
 Float FlxObject_obj::get_height(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1421_get_height)
-HXDLIN(1421)		return this->height;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1428_get_height)
+HXDLIN(1428)		return this->height;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxObject_obj,get_height,return )
 
 bool FlxObject_obj::get_solid(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1427_get_solid)
-HXDLIN(1427)		return ((this->allowCollisions & 4369) > 0);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1434_get_solid)
+HXDLIN(1434)		return ((this->allowCollisions & 4369) > 0);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxObject_obj,get_solid,return )
 
 bool FlxObject_obj::set_solid(bool value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1432_set_solid)
-HXLINE(1433)		int _hx_tmp;
-HXDLIN(1433)		if (value) {
-HXLINE(1433)			_hx_tmp = 4369;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1439_set_solid)
+HXLINE(1440)		int _hx_tmp;
+HXDLIN(1440)		if (value) {
+HXLINE(1440)			_hx_tmp = 4369;
             		}
             		else {
-HXLINE(1433)			_hx_tmp = 0;
+HXLINE(1440)			_hx_tmp = 0;
             		}
-HXDLIN(1433)		this->set_allowCollisions(_hx_tmp);
-HXLINE(1434)		return value;
+HXDLIN(1440)		this->set_allowCollisions(_hx_tmp);
+HXLINE(1441)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_solid,return )
 
 Float FlxObject_obj::set_angle(Float value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1440_set_angle)
-HXDLIN(1440)		return (this->angle = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1447_set_angle)
+HXDLIN(1447)		return (this->angle = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_angle,return )
 
 bool FlxObject_obj::set_moves(bool value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1446_set_moves)
-HXDLIN(1446)		return (this->moves = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1453_set_moves)
+HXDLIN(1453)		return (this->moves = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_moves,return )
 
 bool FlxObject_obj::set_immovable(bool value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1452_set_immovable)
-HXDLIN(1452)		return (this->immovable = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1459_set_immovable)
+HXDLIN(1459)		return (this->immovable = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_immovable,return )
 
 bool FlxObject_obj::set_pixelPerfectRender(bool value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1458_set_pixelPerfectRender)
-HXDLIN(1458)		return ( (bool)((this->pixelPerfectRender = value)) );
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1465_set_pixelPerfectRender)
+HXDLIN(1465)		return ( (bool)((this->pixelPerfectRender = value)) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_pixelPerfectRender,return )
 
 int FlxObject_obj::set_allowCollisions(int value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1464_set_allowCollisions)
-HXDLIN(1464)		return (this->allowCollisions = value);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1471_set_allowCollisions)
+HXDLIN(1471)		return (this->allowCollisions = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_allowCollisions,return )
 
 bool FlxObject_obj::get_collisonXDrag(){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1470_get_collisonXDrag)
-HXDLIN(1470)		return (this->collisionXDrag == 2);
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1477_get_collisonXDrag)
+HXDLIN(1477)		return (this->collisionXDrag == 2);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxObject_obj,get_collisonXDrag,return )
 
 bool FlxObject_obj::set_collisonXDrag(bool value){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1475_set_collisonXDrag)
-HXLINE(1476)		int _hx_tmp;
-HXDLIN(1476)		if (value) {
-HXLINE(1476)			_hx_tmp = 2;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1482_set_collisonXDrag)
+HXLINE(1483)		int _hx_tmp;
+HXDLIN(1483)		if (value) {
+HXLINE(1483)			_hx_tmp = 2;
             		}
             		else {
-HXLINE(1476)			_hx_tmp = 0;
+HXLINE(1483)			_hx_tmp = 0;
             		}
-HXDLIN(1476)		this->collisionXDrag = _hx_tmp;
-HXLINE(1477)		return value;
+HXDLIN(1483)		this->collisionXDrag = _hx_tmp;
+HXLINE(1484)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_collisonXDrag,return )
 
  ::flixel::path::FlxPath FlxObject_obj::set_path( ::flixel::path::FlxPath path){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1502_set_path)
-HXLINE(1503)		if (::hx::IsInstanceEq( this->path,path )) {
-HXLINE(1504)			return path;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_1509_set_path)
+HXLINE(1510)		if (::hx::IsInstanceEq( this->path,path )) {
+HXLINE(1511)			return path;
             		}
-HXLINE(1506)		if (::hx::IsNotNull( this->path )) {
-HXLINE(1507)			this->path->object = null();
+HXLINE(1513)		if (::hx::IsNotNull( this->path )) {
+HXLINE(1514)			this->path->object = null();
             		}
-HXLINE(1509)		if (::hx::IsNotNull( path )) {
-HXLINE(1510)			path->object = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1516)		if (::hx::IsNotNull( path )) {
+HXLINE(1517)			path->object = ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE(1511)		return (this->path = path);
+HXLINE(1518)		return (this->path = path);
             	}
 
 
@@ -1103,6 +1104,8 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxObject_obj,set_path,return )
 bool FlxObject_obj::defaultPixelPerfectPosition;
 
 Float FlxObject_obj::SEPARATE_BIAS;
+
+bool FlxObject_obj::defaultMoves;
 
 int FlxObject_obj::LEFT;
 
@@ -1127,75 +1130,75 @@ int FlxObject_obj::ANY;
  ::flixel::math::FlxRect FlxObject_obj::_secondSeparateFlxRect;
 
 bool FlxObject_obj::separate( ::flixel::FlxObject object1, ::flixel::FlxObject object2){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_174_separate)
-HXLINE( 175)		bool separatedX = ::flixel::FlxObject_obj::separateX(object1,object2);
-HXLINE( 176)		bool separatedY = ::flixel::FlxObject_obj::separateY(object1,object2);
-HXLINE( 177)		if (!(separatedX)) {
-HXLINE( 177)			return separatedY;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_181_separate)
+HXLINE( 182)		bool separatedX = ::flixel::FlxObject_obj::separateX(object1,object2);
+HXLINE( 183)		bool separatedY = ::flixel::FlxObject_obj::separateY(object1,object2);
+HXLINE( 184)		if (!(separatedX)) {
+HXLINE( 184)			return separatedY;
             		}
             		else {
-HXLINE( 177)			return true;
+HXLINE( 184)			return true;
             		}
-HXDLIN( 177)		return false;
+HXDLIN( 184)		return false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,separate,return )
 
 bool FlxObject_obj::updateTouchingFlags( ::flixel::FlxObject Object1, ::flixel::FlxObject Object2){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_189_updateTouchingFlags)
-HXLINE( 190)		bool touchingX = ::flixel::FlxObject_obj::updateTouchingFlagsX(Object1,Object2);
-HXLINE( 191)		bool touchingY = ::flixel::FlxObject_obj::updateTouchingFlagsY(Object1,Object2);
-HXLINE( 192)		if (!(touchingX)) {
-HXLINE( 192)			return touchingY;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_196_updateTouchingFlags)
+HXLINE( 197)		bool touchingX = ::flixel::FlxObject_obj::updateTouchingFlagsX(Object1,Object2);
+HXLINE( 198)		bool touchingY = ::flixel::FlxObject_obj::updateTouchingFlagsY(Object1,Object2);
+HXLINE( 199)		if (!(touchingX)) {
+HXLINE( 199)			return touchingY;
             		}
             		else {
-HXLINE( 192)			return true;
+HXLINE( 199)			return true;
             		}
-HXDLIN( 192)		return false;
+HXDLIN( 199)		return false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,updateTouchingFlags,return )
 
 bool FlxObject_obj::allowCollisionDrag(int type, ::flixel::FlxObject object1, ::flixel::FlxObject object2){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_197_allowCollisionDrag)
-HXDLIN( 197)		bool _hx_tmp;
-HXDLIN( 197)		if (object2->active) {
-HXDLIN( 197)			_hx_tmp = object2->moves;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_204_allowCollisionDrag)
+HXDLIN( 204)		bool _hx_tmp;
+HXDLIN( 204)		if (object2->active) {
+HXDLIN( 204)			_hx_tmp = object2->moves;
             		}
             		else {
-HXDLIN( 197)			_hx_tmp = false;
+HXDLIN( 204)			_hx_tmp = false;
             		}
-HXDLIN( 197)		if (_hx_tmp) {
-HXDLIN( 197)			switch((int)(type)){
+HXDLIN( 204)		if (_hx_tmp) {
+HXDLIN( 204)			switch((int)(type)){
             				case (int)0: {
-HXLINE( 199)					return false;
+HXLINE( 206)					return false;
             				}
             				break;
             				case (int)1: {
-HXLINE( 200)					return true;
+HXLINE( 207)					return true;
             				}
             				break;
             				case (int)2: {
-HXLINE( 201)					return object2->immovable;
+HXLINE( 208)					return object2->immovable;
             				}
             				break;
             				case (int)3: {
-HXLINE( 202)					if (!(object2->immovable)) {
-HXLINE( 202)						return (object2->mass > object1->mass);
+HXLINE( 209)					if (!(object2->immovable)) {
+HXLINE( 209)						return (object2->mass > object1->mass);
             					}
             					else {
-HXLINE( 202)						return true;
+HXLINE( 209)						return true;
             					}
             				}
             				break;
             			}
             		}
             		else {
-HXDLIN( 197)			return false;
+HXDLIN( 204)			return false;
             		}
-HXDLIN( 197)		return false;
+HXDLIN( 204)		return false;
             	}
 
 
@@ -1203,270 +1206,270 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC3(FlxObject_obj,allowCollisionDrag,return )
 
 Float FlxObject_obj::computeOverlapX( ::flixel::FlxObject object1, ::flixel::FlxObject object2,::hx::Null< bool >  __o_checkMaxOverlap){
             		bool checkMaxOverlap = __o_checkMaxOverlap.Default(true);
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_213_computeOverlapX)
-HXLINE( 214)		Float overlap = ( (Float)(0) );
-HXLINE( 216)		Float obj1delta = (object1->x - object1->last->x);
-HXLINE( 217)		Float obj2delta = (object2->x - object2->last->x);
-HXLINE( 219)		if ((obj1delta != obj2delta)) {
-HXLINE( 222)			Float obj1deltaAbs;
-HXDLIN( 222)			if ((obj1delta > 0)) {
-HXLINE( 222)				obj1deltaAbs = obj1delta;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_220_computeOverlapX)
+HXLINE( 221)		Float overlap = ( (Float)(0) );
+HXLINE( 223)		Float obj1delta = (object1->x - object1->last->x);
+HXLINE( 224)		Float obj2delta = (object2->x - object2->last->x);
+HXLINE( 226)		if ((obj1delta != obj2delta)) {
+HXLINE( 229)			Float obj1deltaAbs;
+HXDLIN( 229)			if ((obj1delta > 0)) {
+HXLINE( 229)				obj1deltaAbs = obj1delta;
             			}
             			else {
-HXLINE( 222)				obj1deltaAbs = -(obj1delta);
+HXLINE( 229)				obj1deltaAbs = -(obj1delta);
             			}
-HXLINE( 223)			Float obj2deltaAbs;
-HXDLIN( 223)			if ((obj2delta > 0)) {
-HXLINE( 223)				obj2deltaAbs = obj2delta;
-            			}
-            			else {
-HXLINE( 223)				obj2deltaAbs = -(obj2delta);
-            			}
-HXLINE( 225)			 ::flixel::math::FlxRect _this = ::flixel::FlxObject_obj::_firstSeparateFlxRect;
-HXDLIN( 225)			Float X;
-HXDLIN( 225)			if ((obj1delta > 0)) {
-HXLINE( 225)				X = obj1delta;
+HXLINE( 230)			Float obj2deltaAbs;
+HXDLIN( 230)			if ((obj2delta > 0)) {
+HXLINE( 230)				obj2deltaAbs = obj2delta;
             			}
             			else {
-HXLINE( 225)				X = ( (Float)(0) );
+HXLINE( 230)				obj2deltaAbs = -(obj2delta);
             			}
-HXDLIN( 225)			Float X1 = (object1->x - X);
-HXDLIN( 225)			Float Y = object1->last->y;
-HXDLIN( 225)			Float Width = (object1->get_width() + obj1deltaAbs);
-HXDLIN( 225)			Float Height = object1->get_height();
-HXDLIN( 225)			_this->x = X1;
-HXDLIN( 225)			_this->y = Y;
-HXDLIN( 225)			_this->width = Width;
-HXDLIN( 225)			_this->height = Height;
-HXDLIN( 225)			 ::flixel::math::FlxRect obj1rect = _this;
-HXLINE( 227)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxObject_obj::_secondSeparateFlxRect;
-HXDLIN( 227)			Float X2;
-HXDLIN( 227)			if ((obj2delta > 0)) {
-HXLINE( 227)				X2 = obj2delta;
+HXLINE( 232)			 ::flixel::math::FlxRect _this = ::flixel::FlxObject_obj::_firstSeparateFlxRect;
+HXDLIN( 232)			Float X;
+HXDLIN( 232)			if ((obj1delta > 0)) {
+HXLINE( 232)				X = obj1delta;
             			}
             			else {
-HXLINE( 227)				X2 = ( (Float)(0) );
+HXLINE( 232)				X = ( (Float)(0) );
             			}
-HXDLIN( 227)			Float X3 = (object2->x - X2);
-HXDLIN( 227)			Float Y1 = object2->last->y;
-HXDLIN( 227)			Float Width1 = (object2->get_width() + obj2deltaAbs);
-HXDLIN( 227)			Float Height1 = object2->get_height();
-HXDLIN( 227)			_this1->x = X3;
-HXDLIN( 227)			_this1->y = Y1;
-HXDLIN( 227)			_this1->width = Width1;
-HXDLIN( 227)			_this1->height = Height1;
-HXDLIN( 227)			 ::flixel::math::FlxRect obj2rect = _this1;
-HXLINE( 230)			bool _hx_tmp;
-HXDLIN( 230)			bool _hx_tmp1;
-HXDLIN( 230)			bool _hx_tmp2;
-HXDLIN( 230)			if (((obj1rect->x + obj1rect->width) > obj2rect->x)) {
-HXLINE( 230)				_hx_tmp2 = (obj1rect->x < (obj2rect->x + obj2rect->width));
-            			}
-            			else {
-HXLINE( 230)				_hx_tmp2 = false;
-            			}
-HXDLIN( 230)			if (_hx_tmp2) {
-HXLINE( 230)				_hx_tmp1 = ((obj1rect->y + obj1rect->height) > obj2rect->y);
+HXDLIN( 232)			Float X1 = (object1->x - X);
+HXDLIN( 232)			Float Y = object1->last->y;
+HXDLIN( 232)			Float Width = (object1->get_width() + obj1deltaAbs);
+HXDLIN( 232)			Float Height = object1->get_height();
+HXDLIN( 232)			_this->x = X1;
+HXDLIN( 232)			_this->y = Y;
+HXDLIN( 232)			_this->width = Width;
+HXDLIN( 232)			_this->height = Height;
+HXDLIN( 232)			 ::flixel::math::FlxRect obj1rect = _this;
+HXLINE( 234)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxObject_obj::_secondSeparateFlxRect;
+HXDLIN( 234)			Float X2;
+HXDLIN( 234)			if ((obj2delta > 0)) {
+HXLINE( 234)				X2 = obj2delta;
             			}
             			else {
-HXLINE( 230)				_hx_tmp1 = false;
+HXLINE( 234)				X2 = ( (Float)(0) );
             			}
-HXDLIN( 230)			if (_hx_tmp1) {
-HXLINE( 230)				_hx_tmp = (obj1rect->y < (obj2rect->y + obj2rect->height));
+HXDLIN( 234)			Float X3 = (object2->x - X2);
+HXDLIN( 234)			Float Y1 = object2->last->y;
+HXDLIN( 234)			Float Width1 = (object2->get_width() + obj2deltaAbs);
+HXDLIN( 234)			Float Height1 = object2->get_height();
+HXDLIN( 234)			_this1->x = X3;
+HXDLIN( 234)			_this1->y = Y1;
+HXDLIN( 234)			_this1->width = Width1;
+HXDLIN( 234)			_this1->height = Height1;
+HXDLIN( 234)			 ::flixel::math::FlxRect obj2rect = _this1;
+HXLINE( 237)			bool _hx_tmp;
+HXDLIN( 237)			bool _hx_tmp1;
+HXDLIN( 237)			bool _hx_tmp2;
+HXDLIN( 237)			if (((obj1rect->x + obj1rect->width) > obj2rect->x)) {
+HXLINE( 237)				_hx_tmp2 = (obj1rect->x < (obj2rect->x + obj2rect->width));
             			}
             			else {
-HXLINE( 230)				_hx_tmp = false;
+HXLINE( 237)				_hx_tmp2 = false;
             			}
-HXDLIN( 230)			if (_hx_tmp) {
-HXLINE( 235)				Float maxOverlap;
-HXDLIN( 235)				if (checkMaxOverlap) {
-HXLINE( 235)					maxOverlap = ((obj1deltaAbs + obj2deltaAbs) + ::flixel::FlxObject_obj::SEPARATE_BIAS);
+HXDLIN( 237)			if (_hx_tmp2) {
+HXLINE( 237)				_hx_tmp1 = ((obj1rect->y + obj1rect->height) > obj2rect->y);
+            			}
+            			else {
+HXLINE( 237)				_hx_tmp1 = false;
+            			}
+HXDLIN( 237)			if (_hx_tmp1) {
+HXLINE( 237)				_hx_tmp = (obj1rect->y < (obj2rect->y + obj2rect->height));
+            			}
+            			else {
+HXLINE( 237)				_hx_tmp = false;
+            			}
+HXDLIN( 237)			if (_hx_tmp) {
+HXLINE( 242)				Float maxOverlap;
+HXDLIN( 242)				if (checkMaxOverlap) {
+HXLINE( 242)					maxOverlap = ((obj1deltaAbs + obj2deltaAbs) + ::flixel::FlxObject_obj::SEPARATE_BIAS);
             				}
             				else {
-HXLINE( 235)					maxOverlap = ( (Float)(0) );
+HXLINE( 242)					maxOverlap = ( (Float)(0) );
             				}
-HXLINE( 238)				if ((obj1delta > obj2delta)) {
-HXLINE( 240)					Float object11 = object1->x;
-HXDLIN( 240)					Float overlap1 = (object11 + object1->get_width());
-HXDLIN( 240)					overlap = (overlap1 - object2->x);
-HXLINE( 241)					bool _hx_tmp3;
-HXDLIN( 241)					bool _hx_tmp4;
-HXDLIN( 241)					bool _hx_tmp5;
-HXDLIN( 241)					if (checkMaxOverlap) {
-HXLINE( 241)						_hx_tmp5 = (overlap > maxOverlap);
+HXLINE( 245)				if ((obj1delta > obj2delta)) {
+HXLINE( 247)					Float object11 = object1->x;
+HXDLIN( 247)					Float overlap1 = (object11 + object1->get_width());
+HXDLIN( 247)					overlap = (overlap1 - object2->x);
+HXLINE( 248)					bool _hx_tmp3;
+HXDLIN( 248)					bool _hx_tmp4;
+HXDLIN( 248)					bool _hx_tmp5;
+HXDLIN( 248)					if (checkMaxOverlap) {
+HXLINE( 248)						_hx_tmp5 = (overlap > maxOverlap);
             					}
             					else {
-HXLINE( 241)						_hx_tmp5 = false;
+HXLINE( 248)						_hx_tmp5 = false;
             					}
-HXDLIN( 241)					if (!(_hx_tmp5)) {
-HXLINE( 241)						_hx_tmp4 = ((object1->allowCollisions & 16) == 0);
-            					}
-            					else {
-HXLINE( 241)						_hx_tmp4 = true;
-            					}
-HXDLIN( 241)					if (!(_hx_tmp4)) {
-HXLINE( 241)						_hx_tmp3 = ((object2->allowCollisions & 1) == 0);
+HXDLIN( 248)					if (!(_hx_tmp5)) {
+HXLINE( 248)						_hx_tmp4 = ((object1->allowCollisions & 16) == 0);
             					}
             					else {
-HXLINE( 241)						_hx_tmp3 = true;
+HXLINE( 248)						_hx_tmp4 = true;
             					}
-HXDLIN( 241)					if (_hx_tmp3) {
-HXLINE( 245)						overlap = ( (Float)(0) );
+HXDLIN( 248)					if (!(_hx_tmp4)) {
+HXLINE( 248)						_hx_tmp3 = ((object2->allowCollisions & 1) == 0);
             					}
             					else {
-HXLINE( 249)						 ::flixel::FlxObject object12 = object1;
-HXDLIN( 249)						object12->touching = (object12->touching | 16);
-HXLINE( 250)						 ::flixel::FlxObject object21 = object2;
-HXDLIN( 250)						object21->touching = (object21->touching | 1);
+HXLINE( 248)						_hx_tmp3 = true;
+            					}
+HXDLIN( 248)					if (_hx_tmp3) {
+HXLINE( 252)						overlap = ( (Float)(0) );
+            					}
+            					else {
+HXLINE( 256)						 ::flixel::FlxObject object12 = object1;
+HXDLIN( 256)						object12->touching = (object12->touching | 16);
+HXLINE( 257)						 ::flixel::FlxObject object21 = object2;
+HXDLIN( 257)						object21->touching = (object21->touching | 1);
             					}
             				}
             				else {
-HXLINE( 253)					if ((obj1delta < obj2delta)) {
-HXLINE( 255)						Float object13 = object1->x;
-HXDLIN( 255)						Float overlap2 = (object13 - object2->get_width());
-HXDLIN( 255)						overlap = (overlap2 - object2->x);
-HXLINE( 256)						bool _hx_tmp6;
-HXDLIN( 256)						bool _hx_tmp7;
-HXDLIN( 256)						bool _hx_tmp8;
-HXDLIN( 256)						if (checkMaxOverlap) {
-HXLINE( 256)							_hx_tmp8 = (-(overlap) > maxOverlap);
+HXLINE( 260)					if ((obj1delta < obj2delta)) {
+HXLINE( 262)						Float object13 = object1->x;
+HXDLIN( 262)						Float overlap2 = (object13 - object2->get_width());
+HXDLIN( 262)						overlap = (overlap2 - object2->x);
+HXLINE( 263)						bool _hx_tmp6;
+HXDLIN( 263)						bool _hx_tmp7;
+HXDLIN( 263)						bool _hx_tmp8;
+HXDLIN( 263)						if (checkMaxOverlap) {
+HXLINE( 263)							_hx_tmp8 = (-(overlap) > maxOverlap);
             						}
             						else {
-HXLINE( 256)							_hx_tmp8 = false;
+HXLINE( 263)							_hx_tmp8 = false;
             						}
-HXDLIN( 256)						if (!(_hx_tmp8)) {
-HXLINE( 256)							_hx_tmp7 = ((object1->allowCollisions & 1) == 0);
-            						}
-            						else {
-HXLINE( 256)							_hx_tmp7 = true;
-            						}
-HXDLIN( 256)						if (!(_hx_tmp7)) {
-HXLINE( 256)							_hx_tmp6 = ((object2->allowCollisions & 16) == 0);
+HXDLIN( 263)						if (!(_hx_tmp8)) {
+HXLINE( 263)							_hx_tmp7 = ((object1->allowCollisions & 1) == 0);
             						}
             						else {
-HXLINE( 256)							_hx_tmp6 = true;
+HXLINE( 263)							_hx_tmp7 = true;
             						}
-HXDLIN( 256)						if (_hx_tmp6) {
-HXLINE( 260)							overlap = ( (Float)(0) );
+HXDLIN( 263)						if (!(_hx_tmp7)) {
+HXLINE( 263)							_hx_tmp6 = ((object2->allowCollisions & 16) == 0);
             						}
             						else {
-HXLINE( 264)							 ::flixel::FlxObject object14 = object1;
-HXDLIN( 264)							object14->touching = (object14->touching | 1);
-HXLINE( 265)							 ::flixel::FlxObject object22 = object2;
-HXDLIN( 265)							object22->touching = (object22->touching | 16);
+HXLINE( 263)							_hx_tmp6 = true;
+            						}
+HXDLIN( 263)						if (_hx_tmp6) {
+HXLINE( 267)							overlap = ( (Float)(0) );
+            						}
+            						else {
+HXLINE( 271)							 ::flixel::FlxObject object14 = object1;
+HXDLIN( 271)							object14->touching = (object14->touching | 1);
+HXLINE( 272)							 ::flixel::FlxObject object22 = object2;
+HXDLIN( 272)							object22->touching = (object22->touching | 16);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 270)		return overlap;
+HXLINE( 277)		return overlap;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(FlxObject_obj,computeOverlapX,return )
 
 bool FlxObject_obj::separateX( ::flixel::FlxObject object1, ::flixel::FlxObject object2){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_281_separateX)
-HXLINE( 283)		bool immovable1 = object1->immovable;
-HXLINE( 284)		bool immovable2 = object2->immovable;
-HXLINE( 285)		bool _hx_tmp;
-HXDLIN( 285)		if (immovable1) {
-HXLINE( 285)			_hx_tmp = immovable2;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_288_separateX)
+HXLINE( 290)		bool immovable1 = object1->immovable;
+HXLINE( 291)		bool immovable2 = object2->immovable;
+HXLINE( 292)		bool _hx_tmp;
+HXDLIN( 292)		if (immovable1) {
+HXLINE( 292)			_hx_tmp = immovable2;
             		}
             		else {
-HXLINE( 285)			_hx_tmp = false;
+HXLINE( 292)			_hx_tmp = false;
             		}
-HXDLIN( 285)		if (_hx_tmp) {
-HXLINE( 287)			return false;
+HXDLIN( 292)		if (_hx_tmp) {
+HXLINE( 294)			return false;
             		}
-HXLINE( 291)		if ((object1->flixelType == 3)) {
-HXLINE( 293)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
-HXLINE( 294)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::separateX_dyn(),null(),null());
+HXLINE( 298)		if ((object1->flixelType == 3)) {
+HXLINE( 300)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
+HXLINE( 301)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::separateX_dyn(),null(),null());
             		}
-HXLINE( 296)		if ((object2->flixelType == 3)) {
-HXLINE( 298)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
-HXLINE( 299)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::separateX_dyn(),true,null());
+HXLINE( 303)		if ((object2->flixelType == 3)) {
+HXLINE( 305)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
+HXLINE( 306)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::separateX_dyn(),true,null());
             		}
-HXLINE( 302)		Float overlap = ::flixel::FlxObject_obj::computeOverlapX(object1,object2,null());
-HXLINE( 304)		if ((overlap != 0)) {
-HXLINE( 306)			Float delta1 = (object1->x - object1->last->x);
-HXLINE( 307)			Float delta2 = (object2->x - object2->last->x);
-HXLINE( 308)			Float vel1 = object1->velocity->x;
-HXLINE( 309)			Float vel2 = object2->velocity->x;
-HXLINE( 310)			Float mass1 = object1->mass;
-HXLINE( 311)			Float mass2 = object2->mass;
-HXLINE( 312)			Float massSum = (mass1 + mass2);
-HXLINE( 313)			Float elasticity1 = object1->elasticity;
-HXLINE( 314)			Float elasticity2 = object2->elasticity;
-HXLINE( 316)			bool _hx_tmp1;
-HXDLIN( 316)			if (!(immovable1)) {
-HXLINE( 316)				_hx_tmp1 = !(immovable2);
+HXLINE( 309)		Float overlap = ::flixel::FlxObject_obj::computeOverlapX(object1,object2,null());
+HXLINE( 311)		if ((overlap != 0)) {
+HXLINE( 313)			Float delta1 = (object1->x - object1->last->x);
+HXLINE( 314)			Float delta2 = (object2->x - object2->last->x);
+HXLINE( 315)			Float vel1 = object1->velocity->x;
+HXLINE( 316)			Float vel2 = object2->velocity->x;
+HXLINE( 317)			Float mass1 = object1->mass;
+HXLINE( 318)			Float mass2 = object2->mass;
+HXLINE( 319)			Float massSum = (mass1 + mass2);
+HXLINE( 320)			Float elasticity1 = object1->elasticity;
+HXLINE( 321)			Float elasticity2 = object2->elasticity;
+HXLINE( 323)			bool _hx_tmp1;
+HXDLIN( 323)			if (!(immovable1)) {
+HXLINE( 323)				_hx_tmp1 = !(immovable2);
             			}
             			else {
-HXLINE( 316)				_hx_tmp1 = false;
+HXLINE( 323)				_hx_tmp1 = false;
             			}
-HXDLIN( 316)			if (_hx_tmp1) {
-HXLINE( 331)				object1->set_x((object1->x - (overlap / ( (Float)(2) ))));
-HXLINE( 332)				object2->set_x((object2->x + (overlap / ( (Float)(2) ))));
-HXLINE( 334)				Float momentum = ((mass1 * vel1) + (mass2 * vel2));
-HXLINE( 335)				Float newVel1 = ((momentum + ((elasticity1 * mass2) * (vel2 - vel1))) / massSum);
-HXLINE( 336)				Float newVel2 = ((momentum + ((elasticity2 * mass1) * (vel1 - vel2))) / massSum);
-HXLINE( 337)				object1->velocity->set_x(newVel1);
-HXLINE( 338)				object2->velocity->set_x(newVel2);
+HXDLIN( 323)			if (_hx_tmp1) {
+HXLINE( 338)				object1->set_x((object1->x - (overlap / ( (Float)(2) ))));
+HXLINE( 339)				object2->set_x((object2->x + (overlap / ( (Float)(2) ))));
+HXLINE( 341)				Float momentum = ((mass1 * vel1) + (mass2 * vel2));
+HXLINE( 342)				Float newVel1 = ((momentum + ((elasticity1 * mass2) * (vel2 - vel1))) / massSum);
+HXLINE( 343)				Float newVel2 = ((momentum + ((elasticity2 * mass1) * (vel1 - vel2))) / massSum);
+HXLINE( 344)				object1->velocity->set_x(newVel1);
+HXLINE( 345)				object2->velocity->set_x(newVel2);
             			}
             			else {
-HXLINE( 341)				if (!(immovable1)) {
-HXLINE( 343)					object1->set_x((object1->x - overlap));
-HXLINE( 344)					object1->velocity->set_x((vel2 - (vel1 * elasticity1)));
+HXLINE( 348)				if (!(immovable1)) {
+HXLINE( 350)					object1->set_x((object1->x - overlap));
+HXLINE( 351)					object1->velocity->set_x((vel2 - (vel1 * elasticity1)));
             				}
             				else {
-HXLINE( 346)					if (!(immovable2)) {
-HXLINE( 348)						object2->set_x((object2->x + overlap));
-HXLINE( 349)						object2->velocity->set_x((vel1 - (vel2 * elasticity2)));
+HXLINE( 353)					if (!(immovable2)) {
+HXLINE( 355)						object2->set_x((object2->x + overlap));
+HXLINE( 356)						object2->velocity->set_x((vel1 - (vel2 * elasticity2)));
             					}
             				}
             			}
-HXLINE( 353)			bool _hx_tmp2;
-HXDLIN( 353)			if (::flixel::FlxObject_obj::allowCollisionDrag(object1->collisionYDrag,object1,object2)) {
-HXLINE( 353)				_hx_tmp2 = (delta1 > delta2);
+HXLINE( 360)			bool _hx_tmp2;
+HXDLIN( 360)			if (::flixel::FlxObject_obj::allowCollisionDrag(object1->collisionYDrag,object1,object2)) {
+HXLINE( 360)				_hx_tmp2 = (delta1 > delta2);
             			}
             			else {
-HXLINE( 353)				_hx_tmp2 = false;
+HXLINE( 360)				_hx_tmp2 = false;
             			}
-HXDLIN( 353)			if (_hx_tmp2) {
-HXLINE( 354)				object1->set_y((object1->y + (object2->y - object2->last->y)));
+HXDLIN( 360)			if (_hx_tmp2) {
+HXLINE( 361)				object1->set_y((object1->y + (object2->y - object2->last->y)));
             			}
             			else {
-HXLINE( 355)				bool _hx_tmp3;
-HXDLIN( 355)				if (::flixel::FlxObject_obj::allowCollisionDrag(object2->collisionYDrag,object2,object1)) {
-HXLINE( 355)					_hx_tmp3 = (delta2 > delta1);
+HXLINE( 362)				bool _hx_tmp3;
+HXDLIN( 362)				if (::flixel::FlxObject_obj::allowCollisionDrag(object2->collisionYDrag,object2,object1)) {
+HXLINE( 362)					_hx_tmp3 = (delta2 > delta1);
             				}
             				else {
-HXLINE( 355)					_hx_tmp3 = false;
+HXLINE( 362)					_hx_tmp3 = false;
             				}
-HXDLIN( 355)				if (_hx_tmp3) {
-HXLINE( 356)					object2->set_y((object2->y + (object1->y - object1->last->y)));
+HXDLIN( 362)				if (_hx_tmp3) {
+HXLINE( 363)					object2->set_y((object2->y + (object1->y - object1->last->y)));
             				}
             			}
-HXLINE( 358)			return true;
+HXLINE( 365)			return true;
             		}
-HXLINE( 361)		return false;
+HXLINE( 368)		return false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,separateX,return )
 
 bool FlxObject_obj::updateTouchingFlagsX( ::flixel::FlxObject object1, ::flixel::FlxObject object2){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_372_updateTouchingFlagsX)
-HXLINE( 374)		if ((object1->flixelType == 3)) {
-HXLINE( 376)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
-HXLINE( 377)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::updateTouchingFlagsX_dyn(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_379_updateTouchingFlagsX)
+HXLINE( 381)		if ((object1->flixelType == 3)) {
+HXLINE( 383)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
+HXLINE( 384)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::updateTouchingFlagsX_dyn(),null(),null());
             		}
-HXLINE( 379)		if ((object2->flixelType == 3)) {
-HXLINE( 381)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
-HXLINE( 382)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::updateTouchingFlagsX_dyn(),true,null());
+HXLINE( 386)		if ((object2->flixelType == 3)) {
+HXLINE( 388)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
+HXLINE( 389)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::updateTouchingFlagsX_dyn(),true,null());
             		}
-HXLINE( 385)		return (::flixel::FlxObject_obj::computeOverlapX(object1,object2,false) != 0);
+HXLINE( 392)		return (::flixel::FlxObject_obj::computeOverlapX(object1,object2,false) != 0);
             	}
 
 
@@ -1474,270 +1477,270 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,updateTouchingFlagsX,return )
 
 Float FlxObject_obj::computeOverlapY( ::flixel::FlxObject object1, ::flixel::FlxObject object2,::hx::Null< bool >  __o_checkMaxOverlap){
             		bool checkMaxOverlap = __o_checkMaxOverlap.Default(true);
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_395_computeOverlapY)
-HXLINE( 396)		Float overlap = ( (Float)(0) );
-HXLINE( 398)		Float obj1delta = (object1->y - object1->last->y);
-HXLINE( 399)		Float obj2delta = (object2->y - object2->last->y);
-HXLINE( 401)		if ((obj1delta != obj2delta)) {
-HXLINE( 404)			Float obj1deltaAbs;
-HXDLIN( 404)			if ((obj1delta > 0)) {
-HXLINE( 404)				obj1deltaAbs = obj1delta;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_402_computeOverlapY)
+HXLINE( 403)		Float overlap = ( (Float)(0) );
+HXLINE( 405)		Float obj1delta = (object1->y - object1->last->y);
+HXLINE( 406)		Float obj2delta = (object2->y - object2->last->y);
+HXLINE( 408)		if ((obj1delta != obj2delta)) {
+HXLINE( 411)			Float obj1deltaAbs;
+HXDLIN( 411)			if ((obj1delta > 0)) {
+HXLINE( 411)				obj1deltaAbs = obj1delta;
             			}
             			else {
-HXLINE( 404)				obj1deltaAbs = -(obj1delta);
+HXLINE( 411)				obj1deltaAbs = -(obj1delta);
             			}
-HXLINE( 405)			Float obj2deltaAbs;
-HXDLIN( 405)			if ((obj2delta > 0)) {
-HXLINE( 405)				obj2deltaAbs = obj2delta;
-            			}
-            			else {
-HXLINE( 405)				obj2deltaAbs = -(obj2delta);
-            			}
-HXLINE( 407)			 ::flixel::math::FlxRect _this = ::flixel::FlxObject_obj::_firstSeparateFlxRect;
-HXDLIN( 407)			Float X = object1->x;
-HXDLIN( 407)			Float Y;
-HXDLIN( 407)			if ((obj1delta > 0)) {
-HXLINE( 407)				Y = obj1delta;
+HXLINE( 412)			Float obj2deltaAbs;
+HXDLIN( 412)			if ((obj2delta > 0)) {
+HXLINE( 412)				obj2deltaAbs = obj2delta;
             			}
             			else {
-HXLINE( 407)				Y = ( (Float)(0) );
+HXLINE( 412)				obj2deltaAbs = -(obj2delta);
             			}
-HXDLIN( 407)			Float Y1 = (object1->y - Y);
-HXDLIN( 407)			Float Width = object1->get_width();
-HXDLIN( 407)			Float Height = (object1->get_height() + obj1deltaAbs);
-HXDLIN( 407)			_this->x = X;
-HXDLIN( 407)			_this->y = Y1;
-HXDLIN( 407)			_this->width = Width;
-HXDLIN( 407)			_this->height = Height;
-HXDLIN( 407)			 ::flixel::math::FlxRect obj1rect = _this;
-HXLINE( 409)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxObject_obj::_secondSeparateFlxRect;
-HXDLIN( 409)			Float X1 = object2->x;
-HXDLIN( 409)			Float Y2;
-HXDLIN( 409)			if ((obj2delta > 0)) {
-HXLINE( 409)				Y2 = obj2delta;
+HXLINE( 414)			 ::flixel::math::FlxRect _this = ::flixel::FlxObject_obj::_firstSeparateFlxRect;
+HXDLIN( 414)			Float X = object1->x;
+HXDLIN( 414)			Float Y;
+HXDLIN( 414)			if ((obj1delta > 0)) {
+HXLINE( 414)				Y = obj1delta;
             			}
             			else {
-HXLINE( 409)				Y2 = ( (Float)(0) );
+HXLINE( 414)				Y = ( (Float)(0) );
             			}
-HXDLIN( 409)			Float Y3 = (object2->y - Y2);
-HXDLIN( 409)			Float Width1 = object2->get_width();
-HXDLIN( 409)			Float Height1 = (object2->get_height() + obj2deltaAbs);
-HXDLIN( 409)			_this1->x = X1;
-HXDLIN( 409)			_this1->y = Y3;
-HXDLIN( 409)			_this1->width = Width1;
-HXDLIN( 409)			_this1->height = Height1;
-HXDLIN( 409)			 ::flixel::math::FlxRect obj2rect = _this1;
-HXLINE( 412)			bool _hx_tmp;
-HXDLIN( 412)			bool _hx_tmp1;
-HXDLIN( 412)			bool _hx_tmp2;
-HXDLIN( 412)			if (((obj1rect->x + obj1rect->width) > obj2rect->x)) {
-HXLINE( 412)				_hx_tmp2 = (obj1rect->x < (obj2rect->x + obj2rect->width));
-            			}
-            			else {
-HXLINE( 412)				_hx_tmp2 = false;
-            			}
-HXDLIN( 412)			if (_hx_tmp2) {
-HXLINE( 412)				_hx_tmp1 = ((obj1rect->y + obj1rect->height) > obj2rect->y);
+HXDLIN( 414)			Float Y1 = (object1->y - Y);
+HXDLIN( 414)			Float Width = object1->get_width();
+HXDLIN( 414)			Float Height = (object1->get_height() + obj1deltaAbs);
+HXDLIN( 414)			_this->x = X;
+HXDLIN( 414)			_this->y = Y1;
+HXDLIN( 414)			_this->width = Width;
+HXDLIN( 414)			_this->height = Height;
+HXDLIN( 414)			 ::flixel::math::FlxRect obj1rect = _this;
+HXLINE( 416)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxObject_obj::_secondSeparateFlxRect;
+HXDLIN( 416)			Float X1 = object2->x;
+HXDLIN( 416)			Float Y2;
+HXDLIN( 416)			if ((obj2delta > 0)) {
+HXLINE( 416)				Y2 = obj2delta;
             			}
             			else {
-HXLINE( 412)				_hx_tmp1 = false;
+HXLINE( 416)				Y2 = ( (Float)(0) );
             			}
-HXDLIN( 412)			if (_hx_tmp1) {
-HXLINE( 412)				_hx_tmp = (obj1rect->y < (obj2rect->y + obj2rect->height));
+HXDLIN( 416)			Float Y3 = (object2->y - Y2);
+HXDLIN( 416)			Float Width1 = object2->get_width();
+HXDLIN( 416)			Float Height1 = (object2->get_height() + obj2deltaAbs);
+HXDLIN( 416)			_this1->x = X1;
+HXDLIN( 416)			_this1->y = Y3;
+HXDLIN( 416)			_this1->width = Width1;
+HXDLIN( 416)			_this1->height = Height1;
+HXDLIN( 416)			 ::flixel::math::FlxRect obj2rect = _this1;
+HXLINE( 419)			bool _hx_tmp;
+HXDLIN( 419)			bool _hx_tmp1;
+HXDLIN( 419)			bool _hx_tmp2;
+HXDLIN( 419)			if (((obj1rect->x + obj1rect->width) > obj2rect->x)) {
+HXLINE( 419)				_hx_tmp2 = (obj1rect->x < (obj2rect->x + obj2rect->width));
             			}
             			else {
-HXLINE( 412)				_hx_tmp = false;
+HXLINE( 419)				_hx_tmp2 = false;
             			}
-HXDLIN( 412)			if (_hx_tmp) {
-HXLINE( 417)				Float maxOverlap;
-HXDLIN( 417)				if (checkMaxOverlap) {
-HXLINE( 417)					maxOverlap = ((obj1deltaAbs + obj2deltaAbs) + ::flixel::FlxObject_obj::SEPARATE_BIAS);
+HXDLIN( 419)			if (_hx_tmp2) {
+HXLINE( 419)				_hx_tmp1 = ((obj1rect->y + obj1rect->height) > obj2rect->y);
+            			}
+            			else {
+HXLINE( 419)				_hx_tmp1 = false;
+            			}
+HXDLIN( 419)			if (_hx_tmp1) {
+HXLINE( 419)				_hx_tmp = (obj1rect->y < (obj2rect->y + obj2rect->height));
+            			}
+            			else {
+HXLINE( 419)				_hx_tmp = false;
+            			}
+HXDLIN( 419)			if (_hx_tmp) {
+HXLINE( 424)				Float maxOverlap;
+HXDLIN( 424)				if (checkMaxOverlap) {
+HXLINE( 424)					maxOverlap = ((obj1deltaAbs + obj2deltaAbs) + ::flixel::FlxObject_obj::SEPARATE_BIAS);
             				}
             				else {
-HXLINE( 417)					maxOverlap = ( (Float)(0) );
+HXLINE( 424)					maxOverlap = ( (Float)(0) );
             				}
-HXLINE( 420)				if ((obj1delta > obj2delta)) {
-HXLINE( 422)					Float object11 = object1->y;
-HXDLIN( 422)					Float overlap1 = (object11 + object1->get_height());
-HXDLIN( 422)					overlap = (overlap1 - object2->y);
-HXLINE( 423)					bool _hx_tmp3;
-HXDLIN( 423)					bool _hx_tmp4;
-HXDLIN( 423)					bool _hx_tmp5;
-HXDLIN( 423)					if (checkMaxOverlap) {
-HXLINE( 423)						_hx_tmp5 = (overlap > maxOverlap);
+HXLINE( 427)				if ((obj1delta > obj2delta)) {
+HXLINE( 429)					Float object11 = object1->y;
+HXDLIN( 429)					Float overlap1 = (object11 + object1->get_height());
+HXDLIN( 429)					overlap = (overlap1 - object2->y);
+HXLINE( 430)					bool _hx_tmp3;
+HXDLIN( 430)					bool _hx_tmp4;
+HXDLIN( 430)					bool _hx_tmp5;
+HXDLIN( 430)					if (checkMaxOverlap) {
+HXLINE( 430)						_hx_tmp5 = (overlap > maxOverlap);
             					}
             					else {
-HXLINE( 423)						_hx_tmp5 = false;
+HXLINE( 430)						_hx_tmp5 = false;
             					}
-HXDLIN( 423)					if (!(_hx_tmp5)) {
-HXLINE( 423)						_hx_tmp4 = ((object1->allowCollisions & 4096) == 0);
-            					}
-            					else {
-HXLINE( 423)						_hx_tmp4 = true;
-            					}
-HXDLIN( 423)					if (!(_hx_tmp4)) {
-HXLINE( 423)						_hx_tmp3 = ((object2->allowCollisions & 256) == 0);
+HXDLIN( 430)					if (!(_hx_tmp5)) {
+HXLINE( 430)						_hx_tmp4 = ((object1->allowCollisions & 4096) == 0);
             					}
             					else {
-HXLINE( 423)						_hx_tmp3 = true;
+HXLINE( 430)						_hx_tmp4 = true;
             					}
-HXDLIN( 423)					if (_hx_tmp3) {
-HXLINE( 427)						overlap = ( (Float)(0) );
+HXDLIN( 430)					if (!(_hx_tmp4)) {
+HXLINE( 430)						_hx_tmp3 = ((object2->allowCollisions & 256) == 0);
             					}
             					else {
-HXLINE( 431)						 ::flixel::FlxObject object12 = object1;
-HXDLIN( 431)						object12->touching = (object12->touching | 4096);
-HXLINE( 432)						 ::flixel::FlxObject object21 = object2;
-HXDLIN( 432)						object21->touching = (object21->touching | 256);
+HXLINE( 430)						_hx_tmp3 = true;
+            					}
+HXDLIN( 430)					if (_hx_tmp3) {
+HXLINE( 434)						overlap = ( (Float)(0) );
+            					}
+            					else {
+HXLINE( 438)						 ::flixel::FlxObject object12 = object1;
+HXDLIN( 438)						object12->touching = (object12->touching | 4096);
+HXLINE( 439)						 ::flixel::FlxObject object21 = object2;
+HXDLIN( 439)						object21->touching = (object21->touching | 256);
             					}
             				}
             				else {
-HXLINE( 435)					if ((obj1delta < obj2delta)) {
-HXLINE( 437)						Float object13 = object1->y;
-HXDLIN( 437)						Float overlap2 = (object13 - object2->get_height());
-HXDLIN( 437)						overlap = (overlap2 - object2->y);
-HXLINE( 438)						bool _hx_tmp6;
-HXDLIN( 438)						bool _hx_tmp7;
-HXDLIN( 438)						bool _hx_tmp8;
-HXDLIN( 438)						if (checkMaxOverlap) {
-HXLINE( 438)							_hx_tmp8 = (-(overlap) > maxOverlap);
+HXLINE( 442)					if ((obj1delta < obj2delta)) {
+HXLINE( 444)						Float object13 = object1->y;
+HXDLIN( 444)						Float overlap2 = (object13 - object2->get_height());
+HXDLIN( 444)						overlap = (overlap2 - object2->y);
+HXLINE( 445)						bool _hx_tmp6;
+HXDLIN( 445)						bool _hx_tmp7;
+HXDLIN( 445)						bool _hx_tmp8;
+HXDLIN( 445)						if (checkMaxOverlap) {
+HXLINE( 445)							_hx_tmp8 = (-(overlap) > maxOverlap);
             						}
             						else {
-HXLINE( 438)							_hx_tmp8 = false;
+HXLINE( 445)							_hx_tmp8 = false;
             						}
-HXDLIN( 438)						if (!(_hx_tmp8)) {
-HXLINE( 438)							_hx_tmp7 = ((object1->allowCollisions & 256) == 0);
-            						}
-            						else {
-HXLINE( 438)							_hx_tmp7 = true;
-            						}
-HXDLIN( 438)						if (!(_hx_tmp7)) {
-HXLINE( 438)							_hx_tmp6 = ((object2->allowCollisions & 4096) == 0);
+HXDLIN( 445)						if (!(_hx_tmp8)) {
+HXLINE( 445)							_hx_tmp7 = ((object1->allowCollisions & 256) == 0);
             						}
             						else {
-HXLINE( 438)							_hx_tmp6 = true;
+HXLINE( 445)							_hx_tmp7 = true;
             						}
-HXDLIN( 438)						if (_hx_tmp6) {
-HXLINE( 442)							overlap = ( (Float)(0) );
+HXDLIN( 445)						if (!(_hx_tmp7)) {
+HXLINE( 445)							_hx_tmp6 = ((object2->allowCollisions & 4096) == 0);
             						}
             						else {
-HXLINE( 446)							 ::flixel::FlxObject object14 = object1;
-HXDLIN( 446)							object14->touching = (object14->touching | 256);
-HXLINE( 447)							 ::flixel::FlxObject object22 = object2;
-HXDLIN( 447)							object22->touching = (object22->touching | 4096);
+HXLINE( 445)							_hx_tmp6 = true;
+            						}
+HXDLIN( 445)						if (_hx_tmp6) {
+HXLINE( 449)							overlap = ( (Float)(0) );
+            						}
+            						else {
+HXLINE( 453)							 ::flixel::FlxObject object14 = object1;
+HXDLIN( 453)							object14->touching = (object14->touching | 256);
+HXLINE( 454)							 ::flixel::FlxObject object22 = object2;
+HXDLIN( 454)							object22->touching = (object22->touching | 4096);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 452)		return overlap;
+HXLINE( 459)		return overlap;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(FlxObject_obj,computeOverlapY,return )
 
 bool FlxObject_obj::separateY( ::flixel::FlxObject object1, ::flixel::FlxObject object2){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_463_separateY)
-HXLINE( 465)		bool immovable1 = object1->immovable;
-HXLINE( 466)		bool immovable2 = object2->immovable;
-HXLINE( 467)		bool _hx_tmp;
-HXDLIN( 467)		if (immovable1) {
-HXLINE( 467)			_hx_tmp = immovable2;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_470_separateY)
+HXLINE( 472)		bool immovable1 = object1->immovable;
+HXLINE( 473)		bool immovable2 = object2->immovable;
+HXLINE( 474)		bool _hx_tmp;
+HXDLIN( 474)		if (immovable1) {
+HXLINE( 474)			_hx_tmp = immovable2;
             		}
             		else {
-HXLINE( 467)			_hx_tmp = false;
+HXLINE( 474)			_hx_tmp = false;
             		}
-HXDLIN( 467)		if (_hx_tmp) {
-HXLINE( 469)			return false;
+HXDLIN( 474)		if (_hx_tmp) {
+HXLINE( 476)			return false;
             		}
-HXLINE( 473)		if ((object1->flixelType == 3)) {
-HXLINE( 475)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
-HXLINE( 476)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::separateY_dyn(),null(),null());
+HXLINE( 480)		if ((object1->flixelType == 3)) {
+HXLINE( 482)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
+HXLINE( 483)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::separateY_dyn(),null(),null());
             		}
-HXLINE( 478)		if ((object2->flixelType == 3)) {
-HXLINE( 480)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
-HXLINE( 481)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::separateY_dyn(),true,null());
+HXLINE( 485)		if ((object2->flixelType == 3)) {
+HXLINE( 487)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
+HXLINE( 488)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::separateY_dyn(),true,null());
             		}
-HXLINE( 484)		Float overlap = ::flixel::FlxObject_obj::computeOverlapY(object1,object2,null());
-HXLINE( 486)		if ((overlap != 0)) {
-HXLINE( 488)			Float delta1 = (object1->y - object1->last->y);
-HXLINE( 489)			Float delta2 = (object2->y - object2->last->y);
-HXLINE( 490)			Float vel1 = object1->velocity->y;
-HXLINE( 491)			Float vel2 = object2->velocity->y;
-HXLINE( 492)			Float mass1 = object1->mass;
-HXLINE( 493)			Float mass2 = object2->mass;
-HXLINE( 494)			Float massSum = (mass1 + mass2);
-HXLINE( 495)			Float elasticity1 = object1->elasticity;
-HXLINE( 496)			Float elasticity2 = object2->elasticity;
-HXLINE( 498)			bool _hx_tmp1;
-HXDLIN( 498)			if (!(immovable1)) {
-HXLINE( 498)				_hx_tmp1 = !(immovable2);
+HXLINE( 491)		Float overlap = ::flixel::FlxObject_obj::computeOverlapY(object1,object2,null());
+HXLINE( 493)		if ((overlap != 0)) {
+HXLINE( 495)			Float delta1 = (object1->y - object1->last->y);
+HXLINE( 496)			Float delta2 = (object2->y - object2->last->y);
+HXLINE( 497)			Float vel1 = object1->velocity->y;
+HXLINE( 498)			Float vel2 = object2->velocity->y;
+HXLINE( 499)			Float mass1 = object1->mass;
+HXLINE( 500)			Float mass2 = object2->mass;
+HXLINE( 501)			Float massSum = (mass1 + mass2);
+HXLINE( 502)			Float elasticity1 = object1->elasticity;
+HXLINE( 503)			Float elasticity2 = object2->elasticity;
+HXLINE( 505)			bool _hx_tmp1;
+HXDLIN( 505)			if (!(immovable1)) {
+HXLINE( 505)				_hx_tmp1 = !(immovable2);
             			}
             			else {
-HXLINE( 498)				_hx_tmp1 = false;
+HXLINE( 505)				_hx_tmp1 = false;
             			}
-HXDLIN( 498)			if (_hx_tmp1) {
-HXLINE( 513)				object1->set_y((object1->y - (overlap / ( (Float)(2) ))));
-HXLINE( 514)				object2->set_y((object2->y + (overlap / ( (Float)(2) ))));
-HXLINE( 516)				Float momentum = ((mass1 * vel1) + (mass2 * vel2));
-HXLINE( 517)				Float newVel1 = ((momentum + ((elasticity1 * mass2) * (vel2 - vel1))) / massSum);
-HXLINE( 518)				Float newVel2 = ((momentum + ((elasticity2 * mass1) * (vel1 - vel2))) / massSum);
-HXLINE( 519)				object1->velocity->set_y(newVel1);
-HXLINE( 520)				object2->velocity->set_y(newVel2);
+HXDLIN( 505)			if (_hx_tmp1) {
+HXLINE( 520)				object1->set_y((object1->y - (overlap / ( (Float)(2) ))));
+HXLINE( 521)				object2->set_y((object2->y + (overlap / ( (Float)(2) ))));
+HXLINE( 523)				Float momentum = ((mass1 * vel1) + (mass2 * vel2));
+HXLINE( 524)				Float newVel1 = ((momentum + ((elasticity1 * mass2) * (vel2 - vel1))) / massSum);
+HXLINE( 525)				Float newVel2 = ((momentum + ((elasticity2 * mass1) * (vel1 - vel2))) / massSum);
+HXLINE( 526)				object1->velocity->set_y(newVel1);
+HXLINE( 527)				object2->velocity->set_y(newVel2);
             			}
             			else {
-HXLINE( 523)				if (!(immovable1)) {
-HXLINE( 525)					object1->set_y((object1->y - overlap));
-HXLINE( 526)					object1->velocity->set_y((vel2 - (vel1 * elasticity1)));
+HXLINE( 530)				if (!(immovable1)) {
+HXLINE( 532)					object1->set_y((object1->y - overlap));
+HXLINE( 533)					object1->velocity->set_y((vel2 - (vel1 * elasticity1)));
             				}
             				else {
-HXLINE( 528)					if (!(immovable2)) {
-HXLINE( 530)						object2->set_y((object2->y + overlap));
-HXLINE( 531)						object2->velocity->set_y((vel1 - (vel2 * elasticity2)));
+HXLINE( 535)					if (!(immovable2)) {
+HXLINE( 537)						object2->set_y((object2->y + overlap));
+HXLINE( 538)						object2->velocity->set_y((vel1 - (vel2 * elasticity2)));
             					}
             				}
             			}
-HXLINE( 535)			bool _hx_tmp2;
-HXDLIN( 535)			if (::flixel::FlxObject_obj::allowCollisionDrag(object1->collisionXDrag,object1,object2)) {
-HXLINE( 535)				_hx_tmp2 = (delta1 > delta2);
+HXLINE( 542)			bool _hx_tmp2;
+HXDLIN( 542)			if (::flixel::FlxObject_obj::allowCollisionDrag(object1->collisionXDrag,object1,object2)) {
+HXLINE( 542)				_hx_tmp2 = (delta1 > delta2);
             			}
             			else {
-HXLINE( 535)				_hx_tmp2 = false;
+HXLINE( 542)				_hx_tmp2 = false;
             			}
-HXDLIN( 535)			if (_hx_tmp2) {
-HXLINE( 536)				object1->set_x((object1->x + (object2->x - object2->last->x)));
+HXDLIN( 542)			if (_hx_tmp2) {
+HXLINE( 543)				object1->set_x((object1->x + (object2->x - object2->last->x)));
             			}
             			else {
-HXLINE( 537)				bool _hx_tmp3;
-HXDLIN( 537)				if (::flixel::FlxObject_obj::allowCollisionDrag(object2->collisionXDrag,object2,object1)) {
-HXLINE( 537)					_hx_tmp3 = (delta2 > delta1);
+HXLINE( 544)				bool _hx_tmp3;
+HXDLIN( 544)				if (::flixel::FlxObject_obj::allowCollisionDrag(object2->collisionXDrag,object2,object1)) {
+HXLINE( 544)					_hx_tmp3 = (delta2 > delta1);
             				}
             				else {
-HXLINE( 537)					_hx_tmp3 = false;
+HXLINE( 544)					_hx_tmp3 = false;
             				}
-HXDLIN( 537)				if (_hx_tmp3) {
-HXLINE( 538)					object2->set_x((object2->x + (object1->x - object1->last->x)));
+HXDLIN( 544)				if (_hx_tmp3) {
+HXLINE( 545)					object2->set_x((object2->x + (object1->x - object1->last->x)));
             				}
             			}
-HXLINE( 540)			return true;
+HXLINE( 547)			return true;
             		}
-HXLINE( 543)		return false;
+HXLINE( 550)		return false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxObject_obj,separateY,return )
 
 bool FlxObject_obj::updateTouchingFlagsY( ::flixel::FlxObject object1, ::flixel::FlxObject object2){
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_554_updateTouchingFlagsY)
-HXLINE( 556)		if ((object1->flixelType == 3)) {
-HXLINE( 558)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
-HXLINE( 559)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::updateTouchingFlagsY_dyn(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_561_updateTouchingFlagsY)
+HXLINE( 563)		if ((object1->flixelType == 3)) {
+HXLINE( 565)			 ::flixel::tile::FlxBaseTilemap tilemap = ( ( ::flixel::tile::FlxBaseTilemap)(object1) );
+HXLINE( 566)			return tilemap->overlapsWithCallback(object2,::flixel::FlxObject_obj::updateTouchingFlagsY_dyn(),null(),null());
             		}
-HXLINE( 561)		if ((object2->flixelType == 3)) {
-HXLINE( 563)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
-HXLINE( 564)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::updateTouchingFlagsY_dyn(),true,null());
+HXLINE( 568)		if ((object2->flixelType == 3)) {
+HXLINE( 570)			 ::flixel::tile::FlxBaseTilemap tilemap1 = ( ( ::flixel::tile::FlxBaseTilemap)(object2) );
+HXLINE( 571)			return tilemap1->overlapsWithCallback(object1,::flixel::FlxObject_obj::updateTouchingFlagsY_dyn(),true,null());
             		}
-HXLINE( 567)		return (::flixel::FlxObject_obj::computeOverlapY(object1,object2,false) != 0);
+HXLINE( 574)		return (::flixel::FlxObject_obj::computeOverlapY(object1,object2,false) != 0);
             	}
 
 
@@ -1963,6 +1966,9 @@ bool FlxObject_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 		if (HX_FIELD_EQ(inName,"separateX") ) { outValue = separateX_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"separateY") ) { outValue = separateY_dyn(); return true; }
 		break;
+	case 12:
+		if (HX_FIELD_EQ(inName,"defaultMoves") ) { outValue = ( defaultMoves ); return true; }
+		break;
 	case 13:
 		if (HX_FIELD_EQ(inName,"SEPARATE_BIAS") ) { outValue = ( SEPARATE_BIAS ); return true; }
 		break;
@@ -2063,6 +2069,9 @@ bool FlxObject_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 bool FlxObject_obj::__SetStatic(const ::String &inName,Dynamic &ioValue,::hx::PropertyAccess inCallProp)
 {
 	switch(inName.length) {
+	case 12:
+		if (HX_FIELD_EQ(inName,"defaultMoves") ) { defaultMoves=ioValue.Cast< bool >(); return true; }
+		break;
 	case 13:
 		if (HX_FIELD_EQ(inName,"SEPARATE_BIAS") ) { SEPARATE_BIAS=ioValue.Cast< Float >(); return true; }
 		break;
@@ -2152,6 +2161,7 @@ static ::hx::StorageInfo FlxObject_obj_sMemberStorageInfo[] = {
 static ::hx::StaticInfo FlxObject_obj_sStaticStorageInfo[] = {
 	{::hx::fsBool,(void *) &FlxObject_obj::defaultPixelPerfectPosition,HX_("defaultPixelPerfectPosition",51,0a,c2,b0)},
 	{::hx::fsFloat,(void *) &FlxObject_obj::SEPARATE_BIAS,HX_("SEPARATE_BIAS",15,78,21,a0)},
+	{::hx::fsBool,(void *) &FlxObject_obj::defaultMoves,HX_("defaultMoves",c1,07,c1,c1)},
 	{::hx::fsInt,(void *) &FlxObject_obj::LEFT,HX_("LEFT",07,d0,70,32)},
 	{::hx::fsInt,(void *) &FlxObject_obj::RIGHT,HX_("RIGHT",bc,43,52,67)},
 	{::hx::fsInt,(void *) &FlxObject_obj::UP,HX_("UP",5b,4a,00,00)},
@@ -2247,6 +2257,7 @@ static ::String FlxObject_obj_sMemberFields[] = {
 static void FlxObject_obj_sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(FlxObject_obj::defaultPixelPerfectPosition,"defaultPixelPerfectPosition");
 	HX_MARK_MEMBER_NAME(FlxObject_obj::SEPARATE_BIAS,"SEPARATE_BIAS");
+	HX_MARK_MEMBER_NAME(FlxObject_obj::defaultMoves,"defaultMoves");
 	HX_MARK_MEMBER_NAME(FlxObject_obj::LEFT,"LEFT");
 	HX_MARK_MEMBER_NAME(FlxObject_obj::RIGHT,"RIGHT");
 	HX_MARK_MEMBER_NAME(FlxObject_obj::UP,"UP");
@@ -2264,6 +2275,7 @@ static void FlxObject_obj_sMarkStatics(HX_MARK_PARAMS) {
 static void FlxObject_obj_sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(FlxObject_obj::defaultPixelPerfectPosition,"defaultPixelPerfectPosition");
 	HX_VISIT_MEMBER_NAME(FlxObject_obj::SEPARATE_BIAS,"SEPARATE_BIAS");
+	HX_VISIT_MEMBER_NAME(FlxObject_obj::defaultMoves,"defaultMoves");
 	HX_VISIT_MEMBER_NAME(FlxObject_obj::LEFT,"LEFT");
 	HX_VISIT_MEMBER_NAME(FlxObject_obj::RIGHT,"RIGHT");
 	HX_VISIT_MEMBER_NAME(FlxObject_obj::UP,"UP");
@@ -2284,6 +2296,7 @@ static void FlxObject_obj_sVisitStatics(HX_VISIT_PARAMS) {
 static ::String FlxObject_obj_sStaticFields[] = {
 	HX_("defaultPixelPerfectPosition",51,0a,c2,b0),
 	HX_("SEPARATE_BIAS",15,78,21,a0),
+	HX_("defaultMoves",c1,07,c1,c1),
 	HX_("LEFT",07,d0,70,32),
 	HX_("RIGHT",bc,43,52,67),
 	HX_("UP",5b,4a,00,00),
@@ -2345,76 +2358,80 @@ HXDLIN(  80)		defaultPixelPerfectPosition = false;
 HXDLIN(  87)		SEPARATE_BIAS = ((Float)4);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_95_boot)
-HXDLIN(  95)		LEFT = 1;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_94_boot)
+HXDLIN(  94)		defaultMoves = true;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_103_boot)
-HXDLIN( 103)		RIGHT = 16;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_102_boot)
+HXDLIN( 102)		LEFT = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_111_boot)
-HXDLIN( 111)		UP = 256;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_110_boot)
+HXDLIN( 110)		RIGHT = 16;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_119_boot)
-HXDLIN( 119)		DOWN = 4096;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_118_boot)
+HXDLIN( 118)		UP = 256;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_127_boot)
-HXDLIN( 127)		NONE = 0;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_126_boot)
+HXDLIN( 126)		DOWN = 4096;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_135_boot)
-HXDLIN( 135)		CEILING = 256;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_134_boot)
+HXDLIN( 134)		NONE = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_143_boot)
-HXDLIN( 143)		FLOOR = 4096;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_142_boot)
+HXDLIN( 142)		CEILING = 256;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_151_boot)
-HXDLIN( 151)		WALL = 17;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_150_boot)
+HXDLIN( 150)		FLOOR = 4096;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_159_boot)
-HXDLIN( 159)		ANY = 4369;
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_158_boot)
+HXDLIN( 158)		WALL = 17;
             	}
 {
-            		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
-            		 ::flixel::math::FlxRect _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_162_boot)
-HXDLIN( 162)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 162)			_this->x = ( (Float)(0) );
-HXDLIN( 162)			_this->y = ( (Float)(0) );
-HXDLIN( 162)			_this->width = ( (Float)(0) );
-HXDLIN( 162)			_this->height = ( (Float)(0) );
-HXDLIN( 162)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 162)			rect->_inPool = false;
-HXDLIN( 162)			return rect;
-            		}
-            		HX_END_LOCAL_FUNC0(return)
-
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_162_boot)
-HXDLIN( 162)		_firstSeparateFlxRect = ( ( ::flixel::math::FlxRect)( ::Dynamic(new _hx_Closure_0())()) );
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_166_boot)
+HXDLIN( 166)		ANY = 4369;
             	}
 {
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             		 ::flixel::math::FlxRect _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_164_boot)
-HXDLIN( 164)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 164)			_this->x = ( (Float)(0) );
-HXDLIN( 164)			_this->y = ( (Float)(0) );
-HXDLIN( 164)			_this->width = ( (Float)(0) );
-HXDLIN( 164)			_this->height = ( (Float)(0) );
-HXDLIN( 164)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 164)			rect->_inPool = false;
-HXDLIN( 164)			return rect;
+            			HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_169_boot)
+HXDLIN( 169)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 169)			_this->x = ( (Float)(0) );
+HXDLIN( 169)			_this->y = ( (Float)(0) );
+HXDLIN( 169)			_this->width = ( (Float)(0) );
+HXDLIN( 169)			_this->height = ( (Float)(0) );
+HXDLIN( 169)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 169)			rect->_inPool = false;
+HXDLIN( 169)			return rect;
             		}
             		HX_END_LOCAL_FUNC0(return)
 
-            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_164_boot)
-HXDLIN( 164)		_secondSeparateFlxRect = ( ( ::flixel::math::FlxRect)( ::Dynamic(new _hx_Closure_0())()) );
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_169_boot)
+HXDLIN( 169)		_firstSeparateFlxRect = ( ( ::flixel::math::FlxRect)( ::Dynamic(new _hx_Closure_0())()) );
+            	}
+{
+            		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
+            		 ::flixel::math::FlxRect _hx_run(){
+            			HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_171_boot)
+HXDLIN( 171)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 171)			_this->x = ( (Float)(0) );
+HXDLIN( 171)			_this->y = ( (Float)(0) );
+HXDLIN( 171)			_this->width = ( (Float)(0) );
+HXDLIN( 171)			_this->height = ( (Float)(0) );
+HXDLIN( 171)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 171)			rect->_inPool = false;
+HXDLIN( 171)			return rect;
+            		}
+            		HX_END_LOCAL_FUNC0(return)
+
+            	HX_STACKFRAME(&_hx_pos_c625bfaa5b4263df_171_boot)
+HXDLIN( 171)		_secondSeparateFlxRect = ( ( ::flixel::math::FlxRect)( ::Dynamic(new _hx_Closure_0())()) );
             	}
 }
 

@@ -66,10 +66,19 @@ class HXCPP_CLASS_ATTRIBUTES FlxFrame_obj : public ::hx::Object
 		static  ::openfl::geom::Point _point;
 		static  ::openfl::geom::Rectangle _rect;
 		static  ::flixel::math::FlxMatrix _matrix;
-		static void sort(::Array< ::Dynamic> frames,int prefixLength,int postfixLength);
+		static void sortFrames(::Array< ::Dynamic> frames,::String prefix,::String suffix,::hx::Null< bool >  warn);
+		static ::Dynamic sortFrames_dyn();
+
+		static void sort(::Array< ::Dynamic> frames,int prefixLength,int suffixLength,::hx::Null< bool >  warn);
 		static ::Dynamic sort_dyn();
 
-		static int sortByName( ::flixel::graphics::frames::FlxFrame frame1, ::flixel::graphics::frames::FlxFrame frame2,int prefixLength,int postfixLength);
+		static void sortHelper(::Array< ::Dynamic> frames,int prefixLength,int suffixLength,::hx::Null< bool >  warn);
+		static ::Dynamic sortHelper_dyn();
+
+		static void checkValidName(::String name,int prefixLength,int suffixLength);
+		static ::Dynamic checkValidName_dyn();
+
+		static int sortByName( ::flixel::graphics::frames::FlxFrame frame1, ::flixel::graphics::frames::FlxFrame frame2,int prefixLength,int suffixLength);
 		static ::Dynamic sortByName_dyn();
 
 		::String name;

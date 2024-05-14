@@ -68,9 +68,9 @@
 HX_DEFINE_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_17_new,"flixel.system.debug.interaction.tools.Mover","new",0x9079915c,"flixel.system.debug.interaction.tools.Mover.new","flixel/system/debug/interaction/tools/Mover.hx",17,0xc1a785b7)
 HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_23_init,"flixel.system.debug.interaction.tools.Mover","init",0xd69e5694,"flixel.system.debug.interaction.tools.Mover.init","flixel/system/debug/interaction/tools/Mover.hx",23,0xc1a785b7)
 HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_36_update,"flixel.system.debug.interaction.tools.Mover","update",0x6b898a8d,"flixel.system.debug.interaction.tools.Mover.update","flixel/system/debug/interaction/tools/Mover.hx",36,0xc1a785b7)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_54_stopDragging,"flixel.system.debug.interaction.tools.Mover","stopDragging",0x8f5cfa75,"flixel.system.debug.interaction.tools.Mover.stopDragging","flixel/system/debug/interaction/tools/Mover.hx",54,0xc1a785b7)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_58_startDragging,"flixel.system.debug.interaction.tools.Mover","startDragging",0xf80ef34d,"flixel.system.debug.interaction.tools.Mover.startDragging","flixel/system/debug/interaction/tools/Mover.hx",58,0xc1a785b7)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_72_doDragging,"flixel.system.debug.interaction.tools.Mover","doDragging",0xb6bbe9fe,"flixel.system.debug.interaction.tools.Mover.doDragging","flixel/system/debug/interaction/tools/Mover.hx",72,0xc1a785b7)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_55_stopDragging,"flixel.system.debug.interaction.tools.Mover","stopDragging",0x8f5cfa75,"flixel.system.debug.interaction.tools.Mover.stopDragging","flixel/system/debug/interaction/tools/Mover.hx",55,0xc1a785b7)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_59_startDragging,"flixel.system.debug.interaction.tools.Mover","startDragging",0xf80ef34d,"flixel.system.debug.interaction.tools.Mover.startDragging","flixel/system/debug/interaction/tools/Mover.hx",59,0xc1a785b7)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3cdf69c667c8d41_73_doDragging,"flixel.system.debug.interaction.tools.Mover","doDragging",0xb6bbe9fe,"flixel.system.debug.interaction.tools.Mover.doDragging","flixel/system/debug/interaction/tools/Mover.hx",73,0xc1a785b7)
 namespace flixel{
 namespace _hx_system{
 namespace debug{
@@ -119,7 +119,14 @@ bool Mover_obj::_hx_isInstanceOf(int inClassId) {
 HXLINE(  24)		this->super::init(brain);
 HXLINE(  25)		this->_lastCursorPosition =  ::flixel::math::FlxBasePoint_obj::__alloc( HX_CTX ,brain->flixelPointer->x,brain->flixelPointer->x);
 HXLINE(  27)		this->_name = HX_("Mover",21,3c,93,9f);
-HXLINE(  28)		this->_shortcut = HX_("Shift",62,5c,50,0f);
+HXLINE(  28)		::String _hx_tmp;
+HXDLIN(  28)		if (brain->macKeyboard) {
+HXLINE(  28)			_hx_tmp = HX_W(u"\u2318",f7ee,00ab);
+            		}
+            		else {
+HXLINE(  28)			_hx_tmp = HX_("Ctrl",cb,b4,a1,2c);
+            		}
+HXDLIN(  28)		this->_shortcut = _hx_tmp;
 HXLINE(  29)		this->setButton(::hx::ClassOf< ::flixel::_hx_system::debug::interaction::tools::_Mover::GraphicMoverTool >());
 HXLINE(  30)		this->setCursor( ::flixel::_hx_system::debug::interaction::tools::_Mover::GraphicMoverTool_obj::__alloc( HX_CTX ,0,0,null(),null()));
 HXLINE(  32)		return ::hx::ObjectPtr<OBJ_>(this);
@@ -128,71 +135,85 @@ HXLINE(  32)		return ::hx::ObjectPtr<OBJ_>(this);
 
 void Mover_obj::update(){
             	HX_STACKFRAME(&_hx_pos_a3cdf69c667c8d41_36_update)
-HXLINE(  38)		bool _hx_tmp;
-HXDLIN(  38)		if (!(this->isActive())) {
-HXLINE(  38)			_hx_tmp = !(this->_brain->keyPressed(16));
+HXLINE(  37)		int key;
+HXDLIN(  37)		if (this->_brain->macKeyboard) {
+HXLINE(  37)			key = 15;
             		}
             		else {
-HXLINE(  38)			_hx_tmp = false;
+HXLINE(  37)			key = 17;
             		}
-HXDLIN(  38)		if (_hx_tmp) {
-HXLINE(  39)			return;
-            		}
-HXLINE(  41)		bool _hx_tmp1;
-HXDLIN(  41)		if (this->_brain->pointerPressed) {
-HXLINE(  41)			_hx_tmp1 = !(this->_dragging);
+HXLINE(  39)		bool _hx_tmp;
+HXDLIN(  39)		bool _hx_tmp1;
+HXDLIN(  39)		if (!(this->isActive())) {
+HXLINE(  39)			_hx_tmp1 = !(this->_brain->keyPressed(key));
             		}
             		else {
-HXLINE(  41)			_hx_tmp1 = false;
+HXLINE(  39)			_hx_tmp1 = false;
             		}
-HXDLIN(  41)		if (_hx_tmp1) {
-HXLINE(  42)			this->startDragging();
+HXDLIN(  39)		if (_hx_tmp1) {
+HXLINE(  39)			_hx_tmp = !(this->_dragging);
             		}
             		else {
-HXLINE(  43)			bool _hx_tmp2;
-HXDLIN(  43)			if (this->_brain->pointerPressed) {
-HXLINE(  43)				_hx_tmp2 = this->_dragging;
+HXLINE(  39)			_hx_tmp = false;
+            		}
+HXDLIN(  39)		if (_hx_tmp) {
+HXLINE(  40)			return;
+            		}
+HXLINE(  42)		bool _hx_tmp2;
+HXDLIN(  42)		if (this->_brain->pointerPressed) {
+HXLINE(  42)			_hx_tmp2 = !(this->_dragging);
+            		}
+            		else {
+HXLINE(  42)			_hx_tmp2 = false;
+            		}
+HXDLIN(  42)		if (_hx_tmp2) {
+HXLINE(  43)			this->startDragging();
+            		}
+            		else {
+HXLINE(  44)			bool _hx_tmp3;
+HXDLIN(  44)			if (this->_brain->pointerPressed) {
+HXLINE(  44)				_hx_tmp3 = this->_dragging;
             			}
             			else {
-HXLINE(  43)				_hx_tmp2 = false;
+HXLINE(  44)				_hx_tmp3 = false;
             			}
-HXDLIN(  43)			if (_hx_tmp2) {
-HXLINE(  44)				this->doDragging();
+HXDLIN(  44)			if (_hx_tmp3) {
+HXLINE(  45)				this->doDragging();
             			}
             			else {
-HXLINE(  45)				if (this->_brain->pointerJustReleased) {
-HXLINE(  46)					this->stopDragging();
+HXLINE(  46)				if (this->_brain->pointerJustReleased) {
+HXLINE(  47)					this->stopDragging();
             				}
             			}
             		}
-HXLINE(  48)		this->_lastCursorPosition->set_x(this->_brain->flixelPointer->x);
-HXLINE(  49)		this->_lastCursorPosition->set_y(this->_brain->flixelPointer->y);
+HXLINE(  49)		this->_lastCursorPosition->set_x(this->_brain->flixelPointer->x);
+HXLINE(  50)		this->_lastCursorPosition->set_y(this->_brain->flixelPointer->y);
             	}
 
 
 void Mover_obj::stopDragging(){
-            	HX_STACKFRAME(&_hx_pos_a3cdf69c667c8d41_54_stopDragging)
-HXDLIN(  54)		this->_dragging = false;
+            	HX_STACKFRAME(&_hx_pos_a3cdf69c667c8d41_55_stopDragging)
+HXDLIN(  55)		this->_dragging = false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Mover_obj,stopDragging,(void))
 
 void Mover_obj::startDragging(){
-            	HX_STACKFRAME(&_hx_pos_a3cdf69c667c8d41_58_startDragging)
-HXLINE(  59)		if (this->_dragging) {
-HXLINE(  60)			return;
+            	HX_STACKFRAME(&_hx_pos_a3cdf69c667c8d41_59_startDragging)
+HXLINE(  60)		if (this->_dragging) {
+HXLINE(  61)			return;
             		}
-HXLINE(  62)		this->_dragging = true;
-HXLINE(  67)		bool _hx_tmp;
-HXDLIN(  67)		if (!(this->isActive())) {
-HXLINE(  67)			_hx_tmp = ::Std_obj::isOfType(this->_brain->activeTool,::hx::ClassOf< ::flixel::_hx_system::debug::interaction::tools::Pointer >());
+HXLINE(  63)		this->_dragging = true;
+HXLINE(  68)		bool _hx_tmp;
+HXDLIN(  68)		if (!(this->isActive())) {
+HXLINE(  68)			_hx_tmp = ::Std_obj::isOfType(this->_brain->activeTool,::hx::ClassOf< ::flixel::_hx_system::debug::interaction::tools::Pointer >());
             		}
             		else {
-HXLINE(  67)			_hx_tmp = false;
+HXLINE(  68)			_hx_tmp = false;
             		}
-HXDLIN(  67)		if (_hx_tmp) {
-HXLINE(  68)			( ( ::flixel::_hx_system::debug::interaction::tools::Pointer)(this->_brain->activeTool) )->cancelSelection();
+HXDLIN(  68)		if (_hx_tmp) {
+HXLINE(  69)			( ( ::flixel::_hx_system::debug::interaction::tools::Pointer)(this->_brain->activeTool) )->cancelSelection();
             		}
             	}
 
@@ -200,22 +221,22 @@ HXLINE(  68)			( ( ::flixel::_hx_system::debug::interaction::tools::Pointer)(thi
 HX_DEFINE_DYNAMIC_FUNC0(Mover_obj,startDragging,(void))
 
 void Mover_obj::doDragging(){
-            	HX_STACKFRAME(&_hx_pos_a3cdf69c667c8d41_72_doDragging)
-HXLINE(  73)		Float dx = (this->_brain->flixelPointer->x - this->_lastCursorPosition->x);
-HXLINE(  74)		Float dy = (this->_brain->flixelPointer->y - this->_lastCursorPosition->y);
-HXLINE(  76)		{
-HXLINE(  76)			int _g = 0;
-HXDLIN(  76)			::Array< ::Dynamic> _g1 = this->_brain->selectedItems->members;
-HXDLIN(  76)			while((_g < _g1->length)){
-HXLINE(  76)				 ::flixel::FlxObject member = _g1->__get(_g).StaticCast<  ::flixel::FlxObject >();
-HXDLIN(  76)				_g = (_g + 1);
-HXLINE(  78)				if (!(::Std_obj::isOfType(member,::hx::ClassOf< ::flixel::FlxObject >()))) {
-HXLINE(  79)					continue;
+            	HX_STACKFRAME(&_hx_pos_a3cdf69c667c8d41_73_doDragging)
+HXLINE(  74)		Float dx = (this->_brain->flixelPointer->x - this->_lastCursorPosition->x);
+HXLINE(  75)		Float dy = (this->_brain->flixelPointer->y - this->_lastCursorPosition->y);
+HXLINE(  77)		{
+HXLINE(  77)			int _g = 0;
+HXDLIN(  77)			::Array< ::Dynamic> _g1 = this->_brain->selectedItems->members;
+HXDLIN(  77)			while((_g < _g1->length)){
+HXLINE(  77)				 ::flixel::FlxObject member = _g1->__get(_g).StaticCast<  ::flixel::FlxObject >();
+HXDLIN(  77)				_g = (_g + 1);
+HXLINE(  79)				if (!(::Std_obj::isOfType(member,::hx::ClassOf< ::flixel::FlxObject >()))) {
+HXLINE(  80)					continue;
             				}
-HXLINE(  81)				 ::flixel::FlxObject object = member;
-HXLINE(  82)				if (::hx::IsNotNull( object )) {
-HXLINE(  84)					object->set_x((object->x + dx));
-HXLINE(  85)					object->set_y((object->y + dy));
+HXLINE(  82)				 ::flixel::FlxObject object = member;
+HXLINE(  83)				if (::hx::IsNotNull( object )) {
+HXLINE(  85)					object->set_x((object->x + dx));
+HXLINE(  86)					object->set_y((object->y + dy));
             				}
             			}
             		}

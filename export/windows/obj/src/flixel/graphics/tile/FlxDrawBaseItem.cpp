@@ -32,25 +32,25 @@
 #include <openfl/geom/Matrix.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_0484b113da1bcafb_15_new,"flixel.graphics.tile.FlxDrawBaseItem","new",0x1069797d,"flixel.graphics.tile.FlxDrawBaseItem.new","flixel/graphics/tile/FlxDrawBaseItem.hx",15,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_82_reset,"flixel.graphics.tile.FlxDrawBaseItem","reset",0x6670342c,"flixel.graphics.tile.FlxDrawBaseItem.reset","flixel/graphics/tile/FlxDrawBaseItem.hx",82,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_90_dispose,"flixel.graphics.tile.FlxDrawBaseItem","dispose",0x64897c3c,"flixel.graphics.tile.FlxDrawBaseItem.dispose","flixel/graphics/tile/FlxDrawBaseItem.hx",90,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_99_render,"flixel.graphics.tile.FlxDrawBaseItem","render",0x386e9259,"flixel.graphics.tile.FlxDrawBaseItem.render","flixel/graphics/tile/FlxDrawBaseItem.hx",99,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_102_addQuad,"flixel.graphics.tile.FlxDrawBaseItem","addQuad",0x30847725,"flixel.graphics.tile.FlxDrawBaseItem.addQuad","flixel/graphics/tile/FlxDrawBaseItem.hx",102,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_106_get_numVertices,"flixel.graphics.tile.FlxDrawBaseItem","get_numVertices",0x6c4b2893,"flixel.graphics.tile.FlxDrawBaseItem.get_numVertices","flixel/graphics/tile/FlxDrawBaseItem.hx",106,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_111_get_numTriangles,"flixel.graphics.tile.FlxDrawBaseItem","get_numTriangles",0x6bc74ed1,"flixel.graphics.tile.FlxDrawBaseItem.get_numTriangles","flixel/graphics/tile/FlxDrawBaseItem.hx",111,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_25_blendToInt,"flixel.graphics.tile.FlxDrawBaseItem","blendToInt",0xc101e4a6,"flixel.graphics.tile.FlxDrawBaseItem.blendToInt","flixel/graphics/tile/FlxDrawBaseItem.hx",25,0xe6349cf4)
-HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_20_boot,"flixel.graphics.tile.FlxDrawBaseItem","boot",0x43f9d475,"flixel.graphics.tile.FlxDrawBaseItem.boot","flixel/graphics/tile/FlxDrawBaseItem.hx",20,0xe6349cf4)
+HX_DEFINE_STACK_FRAME(_hx_pos_0484b113da1bcafb_12_new,"flixel.graphics.tile.FlxDrawBaseItem","new",0x1069797d,"flixel.graphics.tile.FlxDrawBaseItem.new","flixel/graphics/tile/FlxDrawBaseItem.hx",12,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_44_reset,"flixel.graphics.tile.FlxDrawBaseItem","reset",0x6670342c,"flixel.graphics.tile.FlxDrawBaseItem.reset","flixel/graphics/tile/FlxDrawBaseItem.hx",44,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_52_dispose,"flixel.graphics.tile.FlxDrawBaseItem","dispose",0x64897c3c,"flixel.graphics.tile.FlxDrawBaseItem.dispose","flixel/graphics/tile/FlxDrawBaseItem.hx",52,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_61_render,"flixel.graphics.tile.FlxDrawBaseItem","render",0x386e9259,"flixel.graphics.tile.FlxDrawBaseItem.render","flixel/graphics/tile/FlxDrawBaseItem.hx",61,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_64_addQuad,"flixel.graphics.tile.FlxDrawBaseItem","addQuad",0x30847725,"flixel.graphics.tile.FlxDrawBaseItem.addQuad","flixel/graphics/tile/FlxDrawBaseItem.hx",64,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_68_get_numVertices,"flixel.graphics.tile.FlxDrawBaseItem","get_numVertices",0x6c4b2893,"flixel.graphics.tile.FlxDrawBaseItem.get_numVertices","flixel/graphics/tile/FlxDrawBaseItem.hx",68,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_73_get_numTriangles,"flixel.graphics.tile.FlxDrawBaseItem","get_numTriangles",0x6bc74ed1,"flixel.graphics.tile.FlxDrawBaseItem.get_numTriangles","flixel/graphics/tile/FlxDrawBaseItem.hx",73,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_21_blendToInt,"flixel.graphics.tile.FlxDrawBaseItem","blendToInt",0xc101e4a6,"flixel.graphics.tile.FlxDrawBaseItem.blendToInt","flixel/graphics/tile/FlxDrawBaseItem.hx",21,0xe6349cf4)
+HX_LOCAL_STACK_FRAME(_hx_pos_0484b113da1bcafb_17_boot,"flixel.graphics.tile.FlxDrawBaseItem","boot",0x43f9d475,"flixel.graphics.tile.FlxDrawBaseItem.boot","flixel/graphics/tile/FlxDrawBaseItem.hx",17,0xe6349cf4)
 namespace flixel{
 namespace graphics{
 namespace tile{
 
 void FlxDrawBaseItem_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_15_new)
-HXLINE(  70)		this->blending = 0;
-HXLINE(  69)		this->hasColorOffsets = false;
-HXLINE(  68)		this->colored = false;
-HXLINE(  67)		this->antialiasing = false;
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_12_new)
+HXLINE(  32)		this->blending = 0;
+HXLINE(  31)		this->hasColorOffsets = false;
+HXLINE(  30)		this->colored = false;
+HXLINE(  29)		this->antialiasing = false;
             	}
 
 Dynamic FlxDrawBaseItem_obj::__CreateEmpty() { return new FlxDrawBaseItem_obj; }
@@ -69,53 +69,53 @@ bool FlxDrawBaseItem_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxDrawBaseItem_obj::reset(){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_82_reset)
-HXLINE(  83)		this->graphics = null();
-HXLINE(  84)		this->antialiasing = false;
-HXLINE(  85)		this->nextTyped = null();
-HXLINE(  86)		this->next = null();
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_44_reset)
+HXLINE(  45)		this->graphics = null();
+HXLINE(  46)		this->antialiasing = false;
+HXLINE(  47)		this->nextTyped = null();
+HXLINE(  48)		this->next = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxDrawBaseItem_obj,reset,(void))
 
 void FlxDrawBaseItem_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_90_dispose)
-HXLINE(  91)		this->graphics = null();
-HXLINE(  92)		this->next = null();
-HXLINE(  93)		this->type = null();
-HXLINE(  94)		this->nextTyped = null();
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_52_dispose)
+HXLINE(  53)		this->graphics = null();
+HXLINE(  54)		this->next = null();
+HXLINE(  55)		this->type = null();
+HXLINE(  56)		this->nextTyped = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxDrawBaseItem_obj,dispose,(void))
 
 void FlxDrawBaseItem_obj::render( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_99_render)
-HXDLIN(  99)		::flixel::graphics::tile::FlxDrawBaseItem_obj::drawCalls++;
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_61_render)
+HXDLIN(  61)		::flixel::graphics::tile::FlxDrawBaseItem_obj::drawCalls++;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxDrawBaseItem_obj,render,(void))
 
 void FlxDrawBaseItem_obj::addQuad( ::flixel::graphics::frames::FlxFrame frame, ::flixel::math::FlxMatrix matrix, ::openfl::geom::ColorTransform transform){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_102_addQuad)
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_64_addQuad)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxDrawBaseItem_obj,addQuad,(void))
 
 int FlxDrawBaseItem_obj::get_numVertices(){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_106_get_numVertices)
-HXDLIN( 106)		return 0;
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_68_get_numVertices)
+HXDLIN(  68)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxDrawBaseItem_obj,get_numVertices,return )
 
 int FlxDrawBaseItem_obj::get_numTriangles(){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_111_get_numTriangles)
-HXDLIN( 111)		return 0;
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_73_get_numTriangles)
+HXDLIN(  73)		return 0;
             	}
 
 
@@ -124,8 +124,8 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxDrawBaseItem_obj,get_numTriangles,return )
 int FlxDrawBaseItem_obj::drawCalls;
 
 int FlxDrawBaseItem_obj::blendToInt( ::Dynamic blend){
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_25_blendToInt)
-HXDLIN(  25)		return 0;
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_21_blendToInt)
+HXDLIN(  21)		return 0;
             	}
 
 
@@ -372,8 +372,8 @@ void FlxDrawBaseItem_obj::__register()
 void FlxDrawBaseItem_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_20_boot)
-HXDLIN(  20)		drawCalls = 0;
+            	HX_STACKFRAME(&_hx_pos_0484b113da1bcafb_17_boot)
+HXDLIN(  17)		drawCalls = 0;
             	}
 }
 

@@ -8,14 +8,14 @@
 #include <flixel/text/FlxTextFormatMarkerPair.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_415d3a020ae56400_1186_new,"flixel.text.FlxTextFormatMarkerPair","new",0xb549f24d,"flixel.text.FlxTextFormatMarkerPair.new","flixel/text/FlxText.hx",1186,0xdf165a6e)
+HX_DEFINE_STACK_FRAME(_hx_pos_415d3a020ae56400_1228_new,"flixel.text.FlxTextFormatMarkerPair","new",0xb549f24d,"flixel.text.FlxTextFormatMarkerPair.new","flixel/text/FlxText.hx",1228,0xdf165a6e)
 namespace flixel{
 namespace text{
 
 void FlxTextFormatMarkerPair_obj::__construct( ::flixel::text::FlxTextFormat format,::String marker){
-            	HX_STACKFRAME(&_hx_pos_415d3a020ae56400_1186_new)
-HXLINE(1187)		this->format = format;
-HXLINE(1188)		this->marker = marker;
+            	HX_STACKFRAME(&_hx_pos_415d3a020ae56400_1228_new)
+HXLINE(1229)		this->format = format;
+HXLINE(1230)		this->marker = marker;
             	}
 
 Dynamic FlxTextFormatMarkerPair_obj::__CreateEmpty() { return new FlxTextFormatMarkerPair_obj; }

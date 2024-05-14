@@ -95,30 +95,30 @@
 #include <openfl/geom/Matrix.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6d98322fc3998392_26_new,"flixel.graphics.tile.FlxDrawQuadsItem","new",0x0e2f86ca,"flixel.graphics.tile.FlxDrawQuadsItem.new","flixel/graphics/tile/FlxDrawQuadsItem.hx",26,0x0f089c65)
-HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_35_reset,"flixel.graphics.tile.FlxDrawQuadsItem","reset",0xebcdeeb9,"flixel.graphics.tile.FlxDrawQuadsItem.reset","flixel/graphics/tile/FlxDrawQuadsItem.hx",35,0x0f089c65)
-HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_47_dispose,"flixel.graphics.tile.FlxDrawQuadsItem","dispose",0x48b4b409,"flixel.graphics.tile.FlxDrawQuadsItem.dispose","flixel/graphics/tile/FlxDrawQuadsItem.hx",47,0x0f089c65)
-HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_57_addQuad,"flixel.graphics.tile.FlxDrawQuadsItem","addQuad",0x14afaef2,"flixel.graphics.tile.FlxDrawQuadsItem.addQuad","flixel/graphics/tile/FlxDrawQuadsItem.hx",57,0x0f089c65)
+HX_DEFINE_STACK_FRAME(_hx_pos_6d98322fc3998392_25_new,"flixel.graphics.tile.FlxDrawQuadsItem","new",0x0e2f86ca,"flixel.graphics.tile.FlxDrawQuadsItem.new","flixel/graphics/tile/FlxDrawQuadsItem.hx",25,0x0f089c65)
+HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_34_reset,"flixel.graphics.tile.FlxDrawQuadsItem","reset",0xebcdeeb9,"flixel.graphics.tile.FlxDrawQuadsItem.reset","flixel/graphics/tile/FlxDrawQuadsItem.hx",34,0x0f089c65)
+HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_46_dispose,"flixel.graphics.tile.FlxDrawQuadsItem","dispose",0x48b4b409,"flixel.graphics.tile.FlxDrawQuadsItem.dispose","flixel/graphics/tile/FlxDrawQuadsItem.hx",46,0x0f089c65)
+HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_56_addQuad,"flixel.graphics.tile.FlxDrawQuadsItem","addQuad",0x14afaef2,"flixel.graphics.tile.FlxDrawQuadsItem.addQuad","flixel/graphics/tile/FlxDrawQuadsItem.hx",56,0x0f089c65)
 HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_114_render,"flixel.graphics.tile.FlxDrawQuadsItem","render",0x6514132c,"flixel.graphics.tile.FlxDrawQuadsItem.render","flixel/graphics/tile/FlxDrawQuadsItem.hx",114,0x0f089c65)
 HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_141_setParameterValue,"flixel.graphics.tile.FlxDrawQuadsItem","setParameterValue",0x1b657834,"flixel.graphics.tile.FlxDrawQuadsItem.setParameterValue","flixel/graphics/tile/FlxDrawQuadsItem.hx",141,0x0f089c65)
-HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_15_boot,"flixel.graphics.tile.FlxDrawQuadsItem","boot",0x537f6a88,"flixel.graphics.tile.FlxDrawQuadsItem.boot","flixel/graphics/tile/FlxDrawQuadsItem.hx",15,0x0f089c65)
+HX_LOCAL_STACK_FRAME(_hx_pos_6d98322fc3998392_14_boot,"flixel.graphics.tile.FlxDrawQuadsItem","boot",0x537f6a88,"flixel.graphics.tile.FlxDrawQuadsItem.boot","flixel/graphics/tile/FlxDrawQuadsItem.hx",14,0x0f089c65)
 namespace flixel{
 namespace graphics{
 namespace tile{
 
 void FlxDrawQuadsItem_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_6d98322fc3998392_26_new)
-HXLINE(  27)		super::__construct();
-HXLINE(  28)		this->type = ::flixel::graphics::tile::FlxDrawItemType_obj::TILES_dyn();
-HXLINE(  29)		int length = null();
-HXDLIN(  29)		bool fixed = null();
-HXDLIN(  29)		::Array< Float > array = null();
-HXDLIN(  29)		this->rects =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
-HXLINE(  30)		int length1 = null();
-HXDLIN(  30)		bool fixed1 = null();
-HXDLIN(  30)		::Array< Float > array1 = null();
-HXDLIN(  30)		this->transforms =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length1,fixed1,array1,true);
-HXLINE(  31)		this->alphas = ::Array_obj< Float >::__new(0);
+            	HX_GC_STACKFRAME(&_hx_pos_6d98322fc3998392_25_new)
+HXLINE(  26)		super::__construct();
+HXLINE(  27)		this->type = ::flixel::graphics::tile::FlxDrawItemType_obj::TILES_dyn();
+HXLINE(  28)		int length = null();
+HXDLIN(  28)		bool fixed = null();
+HXDLIN(  28)		::Array< Float > array = null();
+HXDLIN(  28)		this->rects =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+HXLINE(  29)		int length1 = null();
+HXDLIN(  29)		bool fixed1 = null();
+HXDLIN(  29)		::Array< Float > array1 = null();
+HXDLIN(  29)		this->transforms =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length1,fixed1,array1,true);
+HXLINE(  30)		this->alphas = ::Array_obj< Float >::__new(0);
             	}
 
 Dynamic FlxDrawQuadsItem_obj::__CreateEmpty() { return new FlxDrawQuadsItem_obj; }
@@ -141,86 +141,65 @@ bool FlxDrawQuadsItem_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxDrawQuadsItem_obj::reset(){
-            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_35_reset)
-HXLINE(  36)		this->super::reset();
-HXLINE(  37)		this->rects->set_length(0);
-HXLINE(  38)		this->transforms->set_length(0);
-HXLINE(  39)		this->alphas->removeRange(0,this->alphas->length);
-HXLINE(  40)		if (::hx::IsNotNull( this->colorMultipliers )) {
-HXLINE(  41)			this->colorMultipliers->removeRange(0,this->colorMultipliers->length);
+            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_34_reset)
+HXLINE(  35)		this->super::reset();
+HXLINE(  36)		this->rects->set_length(0);
+HXLINE(  37)		this->transforms->set_length(0);
+HXLINE(  38)		this->alphas->removeRange(0,this->alphas->length);
+HXLINE(  39)		if (::hx::IsNotNull( this->colorMultipliers )) {
+HXLINE(  40)			this->colorMultipliers->removeRange(0,this->colorMultipliers->length);
             		}
-HXLINE(  42)		if (::hx::IsNotNull( this->colorOffsets )) {
-HXLINE(  43)			this->colorOffsets->removeRange(0,this->colorOffsets->length);
+HXLINE(  41)		if (::hx::IsNotNull( this->colorOffsets )) {
+HXLINE(  42)			this->colorOffsets->removeRange(0,this->colorOffsets->length);
             		}
             	}
 
 
 void FlxDrawQuadsItem_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_47_dispose)
-HXLINE(  48)		this->super::dispose();
-HXLINE(  49)		this->rects = null();
-HXLINE(  50)		this->transforms = null();
-HXLINE(  51)		this->alphas = null();
-HXLINE(  52)		this->colorMultipliers = null();
-HXLINE(  53)		this->colorOffsets = null();
+            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_46_dispose)
+HXLINE(  47)		this->super::dispose();
+HXLINE(  48)		this->rects = null();
+HXLINE(  49)		this->transforms = null();
+HXLINE(  50)		this->alphas = null();
+HXLINE(  51)		this->colorMultipliers = null();
+HXLINE(  52)		this->colorOffsets = null();
             	}
 
 
 void FlxDrawQuadsItem_obj::addQuad( ::flixel::graphics::frames::FlxFrame frame, ::flixel::math::FlxMatrix matrix, ::openfl::geom::ColorTransform transform){
-            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_57_addQuad)
-HXLINE(  58)		 ::flixel::math::FlxRect rect = frame->frame;
-HXLINE(  59)		this->rects->push(rect->x);
-HXLINE(  60)		this->rects->push(rect->y);
-HXLINE(  61)		this->rects->push(rect->width);
-HXLINE(  62)		this->rects->push(rect->height);
-HXLINE(  64)		this->transforms->push(matrix->a);
-HXLINE(  65)		this->transforms->push(matrix->b);
-HXLINE(  66)		this->transforms->push(matrix->c);
-HXLINE(  67)		this->transforms->push(matrix->d);
-HXLINE(  68)		this->transforms->push(matrix->tx);
-HXLINE(  69)		this->transforms->push(matrix->ty);
-HXLINE(  71)		{
-HXLINE(  72)			Float _hx_tmp;
-HXDLIN(  72)			if (::hx::IsNotNull( transform )) {
-HXLINE(  72)				_hx_tmp = transform->alphaMultiplier;
-            			}
-            			else {
-HXLINE(  72)				_hx_tmp = ((Float)1.0);
-            			}
-HXDLIN(  72)			this->alphas->push(_hx_tmp);
-HXDLIN(  72)			Float _hx_tmp1;
-HXDLIN(  72)			if (::hx::IsNotNull( transform )) {
-HXLINE(  72)				_hx_tmp1 = transform->alphaMultiplier;
-            			}
-            			else {
-HXLINE(  72)				_hx_tmp1 = ((Float)1.0);
-            			}
-HXDLIN(  72)			this->alphas->push(_hx_tmp1);
-HXDLIN(  72)			Float _hx_tmp2;
-HXDLIN(  72)			if (::hx::IsNotNull( transform )) {
-HXLINE(  72)				_hx_tmp2 = transform->alphaMultiplier;
-            			}
-            			else {
-HXLINE(  72)				_hx_tmp2 = ((Float)1.0);
-            			}
-HXDLIN(  72)			this->alphas->push(_hx_tmp2);
-HXDLIN(  72)			Float _hx_tmp3;
-HXDLIN(  72)			if (::hx::IsNotNull( transform )) {
-HXLINE(  72)				_hx_tmp3 = transform->alphaMultiplier;
-            			}
-            			else {
-HXLINE(  72)				_hx_tmp3 = ((Float)1.0);
-            			}
-HXDLIN(  72)			this->alphas->push(_hx_tmp3);
-            		}
-HXLINE(  74)		bool _hx_tmp4;
-HXDLIN(  74)		if (!(this->colored)) {
-HXLINE(  74)			_hx_tmp4 = this->hasColorOffsets;
+            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_56_addQuad)
+HXLINE(  57)		 ::flixel::math::FlxRect rect = frame->frame;
+HXLINE(  58)		this->rects->push(rect->x);
+HXLINE(  59)		this->rects->push(rect->y);
+HXLINE(  60)		this->rects->push(rect->width);
+HXLINE(  61)		this->rects->push(rect->height);
+HXLINE(  63)		this->transforms->push(matrix->a);
+HXLINE(  64)		this->transforms->push(matrix->b);
+HXLINE(  65)		this->transforms->push(matrix->c);
+HXLINE(  66)		this->transforms->push(matrix->d);
+HXLINE(  67)		this->transforms->push(matrix->tx);
+HXLINE(  68)		this->transforms->push(matrix->ty);
+HXLINE(  70)		Float alphaMultiplier;
+HXDLIN(  70)		if (::hx::IsNotNull( transform )) {
+HXLINE(  70)			alphaMultiplier = transform->alphaMultiplier;
             		}
             		else {
-HXLINE(  74)			_hx_tmp4 = true;
+HXLINE(  70)			alphaMultiplier = ((Float)1.0);
             		}
-HXDLIN(  74)		if (_hx_tmp4) {
+HXLINE(  71)		{
+HXLINE(  72)			this->alphas->push(alphaMultiplier);
+HXDLIN(  72)			this->alphas->push(alphaMultiplier);
+HXDLIN(  72)			this->alphas->push(alphaMultiplier);
+HXDLIN(  72)			this->alphas->push(alphaMultiplier);
+            		}
+HXLINE(  74)		bool _hx_tmp;
+HXDLIN(  74)		if (!(this->colored)) {
+HXLINE(  74)			_hx_tmp = this->hasColorOffsets;
+            		}
+            		else {
+HXLINE(  74)			_hx_tmp = true;
+            		}
+HXDLIN(  74)		if (_hx_tmp) {
 HXLINE(  76)			if (::hx::IsNull( this->colorMultipliers )) {
 HXLINE(  77)				this->colorMultipliers = ::Array_obj< Float >::__new(0);
             			}
@@ -522,8 +501,8 @@ void FlxDrawQuadsItem_obj::__register()
 void FlxDrawQuadsItem_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_15_boot)
-HXDLIN(  15)		VERTICES_PER_QUAD = 4;
+            	HX_STACKFRAME(&_hx_pos_6d98322fc3998392_14_boot)
+HXDLIN(  14)		VERTICES_PER_QUAD = 4;
             	}
 }
 

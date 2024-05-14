@@ -98,66 +98,67 @@
 #include <openfl/utils/Assets.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_3b8710f86d15c371_22_new,"flixel.graphics.FlxGraphic","new",0x02373c99,"flixel.graphics.FlxGraphic.new","flixel/graphics/FlxGraphic.hx",22,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_378_get__imageFrame,"flixel.graphics.FlxGraphic","get__imageFrame",0x2cee2141,"flixel.graphics.FlxGraphic.get__imageFrame","flixel/graphics/FlxGraphic.hx",378,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_379_set__imageFrame,"flixel.graphics.FlxGraphic","set__imageFrame",0x28b99e4d,"flixel.graphics.FlxGraphic.set__imageFrame","flixel/graphics/FlxGraphic.hx",379,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_391_get__useCount,"flixel.graphics.FlxGraphic","get__useCount",0xfd30bfb7,"flixel.graphics.FlxGraphic.get__useCount","flixel/graphics/FlxGraphic.hx",391,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_392_set__useCount,"flixel.graphics.FlxGraphic","set__useCount",0x4236a1c3,"flixel.graphics.FlxGraphic.set__useCount","flixel/graphics/FlxGraphic.hx",392,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_396_get__destroyOnNoUse,"flixel.graphics.FlxGraphic","get__destroyOnNoUse",0xb38d34fc,"flixel.graphics.FlxGraphic.get__destroyOnNoUse","flixel/graphics/FlxGraphic.hx",396,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_397_set__destroyOnNoUse,"flixel.graphics.FlxGraphic","set__destroyOnNoUse",0xf02a2808,"flixel.graphics.FlxGraphic.set__destroyOnNoUse","flixel/graphics/FlxGraphic.hx",397,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_425_dump,"flixel.graphics.FlxGraphic","dump",0xe78dc2db,"flixel.graphics.FlxGraphic.dump","flixel/graphics/FlxGraphic.hx",425,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_439_undump,"flixel.graphics.FlxGraphic","undump",0xf6fcc174,"flixel.graphics.FlxGraphic.undump","flixel/graphics/FlxGraphic.hx",439,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_453_onContext,"flixel.graphics.FlxGraphic","onContext",0x4fa62b89,"flixel.graphics.FlxGraphic.onContext","flixel/graphics/FlxGraphic.hx",453,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_465_onAssetsReload,"flixel.graphics.FlxGraphic","onAssetsReload",0x9c63b062,"flixel.graphics.FlxGraphic.onAssetsReload","flixel/graphics/FlxGraphic.hx",465,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_479_destroy,"flixel.graphics.FlxGraphic","destroy",0x6c66a9b3,"flixel.graphics.FlxGraphic.destroy","flixel/graphics/FlxGraphic.hx",479,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_515_addFrameCollection,"flixel.graphics.FlxGraphic","addFrameCollection",0x06dd03b1,"flixel.graphics.FlxGraphic.addFrameCollection","flixel/graphics/FlxGraphic.hx",515,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_529_getFramesCollections,"flixel.graphics.FlxGraphic","getFramesCollections",0xa4089c80,"flixel.graphics.FlxGraphic.getFramesCollections","flixel/graphics/FlxGraphic.hx",529,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_547_getEmptyFrame,"flixel.graphics.FlxGraphic","getEmptyFrame",0xc5b0f80f,"flixel.graphics.FlxGraphic.getEmptyFrame","flixel/graphics/FlxGraphic.hx",547,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_583_getBitmapFromSystem,"flixel.graphics.FlxGraphic","getBitmapFromSystem",0xb3be27b7,"flixel.graphics.FlxGraphic.getBitmapFromSystem","flixel/graphics/FlxGraphic.hx",583,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_598_get_isLoaded,"flixel.graphics.FlxGraphic","get_isLoaded",0xcad65c3f,"flixel.graphics.FlxGraphic.get_isLoaded","flixel/graphics/FlxGraphic.hx",598,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_603_get_canBeDumped,"flixel.graphics.FlxGraphic","get_canBeDumped",0x9b8a5e36,"flixel.graphics.FlxGraphic.get_canBeDumped","flixel/graphics/FlxGraphic.hx",603,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_608_incrementUseCount,"flixel.graphics.FlxGraphic","incrementUseCount",0xd3d6ae50,"flixel.graphics.FlxGraphic.incrementUseCount","flixel/graphics/FlxGraphic.hx",608,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_612_decrementUseCount,"flixel.graphics.FlxGraphic","decrementUseCount",0x44622234,"flixel.graphics.FlxGraphic.decrementUseCount","flixel/graphics/FlxGraphic.hx",612,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_620_checkUseCount,"flixel.graphics.FlxGraphic","checkUseCount",0xdc915169,"flixel.graphics.FlxGraphic.checkUseCount","flixel/graphics/FlxGraphic.hx",620,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_625_set_destroyOnNoUse,"flixel.graphics.FlxGraphic","set_destroyOnNoUse",0x5b353e31,"flixel.graphics.FlxGraphic.set_destroyOnNoUse","flixel/graphics/FlxGraphic.hx",625,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_634_get_imageFrame,"flixel.graphics.FlxGraphic","get_imageFrame",0xc1224382,"flixel.graphics.FlxGraphic.get_imageFrame","flixel/graphics/FlxGraphic.hx",634,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_643_get_atlasFrames,"flixel.graphics.FlxGraphic","get_atlasFrames",0x774c10a1,"flixel.graphics.FlxGraphic.get_atlasFrames","flixel/graphics/FlxGraphic.hx",643,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_647_set_bitmap,"flixel.graphics.FlxGraphic","set_bitmap",0x39ee9b13,"flixel.graphics.FlxGraphic.set_bitmap","flixel/graphics/FlxGraphic.hx",647,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_41_fromAssetKey,"flixel.graphics.FlxGraphic","fromAssetKey",0xcea54dc0,"flixel.graphics.FlxGraphic.fromAssetKey","flixel/graphics/FlxGraphic.hx",41,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_77_fromClass,"flixel.graphics.FlxGraphic","fromClass",0x5b653f67,"flixel.graphics.FlxGraphic.fromClass","flixel/graphics/FlxGraphic.hx",77,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_108_fromBitmapData,"flixel.graphics.FlxGraphic","fromBitmapData",0x64c8842a,"flixel.graphics.FlxGraphic.fromBitmapData","flixel/graphics/FlxGraphic.hx",108,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_147_fromFrame,"flixel.graphics.FlxGraphic","fromFrame",0x19903f5c,"flixel.graphics.FlxGraphic.fromFrame","flixel/graphics/FlxGraphic.hx",147,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_177_fromFrames,"flixel.graphics.FlxGraphic","fromFrames",0x44a73197,"flixel.graphics.FlxGraphic.fromFrames","flixel/graphics/FlxGraphic.hx",177,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_191_fromGraphic,"flixel.graphics.FlxGraphic","fromGraphic",0xf9378b97,"flixel.graphics.FlxGraphic.fromGraphic","flixel/graphics/FlxGraphic.hx",191,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_214_fromRectangle,"flixel.graphics.FlxGraphic","fromRectangle",0x6fce5ede,"flixel.graphics.FlxGraphic.fromRectangle","flixel/graphics/FlxGraphic.hx",214,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_235_getBitmap,"flixel.graphics.FlxGraphic","getBitmap",0xcbe6761e,"flixel.graphics.FlxGraphic.getBitmap","flixel/graphics/FlxGraphic.hx",235,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_249_createGraphic,"flixel.graphics.FlxGraphic","createGraphic",0x3eb28085,"flixel.graphics.FlxGraphic.createGraphic","flixel/graphics/FlxGraphic.hx",249,0xb3633517)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_28_boot,"flixel.graphics.FlxGraphic","boot",0xe636c9d9,"flixel.graphics.FlxGraphic.boot","flixel/graphics/FlxGraphic.hx",28,0xb3633517)
+HX_DEFINE_STACK_FRAME(_hx_pos_3b8710f86d15c371_19_new,"flixel.graphics.FlxGraphic","new",0x02373c99,"flixel.graphics.FlxGraphic.new","flixel/graphics/FlxGraphic.hx",19,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_377_get__imageFrame,"flixel.graphics.FlxGraphic","get__imageFrame",0x2cee2141,"flixel.graphics.FlxGraphic.get__imageFrame","flixel/graphics/FlxGraphic.hx",377,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_378_set__imageFrame,"flixel.graphics.FlxGraphic","set__imageFrame",0x28b99e4d,"flixel.graphics.FlxGraphic.set__imageFrame","flixel/graphics/FlxGraphic.hx",378,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_382_get__useCount,"flixel.graphics.FlxGraphic","get__useCount",0xfd30bfb7,"flixel.graphics.FlxGraphic.get__useCount","flixel/graphics/FlxGraphic.hx",382,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_383_set__useCount,"flixel.graphics.FlxGraphic","set__useCount",0x4236a1c3,"flixel.graphics.FlxGraphic.set__useCount","flixel/graphics/FlxGraphic.hx",383,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_387_get__destroyOnNoUse,"flixel.graphics.FlxGraphic","get__destroyOnNoUse",0xb38d34fc,"flixel.graphics.FlxGraphic.get__destroyOnNoUse","flixel/graphics/FlxGraphic.hx",387,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_388_set__destroyOnNoUse,"flixel.graphics.FlxGraphic","set__destroyOnNoUse",0xf02a2808,"flixel.graphics.FlxGraphic.set__destroyOnNoUse","flixel/graphics/FlxGraphic.hx",388,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_414_dump,"flixel.graphics.FlxGraphic","dump",0xe78dc2db,"flixel.graphics.FlxGraphic.dump","flixel/graphics/FlxGraphic.hx",414,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_428_undump,"flixel.graphics.FlxGraphic","undump",0xf6fcc174,"flixel.graphics.FlxGraphic.undump","flixel/graphics/FlxGraphic.hx",428,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_442_onContext,"flixel.graphics.FlxGraphic","onContext",0x4fa62b89,"flixel.graphics.FlxGraphic.onContext","flixel/graphics/FlxGraphic.hx",442,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_454_onAssetsReload,"flixel.graphics.FlxGraphic","onAssetsReload",0x9c63b062,"flixel.graphics.FlxGraphic.onAssetsReload","flixel/graphics/FlxGraphic.hx",454,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_468_destroy,"flixel.graphics.FlxGraphic","destroy",0x6c66a9b3,"flixel.graphics.FlxGraphic.destroy","flixel/graphics/FlxGraphic.hx",468,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_499_addFrameCollection,"flixel.graphics.FlxGraphic","addFrameCollection",0x06dd03b1,"flixel.graphics.FlxGraphic.addFrameCollection","flixel/graphics/FlxGraphic.hx",499,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_513_getFramesCollections,"flixel.graphics.FlxGraphic","getFramesCollections",0xa4089c80,"flixel.graphics.FlxGraphic.getFramesCollections","flixel/graphics/FlxGraphic.hx",513,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_531_getEmptyFrame,"flixel.graphics.FlxGraphic","getEmptyFrame",0xc5b0f80f,"flixel.graphics.FlxGraphic.getEmptyFrame","flixel/graphics/FlxGraphic.hx",531,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_544_getBitmapFromSystem,"flixel.graphics.FlxGraphic","getBitmapFromSystem",0xb3be27b7,"flixel.graphics.FlxGraphic.getBitmapFromSystem","flixel/graphics/FlxGraphic.hx",544,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_559_get_isLoaded,"flixel.graphics.FlxGraphic","get_isLoaded",0xcad65c3f,"flixel.graphics.FlxGraphic.get_isLoaded","flixel/graphics/FlxGraphic.hx",559,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_564_get_isDestroyed,"flixel.graphics.FlxGraphic","get_isDestroyed",0x1abb03df,"flixel.graphics.FlxGraphic.get_isDestroyed","flixel/graphics/FlxGraphic.hx",564,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_569_get_canBeDumped,"flixel.graphics.FlxGraphic","get_canBeDumped",0x9b8a5e36,"flixel.graphics.FlxGraphic.get_canBeDumped","flixel/graphics/FlxGraphic.hx",569,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_574_incrementUseCount,"flixel.graphics.FlxGraphic","incrementUseCount",0xd3d6ae50,"flixel.graphics.FlxGraphic.incrementUseCount","flixel/graphics/FlxGraphic.hx",574,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_578_decrementUseCount,"flixel.graphics.FlxGraphic","decrementUseCount",0x44622234,"flixel.graphics.FlxGraphic.decrementUseCount","flixel/graphics/FlxGraphic.hx",578,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_586_checkUseCount,"flixel.graphics.FlxGraphic","checkUseCount",0xdc915169,"flixel.graphics.FlxGraphic.checkUseCount","flixel/graphics/FlxGraphic.hx",586,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_591_set_destroyOnNoUse,"flixel.graphics.FlxGraphic","set_destroyOnNoUse",0x5b353e31,"flixel.graphics.FlxGraphic.set_destroyOnNoUse","flixel/graphics/FlxGraphic.hx",591,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_600_get_imageFrame,"flixel.graphics.FlxGraphic","get_imageFrame",0xc1224382,"flixel.graphics.FlxGraphic.get_imageFrame","flixel/graphics/FlxGraphic.hx",600,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_609_get_atlasFrames,"flixel.graphics.FlxGraphic","get_atlasFrames",0x774c10a1,"flixel.graphics.FlxGraphic.get_atlasFrames","flixel/graphics/FlxGraphic.hx",609,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_613_set_bitmap,"flixel.graphics.FlxGraphic","set_bitmap",0x39ee9b13,"flixel.graphics.FlxGraphic.set_bitmap","flixel/graphics/FlxGraphic.hx",613,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_38_fromAssetKey,"flixel.graphics.FlxGraphic","fromAssetKey",0xcea54dc0,"flixel.graphics.FlxGraphic.fromAssetKey","flixel/graphics/FlxGraphic.hx",38,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_74_fromClass,"flixel.graphics.FlxGraphic","fromClass",0x5b653f67,"flixel.graphics.FlxGraphic.fromClass","flixel/graphics/FlxGraphic.hx",74,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_105_fromBitmapData,"flixel.graphics.FlxGraphic","fromBitmapData",0x64c8842a,"flixel.graphics.FlxGraphic.fromBitmapData","flixel/graphics/FlxGraphic.hx",105,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_144_fromFrame,"flixel.graphics.FlxGraphic","fromFrame",0x19903f5c,"flixel.graphics.FlxGraphic.fromFrame","flixel/graphics/FlxGraphic.hx",144,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_174_fromFrames,"flixel.graphics.FlxGraphic","fromFrames",0x44a73197,"flixel.graphics.FlxGraphic.fromFrames","flixel/graphics/FlxGraphic.hx",174,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_188_fromGraphic,"flixel.graphics.FlxGraphic","fromGraphic",0xf9378b97,"flixel.graphics.FlxGraphic.fromGraphic","flixel/graphics/FlxGraphic.hx",188,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_211_fromRectangle,"flixel.graphics.FlxGraphic","fromRectangle",0x6fce5ede,"flixel.graphics.FlxGraphic.fromRectangle","flixel/graphics/FlxGraphic.hx",211,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_232_getBitmap,"flixel.graphics.FlxGraphic","getBitmap",0xcbe6761e,"flixel.graphics.FlxGraphic.getBitmap","flixel/graphics/FlxGraphic.hx",232,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_246_createGraphic,"flixel.graphics.FlxGraphic","createGraphic",0x3eb28085,"flixel.graphics.FlxGraphic.createGraphic","flixel/graphics/FlxGraphic.hx",246,0xb3633517)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b8710f86d15c371_25_boot,"flixel.graphics.FlxGraphic","boot",0xe636c9d9,"flixel.graphics.FlxGraphic.boot","flixel/graphics/FlxGraphic.hx",25,0xb3633517)
 namespace flixel{
 namespace graphics{
 
-void FlxGraphic_obj::__construct(::String Key, ::openfl::display::BitmapData Bitmap, ::Dynamic Persist){
-            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_22_new)
-HXLINE( 370)		this->unique = false;
-HXLINE( 339)		this->useCount = 0;
-HXLINE( 312)		this->isDumped = false;
-HXLINE( 307)		this->destroyOnNoUse = true;
-HXLINE( 301)		this->persist = false;
-HXLINE( 285)		this->height = 0;
-HXLINE( 280)		this->width = 0;
-HXLINE( 408)		this->key = Key;
-HXLINE( 409)		bool _hx_tmp;
-HXDLIN( 409)		if (::hx::IsNotNull( Persist )) {
-HXLINE( 409)			_hx_tmp = ( (bool)(Persist) );
+void FlxGraphic_obj::__construct(::String key, ::openfl::display::BitmapData bitmap, ::Dynamic persist){
+            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_19_new)
+HXLINE( 369)		this->unique = false;
+HXLINE( 338)		this->useCount = 0;
+HXLINE( 309)		this->isDumped = false;
+HXLINE( 304)		this->destroyOnNoUse = true;
+HXLINE( 298)		this->persist = false;
+HXLINE( 282)		this->height = 0;
+HXLINE( 277)		this->width = 0;
+HXLINE( 399)		this->key = key;
+HXLINE( 400)		bool _hx_tmp;
+HXDLIN( 400)		if (::hx::IsNotNull( persist )) {
+HXLINE( 400)			_hx_tmp = ( (bool)(persist) );
             		}
             		else {
-HXLINE( 409)			_hx_tmp = ::flixel::graphics::FlxGraphic_obj::defaultPersist;
+HXLINE( 400)			_hx_tmp = ::flixel::graphics::FlxGraphic_obj::defaultPersist;
             		}
-HXDLIN( 409)		this->persist = _hx_tmp;
-HXLINE( 411)		this->frameCollections =  ::haxe::ds::EnumValueMap_obj::__alloc( HX_CTX );
-HXLINE( 412)		this->frameCollectionTypes = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 413)		this->set_bitmap(Bitmap);
-HXLINE( 416)		this->shader =  ::flixel::graphics::tile::FlxGraphicsShader_obj::__alloc( HX_CTX );
+HXDLIN( 400)		this->persist = _hx_tmp;
+HXLINE( 402)		this->frameCollections =  ::haxe::ds::EnumValueMap_obj::__alloc( HX_CTX );
+HXLINE( 403)		this->frameCollectionTypes = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 404)		this->set_bitmap(bitmap);
+HXLINE( 406)		this->shader =  ::flixel::graphics::tile::FlxGraphicsShader_obj::__alloc( HX_CTX );
             	}
 
 Dynamic FlxGraphic_obj::__CreateEmpty() { return new FlxGraphic_obj; }
@@ -191,77 +192,77 @@ void *FlxGraphic_obj::_hx_getInterface(int inHash) {
 }
 
  ::flixel::graphics::frames::FlxImageFrame FlxGraphic_obj::get__imageFrame(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_378_get__imageFrame)
-HXDLIN( 378)		return this->get_imageFrame();
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_377_get__imageFrame)
+HXDLIN( 377)		return this->get_imageFrame();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get__imageFrame,return )
 
  ::flixel::graphics::frames::FlxImageFrame FlxGraphic_obj::set__imageFrame( ::flixel::graphics::frames::FlxImageFrame value){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_379_set__imageFrame)
-HXDLIN( 379)		return (this->imageFrame = value);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_378_set__imageFrame)
+HXDLIN( 378)		return (this->imageFrame = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGraphic_obj,set__imageFrame,return )
 
 int FlxGraphic_obj::get__useCount(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_391_get__useCount)
-HXDLIN( 391)		return this->useCount;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_382_get__useCount)
+HXDLIN( 382)		return this->useCount;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get__useCount,return )
 
 int FlxGraphic_obj::set__useCount(int value){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_392_set__useCount)
-HXDLIN( 392)		return (this->useCount = value);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_383_set__useCount)
+HXDLIN( 383)		return (this->useCount = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGraphic_obj,set__useCount,return )
 
 bool FlxGraphic_obj::get__destroyOnNoUse(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_396_get__destroyOnNoUse)
-HXDLIN( 396)		return this->destroyOnNoUse;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_387_get__destroyOnNoUse)
+HXDLIN( 387)		return this->destroyOnNoUse;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get__destroyOnNoUse,return )
 
 bool FlxGraphic_obj::set__destroyOnNoUse(bool value){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_397_set__destroyOnNoUse)
-HXDLIN( 397)		return this->set_destroyOnNoUse(value);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_388_set__destroyOnNoUse)
+HXDLIN( 388)		return this->set_destroyOnNoUse(value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGraphic_obj,set__destroyOnNoUse,return )
 
 void FlxGraphic_obj::dump(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_425_dump)
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_414_dump)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,dump,(void))
 
 void FlxGraphic_obj::undump(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_439_undump)
-HXLINE( 440)		 ::openfl::display::BitmapData newBitmap = this->getBitmapFromSystem();
-HXLINE( 441)		if (::hx::IsNotNull( newBitmap )) {
-HXLINE( 442)			this->set_bitmap(newBitmap);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_428_undump)
+HXLINE( 429)		 ::openfl::display::BitmapData newBitmap = this->getBitmapFromSystem();
+HXLINE( 430)		if (::hx::IsNotNull( newBitmap )) {
+HXLINE( 431)			this->set_bitmap(newBitmap);
             		}
-HXLINE( 443)		this->isDumped = false;
+HXLINE( 432)		this->isDumped = false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,undump,(void))
 
 void FlxGraphic_obj::onContext(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_453_onContext)
-HXDLIN( 453)		if (this->isDumped) {
-HXLINE( 455)			this->undump();
-HXLINE( 456)			this->dump();
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_442_onContext)
+HXDLIN( 442)		if (this->isDumped) {
+HXLINE( 444)			this->undump();
+HXLINE( 445)			this->dump();
             		}
             	}
 
@@ -269,21 +270,21 @@ HXLINE( 456)			this->dump();
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,onContext,(void))
 
 void FlxGraphic_obj::onAssetsReload(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_465_onAssetsReload)
-HXLINE( 466)		bool _hx_tmp;
-HXDLIN( 466)		if (::hx::IsNull( this->assetsClass )) {
-HXLINE( 466)			_hx_tmp = ::hx::IsNotNull( this->assetsKey );
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_454_onAssetsReload)
+HXLINE( 455)		bool _hx_tmp;
+HXDLIN( 455)		if (::hx::IsNull( this->assetsClass )) {
+HXLINE( 455)			_hx_tmp = ::hx::IsNotNull( this->assetsKey );
             		}
             		else {
-HXLINE( 466)			_hx_tmp = true;
+HXLINE( 455)			_hx_tmp = true;
             		}
-HXDLIN( 466)		if (!(_hx_tmp)) {
-HXLINE( 467)			return;
+HXDLIN( 455)		if (!(_hx_tmp)) {
+HXLINE( 456)			return;
             		}
-HXLINE( 469)		bool dumped = this->isDumped;
-HXLINE( 470)		this->undump();
-HXLINE( 471)		if (dumped) {
-HXLINE( 472)			this->dump();
+HXLINE( 458)		bool dumped = this->isDumped;
+HXLINE( 459)		this->undump();
+HXLINE( 460)		if (dumped) {
+HXLINE( 461)			this->dump();
             		}
             	}
 
@@ -291,45 +292,45 @@ HXLINE( 472)			this->dump();
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,onAssetsReload,(void))
 
 void FlxGraphic_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_479_destroy)
-HXLINE( 480)		this->set_bitmap(::flixel::util::FlxDestroyUtil_obj::dispose(this->bitmap));
-HXLINE( 483)		this->shader = null();
-HXLINE( 489)		this->key = null();
-HXLINE( 490)		this->assetsKey = null();
-HXLINE( 491)		this->assetsClass = null();
-HXLINE( 492)		this->imageFrame = null();
-HXLINE( 494)		if (::hx::IsNull( this->frameCollections )) {
-HXLINE( 495)			return;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_468_destroy)
+HXLINE( 469)		this->set_bitmap(::flixel::util::FlxDestroyUtil_obj::dispose(this->bitmap));
+HXLINE( 471)		this->shader = null();
+HXLINE( 473)		this->key = null();
+HXLINE( 474)		this->assetsKey = null();
+HXLINE( 475)		this->assetsClass = null();
+HXLINE( 476)		this->imageFrame = null();
+HXLINE( 478)		if (::hx::IsNull( this->frameCollections )) {
+HXLINE( 479)			return;
             		}
-HXLINE( 497)		::Array< ::Dynamic> collections;
-HXLINE( 498)		{
-HXLINE( 498)			int _g = 0;
-HXDLIN( 498)			::Array< ::Dynamic> _g1 = this->frameCollectionTypes;
-HXDLIN( 498)			while((_g < _g1->length)){
-HXLINE( 498)				 ::flixel::graphics::frames::FlxFrameCollectionType collectionType = _g1->__get(_g).StaticCast<  ::flixel::graphics::frames::FlxFrameCollectionType >();
-HXDLIN( 498)				_g = (_g + 1);
-HXLINE( 500)				collections = ( (::Array< ::Dynamic>)(this->frameCollections->get(collectionType)) );
-HXLINE( 501)				::flixel::util::FlxDestroyUtil_obj::destroyArray(collections);
+HXLINE( 481)		::Array< ::Dynamic> collections;
+HXLINE( 482)		{
+HXLINE( 482)			int _g = 0;
+HXDLIN( 482)			::Array< ::Dynamic> _g1 = this->frameCollectionTypes;
+HXDLIN( 482)			while((_g < _g1->length)){
+HXLINE( 482)				 ::flixel::graphics::frames::FlxFrameCollectionType collectionType = _g1->__get(_g).StaticCast<  ::flixel::graphics::frames::FlxFrameCollectionType >();
+HXDLIN( 482)				_g = (_g + 1);
+HXLINE( 484)				collections = ( (::Array< ::Dynamic>)(this->frameCollections->get(collectionType)) );
+HXLINE( 485)				::flixel::util::FlxDestroyUtil_obj::destroyArray(collections);
             			}
             		}
-HXLINE( 504)		this->frameCollections = null();
-HXLINE( 505)		this->frameCollectionTypes = null();
+HXLINE( 488)		this->frameCollections = null();
+HXLINE( 489)		this->frameCollectionTypes = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,destroy,(void))
 
 void FlxGraphic_obj::addFrameCollection( ::flixel::graphics::frames::FlxFramesCollection collection){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_515_addFrameCollection)
-HXDLIN( 515)		if (::hx::IsNotNull( collection->type )) {
-HXLINE( 517)			 ::flixel::graphics::frames::FlxFrameCollectionType type = collection->type;
-HXDLIN( 517)			::cpp::VirtualArray collections = ( (::cpp::VirtualArray)(this->frameCollections->get(type)) );
-HXDLIN( 517)			if (::hx::IsNull( collections )) {
-HXLINE( 517)				collections = ::Array_obj< ::Dynamic>::__new();
-HXDLIN( 517)				this->frameCollections->set(type,collections);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_499_addFrameCollection)
+HXDLIN( 499)		if (::hx::IsNotNull( collection->type )) {
+HXLINE( 501)			 ::flixel::graphics::frames::FlxFrameCollectionType type = collection->type;
+HXDLIN( 501)			::cpp::VirtualArray collections = ( (::cpp::VirtualArray)(this->frameCollections->get(type)) );
+HXDLIN( 501)			if (::hx::IsNull( collections )) {
+HXLINE( 501)				collections = ::Array_obj< ::Dynamic>::__new();
+HXDLIN( 501)				this->frameCollections->set(type,collections);
             			}
-HXDLIN( 517)			::cpp::VirtualArray collections1 = collections;
-HXLINE( 518)			collections1->push(collection);
+HXDLIN( 501)			::cpp::VirtualArray collections1 = collections;
+HXLINE( 502)			collections1->push(collection);
             		}
             	}
 
@@ -337,142 +338,150 @@ HXLINE( 518)			collections1->push(collection);
 HX_DEFINE_DYNAMIC_FUNC1(FlxGraphic_obj,addFrameCollection,(void))
 
 ::cpp::VirtualArray FlxGraphic_obj::getFramesCollections( ::flixel::graphics::frames::FlxFrameCollectionType type){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_529_getFramesCollections)
-HXLINE( 530)		::cpp::VirtualArray collections = ( (::cpp::VirtualArray)(this->frameCollections->get(type)) );
-HXLINE( 531)		if (::hx::IsNull( collections )) {
-HXLINE( 533)			collections = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 534)			this->frameCollections->set(type,collections);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_513_getFramesCollections)
+HXLINE( 514)		::cpp::VirtualArray collections = ( (::cpp::VirtualArray)(this->frameCollections->get(type)) );
+HXLINE( 515)		if (::hx::IsNull( collections )) {
+HXLINE( 517)			collections = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 518)			this->frameCollections->set(type,collections);
             		}
-HXLINE( 536)		return collections;
+HXLINE( 520)		return collections;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGraphic_obj,getFramesCollections,return )
 
  ::flixel::graphics::frames::FlxFrame FlxGraphic_obj::getEmptyFrame( ::flixel::math::FlxBasePoint size){
-            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_547_getEmptyFrame)
-HXLINE( 548)		 ::flixel::graphics::frames::FlxFrame frame =  ::flixel::graphics::frames::FlxFrame_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),null(),null(),null(),null());
-HXLINE( 549)		frame->type = 2;
-HXLINE( 550)		 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 550)		_this->x = ( (Float)(0) );
-HXDLIN( 550)		_this->y = ( (Float)(0) );
-HXDLIN( 550)		_this->width = ( (Float)(0) );
-HXDLIN( 550)		_this->height = ( (Float)(0) );
-HXDLIN( 550)		 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 550)		rect->_inPool = false;
-HXDLIN( 550)		frame->set_frame(rect);
-HXLINE( 551)		{
-HXLINE( 551)			 ::flixel::math::FlxBasePoint this1 = frame->sourceSize;
-HXDLIN( 551)			{
-HXLINE( 551)				Float y = size->y;
-HXDLIN( 551)				this1->set_x(size->x);
-HXDLIN( 551)				this1->set_y(y);
+            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_531_getEmptyFrame)
+HXLINE( 532)		 ::flixel::graphics::frames::FlxFrame frame =  ::flixel::graphics::frames::FlxFrame_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),null(),null(),null(),null());
+HXLINE( 533)		frame->type = 2;
+HXLINE( 534)		 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 534)		_this->x = ( (Float)(0) );
+HXDLIN( 534)		_this->y = ( (Float)(0) );
+HXDLIN( 534)		_this->width = ( (Float)(0) );
+HXDLIN( 534)		_this->height = ( (Float)(0) );
+HXDLIN( 534)		 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 534)		rect->_inPool = false;
+HXDLIN( 534)		frame->set_frame(rect);
+HXLINE( 535)		{
+HXLINE( 535)			 ::flixel::math::FlxBasePoint this1 = frame->sourceSize;
+HXDLIN( 535)			{
+HXLINE( 535)				Float y = size->y;
+HXDLIN( 535)				this1->set_x(size->x);
+HXDLIN( 535)				this1->set_y(y);
             			}
-HXDLIN( 551)			if (size->_weak) {
-HXLINE( 551)				size->put();
+HXDLIN( 535)			if (size->_weak) {
+HXLINE( 535)				size->put();
             			}
             		}
-HXLINE( 552)		return frame;
+HXLINE( 536)		return frame;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGraphic_obj,getEmptyFrame,return )
 
  ::openfl::display::BitmapData FlxGraphic_obj::getBitmapFromSystem(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_583_getBitmapFromSystem)
-HXLINE( 584)		 ::openfl::display::BitmapData newBitmap = null();
-HXLINE( 585)		if (::hx::IsNotNull( this->assetsClass )) {
-HXLINE( 586)			newBitmap = ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(this->assetsClass,::cpp::VirtualArray_obj::__new(0))) );
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_544_getBitmapFromSystem)
+HXLINE( 545)		 ::openfl::display::BitmapData newBitmap = null();
+HXLINE( 546)		if (::hx::IsNotNull( this->assetsClass )) {
+HXLINE( 547)			newBitmap = ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(this->assetsClass,::cpp::VirtualArray_obj::__new(0))) );
             		}
             		else {
-HXLINE( 587)			if (::hx::IsNotNull( this->assetsKey )) {
-HXLINE( 588)				::String id = this->assetsKey;
-HXDLIN( 588)				if (::openfl::utils::Assets_obj::exists(id,null())) {
-HXLINE( 588)					newBitmap = ::openfl::utils::Assets_obj::getBitmapData(id,false);
+HXLINE( 548)			if (::hx::IsNotNull( this->assetsKey )) {
+HXLINE( 549)				::String id = this->assetsKey;
+HXDLIN( 549)				if (::openfl::utils::Assets_obj::exists(id,null())) {
+HXLINE( 549)					newBitmap = ::openfl::utils::Assets_obj::getBitmapData(id,false);
             				}
             				else {
-HXLINE( 588)					::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + id) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
-HXDLIN( 588)					newBitmap = null();
+HXLINE( 549)					::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + id) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+HXDLIN( 549)					newBitmap = null();
             				}
             			}
             		}
-HXLINE( 590)		if (::hx::IsNotNull( newBitmap )) {
-HXLINE( 591)			if (this->unique) {
-HXLINE( 591)				return newBitmap->clone();
+HXLINE( 551)		if (::hx::IsNotNull( newBitmap )) {
+HXLINE( 552)			if (this->unique) {
+HXLINE( 552)				return newBitmap->clone();
             			}
             			else {
-HXLINE( 591)				return newBitmap;
+HXLINE( 552)				return newBitmap;
             			}
             		}
-HXLINE( 593)		return null();
+HXLINE( 554)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,getBitmapFromSystem,return )
 
 bool FlxGraphic_obj::get_isLoaded(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_598_get_isLoaded)
-HXDLIN( 598)		if (::hx::IsNotNull( this->bitmap )) {
-HXDLIN( 598)			return !(this->bitmap->rect->isEmpty());
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_559_get_isLoaded)
+HXDLIN( 559)		if (::hx::IsNotNull( this->bitmap )) {
+HXDLIN( 559)			return !(this->bitmap->rect->isEmpty());
             		}
             		else {
-HXDLIN( 598)			return false;
+HXDLIN( 559)			return false;
             		}
-HXDLIN( 598)		return false;
+HXDLIN( 559)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get_isLoaded,return )
 
+bool FlxGraphic_obj::get_isDestroyed(){
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_564_get_isDestroyed)
+HXDLIN( 564)		return ::hx::IsNull( this->shader );
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get_isDestroyed,return )
+
 bool FlxGraphic_obj::get_canBeDumped(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_603_get_canBeDumped)
-HXDLIN( 603)		if (::hx::IsNull( this->assetsClass )) {
-HXDLIN( 603)			return ::hx::IsNotNull( this->assetsKey );
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_569_get_canBeDumped)
+HXDLIN( 569)		if (::hx::IsNull( this->assetsClass )) {
+HXDLIN( 569)			return ::hx::IsNotNull( this->assetsKey );
             		}
             		else {
-HXDLIN( 603)			return true;
+HXDLIN( 569)			return true;
             		}
-HXDLIN( 603)		return false;
+HXDLIN( 569)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get_canBeDumped,return )
 
 void FlxGraphic_obj::incrementUseCount(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_608_incrementUseCount)
-HXDLIN( 608)		this->useCount++;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_574_incrementUseCount)
+HXDLIN( 574)		this->useCount++;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,incrementUseCount,(void))
 
 void FlxGraphic_obj::decrementUseCount(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_612_decrementUseCount)
-HXLINE( 613)		this->useCount--;
-HXLINE( 615)		this->checkUseCount();
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_578_decrementUseCount)
+HXLINE( 579)		this->useCount--;
+HXLINE( 581)		this->checkUseCount();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,decrementUseCount,(void))
 
 void FlxGraphic_obj::checkUseCount(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_620_checkUseCount)
-HXDLIN( 620)		bool _hx_tmp;
-HXDLIN( 620)		bool _hx_tmp1;
-HXDLIN( 620)		if ((this->useCount <= 0)) {
-HXDLIN( 620)			_hx_tmp1 = this->destroyOnNoUse;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_586_checkUseCount)
+HXDLIN( 586)		bool _hx_tmp;
+HXDLIN( 586)		bool _hx_tmp1;
+HXDLIN( 586)		if ((this->useCount <= 0)) {
+HXDLIN( 586)			_hx_tmp1 = this->destroyOnNoUse;
             		}
             		else {
-HXDLIN( 620)			_hx_tmp1 = false;
+HXDLIN( 586)			_hx_tmp1 = false;
             		}
-HXDLIN( 620)		if (_hx_tmp1) {
-HXDLIN( 620)			_hx_tmp = !(this->persist);
+HXDLIN( 586)		if (_hx_tmp1) {
+HXDLIN( 586)			_hx_tmp = !(this->persist);
             		}
             		else {
-HXDLIN( 620)			_hx_tmp = false;
+HXDLIN( 586)			_hx_tmp = false;
             		}
-HXDLIN( 620)		if (_hx_tmp) {
-HXLINE( 621)			::flixel::FlxG_obj::bitmap->remove(::hx::ObjectPtr<OBJ_>(this));
+HXDLIN( 586)		if (_hx_tmp) {
+HXLINE( 587)			::flixel::FlxG_obj::bitmap->remove(::hx::ObjectPtr<OBJ_>(this));
             		}
             	}
 
@@ -480,51 +489,51 @@ HXLINE( 621)			::flixel::FlxG_obj::bitmap->remove(::hx::ObjectPtr<OBJ_>(this));
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,checkUseCount,(void))
 
 bool FlxGraphic_obj::set_destroyOnNoUse(bool value){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_625_set_destroyOnNoUse)
-HXLINE( 626)		this->destroyOnNoUse = value;
-HXLINE( 628)		this->checkUseCount();
-HXLINE( 630)		return value;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_591_set_destroyOnNoUse)
+HXLINE( 592)		this->destroyOnNoUse = value;
+HXLINE( 594)		this->checkUseCount();
+HXLINE( 596)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGraphic_obj,set_destroyOnNoUse,return )
 
  ::flixel::graphics::frames::FlxImageFrame FlxGraphic_obj::get_imageFrame(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_634_get_imageFrame)
-HXLINE( 635)		if (::hx::IsNull( this->imageFrame )) {
-HXLINE( 636)			Float Width = ( (Float)(this->bitmap->width) );
-HXDLIN( 636)			Float Height = ( (Float)(this->bitmap->height) );
-HXDLIN( 636)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 636)			_this->x = ( (Float)(0) );
-HXDLIN( 636)			_this->y = ( (Float)(0) );
-HXDLIN( 636)			_this->width = Width;
-HXDLIN( 636)			_this->height = Height;
-HXDLIN( 636)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 636)			rect->_inPool = false;
-HXDLIN( 636)			this->imageFrame = ::flixel::graphics::frames::FlxImageFrame_obj::fromRectangle(::hx::ObjectPtr<OBJ_>(this),rect);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_600_get_imageFrame)
+HXLINE( 601)		if (::hx::IsNull( this->imageFrame )) {
+HXLINE( 602)			Float Width = ( (Float)(this->bitmap->width) );
+HXDLIN( 602)			Float Height = ( (Float)(this->bitmap->height) );
+HXDLIN( 602)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 602)			_this->x = ( (Float)(0) );
+HXDLIN( 602)			_this->y = ( (Float)(0) );
+HXDLIN( 602)			_this->width = Width;
+HXDLIN( 602)			_this->height = Height;
+HXDLIN( 602)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 602)			rect->_inPool = false;
+HXDLIN( 602)			this->imageFrame = ::flixel::graphics::frames::FlxImageFrame_obj::fromRectangle(::hx::ObjectPtr<OBJ_>(this),rect);
             		}
-HXLINE( 638)		return this->imageFrame;
+HXLINE( 604)		return this->imageFrame;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get_imageFrame,return )
 
  ::flixel::graphics::frames::FlxAtlasFrames FlxGraphic_obj::get_atlasFrames(){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_643_get_atlasFrames)
-HXDLIN( 643)		return ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(::hx::ObjectPtr<OBJ_>(this),null());
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_609_get_atlasFrames)
+HXDLIN( 609)		return ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(::hx::ObjectPtr<OBJ_>(this),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGraphic_obj,get_atlasFrames,return )
 
  ::openfl::display::BitmapData FlxGraphic_obj::set_bitmap( ::openfl::display::BitmapData value){
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_647_set_bitmap)
-HXLINE( 648)		if (::hx::IsNotNull( value )) {
-HXLINE( 650)			this->bitmap = value;
-HXLINE( 651)			this->width = this->bitmap->width;
-HXLINE( 652)			this->height = this->bitmap->height;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_613_set_bitmap)
+HXLINE( 614)		if (::hx::IsNotNull( value )) {
+HXLINE( 616)			this->bitmap = value;
+HXLINE( 617)			this->width = this->bitmap->width;
+HXLINE( 618)			this->height = this->bitmap->height;
             		}
-HXLINE( 659)		return value;
+HXLINE( 621)		return value;
             	}
 
 
@@ -535,43 +544,43 @@ bool FlxGraphic_obj::defaultPersist;
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::fromAssetKey(::String Source,::hx::Null< bool >  __o_Unique,::String Key,::hx::Null< bool >  __o_Cache){
             		bool Unique = __o_Unique.Default(false);
             		bool Cache = __o_Cache.Default(true);
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_41_fromAssetKey)
-HXLINE(  42)		 ::openfl::display::BitmapData bitmap = null();
-HXLINE(  44)		if (!(Cache)) {
-HXLINE(  46)			 ::openfl::display::BitmapData bitmap1;
-HXDLIN(  46)			if (::openfl::utils::Assets_obj::exists(Source,null())) {
-HXLINE(  46)				bitmap1 = ::openfl::utils::Assets_obj::getBitmapData(Source,false);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_38_fromAssetKey)
+HXLINE(  39)		 ::openfl::display::BitmapData bitmap = null();
+HXLINE(  41)		if (!(Cache)) {
+HXLINE(  43)			 ::openfl::display::BitmapData bitmap1;
+HXDLIN(  43)			if (::openfl::utils::Assets_obj::exists(Source,null())) {
+HXLINE(  43)				bitmap1 = ::openfl::utils::Assets_obj::getBitmapData(Source,false);
             			}
             			else {
-HXLINE(  46)				::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + Source) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
-HXDLIN(  46)				bitmap1 = null();
+HXLINE(  43)				::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + Source) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+HXDLIN(  43)				bitmap1 = null();
             			}
-HXDLIN(  46)			bitmap = bitmap1;
-HXLINE(  47)			if (::hx::IsNull( bitmap )) {
-HXLINE(  48)				return null();
+HXDLIN(  43)			bitmap = bitmap1;
+HXLINE(  44)			if (::hx::IsNull( bitmap )) {
+HXLINE(  45)				return null();
             			}
-HXLINE(  49)			return ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,Key,Unique,Cache);
+HXLINE(  46)			return ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,Key,Unique,Cache);
             		}
-HXLINE(  52)		::String key = ::flixel::FlxG_obj::bitmap->generateKey(Source,Key,Unique);
-HXLINE(  53)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE(  54)		if (::hx::IsNotNull( graphic )) {
-HXLINE(  55)			return graphic;
+HXLINE(  49)		::String key = ::flixel::FlxG_obj::bitmap->generateKey(Source,Key,Unique);
+HXLINE(  50)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE(  51)		if (::hx::IsNotNull( graphic )) {
+HXLINE(  52)			return graphic;
             		}
-HXLINE(  57)		 ::openfl::display::BitmapData bitmap2;
-HXDLIN(  57)		if (::openfl::utils::Assets_obj::exists(Source,null())) {
-HXLINE(  57)			bitmap2 = ::openfl::utils::Assets_obj::getBitmapData(Source,false);
+HXLINE(  54)		 ::openfl::display::BitmapData bitmap2;
+HXDLIN(  54)		if (::openfl::utils::Assets_obj::exists(Source,null())) {
+HXLINE(  54)			bitmap2 = ::openfl::utils::Assets_obj::getBitmapData(Source,false);
             		}
             		else {
-HXLINE(  57)			::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + Source) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
-HXDLIN(  57)			bitmap2 = null();
+HXLINE(  54)			::flixel::FlxG_obj::log->advanced(((HX_("Could not find a BitmapData asset with ID '",5f,79,a9,21) + Source) + HX_("'.",27,22,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+HXDLIN(  54)			bitmap2 = null();
             		}
-HXDLIN(  57)		bitmap = bitmap2;
-HXLINE(  58)		if (::hx::IsNull( bitmap )) {
-HXLINE(  59)			return null();
+HXDLIN(  54)		bitmap = bitmap2;
+HXLINE(  55)		if (::hx::IsNull( bitmap )) {
+HXLINE(  56)			return null();
             		}
-HXLINE(  61)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,Unique,null());
-HXLINE(  62)		graphic->assetsKey = Source;
-HXLINE(  63)		return graphic;
+HXLINE(  58)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,Unique,null());
+HXLINE(  59)		graphic->assetsKey = Source;
+HXLINE(  60)		return graphic;
             	}
 
 
@@ -580,23 +589,23 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC4(FlxGraphic_obj,fromAssetKey,return )
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::fromClass(::hx::Class Source,::hx::Null< bool >  __o_Unique,::String Key,::hx::Null< bool >  __o_Cache){
             		bool Unique = __o_Unique.Default(false);
             		bool Cache = __o_Cache.Default(true);
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_77_fromClass)
-HXLINE(  78)		 ::openfl::display::BitmapData bitmap = null();
-HXLINE(  79)		if (!(Cache)) {
-HXLINE(  81)			bitmap = ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(Source,::cpp::VirtualArray_obj::__new(0))) );
-HXLINE(  82)			return ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,Key,Unique,Cache);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_74_fromClass)
+HXLINE(  75)		 ::openfl::display::BitmapData bitmap = null();
+HXLINE(  76)		if (!(Cache)) {
+HXLINE(  78)			bitmap = ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(Source,::cpp::VirtualArray_obj::__new(0))) );
+HXLINE(  79)			return ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,Key,Unique,Cache);
             		}
-HXLINE(  85)		 ::flixel::_hx_system::frontEnds::BitmapFrontEnd _this = ::flixel::FlxG_obj::bitmap;
-HXDLIN(  85)		::String key = ::Type_obj::getClassName(Source);
-HXLINE(  86)		key = ::flixel::FlxG_obj::bitmap->generateKey(key,Key,Unique);
-HXLINE(  87)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE(  88)		if (::hx::IsNotNull( graphic )) {
-HXLINE(  89)			return graphic;
+HXLINE(  82)		 ::flixel::_hx_system::frontEnds::BitmapFrontEnd _this = ::flixel::FlxG_obj::bitmap;
+HXDLIN(  82)		::String key = ::Type_obj::getClassName(Source);
+HXLINE(  83)		key = ::flixel::FlxG_obj::bitmap->generateKey(key,Key,Unique);
+HXLINE(  84)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE(  85)		if (::hx::IsNotNull( graphic )) {
+HXLINE(  86)			return graphic;
             		}
-HXLINE(  91)		bitmap = ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(Source,::cpp::VirtualArray_obj::__new(0))) );
-HXLINE(  92)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,Unique,null());
-HXLINE(  93)		graphic->assetsClass = Source;
-HXLINE(  94)		return graphic;
+HXLINE(  88)		bitmap = ( ( ::openfl::display::BitmapData)(::Type_obj::createInstance(Source,::cpp::VirtualArray_obj::__new(0))) );
+HXLINE(  89)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,Unique,null());
+HXLINE(  90)		graphic->assetsClass = Source;
+HXLINE(  91)		return graphic;
             	}
 
 
@@ -605,28 +614,28 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC4(FlxGraphic_obj,fromClass,return )
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::fromBitmapData( ::openfl::display::BitmapData Source,::hx::Null< bool >  __o_Unique,::String Key,::hx::Null< bool >  __o_Cache){
             		bool Unique = __o_Unique.Default(false);
             		bool Cache = __o_Cache.Default(true);
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_108_fromBitmapData)
-HXLINE( 109)		if (!(Cache)) {
-HXLINE( 110)			return ::flixel::graphics::FlxGraphic_obj::createGraphic(Source,Key,Unique,Cache);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_105_fromBitmapData)
+HXLINE( 106)		if (!(Cache)) {
+HXLINE( 107)			return ::flixel::graphics::FlxGraphic_obj::createGraphic(Source,Key,Unique,Cache);
             		}
-HXLINE( 112)		::String key = ::flixel::FlxG_obj::bitmap->findKeyForBitmap(Source);
-HXLINE( 114)		::String assetKey = null();
-HXLINE( 115)		::hx::Class assetClass = null();
-HXLINE( 116)		 ::flixel::graphics::FlxGraphic graphic = null();
-HXLINE( 117)		if (::hx::IsNotNull( key )) {
-HXLINE( 119)			graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE( 120)			assetKey = graphic->assetsKey;
-HXLINE( 121)			assetClass = graphic->assetsClass;
+HXLINE( 109)		::String key = ::flixel::FlxG_obj::bitmap->findKeyForBitmap(Source);
+HXLINE( 111)		::String assetKey = null();
+HXLINE( 112)		::hx::Class assetClass = null();
+HXLINE( 113)		 ::flixel::graphics::FlxGraphic graphic = null();
+HXLINE( 114)		if (::hx::IsNotNull( key )) {
+HXLINE( 116)			graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE( 117)			assetKey = graphic->assetsKey;
+HXLINE( 118)			assetClass = graphic->assetsClass;
             		}
-HXLINE( 124)		key = ::flixel::FlxG_obj::bitmap->generateKey(key,Key,Unique);
-HXLINE( 125)		graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE( 126)		if (::hx::IsNotNull( graphic )) {
-HXLINE( 127)			return graphic;
+HXLINE( 121)		key = ::flixel::FlxG_obj::bitmap->generateKey(key,Key,Unique);
+HXLINE( 122)		graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE( 123)		if (::hx::IsNotNull( graphic )) {
+HXLINE( 124)			return graphic;
             		}
-HXLINE( 129)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(Source,key,Unique,null());
-HXLINE( 130)		graphic->assetsKey = assetKey;
-HXLINE( 131)		graphic->assetsClass = assetClass;
-HXLINE( 132)		return graphic;
+HXLINE( 126)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(Source,key,Unique,null());
+HXLINE( 127)		graphic->assetsKey = assetKey;
+HXLINE( 128)		graphic->assetsClass = assetClass;
+HXLINE( 129)		return graphic;
             	}
 
 
@@ -635,39 +644,39 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC4(FlxGraphic_obj,fromBitmapData,return )
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::fromFrame( ::flixel::graphics::frames::FlxFrame Source,::hx::Null< bool >  __o_Unique,::String Key,::hx::Null< bool >  __o_Cache){
             		bool Unique = __o_Unique.Default(false);
             		bool Cache = __o_Cache.Default(true);
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_147_fromFrame)
-HXLINE( 148)		::String key = Source->name;
-HXLINE( 149)		if (::hx::IsNull( key )) {
-HXLINE( 150)			 ::flixel::math::FlxRect _this = Source->frame;
-HXDLIN( 150)			 ::Dynamic value = _this->x;
-HXDLIN( 150)			 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 150)			_this1->label = HX_("x",78,00,00,00);
-HXDLIN( 150)			_this1->value = value;
-HXDLIN( 150)			 ::Dynamic value1 = _this->y;
-HXDLIN( 150)			 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 150)			_this2->label = HX_("y",79,00,00,00);
-HXDLIN( 150)			_this2->value = value1;
-HXDLIN( 150)			 ::Dynamic value2 = _this->width;
-HXDLIN( 150)			 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 150)			_this3->label = HX_("w",77,00,00,00);
-HXDLIN( 150)			_this3->value = value2;
-HXDLIN( 150)			 ::Dynamic value3 = _this->height;
-HXDLIN( 150)			 ::flixel::util::LabelValuePair _this4 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
-HXDLIN( 150)			_this4->label = HX_("h",68,00,00,00);
-HXDLIN( 150)			_this4->value = value3;
-HXDLIN( 150)			key = ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(4)->init(0,_this1)->init(1,_this2)->init(2,_this3)->init(3,_this4));
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_144_fromFrame)
+HXLINE( 145)		::String key = Source->name;
+HXLINE( 146)		if (::hx::IsNull( key )) {
+HXLINE( 147)			 ::flixel::math::FlxRect _this = Source->frame;
+HXDLIN( 147)			 ::Dynamic value = _this->x;
+HXDLIN( 147)			 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 147)			_this1->label = HX_("x",78,00,00,00);
+HXDLIN( 147)			_this1->value = value;
+HXDLIN( 147)			 ::Dynamic value1 = _this->y;
+HXDLIN( 147)			 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 147)			_this2->label = HX_("y",79,00,00,00);
+HXDLIN( 147)			_this2->value = value1;
+HXDLIN( 147)			 ::Dynamic value2 = _this->width;
+HXDLIN( 147)			 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 147)			_this3->label = HX_("w",77,00,00,00);
+HXDLIN( 147)			_this3->value = value2;
+HXDLIN( 147)			 ::Dynamic value3 = _this->height;
+HXDLIN( 147)			 ::flixel::util::LabelValuePair _this4 = ::flixel::util::LabelValuePair_obj::_pool->get().StaticCast<  ::flixel::util::LabelValuePair >();
+HXDLIN( 147)			_this4->label = HX_("h",68,00,00,00);
+HXDLIN( 147)			_this4->value = value3;
+HXDLIN( 147)			key = ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(4)->init(0,_this1)->init(1,_this2)->init(2,_this3)->init(3,_this4));
             		}
-HXLINE( 151)		key = ((Source->parent->key + HX_(":",3a,00,00,00)) + key);
-HXLINE( 152)		key = ::flixel::FlxG_obj::bitmap->generateKey(key,Key,Unique);
-HXLINE( 153)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE( 154)		if (::hx::IsNotNull( graphic )) {
-HXLINE( 155)			return graphic;
+HXLINE( 148)		key = ((Source->parent->key + HX_(":",3a,00,00,00)) + key);
+HXLINE( 149)		key = ::flixel::FlxG_obj::bitmap->generateKey(key,Key,Unique);
+HXLINE( 150)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE( 151)		if (::hx::IsNotNull( graphic )) {
+HXLINE( 152)			return graphic;
             		}
-HXLINE( 157)		 ::openfl::display::BitmapData bitmap = Source->paint(null(),null(),null(),null());
-HXLINE( 158)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,Unique,Cache);
-HXLINE( 159)		 ::flixel::graphics::frames::FlxImageFrame image = ::flixel::graphics::frames::FlxImageFrame_obj::fromGraphic(graphic,null());
-HXLINE( 160)		image->frames->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >()->name = Source->name;
-HXLINE( 161)		return graphic;
+HXLINE( 154)		 ::openfl::display::BitmapData bitmap = Source->paint(null(),null(),null(),null());
+HXLINE( 155)		graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,Unique,Cache);
+HXLINE( 156)		 ::flixel::graphics::frames::FlxImageFrame image = ::flixel::graphics::frames::FlxImageFrame_obj::fromGraphic(graphic,null());
+HXLINE( 157)		image->frames->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >()->name = Source->name;
+HXLINE( 158)		return graphic;
             	}
 
 
@@ -675,8 +684,8 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC4(FlxGraphic_obj,fromFrame,return )
 
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::fromFrames( ::flixel::graphics::frames::FlxFramesCollection Source,::hx::Null< bool >  __o_Unique,::String Key){
             		bool Unique = __o_Unique.Default(false);
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_177_fromFrames)
-HXDLIN( 177)		return ::flixel::graphics::FlxGraphic_obj::fromGraphic(Source->parent,Unique,Key);
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_174_fromFrames)
+HXDLIN( 174)		return ::flixel::graphics::FlxGraphic_obj::fromGraphic(Source->parent,Unique,Key);
             	}
 
 
@@ -684,17 +693,17 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC3(FlxGraphic_obj,fromFrames,return )
 
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::fromGraphic( ::flixel::graphics::FlxGraphic Source,::hx::Null< bool >  __o_Unique,::String Key){
             		bool Unique = __o_Unique.Default(false);
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_191_fromGraphic)
-HXLINE( 192)		if (!(Unique)) {
-HXLINE( 193)			return Source;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_188_fromGraphic)
+HXLINE( 189)		if (!(Unique)) {
+HXLINE( 190)			return Source;
             		}
-HXLINE( 195)		::String key = ::flixel::FlxG_obj::bitmap->generateKey(Source->key,Key,Unique);
-HXLINE( 196)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(Source->bitmap,key,Unique,null());
-HXLINE( 197)		graphic->unique = Unique;
-HXLINE( 198)		graphic->assetsClass = Source->assetsClass;
-HXLINE( 199)		graphic->assetsKey = Source->assetsKey;
-HXLINE( 200)		::flixel::FlxG_obj::bitmap->_cache->set(graphic->key,graphic);
-HXDLIN( 200)		return graphic;
+HXLINE( 192)		::String key = ::flixel::FlxG_obj::bitmap->generateKey(Source->key,Key,Unique);
+HXLINE( 193)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::graphics::FlxGraphic_obj::createGraphic(Source->bitmap,key,Unique,null());
+HXLINE( 194)		graphic->unique = Unique;
+HXLINE( 195)		graphic->assetsClass = Source->assetsClass;
+HXLINE( 196)		graphic->assetsKey = Source->assetsKey;
+HXLINE( 197)		::flixel::FlxG_obj::bitmap->_cache->set(graphic->key,graphic);
+HXDLIN( 197)		return graphic;
             	}
 
 
@@ -702,15 +711,15 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC3(FlxGraphic_obj,fromGraphic,return )
 
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::fromRectangle(int Width,int Height,int Color,::hx::Null< bool >  __o_Unique,::String Key){
             		bool Unique = __o_Unique.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_214_fromRectangle)
-HXLINE( 215)		::String systemKey = ((((Width + HX_("x",78,00,00,00)) + Height) + HX_(":",3a,00,00,00)) + Color);
-HXLINE( 216)		::String key = ::flixel::FlxG_obj::bitmap->generateKey(systemKey,Key,Unique);
-HXLINE( 218)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
-HXLINE( 219)		if (::hx::IsNotNull( graphic )) {
-HXLINE( 220)			return graphic;
+            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_211_fromRectangle)
+HXLINE( 212)		::String systemKey = ((((Width + HX_("x",78,00,00,00)) + Height) + HX_(":",3a,00,00,00)) + Color);
+HXLINE( 213)		::String key = ::flixel::FlxG_obj::bitmap->generateKey(systemKey,Key,Unique);
+HXLINE( 215)		 ::flixel::graphics::FlxGraphic graphic = ( ( ::flixel::graphics::FlxGraphic)(::flixel::FlxG_obj::bitmap->_cache->get(key)) );
+HXLINE( 216)		if (::hx::IsNotNull( graphic )) {
+HXLINE( 217)			return graphic;
             		}
-HXLINE( 222)		 ::openfl::display::BitmapData bitmap =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,Width,Height,true,Color);
-HXLINE( 223)		return ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,null(),null());
+HXLINE( 219)		 ::openfl::display::BitmapData bitmap =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,Width,Height,true,Color);
+HXLINE( 220)		return ::flixel::graphics::FlxGraphic_obj::createGraphic(bitmap,key,null(),null());
             	}
 
 
@@ -718,14 +727,14 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC5(FlxGraphic_obj,fromRectangle,return )
 
  ::openfl::display::BitmapData FlxGraphic_obj::getBitmap( ::openfl::display::BitmapData Bitmap,::hx::Null< bool >  __o_Unique){
             		bool Unique = __o_Unique.Default(false);
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_235_getBitmap)
-HXDLIN( 235)		if (Unique) {
-HXDLIN( 235)			return Bitmap->clone();
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_232_getBitmap)
+HXDLIN( 232)		if (Unique) {
+HXDLIN( 232)			return Bitmap->clone();
             		}
             		else {
-HXDLIN( 235)			return Bitmap;
+HXDLIN( 232)			return Bitmap;
             		}
-HXDLIN( 235)		return null();
+HXDLIN( 232)		return null();
             	}
 
 
@@ -734,36 +743,36 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxGraphic_obj,getBitmap,return )
  ::flixel::graphics::FlxGraphic FlxGraphic_obj::createGraphic( ::openfl::display::BitmapData Bitmap,::String Key,::hx::Null< bool >  __o_Unique,::hx::Null< bool >  __o_Cache){
             		bool Unique = __o_Unique.Default(false);
             		bool Cache = __o_Cache.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_249_createGraphic)
-HXLINE( 250)		if (Unique) {
-HXLINE( 250)			Bitmap = Bitmap->clone();
+            	HX_GC_STACKFRAME(&_hx_pos_3b8710f86d15c371_246_createGraphic)
+HXLINE( 247)		if (Unique) {
+HXLINE( 247)			Bitmap = Bitmap->clone();
             		}
-HXLINE( 251)		 ::flixel::graphics::FlxGraphic graphic = null();
-HXLINE( 253)		if (Cache) {
-HXLINE( 255)			graphic =  ::flixel::graphics::FlxGraphic_obj::__alloc( HX_CTX ,Key,Bitmap,null());
-HXLINE( 256)			graphic->unique = Unique;
-HXLINE( 257)			::flixel::FlxG_obj::bitmap->_cache->set(graphic->key,graphic);
+HXLINE( 248)		 ::flixel::graphics::FlxGraphic graphic = null();
+HXLINE( 250)		if (Cache) {
+HXLINE( 252)			graphic =  ::flixel::graphics::FlxGraphic_obj::__alloc( HX_CTX ,Key,Bitmap,null());
+HXLINE( 253)			graphic->unique = Unique;
+HXLINE( 254)			::flixel::FlxG_obj::bitmap->_cache->set(graphic->key,graphic);
             		}
             		else {
-HXLINE( 261)			graphic =  ::flixel::graphics::FlxGraphic_obj::__alloc( HX_CTX ,null(),Bitmap,null());
+HXLINE( 258)			graphic =  ::flixel::graphics::FlxGraphic_obj::__alloc( HX_CTX ,null(),Bitmap,null());
             		}
-HXLINE( 264)		return graphic;
+HXLINE( 261)		return graphic;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(FlxGraphic_obj,createGraphic,return )
 
 
-::hx::ObjectPtr< FlxGraphic_obj > FlxGraphic_obj::__new(::String Key, ::openfl::display::BitmapData Bitmap, ::Dynamic Persist) {
+::hx::ObjectPtr< FlxGraphic_obj > FlxGraphic_obj::__new(::String key, ::openfl::display::BitmapData bitmap, ::Dynamic persist) {
 	::hx::ObjectPtr< FlxGraphic_obj > __this = new FlxGraphic_obj();
-	__this->__construct(Key,Bitmap,Persist);
+	__this->__construct(key,bitmap,persist);
 	return __this;
 }
 
-::hx::ObjectPtr< FlxGraphic_obj > FlxGraphic_obj::__alloc(::hx::Ctx *_hx_ctx,::String Key, ::openfl::display::BitmapData Bitmap, ::Dynamic Persist) {
+::hx::ObjectPtr< FlxGraphic_obj > FlxGraphic_obj::__alloc(::hx::Ctx *_hx_ctx,::String key, ::openfl::display::BitmapData bitmap, ::Dynamic persist) {
 	FlxGraphic_obj *__this = (FlxGraphic_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(FlxGraphic_obj), true, "flixel.graphics.FlxGraphic"));
 	*(void **)__this = FlxGraphic_obj::_hx_vtable;
-	__this->__construct(Key,Bitmap,Persist);
+	__this->__construct(key,bitmap,persist);
 	return __this;
 }
 
@@ -850,6 +859,7 @@ void FlxGraphic_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"assetsClass") ) { return ::hx::Val( assetsClass ); }
+		if (HX_FIELD_EQ(inName,"isDestroyed") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_isDestroyed() ); }
 		if (HX_FIELD_EQ(inName,"canBeDumped") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_canBeDumped() ); }
 		if (HX_FIELD_EQ(inName,"atlasFrames") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_atlasFrames() ); }
 		if (HX_FIELD_EQ(inName,"_imageFrame") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get__imageFrame() ); }
@@ -872,6 +882,7 @@ void FlxGraphic_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"get__imageFrame") ) { return ::hx::Val( get__imageFrame_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set__imageFrame") ) { return ::hx::Val( set__imageFrame_dyn() ); }
 		if (HX_FIELD_EQ(inName,"_destroyOnNoUse") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get__destroyOnNoUse() ); }
+		if (HX_FIELD_EQ(inName,"get_isDestroyed") ) { return ::hx::Val( get_isDestroyed_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_canBeDumped") ) { return ::hx::Val( get_canBeDumped_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_atlasFrames") ) { return ::hx::Val( get_atlasFrames_dyn() ); }
 		break;
@@ -995,6 +1006,7 @@ void FlxGraphic_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("destroyOnNoUse",0d,ef,5c,a2));
 	outFields->push(HX_("isDumped",1d,26,5d,fa));
 	outFields->push(HX_("isLoaded",8f,e3,d8,b0));
+	outFields->push(HX_("isDestroyed",8f,ee,a7,d2));
 	outFields->push(HX_("canBeDumped",e6,48,77,53));
 	outFields->push(HX_("shader",25,bf,20,1d));
 	outFields->push(HX_("useCount",08,a7,ce,11));
@@ -1066,6 +1078,7 @@ static ::String FlxGraphic_obj_sMemberFields[] = {
 	HX_("getEmptyFrame",96,aa,48,e3),
 	HX_("getBitmapFromSystem",7e,f9,f8,76),
 	HX_("get_isLoaded",98,97,f2,65),
+	HX_("get_isDestroyed",26,a6,89,93),
 	HX_("get_canBeDumped",7d,00,59,14),
 	HX_("incrementUseCount",57,b0,47,17),
 	HX_("decrementUseCount",3b,24,d3,87),
@@ -1133,8 +1146,8 @@ void FlxGraphic_obj::__register()
 void FlxGraphic_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_28_boot)
-HXDLIN(  28)		defaultPersist = false;
+            	HX_STACKFRAME(&_hx_pos_3b8710f86d15c371_25_boot)
+HXDLIN(  25)		defaultPersist = false;
             	}
 }
 

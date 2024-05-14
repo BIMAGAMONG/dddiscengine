@@ -65,6 +65,9 @@ class HXCPP_CLASS_ATTRIBUTES FlxBaseSignal_obj : public ::hx::Object
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
+		void removeHandler( ::flixel::util::_FlxSignal::FlxSignalHandler handler);
+		::Dynamic removeHandler_dyn();
+
 		bool has( ::Dynamic listener);
 		::Dynamic has_dyn();
 

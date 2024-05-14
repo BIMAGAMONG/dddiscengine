@@ -11,15 +11,15 @@
 #include <flixel/util/helpers/FlxRange.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6a104454ab9b2fac_1174_new,"flixel.text._FlxText.FlxTextFormatRange","new",0x02a8ae38,"flixel.text._FlxText.FlxTextFormatRange.new","flixel/text/FlxText.hx",1174,0xdf165a6e)
+HX_DEFINE_STACK_FRAME(_hx_pos_6a104454ab9b2fac_1216_new,"flixel.text._FlxText.FlxTextFormatRange","new",0x02a8ae38,"flixel.text._FlxText.FlxTextFormatRange.new","flixel/text/FlxText.hx",1216,0xdf165a6e)
 namespace flixel{
 namespace text{
 namespace _FlxText{
 
 void FlxTextFormatRange_obj::__construct( ::flixel::text::FlxTextFormat format,int start,int end){
-            	HX_GC_STACKFRAME(&_hx_pos_6a104454ab9b2fac_1174_new)
-HXLINE(1175)		this->range =  ::flixel::util::helpers::FlxRange_obj::__alloc( HX_CTX ,start,end);
-HXLINE(1176)		this->format = format;
+            	HX_GC_STACKFRAME(&_hx_pos_6a104454ab9b2fac_1216_new)
+HXLINE(1217)		this->range =  ::flixel::util::helpers::FlxRange_obj::__alloc( HX_CTX ,start,end);
+HXLINE(1218)		this->format = format;
             	}
 
 Dynamic FlxTextFormatRange_obj::__CreateEmpty() { return new FlxTextFormatRange_obj; }

@@ -724,8 +724,8 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,get_pitch,return )
 Float FlxSound_obj::set_pitch(Float v){
             	HX_STACKFRAME(&_hx_pos_119249e340fa9820_750_set_pitch)
 HXLINE( 751)		if (::hx::IsNotNull( this->_channel )) {
-HXLINE( 760)			if (::hx::IsNotNull( this->_channel->_hx___audioSource )) {
-HXLINE( 761)				this->_channel->_hx___audioSource->set_pitch(v);
+HXLINE( 755)			if (::hx::IsNotNull( this->_channel->_hx___source )) {
+HXLINE( 756)				this->_channel->_hx___source->set_pitch(v);
             			}
             		}
 HXLINE( 764)		return (this->_pitch = v);

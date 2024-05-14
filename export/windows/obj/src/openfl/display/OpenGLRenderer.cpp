@@ -23,6 +23,9 @@
 #ifndef INCLUDED_lime_math__Matrix4_Matrix4_Impl_
 #include <lime/math/_Matrix4/Matrix4_Impl_.h>
 #endif
+#ifndef INCLUDED_lime_ui_Window
+#include <lime/ui/Window.h>
+#endif
 #ifndef INCLUDED_lime_utils_ArrayBufferView
 #include <lime/utils/ArrayBufferView.h>
 #endif
@@ -1308,18 +1311,18 @@ HXLINE( 983)				height = (::Math_obj::ceil(clipRect->get_bottom()) - y);
 HXLINE( 983)				height = 0;
             			}
 HXLINE( 985)			if (this->_hx___context3D->_hx___backBufferWantsBestResolution) {
-HXLINE( 987)				x = ::Math_obj::floor((clipRect->x / this->_hx___pixelRatio));
-HXLINE( 988)				y = ::Math_obj::floor((clipRect->y / this->_hx___pixelRatio));
+HXLINE( 987)				x = ::Math_obj::floor((clipRect->x / this->_hx___stage->window->_hx___scale));
+HXLINE( 988)				y = ::Math_obj::floor((clipRect->y / this->_hx___stage->window->_hx___scale));
 HXLINE( 989)				if ((clipRect->width > 0)) {
 HXLINE( 989)					Float width1 = clipRect->get_right();
-HXDLIN( 989)					width = (::Math_obj::ceil((width1 / this->_hx___pixelRatio)) - x);
+HXDLIN( 989)					width = (::Math_obj::ceil((width1 / this->_hx___stage->window->_hx___scale)) - x);
             				}
             				else {
 HXLINE( 989)					width = 0;
             				}
 HXLINE( 990)				if ((clipRect->height > 0)) {
 HXLINE( 990)					Float height1 = clipRect->get_bottom();
-HXDLIN( 990)					height = (::Math_obj::ceil((height1 / this->_hx___pixelRatio)) - y);
+HXDLIN( 990)					height = (::Math_obj::ceil((height1 / this->_hx___stage->window->_hx___scale)) - y);
             				}
             				else {
 HXLINE( 990)					height = 0;

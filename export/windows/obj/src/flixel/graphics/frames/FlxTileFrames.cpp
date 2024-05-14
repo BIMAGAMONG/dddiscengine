@@ -596,15 +596,24 @@ HXLINE( 233)					framesToAdd->push(frame);
 HXLINE( 236)		if ((framesToAdd->length > 0)) {
 HXLINE( 238)			::String name = framesToAdd->__get(0).StaticCast<  ::flixel::graphics::frames::FlxFrame >()->name;
 HXLINE( 239)			int postIndex = name.indexOf(HX_(".",2e,00,00,00),Prefix.length);
-HXLINE( 240)			int postFix;
+HXLINE( 240)			int suffix;
 HXDLIN( 240)			if ((postIndex == -1)) {
-HXLINE( 240)				postFix = name.length;
+HXLINE( 240)				suffix = name.length;
             			}
             			else {
-HXLINE( 240)				postFix = postIndex;
+HXLINE( 240)				suffix = postIndex;
             			}
-HXDLIN( 240)			::String postFix1 = name.substring(postFix,name.length);
-HXLINE( 242)			::flixel::graphics::frames::FlxFrame_obj::sort(framesToAdd,Prefix.length,postFix1.length);
+HXDLIN( 240)			::String suffix1 = name.substring(suffix,name.length);
+HXLINE( 242)			{
+HXLINE( 242)				int _hx_tmp;
+HXDLIN( 242)				if (::hx::IsNull( suffix1 )) {
+HXLINE( 242)					_hx_tmp = 0;
+            				}
+            				else {
+HXLINE( 242)					_hx_tmp = suffix1.length;
+            				}
+HXDLIN( 242)				::flixel::graphics::frames::FlxFrame_obj::sortHelper(framesToAdd,Prefix.length,_hx_tmp,true);
+            			}
 HXLINE( 243)			return ::flixel::graphics::frames::FlxTileFrames_obj::fromFrames(framesToAdd);
             		}
 HXLINE( 246)		return null();

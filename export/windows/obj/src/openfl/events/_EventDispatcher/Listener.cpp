@@ -12,7 +12,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_4056b9d72619ced0_600_new,"openfl.events._EventDispatcher.Listener","new",0x63be323b,"openfl.events._EventDispatcher.Listener.new","openfl/events/EventDispatcher.hx",600,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_4056b9d72619ced0_632_match,"openfl.events._EventDispatcher.Listener","match",0xdf4e17e0,"openfl.events._EventDispatcher.Listener.match","openfl/events/EventDispatcher.hx",632,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_4056b9d72619ced0_628_match,"openfl.events._EventDispatcher.Listener","match",0xdf4e17e0,"openfl.events._EventDispatcher.Listener.match","openfl/events/EventDispatcher.hx",628,0xe2270714)
 HX_LOCAL_STACK_FRAME(_hx_pos_4056b9d72619ced0_584_boot,"openfl.events._EventDispatcher.Listener","boot",0xdac6c1f7,"openfl.events._EventDispatcher.Listener.boot","openfl/events/EventDispatcher.hx",584,0xe2270714)
 namespace openfl{
 namespace events{
@@ -20,15 +20,15 @@ namespace _EventDispatcher{
 
 void Listener_obj::__construct( ::Dynamic callback,bool useCapture,int priority,bool useWeakReference){
             	HX_GC_STACKFRAME(&_hx_pos_4056b9d72619ced0_600_new)
-HXLINE( 615)		if (useWeakReference) {
-HXLINE( 617)			this->weakRefCallback =  ::cpp::vm::WeakRef_obj::__alloc( HX_CTX ,callback,false);
+HXLINE( 611)		if (useWeakReference) {
+HXLINE( 613)			this->weakRefCallback =  ::cpp::vm::WeakRef_obj::__alloc( HX_CTX ,callback,false);
             		}
             		else {
-HXLINE( 621)			this->callback = callback;
+HXLINE( 617)			this->callback = callback;
             		}
-HXLINE( 626)		this->useCapture = useCapture;
-HXLINE( 627)		this->priority = priority;
-HXLINE( 628)		this->useWeakReference = useWeakReference;
+HXLINE( 622)		this->useCapture = useCapture;
+HXLINE( 623)		this->priority = priority;
+HXLINE( 624)		this->useWeakReference = useWeakReference;
             	}
 
 Dynamic Listener_obj::__CreateEmpty() { return new Listener_obj; }
@@ -47,21 +47,21 @@ bool Listener_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool Listener_obj::match( ::Dynamic callback,bool useCapture){
-            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_632_match)
-HXLINE( 633)		 ::Dynamic resolvedCallback = this->callback;
-HXLINE( 644)		if (::hx::IsNotNull( this->weakRefCallback )) {
-HXLINE( 646)			resolvedCallback = this->weakRefCallback->get();
-HXLINE( 647)			if (::hx::IsNull( resolvedCallback )) {
-HXLINE( 649)				return false;
+            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_628_match)
+HXLINE( 629)		 ::Dynamic resolvedCallback = this->callback;
+HXLINE( 640)		if (::hx::IsNotNull( this->weakRefCallback )) {
+HXLINE( 642)			resolvedCallback = this->weakRefCallback->get();
+HXLINE( 643)			if (::hx::IsNull( resolvedCallback )) {
+HXLINE( 645)				return false;
             			}
             		}
-HXLINE( 657)		if (::Reflect_obj::compareMethods(resolvedCallback,callback)) {
-HXLINE( 657)			return (this->useCapture == useCapture);
+HXLINE( 653)		if (::Reflect_obj::compareMethods(resolvedCallback,callback)) {
+HXLINE( 653)			return (this->useCapture == useCapture);
             		}
             		else {
-HXLINE( 657)			return false;
+HXLINE( 653)			return false;
             		}
-HXDLIN( 657)		return false;
+HXDLIN( 653)		return false;
             	}
 
 

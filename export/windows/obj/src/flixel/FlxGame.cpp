@@ -25,6 +25,9 @@
 #ifndef INCLUDED_flixel_FlxState
 #include <flixel/FlxState.h>
 #endif
+#ifndef INCLUDED_flixel__FlxGame_FlxIntroSplash
+#include <flixel/_FlxGame/FlxIntroSplash.h>
+#endif
 #ifndef INCLUDED_flixel_graphics_tile_FlxDrawBaseItem
 #include <flixel/graphics/tile/FlxDrawBaseItem.h>
 #endif
@@ -97,6 +100,12 @@
 #ifndef INCLUDED_flixel_util__FlxSignal_FlxSignal2
 #include <flixel/util/_FlxSignal/FlxSignal2.h>
 #endif
+#ifndef INCLUDED_flixel_util_typeLimit__NextState_InitialState_Impl_
+#include <flixel/util/typeLimit/_NextState/InitialState_Impl_.h>
+#endif
+#ifndef INCLUDED_flixel_util_typeLimit__NextState_NextState_Impl_
+#include <flixel/util/typeLimit/_NextState/NextState_Impl_.h>
+#endif
 #ifndef INCLUDED_lime_app_IModule
 #include <lime/app/IModule.h>
 #endif
@@ -149,70 +158,81 @@
 #include <openfl/utils/Assets.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_41_new,"flixel.FlxGame","new",0xde7d5f44,"flixel.FlxGame.new","flixel/FlxGame.hx",41,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_302_setFilters,"flixel.FlxGame","setFilters",0x71579bd5,"flixel.FlxGame.setFilters","flixel/FlxGame.hx",302,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_309_create,"flixel.FlxGame","create",0x90873e98,"flixel.FlxGame.create","flixel/FlxGame.hx",309,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_384_onFocus,"flixel.FlxGame","onFocus",0x6f2bcf1d,"flixel.FlxGame.onFocus","flixel/FlxGame.hx",384,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_428_onFocusLost,"flixel.FlxGame","onFocusLost",0xb7eef7a1,"flixel.FlxGame.onFocusLost","flixel/FlxGame.hx",428,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_464_onResize,"flixel.FlxGame","onResize",0xebfa470f,"flixel.FlxGame.onResize","flixel/FlxGame.hx",464,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_477_resizeGame,"flixel.FlxGame","resizeGame",0xcdcb59a2,"flixel.FlxGame.resizeGame","flixel/FlxGame.hx",477,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_509_onEnterFrame,"flixel.FlxGame","onEnterFrame",0x001b1a90,"flixel.FlxGame.onEnterFrame","flixel/FlxGame.hx",509,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_577_resetGame,"flixel.FlxGame","resetGame",0xde30cf45,"flixel.FlxGame.resetGame","flixel/FlxGame.hx",577,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_613_switchState,"flixel.FlxGame","switchState",0xedf41a61,"flixel.FlxGame.switchState","flixel/FlxGame.hx",613,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_655_gameStart,"flixel.FlxGame","gameStart",0x0d0c34f4,"flixel.FlxGame.gameStart","flixel/FlxGame.hx",655,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_667_step,"flixel.FlxGame","step",0xd28f5fe8,"flixel.FlxGame.step","flixel/FlxGame.hx",667,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_690_handleReplayRequests,"flixel.FlxGame","handleReplayRequests",0xefa2c6ef,"flixel.FlxGame.handleReplayRequests","flixel/FlxGame.hx",690,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_724_update,"flixel.FlxGame","update",0x9b7d5da5,"flixel.FlxGame.update","flixel/FlxGame.hx",724,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_770_updateElapsed,"flixel.FlxGame","updateElapsed",0x372d9117,"flixel.FlxGame.updateElapsed","flixel/FlxGame.hx",770,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_829_updateInput,"flixel.FlxGame","updateInput",0x1a1f4025,"flixel.FlxGame.updateInput","flixel/FlxGame.hx",829,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_848_draw,"flixel.FlxGame","draw",0xc8a3a4a0,"flixel.FlxGame.draw","flixel/FlxGame.hx",848,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_893_getTicks,"flixel.FlxGame","getTicks",0x73d7349c,"flixel.FlxGame.getTicks","flixel/FlxGame.hx",893,0x34f39fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_899___default_getTimer,"flixel.FlxGame","__default_getTimer",0xda03b289,"flixel.FlxGame.__default_getTimer","flixel/FlxGame.hx",899,0x34f39fed)
+HX_DEFINE_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_42_new,"flixel.FlxGame","new",0xde7d5f44,"flixel.FlxGame.new","flixel/FlxGame.hx",42,0x34f39fed)
+HX_DEFINE_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_294_new,"flixel.FlxGame","new",0xde7d5f44,"flixel.FlxGame.new","flixel/FlxGame.hx",294,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_304_setFilters,"flixel.FlxGame","setFilters",0x71579bd5,"flixel.FlxGame.setFilters","flixel/FlxGame.hx",304,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_311_create,"flixel.FlxGame","create",0x90873e98,"flixel.FlxGame.create","flixel/FlxGame.hx",311,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_366_create,"flixel.FlxGame","create",0x90873e98,"flixel.FlxGame.create","flixel/FlxGame.hx",366,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_386_onFocus,"flixel.FlxGame","onFocus",0x6f2bcf1d,"flixel.FlxGame.onFocus","flixel/FlxGame.hx",386,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_430_onFocusLost,"flixel.FlxGame","onFocusLost",0xb7eef7a1,"flixel.FlxGame.onFocusLost","flixel/FlxGame.hx",430,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_466_onResize,"flixel.FlxGame","onResize",0xebfa470f,"flixel.FlxGame.onResize","flixel/FlxGame.hx",466,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_479_resizeGame,"flixel.FlxGame","resizeGame",0xcdcb59a2,"flixel.FlxGame.resizeGame","flixel/FlxGame.hx",479,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_511_onEnterFrame,"flixel.FlxGame","onEnterFrame",0x001b1a90,"flixel.FlxGame.onEnterFrame","flixel/FlxGame.hx",511,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_579_resetGame,"flixel.FlxGame","resetGame",0xde30cf45,"flixel.FlxGame.resetGame","flixel/FlxGame.hx",579,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_593_resetGame,"flixel.FlxGame","resetGame",0xde30cf45,"flixel.FlxGame.resetGame","flixel/FlxGame.hx",593,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_608_switchState,"flixel.FlxGame","switchState",0xedf41a61,"flixel.FlxGame.switchState","flixel/FlxGame.hx",608,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_652_gameStart,"flixel.FlxGame","gameStart",0x0d0c34f4,"flixel.FlxGame.gameStart","flixel/FlxGame.hx",652,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_664_step,"flixel.FlxGame","step",0xd28f5fe8,"flixel.FlxGame.step","flixel/FlxGame.hx",664,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_668_step,"flixel.FlxGame","step",0xd28f5fe8,"flixel.FlxGame.step","flixel/FlxGame.hx",668,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_687_handleReplayRequests,"flixel.FlxGame","handleReplayRequests",0xefa2c6ef,"flixel.FlxGame.handleReplayRequests","flixel/FlxGame.hx",687,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_721_update,"flixel.FlxGame","update",0x9b7d5da5,"flixel.FlxGame.update","flixel/FlxGame.hx",721,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_767_updateElapsed,"flixel.FlxGame","updateElapsed",0x372d9117,"flixel.FlxGame.updateElapsed","flixel/FlxGame.hx",767,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_826_updateInput,"flixel.FlxGame","updateInput",0x1a1f4025,"flixel.FlxGame.updateInput","flixel/FlxGame.hx",826,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_845_draw,"flixel.FlxGame","draw",0xc8a3a4a0,"flixel.FlxGame.draw","flixel/FlxGame.hx",845,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_890_getTicks,"flixel.FlxGame","getTicks",0x73d7349c,"flixel.FlxGame.getTicks","flixel/FlxGame.hx",890,0x34f39fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_ad2b8ce2bfb1aa86_896___default_getTimer,"flixel.FlxGame","__default_getTimer",0xda03b289,"flixel.FlxGame.__default_getTimer","flixel/FlxGame.hx",896,0x34f39fed)
 namespace flixel{
 
-void FlxGame_obj::__construct(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight,::hx::Class initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen){
+void FlxGame_obj::__construct(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight, ::Dynamic initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen){
             		int gameWidth = __o_gameWidth.Default(0);
             		int gameHeight = __o_gameHeight.Default(0);
             		int updateFramerate = __o_updateFramerate.Default(60);
             		int drawFramerate = __o_drawFramerate.Default(60);
             		bool skipSplash = __o_skipSplash.Default(false);
             		bool startFullscreen = __o_startFullscreen.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_41_new)
-HXLINE( 209)		this->_resetGame = false;
-HXLINE( 198)		this->_startFullscreen = false;
-HXLINE( 191)		this->_skipSplash = false;
-HXLINE( 185)		this->_customFocusLostScreen = ::hx::ClassOf< ::flixel::_hx_system::ui::FlxFocusLostScreen >();
-HXLINE( 177)		this->_customSoundTray = ::hx::ClassOf< ::flixel::_hx_system::ui::FlxSoundTray >();
-HXLINE( 143)		this->_lostFocus = false;
-HXLINE( 111)		this->_startTime = 0;
-HXLINE( 105)		this->_total = 0;
-HXLINE(  90)		this->_gameJustStarted = false;
-HXLINE(  84)		this->filtersEnabled = true;
-HXLINE(  79)		this->ticks = 0;
-HXLINE(  46)		this->focusLostFramerate = 10;
-HXLINE( 265)		super::__construct();
-HXLINE( 268)		this->_startFullscreen = startFullscreen;
-HXLINE( 272)		this->_inputContainer =  ::openfl::display::Sprite_obj::__alloc( HX_CTX );
-HXLINE( 274)		if ((gameWidth == 0)) {
-HXLINE( 275)			gameWidth = ::openfl::Lib_obj::get_current()->stage->stageWidth;
+            	HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_42_new)
+HXLINE( 210)		this->_resetGame = false;
+HXLINE( 199)		this->_startFullscreen = false;
+HXLINE( 192)		this->_skipSplash = false;
+HXLINE( 186)		this->_customFocusLostScreen = ::hx::ClassOf< ::flixel::_hx_system::ui::FlxFocusLostScreen >();
+HXLINE( 178)		this->_customSoundTray = ::hx::ClassOf< ::flixel::_hx_system::ui::FlxSoundTray >();
+HXLINE( 144)		this->_lostFocus = false;
+HXLINE( 112)		this->_startTime = 0;
+HXLINE( 106)		this->_total = 0;
+HXLINE(  91)		this->_gameJustStarted = false;
+HXLINE(  85)		this->filtersEnabled = true;
+HXLINE(  80)		this->ticks = 0;
+HXLINE(  47)		this->focusLostFramerate = 10;
+HXLINE( 267)		super::__construct();
+HXLINE( 270)		this->_startFullscreen = startFullscreen;
+HXLINE( 274)		this->_inputContainer =  ::openfl::display::Sprite_obj::__alloc( HX_CTX );
+HXLINE( 276)		if ((gameWidth == 0)) {
+HXLINE( 277)			gameWidth = ::openfl::Lib_obj::get_current()->stage->stageWidth;
             		}
-HXLINE( 276)		if ((gameHeight == 0)) {
-HXLINE( 277)			gameHeight = ::openfl::Lib_obj::get_current()->stage->stageHeight;
+HXLINE( 278)		if ((gameHeight == 0)) {
+HXLINE( 279)			gameHeight = ::openfl::Lib_obj::get_current()->stage->stageHeight;
             		}
-HXLINE( 280)		::flixel::FlxG_obj::init(::hx::ObjectPtr<OBJ_>(this),gameWidth,gameHeight);
-HXLINE( 282)		::flixel::FlxG_obj::set_updateFramerate(updateFramerate);
-HXLINE( 283)		::flixel::FlxG_obj::set_drawFramerate(drawFramerate);
-HXLINE( 284)		this->_accumulator = this->_stepMS;
-HXLINE( 285)		this->_skipSplash = skipSplash;
-HXLINE( 292)		::hx::Class _hx_tmp;
-HXDLIN( 292)		if (::hx::IsNull( initialState )) {
-HXLINE( 292)			_hx_tmp = ::hx::ClassOf< ::flixel::FlxState >();
+HXLINE( 282)		::flixel::FlxG_obj::init(::hx::ObjectPtr<OBJ_>(this),gameWidth,gameHeight);
+HXLINE( 284)		::flixel::FlxG_obj::set_updateFramerate(updateFramerate);
+HXLINE( 285)		::flixel::FlxG_obj::set_drawFramerate(drawFramerate);
+HXLINE( 286)		this->_accumulator = this->_stepMS;
+HXLINE( 287)		this->_skipSplash = skipSplash;
+HXLINE( 294)		 ::Dynamic _hx_tmp;
+HXDLIN( 294)		if (::hx::IsNull( initialState )) {
+            			HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
+            			 ::flixel::FlxState _hx_run(){
+            				HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_294_new)
+HXLINE( 294)				return  ::flixel::FlxState_obj::__alloc( HX_CTX );
+            			}
+            			HX_END_LOCAL_FUNC0(return)
+
+HXLINE( 294)			_hx_tmp = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::fromMaker( ::Dynamic(new _hx_Closure_0()));
             		}
             		else {
-HXLINE( 292)			_hx_tmp = initialState;
+HXLINE( 294)			_hx_tmp = ::flixel::util::typeLimit::_NextState::InitialState_Impl__obj::toNextState(initialState);
             		}
-HXDLIN( 292)		this->_initialState = _hx_tmp;
-HXLINE( 294)		this->addEventListener(HX_("addedToStage",63,22,55,0c),this->create_dyn(),null(),null(),null());
+HXDLIN( 294)		this->_initialState = _hx_tmp;
+HXLINE( 296)		this->addEventListener(HX_("addedToStage",63,22,55,0c),this->create_dyn(),null(),null(),null());
             	}
 
 Dynamic FlxGame_obj::__CreateEmpty() { return new FlxGame_obj; }
@@ -247,90 +267,88 @@ bool FlxGame_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxGame_obj::setFilters(::Array< ::Dynamic> filters){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_302_setFilters)
-HXDLIN( 302)		this->_filters = filters;
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_304_setFilters)
+HXDLIN( 304)		this->_filters = filters;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGame_obj,setFilters,(void))
 
 void FlxGame_obj::create( ::openfl::events::Event _){
-            	HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_309_create)
-HXLINE( 310)		if (::hx::IsNull( this->stage )) {
-HXLINE( 311)			return;
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_311_create)
+HXLINE( 312)		if (::hx::IsNull( this->stage )) {
+HXLINE( 313)			return;
             		}
-HXLINE( 313)		this->removeEventListener(HX_("addedToStage",63,22,55,0c),this->create_dyn(),null());
-HXLINE( 315)		this->_startTime = ( (int)(this->getTimer()) );
-HXLINE( 316)		int _hx_tmp = ( (int)(this->getTimer()) );
-HXDLIN( 316)		this->_total = (_hx_tmp - this->_startTime);
-HXLINE( 319)		::flixel::FlxG_obj::set_fullscreen(this->_startFullscreen);
-HXLINE( 323)		this->stage->set_scaleMode(2);
-HXLINE( 324)		this->stage->align = 6;
-HXLINE( 325)		this->stage->set_frameRate(( (Float)(::flixel::FlxG_obj::drawFramerate) ));
-HXLINE( 327)		this->addChild(this->_inputContainer);
-HXLINE( 344)		this->soundTray = ( ( ::flixel::_hx_system::ui::FlxSoundTray)(::Type_obj::createInstance(this->_customSoundTray,::cpp::VirtualArray_obj::__new(0))) );
-HXLINE( 345)		this->addChild(this->soundTray);
-HXLINE( 349)		this->_focusLostScreen = ( ( ::flixel::_hx_system::ui::FlxFocusLostScreen)(::Type_obj::createInstance(this->_customFocusLostScreen,::cpp::VirtualArray_obj::__new(0))) );
-HXLINE( 350)		this->addChild(this->_focusLostScreen);
-HXLINE( 359)		this->stage->addEventListener(HX_("deactivate",34,5c,01,3c),this->onFocusLost_dyn(),null(),null(),null());
-HXLINE( 360)		this->stage->addEventListener(HX_("activate",b3,1b,ac,e5),this->onFocus_dyn(),null(),null(),null());
-HXLINE( 364)		{
-HXLINE( 364)			::flixel::FlxG_obj::signals->preGameReset->dispatch();
-HXDLIN( 364)			bool _hx_tmp1;
-HXDLIN( 364)			if (!(this->_skipSplash)) {
-HXLINE( 364)				_hx_tmp1 = ::hx::IsNotNull( ::flixel::_hx_system::FlxSplash_obj::nextState );
+HXLINE( 315)		this->removeEventListener(HX_("addedToStage",63,22,55,0c),this->create_dyn(),null());
+HXLINE( 317)		this->_startTime = ( (int)(this->getTimer()) );
+HXLINE( 318)		int _hx_tmp = ( (int)(this->getTimer()) );
+HXDLIN( 318)		this->_total = (_hx_tmp - this->_startTime);
+HXLINE( 321)		::flixel::FlxG_obj::set_fullscreen(this->_startFullscreen);
+HXLINE( 325)		this->stage->set_scaleMode(2);
+HXLINE( 326)		this->stage->align = 6;
+HXLINE( 327)		this->stage->set_frameRate(( (Float)(::flixel::FlxG_obj::drawFramerate) ));
+HXLINE( 329)		this->addChild(this->_inputContainer);
+HXLINE( 346)		this->soundTray = ( ( ::flixel::_hx_system::ui::FlxSoundTray)(::Type_obj::createInstance(this->_customSoundTray,::cpp::VirtualArray_obj::__new(0))) );
+HXLINE( 347)		this->addChild(this->soundTray);
+HXLINE( 351)		this->_focusLostScreen = ( ( ::flixel::_hx_system::ui::FlxFocusLostScreen)(::Type_obj::createInstance(this->_customFocusLostScreen,::cpp::VirtualArray_obj::__new(0))) );
+HXLINE( 352)		this->addChild(this->_focusLostScreen);
+HXLINE( 361)		this->stage->addEventListener(HX_("deactivate",34,5c,01,3c),this->onFocusLost_dyn(),null(),null(),null());
+HXLINE( 362)		this->stage->addEventListener(HX_("activate",b3,1b,ac,e5),this->onFocus_dyn(),null(),null(),null());
+HXLINE( 366)		{
+HXLINE( 366)			 ::flixel::FlxGame _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 366)			::flixel::FlxG_obj::signals->preGameReset->dispatch();
+HXDLIN( 366)			if (this->_skipSplash) {
+HXLINE( 366)				this->_nextState = this->_initialState;
+HXDLIN( 366)				this->_gameJustStarted = true;
             			}
             			else {
-HXLINE( 364)				_hx_tmp1 = true;
-            			}
-HXDLIN( 364)			if (_hx_tmp1) {
-HXLINE( 364)				this->_requestedState = ( ( ::flixel::FlxState)(::Type_obj::createInstance(this->_initialState,::cpp::VirtualArray_obj::__new(0))) );
-HXDLIN( 364)				if (::hx::IsNull( ::flixel::_hx_system::FlxSplash_obj::nextState )) {
-HXLINE( 364)					this->_gameJustStarted = true;
+            				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxGame,_gthis) HXARGC(0)
+            				 ::flixel::FlxState _hx_run(){
+            					HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_366_create)
+HXLINE( 366)					return  ::flixel::_FlxGame::FlxIntroSplash_obj::__alloc( HX_CTX ,_gthis->_initialState);
             				}
+            				HX_END_LOCAL_FUNC0(return)
+
+HXLINE( 366)				this->_nextState = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::fromMaker( ::Dynamic(new _hx_Closure_0(_gthis)));
+HXDLIN( 366)				this->_skipSplash = true;
             			}
-            			else {
-HXLINE( 364)				::flixel::_hx_system::FlxSplash_obj::nextState = this->_initialState;
-HXDLIN( 364)				this->_requestedState =  ::flixel::_hx_system::FlxSplash_obj::__alloc( HX_CTX ,null());
-HXDLIN( 364)				this->_skipSplash = true;
-            			}
-HXDLIN( 364)			::flixel::FlxG_obj::reset();
-HXDLIN( 364)			::flixel::FlxG_obj::signals->postGameReset->dispatch();
+HXDLIN( 366)			::flixel::FlxG_obj::reset();
+HXDLIN( 366)			::flixel::FlxG_obj::signals->postGameReset->dispatch();
             		}
-HXLINE( 365)		this->switchState();
-HXLINE( 367)		if ((::flixel::FlxG_obj::updateFramerate < ::flixel::FlxG_obj::drawFramerate)) {
-HXLINE( 368)			::flixel::FlxG_obj::log->advanced((HX_("FlxG.updateFramerate: The update framerate shouldn't be smaller",39,e8,61,1d) + HX_(" than the draw framerate, since it can slow down your game.",1a,34,d2,0e)),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXLINE( 367)		this->switchState();
+HXLINE( 369)		if ((::flixel::FlxG_obj::updateFramerate < ::flixel::FlxG_obj::drawFramerate)) {
+HXLINE( 370)			::flixel::FlxG_obj::log->advanced((HX_("FlxG.updateFramerate: The update framerate shouldn't be smaller",39,e8,61,1d) + HX_(" than the draw framerate, since it can slow down your game.",1a,34,d2,0e)),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
             		}
-HXLINE( 371)		this->stage->addEventListener(HX_("enterFrame",f5,03,50,02),this->onEnterFrame_dyn(),null(),null(),null());
-HXLINE( 375)		this->stage->addEventListener(HX_("resize",f4,59,7b,08),this->onResize_dyn(),null(),null(),null());
-HXLINE( 378)		int _hx_tmp2 = ::openfl::Lib_obj::get_current()->stage->stageWidth;
-HXDLIN( 378)		this->resizeGame(_hx_tmp2,::openfl::Lib_obj::get_current()->stage->stageHeight);
-HXLINE( 380)		::openfl::utils::Assets_obj::addEventListener(HX_("change",70,91,72,b7),::flixel::FlxG_obj::bitmap->onAssetsReload_dyn(),null(),null(),null());
+HXLINE( 373)		this->stage->addEventListener(HX_("enterFrame",f5,03,50,02),this->onEnterFrame_dyn(),null(),null(),null());
+HXLINE( 377)		this->stage->addEventListener(HX_("resize",f4,59,7b,08),this->onResize_dyn(),null(),null(),null());
+HXLINE( 380)		int _hx_tmp1 = ::openfl::Lib_obj::get_current()->stage->stageWidth;
+HXDLIN( 380)		this->resizeGame(_hx_tmp1,::openfl::Lib_obj::get_current()->stage->stageHeight);
+HXLINE( 382)		::openfl::utils::Assets_obj::addEventListener(HX_("change",70,91,72,b7),::flixel::FlxG_obj::bitmap->onAssetsReload_dyn(),null(),null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGame_obj,create,(void))
 
 void FlxGame_obj::onFocus( ::openfl::events::Event _){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_384_onFocus)
-HXLINE( 404)		this->_lostFocus = false;
-HXLINE( 405)		::flixel::FlxG_obj::signals->focusGained->dispatch();
-HXLINE( 406)		this->_state->onFocus();
-HXLINE( 408)		if (!(::flixel::FlxG_obj::autoPause)) {
-HXLINE( 409)			return;
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_386_onFocus)
+HXLINE( 406)		this->_lostFocus = false;
+HXLINE( 407)		::flixel::FlxG_obj::signals->focusGained->dispatch();
+HXLINE( 408)		this->_state->onFocus();
+HXLINE( 410)		if (!(::flixel::FlxG_obj::autoPause)) {
+HXLINE( 411)			return;
             		}
-HXLINE( 412)		if (::hx::IsNotNull( this->_focusLostScreen )) {
-HXLINE( 413)			this->_focusLostScreen->set_visible(false);
+HXLINE( 414)		if (::hx::IsNotNull( this->_focusLostScreen )) {
+HXLINE( 415)			this->_focusLostScreen->set_visible(false);
             		}
-HXLINE( 420)		this->stage->set_frameRate(( (Float)(::flixel::FlxG_obj::drawFramerate) ));
-HXLINE( 422)		::flixel::FlxG_obj::sound->onFocus();
-HXLINE( 424)		{
-HXLINE( 424)			int _g = 0;
-HXDLIN( 424)			::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::inputs->list;
-HXDLIN( 424)			while((_g < _g1->length)){
-HXLINE( 424)				::Dynamic input = _g1->__get(_g);
-HXDLIN( 424)				_g = (_g + 1);
-HXDLIN( 424)				::flixel::input::IFlxInputManager_obj::onFocus(input);
+HXLINE( 422)		this->stage->set_frameRate(( (Float)(::flixel::FlxG_obj::drawFramerate) ));
+HXLINE( 424)		::flixel::FlxG_obj::sound->onFocus();
+HXLINE( 426)		{
+HXLINE( 426)			int _g = 0;
+HXDLIN( 426)			::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::inputs->list;
+HXDLIN( 426)			while((_g < _g1->length)){
+HXLINE( 426)				::Dynamic input = _g1->__get(_g);
+HXDLIN( 426)				_g = (_g + 1);
+HXDLIN( 426)				::flixel::input::IFlxInputManager_obj::onFocus(input);
             			}
             		}
             	}
@@ -339,25 +357,25 @@ HXDLIN( 424)				::flixel::input::IFlxInputManager_obj::onFocus(input);
 HX_DEFINE_DYNAMIC_FUNC1(FlxGame_obj,onFocus,(void))
 
 void FlxGame_obj::onFocusLost( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_428_onFocusLost)
-HXLINE( 439)		this->_lostFocus = true;
-HXLINE( 440)		::flixel::FlxG_obj::signals->focusLost->dispatch();
-HXLINE( 441)		this->_state->onFocusLost();
-HXLINE( 443)		if (!(::flixel::FlxG_obj::autoPause)) {
-HXLINE( 444)			return;
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_430_onFocusLost)
+HXLINE( 441)		this->_lostFocus = true;
+HXLINE( 442)		::flixel::FlxG_obj::signals->focusLost->dispatch();
+HXLINE( 443)		this->_state->onFocusLost();
+HXLINE( 445)		if (!(::flixel::FlxG_obj::autoPause)) {
+HXLINE( 446)			return;
             		}
-HXLINE( 447)		if (::hx::IsNotNull( this->_focusLostScreen )) {
-HXLINE( 448)			this->_focusLostScreen->set_visible(true);
+HXLINE( 449)		if (::hx::IsNotNull( this->_focusLostScreen )) {
+HXLINE( 450)			this->_focusLostScreen->set_visible(true);
             		}
-HXLINE( 455)		this->stage->set_frameRate(( (Float)(this->focusLostFramerate) ));
-HXLINE( 457)		::flixel::FlxG_obj::sound->onFocusLost();
-HXLINE( 459)		{
-HXLINE( 459)			int _g = 0;
-HXDLIN( 459)			::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::inputs->list;
-HXDLIN( 459)			while((_g < _g1->length)){
-HXLINE( 459)				::Dynamic input = _g1->__get(_g);
-HXDLIN( 459)				_g = (_g + 1);
-HXDLIN( 459)				::flixel::input::IFlxInputManager_obj::onFocusLost(input);
+HXLINE( 457)		this->stage->set_frameRate(( (Float)(this->focusLostFramerate) ));
+HXLINE( 459)		::flixel::FlxG_obj::sound->onFocusLost();
+HXLINE( 461)		{
+HXLINE( 461)			int _g = 0;
+HXDLIN( 461)			::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::inputs->list;
+HXDLIN( 461)			while((_g < _g1->length)){
+HXLINE( 461)				::Dynamic input = _g1->__get(_g);
+HXDLIN( 461)				_g = (_g + 1);
+HXDLIN( 461)				::flixel::input::IFlxInputManager_obj::onFocusLost(input);
             			}
             		}
             	}
@@ -366,29 +384,29 @@ HXDLIN( 459)				::flixel::input::IFlxInputManager_obj::onFocusLost(input);
 HX_DEFINE_DYNAMIC_FUNC1(FlxGame_obj,onFocusLost,(void))
 
 void FlxGame_obj::onResize( ::openfl::events::Event _){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_464_onResize)
-HXLINE( 465)		int width = ::openfl::Lib_obj::get_current()->stage->stageWidth;
-HXLINE( 466)		int height = ::openfl::Lib_obj::get_current()->stage->stageHeight;
-HXLINE( 469)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE( 470)			::flixel::FlxG_obj::bitmap->onContext();
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_466_onResize)
+HXLINE( 467)		int width = ::openfl::Lib_obj::get_current()->stage->stageWidth;
+HXLINE( 468)		int height = ::openfl::Lib_obj::get_current()->stage->stageHeight;
+HXLINE( 471)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE( 472)			::flixel::FlxG_obj::bitmap->onContext();
             		}
-HXLINE( 473)		this->resizeGame(width,height);
+HXLINE( 475)		this->resizeGame(width,height);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxGame_obj,onResize,(void))
 
 void FlxGame_obj::resizeGame(int width,int height){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_477_resizeGame)
-HXLINE( 478)		::flixel::FlxG_obj::scaleMode->onMeasure(width,height);
-HXLINE( 480)		this->_state->onResize(width,height);
-HXLINE( 482)		::flixel::FlxG_obj::cameras->resize();
-HXLINE( 483)		::flixel::FlxG_obj::signals->gameResized->dispatch(width,height);
-HXLINE( 490)		if (::hx::IsNotNull( this->_focusLostScreen )) {
-HXLINE( 491)			this->_focusLostScreen->draw();
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_479_resizeGame)
+HXLINE( 480)		::flixel::FlxG_obj::scaleMode->onMeasure(width,height);
+HXLINE( 482)		this->_state->onResize(width,height);
+HXLINE( 484)		::flixel::FlxG_obj::cameras->resize();
+HXLINE( 485)		::flixel::FlxG_obj::signals->gameResized->dispatch(width,height);
+HXLINE( 492)		if (::hx::IsNotNull( this->_focusLostScreen )) {
+HXLINE( 493)			this->_focusLostScreen->draw();
             		}
-HXLINE( 495)		if (::hx::IsNotNull( this->soundTray )) {
-HXLINE( 496)			this->soundTray->screenCenter();
+HXLINE( 497)		if (::hx::IsNotNull( this->soundTray )) {
+HXLINE( 498)			this->soundTray->screenCenter();
             		}
             	}
 
@@ -396,60 +414,60 @@ HXLINE( 496)			this->soundTray->screenCenter();
 HX_DEFINE_DYNAMIC_FUNC2(FlxGame_obj,resizeGame,(void))
 
 void FlxGame_obj::onEnterFrame( ::openfl::events::Event _){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_509_onEnterFrame)
-HXLINE( 510)		int _hx_tmp = ( (int)(this->getTimer()) );
-HXDLIN( 510)		this->ticks = (_hx_tmp - this->_startTime);
-HXLINE( 511)		this->_elapsedMS = ( (Float)((this->ticks - this->_total)) );
-HXLINE( 512)		this->_total = this->ticks;
-HXLINE( 515)		bool _hx_tmp1;
-HXDLIN( 515)		if (::hx::IsNotNull( this->soundTray )) {
-HXLINE( 515)			_hx_tmp1 = this->soundTray->active;
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_511_onEnterFrame)
+HXLINE( 512)		int _hx_tmp = ( (int)(this->getTimer()) );
+HXDLIN( 512)		this->ticks = (_hx_tmp - this->_startTime);
+HXLINE( 513)		this->_elapsedMS = ( (Float)((this->ticks - this->_total)) );
+HXLINE( 514)		this->_total = this->ticks;
+HXLINE( 517)		bool _hx_tmp1;
+HXDLIN( 517)		if (::hx::IsNotNull( this->soundTray )) {
+HXLINE( 517)			_hx_tmp1 = this->soundTray->active;
             		}
             		else {
-HXLINE( 515)			_hx_tmp1 = false;
+HXLINE( 517)			_hx_tmp1 = false;
             		}
-HXDLIN( 515)		if (_hx_tmp1) {
-HXLINE( 516)			this->soundTray->update(this->_elapsedMS);
+HXDLIN( 517)		if (_hx_tmp1) {
+HXLINE( 518)			this->soundTray->update(this->_elapsedMS);
             		}
-HXLINE( 519)		bool _hx_tmp2;
-HXDLIN( 519)		if (this->_lostFocus) {
-HXLINE( 519)			_hx_tmp2 = !(::flixel::FlxG_obj::autoPause);
+HXLINE( 521)		bool _hx_tmp2;
+HXDLIN( 521)		if (this->_lostFocus) {
+HXLINE( 521)			_hx_tmp2 = !(::flixel::FlxG_obj::autoPause);
             		}
             		else {
-HXLINE( 519)			_hx_tmp2 = true;
+HXLINE( 521)			_hx_tmp2 = true;
             		}
-HXDLIN( 519)		if (_hx_tmp2) {
-HXLINE( 521)			if (::flixel::FlxG_obj::vcr->paused) {
-HXLINE( 523)				if (::flixel::FlxG_obj::vcr->stepRequested) {
-HXLINE( 525)					::flixel::FlxG_obj::vcr->stepRequested = false;
+HXDLIN( 521)		if (_hx_tmp2) {
+HXLINE( 523)			if (::flixel::FlxG_obj::vcr->paused) {
+HXLINE( 525)				if (::flixel::FlxG_obj::vcr->stepRequested) {
+HXLINE( 527)					::flixel::FlxG_obj::vcr->stepRequested = false;
             				}
             				else {
-HXLINE( 527)					if (::hx::IsInstanceEq( this->_state,this->_requestedState )) {
-HXLINE( 539)						return;
+HXLINE( 529)					if (::hx::IsNull( this->_nextState )) {
+HXLINE( 541)						return;
             					}
             				}
             			}
-HXLINE( 543)			if (::flixel::FlxG_obj::fixedTimestep) {
-HXLINE( 545)				 ::flixel::FlxGame _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 545)				_hx_tmp3->_accumulator = (_hx_tmp3->_accumulator + this->_elapsedMS);
-HXLINE( 546)				Float _hx_tmp4;
-HXDLIN( 546)				if ((this->_accumulator > this->_maxAccumulation)) {
-HXLINE( 546)					_hx_tmp4 = this->_maxAccumulation;
+HXLINE( 545)			if (::flixel::FlxG_obj::fixedTimestep) {
+HXLINE( 547)				 ::flixel::FlxGame _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 547)				_hx_tmp3->_accumulator = (_hx_tmp3->_accumulator + this->_elapsedMS);
+HXLINE( 548)				Float _hx_tmp4;
+HXDLIN( 548)				if ((this->_accumulator > this->_maxAccumulation)) {
+HXLINE( 548)					_hx_tmp4 = this->_maxAccumulation;
             				}
             				else {
-HXLINE( 546)					_hx_tmp4 = this->_accumulator;
+HXLINE( 548)					_hx_tmp4 = this->_accumulator;
             				}
-HXDLIN( 546)				this->_accumulator = _hx_tmp4;
-HXLINE( 548)				while((this->_accumulator >= this->_stepMS)){
-HXLINE( 550)					this->step();
-HXLINE( 551)					 ::flixel::FlxGame _hx_tmp5 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 551)					_hx_tmp5->_accumulator = (_hx_tmp5->_accumulator - this->_stepMS);
+HXDLIN( 548)				this->_accumulator = _hx_tmp4;
+HXLINE( 550)				while((this->_accumulator >= this->_stepMS)){
+HXLINE( 552)					this->step();
+HXLINE( 553)					 ::flixel::FlxGame _hx_tmp5 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 553)					_hx_tmp5->_accumulator = (_hx_tmp5->_accumulator - this->_stepMS);
             				}
             			}
             			else {
-HXLINE( 556)				this->step();
+HXLINE( 558)				this->step();
             			}
-HXLINE( 563)			this->draw();
+HXLINE( 565)			this->draw();
             		}
             	}
 
@@ -457,203 +475,201 @@ HXLINE( 563)			this->draw();
 HX_DEFINE_DYNAMIC_FUNC1(FlxGame_obj,onEnterFrame,(void))
 
 void FlxGame_obj::resetGame(){
-            	HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_577_resetGame)
-HXLINE( 578)		::flixel::FlxG_obj::signals->preGameReset->dispatch();
-HXLINE( 584)		bool _hx_tmp;
-HXDLIN( 584)		if (!(this->_skipSplash)) {
-HXLINE( 584)			_hx_tmp = ::hx::IsNotNull( ::flixel::_hx_system::FlxSplash_obj::nextState );
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_579_resetGame)
+HXDLIN( 579)		 ::flixel::FlxGame _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 580)		::flixel::FlxG_obj::signals->preGameReset->dispatch();
+HXLINE( 586)		if (this->_skipSplash) {
+HXLINE( 588)			this->_nextState = this->_initialState;
+HXLINE( 589)			this->_gameJustStarted = true;
             		}
             		else {
-HXLINE( 584)			_hx_tmp = true;
-            		}
-HXDLIN( 584)		if (_hx_tmp) {
-HXLINE( 586)			this->_requestedState = ( ( ::flixel::FlxState)(::Type_obj::createInstance(this->_initialState,::cpp::VirtualArray_obj::__new(0))) );
-HXLINE( 587)			if (::hx::IsNull( ::flixel::_hx_system::FlxSplash_obj::nextState )) {
-HXLINE( 588)				this->_gameJustStarted = true;
+            			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxGame,_gthis) HXARGC(0)
+            			 ::flixel::FlxState _hx_run(){
+            				HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_593_resetGame)
+HXLINE( 593)				return  ::flixel::_FlxGame::FlxIntroSplash_obj::__alloc( HX_CTX ,_gthis->_initialState);
             			}
-            		}
-            		else {
-HXLINE( 592)			::flixel::_hx_system::FlxSplash_obj::nextState = this->_initialState;
-HXLINE( 593)			this->_requestedState =  ::flixel::_hx_system::FlxSplash_obj::__alloc( HX_CTX ,null());
+            			HX_END_LOCAL_FUNC0(return)
+
+HXLINE( 593)			this->_nextState = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::fromMaker( ::Dynamic(new _hx_Closure_0(_gthis)));
 HXLINE( 594)			this->_skipSplash = true;
             		}
-HXLINE( 602)		::flixel::FlxG_obj::reset();
-HXLINE( 604)		::flixel::FlxG_obj::signals->postGameReset->dispatch();
+HXLINE( 597)		::flixel::FlxG_obj::reset();
+HXLINE( 599)		::flixel::FlxG_obj::signals->postGameReset->dispatch();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,resetGame,(void))
 
 void FlxGame_obj::switchState(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_613_switchState)
-HXLINE( 615)		::flixel::FlxG_obj::cameras->reset(null());
-HXLINE( 616)		::flixel::FlxG_obj::inputs->onStateSwitch();
-HXLINE( 618)		::flixel::FlxG_obj::sound->destroy(null());
-HXLINE( 621)		::flixel::FlxG_obj::signals->preStateSwitch->dispatch();
-HXLINE( 628)		if (::hx::IsNotNull( this->_state )) {
-HXLINE( 629)			this->_state->destroy();
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_608_switchState)
+HXLINE( 610)		::flixel::FlxG_obj::cameras->reset(null());
+HXLINE( 611)		::flixel::FlxG_obj::inputs->onStateSwitch();
+HXLINE( 613)		::flixel::FlxG_obj::sound->destroy(null());
+HXLINE( 616)		::flixel::FlxG_obj::signals->preStateSwitch->dispatch();
+HXLINE( 623)		if (::hx::IsNotNull( this->_state )) {
+HXLINE( 624)			this->_state->destroy();
             		}
-HXLINE( 632)		::flixel::FlxG_obj::bitmap->clearCache();
-HXLINE( 635)		this->_state = this->_requestedState;
-HXLINE( 637)		if (this->_gameJustStarted) {
-HXLINE( 638)			::flixel::FlxG_obj::signals->preGameStart->dispatch();
+HXLINE( 627)		::flixel::FlxG_obj::bitmap->clearCache();
+HXLINE( 630)		this->_state = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::createInstance(this->_nextState);
+HXLINE( 631)		this->_state->_constructor = this->_nextState;
+HXLINE( 632)		this->_nextState = null();
+HXLINE( 634)		if (this->_gameJustStarted) {
+HXLINE( 635)			::flixel::FlxG_obj::signals->preGameStart->dispatch();
             		}
-HXLINE( 640)		::flixel::FlxG_obj::signals->preStateCreate->dispatch(this->_state);
-HXLINE( 642)		this->_state->create();
-HXLINE( 644)		if (this->_gameJustStarted) {
-HXLINE( 645)			this->gameStart();
+HXLINE( 637)		::flixel::FlxG_obj::signals->preStateCreate->dispatch(this->_state);
+HXLINE( 639)		this->_state->create();
+HXLINE( 641)		if (this->_gameJustStarted) {
+HXLINE( 642)			this->gameStart();
             		}
-HXLINE( 651)		::flixel::FlxG_obj::signals->postStateSwitch->dispatch();
+HXLINE( 648)		::flixel::FlxG_obj::signals->postStateSwitch->dispatch();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,switchState,(void))
 
 void FlxGame_obj::gameStart(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_655_gameStart)
-HXLINE( 656)		::flixel::FlxG_obj::signals->postGameStart->dispatch();
-HXLINE( 657)		this->_gameJustStarted = false;
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_652_gameStart)
+HXLINE( 653)		::flixel::FlxG_obj::signals->postGameStart->dispatch();
+HXLINE( 654)		this->_gameJustStarted = false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,gameStart,(void))
 
 void FlxGame_obj::step(){
-            	HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_667_step)
-HXLINE( 669)		if (this->_resetGame) {
-HXLINE( 671)			{
-HXLINE( 671)				::flixel::FlxG_obj::signals->preGameReset->dispatch();
-HXDLIN( 671)				bool _hx_tmp;
-HXDLIN( 671)				if (!(this->_skipSplash)) {
-HXLINE( 671)					_hx_tmp = ::hx::IsNotNull( ::flixel::_hx_system::FlxSplash_obj::nextState );
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_664_step)
+HXLINE( 666)		if (this->_resetGame) {
+HXLINE( 668)			{
+HXLINE( 668)				 ::flixel::FlxGame _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 668)				::flixel::FlxG_obj::signals->preGameReset->dispatch();
+HXDLIN( 668)				if (this->_skipSplash) {
+HXLINE( 668)					this->_nextState = this->_initialState;
+HXDLIN( 668)					this->_gameJustStarted = true;
             				}
             				else {
-HXLINE( 671)					_hx_tmp = true;
-            				}
-HXDLIN( 671)				if (_hx_tmp) {
-HXLINE( 671)					this->_requestedState = ( ( ::flixel::FlxState)(::Type_obj::createInstance(this->_initialState,::cpp::VirtualArray_obj::__new(0))) );
-HXDLIN( 671)					if (::hx::IsNull( ::flixel::_hx_system::FlxSplash_obj::nextState )) {
-HXLINE( 671)						this->_gameJustStarted = true;
+            					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxGame,_gthis) HXARGC(0)
+            					 ::flixel::FlxState _hx_run(){
+            						HX_GC_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_668_step)
+HXLINE( 668)						return  ::flixel::_FlxGame::FlxIntroSplash_obj::__alloc( HX_CTX ,_gthis->_initialState);
             					}
+            					HX_END_LOCAL_FUNC0(return)
+
+HXLINE( 668)					this->_nextState = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::fromMaker( ::Dynamic(new _hx_Closure_0(_gthis)));
+HXDLIN( 668)					this->_skipSplash = true;
             				}
-            				else {
-HXLINE( 671)					::flixel::_hx_system::FlxSplash_obj::nextState = this->_initialState;
-HXDLIN( 671)					this->_requestedState =  ::flixel::_hx_system::FlxSplash_obj::__alloc( HX_CTX ,null());
-HXDLIN( 671)					this->_skipSplash = true;
-            				}
-HXDLIN( 671)				::flixel::FlxG_obj::reset();
-HXDLIN( 671)				::flixel::FlxG_obj::signals->postGameReset->dispatch();
+HXDLIN( 668)				::flixel::FlxG_obj::reset();
+HXDLIN( 668)				::flixel::FlxG_obj::signals->postGameReset->dispatch();
             			}
-HXLINE( 672)			this->_resetGame = false;
+HXLINE( 669)			this->_resetGame = false;
             		}
-HXLINE( 675)		this->handleReplayRequests();
-HXLINE( 682)		this->update();
+HXLINE( 672)		this->handleReplayRequests();
+HXLINE( 679)		this->update();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,step,(void))
 
 void FlxGame_obj::handleReplayRequests(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_690_handleReplayRequests)
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_687_handleReplayRequests)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,handleReplayRequests,(void))
 
 void FlxGame_obj::update(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_724_update)
-HXLINE( 725)		bool _hx_tmp;
-HXDLIN( 725)		if (this->_state->active) {
-HXLINE( 725)			_hx_tmp = !(this->_state->exists);
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_721_update)
+HXLINE( 722)		bool _hx_tmp;
+HXDLIN( 722)		if (this->_state->active) {
+HXLINE( 722)			_hx_tmp = !(this->_state->exists);
             		}
             		else {
-HXLINE( 725)			_hx_tmp = true;
+HXLINE( 722)			_hx_tmp = true;
             		}
-HXDLIN( 725)		if (_hx_tmp) {
-HXLINE( 726)			return;
+HXDLIN( 722)		if (_hx_tmp) {
+HXLINE( 723)			return;
             		}
-HXLINE( 728)		if (::hx::IsInstanceNotEq( this->_state,this->_requestedState )) {
-HXLINE( 729)			this->switchState();
+HXLINE( 725)		if (::hx::IsNotNull( this->_nextState )) {
+HXLINE( 726)			this->switchState();
             		}
-HXLINE( 736)		this->updateElapsed();
-HXLINE( 738)		::flixel::FlxG_obj::signals->preUpdate->dispatch();
-HXLINE( 740)		this->updateInput();
-HXLINE( 748)		::flixel::FlxG_obj::sound->update(::flixel::FlxG_obj::elapsed);
-HXLINE( 750)		{
-HXLINE( 750)			Float elapsed = ::flixel::FlxG_obj::elapsed;
-HXDLIN( 750)			{
-HXLINE( 750)				int _g = 0;
-HXDLIN( 750)				::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::plugins->list;
-HXDLIN( 750)				while((_g < _g1->length)){
-HXLINE( 750)					 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
-HXDLIN( 750)					_g = (_g + 1);
-HXDLIN( 750)					bool _hx_tmp1;
-HXDLIN( 750)					if (plugin->exists) {
-HXLINE( 750)						_hx_tmp1 = plugin->active;
+HXLINE( 733)		this->updateElapsed();
+HXLINE( 735)		::flixel::FlxG_obj::signals->preUpdate->dispatch();
+HXLINE( 737)		this->updateInput();
+HXLINE( 745)		::flixel::FlxG_obj::sound->update(::flixel::FlxG_obj::elapsed);
+HXLINE( 747)		{
+HXLINE( 747)			Float elapsed = ::flixel::FlxG_obj::elapsed;
+HXDLIN( 747)			{
+HXLINE( 747)				int _g = 0;
+HXDLIN( 747)				::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::plugins->list;
+HXDLIN( 747)				while((_g < _g1->length)){
+HXLINE( 747)					 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN( 747)					_g = (_g + 1);
+HXDLIN( 747)					bool _hx_tmp1;
+HXDLIN( 747)					if (plugin->exists) {
+HXLINE( 747)						_hx_tmp1 = plugin->active;
             					}
             					else {
-HXLINE( 750)						_hx_tmp1 = false;
+HXLINE( 747)						_hx_tmp1 = false;
             					}
-HXDLIN( 750)					if (_hx_tmp1) {
-HXLINE( 750)						plugin->update(elapsed);
+HXDLIN( 747)					if (_hx_tmp1) {
+HXLINE( 747)						plugin->update(elapsed);
             					}
             				}
             			}
             		}
-HXLINE( 752)		this->_state->tryUpdate(::flixel::FlxG_obj::elapsed);
-HXLINE( 754)		{
-HXLINE( 754)			Float elapsed1 = ::flixel::FlxG_obj::elapsed;
-HXDLIN( 754)			{
-HXLINE( 754)				int _g2 = 0;
-HXDLIN( 754)				::Array< ::Dynamic> _g3 = ::flixel::FlxG_obj::cameras->list;
-HXDLIN( 754)				while((_g2 < _g3->length)){
-HXLINE( 754)					 ::flixel::FlxCamera camera = _g3->__get(_g2).StaticCast<  ::flixel::FlxCamera >();
-HXDLIN( 754)					_g2 = (_g2 + 1);
-HXDLIN( 754)					bool _hx_tmp2;
-HXDLIN( 754)					bool _hx_tmp3;
-HXDLIN( 754)					if (::hx::IsNotNull( camera )) {
-HXLINE( 754)						_hx_tmp3 = camera->exists;
+HXLINE( 749)		this->_state->tryUpdate(::flixel::FlxG_obj::elapsed);
+HXLINE( 751)		{
+HXLINE( 751)			Float elapsed1 = ::flixel::FlxG_obj::elapsed;
+HXDLIN( 751)			{
+HXLINE( 751)				int _g2 = 0;
+HXDLIN( 751)				::Array< ::Dynamic> _g3 = ::flixel::FlxG_obj::cameras->list;
+HXDLIN( 751)				while((_g2 < _g3->length)){
+HXLINE( 751)					 ::flixel::FlxCamera camera = _g3->__get(_g2).StaticCast<  ::flixel::FlxCamera >();
+HXDLIN( 751)					_g2 = (_g2 + 1);
+HXDLIN( 751)					bool _hx_tmp2;
+HXDLIN( 751)					bool _hx_tmp3;
+HXDLIN( 751)					if (::hx::IsNotNull( camera )) {
+HXLINE( 751)						_hx_tmp3 = camera->exists;
             					}
             					else {
-HXLINE( 754)						_hx_tmp3 = false;
+HXLINE( 751)						_hx_tmp3 = false;
             					}
-HXDLIN( 754)					if (_hx_tmp3) {
-HXLINE( 754)						_hx_tmp2 = camera->active;
+HXDLIN( 751)					if (_hx_tmp3) {
+HXLINE( 751)						_hx_tmp2 = camera->active;
             					}
             					else {
-HXLINE( 754)						_hx_tmp2 = false;
+HXLINE( 751)						_hx_tmp2 = false;
             					}
-HXDLIN( 754)					if (_hx_tmp2) {
-HXLINE( 754)						camera->update(elapsed1);
+HXDLIN( 751)					if (_hx_tmp2) {
+HXLINE( 751)						camera->update(elapsed1);
             					}
             				}
             			}
             		}
-HXLINE( 755)		::flixel::FlxG_obj::signals->postUpdate->dispatch();
-HXLINE( 762)		::flixel::util::FlxArrayUtil_obj::clearArray(::flixel::FlxG_obj::swipes,null());
-HXLINE( 765)		::Array< ::Dynamic> _hx_tmp4;
-HXDLIN( 765)		if (this->filtersEnabled) {
-HXLINE( 765)			_hx_tmp4 = this->_filters;
+HXLINE( 752)		::flixel::FlxG_obj::signals->postUpdate->dispatch();
+HXLINE( 759)		::flixel::util::FlxArrayUtil_obj::clearArray(::flixel::FlxG_obj::swipes,null());
+HXLINE( 762)		::Array< ::Dynamic> _hx_tmp4;
+HXDLIN( 762)		if (this->filtersEnabled) {
+HXLINE( 762)			_hx_tmp4 = this->_filters;
             		}
             		else {
-HXLINE( 765)			_hx_tmp4 = null();
+HXLINE( 762)			_hx_tmp4 = null();
             		}
-HXDLIN( 765)		this->set_filters(_hx_tmp4);
+HXDLIN( 762)		this->set_filters(_hx_tmp4);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,update,(void))
 
 void FlxGame_obj::updateElapsed(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_770_updateElapsed)
-HXDLIN( 770)		if (::flixel::FlxG_obj::fixedTimestep) {
-HXLINE( 772)			::flixel::FlxG_obj::elapsed = (::flixel::FlxG_obj::timeScale * this->_stepSeconds);
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_767_updateElapsed)
+HXDLIN( 767)		if (::flixel::FlxG_obj::fixedTimestep) {
+HXLINE( 769)			::flixel::FlxG_obj::elapsed = (::flixel::FlxG_obj::timeScale * this->_stepSeconds);
             		}
             		else {
-HXLINE( 776)			::flixel::FlxG_obj::elapsed = (::flixel::FlxG_obj::timeScale * (this->_elapsedMS / ( (Float)(1000) )));
-HXLINE( 778)			Float max = (::flixel::FlxG_obj::maxElapsed * ::flixel::FlxG_obj::timeScale);
-HXLINE( 779)			if ((::flixel::FlxG_obj::elapsed > max)) {
-HXLINE( 780)				::flixel::FlxG_obj::elapsed = max;
+HXLINE( 773)			::flixel::FlxG_obj::elapsed = (::flixel::FlxG_obj::timeScale * (this->_elapsedMS / ( (Float)(1000) )));
+HXLINE( 775)			Float max = (::flixel::FlxG_obj::maxElapsed * ::flixel::FlxG_obj::timeScale);
+HXLINE( 776)			if ((::flixel::FlxG_obj::elapsed > max)) {
+HXLINE( 777)				::flixel::FlxG_obj::elapsed = max;
             			}
             		}
             	}
@@ -662,13 +678,13 @@ HXLINE( 780)				::flixel::FlxG_obj::elapsed = max;
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,updateElapsed,(void))
 
 void FlxGame_obj::updateInput(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_829_updateInput)
-HXDLIN( 829)		int _g = 0;
-HXDLIN( 829)		::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::inputs->list;
-HXDLIN( 829)		while((_g < _g1->length)){
-HXDLIN( 829)			::Dynamic input = _g1->__get(_g);
-HXDLIN( 829)			_g = (_g + 1);
-HXDLIN( 829)			::flixel::input::IFlxInputManager_obj::update(input);
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_826_updateInput)
+HXDLIN( 826)		int _g = 0;
+HXDLIN( 826)		::Array< ::Dynamic> _g1 = ::flixel::FlxG_obj::inputs->list;
+HXDLIN( 826)		while((_g < _g1->length)){
+HXDLIN( 826)			::Dynamic input = _g1->__get(_g);
+HXDLIN( 826)			_g = (_g + 1);
+HXDLIN( 826)			::flixel::input::IFlxInputManager_obj::update(input);
             		}
             	}
 
@@ -676,157 +692,157 @@ HXDLIN( 829)			::flixel::input::IFlxInputManager_obj::update(input);
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,updateInput,(void))
 
 void FlxGame_obj::draw(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_848_draw)
-HXLINE( 849)		bool _hx_tmp;
-HXDLIN( 849)		if (this->_state->visible) {
-HXLINE( 849)			_hx_tmp = !(this->_state->exists);
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_845_draw)
+HXLINE( 846)		bool _hx_tmp;
+HXDLIN( 846)		if (this->_state->visible) {
+HXLINE( 846)			_hx_tmp = !(this->_state->exists);
             		}
             		else {
-HXLINE( 849)			_hx_tmp = true;
+HXLINE( 846)			_hx_tmp = true;
             		}
-HXDLIN( 849)		if (_hx_tmp) {
-HXLINE( 850)			return;
+HXDLIN( 846)		if (_hx_tmp) {
+HXLINE( 847)			return;
             		}
-HXLINE( 857)		::flixel::FlxG_obj::signals->preDraw->dispatch();
-HXLINE( 859)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE( 860)			::flixel::graphics::tile::FlxDrawBaseItem_obj::drawCalls = 0;
+HXLINE( 854)		::flixel::FlxG_obj::signals->preDraw->dispatch();
+HXLINE( 856)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE( 857)			::flixel::graphics::tile::FlxDrawBaseItem_obj::drawCalls = 0;
             		}
-HXLINE( 867)		{
-HXLINE( 867)			 ::flixel::_hx_system::frontEnds::CameraFrontEnd _this = ::flixel::FlxG_obj::cameras;
-HXDLIN( 867)			{
-HXLINE( 867)				int _g = 0;
-HXDLIN( 867)				::Array< ::Dynamic> _g1 = _this->list;
-HXDLIN( 867)				while((_g < _g1->length)){
-HXLINE( 867)					 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
-HXDLIN( 867)					_g = (_g + 1);
-HXDLIN( 867)					bool _hx_tmp1;
-HXDLIN( 867)					bool _hx_tmp2;
-HXDLIN( 867)					if (::hx::IsNotNull( camera )) {
-HXLINE( 867)						_hx_tmp2 = !(camera->exists);
+HXLINE( 864)		{
+HXLINE( 864)			 ::flixel::_hx_system::frontEnds::CameraFrontEnd _this = ::flixel::FlxG_obj::cameras;
+HXDLIN( 864)			{
+HXLINE( 864)				int _g = 0;
+HXDLIN( 864)				::Array< ::Dynamic> _g1 = _this->list;
+HXDLIN( 864)				while((_g < _g1->length)){
+HXLINE( 864)					 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
+HXDLIN( 864)					_g = (_g + 1);
+HXDLIN( 864)					bool _hx_tmp1;
+HXDLIN( 864)					bool _hx_tmp2;
+HXDLIN( 864)					if (::hx::IsNotNull( camera )) {
+HXLINE( 864)						_hx_tmp2 = !(camera->exists);
             					}
             					else {
-HXLINE( 867)						_hx_tmp2 = true;
+HXLINE( 864)						_hx_tmp2 = true;
             					}
-HXDLIN( 867)					if (!(_hx_tmp2)) {
-HXLINE( 867)						_hx_tmp1 = !(camera->visible);
+HXDLIN( 864)					if (!(_hx_tmp2)) {
+HXLINE( 864)						_hx_tmp1 = !(camera->visible);
             					}
             					else {
-HXLINE( 867)						_hx_tmp1 = true;
+HXLINE( 864)						_hx_tmp1 = true;
             					}
-HXDLIN( 867)					if (_hx_tmp1) {
-HXLINE( 867)						continue;
+HXDLIN( 864)					if (_hx_tmp1) {
+HXLINE( 864)						continue;
             					}
-HXDLIN( 867)					if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 867)						camera->checkResize();
-HXDLIN( 867)						if (_this->useBufferLocking) {
-HXLINE( 867)							camera->buffer->lock();
+HXDLIN( 864)					if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 864)						camera->checkResize();
+HXDLIN( 864)						if (_this->useBufferLocking) {
+HXLINE( 864)							camera->buffer->lock();
             						}
             					}
-HXDLIN( 867)					if (::flixel::FlxG_obj::renderTile) {
-HXLINE( 867)						camera->clearDrawStack();
-HXDLIN( 867)						camera->canvas->get_graphics()->clear();
+HXDLIN( 864)					if (::flixel::FlxG_obj::renderTile) {
+HXLINE( 864)						camera->clearDrawStack();
+HXDLIN( 864)						camera->canvas->get_graphics()->clear();
             					}
-HXDLIN( 867)					if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 867)						camera->fill(camera->bgColor,camera->useBgAlphaBlending,null(),null());
-HXDLIN( 867)						camera->screen->dirty = true;
+HXDLIN( 864)					if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 864)						camera->fill(camera->bgColor,camera->useBgAlphaBlending,null(),null());
+HXDLIN( 864)						camera->screen->dirty = true;
             					}
             					else {
-HXLINE( 867)						camera->fill((camera->bgColor & 16777215),camera->useBgAlphaBlending,(( (Float)(((camera->bgColor >> 24) & 255)) ) / ( (Float)(255) )),null());
+HXLINE( 864)						camera->fill((camera->bgColor & 16777215),camera->useBgAlphaBlending,(( (Float)(((camera->bgColor >> 24) & 255)) ) / ( (Float)(255) )),null());
             					}
             				}
             			}
             		}
-HXLINE( 869)		{
-HXLINE( 869)			int _g2 = 0;
-HXDLIN( 869)			::Array< ::Dynamic> _g3 = ::flixel::FlxG_obj::plugins->list;
-HXDLIN( 869)			while((_g2 < _g3->length)){
-HXLINE( 869)				 ::flixel::FlxBasic plugin = _g3->__get(_g2).StaticCast<  ::flixel::FlxBasic >();
-HXDLIN( 869)				_g2 = (_g2 + 1);
-HXDLIN( 869)				bool _hx_tmp3;
-HXDLIN( 869)				if (plugin->exists) {
-HXLINE( 869)					_hx_tmp3 = plugin->visible;
+HXLINE( 866)		{
+HXLINE( 866)			int _g2 = 0;
+HXDLIN( 866)			::Array< ::Dynamic> _g3 = ::flixel::FlxG_obj::plugins->list;
+HXDLIN( 866)			while((_g2 < _g3->length)){
+HXLINE( 866)				 ::flixel::FlxBasic plugin = _g3->__get(_g2).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN( 866)				_g2 = (_g2 + 1);
+HXDLIN( 866)				bool _hx_tmp3;
+HXDLIN( 866)				if (plugin->exists) {
+HXLINE( 866)					_hx_tmp3 = plugin->visible;
             				}
             				else {
-HXLINE( 869)					_hx_tmp3 = false;
+HXLINE( 866)					_hx_tmp3 = false;
             				}
-HXDLIN( 869)				if (_hx_tmp3) {
-HXLINE( 869)					plugin->draw();
-            				}
-            			}
-            		}
-HXLINE( 871)		this->_state->draw();
-HXLINE( 873)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE( 875)			if (::flixel::FlxG_obj::renderTile) {
-HXLINE( 875)				int _g4 = 0;
-HXDLIN( 875)				::Array< ::Dynamic> _g5 = ::flixel::FlxG_obj::cameras->list;
-HXDLIN( 875)				while((_g4 < _g5->length)){
-HXLINE( 875)					 ::flixel::FlxCamera camera1 = _g5->__get(_g4).StaticCast<  ::flixel::FlxCamera >();
-HXDLIN( 875)					_g4 = (_g4 + 1);
-HXDLIN( 875)					bool _hx_tmp4;
-HXDLIN( 875)					bool _hx_tmp5;
-HXDLIN( 875)					if (::hx::IsNotNull( camera1 )) {
-HXLINE( 875)						_hx_tmp5 = camera1->exists;
-            					}
-            					else {
-HXLINE( 875)						_hx_tmp5 = false;
-            					}
-HXDLIN( 875)					if (_hx_tmp5) {
-HXLINE( 875)						_hx_tmp4 = camera1->visible;
-            					}
-            					else {
-HXLINE( 875)						_hx_tmp4 = false;
-            					}
-HXDLIN( 875)					if (_hx_tmp4) {
-HXLINE( 875)						camera1->render();
-            					}
+HXDLIN( 866)				if (_hx_tmp3) {
+HXLINE( 866)					plugin->draw();
             				}
             			}
             		}
-HXLINE( 882)		{
-HXLINE( 882)			 ::flixel::_hx_system::frontEnds::CameraFrontEnd _this1 = ::flixel::FlxG_obj::cameras;
-HXDLIN( 882)			{
-HXLINE( 882)				int _g6 = 0;
-HXDLIN( 882)				::Array< ::Dynamic> _g7 = _this1->list;
-HXDLIN( 882)				while((_g6 < _g7->length)){
-HXLINE( 882)					 ::flixel::FlxCamera camera2 = _g7->__get(_g6).StaticCast<  ::flixel::FlxCamera >();
-HXDLIN( 882)					_g6 = (_g6 + 1);
-HXDLIN( 882)					bool _hx_tmp6;
-HXDLIN( 882)					bool _hx_tmp7;
-HXDLIN( 882)					if (::hx::IsNotNull( camera2 )) {
-HXLINE( 882)						_hx_tmp7 = !(camera2->exists);
+HXLINE( 868)		this->_state->draw();
+HXLINE( 870)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE( 872)			if (::flixel::FlxG_obj::renderTile) {
+HXLINE( 872)				int _g4 = 0;
+HXDLIN( 872)				::Array< ::Dynamic> _g5 = ::flixel::FlxG_obj::cameras->list;
+HXDLIN( 872)				while((_g4 < _g5->length)){
+HXLINE( 872)					 ::flixel::FlxCamera camera1 = _g5->__get(_g4).StaticCast<  ::flixel::FlxCamera >();
+HXDLIN( 872)					_g4 = (_g4 + 1);
+HXDLIN( 872)					bool _hx_tmp4;
+HXDLIN( 872)					bool _hx_tmp5;
+HXDLIN( 872)					if (::hx::IsNotNull( camera1 )) {
+HXLINE( 872)						_hx_tmp5 = camera1->exists;
             					}
             					else {
-HXLINE( 882)						_hx_tmp7 = true;
+HXLINE( 872)						_hx_tmp5 = false;
             					}
-HXDLIN( 882)					if (!(_hx_tmp7)) {
-HXLINE( 882)						_hx_tmp6 = !(camera2->visible);
+HXDLIN( 872)					if (_hx_tmp5) {
+HXLINE( 872)						_hx_tmp4 = camera1->visible;
             					}
             					else {
-HXLINE( 882)						_hx_tmp6 = true;
+HXLINE( 872)						_hx_tmp4 = false;
             					}
-HXDLIN( 882)					if (_hx_tmp6) {
-HXLINE( 882)						continue;
+HXDLIN( 872)					if (_hx_tmp4) {
+HXLINE( 872)						camera1->render();
             					}
-HXDLIN( 882)					camera2->drawFX();
-HXDLIN( 882)					if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 882)						if (_this1->useBufferLocking) {
-HXLINE( 882)							camera2->buffer->unlock(null());
+            				}
+            			}
+            		}
+HXLINE( 879)		{
+HXLINE( 879)			 ::flixel::_hx_system::frontEnds::CameraFrontEnd _this1 = ::flixel::FlxG_obj::cameras;
+HXDLIN( 879)			{
+HXLINE( 879)				int _g6 = 0;
+HXDLIN( 879)				::Array< ::Dynamic> _g7 = _this1->list;
+HXDLIN( 879)				while((_g6 < _g7->length)){
+HXLINE( 879)					 ::flixel::FlxCamera camera2 = _g7->__get(_g6).StaticCast<  ::flixel::FlxCamera >();
+HXDLIN( 879)					_g6 = (_g6 + 1);
+HXDLIN( 879)					bool _hx_tmp6;
+HXDLIN( 879)					bool _hx_tmp7;
+HXDLIN( 879)					if (::hx::IsNotNull( camera2 )) {
+HXLINE( 879)						_hx_tmp7 = !(camera2->exists);
+            					}
+            					else {
+HXLINE( 879)						_hx_tmp7 = true;
+            					}
+HXDLIN( 879)					if (!(_hx_tmp7)) {
+HXLINE( 879)						_hx_tmp6 = !(camera2->visible);
+            					}
+            					else {
+HXLINE( 879)						_hx_tmp6 = true;
+            					}
+HXDLIN( 879)					if (_hx_tmp6) {
+HXLINE( 879)						continue;
+            					}
+HXDLIN( 879)					camera2->drawFX();
+HXDLIN( 879)					if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 879)						if (_this1->useBufferLocking) {
+HXLINE( 879)							camera2->buffer->unlock(null());
             						}
-HXDLIN( 882)						camera2->screen->dirty = true;
+HXDLIN( 879)						camera2->screen->dirty = true;
             					}
             				}
             			}
             		}
-HXLINE( 884)		::flixel::FlxG_obj::signals->postDraw->dispatch();
+HXLINE( 881)		::flixel::FlxG_obj::signals->postDraw->dispatch();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,draw,(void))
 
 int FlxGame_obj::getTicks(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_893_getTicks)
-HXDLIN( 893)		int _hx_tmp = ( (int)(this->getTimer()) );
-HXDLIN( 893)		return (_hx_tmp - this->_startTime);
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_890_getTicks)
+HXDLIN( 890)		int _hx_tmp = ( (int)(this->getTimer()) );
+HXDLIN( 890)		return (_hx_tmp - this->_startTime);
             	}
 
 
@@ -834,8 +850,8 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxGame_obj,getTicks,return )
 
 HX_BEGIN_DEFAULT_FUNC(__default_getTimer,FlxGame_obj)
 int _hx_run(){
-            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_899___default_getTimer)
-HXDLIN( 899)		return ::openfl::Lib_obj::getTimer();
+            	HX_STACKFRAME(&_hx_pos_ad2b8ce2bfb1aa86_896___default_getTimer)
+HXDLIN( 896)		return ::openfl::Lib_obj::getTimer();
             	}
 HX_END_LOCAL_FUNC0(return )
 HX_END_DEFAULT_FUNC
@@ -844,13 +860,13 @@ HX_END_DEFAULT_FUNC
 void FlxGame_obj::__alloc_dynamic_functions(::hx::Ctx *_hx_ctx,FlxGame_obj *_hx_obj) {
 	if (!_hx_obj->getTimer.mPtr) _hx_obj->getTimer = new __default_getTimer(_hx_obj);
 }
-::hx::ObjectPtr< FlxGame_obj > FlxGame_obj::__new(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight,::hx::Class initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen) {
+::hx::ObjectPtr< FlxGame_obj > FlxGame_obj::__new(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight, ::Dynamic initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen) {
 	::hx::ObjectPtr< FlxGame_obj > __this = new FlxGame_obj();
 	__this->__construct(__o_gameWidth,__o_gameHeight,initialState,__o_updateFramerate,__o_drawFramerate,__o_skipSplash,__o_startFullscreen);
 	return __this;
 }
 
-::hx::ObjectPtr< FlxGame_obj > FlxGame_obj::__alloc(::hx::Ctx *_hx_ctx,::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight,::hx::Class initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen) {
+::hx::ObjectPtr< FlxGame_obj > FlxGame_obj::__alloc(::hx::Ctx *_hx_ctx,::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight, ::Dynamic initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen) {
 	FlxGame_obj *__this = (FlxGame_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(FlxGame_obj), true, "flixel.FlxGame"));
 	*(void **)__this = FlxGame_obj::_hx_vtable;
 	flixel::FlxGame_obj::__alloc_dynamic_functions(_hx_ctx,__this);
@@ -888,7 +904,7 @@ void FlxGame_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(_customFocusLostScreen,"_customFocusLostScreen");
 	HX_MARK_MEMBER_NAME(_skipSplash,"_skipSplash");
 	HX_MARK_MEMBER_NAME(_startFullscreen,"_startFullscreen");
-	HX_MARK_MEMBER_NAME(_requestedState,"_requestedState");
+	HX_MARK_MEMBER_NAME(_nextState,"_nextState");
 	HX_MARK_MEMBER_NAME(_resetGame,"_resetGame");
 	HX_MARK_MEMBER_NAME(getTimer,"getTimer");
 	 ::openfl::display::Sprite_obj::__Mark(HX_MARK_ARG);
@@ -919,7 +935,7 @@ void FlxGame_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(_customFocusLostScreen,"_customFocusLostScreen");
 	HX_VISIT_MEMBER_NAME(_skipSplash,"_skipSplash");
 	HX_VISIT_MEMBER_NAME(_startFullscreen,"_startFullscreen");
-	HX_VISIT_MEMBER_NAME(_requestedState,"_requestedState");
+	HX_VISIT_MEMBER_NAME(_nextState,"_nextState");
 	HX_VISIT_MEMBER_NAME(_resetGame,"_resetGame");
 	HX_VISIT_MEMBER_NAME(getTimer,"getTimer");
 	 ::openfl::display::Sprite_obj::__Visit(HX_VISIT_ARG);
@@ -960,6 +976,7 @@ void FlxGame_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"_startTime") ) { return ::hx::Val( _startTime ); }
 		if (HX_FIELD_EQ(inName,"_elapsedMS") ) { return ::hx::Val( _elapsedMS ); }
 		if (HX_FIELD_EQ(inName,"_lostFocus") ) { return ::hx::Val( _lostFocus ); }
+		if (HX_FIELD_EQ(inName,"_nextState") ) { return ::hx::Val( _nextState ); }
 		if (HX_FIELD_EQ(inName,"_resetGame") ) { return ::hx::Val( _resetGame ); }
 		if (HX_FIELD_EQ(inName,"setFilters") ) { return ::hx::Val( setFilters_dyn() ); }
 		if (HX_FIELD_EQ(inName,"resizeGame") ) { return ::hx::Val( resizeGame_dyn() ); }
@@ -984,7 +1001,6 @@ void FlxGame_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 15:
 		if (HX_FIELD_EQ(inName,"_inputContainer") ) { return ::hx::Val( _inputContainer ); }
-		if (HX_FIELD_EQ(inName,"_requestedState") ) { return ::hx::Val( _requestedState ); }
 		break;
 	case 16:
 		if (HX_FIELD_EQ(inName,"_gameJustStarted") ) { return ::hx::Val( _gameJustStarted ); }
@@ -1029,6 +1045,7 @@ void FlxGame_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"_startTime") ) { _startTime=inValue.Cast< int >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"_elapsedMS") ) { _elapsedMS=inValue.Cast< Float >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"_lostFocus") ) { _lostFocus=inValue.Cast< bool >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"_nextState") ) { _nextState=inValue.Cast<  ::Dynamic >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"_resetGame") ) { _resetGame=inValue.Cast< bool >(); return inValue; }
 		break;
 	case 11:
@@ -1039,14 +1056,13 @@ void FlxGame_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"_stepSeconds") ) { _stepSeconds=inValue.Cast< Float >(); return inValue; }
 		break;
 	case 13:
-		if (HX_FIELD_EQ(inName,"_initialState") ) { _initialState=inValue.Cast< ::hx::Class >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"_initialState") ) { _initialState=inValue.Cast<  ::Dynamic >(); return inValue; }
 		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"filtersEnabled") ) { filtersEnabled=inValue.Cast< bool >(); return inValue; }
 		break;
 	case 15:
 		if (HX_FIELD_EQ(inName,"_inputContainer") ) { _inputContainer=inValue.Cast<  ::openfl::display::Sprite >(); return inValue; }
-		if (HX_FIELD_EQ(inName,"_requestedState") ) { _requestedState=inValue.Cast<  ::flixel::FlxState >(); return inValue; }
 		break;
 	case 16:
 		if (HX_FIELD_EQ(inName,"_gameJustStarted") ) { _gameJustStarted=inValue.Cast< bool >(); return inValue; }
@@ -1088,7 +1104,7 @@ void FlxGame_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("_customFocusLostScreen",f8,e6,a0,2d));
 	outFields->push(HX_("_skipSplash",65,42,26,fa));
 	outFields->push(HX_("_startFullscreen",be,03,ce,18));
-	outFields->push(HX_("_requestedState",62,56,37,70));
+	outFields->push(HX_("_nextState",df,0b,f3,86));
 	outFields->push(HX_("_resetGame",22,79,ed,e5));
 	super::__GetFields(outFields);
 };
@@ -1100,7 +1116,7 @@ static ::hx::StorageInfo FlxGame_obj_sMemberStorageInfo[] = {
 	{::hx::fsInt,(int)offsetof(FlxGame_obj,ticks),HX_("ticks",76,2e,2e,10)},
 	{::hx::fsBool,(int)offsetof(FlxGame_obj,filtersEnabled),HX_("filtersEnabled",06,08,9b,18)},
 	{::hx::fsBool,(int)offsetof(FlxGame_obj,_gameJustStarted),HX_("_gameJustStarted",24,cc,52,15)},
-	{::hx::fsObject /* ::hx::Class */ ,(int)offsetof(FlxGame_obj,_initialState),HX_("_initialState",cc,09,8a,2a)},
+	{::hx::fsObject /*  ::Dynamic */ ,(int)offsetof(FlxGame_obj,_initialState),HX_("_initialState",cc,09,8a,2a)},
 	{::hx::fsObject /*  ::flixel::FlxState */ ,(int)offsetof(FlxGame_obj,_state),HX_("_state",52,bd,f2,7f)},
 	{::hx::fsInt,(int)offsetof(FlxGame_obj,_total),HX_("_total",05,9b,19,10)},
 	{::hx::fsInt,(int)offsetof(FlxGame_obj,_startTime),HX_("_startTime",50,c1,92,61)},
@@ -1117,7 +1133,7 @@ static ::hx::StorageInfo FlxGame_obj_sMemberStorageInfo[] = {
 	{::hx::fsObject /* ::hx::Class */ ,(int)offsetof(FlxGame_obj,_customFocusLostScreen),HX_("_customFocusLostScreen",f8,e6,a0,2d)},
 	{::hx::fsBool,(int)offsetof(FlxGame_obj,_skipSplash),HX_("_skipSplash",65,42,26,fa)},
 	{::hx::fsBool,(int)offsetof(FlxGame_obj,_startFullscreen),HX_("_startFullscreen",be,03,ce,18)},
-	{::hx::fsObject /*  ::flixel::FlxState */ ,(int)offsetof(FlxGame_obj,_requestedState),HX_("_requestedState",62,56,37,70)},
+	{::hx::fsObject /*  ::Dynamic */ ,(int)offsetof(FlxGame_obj,_nextState),HX_("_nextState",df,0b,f3,86)},
 	{::hx::fsBool,(int)offsetof(FlxGame_obj,_resetGame),HX_("_resetGame",22,79,ed,e5)},
 	{::hx::fsObject /*  ::Dynamic */ ,(int)offsetof(FlxGame_obj,getTimer),HX_("getTimer",4f,cf,0c,70)},
 	{ ::hx::fsUnknown, 0, null()}
@@ -1148,7 +1164,7 @@ static ::String FlxGame_obj_sMemberFields[] = {
 	HX_("_customFocusLostScreen",f8,e6,a0,2d),
 	HX_("_skipSplash",65,42,26,fa),
 	HX_("_startFullscreen",be,03,ce,18),
-	HX_("_requestedState",62,56,37,70),
+	HX_("_nextState",df,0b,f3,86),
 	HX_("_resetGame",22,79,ed,e5),
 	HX_("setFilters",39,c6,25,5c),
 	HX_("create",fc,66,0f,7c),

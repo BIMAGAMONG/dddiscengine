@@ -33,7 +33,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_d9ea38abf7c5aa75_47_new,"flixel.system.GraphicLogo","new",0x8c3a7cd8,"flixel.system.GraphicLogo.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
-HX_LOCAL_STACK_FRAME(_hx_pos_8057ddda4c97b35b_26_boot,"flixel.system.GraphicLogo","boot",0x1f0bc0ba,"flixel.system.GraphicLogo.boot","flixel/system/FlxAssets.hx",26,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_8057ddda4c97b35b_28_boot,"flixel.system.GraphicLogo","boot",0x1f0bc0ba,"flixel.system.GraphicLogo.boot","flixel/system/FlxAssets.hx",28,0xd3ac1356)
 namespace flixel{
 namespace _hx_system{
 
@@ -168,8 +168,8 @@ void GraphicLogo_obj::__register()
 void GraphicLogo_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_8057ddda4c97b35b_26_boot)
-HXDLIN(  26)		resourceName = HX_("__ASSET__:bitmap_flixel_system_GraphicLogo",a0,bd,f5,14);
+            	HX_STACKFRAME(&_hx_pos_8057ddda4c97b35b_28_boot)
+HXDLIN(  28)		resourceName = HX_("__ASSET__:bitmap_flixel_system_GraphicLogo",a0,bd,f5,14);
             	}
 }
 

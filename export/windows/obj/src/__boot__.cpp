@@ -136,8 +136,14 @@
 #ifndef INCLUDED_flixel_graphics_tile_FlxDrawItemType
 #include <flixel/graphics/tile/FlxDrawItemType.h>
 #endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont__BMFont_BMFontFileType
+#include <flixel/graphics/frames/bmfont/_BMFont/BMFontFileType.h>
+#endif
 #ifndef INCLUDED_flixel_graphics_frames_FlxFrameCollectionType
 #include <flixel/graphics/frames/FlxFrameCollectionType.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_TransitionCameraMode
+#include <flixel/addons/transition/TransitionCameraMode.h>
 #endif
 #ifndef INCLUDED_flixel_addons_display_BackdropBlitMode
 #include <flixel/addons/display/BackdropBlitMode.h>
@@ -1012,9 +1018,6 @@
 #ifndef INCLUDED_flixel_system_debug__FlxDebugger_GraphicFlixel
 #include <flixel/system/debug/_FlxDebugger/GraphicFlixel.h>
 #endif
-#ifndef INCLUDED_flixel_system_FlxSplash
-#include <flixel/system/FlxSplash.h>
-#endif
 #ifndef INCLUDED_flixel_system_FlxQuadTree
 #include <flixel/system/FlxQuadTree.h>
 #endif
@@ -1056,9 +1059,6 @@
 #endif
 #ifndef INCLUDED_flixel_input_mouse__FlxMouse_GraphicCursor
 #include <flixel/input/mouse/_FlxMouse/GraphicCursor.h>
-#endif
-#ifndef INCLUDED_openfl_display_BitmapData
-#include <openfl/display/BitmapData.h>
 #endif
 #ifndef INCLUDED_flixel_input_keyboard__FlxKey_FlxKey_Impl_
 #include <flixel/input/keyboard/_FlxKey/FlxKey_Impl_.h>
@@ -1120,6 +1120,9 @@
 #ifndef INCLUDED_flixel_graphics_tile_FlxDrawBaseItem
 #include <flixel/graphics/tile/FlxDrawBaseItem.h>
 #endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontUtil
+#include <flixel/graphics/frames/bmfont/BMFontUtil.h>
+#endif
 #ifndef INCLUDED_flixel_graphics_frames_FlxFrame
 #include <flixel/graphics/frames/FlxFrame.h>
 #endif
@@ -1144,11 +1147,35 @@
 #ifndef INCLUDED_flixel_animation_FlxPrerotatedAnimation
 #include <flixel/animation/FlxPrerotatedAnimation.h>
 #endif
+#ifndef INCLUDED_flixel_addons_transition_TransitionFade
+#include <flixel/addons/transition/TransitionFade.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition__TransitionFade_GraphicDiagonalGradient
+#include <flixel/addons/transition/_TransitionFade/GraphicDiagonalGradient.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_FlxTransitionableState
+#include <flixel/addons/transition/FlxTransitionableState.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_GraphicTransTileSquare
+#include <flixel/addons/transition/GraphicTransTileSquare.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_GraphicTransTileDiamond
+#include <flixel/addons/transition/GraphicTransTileDiamond.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_GraphicTransTileCircle
+#include <flixel/addons/transition/GraphicTransTileCircle.h>
+#endif
+#ifndef INCLUDED_openfl_display_BitmapData
+#include <openfl/display/BitmapData.h>
+#endif
 #ifndef INCLUDED_flixel_FlxSprite
 #include <flixel/FlxSprite.h>
 #endif
 #ifndef INCLUDED_flixel_FlxObject
 #include <flixel/FlxObject.h>
+#endif
+#ifndef INCLUDED_flixel_system_FlxSplash
+#include <flixel/system/FlxSplash.h>
 #endif
 #ifndef INCLUDED_flixel_FlxG
 #include <flixel/FlxG.h>
@@ -1188,6 +1215,9 @@
 #endif
 #ifndef INCLUDED_haxe_SysTools
 #include <haxe/SysTools.h>
+#endif
+#ifndef INCLUDED_MenuState
+#include <MenuState.h>
 #endif
 #ifndef INCLUDED_flixel_FlxBasic
 #include <flixel/FlxBasic.h>
@@ -2536,6 +2566,9 @@
 #ifndef INCLUDED_haxe_iterators_MapKeyValueIterator
 #include <haxe/iterators/MapKeyValueIterator.h>
 #endif
+#ifndef INCLUDED_haxe_iterators_DynamicAccessIterator
+#include <haxe/iterators/DynamicAccessIterator.h>
+#endif
 #ifndef INCLUDED_haxe_iterators_ArrayKeyValueIterator
 #include <haxe/iterators/ArrayKeyValueIterator.h>
 #endif
@@ -2656,6 +2689,12 @@
 #ifndef INCLUDED_haxe__CallStack_CallStack_Impl_
 #include <haxe/_CallStack/CallStack_Impl_.h>
 #endif
+#ifndef INCLUDED_flixel_util_typeLimit__NextState_InitialState_Impl_
+#include <flixel/util/typeLimit/_NextState/InitialState_Impl_.h>
+#endif
+#ifndef INCLUDED_flixel_util_typeLimit__NextState_NextState_Impl_
+#include <flixel/util/typeLimit/_NextState/NextState_Impl_.h>
+#endif
 #ifndef INCLUDED_flixel_util_helpers_FlxRange
 #include <flixel/util/helpers/FlxRange.h>
 #endif
@@ -2709,6 +2748,9 @@
 #endif
 #ifndef INCLUDED_flixel_util__FlxPool_PoolFactory_Impl_
 #include <flixel/util/_FlxPool/PoolFactory_Impl_.h>
+#endif
+#ifndef INCLUDED_flixel_util_FlxGradient
+#include <flixel/util/FlxGradient.h>
 #endif
 #ifndef INCLUDED_flixel_util_FlxDestroyUtil
 #include <flixel/util/FlxDestroyUtil.h>
@@ -2854,6 +2896,9 @@
 #ifndef INCLUDED_flixel_system__FlxAssets_FlxXmlAsset_Impl_
 #include <flixel/system/_FlxAssets/FlxXmlAsset_Impl_.h>
 #endif
+#ifndef INCLUDED_flixel_system__FlxAssets_FlxAngelCodeAsset_Impl_
+#include <flixel/system/_FlxAssets/FlxAngelCodeAsset_Impl_.h>
+#endif
 #ifndef INCLUDED_openfl_utils_IDataInput
 #include <openfl/utils/IDataInput.h>
 #endif
@@ -2898,9 +2943,6 @@
 #endif
 #ifndef INCLUDED_flixel_input_mouse_FlxMouse
 #include <flixel/input/mouse/FlxMouse.h>
-#endif
-#ifndef INCLUDED_lime_math_Vector2
-#include <lime/math/Vector2.h>
 #endif
 #ifndef INCLUDED_flixel_input_keyboard_FlxKeyboard
 #include <flixel/input/keyboard/FlxKeyboard.h>
@@ -2992,9 +3034,6 @@
 #ifndef INCLUDED_flixel_input_FlxBaseKeyList
 #include <flixel/input/FlxBaseKeyList.h>
 #endif
-#ifndef INCLUDED_flixel_group_FlxTypedSpriteGroup
-#include <flixel/group/FlxTypedSpriteGroup.h>
-#endif
 #ifndef INCLUDED_flixel_group_FlxTypedGroupIterator
 #include <flixel/group/FlxTypedGroupIterator.h>
 #endif
@@ -3003,6 +3042,39 @@
 #endif
 #ifndef INCLUDED_openfl_display_GraphicsShader
 #include <openfl/display/GraphicsShader.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont__BMFontXml_AttribAccess_Impl_
+#include <flixel/graphics/frames/bmfont/_BMFontXml/AttribAccess_Impl_.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont__BMFontXml_NodeAccess_Impl_
+#include <flixel/graphics/frames/bmfont/_BMFontXml/NodeAccess_Impl_.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont__BMFontXml_BMFontXml_Impl_
+#include <flixel/graphics/frames/bmfont/_BMFontXml/BMFontXml_Impl_.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontPage
+#include <flixel/graphics/frames/bmfont/BMFontPage.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontKerning
+#include <flixel/graphics/frames/bmfont/BMFontKerning.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontSpacing
+#include <flixel/graphics/frames/bmfont/BMFontSpacing.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontPadding
+#include <flixel/graphics/frames/bmfont/BMFontPadding.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontInfo
+#include <flixel/graphics/frames/bmfont/BMFontInfo.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontCommon
+#include <flixel/graphics/frames/bmfont/BMFontCommon.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFontChar
+#include <flixel/graphics/frames/bmfont/BMFontChar.h>
+#endif
+#ifndef INCLUDED_flixel_graphics_frames_bmfont_BMFont
+#include <flixel/graphics/frames/bmfont/BMFont.h>
 #endif
 #ifndef INCLUDED_flixel_graphics_frames_FlxTileFrames
 #include <flixel/graphics/frames/FlxTileFrames.h>
@@ -3022,8 +3094,8 @@
 #ifndef INCLUDED_flixel_graphics_atlas_FlxNode
 #include <flixel/graphics/atlas/FlxNode.h>
 #endif
-#ifndef INCLUDED_flixel_graphics_atlas__AtlasBase_Hash_Impl_
-#include <flixel/graphics/atlas/_AtlasBase/Hash_Impl_.h>
+#ifndef INCLUDED_flixel_graphics_atlas__AtlasBase_HashOrArray_Impl_
+#include <flixel/graphics/atlas/_AtlasBase/HashOrArray_Impl_.h>
 #endif
 #ifndef INCLUDED_flixel_graphics_atlas__AseAtlas_AseAtlasTagRepeat_Impl_
 #include <flixel/graphics/atlas/_AseAtlas/AseAtlasTagRepeat_Impl_.h>
@@ -3043,6 +3115,27 @@
 #ifndef INCLUDED_flixel_animation_FlxBaseAnimation
 #include <flixel/animation/FlxBaseAnimation.h>
 #endif
+#ifndef INCLUDED_flixel_addons_transition_TransitionTiles
+#include <flixel/addons/transition/TransitionTiles.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_TransitionEffect
+#include <flixel/addons/transition/TransitionEffect.h>
+#endif
+#ifndef INCLUDED_flixel_group_FlxTypedSpriteGroup
+#include <flixel/group/FlxTypedSpriteGroup.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_TransitionData
+#include <flixel/addons/transition/TransitionData.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_Transition
+#include <flixel/addons/transition/Transition.h>
+#endif
+#ifndef INCLUDED_flixel_addons_transition_FlxTransitionSprite
+#include <flixel/addons/transition/FlxTransitionSprite.h>
+#endif
+#ifndef INCLUDED_lime_math_Vector2
+#include <lime/math/Vector2.h>
+#endif
 #ifndef INCLUDED_flixel_addons_display_FlxBackdrop
 #include <flixel/addons/display/FlxBackdrop.h>
 #endif
@@ -3051,6 +3144,9 @@
 #endif
 #ifndef INCLUDED_flixel_IFlxSprite
 #include <flixel/IFlxSprite.h>
+#endif
+#ifndef INCLUDED_flixel__FlxGame_FlxIntroSplash
+#include <flixel/_FlxGame/FlxIntroSplash.h>
 #endif
 #ifndef INCLUDED_flixel_FlxGame
 #include <flixel/FlxGame.h>
@@ -3130,8 +3226,8 @@
 #ifndef INCLUDED_Reflect
 #include <Reflect.h>
 #endif
-#ifndef INCLUDED_MenuState
-#include <MenuState.h>
+#ifndef INCLUDED_PlayState
+#include <PlayState.h>
 #endif
 #ifndef INCLUDED_flixel_FlxState
 #include <flixel/FlxState.h>
@@ -3275,7 +3371,9 @@ __files__boot();
 ::flixel::input::gamepad::FlxGamepadModel_obj::__register();
 ::flixel::input::gamepad::FlxGamepadDeadZoneMode_obj::__register();
 ::flixel::graphics::tile::FlxDrawItemType_obj::__register();
+::flixel::graphics::frames::bmfont::_BMFont::BMFontFileType_obj::__register();
 ::flixel::graphics::frames::FlxFrameCollectionType_obj::__register();
+::flixel::addons::transition::TransitionCameraMode_obj::__register();
 ::flixel::addons::display::BackdropBlitMode_obj::__register();
 ::flixel::FlxRenderMethod_obj::__register();
 ::flixel::FlxCameraFollowStyle_obj::__register();
@@ -3567,7 +3665,6 @@ __files__boot();
 ::flixel::_hx_system::debug::GraphicLog_obj::__register();
 ::flixel::_hx_system::debug::_FlxDebugger::GraphicDrawDebug_obj::__register();
 ::flixel::_hx_system::debug::_FlxDebugger::GraphicFlixel_obj::__register();
-::flixel::_hx_system::FlxSplash_obj::__register();
 ::flixel::_hx_system::FlxQuadTree_obj::__register();
 ::flixel::_hx_system::_FlxPreloader::GraphicLogoCorners_obj::__register();
 ::flixel::_hx_system::_FlxPreloader::GraphicLogoLight_obj::__register();
@@ -3582,7 +3679,6 @@ __files__boot();
 ::flixel::math::_FlxPoint::FlxPoint_Impl__obj::__register();
 ::flixel::math::FlxMath_obj::__register();
 ::flixel::input::mouse::_FlxMouse::GraphicCursor_obj::__register();
-::openfl::display::BitmapData_obj::__register();
 ::flixel::input::keyboard::_FlxKey::FlxKey_Impl__obj::__register();
 ::flixel::input::gamepad::id::XInputID_obj::__register();
 ::flixel::input::gamepad::id::WiiRemoteID_obj::__register();
@@ -3603,6 +3699,7 @@ __files__boot();
 ::flixel::graphics::tile::FlxDrawTrianglesItem_obj::__register();
 ::flixel::graphics::tile::FlxDrawQuadsItem_obj::__register();
 ::flixel::graphics::tile::FlxDrawBaseItem_obj::__register();
+::flixel::graphics::frames::bmfont::BMFontUtil_obj::__register();
 ::flixel::graphics::frames::FlxFrame_obj::__register();
 ::openfl::geom::Rectangle_obj::__register();
 ::flixel::graphics::atlas::FlxAtlas_obj::__register();
@@ -3611,8 +3708,16 @@ __files__boot();
 ::flixel::graphics::FlxGraphic_obj::__register();
 ::flixel::effects::FlxFlicker_obj::__register();
 ::flixel::animation::FlxPrerotatedAnimation_obj::__register();
+::flixel::addons::transition::TransitionFade_obj::__register();
+::flixel::addons::transition::_TransitionFade::GraphicDiagonalGradient_obj::__register();
+::flixel::addons::transition::FlxTransitionableState_obj::__register();
+::flixel::addons::transition::GraphicTransTileSquare_obj::__register();
+::flixel::addons::transition::GraphicTransTileDiamond_obj::__register();
+::flixel::addons::transition::GraphicTransTileCircle_obj::__register();
+::openfl::display::BitmapData_obj::__register();
 ::flixel::FlxSprite_obj::__register();
 ::flixel::FlxObject_obj::__register();
+::flixel::_hx_system::FlxSplash_obj::__register();
 ::flixel::FlxG_obj::__register();
 ::flixel::util::FlxSave_obj::__register();
 ::flixel::math::FlxRandom_obj::__register();
@@ -3626,6 +3731,7 @@ __files__boot();
 ::flixel::math::FlxBasePoint_obj::__register();
 ::Xml_obj::__register();
 ::haxe::SysTools_obj::__register();
+::MenuState_obj::__register();
 ::flixel::FlxBasic_obj::__register();
 ::openfl::text::Font_obj::__register();
 ::__ASSET__flixel_flixel_ui_xml_default_popup_xml_obj::__register();
@@ -4075,6 +4181,7 @@ __files__boot();
 ::haxe::xml::_Access::HasAttribAccess_Impl__obj::__register();
 ::haxe::xml::_Access::AttribAccess_Impl__obj::__register();
 ::haxe::iterators::MapKeyValueIterator_obj::__register();
+::haxe::iterators::DynamicAccessIterator_obj::__register();
 ::haxe::iterators::ArrayKeyValueIterator_obj::__register();
 ::haxe::iterators::ArrayIterator_obj::__register();
 ::haxe::io::Path_obj::__register();
@@ -4115,6 +4222,8 @@ __files__boot();
 ::sys::thread::EventLoop_obj::__register();
 ::sys::thread::Mutex_obj::__register();
 ::haxe::_CallStack::CallStack_Impl__obj::__register();
+::flixel::util::typeLimit::_NextState::InitialState_Impl__obj::__register();
+::flixel::util::typeLimit::_NextState::NextState_Impl__obj::__register();
 ::flixel::util::helpers::FlxRange_obj::__register();
 ::flixel::util::_FlxUnicodeUtil::UnicodeBuffer_Impl__obj::__register();
 ::flixel::util::FlxUnicodeUtil_obj::__register();
@@ -4133,6 +4242,7 @@ __files__boot();
 ::flixel::util::_FlxSignal::FlxTypedSignal_Impl__obj::__register();
 ::flixel::util::_FlxSave::FlxSharedObject_obj::__register();
 ::flixel::util::_FlxPool::PoolFactory_Impl__obj::__register();
+::flixel::util::FlxGradient_obj::__register();
 ::flixel::util::FlxDestroyUtil_obj::__register();
 ::flixel::util::FlxColorTransformUtil_obj::__register();
 ::flixel::util::_FlxBitmapDataPool::FlxBitmapDataPoolNode_obj::__register();
@@ -4181,6 +4291,7 @@ __files__boot();
 ::flixel::_hx_system::FlxBGSprite_obj::__register();
 ::flixel::_hx_system::_FlxAssets::FlxJsonAsset_Impl__obj::__register();
 ::flixel::_hx_system::_FlxAssets::FlxXmlAsset_Impl__obj::__register();
+::flixel::_hx_system::_FlxAssets::FlxAngelCodeAsset_Impl__obj::__register();
 ::openfl::utils::IDataInput_obj::__register();
 ::openfl::utils::IDataOutput_obj::__register();
 ::flixel::sound::FlxSoundGroup_obj::__register();
@@ -4196,7 +4307,6 @@ __files__boot();
 ::flixel::input::mouse::FlxMouseEvent_obj::__register();
 ::flixel::input::mouse::FlxMouseButton_obj::__register();
 ::flixel::input::mouse::FlxMouse_obj::__register();
-::lime::math::Vector2_obj::__register();
 ::flixel::input::keyboard::FlxKeyboard_obj::__register();
 ::flixel::input::keyboard::FlxKeyList_obj::__register();
 ::flixel::input::gamepad::mappings::XInputMapping_obj::__register();
@@ -4227,26 +4337,44 @@ __files__boot();
 ::flixel::input::FlxInput_obj::__register();
 ::flixel::input::IFlxInput_obj::__register();
 ::flixel::input::FlxBaseKeyList_obj::__register();
-::flixel::group::FlxTypedSpriteGroup_obj::__register();
 ::flixel::group::FlxTypedGroupIterator_obj::__register();
 ::flixel::graphics::tile::FlxGraphicsShader_obj::__register();
 ::openfl::display::GraphicsShader_obj::__register();
+::flixel::graphics::frames::bmfont::_BMFontXml::AttribAccess_Impl__obj::__register();
+::flixel::graphics::frames::bmfont::_BMFontXml::NodeAccess_Impl__obj::__register();
+::flixel::graphics::frames::bmfont::_BMFontXml::BMFontXml_Impl__obj::__register();
+::flixel::graphics::frames::bmfont::BMFontPage_obj::__register();
+::flixel::graphics::frames::bmfont::BMFontKerning_obj::__register();
+::flixel::graphics::frames::bmfont::BMFontSpacing_obj::__register();
+::flixel::graphics::frames::bmfont::BMFontPadding_obj::__register();
+::flixel::graphics::frames::bmfont::BMFontInfo_obj::__register();
+::flixel::graphics::frames::bmfont::BMFontCommon_obj::__register();
+::flixel::graphics::frames::bmfont::BMFontChar_obj::__register();
+::flixel::graphics::frames::bmfont::BMFont_obj::__register();
 ::flixel::graphics::frames::FlxTileFrames_obj::__register();
 ::flixel::graphics::frames::FlxImageFrame_obj::__register();
 ::flixel::math::FlxMatrix_obj::__register();
 ::flixel::graphics::frames::FlxAtlasFrames_obj::__register();
 ::flixel::graphics::frames::FlxFramesCollection_obj::__register();
 ::flixel::graphics::atlas::FlxNode_obj::__register();
-::flixel::graphics::atlas::_AtlasBase::Hash_Impl__obj::__register();
+::flixel::graphics::atlas::_AtlasBase::HashOrArray_Impl__obj::__register();
 ::flixel::graphics::atlas::_AseAtlas::AseAtlasTagRepeat_Impl__obj::__register();
 ::flixel::graphics::atlas::_AseAtlas::AseAtlasColor_Impl__obj::__register();
 ::flixel::effects::postprocess::PostProcess_obj::__register();
 ::flixel::animation::FlxAnimationController_obj::__register();
 ::flixel::animation::FlxAnimation_obj::__register();
 ::flixel::animation::FlxBaseAnimation_obj::__register();
+::flixel::addons::transition::TransitionTiles_obj::__register();
+::flixel::addons::transition::TransitionEffect_obj::__register();
+::flixel::group::FlxTypedSpriteGroup_obj::__register();
+::flixel::addons::transition::TransitionData_obj::__register();
+::flixel::addons::transition::Transition_obj::__register();
+::flixel::addons::transition::FlxTransitionSprite_obj::__register();
+::lime::math::Vector2_obj::__register();
 ::flixel::addons::display::FlxBackdrop_obj::__register();
 ::flixel::FlxSubState_obj::__register();
 ::flixel::IFlxSprite_obj::__register();
+::flixel::_FlxGame::FlxIntroSplash_obj::__register();
 ::flixel::FlxGame_obj::__register();
 ::flixel::_hx_system::frontEnds::WatchFrontEnd_obj::__register();
 ::flixel::_hx_system::frontEnds::SignalFrontEnd_obj::__register();
@@ -4273,7 +4401,7 @@ __files__boot();
 ::StringBuf_obj::__register();
 ::Std_obj::__register();
 ::Reflect_obj::__register();
-::MenuState_obj::__register();
+::PlayState_obj::__register();
 ::flixel::FlxState_obj::__register();
 ::flixel::group::FlxTypedGroup_obj::__register();
 ::flixel::util::IFlxDestroyable_obj::__register();
@@ -4349,7 +4477,9 @@ __files__boot();
 ::flixel::input::gamepad::FlxGamepadModel_obj::__boot();
 ::flixel::input::gamepad::FlxGamepadDeadZoneMode_obj::__boot();
 ::flixel::graphics::tile::FlxDrawItemType_obj::__boot();
+::flixel::graphics::frames::bmfont::_BMFont::BMFontFileType_obj::__boot();
 ::flixel::graphics::frames::FlxFrameCollectionType_obj::__boot();
+::flixel::addons::transition::TransitionCameraMode_obj::__boot();
 ::flixel::addons::display::BackdropBlitMode_obj::__boot();
 ::flixel::FlxRenderMethod_obj::__boot();
 ::flixel::FlxCameraFollowStyle_obj::__boot();
@@ -4410,6 +4540,7 @@ __files__boot();
 ::__ASSET__flixel_flixel_ui_xml_default_popup_xml_obj::__boot();
 ::openfl::text::Font_obj::__boot();
 ::flixel::FlxBasic_obj::__boot();
+::MenuState_obj::__boot();
 ::haxe::SysTools_obj::__boot();
 ::Xml_obj::__boot();
 ::flixel::math::FlxBasePoint_obj::__boot();
@@ -4422,8 +4553,16 @@ __files__boot();
 ::flixel::math::FlxRandom_obj::__boot();
 ::flixel::util::FlxSave_obj::__boot();
 ::flixel::FlxG_obj::__boot();
+::flixel::_hx_system::FlxSplash_obj::__boot();
 ::flixel::FlxObject_obj::__boot();
 ::flixel::FlxSprite_obj::__boot();
+::openfl::display::BitmapData_obj::__boot();
+::flixel::addons::transition::GraphicTransTileCircle_obj::__boot();
+::flixel::addons::transition::GraphicTransTileDiamond_obj::__boot();
+::flixel::addons::transition::GraphicTransTileSquare_obj::__boot();
+::flixel::addons::transition::FlxTransitionableState_obj::__boot();
+::flixel::addons::transition::_TransitionFade::GraphicDiagonalGradient_obj::__boot();
+::flixel::addons::transition::TransitionFade_obj::__boot();
 ::flixel::animation::FlxPrerotatedAnimation_obj::__boot();
 ::flixel::effects::FlxFlicker_obj::__boot();
 ::flixel::graphics::FlxGraphic_obj::__boot();
@@ -4432,6 +4571,7 @@ __files__boot();
 ::flixel::graphics::atlas::FlxAtlas_obj::__boot();
 ::openfl::geom::Rectangle_obj::__boot();
 ::flixel::graphics::frames::FlxFrame_obj::__boot();
+::flixel::graphics::frames::bmfont::BMFontUtil_obj::__boot();
 ::flixel::graphics::tile::FlxDrawBaseItem_obj::__boot();
 ::flixel::graphics::tile::FlxDrawQuadsItem_obj::__boot();
 ::flixel::graphics::tile::FlxDrawTrianglesItem_obj::__boot();
@@ -4452,7 +4592,6 @@ __files__boot();
 ::flixel::input::gamepad::id::WiiRemoteID_obj::__boot();
 ::flixel::input::gamepad::id::XInputID_obj::__boot();
 ::flixel::input::keyboard::_FlxKey::FlxKey_Impl__obj::__boot();
-::openfl::display::BitmapData_obj::__boot();
 ::flixel::input::mouse::_FlxMouse::GraphicCursor_obj::__boot();
 ::flixel::math::FlxMath_obj::__boot();
 ::flixel::math::_FlxPoint::FlxPoint_Impl__obj::__boot();
@@ -4467,7 +4606,6 @@ __files__boot();
 ::flixel::_hx_system::_FlxPreloader::GraphicLogoLight_obj::__boot();
 ::flixel::_hx_system::_FlxPreloader::GraphicLogoCorners_obj::__boot();
 ::flixel::_hx_system::FlxQuadTree_obj::__boot();
-::flixel::_hx_system::FlxSplash_obj::__boot();
 ::flixel::_hx_system::debug::_FlxDebugger::GraphicFlixel_obj::__boot();
 ::flixel::_hx_system::debug::_FlxDebugger::GraphicDrawDebug_obj::__boot();
 ::flixel::_hx_system::debug::GraphicLog_obj::__boot();

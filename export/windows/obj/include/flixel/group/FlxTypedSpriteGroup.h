@@ -76,9 +76,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxTypedSpriteGroup_obj : public  ::flixel::FlxSpri
 		void transformChildren_Array_flixel_FlxCamera( ::Dynamic Function,::Array< ::Dynamic> Value);
 		::Dynamic transformChildren_Array_flixel_FlxCamera_dyn();
 
-		void transformChildren_flixel_FlxCamera( ::Dynamic Function, ::flixel::FlxCamera Value);
-		::Dynamic transformChildren_flixel_FlxCamera_dyn();
-
 		void multiTransformChildren_Float(::Array< ::Dynamic> FunctionArray,::Array< Float > ValueArray);
 		::Dynamic multiTransformChildren_Float_dyn();
 
@@ -88,13 +85,16 @@ class HXCPP_CLASS_ATTRIBUTES FlxTypedSpriteGroup_obj : public  ::flixel::FlxSpri
 		void transformChildren_flixel_math_FlxPoint( ::Dynamic Function, ::flixel::math::FlxBasePoint Value);
 		::Dynamic transformChildren_flixel_math_FlxPoint_dyn();
 
+		void transformChildren_flixel_FlxCamera( ::Dynamic Function, ::flixel::FlxCamera Value);
+		::Dynamic transformChildren_flixel_FlxCamera_dyn();
+
 		 ::flixel::group::FlxTypedGroup group;
 		bool directAlpha;
 		bool _skipTransformChildren;
 		::Array< ::Dynamic> _sprites;
 		void initVars();
 
-		void destroy();
+		virtual void destroy();
 
 		 ::flixel::FlxSprite clone();
 
@@ -104,7 +104,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxTypedSpriteGroup_obj : public  ::flixel::FlxSpri
 
 		bool pixelsOverlapPoint( ::flixel::math::FlxBasePoint point,::hx::Null< int >  Mask, ::flixel::FlxCamera Camera);
 
-		void update(Float elapsed);
+		virtual void update(Float elapsed);
 
 		void draw();
 

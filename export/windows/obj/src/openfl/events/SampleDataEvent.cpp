@@ -40,7 +40,7 @@ static const ::String _hx_array_data_8459d1af_3[] = {
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_aba8a98acfdcfbe6_172___init,"openfl.events.SampleDataEvent","__init",0x5efd470f,"openfl.events.SampleDataEvent.__init","openfl/events/SampleDataEvent.hx",172,0x7507e28f)
 HX_LOCAL_STACK_FRAME(_hx_pos_aba8a98acfdcfbe6_181_getBufferSize,"openfl.events.SampleDataEvent","getBufferSize",0x48832718,"openfl.events.SampleDataEvent.getBufferSize","openfl/events/SampleDataEvent.hx",181,0x7507e28f)
-HX_LOCAL_STACK_FRAME(_hx_pos_aba8a98acfdcfbe6_198_getSamples,"openfl.events.SampleDataEvent","getSamples",0x4dc44f72,"openfl.events.SampleDataEvent.getSamples","openfl/events/SampleDataEvent.hx",198,0x7507e28f)
+HX_LOCAL_STACK_FRAME(_hx_pos_aba8a98acfdcfbe6_195_getSamples,"openfl.events.SampleDataEvent","getSamples",0x4dc44f72,"openfl.events.SampleDataEvent.getSamples","openfl/events/SampleDataEvent.hx",195,0x7507e28f)
 HX_LOCAL_STACK_FRAME(_hx_pos_aba8a98acfdcfbe6_105_boot,"openfl.events.SampleDataEvent","boot",0x656ee751,"openfl.events.SampleDataEvent.boot","openfl/events/SampleDataEvent.hx",105,0x7507e28f)
 namespace openfl{
 namespace events{
@@ -120,56 +120,54 @@ HXLINE( 182)			bufferSize1 = (((Float)4294967296.0) + int1);
 HXLINE( 182)			bufferSize1 = (int1 + ((Float)0.0));
             		}
 HXDLIN( 182)		int bufferSize2 = ::Std_obj::_hx_int(((bufferSize / bufferSize1) / ( (Float)(2) )));
-HXLINE( 183)		if ((bufferSize2 > 0)) {
-HXLINE( 185)			bool _hx_tmp;
-HXDLIN( 185)			if ((bufferSize2 >= 2048)) {
-HXLINE( 185)				_hx_tmp = (bufferSize2 <= 8192);
-            			}
-            			else {
-HXLINE( 185)				_hx_tmp = false;
-            			}
-HXDLIN( 185)			if (_hx_tmp) {
-HXLINE( 187)				return bufferSize2;
-            			}
-            			else {
-HXLINE( 191)				HX_STACK_DO_THROW( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("To be consistent with flash the listener function registered to SampleDataEvent has to provide between 2048 and 8192 samples.",62,1d,44,35),null()));
-            			}
+HXLINE( 183)		bool _hx_tmp;
+HXDLIN( 183)		if ((bufferSize2 >= 2048)) {
+HXLINE( 183)			_hx_tmp = (bufferSize2 <= 8192);
             		}
-HXLINE( 194)		return bufferSize2;
+            		else {
+HXLINE( 183)			_hx_tmp = false;
+            		}
+HXDLIN( 183)		if (_hx_tmp) {
+HXLINE( 185)			return bufferSize2;
+            		}
+            		else {
+HXLINE( 189)			HX_STACK_DO_THROW( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("To be consistent with flash the listener function registered to SampleDataEvent has to provide between 2048 and 8192 samples.",62,1d,44,35),null()));
+            		}
+HXLINE( 183)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(SampleDataEvent_obj,getBufferSize,return )
 
 void SampleDataEvent_obj::getSamples( ::openfl::utils::ByteArrayData outputBuffer){
-            	HX_STACKFRAME(&_hx_pos_aba8a98acfdcfbe6_198_getSamples)
-HXLINE( 199)		int bytesLength = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(this->data);
-HXLINE( 200)		Float tempFloat;
-HXLINE( 201)		this->data->position = 0;
-HXLINE( 202)		outputBuffer->position = 0;
-HXLINE( 203)		while(true){
-HXLINE( 203)			int a = this->data->position;
-HXDLIN( 203)			bool aNeg = (bytesLength < 0);
-HXDLIN( 203)			bool bNeg = (a < 0);
-HXDLIN( 203)			bool _hx_tmp;
-HXDLIN( 203)			if ((aNeg != bNeg)) {
-HXLINE( 203)				_hx_tmp = aNeg;
+            	HX_STACKFRAME(&_hx_pos_aba8a98acfdcfbe6_195_getSamples)
+HXLINE( 196)		int bytesLength = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(this->data);
+HXLINE( 197)		Float tempFloat;
+HXLINE( 198)		this->data->position = 0;
+HXLINE( 199)		outputBuffer->position = 0;
+HXLINE( 200)		while(true){
+HXLINE( 200)			int a = this->data->position;
+HXDLIN( 200)			bool aNeg = (bytesLength < 0);
+HXDLIN( 200)			bool bNeg = (a < 0);
+HXDLIN( 200)			bool _hx_tmp;
+HXDLIN( 200)			if ((aNeg != bNeg)) {
+HXLINE( 200)				_hx_tmp = aNeg;
             			}
             			else {
-HXLINE( 203)				_hx_tmp = (bytesLength > a);
+HXLINE( 200)				_hx_tmp = (bytesLength > a);
             			}
-HXDLIN( 203)			if (!(_hx_tmp)) {
-HXLINE( 203)				goto _hx_goto_6;
+HXDLIN( 200)			if (!(_hx_tmp)) {
+HXLINE( 200)				goto _hx_goto_6;
             			}
+HXLINE( 202)			tempFloat = this->data->readFloat();
+HXLINE( 203)			this->leftChannel = ::Std_obj::_hx_int((tempFloat * ( (Float)(32768) )));
+HXLINE( 204)			outputBuffer->writeShort(this->leftChannel);
 HXLINE( 205)			tempFloat = this->data->readFloat();
-HXLINE( 206)			this->leftChannel = ::Std_obj::_hx_int((tempFloat * ( (Float)(32768) )));
-HXLINE( 207)			outputBuffer->writeShort(this->leftChannel);
-HXLINE( 208)			tempFloat = this->data->readFloat();
-HXLINE( 209)			this->rightChannel = ::Std_obj::_hx_int((tempFloat * ( (Float)(32768) )));
-HXLINE( 210)			outputBuffer->writeShort(this->rightChannel);
+HXLINE( 206)			this->rightChannel = ::Std_obj::_hx_int((tempFloat * ( (Float)(32768) )));
+HXLINE( 207)			outputBuffer->writeShort(this->rightChannel);
             		}
             		_hx_goto_6:;
-HXLINE( 213)		this->data->position = 0;
+HXLINE( 210)		this->data->position = 0;
             	}
 
 

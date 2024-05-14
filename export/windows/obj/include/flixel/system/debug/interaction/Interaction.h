@@ -10,6 +10,7 @@
 #include <flixel/system/debug/Window.h>
 #endif
 HX_DECLARE_CLASS1(flixel,FlxBasic)
+HX_DECLARE_CLASS1(flixel,FlxObject)
 HX_DECLARE_CLASS1(flixel,FlxState)
 HX_DECLARE_CLASS2(flixel,group,FlxTypedGroup)
 HX_DECLARE_CLASS2(flixel,input,FlxPointer)
@@ -84,6 +85,7 @@ class HXCPP_CLASS_ATTRIBUTES Interaction_obj : public  ::flixel::_hx_system::deb
 		bool pointerJustReleased;
 		bool pointerPressed;
 		bool shouldDrawItemsSelection;
+		bool macKeyboard;
 		 ::openfl::display::Sprite _container;
 		 ::openfl::display::Sprite _customCursor;
 		::Array< ::Dynamic> _tools;
@@ -181,11 +183,26 @@ class HXCPP_CLASS_ATTRIBUTES Interaction_obj : public  ::flixel::_hx_system::deb
 		bool isInUse();
 		::Dynamic isInUse_dyn();
 
+		::Array< ::Dynamic> getItemsWithinState( ::flixel::FlxState state, ::flixel::math::FlxRect area);
+		::Dynamic getItemsWithinState_dyn();
+
 		void findItemsWithinState(::Array< ::Dynamic> items, ::flixel::FlxState state, ::flixel::math::FlxRect area);
 		::Dynamic findItemsWithinState_dyn();
 
+		void addItemsWithinState(::Array< ::Dynamic> items, ::flixel::FlxState state, ::flixel::math::FlxRect area);
+		::Dynamic addItemsWithinState_dyn();
+
+		 ::flixel::FlxObject getTopItemWithinState( ::flixel::FlxState state, ::flixel::math::FlxRect area);
+		::Dynamic getTopItemWithinState_dyn();
+
 		void findItemsWithinArea(::Array< ::Dynamic> items,::Array< ::Dynamic> members, ::flixel::math::FlxRect area);
 		::Dynamic findItemsWithinArea_dyn();
+
+		void addItemsWithinArea(::Array< ::Dynamic> items,::Array< ::Dynamic> members, ::flixel::math::FlxRect area);
+		::Dynamic addItemsWithinArea_dyn();
+
+		 ::flixel::FlxObject getTopItemWithinArea(::Array< ::Dynamic> members, ::flixel::math::FlxRect area);
+		::Dynamic getTopItemWithinArea_dyn();
 
 };
 

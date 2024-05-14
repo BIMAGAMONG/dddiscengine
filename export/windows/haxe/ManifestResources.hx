@@ -95,6 +95,7 @@ import sys.FileSystem;
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_data_goes_here_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_fonts_rifficfree_bold_ttf extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_bg_school_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_credits_state_credits_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_images_go_here_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_arrow_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_discenginelogo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -103,7 +104,6 @@ import sys.FileSystem;
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_splashlogo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_templatepsds_creditstemplate_psd extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_templatepsds_textboxtemplate_psd extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ui_credits_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ui_textboxes_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ui_textboxes_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_mainmenu_ogg extends null { }
@@ -155,16 +155,16 @@ import sys.FileSystem;
 
 #elseif (desktop || cpp)
 
-@:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/5,5,0/assets/sounds/beep.ogg") @:noCompletion #if display private #end class __ASSET__flixel_sounds_beep_ogg extends haxe.io.Bytes {}
-@:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/5,5,0/assets/sounds/flixel.ogg") @:noCompletion #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends haxe.io.Bytes {}
-@:keep @:font("C:/HaxeToolkit/haxe/lib/flixel/5,5,0/assets/fonts/nokiafc22.ttf") @:noCompletion #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends lime.text.Font {}
-@:keep @:font("C:/HaxeToolkit/haxe/lib/flixel/5,5,0/assets/fonts/monsterrat.ttf") @:noCompletion #if display private #end class __ASSET__flixel_fonts_monsterrat_ttf extends lime.text.Font {}
-@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel/5,5,0/assets/images/ui/button.png") @:noCompletion #if display private #end class __ASSET__flixel_images_ui_button_png extends lime.graphics.Image {}
-@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel/5,5,0/assets/images/logo/default.png") @:noCompletion #if display private #end class __ASSET__flixel_images_logo_default_png extends lime.graphics.Image {}
-@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,1/assets/images/transitions/circle.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_circle_png extends lime.graphics.Image {}
-@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,1/assets/images/transitions/diagonal_gradient.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_diagonal_gradient_png extends lime.graphics.Image {}
-@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,1/assets/images/transitions/diamond.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_diamond_png extends lime.graphics.Image {}
-@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,1/assets/images/transitions/square.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_square_png extends lime.graphics.Image {}
+@:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/5,6,2/assets/sounds/beep.ogg") @:noCompletion #if display private #end class __ASSET__flixel_sounds_beep_ogg extends haxe.io.Bytes {}
+@:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/5,6,2/assets/sounds/flixel.ogg") @:noCompletion #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends haxe.io.Bytes {}
+@:keep @:font("C:/HaxeToolkit/haxe/lib/flixel/5,6,2/assets/fonts/nokiafc22.ttf") @:noCompletion #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends lime.text.Font {}
+@:keep @:font("C:/HaxeToolkit/haxe/lib/flixel/5,6,2/assets/fonts/monsterrat.ttf") @:noCompletion #if display private #end class __ASSET__flixel_fonts_monsterrat_ttf extends lime.text.Font {}
+@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel/5,6,2/assets/images/ui/button.png") @:noCompletion #if display private #end class __ASSET__flixel_images_ui_button_png extends lime.graphics.Image {}
+@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel/5,6,2/assets/images/logo/default.png") @:noCompletion #if display private #end class __ASSET__flixel_images_logo_default_png extends lime.graphics.Image {}
+@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,2/assets/images/transitions/circle.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_circle_png extends lime.graphics.Image {}
+@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,2/assets/images/transitions/diagonal_gradient.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_diagonal_gradient_png extends lime.graphics.Image {}
+@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,2/assets/images/transitions/diamond.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_diamond_png extends lime.graphics.Image {}
+@:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-addons/3,2,2/assets/images/transitions/square.png") @:noCompletion #if display private #end class __ASSET__flixel_images_transitions_square_png extends lime.graphics.Image {}
 @:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-ui/2,5,0/assets/images/box.png") @:noCompletion #if display private #end class __ASSET__flixel_flixel_ui_img_box_png extends lime.graphics.Image {}
 @:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-ui/2,5,0/assets/images/button.png") @:noCompletion #if display private #end class __ASSET__flixel_flixel_ui_img_button_png extends lime.graphics.Image {}
 @:keep @:image("C:/HaxeToolkit/haxe/lib/flixel-ui/2,5,0/assets/images/button_arrow_down.png") @:noCompletion #if display private #end class __ASSET__flixel_flixel_ui_img_button_arrow_down_png extends lime.graphics.Image {}

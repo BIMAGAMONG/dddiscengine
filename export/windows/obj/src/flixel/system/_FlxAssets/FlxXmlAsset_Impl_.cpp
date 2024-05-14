@@ -14,9 +14,9 @@
 #include <openfl/utils/Assets.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_392c32109d0ee29a_52_getXml,"flixel.system._FlxAssets.FlxXmlAsset_Impl_","getXml",0x8489080f,"flixel.system._FlxAssets.FlxXmlAsset_Impl_.getXml","flixel/system/FlxAssets.hx",52,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_392c32109d0ee29a_67_fromPath,"flixel.system._FlxAssets.FlxXmlAsset_Impl_","fromPath",0x66b93cdd,"flixel.system._FlxAssets.FlxXmlAsset_Impl_.fromPath","flixel/system/FlxAssets.hx",67,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_392c32109d0ee29a_72_fromXmlString,"flixel.system._FlxAssets.FlxXmlAsset_Impl_","fromXmlString",0x0b1003d0,"flixel.system._FlxAssets.FlxXmlAsset_Impl_.fromXmlString","flixel/system/FlxAssets.hx",72,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_392c32109d0ee29a_65_getXml,"flixel.system._FlxAssets.FlxXmlAsset_Impl_","getXml",0x8489080f,"flixel.system._FlxAssets.FlxXmlAsset_Impl_.getXml","flixel/system/FlxAssets.hx",65,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_392c32109d0ee29a_80_fromPath,"flixel.system._FlxAssets.FlxXmlAsset_Impl_","fromPath",0x66b93cdd,"flixel.system._FlxAssets.FlxXmlAsset_Impl_.fromPath","flixel/system/FlxAssets.hx",80,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_392c32109d0ee29a_85_fromXmlString,"flixel.system._FlxAssets.FlxXmlAsset_Impl_","fromXmlString",0x0b1003d0,"flixel.system._FlxAssets.FlxXmlAsset_Impl_.fromXmlString","flixel/system/FlxAssets.hx",85,0xd3ac1356)
 namespace flixel{
 namespace _hx_system{
 namespace _FlxAssets{
@@ -39,31 +39,31 @@ bool FlxXmlAsset_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Xml FlxXmlAsset_Impl__obj::getXml( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_392c32109d0ee29a_52_getXml)
-HXLINE(  53)		if (::Std_obj::isOfType(this1,::hx::ClassOf< ::String >())) {
-HXLINE(  55)			::String str = ( (::String)(this1) );
-HXLINE(  56)			if (::openfl::utils::Assets_obj::exists(str,null())) {
-HXLINE(  57)				return ::Xml_obj::parse(::openfl::utils::Assets_obj::getText(str));
+            	HX_STACKFRAME(&_hx_pos_392c32109d0ee29a_65_getXml)
+HXLINE(  66)		if (::Std_obj::isOfType(this1,::hx::ClassOf< ::String >())) {
+HXLINE(  68)			::String str = ( (::String)(this1) );
+HXLINE(  69)			if (::openfl::utils::Assets_obj::exists(str,null())) {
+HXLINE(  70)				return ::Xml_obj::parse(::openfl::utils::Assets_obj::getText(str));
             			}
-HXLINE(  59)			return ::Xml_obj::parse(str);
+HXLINE(  72)			return ::Xml_obj::parse(str);
             		}
-HXLINE(  62)		return ::hx::TCast<  ::Xml >::cast(this1);
+HXLINE(  75)		return ::hx::TCast<  ::Xml >::cast(this1);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxXmlAsset_Impl__obj,getXml,return )
 
  ::Xml FlxXmlAsset_Impl__obj::fromPath(::String path){
-            	HX_STACKFRAME(&_hx_pos_392c32109d0ee29a_67_fromPath)
-HXDLIN(  67)		return ::Xml_obj::parse(::openfl::utils::Assets_obj::getText(path));
+            	HX_STACKFRAME(&_hx_pos_392c32109d0ee29a_80_fromPath)
+HXDLIN(  80)		return ::Xml_obj::parse(::openfl::utils::Assets_obj::getText(path));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxXmlAsset_Impl__obj,fromPath,return )
 
  ::Xml FlxXmlAsset_Impl__obj::fromXmlString(::String data){
-            	HX_STACKFRAME(&_hx_pos_392c32109d0ee29a_72_fromXmlString)
-HXDLIN(  72)		return ::Xml_obj::parse(data);
+            	HX_STACKFRAME(&_hx_pos_392c32109d0ee29a_85_fromXmlString)
+HXDLIN(  85)		return ::Xml_obj::parse(data);
             	}
 
 

@@ -119,14 +119,14 @@
 
 HX_DEFINE_STACK_FRAME(_hx_pos_a928be64e2bd594d_21_new,"flixel.graphics.tile.FlxDrawTrianglesItem","new",0x8669d929,"flixel.graphics.tile.FlxDrawTrianglesItem.new","flixel/graphics/tile/FlxDrawTrianglesItem.hx",21,0x6492a666)
 HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_54_render,"flixel.graphics.tile.FlxDrawTrianglesItem","render",0xbf64462d,"flixel.graphics.tile.FlxDrawTrianglesItem.render","flixel/graphics/tile/FlxDrawTrianglesItem.hx",54,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_104_reset,"flixel.graphics.tile.FlxDrawTrianglesItem","reset",0xa508d6d8,"flixel.graphics.tile.FlxDrawTrianglesItem.reset","flixel/graphics/tile/FlxDrawTrianglesItem.hx",104,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_124_dispose,"flixel.graphics.tile.FlxDrawTrianglesItem","dispose",0xf49121e8,"flixel.graphics.tile.FlxDrawTrianglesItem.dispose","flixel/graphics/tile/FlxDrawTrianglesItem.hx",124,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_141_addTriangles,"flixel.graphics.tile.FlxDrawTrianglesItem","addTriangles",0xd3f66861,"flixel.graphics.tile.FlxDrawTrianglesItem.addTriangles","flixel/graphics/tile/FlxDrawTrianglesItem.hx",141,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_263_setParameterValue,"flixel.graphics.tile.FlxDrawTrianglesItem","setParameterValue",0xa7ab92d3,"flixel.graphics.tile.FlxDrawTrianglesItem.setParameterValue","flixel/graphics/tile/FlxDrawTrianglesItem.hx",263,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_297_addQuad,"flixel.graphics.tile.FlxDrawTrianglesItem","addQuad",0xc08c1cd1,"flixel.graphics.tile.FlxDrawTrianglesItem.addQuad","flixel/graphics/tile/FlxDrawTrianglesItem.hx",297,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_382_get_numVertices,"flixel.graphics.tile.FlxDrawTrianglesItem","get_numVertices",0x2e325a3f,"flixel.graphics.tile.FlxDrawTrianglesItem.get_numVertices","flixel/graphics/tile/FlxDrawTrianglesItem.hx",382,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_387_get_numTriangles,"flixel.graphics.tile.FlxDrawTrianglesItem","get_numTriangles",0x542b93a5,"flixel.graphics.tile.FlxDrawTrianglesItem.get_numTriangles","flixel/graphics/tile/FlxDrawTrianglesItem.hx",387,0x6492a666)
-HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_270_inflateBounds,"flixel.graphics.tile.FlxDrawTrianglesItem","inflateBounds",0x8ece7465,"flixel.graphics.tile.FlxDrawTrianglesItem.inflateBounds","flixel/graphics/tile/FlxDrawTrianglesItem.hx",270,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_102_reset,"flixel.graphics.tile.FlxDrawTrianglesItem","reset",0xa508d6d8,"flixel.graphics.tile.FlxDrawTrianglesItem.reset","flixel/graphics/tile/FlxDrawTrianglesItem.hx",102,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_122_dispose,"flixel.graphics.tile.FlxDrawTrianglesItem","dispose",0xf49121e8,"flixel.graphics.tile.FlxDrawTrianglesItem.dispose","flixel/graphics/tile/FlxDrawTrianglesItem.hx",122,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_139_addTriangles,"flixel.graphics.tile.FlxDrawTrianglesItem","addTriangles",0xd3f66861,"flixel.graphics.tile.FlxDrawTrianglesItem.addTriangles","flixel/graphics/tile/FlxDrawTrianglesItem.hx",139,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_261_setParameterValue,"flixel.graphics.tile.FlxDrawTrianglesItem","setParameterValue",0xa7ab92d3,"flixel.graphics.tile.FlxDrawTrianglesItem.setParameterValue","flixel/graphics/tile/FlxDrawTrianglesItem.hx",261,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_295_addQuad,"flixel.graphics.tile.FlxDrawTrianglesItem","addQuad",0xc08c1cd1,"flixel.graphics.tile.FlxDrawTrianglesItem.addQuad","flixel/graphics/tile/FlxDrawTrianglesItem.hx",295,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_380_get_numVertices,"flixel.graphics.tile.FlxDrawTrianglesItem","get_numVertices",0x2e325a3f,"flixel.graphics.tile.FlxDrawTrianglesItem.get_numVertices","flixel/graphics/tile/FlxDrawTrianglesItem.hx",380,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_385_get_numTriangles,"flixel.graphics.tile.FlxDrawTrianglesItem","get_numTriangles",0x542b93a5,"flixel.graphics.tile.FlxDrawTrianglesItem.get_numTriangles","flixel/graphics/tile/FlxDrawTrianglesItem.hx",385,0x6492a666)
+HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_268_inflateBounds,"flixel.graphics.tile.FlxDrawTrianglesItem","inflateBounds",0x8ece7465,"flixel.graphics.tile.FlxDrawTrianglesItem.inflateBounds","flixel/graphics/tile/FlxDrawTrianglesItem.hx",268,0x6492a666)
 HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_23_boot,"flixel.graphics.tile.FlxDrawTrianglesItem","boot",0x0e4d2b49,"flixel.graphics.tile.FlxDrawTrianglesItem.boot","flixel/graphics/tile/FlxDrawTrianglesItem.hx",23,0x6492a666)
 HX_LOCAL_STACK_FRAME(_hx_pos_a928be64e2bd594d_24_boot,"flixel.graphics.tile.FlxDrawTrianglesItem","boot",0x0e4d2b49,"flixel.graphics.tile.FlxDrawTrianglesItem.boot","flixel/graphics/tile/FlxDrawTrianglesItem.hx",24,0x6492a666)
 namespace flixel{
@@ -252,348 +252,348 @@ HXLINE(  75)				parameter1->value = ::Array_obj< bool >::__new(0);
 HXDLIN(  75)			parameter1->value[0] = value;
             		}
 HXLINE(  78)		camera->canvas->get_graphics()->overrideBlendMode(this->blend);
-HXLINE(  80)		camera->canvas->get_graphics()->beginShaderFill(shader,null());
+HXLINE(  81)		camera->canvas->get_graphics()->beginShaderFill(shader,null());
 HXLINE(  86)		camera->canvas->get_graphics()->drawTriangles(this->vertices,this->indices,this->uvtData,1);
-HXLINE(  90)		camera->canvas->get_graphics()->endFill();
-HXLINE( 100)		this->super::render(camera);
+HXLINE(  87)		camera->canvas->get_graphics()->endFill();
+HXLINE(  98)		this->super::render(camera);
             	}
 
 
 void FlxDrawTrianglesItem_obj::reset(){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_104_reset)
-HXLINE( 105)		this->super::reset();
-HXLINE( 106)		{
-HXLINE( 106)			::Dynamic this1 = this->vertices;
-HXDLIN( 106)			int deleteCount = this->vertices->get_length();
-HXDLIN( 106)			this1->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
-HXDLIN( 106)			{
-HXLINE( 106)				int _g_current = 0;
-HXDLIN( 106)				::cpp::VirtualArray _g_args = ::cpp::VirtualArray_obj::__new(0);
-HXDLIN( 106)				while((_g_current < _g_args->get_length())){
-HXLINE( 106)					_g_current = (_g_current + 1);
-HXDLIN( 106)					 ::Dynamic item = _g_args->__get((_g_current - 1));
-HXDLIN( 106)					( ( ::openfl::_Vector::FloatVector)(this1) )->insertAt(( (int)(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (Float)(item) ));
-HXDLIN( 106)					::hx::FieldRef((this1).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_102_reset)
+HXLINE( 103)		this->super::reset();
+HXLINE( 104)		{
+HXLINE( 104)			::Dynamic this1 = this->vertices;
+HXDLIN( 104)			int deleteCount = this->vertices->get_length();
+HXDLIN( 104)			this1->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
+HXDLIN( 104)			{
+HXLINE( 104)				int _g_current = 0;
+HXDLIN( 104)				::cpp::VirtualArray _g_args = ::cpp::VirtualArray_obj::__new(0);
+HXDLIN( 104)				while((_g_current < _g_args->get_length())){
+HXLINE( 104)					_g_current = (_g_current + 1);
+HXDLIN( 104)					 ::Dynamic item = _g_args->__get((_g_current - 1));
+HXDLIN( 104)					( ( ::openfl::_Vector::FloatVector)(this1) )->insertAt(( (int)(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (Float)(item) ));
+HXDLIN( 104)					::hx::FieldRef((this1).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
             				}
             			}
-HXDLIN( 106)			( ( ::openfl::_Vector::FloatVector)(this1) )->splice(( (int)(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount);
+HXDLIN( 104)			( ( ::openfl::_Vector::FloatVector)(this1) )->splice(( (int)(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount);
+            		}
+HXLINE( 105)		{
+HXLINE( 105)			::Dynamic this2 = this->indices;
+HXDLIN( 105)			int deleteCount1 = this->indices->get_length();
+HXDLIN( 105)			this2->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
+HXDLIN( 105)			{
+HXLINE( 105)				int _g_current1 = 0;
+HXDLIN( 105)				::cpp::VirtualArray _g_args1 = ::cpp::VirtualArray_obj::__new(0);
+HXDLIN( 105)				while((_g_current1 < _g_args1->get_length())){
+HXLINE( 105)					_g_current1 = (_g_current1 + 1);
+HXDLIN( 105)					 ::Dynamic item1 = _g_args1->__get((_g_current1 - 1));
+HXDLIN( 105)					( ( ::openfl::_Vector::IntVector)(this2) )->insertAt(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (int)(item1) ));
+HXDLIN( 105)					::hx::FieldRef((this2).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+            				}
+            			}
+HXDLIN( 105)			( ( ::openfl::_Vector::IntVector)(this2) )->splice(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount1);
+            		}
+HXLINE( 106)		{
+HXLINE( 106)			::Dynamic this3 = this->uvtData;
+HXDLIN( 106)			int deleteCount2 = this->uvtData->get_length();
+HXDLIN( 106)			this3->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
+HXDLIN( 106)			{
+HXLINE( 106)				int _g_current2 = 0;
+HXDLIN( 106)				::cpp::VirtualArray _g_args2 = ::cpp::VirtualArray_obj::__new(0);
+HXDLIN( 106)				while((_g_current2 < _g_args2->get_length())){
+HXLINE( 106)					_g_current2 = (_g_current2 + 1);
+HXDLIN( 106)					 ::Dynamic item2 = _g_args2->__get((_g_current2 - 1));
+HXDLIN( 106)					( ( ::openfl::_Vector::FloatVector)(this3) )->insertAt(( (int)(this3->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (Float)(item2) ));
+HXDLIN( 106)					::hx::FieldRef((this3).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+            				}
+            			}
+HXDLIN( 106)			( ( ::openfl::_Vector::FloatVector)(this3) )->splice(( (int)(this3->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount2);
             		}
 HXLINE( 107)		{
-HXLINE( 107)			::Dynamic this2 = this->indices;
-HXDLIN( 107)			int deleteCount1 = this->indices->get_length();
-HXDLIN( 107)			this2->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
+HXLINE( 107)			::Dynamic this4 = this->colors;
+HXDLIN( 107)			int deleteCount3 = this->colors->get_length();
+HXDLIN( 107)			this4->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
 HXDLIN( 107)			{
-HXLINE( 107)				int _g_current1 = 0;
-HXDLIN( 107)				::cpp::VirtualArray _g_args1 = ::cpp::VirtualArray_obj::__new(0);
-HXDLIN( 107)				while((_g_current1 < _g_args1->get_length())){
-HXLINE( 107)					_g_current1 = (_g_current1 + 1);
-HXDLIN( 107)					 ::Dynamic item1 = _g_args1->__get((_g_current1 - 1));
-HXDLIN( 107)					( ( ::openfl::_Vector::IntVector)(this2) )->insertAt(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (int)(item1) ));
-HXDLIN( 107)					::hx::FieldRef((this2).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+HXLINE( 107)				int _g_current3 = 0;
+HXDLIN( 107)				::cpp::VirtualArray _g_args3 = ::cpp::VirtualArray_obj::__new(0);
+HXDLIN( 107)				while((_g_current3 < _g_args3->get_length())){
+HXLINE( 107)					_g_current3 = (_g_current3 + 1);
+HXDLIN( 107)					 ::Dynamic item3 = _g_args3->__get((_g_current3 - 1));
+HXDLIN( 107)					( ( ::openfl::_Vector::IntVector)(this4) )->insertAt(( (int)(this4->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (int)(item3) ));
+HXDLIN( 107)					::hx::FieldRef((this4).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
             				}
             			}
-HXDLIN( 107)			( ( ::openfl::_Vector::IntVector)(this2) )->splice(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount1);
+HXDLIN( 107)			( ( ::openfl::_Vector::IntVector)(this4) )->splice(( (int)(this4->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount3);
             		}
-HXLINE( 108)		{
-HXLINE( 108)			::Dynamic this3 = this->uvtData;
-HXDLIN( 108)			int deleteCount2 = this->uvtData->get_length();
-HXDLIN( 108)			this3->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
-HXDLIN( 108)			{
-HXLINE( 108)				int _g_current2 = 0;
-HXDLIN( 108)				::cpp::VirtualArray _g_args2 = ::cpp::VirtualArray_obj::__new(0);
-HXDLIN( 108)				while((_g_current2 < _g_args2->get_length())){
-HXLINE( 108)					_g_current2 = (_g_current2 + 1);
-HXDLIN( 108)					 ::Dynamic item2 = _g_args2->__get((_g_current2 - 1));
-HXDLIN( 108)					( ( ::openfl::_Vector::FloatVector)(this3) )->insertAt(( (int)(this3->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (Float)(item2) ));
-HXDLIN( 108)					::hx::FieldRef((this3).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
-            				}
-            			}
-HXDLIN( 108)			( ( ::openfl::_Vector::FloatVector)(this3) )->splice(( (int)(this3->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount2);
+HXLINE( 109)		this->verticesPosition = 0;
+HXLINE( 110)		this->indicesPosition = 0;
+HXLINE( 111)		this->colorsPosition = 0;
+HXLINE( 113)		this->alphas->removeRange(0,this->alphas->length);
+HXLINE( 114)		if (::hx::IsNotNull( this->colorMultipliers )) {
+HXLINE( 115)			this->colorMultipliers->removeRange(0,this->colorMultipliers->length);
             		}
-HXLINE( 109)		{
-HXLINE( 109)			::Dynamic this4 = this->colors;
-HXDLIN( 109)			int deleteCount3 = this->colors->get_length();
-HXDLIN( 109)			this4->__SetField(HX_("__tempIndex",3e,e8,54,22),0,::hx::paccDynamic);
-HXDLIN( 109)			{
-HXLINE( 109)				int _g_current3 = 0;
-HXDLIN( 109)				::cpp::VirtualArray _g_args3 = ::cpp::VirtualArray_obj::__new(0);
-HXDLIN( 109)				while((_g_current3 < _g_args3->get_length())){
-HXLINE( 109)					_g_current3 = (_g_current3 + 1);
-HXDLIN( 109)					 ::Dynamic item3 = _g_args3->__get((_g_current3 - 1));
-HXDLIN( 109)					( ( ::openfl::_Vector::IntVector)(this4) )->insertAt(( (int)(this4->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (int)(item3) ));
-HXDLIN( 109)					::hx::FieldRef((this4).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
-            				}
-            			}
-HXDLIN( 109)			( ( ::openfl::_Vector::IntVector)(this4) )->splice(( (int)(this4->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),deleteCount3);
-            		}
-HXLINE( 111)		this->verticesPosition = 0;
-HXLINE( 112)		this->indicesPosition = 0;
-HXLINE( 113)		this->colorsPosition = 0;
-HXLINE( 115)		this->alphas->removeRange(0,this->alphas->length);
-HXLINE( 116)		if (::hx::IsNotNull( this->colorMultipliers )) {
-HXLINE( 117)			this->colorMultipliers->removeRange(0,this->colorMultipliers->length);
-            		}
-HXLINE( 118)		if (::hx::IsNotNull( this->colorOffsets )) {
-HXLINE( 119)			this->colorOffsets->removeRange(0,this->colorOffsets->length);
+HXLINE( 116)		if (::hx::IsNotNull( this->colorOffsets )) {
+HXLINE( 117)			this->colorOffsets->removeRange(0,this->colorOffsets->length);
             		}
             	}
 
 
 void FlxDrawTrianglesItem_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_124_dispose)
-HXLINE( 125)		this->super::dispose();
-HXLINE( 127)		this->vertices = null();
-HXLINE( 128)		this->indices = null();
-HXLINE( 129)		this->uvtData = null();
-HXLINE( 130)		this->colors = null();
-HXLINE( 131)		this->bounds = null();
-HXLINE( 133)		this->alphas = null();
-HXLINE( 134)		this->colorMultipliers = null();
-HXLINE( 135)		this->colorOffsets = null();
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_122_dispose)
+HXLINE( 123)		this->super::dispose();
+HXLINE( 125)		this->vertices = null();
+HXLINE( 126)		this->indices = null();
+HXLINE( 127)		this->uvtData = null();
+HXLINE( 128)		this->colors = null();
+HXLINE( 129)		this->bounds = null();
+HXLINE( 131)		this->alphas = null();
+HXLINE( 132)		this->colorMultipliers = null();
+HXLINE( 133)		this->colorOffsets = null();
             	}
 
 
 void FlxDrawTrianglesItem_obj::addTriangles( ::openfl::_Vector::FloatVector vertices, ::openfl::_Vector::IntVector indices, ::openfl::_Vector::FloatVector uvtData, ::openfl::_Vector::IntVector colors, ::flixel::math::FlxBasePoint position, ::flixel::math::FlxRect cameraBounds, ::openfl::geom::ColorTransform transform){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_141_addTriangles)
-HXLINE( 142)		if (::hx::IsNull( position )) {
-HXLINE( 143)			 ::flixel::math::FlxBasePoint this1 = ::flixel::graphics::tile::FlxDrawTrianglesItem_obj::point;
-HXDLIN( 143)			this1->set_x(( (Float)(0) ));
-HXDLIN( 143)			this1->set_y(( (Float)(0) ));
-HXDLIN( 143)			position = this1;
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_139_addTriangles)
+HXLINE( 140)		if (::hx::IsNull( position )) {
+HXLINE( 141)			 ::flixel::math::FlxBasePoint this1 = ::flixel::graphics::tile::FlxDrawTrianglesItem_obj::point;
+HXDLIN( 141)			this1->set_x(( (Float)(0) ));
+HXDLIN( 141)			this1->set_y(( (Float)(0) ));
+HXDLIN( 141)			position = this1;
             		}
-HXLINE( 145)		if (::hx::IsNull( cameraBounds )) {
-HXLINE( 146)			 ::flixel::math::FlxRect _this = ::flixel::graphics::tile::FlxDrawTrianglesItem_obj::rect;
-HXDLIN( 146)			_this->x = ( (Float)(0) );
-HXDLIN( 146)			_this->y = ( (Float)(0) );
-HXDLIN( 146)			_this->width = ( (Float)(::flixel::FlxG_obj::width) );
-HXDLIN( 146)			_this->height = ( (Float)(::flixel::FlxG_obj::height) );
-HXDLIN( 146)			cameraBounds = _this;
+HXLINE( 143)		if (::hx::IsNull( cameraBounds )) {
+HXLINE( 144)			 ::flixel::math::FlxRect _this = ::flixel::graphics::tile::FlxDrawTrianglesItem_obj::rect;
+HXDLIN( 144)			_this->x = ( (Float)(0) );
+HXDLIN( 144)			_this->y = ( (Float)(0) );
+HXDLIN( 144)			_this->width = ( (Float)(::flixel::FlxG_obj::width) );
+HXDLIN( 144)			_this->height = ( (Float)(::flixel::FlxG_obj::height) );
+HXDLIN( 144)			cameraBounds = _this;
             		}
-HXLINE( 148)		int verticesLength = vertices->get_length();
-HXLINE( 149)		int prevVerticesLength = this->vertices->get_length();
-HXLINE( 150)		int numberOfVertices = ::Std_obj::_hx_int((( (Float)(verticesLength) ) / ( (Float)(2) )));
-HXLINE( 151)		int prevIndicesLength = this->indices->get_length();
-HXLINE( 152)		int prevUVTDataLength = this->uvtData->get_length();
-HXLINE( 153)		int prevColorsLength = this->colors->get_length();
-HXLINE( 154)		int prevNumberOfVertices = this->get_numVertices();
-HXLINE( 156)		Float tempX;
-HXDLIN( 156)		Float tempY;
-HXLINE( 157)		int i = 0;
-HXLINE( 158)		int currentVertexPosition = prevVerticesLength;
-HXLINE( 160)		while((i < verticesLength)){
-HXLINE( 162)			Float position1 = position->x;
-HXDLIN( 162)			tempX = (position1 + vertices->get(i));
-HXLINE( 163)			Float position2 = position->y;
-HXDLIN( 163)			tempY = (position2 + vertices->get((i + 1)));
-HXLINE( 165)			{
-HXLINE( 165)				currentVertexPosition = (currentVertexPosition + 1);
-HXDLIN( 165)				this->vertices->set((currentVertexPosition - 1),tempX);
+HXLINE( 146)		int verticesLength = vertices->get_length();
+HXLINE( 147)		int prevVerticesLength = this->vertices->get_length();
+HXLINE( 148)		int numberOfVertices = ::Std_obj::_hx_int((( (Float)(verticesLength) ) / ( (Float)(2) )));
+HXLINE( 149)		int prevIndicesLength = this->indices->get_length();
+HXLINE( 150)		int prevUVTDataLength = this->uvtData->get_length();
+HXLINE( 151)		int prevColorsLength = this->colors->get_length();
+HXLINE( 152)		int prevNumberOfVertices = this->get_numVertices();
+HXLINE( 154)		Float tempX;
+HXDLIN( 154)		Float tempY;
+HXLINE( 155)		int i = 0;
+HXLINE( 156)		int currentVertexPosition = prevVerticesLength;
+HXLINE( 158)		while((i < verticesLength)){
+HXLINE( 160)			Float position1 = position->x;
+HXDLIN( 160)			tempX = (position1 + vertices->get(i));
+HXLINE( 161)			Float position2 = position->y;
+HXDLIN( 161)			tempY = (position2 + vertices->get((i + 1)));
+HXLINE( 163)			{
+HXLINE( 163)				currentVertexPosition = (currentVertexPosition + 1);
+HXDLIN( 163)				this->vertices->set((currentVertexPosition - 1),tempX);
             			}
-HXLINE( 166)			{
-HXLINE( 166)				currentVertexPosition = (currentVertexPosition + 1);
-HXDLIN( 166)				this->vertices->set((currentVertexPosition - 1),tempY);
+HXLINE( 164)			{
+HXLINE( 164)				currentVertexPosition = (currentVertexPosition + 1);
+HXDLIN( 164)				this->vertices->set((currentVertexPosition - 1),tempY);
             			}
-HXLINE( 168)			if ((i == 0)) {
-HXLINE( 170)				 ::flixel::math::FlxRect _this1 = this->bounds;
-HXDLIN( 170)				_this1->x = tempX;
-HXDLIN( 170)				_this1->y = tempY;
-HXDLIN( 170)				_this1->width = ( (Float)(0) );
-HXDLIN( 170)				_this1->height = ( (Float)(0) );
+HXLINE( 166)			if ((i == 0)) {
+HXLINE( 168)				 ::flixel::math::FlxRect _this1 = this->bounds;
+HXDLIN( 168)				_this1->x = tempX;
+HXDLIN( 168)				_this1->y = tempY;
+HXDLIN( 168)				_this1->width = ( (Float)(0) );
+HXDLIN( 168)				_this1->height = ( (Float)(0) );
             			}
             			else {
-HXLINE( 174)				 ::flixel::math::FlxRect bounds = this->bounds;
-HXDLIN( 174)				if ((tempX < bounds->x)) {
-HXLINE( 174)					 ::flixel::math::FlxRect bounds1 = bounds;
-HXDLIN( 174)					bounds1->width = (bounds1->width + (bounds->x - tempX));
-HXDLIN( 174)					bounds->x = tempX;
+HXLINE( 172)				 ::flixel::math::FlxRect bounds = this->bounds;
+HXDLIN( 172)				if ((tempX < bounds->x)) {
+HXLINE( 172)					 ::flixel::math::FlxRect bounds1 = bounds;
+HXDLIN( 172)					bounds1->width = (bounds1->width + (bounds->x - tempX));
+HXDLIN( 172)					bounds->x = tempX;
             				}
-HXDLIN( 174)				if ((tempY < bounds->y)) {
-HXLINE( 174)					 ::flixel::math::FlxRect bounds2 = bounds;
-HXDLIN( 174)					bounds2->height = (bounds2->height + (bounds->y - tempY));
-HXDLIN( 174)					bounds->y = tempY;
+HXDLIN( 172)				if ((tempY < bounds->y)) {
+HXLINE( 172)					 ::flixel::math::FlxRect bounds2 = bounds;
+HXDLIN( 172)					bounds2->height = (bounds2->height + (bounds->y - tempY));
+HXDLIN( 172)					bounds->y = tempY;
             				}
-HXDLIN( 174)				if ((tempX > (bounds->x + bounds->width))) {
-HXLINE( 174)					bounds->width = (tempX - bounds->x);
+HXDLIN( 172)				if ((tempX > (bounds->x + bounds->width))) {
+HXLINE( 172)					bounds->width = (tempX - bounds->x);
             				}
-HXDLIN( 174)				if ((tempY > (bounds->y + bounds->height))) {
-HXLINE( 174)					bounds->height = (tempY - bounds->y);
-            				}
-            			}
-HXLINE( 177)			i = (i + 2);
-            		}
-HXLINE( 180)		 ::flixel::math::FlxRect Rect = this->bounds;
-HXDLIN( 180)		bool result;
-HXDLIN( 180)		bool result1;
-HXDLIN( 180)		bool result2;
-HXDLIN( 180)		if (((Rect->x + Rect->width) > cameraBounds->x)) {
-HXLINE( 180)			result2 = (Rect->x < (cameraBounds->x + cameraBounds->width));
-            		}
-            		else {
-HXLINE( 180)			result2 = false;
-            		}
-HXDLIN( 180)		if (result2) {
-HXLINE( 180)			result1 = ((Rect->y + Rect->height) > cameraBounds->y);
-            		}
-            		else {
-HXLINE( 180)			result1 = false;
-            		}
-HXDLIN( 180)		if (result1) {
-HXLINE( 180)			result = (Rect->y < (cameraBounds->y + cameraBounds->height));
-            		}
-            		else {
-HXLINE( 180)			result = false;
-            		}
-HXDLIN( 180)		if (Rect->_weak) {
-HXLINE( 180)			if (!(Rect->_inPool)) {
-HXLINE( 180)				Rect->_inPool = true;
-HXDLIN( 180)				Rect->_weak = false;
-HXDLIN( 180)				::flixel::math::FlxRect_obj::_pool->putUnsafe(Rect);
-            			}
-            		}
-HXDLIN( 180)		if (!(result)) {
-HXLINE( 182)			::Dynamic this2 = this->vertices;
-HXDLIN( 182)			this2->__SetField(HX_("__tempIndex",3e,e8,54,22),(this->vertices->get_length() - verticesLength),::hx::paccDynamic);
-HXDLIN( 182)			{
-HXLINE( 182)				int _g_current = 0;
-HXDLIN( 182)				::cpp::VirtualArray _g_args = ::cpp::VirtualArray_obj::__new(0);
-HXDLIN( 182)				while((_g_current < _g_args->get_length())){
-HXLINE( 182)					_g_current = (_g_current + 1);
-HXDLIN( 182)					 ::Dynamic item = _g_args->__get((_g_current - 1));
-HXDLIN( 182)					( ( ::openfl::_Vector::FloatVector)(this2) )->insertAt(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (Float)(item) ));
-HXDLIN( 182)					::hx::FieldRef((this2).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+HXDLIN( 172)				if ((tempY > (bounds->y + bounds->height))) {
+HXLINE( 172)					bounds->height = (tempY - bounds->y);
             				}
             			}
-HXDLIN( 182)			( ( ::openfl::_Vector::FloatVector)(this2) )->splice(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),verticesLength);
+HXLINE( 175)			i = (i + 2);
+            		}
+HXLINE( 178)		 ::flixel::math::FlxRect Rect = this->bounds;
+HXDLIN( 178)		bool result;
+HXDLIN( 178)		bool result1;
+HXDLIN( 178)		bool result2;
+HXDLIN( 178)		if (((Rect->x + Rect->width) > cameraBounds->x)) {
+HXLINE( 178)			result2 = (Rect->x < (cameraBounds->x + cameraBounds->width));
             		}
             		else {
-HXLINE( 186)			int uvtDataLength = uvtData->get_length();
-HXLINE( 187)			{
-HXLINE( 187)				int _g = 0;
-HXDLIN( 187)				int _g1 = uvtDataLength;
-HXDLIN( 187)				while((_g < _g1)){
-HXLINE( 187)					_g = (_g + 1);
-HXDLIN( 187)					int i1 = (_g - 1);
-HXLINE( 189)					{
-HXLINE( 189)						::Dynamic this3 = this->uvtData;
-HXDLIN( 189)						( ( ::openfl::_Vector::FloatVector)(this3) )->set((prevUVTDataLength + i1),uvtData->get(i1));
+HXLINE( 178)			result2 = false;
+            		}
+HXDLIN( 178)		if (result2) {
+HXLINE( 178)			result1 = ((Rect->y + Rect->height) > cameraBounds->y);
+            		}
+            		else {
+HXLINE( 178)			result1 = false;
+            		}
+HXDLIN( 178)		if (result1) {
+HXLINE( 178)			result = (Rect->y < (cameraBounds->y + cameraBounds->height));
+            		}
+            		else {
+HXLINE( 178)			result = false;
+            		}
+HXDLIN( 178)		if (Rect->_weak) {
+HXLINE( 178)			if (!(Rect->_inPool)) {
+HXLINE( 178)				Rect->_inPool = true;
+HXDLIN( 178)				Rect->_weak = false;
+HXDLIN( 178)				::flixel::math::FlxRect_obj::_pool->putUnsafe(Rect);
+            			}
+            		}
+HXDLIN( 178)		if (!(result)) {
+HXLINE( 180)			::Dynamic this2 = this->vertices;
+HXDLIN( 180)			this2->__SetField(HX_("__tempIndex",3e,e8,54,22),(this->vertices->get_length() - verticesLength),::hx::paccDynamic);
+HXDLIN( 180)			{
+HXLINE( 180)				int _g_current = 0;
+HXDLIN( 180)				::cpp::VirtualArray _g_args = ::cpp::VirtualArray_obj::__new(0);
+HXDLIN( 180)				while((_g_current < _g_args->get_length())){
+HXLINE( 180)					_g_current = (_g_current + 1);
+HXDLIN( 180)					 ::Dynamic item = _g_args->__get((_g_current - 1));
+HXDLIN( 180)					( ( ::openfl::_Vector::FloatVector)(this2) )->insertAt(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),( (Float)(item) ));
+HXDLIN( 180)					::hx::FieldRef((this2).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+            				}
+            			}
+HXDLIN( 180)			( ( ::openfl::_Vector::FloatVector)(this2) )->splice(( (int)(this2->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) ),verticesLength);
+            		}
+            		else {
+HXLINE( 184)			int uvtDataLength = uvtData->get_length();
+HXLINE( 185)			{
+HXLINE( 185)				int _g = 0;
+HXDLIN( 185)				int _g1 = uvtDataLength;
+HXDLIN( 185)				while((_g < _g1)){
+HXLINE( 185)					_g = (_g + 1);
+HXDLIN( 185)					int i1 = (_g - 1);
+HXLINE( 187)					{
+HXLINE( 187)						::Dynamic this3 = this->uvtData;
+HXDLIN( 187)						( ( ::openfl::_Vector::FloatVector)(this3) )->set((prevUVTDataLength + i1),uvtData->get(i1));
             					}
             				}
             			}
-HXLINE( 192)			int indicesLength = indices->get_length();
-HXLINE( 193)			{
-HXLINE( 193)				int _g2 = 0;
-HXDLIN( 193)				int _g3 = indicesLength;
-HXDLIN( 193)				while((_g2 < _g3)){
-HXLINE( 193)					_g2 = (_g2 + 1);
-HXDLIN( 193)					int i2 = (_g2 - 1);
-HXLINE( 195)					{
-HXLINE( 195)						::Dynamic this4 = this->indices;
-HXDLIN( 195)						( ( ::openfl::_Vector::IntVector)(this4) )->set((prevIndicesLength + i2),(indices->get(i2) + prevNumberOfVertices));
+HXLINE( 190)			int indicesLength = indices->get_length();
+HXLINE( 191)			{
+HXLINE( 191)				int _g2 = 0;
+HXDLIN( 191)				int _g3 = indicesLength;
+HXDLIN( 191)				while((_g2 < _g3)){
+HXLINE( 191)					_g2 = (_g2 + 1);
+HXDLIN( 191)					int i2 = (_g2 - 1);
+HXLINE( 193)					{
+HXLINE( 193)						::Dynamic this4 = this->indices;
+HXDLIN( 193)						( ( ::openfl::_Vector::IntVector)(this4) )->set((prevIndicesLength + i2),(indices->get(i2) + prevNumberOfVertices));
             					}
             				}
             			}
-HXLINE( 198)			if (this->colored) {
-HXLINE( 200)				{
-HXLINE( 200)					int _g4 = 0;
-HXDLIN( 200)					int _g5 = numberOfVertices;
-HXDLIN( 200)					while((_g4 < _g5)){
-HXLINE( 200)						_g4 = (_g4 + 1);
-HXDLIN( 200)						int i3 = (_g4 - 1);
-HXLINE( 202)						{
-HXLINE( 202)							::Dynamic this5 = this->colors;
-HXDLIN( 202)							( ( ::openfl::_Vector::IntVector)(this5) )->set((prevColorsLength + i3),colors->get(i3));
+HXLINE( 196)			if (this->colored) {
+HXLINE( 198)				{
+HXLINE( 198)					int _g4 = 0;
+HXDLIN( 198)					int _g5 = numberOfVertices;
+HXDLIN( 198)					while((_g4 < _g5)){
+HXLINE( 198)						_g4 = (_g4 + 1);
+HXDLIN( 198)						int i3 = (_g4 - 1);
+HXLINE( 200)						{
+HXLINE( 200)							::Dynamic this5 = this->colors;
+HXDLIN( 200)							( ( ::openfl::_Vector::IntVector)(this5) )->set((prevColorsLength + i3),colors->get(i3));
             						}
             					}
             				}
-HXLINE( 205)				 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 205)				_hx_tmp->colorsPosition = (_hx_tmp->colorsPosition + numberOfVertices);
+HXLINE( 203)				 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 203)				_hx_tmp->colorsPosition = (_hx_tmp->colorsPosition + numberOfVertices);
             			}
-HXLINE( 208)			 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 208)			_hx_tmp1->verticesPosition = (_hx_tmp1->verticesPosition + verticesLength);
-HXLINE( 209)			 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 209)			_hx_tmp2->indicesPosition = (_hx_tmp2->indicesPosition + indicesLength);
+HXLINE( 206)			 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 206)			_hx_tmp1->verticesPosition = (_hx_tmp1->verticesPosition + verticesLength);
+HXLINE( 207)			 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 207)			_hx_tmp2->indicesPosition = (_hx_tmp2->indicesPosition + indicesLength);
             		}
-HXLINE( 212)		if (position->_weak) {
-HXLINE( 212)			position->put();
+HXLINE( 210)		if (position->_weak) {
+HXLINE( 210)			position->put();
             		}
-HXLINE( 213)		if (cameraBounds->_weak) {
-HXLINE( 213)			if (!(cameraBounds->_inPool)) {
-HXLINE( 213)				cameraBounds->_inPool = true;
-HXDLIN( 213)				cameraBounds->_weak = false;
-HXDLIN( 213)				::flixel::math::FlxRect_obj::_pool->putUnsafe(cameraBounds);
+HXLINE( 211)		if (cameraBounds->_weak) {
+HXLINE( 211)			if (!(cameraBounds->_inPool)) {
+HXLINE( 211)				cameraBounds->_inPool = true;
+HXDLIN( 211)				cameraBounds->_weak = false;
+HXDLIN( 211)				::flixel::math::FlxRect_obj::_pool->putUnsafe(cameraBounds);
             			}
             		}
-HXLINE( 216)		{
-HXLINE( 216)			int _g6 = 0;
-HXDLIN( 216)			int _g7 = this->get_numTriangles();
-HXDLIN( 216)			while((_g6 < _g7)){
-HXLINE( 216)				_g6 = (_g6 + 1);
-HXDLIN( 216)				int _ = (_g6 - 1);
-HXLINE( 218)				Float _hx_tmp3;
+HXLINE( 214)		{
+HXLINE( 214)			int _g6 = 0;
+HXDLIN( 214)			int _g7 = this->get_numTriangles();
+HXDLIN( 214)			while((_g6 < _g7)){
+HXLINE( 214)				_g6 = (_g6 + 1);
+HXDLIN( 214)				int _ = (_g6 - 1);
+HXLINE( 216)				Float _hx_tmp3;
+HXDLIN( 216)				if (::hx::IsNotNull( transform )) {
+HXLINE( 216)					_hx_tmp3 = transform->alphaMultiplier;
+            				}
+            				else {
+HXLINE( 216)					_hx_tmp3 = ((Float)1.0);
+            				}
+HXDLIN( 216)				this->alphas->push(_hx_tmp3);
+HXLINE( 217)				Float _hx_tmp4;
+HXDLIN( 217)				if (::hx::IsNotNull( transform )) {
+HXLINE( 217)					_hx_tmp4 = transform->alphaMultiplier;
+            				}
+            				else {
+HXLINE( 217)					_hx_tmp4 = ((Float)1.0);
+            				}
+HXDLIN( 217)				this->alphas->push(_hx_tmp4);
+HXLINE( 218)				Float _hx_tmp5;
 HXDLIN( 218)				if (::hx::IsNotNull( transform )) {
-HXLINE( 218)					_hx_tmp3 = transform->alphaMultiplier;
+HXLINE( 218)					_hx_tmp5 = transform->alphaMultiplier;
             				}
             				else {
-HXLINE( 218)					_hx_tmp3 = ((Float)1.0);
+HXLINE( 218)					_hx_tmp5 = ((Float)1.0);
             				}
-HXDLIN( 218)				this->alphas->push(_hx_tmp3);
-HXLINE( 219)				Float _hx_tmp4;
-HXDLIN( 219)				if (::hx::IsNotNull( transform )) {
-HXLINE( 219)					_hx_tmp4 = transform->alphaMultiplier;
-            				}
-            				else {
-HXLINE( 219)					_hx_tmp4 = ((Float)1.0);
-            				}
-HXDLIN( 219)				this->alphas->push(_hx_tmp4);
-HXLINE( 220)				Float _hx_tmp5;
-HXDLIN( 220)				if (::hx::IsNotNull( transform )) {
-HXLINE( 220)					_hx_tmp5 = transform->alphaMultiplier;
-            				}
-            				else {
-HXLINE( 220)					_hx_tmp5 = ((Float)1.0);
-            				}
-HXDLIN( 220)				this->alphas->push(_hx_tmp5);
+HXDLIN( 218)				this->alphas->push(_hx_tmp5);
             			}
             		}
-HXLINE( 223)		bool _hx_tmp6;
-HXDLIN( 223)		if (!(this->colored)) {
-HXLINE( 223)			_hx_tmp6 = this->hasColorOffsets;
+HXLINE( 221)		bool _hx_tmp6;
+HXDLIN( 221)		if (!(this->colored)) {
+HXLINE( 221)			_hx_tmp6 = this->hasColorOffsets;
             		}
             		else {
-HXLINE( 223)			_hx_tmp6 = true;
+HXLINE( 221)			_hx_tmp6 = true;
             		}
-HXDLIN( 223)		if (_hx_tmp6) {
-HXLINE( 225)			if (::hx::IsNull( this->colorMultipliers )) {
-HXLINE( 226)				this->colorMultipliers = ::Array_obj< Float >::__new(0);
+HXDLIN( 221)		if (_hx_tmp6) {
+HXLINE( 223)			if (::hx::IsNull( this->colorMultipliers )) {
+HXLINE( 224)				this->colorMultipliers = ::Array_obj< Float >::__new(0);
             			}
-HXLINE( 228)			if (::hx::IsNull( this->colorOffsets )) {
-HXLINE( 229)				this->colorOffsets = ::Array_obj< Float >::__new(0);
+HXLINE( 226)			if (::hx::IsNull( this->colorOffsets )) {
+HXLINE( 227)				this->colorOffsets = ::Array_obj< Float >::__new(0);
             			}
-HXLINE( 231)			{
-HXLINE( 231)				int _g8 = 0;
-HXDLIN( 231)				int _g9 = (this->get_numTriangles() * 3);
-HXDLIN( 231)				while((_g8 < _g9)){
-HXLINE( 231)					_g8 = (_g8 + 1);
-HXDLIN( 231)					int _1 = (_g8 - 1);
-HXLINE( 233)					if (::hx::IsNotNull( transform )) {
-HXLINE( 235)						this->colorMultipliers->push(transform->redMultiplier);
-HXLINE( 236)						this->colorMultipliers->push(transform->greenMultiplier);
-HXLINE( 237)						this->colorMultipliers->push(transform->blueMultiplier);
-HXLINE( 239)						this->colorOffsets->push(transform->redOffset);
-HXLINE( 240)						this->colorOffsets->push(transform->greenOffset);
-HXLINE( 241)						this->colorOffsets->push(transform->blueOffset);
-HXLINE( 242)						this->colorOffsets->push(transform->alphaOffset);
+HXLINE( 229)			{
+HXLINE( 229)				int _g8 = 0;
+HXDLIN( 229)				int _g9 = (this->get_numTriangles() * 3);
+HXDLIN( 229)				while((_g8 < _g9)){
+HXLINE( 229)					_g8 = (_g8 + 1);
+HXDLIN( 229)					int _1 = (_g8 - 1);
+HXLINE( 231)					if (::hx::IsNotNull( transform )) {
+HXLINE( 233)						this->colorMultipliers->push(transform->redMultiplier);
+HXLINE( 234)						this->colorMultipliers->push(transform->greenMultiplier);
+HXLINE( 235)						this->colorMultipliers->push(transform->blueMultiplier);
+HXLINE( 237)						this->colorOffsets->push(transform->redOffset);
+HXLINE( 238)						this->colorOffsets->push(transform->greenOffset);
+HXLINE( 239)						this->colorOffsets->push(transform->blueOffset);
+HXLINE( 240)						this->colorOffsets->push(transform->alphaOffset);
             					}
             					else {
+HXLINE( 244)						this->colorMultipliers->push(1);
+HXLINE( 245)						this->colorMultipliers->push(1);
 HXLINE( 246)						this->colorMultipliers->push(1);
-HXLINE( 247)						this->colorMultipliers->push(1);
-HXLINE( 248)						this->colorMultipliers->push(1);
+HXLINE( 248)						this->colorOffsets->push(0);
+HXLINE( 249)						this->colorOffsets->push(0);
 HXLINE( 250)						this->colorOffsets->push(0);
 HXLINE( 251)						this->colorOffsets->push(0);
-HXLINE( 252)						this->colorOffsets->push(0);
-HXLINE( 253)						this->colorOffsets->push(0);
             					}
-HXLINE( 256)					this->colorMultipliers->push(1);
+HXLINE( 254)					this->colorMultipliers->push(1);
             				}
             			}
             		}
@@ -603,198 +603,198 @@ HXLINE( 256)					this->colorMultipliers->push(1);
 HX_DEFINE_DYNAMIC_FUNC7(FlxDrawTrianglesItem_obj,addTriangles,(void))
 
 void FlxDrawTrianglesItem_obj::setParameterValue( ::openfl::display::ShaderParameter_Bool parameter,bool value){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_263_setParameterValue)
-HXLINE( 264)		if (::hx::IsNull( parameter->value )) {
-HXLINE( 265)			parameter->value = ::Array_obj< bool >::__new(0);
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_261_setParameterValue)
+HXLINE( 262)		if (::hx::IsNull( parameter->value )) {
+HXLINE( 263)			parameter->value = ::Array_obj< bool >::__new(0);
             		}
-HXLINE( 266)		parameter->value[0] = value;
+HXLINE( 264)		parameter->value[0] = value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxDrawTrianglesItem_obj,setParameterValue,(void))
 
 void FlxDrawTrianglesItem_obj::addQuad( ::flixel::graphics::frames::FlxFrame frame, ::flixel::math::FlxMatrix matrix, ::openfl::geom::ColorTransform transform){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_297_addQuad)
-HXLINE( 298)		int prevVerticesPos = this->verticesPosition;
-HXLINE( 299)		int prevIndicesPos = this->indicesPosition;
-HXLINE( 300)		int prevColorsPos = this->colorsPosition;
-HXLINE( 301)		int prevNumberOfVertices = this->get_numVertices();
-HXLINE( 303)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 303)		point->_inPool = false;
-HXDLIN( 303)		 ::flixel::math::FlxBasePoint point1 = point;
-HXLINE( 304)		{
-HXLINE( 304)			Float x1 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
-HXDLIN( 304)			Float y1 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
-HXDLIN( 304)			{
-HXLINE( 304)				point1->set_x(x1);
-HXDLIN( 304)				point1->set_y(y1);
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_295_addQuad)
+HXLINE( 296)		int prevVerticesPos = this->verticesPosition;
+HXLINE( 297)		int prevIndicesPos = this->indicesPosition;
+HXLINE( 298)		int prevColorsPos = this->colorsPosition;
+HXLINE( 299)		int prevNumberOfVertices = this->get_numVertices();
+HXLINE( 301)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 301)		point->_inPool = false;
+HXDLIN( 301)		 ::flixel::math::FlxBasePoint point1 = point;
+HXLINE( 302)		{
+HXLINE( 302)			Float x1 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
+HXDLIN( 302)			Float y1 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
+HXDLIN( 302)			{
+HXLINE( 302)				point1->set_x(x1);
+HXDLIN( 302)				point1->set_y(y1);
             			}
             		}
-HXLINE( 306)		this->vertices->set(prevVerticesPos,point1->x);
-HXLINE( 307)		this->vertices->set((prevVerticesPos + 1),point1->y);
-HXLINE( 309)		this->uvtData->set(prevVerticesPos,frame->uv->x);
-HXLINE( 310)		this->uvtData->set((prevVerticesPos + 1),frame->uv->y);
-HXLINE( 312)		{
-HXLINE( 312)			point1->set_x(frame->frame->width);
-HXDLIN( 312)			point1->set_y(( (Float)(0) ));
+HXLINE( 304)		this->vertices->set(prevVerticesPos,point1->x);
+HXLINE( 305)		this->vertices->set((prevVerticesPos + 1),point1->y);
+HXLINE( 307)		this->uvtData->set(prevVerticesPos,frame->uv->x);
+HXLINE( 308)		this->uvtData->set((prevVerticesPos + 1),frame->uv->y);
+HXLINE( 310)		{
+HXLINE( 310)			point1->set_x(frame->frame->width);
+HXDLIN( 310)			point1->set_y(( (Float)(0) ));
             		}
-HXLINE( 313)		{
-HXLINE( 313)			Float x11 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
-HXDLIN( 313)			Float y11 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
-HXDLIN( 313)			{
-HXLINE( 313)				point1->set_x(x11);
-HXDLIN( 313)				point1->set_y(y11);
+HXLINE( 311)		{
+HXLINE( 311)			Float x11 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
+HXDLIN( 311)			Float y11 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
+HXDLIN( 311)			{
+HXLINE( 311)				point1->set_x(x11);
+HXDLIN( 311)				point1->set_y(y11);
             			}
             		}
-HXLINE( 315)		this->vertices->set((prevVerticesPos + 2),point1->x);
-HXLINE( 316)		this->vertices->set((prevVerticesPos + 3),point1->y);
-HXLINE( 318)		this->uvtData->set((prevVerticesPos + 2),frame->uv->width);
-HXLINE( 319)		this->uvtData->set((prevVerticesPos + 3),frame->uv->y);
-HXLINE( 321)		{
-HXLINE( 321)			Float y = frame->frame->height;
-HXDLIN( 321)			point1->set_x(frame->frame->width);
-HXDLIN( 321)			point1->set_y(y);
+HXLINE( 313)		this->vertices->set((prevVerticesPos + 2),point1->x);
+HXLINE( 314)		this->vertices->set((prevVerticesPos + 3),point1->y);
+HXLINE( 316)		this->uvtData->set((prevVerticesPos + 2),frame->uv->width);
+HXLINE( 317)		this->uvtData->set((prevVerticesPos + 3),frame->uv->y);
+HXLINE( 319)		{
+HXLINE( 319)			Float y = frame->frame->height;
+HXDLIN( 319)			point1->set_x(frame->frame->width);
+HXDLIN( 319)			point1->set_y(y);
             		}
-HXLINE( 322)		{
-HXLINE( 322)			Float x12 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
-HXDLIN( 322)			Float y12 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
-HXDLIN( 322)			{
-HXLINE( 322)				point1->set_x(x12);
-HXDLIN( 322)				point1->set_y(y12);
+HXLINE( 320)		{
+HXLINE( 320)			Float x12 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
+HXDLIN( 320)			Float y12 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
+HXDLIN( 320)			{
+HXLINE( 320)				point1->set_x(x12);
+HXDLIN( 320)				point1->set_y(y12);
             			}
             		}
-HXLINE( 324)		this->vertices->set((prevVerticesPos + 4),point1->x);
-HXLINE( 325)		this->vertices->set((prevVerticesPos + 5),point1->y);
-HXLINE( 327)		this->uvtData->set((prevVerticesPos + 4),frame->uv->width);
-HXLINE( 328)		this->uvtData->set((prevVerticesPos + 5),frame->uv->height);
-HXLINE( 330)		{
-HXLINE( 330)			Float y2 = frame->frame->height;
-HXDLIN( 330)			point1->set_x(( (Float)(0) ));
-HXDLIN( 330)			point1->set_y(y2);
+HXLINE( 322)		this->vertices->set((prevVerticesPos + 4),point1->x);
+HXLINE( 323)		this->vertices->set((prevVerticesPos + 5),point1->y);
+HXLINE( 325)		this->uvtData->set((prevVerticesPos + 4),frame->uv->width);
+HXLINE( 326)		this->uvtData->set((prevVerticesPos + 5),frame->uv->height);
+HXLINE( 328)		{
+HXLINE( 328)			Float y2 = frame->frame->height;
+HXDLIN( 328)			point1->set_x(( (Float)(0) ));
+HXDLIN( 328)			point1->set_y(y2);
             		}
-HXLINE( 331)		{
-HXLINE( 331)			Float x13 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
-HXDLIN( 331)			Float y13 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
-HXDLIN( 331)			{
-HXLINE( 331)				point1->set_x(x13);
-HXDLIN( 331)				point1->set_y(y13);
+HXLINE( 329)		{
+HXLINE( 329)			Float x13 = (((point1->x * matrix->a) + (point1->y * matrix->c)) + matrix->tx);
+HXDLIN( 329)			Float y13 = (((point1->x * matrix->b) + (point1->y * matrix->d)) + matrix->ty);
+HXDLIN( 329)			{
+HXLINE( 329)				point1->set_x(x13);
+HXDLIN( 329)				point1->set_y(y13);
             			}
             		}
-HXLINE( 333)		this->vertices->set((prevVerticesPos + 6),point1->x);
-HXLINE( 334)		this->vertices->set((prevVerticesPos + 7),point1->y);
-HXLINE( 336)		point1->put();
-HXLINE( 338)		this->uvtData->set((prevVerticesPos + 6),frame->uv->x);
-HXLINE( 339)		this->uvtData->set((prevVerticesPos + 7),frame->uv->height);
-HXLINE( 341)		this->indices->set(prevIndicesPos,prevNumberOfVertices);
-HXLINE( 342)		this->indices->set((prevIndicesPos + 1),(prevNumberOfVertices + 1));
-HXLINE( 343)		this->indices->set((prevIndicesPos + 2),(prevNumberOfVertices + 2));
-HXLINE( 344)		this->indices->set((prevIndicesPos + 3),(prevNumberOfVertices + 2));
-HXLINE( 345)		this->indices->set((prevIndicesPos + 4),(prevNumberOfVertices + 3));
-HXLINE( 346)		this->indices->set((prevIndicesPos + 5),prevNumberOfVertices);
-HXLINE( 348)		if (this->colored) {
-HXLINE( 350)			Float red = ((Float)1.0);
-HXLINE( 351)			Float green = ((Float)1.0);
-HXLINE( 352)			Float blue = ((Float)1.0);
-HXLINE( 353)			Float alpha = ((Float)1.0);
-HXLINE( 355)			if (::hx::IsNotNull( transform )) {
-HXLINE( 357)				red = transform->redMultiplier;
-HXLINE( 358)				green = transform->greenMultiplier;
-HXLINE( 359)				blue = transform->blueMultiplier;
-HXLINE( 362)				alpha = transform->alphaMultiplier;
+HXLINE( 331)		this->vertices->set((prevVerticesPos + 6),point1->x);
+HXLINE( 332)		this->vertices->set((prevVerticesPos + 7),point1->y);
+HXLINE( 334)		point1->put();
+HXLINE( 336)		this->uvtData->set((prevVerticesPos + 6),frame->uv->x);
+HXLINE( 337)		this->uvtData->set((prevVerticesPos + 7),frame->uv->height);
+HXLINE( 339)		this->indices->set(prevIndicesPos,prevNumberOfVertices);
+HXLINE( 340)		this->indices->set((prevIndicesPos + 1),(prevNumberOfVertices + 1));
+HXLINE( 341)		this->indices->set((prevIndicesPos + 2),(prevNumberOfVertices + 2));
+HXLINE( 342)		this->indices->set((prevIndicesPos + 3),(prevNumberOfVertices + 2));
+HXLINE( 343)		this->indices->set((prevIndicesPos + 4),(prevNumberOfVertices + 3));
+HXLINE( 344)		this->indices->set((prevIndicesPos + 5),prevNumberOfVertices);
+HXLINE( 346)		if (this->colored) {
+HXLINE( 348)			Float red = ((Float)1.0);
+HXLINE( 349)			Float green = ((Float)1.0);
+HXLINE( 350)			Float blue = ((Float)1.0);
+HXLINE( 351)			Float alpha = ((Float)1.0);
+HXLINE( 353)			if (::hx::IsNotNull( transform )) {
+HXLINE( 355)				red = transform->redMultiplier;
+HXLINE( 356)				green = transform->greenMultiplier;
+HXLINE( 357)				blue = transform->blueMultiplier;
+HXLINE( 360)				alpha = transform->alphaMultiplier;
             			}
-HXLINE( 366)			int color = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
-HXDLIN( 366)			{
-HXLINE( 366)				int Value = ::Math_obj::round((red * ( (Float)(255) )));
-HXDLIN( 366)				color = (color & -16711681);
-HXDLIN( 366)				int color1;
-HXDLIN( 366)				if ((Value > 255)) {
-HXLINE( 366)					color1 = 255;
+HXLINE( 364)			int color = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
+HXDLIN( 364)			{
+HXLINE( 364)				int Value = ::Math_obj::round((red * ( (Float)(255) )));
+HXDLIN( 364)				color = (color & -16711681);
+HXDLIN( 364)				int color1;
+HXDLIN( 364)				if ((Value > 255)) {
+HXLINE( 364)					color1 = 255;
             				}
             				else {
-HXLINE( 366)					if ((Value < 0)) {
-HXLINE( 366)						color1 = 0;
+HXLINE( 364)					if ((Value < 0)) {
+HXLINE( 364)						color1 = 0;
             					}
             					else {
-HXLINE( 366)						color1 = Value;
+HXLINE( 364)						color1 = Value;
             					}
             				}
-HXDLIN( 366)				color = (color | (color1 << 16));
+HXDLIN( 364)				color = (color | (color1 << 16));
             			}
-HXDLIN( 366)			{
-HXLINE( 366)				int Value1 = ::Math_obj::round((green * ( (Float)(255) )));
-HXDLIN( 366)				color = (color & -65281);
-HXDLIN( 366)				int color2;
-HXDLIN( 366)				if ((Value1 > 255)) {
-HXLINE( 366)					color2 = 255;
+HXDLIN( 364)			{
+HXLINE( 364)				int Value1 = ::Math_obj::round((green * ( (Float)(255) )));
+HXDLIN( 364)				color = (color & -65281);
+HXDLIN( 364)				int color2;
+HXDLIN( 364)				if ((Value1 > 255)) {
+HXLINE( 364)					color2 = 255;
             				}
             				else {
-HXLINE( 366)					if ((Value1 < 0)) {
-HXLINE( 366)						color2 = 0;
+HXLINE( 364)					if ((Value1 < 0)) {
+HXLINE( 364)						color2 = 0;
             					}
             					else {
-HXLINE( 366)						color2 = Value1;
+HXLINE( 364)						color2 = Value1;
             					}
             				}
-HXDLIN( 366)				color = (color | (color2 << 8));
+HXDLIN( 364)				color = (color | (color2 << 8));
             			}
-HXDLIN( 366)			{
-HXLINE( 366)				int Value2 = ::Math_obj::round((blue * ( (Float)(255) )));
-HXDLIN( 366)				color = (color & -256);
-HXDLIN( 366)				int color3;
-HXDLIN( 366)				if ((Value2 > 255)) {
-HXLINE( 366)					color3 = 255;
+HXDLIN( 364)			{
+HXLINE( 364)				int Value2 = ::Math_obj::round((blue * ( (Float)(255) )));
+HXDLIN( 364)				color = (color & -256);
+HXDLIN( 364)				int color3;
+HXDLIN( 364)				if ((Value2 > 255)) {
+HXLINE( 364)					color3 = 255;
             				}
             				else {
-HXLINE( 366)					if ((Value2 < 0)) {
-HXLINE( 366)						color3 = 0;
+HXLINE( 364)					if ((Value2 < 0)) {
+HXLINE( 364)						color3 = 0;
             					}
             					else {
-HXLINE( 366)						color3 = Value2;
+HXLINE( 364)						color3 = Value2;
             					}
             				}
-HXDLIN( 366)				color = (color | color3);
+HXDLIN( 364)				color = (color | color3);
             			}
-HXDLIN( 366)			{
-HXLINE( 366)				int Value3 = ::Math_obj::round((alpha * ( (Float)(255) )));
-HXDLIN( 366)				color = (color & 16777215);
-HXDLIN( 366)				int color4;
-HXDLIN( 366)				if ((Value3 > 255)) {
-HXLINE( 366)					color4 = 255;
+HXDLIN( 364)			{
+HXLINE( 364)				int Value3 = ::Math_obj::round((alpha * ( (Float)(255) )));
+HXDLIN( 364)				color = (color & 16777215);
+HXDLIN( 364)				int color4;
+HXDLIN( 364)				if ((Value3 > 255)) {
+HXLINE( 364)					color4 = 255;
             				}
             				else {
-HXLINE( 366)					if ((Value3 < 0)) {
-HXLINE( 366)						color4 = 0;
+HXLINE( 364)					if ((Value3 < 0)) {
+HXLINE( 364)						color4 = 0;
             					}
             					else {
-HXLINE( 366)						color4 = Value3;
+HXLINE( 364)						color4 = Value3;
             					}
             				}
-HXDLIN( 366)				color = (color | (color4 << 24));
+HXDLIN( 364)				color = (color | (color4 << 24));
             			}
-HXDLIN( 366)			int color5 = color;
-HXLINE( 368)			this->colors->set(prevColorsPos,color5);
-HXLINE( 369)			this->colors->set((prevColorsPos + 1),color5);
-HXLINE( 370)			this->colors->set((prevColorsPos + 2),color5);
-HXLINE( 371)			this->colors->set((prevColorsPos + 3),color5);
-HXLINE( 373)			 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 373)			_hx_tmp->colorsPosition = (_hx_tmp->colorsPosition + 4);
+HXDLIN( 364)			int color5 = color;
+HXLINE( 366)			this->colors->set(prevColorsPos,color5);
+HXLINE( 367)			this->colors->set((prevColorsPos + 1),color5);
+HXLINE( 368)			this->colors->set((prevColorsPos + 2),color5);
+HXLINE( 369)			this->colors->set((prevColorsPos + 3),color5);
+HXLINE( 371)			 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 371)			_hx_tmp->colorsPosition = (_hx_tmp->colorsPosition + 4);
             		}
-HXLINE( 376)		 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 376)		_hx_tmp1->verticesPosition = (_hx_tmp1->verticesPosition + 8);
-HXLINE( 377)		 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 377)		_hx_tmp2->indicesPosition = (_hx_tmp2->indicesPosition + 6);
+HXLINE( 374)		 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 374)		_hx_tmp1->verticesPosition = (_hx_tmp1->verticesPosition + 8);
+HXLINE( 375)		 ::flixel::graphics::tile::FlxDrawTrianglesItem _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 375)		_hx_tmp2->indicesPosition = (_hx_tmp2->indicesPosition + 6);
             	}
 
 
 int FlxDrawTrianglesItem_obj::get_numVertices(){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_382_get_numVertices)
-HXDLIN( 382)		return ::Std_obj::_hx_int((( (Float)(this->vertices->get_length()) ) / ( (Float)(2) )));
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_380_get_numVertices)
+HXDLIN( 380)		return ::Std_obj::_hx_int((( (Float)(this->vertices->get_length()) ) / ( (Float)(2) )));
             	}
 
 
 int FlxDrawTrianglesItem_obj::get_numTriangles(){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_387_get_numTriangles)
-HXDLIN( 387)		return ::Std_obj::_hx_int((( (Float)(this->indices->get_length()) ) / ( (Float)(3) )));
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_385_get_numTriangles)
+HXDLIN( 385)		return ::Std_obj::_hx_int((( (Float)(this->indices->get_length()) ) / ( (Float)(3) )));
             	}
 
 
@@ -803,24 +803,24 @@ HXDLIN( 387)		return ::Std_obj::_hx_int((( (Float)(this->indices->get_length()) 
  ::flixel::math::FlxRect FlxDrawTrianglesItem_obj::rect;
 
  ::flixel::math::FlxRect FlxDrawTrianglesItem_obj::inflateBounds( ::flixel::math::FlxRect bounds,Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_270_inflateBounds)
-HXLINE( 271)		if ((x < bounds->x)) {
-HXLINE( 273)			 ::flixel::math::FlxRect bounds1 = bounds;
-HXDLIN( 273)			bounds1->width = (bounds1->width + (bounds->x - x));
-HXLINE( 274)			bounds->x = x;
+            	HX_STACKFRAME(&_hx_pos_a928be64e2bd594d_268_inflateBounds)
+HXLINE( 269)		if ((x < bounds->x)) {
+HXLINE( 271)			 ::flixel::math::FlxRect bounds1 = bounds;
+HXDLIN( 271)			bounds1->width = (bounds1->width + (bounds->x - x));
+HXLINE( 272)			bounds->x = x;
             		}
-HXLINE( 277)		if ((y < bounds->y)) {
-HXLINE( 279)			 ::flixel::math::FlxRect bounds2 = bounds;
-HXDLIN( 279)			bounds2->height = (bounds2->height + (bounds->y - y));
-HXLINE( 280)			bounds->y = y;
+HXLINE( 275)		if ((y < bounds->y)) {
+HXLINE( 277)			 ::flixel::math::FlxRect bounds2 = bounds;
+HXDLIN( 277)			bounds2->height = (bounds2->height + (bounds->y - y));
+HXLINE( 278)			bounds->y = y;
             		}
-HXLINE( 283)		if ((x > (bounds->x + bounds->width))) {
-HXLINE( 285)			bounds->width = (x - bounds->x);
+HXLINE( 281)		if ((x > (bounds->x + bounds->width))) {
+HXLINE( 283)			bounds->width = (x - bounds->x);
             		}
-HXLINE( 288)		if ((y > (bounds->y + bounds->height))) {
-HXLINE( 290)			bounds->height = (y - bounds->y);
+HXLINE( 286)		if ((y > (bounds->y + bounds->height))) {
+HXLINE( 288)			bounds->height = (y - bounds->y);
             		}
-HXLINE( 293)		return bounds;
+HXLINE( 291)		return bounds;
             	}
 
 

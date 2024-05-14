@@ -117,17 +117,17 @@
 HX_DEFINE_STACK_FRAME(_hx_pos_3781a4bff19fd598_23_new,"flixel.addons.display.FlxBackdrop","new",0xbcdf9a65,"flixel.addons.display.FlxBackdrop.new","flixel/addons/display/FlxBackdrop.hx",23,0x7f3b228c)
 HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_84_destroy,"flixel.addons.display.FlxBackdrop","destroy",0x54bfdd7f,"flixel.addons.display.FlxBackdrop.destroy","flixel/addons/display/FlxBackdrop.hx",84,0x7f3b228c)
 HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_93_draw,"flixel.addons.display.FlxBackdrop","draw",0x8035265f,"flixel.addons.display.FlxBackdrop.draw","flixel/addons/display/FlxBackdrop.hx",93,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_138_isOnScreen,"flixel.addons.display.FlxBackdrop","isOnScreen",0x4896f490,"flixel.addons.display.FlxBackdrop.isOnScreen","flixel/addons/display/FlxBackdrop.hx",138,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_158_drawToLargestCamera,"flixel.addons.display.FlxBackdrop","drawToLargestCamera",0x6e8e72c7,"flixel.addons.display.FlxBackdrop.drawToLargestCamera","flixel/addons/display/FlxBackdrop.hx",158,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_181_isSimpleRenderBlit,"flixel.addons.display.FlxBackdrop","isSimpleRenderBlit",0xdbe89d22,"flixel.addons.display.FlxBackdrop.isSimpleRenderBlit","flixel/addons/display/FlxBackdrop.hx",181,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_190_drawSimple,"flixel.addons.display.FlxBackdrop","drawSimple",0xa1202ff1,"flixel.addons.display.FlxBackdrop.drawSimple","flixel/addons/display/FlxBackdrop.hx",190,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_261_drawComplex,"flixel.addons.display.FlxBackdrop","drawComplex",0x27d68191,"flixel.addons.display.FlxBackdrop.drawComplex","flixel/addons/display/FlxBackdrop.hx",261,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_372_getFrameScreenBounds,"flixel.addons.display.FlxBackdrop","getFrameScreenBounds",0x9cf539b3,"flixel.addons.display.FlxBackdrop.getFrameScreenBounds","flixel/addons/display/FlxBackdrop.hx",372,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_394_modMin,"flixel.addons.display.FlxBackdrop","modMin",0xb5715f0b,"flixel.addons.display.FlxBackdrop.modMin","flixel/addons/display/FlxBackdrop.hx",394,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_399_modMax,"flixel.addons.display.FlxBackdrop","modMax",0xb571581d,"flixel.addons.display.FlxBackdrop.modMax","flixel/addons/display/FlxBackdrop.hx",399,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_403_regenGraphic,"flixel.addons.display.FlxBackdrop","regenGraphic",0xe958a2c6,"flixel.addons.display.FlxBackdrop.regenGraphic","flixel/addons/display/FlxBackdrop.hx",403,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_512_matchPrevDrawParams,"flixel.addons.display.FlxBackdrop","matchPrevDrawParams",0x1aa31767,"flixel.addons.display.FlxBackdrop.matchPrevDrawParams","flixel/addons/display/FlxBackdrop.hx",512,0x7f3b228c)
-HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_524_setDrawParams,"flixel.addons.display.FlxBackdrop","setDrawParams",0xcdfb16f1,"flixel.addons.display.FlxBackdrop.setDrawParams","flixel/addons/display/FlxBackdrop.hx",524,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_141_isOnScreen,"flixel.addons.display.FlxBackdrop","isOnScreen",0x4896f490,"flixel.addons.display.FlxBackdrop.isOnScreen","flixel/addons/display/FlxBackdrop.hx",141,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_159_drawToLargestCamera,"flixel.addons.display.FlxBackdrop","drawToLargestCamera",0x6e8e72c7,"flixel.addons.display.FlxBackdrop.drawToLargestCamera","flixel/addons/display/FlxBackdrop.hx",159,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_182_isSimpleRenderBlit,"flixel.addons.display.FlxBackdrop","isSimpleRenderBlit",0xdbe89d22,"flixel.addons.display.FlxBackdrop.isSimpleRenderBlit","flixel/addons/display/FlxBackdrop.hx",182,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_191_drawSimple,"flixel.addons.display.FlxBackdrop","drawSimple",0xa1202ff1,"flixel.addons.display.FlxBackdrop.drawSimple","flixel/addons/display/FlxBackdrop.hx",191,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_263_drawComplex,"flixel.addons.display.FlxBackdrop","drawComplex",0x27d68191,"flixel.addons.display.FlxBackdrop.drawComplex","flixel/addons/display/FlxBackdrop.hx",263,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_374_getFrameScreenBounds,"flixel.addons.display.FlxBackdrop","getFrameScreenBounds",0x9cf539b3,"flixel.addons.display.FlxBackdrop.getFrameScreenBounds","flixel/addons/display/FlxBackdrop.hx",374,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_396_modMin,"flixel.addons.display.FlxBackdrop","modMin",0xb5715f0b,"flixel.addons.display.FlxBackdrop.modMin","flixel/addons/display/FlxBackdrop.hx",396,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_401_modMax,"flixel.addons.display.FlxBackdrop","modMax",0xb571581d,"flixel.addons.display.FlxBackdrop.modMax","flixel/addons/display/FlxBackdrop.hx",401,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_405_regenGraphic,"flixel.addons.display.FlxBackdrop","regenGraphic",0xe958a2c6,"flixel.addons.display.FlxBackdrop.regenGraphic","flixel/addons/display/FlxBackdrop.hx",405,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_514_matchPrevDrawParams,"flixel.addons.display.FlxBackdrop","matchPrevDrawParams",0x1aa31767,"flixel.addons.display.FlxBackdrop.matchPrevDrawParams","flixel/addons/display/FlxBackdrop.hx",514,0x7f3b228c)
+HX_LOCAL_STACK_FRAME(_hx_pos_3781a4bff19fd598_526_setDrawParams,"flixel.addons.display.FlxBackdrop","setDrawParams",0xcdfb16f1,"flixel.addons.display.FlxBackdrop.setDrawParams","flixel/addons/display/FlxBackdrop.hx",526,0x7f3b228c)
 namespace flixel{
 namespace addons{
 namespace display{
@@ -231,34 +231,34 @@ HXLINE( 109)			this->calcFrame(this->useFramePixels);
 HXLINE( 111)		if (this->drawBlit) {
 HXLINE( 113)			this->drawToLargestCamera();
             		}
-HXLINE( 116)		{
-HXLINE( 116)			int _g = 0;
-HXDLIN( 116)			::Array< ::Dynamic> _g1 = this->get_cameras();
-HXDLIN( 116)			while((_g < _g1->length)){
-HXLINE( 116)				 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
-HXDLIN( 116)				_g = (_g + 1);
-HXLINE( 118)				bool _hx_tmp2;
-HXDLIN( 118)				bool _hx_tmp3;
-HXDLIN( 118)				if (camera->visible) {
-HXLINE( 118)					_hx_tmp3 = !(camera->exists);
+HXLINE( 119)		{
+HXLINE( 119)			int _g = 0;
+HXDLIN( 119)			::Array< ::Dynamic> _g1 = this->get_cameras();
+HXDLIN( 119)			while((_g < _g1->length)){
+HXLINE( 119)				 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
+HXDLIN( 119)				_g = (_g + 1);
+HXLINE( 121)				bool _hx_tmp2;
+HXDLIN( 121)				bool _hx_tmp3;
+HXDLIN( 121)				if (camera->visible) {
+HXLINE( 121)					_hx_tmp3 = !(camera->exists);
             				}
             				else {
-HXLINE( 118)					_hx_tmp3 = true;
+HXLINE( 121)					_hx_tmp3 = true;
             				}
-HXDLIN( 118)				if (!(_hx_tmp3)) {
-HXLINE( 118)					_hx_tmp2 = !(this->isOnScreen(camera));
-            				}
-            				else {
-HXLINE( 118)					_hx_tmp2 = true;
-            				}
-HXDLIN( 118)				if (_hx_tmp2) {
-HXLINE( 119)					continue;
-            				}
-HXLINE( 121)				if (this->isSimpleRender(camera)) {
-HXLINE( 122)					this->drawSimple(camera);
+HXDLIN( 121)				if (!(_hx_tmp3)) {
+HXLINE( 121)					_hx_tmp2 = !(this->isOnScreen(camera));
             				}
             				else {
-HXLINE( 124)					this->drawComplex(camera);
+HXLINE( 121)					_hx_tmp2 = true;
+            				}
+HXDLIN( 121)				if (_hx_tmp2) {
+HXLINE( 122)					continue;
+            				}
+HXLINE( 124)				if (this->isSimpleRender(camera)) {
+HXLINE( 125)					this->drawSimple(camera);
+            				}
+            				else {
+HXLINE( 127)					this->drawComplex(camera);
             				}
             			}
             		}
@@ -266,126 +266,106 @@ HXLINE( 124)					this->drawComplex(camera);
 
 
 bool FlxBackdrop_obj::isOnScreen( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_138_isOnScreen)
-HXLINE( 139)		if ((this->repeatAxes == 17)) {
-HXLINE( 140)			return true;
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_141_isOnScreen)
+HXLINE( 142)		if ((this->repeatAxes == 17)) {
+HXLINE( 143)			return true;
             		}
-HXLINE( 142)		if ((this->repeatAxes == 0)) {
-HXLINE( 143)			return this->super::isOnScreen(camera);
+HXLINE( 145)		if ((this->repeatAxes == 0)) {
+HXLINE( 146)			return this->super::isOnScreen(camera);
             		}
-HXLINE( 145)		if (::hx::IsNull( camera )) {
-HXLINE( 146)			camera = ::flixel::FlxG_obj::camera;
+HXLINE( 148)		if (::hx::IsNull( camera )) {
+HXLINE( 149)			camera = ::flixel::FlxG_obj::camera;
             		}
-HXLINE( 148)		 ::flixel::math::FlxRect bounds = this->getScreenBounds(this->_rect,camera);
-HXLINE( 149)		 ::flixel::math::FlxRect view = camera->getViewRect(null());
-HXLINE( 150)		int this1 = this->repeatAxes;
-HXDLIN( 150)		bool _hx_tmp;
-HXDLIN( 150)		if ((this1 != 1)) {
-HXLINE( 150)			_hx_tmp = (this1 == 17);
-            		}
-            		else {
-HXLINE( 150)			_hx_tmp = true;
-            		}
-HXDLIN( 150)		if (_hx_tmp) {
-HXLINE( 150)			bounds->x = view->x;
-            		}
-HXLINE( 151)		int this2 = this->repeatAxes;
-HXDLIN( 151)		bool _hx_tmp1;
-HXDLIN( 151)		if ((this2 != 16)) {
-HXLINE( 151)			_hx_tmp1 = (this2 == 17);
+HXLINE( 151)		 ::flixel::math::FlxRect bounds = this->getScreenBounds(this->_rect,camera);
+HXLINE( 152)		int this1 = this->repeatAxes;
+HXDLIN( 152)		bool _hx_tmp;
+HXDLIN( 152)		if ((this1 != 1)) {
+HXLINE( 152)			_hx_tmp = (this1 == 17);
             		}
             		else {
-HXLINE( 151)			_hx_tmp1 = true;
+HXLINE( 152)			_hx_tmp = true;
             		}
-HXDLIN( 151)		if (_hx_tmp1) {
-HXLINE( 151)			bounds->y = view->y;
+HXDLIN( 152)		if (_hx_tmp) {
+HXLINE( 152)			bounds->x = camera->viewMarginX;
             		}
-HXLINE( 152)		if (!(view->_inPool)) {
-HXLINE( 152)			view->_inPool = true;
-HXDLIN( 152)			view->_weak = false;
-HXDLIN( 152)			::flixel::math::FlxRect_obj::_pool->putUnsafe(view);
-            		}
-HXLINE( 154)		bool contained;
-HXDLIN( 154)		bool contained1;
-HXDLIN( 154)		bool contained2;
-HXDLIN( 154)		if (((bounds->x + bounds->width) > camera->viewMarginX)) {
-HXLINE( 154)			contained2 = (bounds->x < (( (Float)(camera->width) ) - camera->viewMarginX));
+HXLINE( 153)		int this2 = this->repeatAxes;
+HXDLIN( 153)		bool _hx_tmp1;
+HXDLIN( 153)		if ((this2 != 16)) {
+HXLINE( 153)			_hx_tmp1 = (this2 == 17);
             		}
             		else {
-HXLINE( 154)			contained2 = false;
+HXLINE( 153)			_hx_tmp1 = true;
             		}
-HXDLIN( 154)		if (contained2) {
-HXLINE( 154)			contained1 = ((bounds->y + bounds->height) > camera->viewMarginY);
+HXDLIN( 153)		if (_hx_tmp1) {
+HXLINE( 153)			bounds->y = camera->viewMarginY;
+            		}
+HXLINE( 155)		bool contained;
+HXDLIN( 155)		bool contained1;
+HXDLIN( 155)		bool contained2;
+HXDLIN( 155)		if (((bounds->x + bounds->width) > camera->viewMarginX)) {
+HXLINE( 155)			contained2 = (bounds->x < (( (Float)(camera->width) ) - camera->viewMarginX));
             		}
             		else {
-HXLINE( 154)			contained1 = false;
+HXLINE( 155)			contained2 = false;
             		}
-HXDLIN( 154)		if (contained1) {
-HXLINE( 154)			contained = (bounds->y < (( (Float)(camera->height) ) - camera->viewMarginY));
+HXDLIN( 155)		if (contained2) {
+HXLINE( 155)			contained1 = ((bounds->y + bounds->height) > camera->viewMarginY);
             		}
             		else {
-HXLINE( 154)			contained = false;
+HXLINE( 155)			contained1 = false;
             		}
-HXDLIN( 154)		if (bounds->_weak) {
-HXLINE( 154)			if (!(bounds->_inPool)) {
-HXLINE( 154)				bounds->_inPool = true;
-HXDLIN( 154)				bounds->_weak = false;
-HXDLIN( 154)				::flixel::math::FlxRect_obj::_pool->putUnsafe(bounds);
+HXDLIN( 155)		if (contained1) {
+HXLINE( 155)			contained = (bounds->y < (( (Float)(camera->height) ) - camera->viewMarginY));
+            		}
+            		else {
+HXLINE( 155)			contained = false;
+            		}
+HXDLIN( 155)		if (bounds->_weak) {
+HXLINE( 155)			if (!(bounds->_inPool)) {
+HXLINE( 155)				bounds->_inPool = true;
+HXDLIN( 155)				bounds->_weak = false;
+HXDLIN( 155)				::flixel::math::FlxRect_obj::_pool->putUnsafe(bounds);
             			}
             		}
-HXDLIN( 154)		return contained;
+HXDLIN( 155)		return contained;
             	}
 
 
 void FlxBackdrop_obj::drawToLargestCamera(){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_158_drawToLargestCamera)
-HXLINE( 159)		 ::flixel::FlxCamera largest = null();
-HXLINE( 160)		Float largestArea = ((Float)0.0);
-HXLINE( 161)		 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 161)		_this->x = ( (Float)(0) );
-HXDLIN( 161)		_this->y = ( (Float)(0) );
-HXDLIN( 161)		_this->width = ( (Float)(0) );
-HXDLIN( 161)		_this->height = ( (Float)(0) );
-HXDLIN( 161)		 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 161)		rect->_inPool = false;
-HXDLIN( 161)		 ::flixel::math::FlxRect view = rect;
-HXLINE( 162)		{
-HXLINE( 162)			int _g = 0;
-HXDLIN( 162)			::Array< ::Dynamic> _g1 = this->get_cameras();
-HXDLIN( 162)			while((_g < _g1->length)){
-HXLINE( 162)				 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
-HXDLIN( 162)				_g = (_g + 1);
-HXLINE( 164)				bool _hx_tmp;
-HXDLIN( 164)				bool _hx_tmp1;
-HXDLIN( 164)				if (camera->visible) {
-HXLINE( 164)					_hx_tmp1 = !(camera->exists);
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_159_drawToLargestCamera)
+HXLINE( 160)		 ::flixel::FlxCamera largest = null();
+HXLINE( 161)		Float largestArea = ((Float)0.0);
+HXLINE( 165)		{
+HXLINE( 165)			int _g = 0;
+HXDLIN( 165)			::Array< ::Dynamic> _g1 = this->get_cameras();
+HXDLIN( 165)			while((_g < _g1->length)){
+HXLINE( 165)				 ::flixel::FlxCamera camera = _g1->__get(_g).StaticCast<  ::flixel::FlxCamera >();
+HXDLIN( 165)				_g = (_g + 1);
+HXLINE( 167)				bool _hx_tmp;
+HXDLIN( 167)				bool _hx_tmp1;
+HXDLIN( 167)				if (camera->visible) {
+HXLINE( 167)					_hx_tmp1 = !(camera->exists);
             				}
             				else {
-HXLINE( 164)					_hx_tmp1 = true;
+HXLINE( 167)					_hx_tmp1 = true;
             				}
-HXDLIN( 164)				if (!(_hx_tmp1)) {
-HXLINE( 164)					_hx_tmp = !(this->isOnScreen(camera));
+HXDLIN( 167)				if (!(_hx_tmp1)) {
+HXLINE( 167)					_hx_tmp = !(this->isOnScreen(camera));
             				}
             				else {
-HXLINE( 164)					_hx_tmp = true;
+HXLINE( 167)					_hx_tmp = true;
             				}
-HXDLIN( 164)				if (_hx_tmp) {
-HXLINE( 165)					continue;
+HXDLIN( 167)				if (_hx_tmp) {
+HXLINE( 168)					continue;
             				}
-HXLINE( 167)				camera->getViewRect(view);
-HXLINE( 168)				if (((view->width * view->height) > largestArea)) {
-HXLINE( 170)					largest = camera;
-HXLINE( 171)					largestArea = (view->width * view->height);
+HXLINE( 170)				if ((((( (Float)(camera->width) ) - (camera->viewMarginX * ( (Float)(2) ))) * (( (Float)(camera->height) ) - (camera->viewMarginY * ( (Float)(2) )))) > largestArea)) {
+HXLINE( 172)					largest = camera;
+HXLINE( 173)					largestArea = ((( (Float)(camera->width) ) - (camera->viewMarginX * ( (Float)(2) ))) * (( (Float)(camera->height) ) - (camera->viewMarginY * ( (Float)(2) ))));
             				}
             			}
             		}
-HXLINE( 174)		if (!(view->_inPool)) {
-HXLINE( 174)			view->_inPool = true;
-HXDLIN( 174)			view->_weak = false;
-HXDLIN( 174)			::flixel::math::FlxRect_obj::_pool->putUnsafe(view);
-            		}
-HXLINE( 176)		if (::hx::IsNotNull( largest )) {
-HXLINE( 177)			this->regenGraphic(largest);
+HXLINE( 177)		if (::hx::IsNotNull( largest )) {
+HXLINE( 178)			this->regenGraphic(largest);
             		}
             	}
 
@@ -393,598 +373,603 @@ HXLINE( 177)			this->regenGraphic(largest);
 HX_DEFINE_DYNAMIC_FUNC0(FlxBackdrop_obj,drawToLargestCamera,(void))
 
 bool FlxBackdrop_obj::isSimpleRenderBlit( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_181_isSimpleRenderBlit)
-HXLINE( 182)		if ((this->repeatAxes == 0)) {
-HXLINE( 183)			return this->super::isSimpleRenderBlit(camera);
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_182_isSimpleRenderBlit)
+HXLINE( 183)		if ((this->repeatAxes == 0)) {
+HXLINE( 184)			return this->super::isSimpleRenderBlit(camera);
             		}
-HXLINE( 185)		bool _hx_tmp;
-HXDLIN( 185)		if (!(this->super::isSimpleRenderBlit(camera))) {
-HXLINE( 185)			_hx_tmp = this->drawBlit;
+HXLINE( 186)		bool _hx_tmp;
+HXDLIN( 186)		if (!(this->super::isSimpleRenderBlit(camera))) {
+HXLINE( 186)			_hx_tmp = this->drawBlit;
             		}
             		else {
-HXLINE( 185)			_hx_tmp = true;
+HXLINE( 186)			_hx_tmp = true;
             		}
-HXDLIN( 185)		if (_hx_tmp) {
-HXLINE( 186)			if (::hx::IsNotNull( camera )) {
-HXLINE( 186)				return this->isPixelPerfectRender(camera);
+HXDLIN( 186)		if (_hx_tmp) {
+HXLINE( 187)			if (::hx::IsNotNull( camera )) {
+HXLINE( 187)				return this->isPixelPerfectRender(camera);
             			}
             			else {
-HXLINE( 186)				return ( (bool)(this->pixelPerfectRender) );
+HXLINE( 187)				return ( (bool)(this->pixelPerfectRender) );
             			}
             		}
             		else {
-HXLINE( 185)			return false;
+HXLINE( 186)			return false;
             		}
-HXDLIN( 185)		return false;
+HXDLIN( 186)		return false;
             	}
 
 
 void FlxBackdrop_obj::drawSimple( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_190_drawSimple)
-HXLINE( 191)		if ((this->repeatAxes == 0)) {
-HXLINE( 193)			this->super::drawSimple(camera);
-HXLINE( 194)			return;
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_191_drawSimple)
+HXLINE( 192)		if ((this->repeatAxes == 0)) {
+HXLINE( 194)			this->super::drawSimple(camera);
+HXLINE( 195)			return;
             		}
-HXLINE( 197)		bool drawDirect = !(this->drawBlit);
-HXLINE( 198)		 ::flixel::graphics::FlxGraphic graphic;
-HXDLIN( 198)		if (this->drawBlit) {
-HXLINE( 198)			graphic = this->_blitGraphic;
-            		}
-            		else {
-HXLINE( 198)			graphic = this->graphic;
-            		}
-HXLINE( 199)		 ::flixel::graphics::frames::FlxFrame frame;
+HXLINE( 198)		bool drawDirect = !(this->drawBlit);
+HXLINE( 199)		 ::flixel::graphics::FlxGraphic graphic;
 HXDLIN( 199)		if (this->drawBlit) {
-HXLINE( 199)			frame = this->_blitGraphic->get_imageFrame()->get_frame();
+HXLINE( 199)			graphic = this->_blitGraphic;
             		}
             		else {
-HXLINE( 199)			frame = this->_frame;
+HXLINE( 199)			graphic = this->graphic;
             		}
-HXLINE( 202)		Float x = frame->frame->width;
-HXDLIN( 202)		Float y = frame->frame->height;
-HXDLIN( 202)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
-HXDLIN( 202)		point->_inPool = false;
-HXDLIN( 202)		 ::flixel::math::FlxBasePoint tileSize = point;
-HXLINE( 203)		if (drawDirect) {
-HXLINE( 204)			 ::flixel::math::FlxBasePoint point1 = this->spacing;
-HXDLIN( 204)			{
-HXLINE( 204)				Float y1 = point1->y;
-HXDLIN( 204)				tileSize->set_x((tileSize->x + point1->x));
-HXDLIN( 204)				tileSize->set_y((tileSize->y + y1));
-            			}
-HXDLIN( 204)			if (point1->_weak) {
-HXLINE( 204)				point1->put();
-            			}
+HXLINE( 200)		 ::flixel::graphics::frames::FlxFrame frame;
+HXDLIN( 200)		if (this->drawBlit) {
+HXLINE( 200)			frame = this->_blitGraphic->get_imageFrame()->get_frame();
             		}
-HXLINE( 206)		{
-HXLINE( 206)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
-HXDLIN( 206)			 ::flixel::math::FlxBasePoint point2 = this->offset;
-HXDLIN( 206)			{
-HXLINE( 206)				Float y2 = point2->y;
-HXDLIN( 206)				this1->set_x((this1->x - point2->x));
-HXDLIN( 206)				this1->set_y((this1->y - y2));
+            		else {
+HXLINE( 200)			frame = this->_frame;
+            		}
+HXLINE( 203)		Float x = frame->frame->width;
+HXDLIN( 203)		Float y = frame->frame->height;
+HXDLIN( 203)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
+HXDLIN( 203)		point->_inPool = false;
+HXDLIN( 203)		 ::flixel::math::FlxBasePoint tileSize = point;
+HXLINE( 204)		if (drawDirect) {
+HXLINE( 205)			 ::flixel::math::FlxBasePoint point1 = this->spacing;
+HXDLIN( 205)			{
+HXLINE( 205)				Float y1 = point1->y;
+HXDLIN( 205)				tileSize->set_x((tileSize->x + point1->x));
+HXDLIN( 205)				tileSize->set_y((tileSize->y + y1));
             			}
-HXDLIN( 206)			if (point2->_weak) {
-HXLINE( 206)				point2->put();
+HXDLIN( 205)			if (point1->_weak) {
+HXLINE( 205)				point1->put();
             			}
             		}
-HXLINE( 207)		int tilesX = 1;
-HXLINE( 208)		int tilesY = 1;
-HXLINE( 209)		if ((this->repeatAxes != 0)) {
-HXLINE( 211)			 ::flixel::math::FlxRect view = camera->getViewRect(null());
-HXLINE( 212)			int this2 = this->repeatAxes;
-HXDLIN( 212)			bool _hx_tmp;
-HXDLIN( 212)			if ((this2 != 1)) {
-HXLINE( 212)				_hx_tmp = (this2 == 17);
+HXLINE( 207)		{
+HXLINE( 207)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
+HXDLIN( 207)			 ::flixel::math::FlxBasePoint point2 = this->offset;
+HXDLIN( 207)			{
+HXLINE( 207)				Float y2 = point2->y;
+HXDLIN( 207)				this1->set_x((this1->x - point2->x));
+HXDLIN( 207)				this1->set_y((this1->y - y2));
+            			}
+HXDLIN( 207)			if (point2->_weak) {
+HXLINE( 207)				point2->put();
+            			}
+            		}
+HXLINE( 208)		int tilesX = 1;
+HXLINE( 209)		int tilesY = 1;
+HXLINE( 210)		if ((this->repeatAxes != 0)) {
+HXLINE( 212)			 ::flixel::math::FlxRect viewMargins = camera->getViewMarginRect(null());
+HXLINE( 213)			int this2 = this->repeatAxes;
+HXDLIN( 213)			bool _hx_tmp;
+HXDLIN( 213)			if ((this2 != 1)) {
+HXLINE( 213)				_hx_tmp = (this2 == 17);
             			}
             			else {
-HXLINE( 212)				_hx_tmp = true;
+HXLINE( 213)				_hx_tmp = true;
             			}
-HXDLIN( 212)			if (_hx_tmp) {
-HXLINE( 214)				Float left = this->modMin((this->_point->x + this->frameWidth),tileSize->x,view->x);
-HXDLIN( 214)				Float left1 = (left - ( (Float)(this->frameWidth) ));
-HXLINE( 215)				Float right = this->modMax(this->_point->x,tileSize->x,(view->x + view->width));
-HXDLIN( 215)				Float right1 = (right + tileSize->x);
-HXLINE( 216)				tilesX = ::Math_obj::round(((right1 - left1) / tileSize->x));
-HXLINE( 217)				Float origTileSizeX = (this->frameWidth + this->spacing->x);
-HXLINE( 218)				{
-HXLINE( 218)					 ::flixel::math::FlxBasePoint this3 = this->_point;
-HXDLIN( 218)					Float x1 = this->modMin((this->_point->x + this->frameWidth),origTileSizeX,view->x);
-HXDLIN( 218)					this3->set_x((x1 - ( (Float)(this->frameWidth) )));
+HXDLIN( 213)			if (_hx_tmp) {
+HXLINE( 215)				Float left = this->modMin((this->_point->x + this->frameWidth),tileSize->x,viewMargins->x);
+HXDLIN( 215)				Float left1 = (left - ( (Float)(this->frameWidth) ));
+HXLINE( 216)				Float right = this->modMax(this->_point->x,tileSize->x,(viewMargins->x + viewMargins->width));
+HXDLIN( 216)				Float right1 = (right + tileSize->x);
+HXLINE( 217)				tilesX = ::Math_obj::round(((right1 - left1) / tileSize->x));
+HXLINE( 218)				Float origTileSizeX = (this->frameWidth + this->spacing->x);
+HXLINE( 219)				{
+HXLINE( 219)					 ::flixel::math::FlxBasePoint this3 = this->_point;
+HXDLIN( 219)					Float x1 = this->modMin((this->_point->x + this->frameWidth),origTileSizeX,viewMargins->x);
+HXDLIN( 219)					this3->set_x((x1 - ( (Float)(this->frameWidth) )));
             				}
             			}
-HXLINE( 221)			int this4 = this->repeatAxes;
-HXDLIN( 221)			bool _hx_tmp1;
-HXDLIN( 221)			if ((this4 != 16)) {
-HXLINE( 221)				_hx_tmp1 = (this4 == 17);
+HXLINE( 222)			int this4 = this->repeatAxes;
+HXDLIN( 222)			bool _hx_tmp1;
+HXDLIN( 222)			if ((this4 != 16)) {
+HXLINE( 222)				_hx_tmp1 = (this4 == 17);
             			}
             			else {
-HXLINE( 221)				_hx_tmp1 = true;
+HXLINE( 222)				_hx_tmp1 = true;
             			}
-HXDLIN( 221)			if (_hx_tmp1) {
-HXLINE( 223)				Float top = this->modMin((this->_point->y + this->frameHeight),tileSize->y,view->y);
-HXDLIN( 223)				Float top1 = (top - ( (Float)(this->frameHeight) ));
-HXLINE( 224)				Float bottom = this->modMax(this->_point->y,tileSize->y,(view->y + view->height));
-HXDLIN( 224)				Float bottom1 = (bottom + tileSize->y);
-HXLINE( 225)				tilesY = ::Math_obj::round(((bottom1 - top1) / tileSize->y));
-HXLINE( 226)				Float origTileSizeY = (this->frameHeight + this->spacing->y);
-HXLINE( 227)				{
-HXLINE( 227)					 ::flixel::math::FlxBasePoint this5 = this->_point;
-HXDLIN( 227)					Float y3 = this->modMin((this->_point->y + this->frameHeight),origTileSizeY,view->y);
-HXDLIN( 227)					this5->set_y((y3 - ( (Float)(this->frameHeight) )));
+HXDLIN( 222)			if (_hx_tmp1) {
+HXLINE( 224)				Float top = this->modMin((this->_point->y + this->frameHeight),tileSize->y,viewMargins->y);
+HXDLIN( 224)				Float top1 = (top - ( (Float)(this->frameHeight) ));
+HXLINE( 225)				Float bottom = this->modMax(this->_point->y,tileSize->y,(viewMargins->y + viewMargins->height));
+HXDLIN( 225)				Float bottom1 = (bottom + tileSize->y);
+HXLINE( 226)				tilesY = ::Math_obj::round(((bottom1 - top1) / tileSize->y));
+HXLINE( 227)				Float origTileSizeY = (this->frameHeight + this->spacing->y);
+HXLINE( 228)				{
+HXLINE( 228)					 ::flixel::math::FlxBasePoint this5 = this->_point;
+HXDLIN( 228)					Float y3 = this->modMin((this->_point->y + this->frameHeight),origTileSizeY,viewMargins->y);
+HXDLIN( 228)					this5->set_y((y3 - ( (Float)(this->frameHeight) )));
             				}
             			}
-            		}
-HXLINE( 231)		if (this->drawBlit) {
-HXLINE( 232)			 ::flixel::math::FlxBasePoint this6 = this->_point;
-HXDLIN( 232)			 ::flixel::math::FlxBasePoint point3 = this->_blitOffset;
-HXDLIN( 232)			{
-HXLINE( 232)				Float y4 = point3->y;
-HXDLIN( 232)				this6->set_x((this6->x + point3->x));
-HXDLIN( 232)				this6->set_y((this6->y + y4));
-            			}
-HXDLIN( 232)			if (point3->_weak) {
-HXLINE( 232)				point3->put();
+HXLINE( 230)			if (!(viewMargins->_inPool)) {
+HXLINE( 230)				viewMargins->_inPool = true;
+HXDLIN( 230)				viewMargins->_weak = false;
+HXDLIN( 230)				::flixel::math::FlxRect_obj::_pool->putUnsafe(viewMargins);
             			}
             		}
-HXLINE( 234)		if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 235)			this->calcFrame(true);
+HXLINE( 233)		if (this->drawBlit) {
+HXLINE( 234)			 ::flixel::math::FlxBasePoint this6 = this->_point;
+HXDLIN( 234)			 ::flixel::math::FlxBasePoint point3 = this->_blitOffset;
+HXDLIN( 234)			{
+HXLINE( 234)				Float y4 = point3->y;
+HXDLIN( 234)				this6->set_x((this6->x + point3->x));
+HXDLIN( 234)				this6->set_y((this6->y + y4));
+            			}
+HXDLIN( 234)			if (point3->_weak) {
+HXLINE( 234)				point3->put();
+            			}
             		}
-HXLINE( 237)		camera->buffer->lock();
-HXLINE( 239)		{
-HXLINE( 239)			int _g = 0;
-HXDLIN( 239)			int _g1 = tilesX;
-HXDLIN( 239)			while((_g < _g1)){
-HXLINE( 239)				_g = (_g + 1);
-HXDLIN( 239)				int tileX = (_g - 1);
-HXLINE( 241)				{
-HXLINE( 241)					int _g2 = 0;
-HXDLIN( 241)					int _g3 = tilesY;
-HXDLIN( 241)					while((_g2 < _g3)){
-HXLINE( 241)						_g2 = (_g2 + 1);
-HXDLIN( 241)						int tileY = (_g2 - 1);
-HXLINE( 244)						this->_flashPoint->setTo((this->_point->x + (tileSize->x * ( (Float)(tileX) ))),(this->_point->y + (tileSize->y * ( (Float)(tileY) ))));
-HXLINE( 246)						if (this->isPixelPerfectRender(camera)) {
-HXLINE( 248)							this->_flashPoint->x = ( (Float)(::Math_obj::floor(this->_flashPoint->x)) );
-HXLINE( 249)							this->_flashPoint->y = ( (Float)(::Math_obj::floor(this->_flashPoint->y)) );
+HXLINE( 236)		if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 237)			this->calcFrame(true);
+            		}
+HXLINE( 239)		camera->buffer->lock();
+HXLINE( 241)		{
+HXLINE( 241)			int _g = 0;
+HXDLIN( 241)			int _g1 = tilesX;
+HXDLIN( 241)			while((_g < _g1)){
+HXLINE( 241)				_g = (_g + 1);
+HXDLIN( 241)				int tileX = (_g - 1);
+HXLINE( 243)				{
+HXLINE( 243)					int _g2 = 0;
+HXDLIN( 243)					int _g3 = tilesY;
+HXDLIN( 243)					while((_g2 < _g3)){
+HXLINE( 243)						_g2 = (_g2 + 1);
+HXDLIN( 243)						int tileY = (_g2 - 1);
+HXLINE( 246)						this->_flashPoint->setTo((this->_point->x + (tileSize->x * ( (Float)(tileX) ))),(this->_point->y + (tileSize->y * ( (Float)(tileY) ))));
+HXLINE( 248)						if (this->isPixelPerfectRender(camera)) {
+HXLINE( 250)							this->_flashPoint->x = ( (Float)(::Math_obj::floor(this->_flashPoint->x)) );
+HXLINE( 251)							this->_flashPoint->y = ( (Float)(::Math_obj::floor(this->_flashPoint->y)) );
             						}
-HXLINE( 252)						 ::openfl::display::BitmapData pixels;
-HXDLIN( 252)						if (this->drawBlit) {
-HXLINE( 252)							pixels = this->_blitGraphic->bitmap;
+HXLINE( 254)						 ::openfl::display::BitmapData pixels;
+HXDLIN( 254)						if (this->drawBlit) {
+HXLINE( 254)							pixels = this->_blitGraphic->bitmap;
             						}
             						else {
-HXLINE( 252)							pixels = this->framePixels;
+HXLINE( 254)							pixels = this->framePixels;
             						}
-HXLINE( 253)						camera->copyPixels(frame,pixels,pixels->rect,this->_flashPoint,this->colorTransform,this->blend,this->antialiasing,null());
+HXLINE( 255)						camera->copyPixels(frame,pixels,pixels->rect,this->_flashPoint,this->colorTransform,this->blend,this->antialiasing,null());
             					}
             				}
             			}
             		}
-HXLINE( 257)		camera->buffer->unlock(null());
+HXLINE( 259)		camera->buffer->unlock(null());
             	}
 
 
 void FlxBackdrop_obj::drawComplex( ::flixel::FlxCamera camera){
-            	HX_GC_STACKFRAME(&_hx_pos_3781a4bff19fd598_261_drawComplex)
-HXLINE( 262)		if ((this->repeatAxes == 0)) {
-HXLINE( 264)			this->super::drawComplex(camera);
-HXLINE( 265)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_3781a4bff19fd598_263_drawComplex)
+HXLINE( 264)		if ((this->repeatAxes == 0)) {
+HXLINE( 266)			this->super::drawComplex(camera);
+HXLINE( 267)			return;
             		}
-HXLINE( 268)		bool drawDirect = !(this->drawBlit);
-HXLINE( 269)		 ::flixel::graphics::FlxGraphic graphic;
-HXDLIN( 269)		if (this->drawBlit) {
-HXLINE( 269)			graphic = this->_blitGraphic;
-            		}
-            		else {
-HXLINE( 269)			graphic = this->graphic;
-            		}
-HXLINE( 270)		 ::flixel::graphics::frames::FlxFrame frame;
-HXDLIN( 270)		if (this->drawBlit) {
-HXLINE( 270)			frame = this->_blitGraphic->get_imageFrame()->get_frame();
+HXLINE( 270)		bool drawDirect = !(this->drawBlit);
+HXLINE( 271)		 ::flixel::graphics::FlxGraphic graphic;
+HXDLIN( 271)		if (this->drawBlit) {
+HXLINE( 271)			graphic = this->_blitGraphic;
             		}
             		else {
-HXLINE( 270)			frame = this->_frame;
+HXLINE( 271)			graphic = this->graphic;
             		}
-HXLINE( 272)		bool doFlipX = (this->flipX != this->_frame->flipX);
-HXDLIN( 272)		bool _hx_tmp;
-HXDLIN( 272)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE( 272)			_hx_tmp = (doFlipX != this->animation->_curAnim->flipX);
-            		}
-            		else {
-HXLINE( 272)			_hx_tmp = doFlipX;
-            		}
-HXDLIN( 272)		bool doFlipY = (this->flipY != this->_frame->flipY);
-HXDLIN( 272)		bool _hx_tmp1;
-HXDLIN( 272)		if (::hx::IsNotNull( this->animation->_curAnim )) {
-HXLINE( 272)			_hx_tmp1 = (doFlipY != this->animation->_curAnim->flipY);
+HXLINE( 272)		 ::flixel::graphics::frames::FlxFrame frame;
+HXDLIN( 272)		if (this->drawBlit) {
+HXLINE( 272)			frame = this->_blitGraphic->get_imageFrame()->get_frame();
             		}
             		else {
-HXLINE( 272)			_hx_tmp1 = doFlipY;
+HXLINE( 272)			frame = this->_frame;
             		}
-HXDLIN( 272)		frame->prepareMatrix(this->_matrix,0,_hx_tmp,_hx_tmp1);
-HXLINE( 273)		this->_matrix->translate(-(this->origin->x),-(this->origin->y));
-HXLINE( 276)		Float x = frame->frame->width;
-HXDLIN( 276)		Float y = frame->frame->height;
-HXDLIN( 276)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
-HXDLIN( 276)		point->_inPool = false;
-HXDLIN( 276)		 ::flixel::math::FlxBasePoint tileSize = point;
-HXLINE( 278)		if (drawDirect) {
-HXLINE( 280)			{
-HXLINE( 280)				Float y1 = ((frame->frame->height + this->spacing->y) * this->scale->y);
-HXDLIN( 280)				tileSize->set_x(((frame->frame->width + this->spacing->x) * this->scale->x));
-HXDLIN( 280)				tileSize->set_y(y1);
+HXLINE( 274)		bool doFlipX = (this->flipX != this->_frame->flipX);
+HXDLIN( 274)		bool _hx_tmp;
+HXDLIN( 274)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE( 274)			_hx_tmp = (doFlipX != this->animation->_curAnim->flipX);
+            		}
+            		else {
+HXLINE( 274)			_hx_tmp = doFlipX;
+            		}
+HXDLIN( 274)		bool doFlipY = (this->flipY != this->_frame->flipY);
+HXDLIN( 274)		bool _hx_tmp1;
+HXDLIN( 274)		if (::hx::IsNotNull( this->animation->_curAnim )) {
+HXLINE( 274)			_hx_tmp1 = (doFlipY != this->animation->_curAnim->flipY);
+            		}
+            		else {
+HXLINE( 274)			_hx_tmp1 = doFlipY;
+            		}
+HXDLIN( 274)		frame->prepareMatrix(this->_matrix,0,_hx_tmp,_hx_tmp1);
+HXLINE( 275)		this->_matrix->translate(-(this->origin->x),-(this->origin->y));
+HXLINE( 278)		Float x = frame->frame->width;
+HXDLIN( 278)		Float y = frame->frame->height;
+HXDLIN( 278)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
+HXDLIN( 278)		point->_inPool = false;
+HXDLIN( 278)		 ::flixel::math::FlxBasePoint tileSize = point;
+HXLINE( 280)		if (drawDirect) {
+HXLINE( 282)			{
+HXLINE( 282)				Float y1 = ((frame->frame->height + this->spacing->y) * this->scale->y);
+HXDLIN( 282)				tileSize->set_x(((frame->frame->width + this->spacing->x) * this->scale->x));
+HXDLIN( 282)				tileSize->set_y(y1);
             			}
-HXLINE( 286)			this->_matrix->scale(this->scale->x,this->scale->y);
-HXLINE( 288)			if ((this->bakedRotationAngle <= 0)) {
-HXLINE( 290)				if (this->_angleChanged) {
-HXLINE( 290)					Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
-HXDLIN( 290)					this->_sinAngle = ::Math_obj::sin(radians);
-HXDLIN( 290)					this->_cosAngle = ::Math_obj::cos(radians);
-HXDLIN( 290)					this->_angleChanged = false;
+HXLINE( 288)			this->_matrix->scale(this->scale->x,this->scale->y);
+HXLINE( 290)			if ((this->bakedRotationAngle <= 0)) {
+HXLINE( 292)				if (this->_angleChanged) {
+HXLINE( 292)					Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
+HXDLIN( 292)					this->_sinAngle = ::Math_obj::sin(radians);
+HXDLIN( 292)					this->_cosAngle = ::Math_obj::cos(radians);
+HXDLIN( 292)					this->_angleChanged = false;
             				}
-HXLINE( 292)				if ((this->angle != 0)) {
-HXLINE( 293)					 ::flixel::math::FlxMatrix _this = this->_matrix;
-HXDLIN( 293)					Float cos = this->_cosAngle;
-HXDLIN( 293)					Float sin = this->_sinAngle;
-HXDLIN( 293)					Float a1 = ((_this->a * cos) - (_this->b * sin));
-HXDLIN( 293)					_this->b = ((_this->a * sin) + (_this->b * cos));
-HXDLIN( 293)					_this->a = a1;
-HXDLIN( 293)					Float c1 = ((_this->c * cos) - (_this->d * sin));
-HXDLIN( 293)					_this->d = ((_this->c * sin) + (_this->d * cos));
-HXDLIN( 293)					_this->c = c1;
-HXDLIN( 293)					Float tx1 = ((_this->tx * cos) - (_this->ty * sin));
-HXDLIN( 293)					_this->ty = ((_this->tx * sin) + (_this->ty * cos));
-HXDLIN( 293)					_this->tx = tx1;
+HXLINE( 294)				if ((this->angle != 0)) {
+HXLINE( 295)					 ::flixel::math::FlxMatrix _this = this->_matrix;
+HXDLIN( 295)					Float cos = this->_cosAngle;
+HXDLIN( 295)					Float sin = this->_sinAngle;
+HXDLIN( 295)					Float a1 = ((_this->a * cos) - (_this->b * sin));
+HXDLIN( 295)					_this->b = ((_this->a * sin) + (_this->b * cos));
+HXDLIN( 295)					_this->a = a1;
+HXDLIN( 295)					Float c1 = ((_this->c * cos) - (_this->d * sin));
+HXDLIN( 295)					_this->d = ((_this->c * sin) + (_this->d * cos));
+HXDLIN( 295)					_this->c = c1;
+HXDLIN( 295)					Float tx1 = ((_this->tx * cos) - (_this->ty * sin));
+HXDLIN( 295)					_this->ty = ((_this->tx * sin) + (_this->ty * cos));
+HXDLIN( 295)					_this->tx = tx1;
             				}
             			}
             		}
-HXLINE( 297)		 ::flixel::graphics::tile::FlxDrawQuadsItem drawItem = null();
-HXLINE( 298)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE( 300)			bool isColored;
-HXDLIN( 300)			if ((this->alpha == 1)) {
-HXLINE( 300)				isColored = (this->color != 16777215);
+HXLINE( 299)		 ::flixel::graphics::tile::FlxDrawQuadsItem drawItem = null();
+HXLINE( 300)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE( 302)			bool isColored;
+HXDLIN( 302)			if ((this->alpha == 1)) {
+HXLINE( 302)				isColored = (this->color != 16777215);
             			}
             			else {
-HXLINE( 300)				isColored = true;
+HXLINE( 302)				isColored = true;
             			}
-HXLINE( 301)			bool hasColorOffsets;
-HXDLIN( 301)			if (::hx::IsNotNull( this->colorTransform )) {
-HXLINE( 301)				hasColorOffsets = ::flixel::util::FlxColorTransformUtil_obj::hasRGBAOffsets(this->colorTransform);
+HXLINE( 303)			bool hasColorOffsets;
+HXDLIN( 303)			if (::hx::IsNotNull( this->colorTransform )) {
+HXLINE( 303)				hasColorOffsets = ::flixel::util::FlxColorTransformUtil_obj::hasRGBAOffsets(this->colorTransform);
             			}
             			else {
-HXLINE( 301)				hasColorOffsets = false;
+HXLINE( 303)				hasColorOffsets = false;
             			}
-HXLINE( 302)			drawItem = camera->startQuadBatch(graphic,isColored,hasColorOffsets,this->blend,this->antialiasing,this->shader);
+HXLINE( 304)			drawItem = camera->startQuadBatch(graphic,isColored,hasColorOffsets,this->blend,this->antialiasing,this->shader);
             		}
             		else {
-HXLINE( 306)			camera->buffer->lock();
+HXLINE( 308)			camera->buffer->lock();
             		}
-HXLINE( 309)		{
-HXLINE( 309)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
-HXDLIN( 309)			 ::flixel::math::FlxBasePoint point1 = this->offset;
-HXDLIN( 309)			{
-HXLINE( 309)				Float y2 = point1->y;
-HXDLIN( 309)				this1->set_x((this1->x - point1->x));
-HXDLIN( 309)				this1->set_y((this1->y - y2));
+HXLINE( 311)		{
+HXLINE( 311)			 ::flixel::math::FlxBasePoint this1 = this->getScreenPosition(this->_point,camera);
+HXDLIN( 311)			 ::flixel::math::FlxBasePoint point1 = this->offset;
+HXDLIN( 311)			{
+HXLINE( 311)				Float y2 = point1->y;
+HXDLIN( 311)				this1->set_x((this1->x - point1->x));
+HXDLIN( 311)				this1->set_y((this1->y - y2));
             			}
-HXDLIN( 309)			if (point1->_weak) {
-HXLINE( 309)				point1->put();
+HXDLIN( 311)			if (point1->_weak) {
+HXLINE( 311)				point1->put();
             			}
             		}
-HXLINE( 310)		int tilesX = 1;
-HXLINE( 311)		int tilesY = 1;
-HXLINE( 312)		if ((this->repeatAxes != 0)) {
-HXLINE( 314)			 ::flixel::math::FlxRect view = camera->getViewRect(null());
-HXLINE( 315)			 ::flixel::math::FlxRect bounds = this->getScreenBounds(null(),camera);
-HXLINE( 316)			int this2 = this->repeatAxes;
-HXDLIN( 316)			bool _hx_tmp2;
-HXDLIN( 316)			if ((this2 != 1)) {
-HXLINE( 316)				_hx_tmp2 = (this2 == 17);
+HXLINE( 312)		int tilesX = 1;
+HXLINE( 313)		int tilesY = 1;
+HXLINE( 314)		if ((this->repeatAxes != 0)) {
+HXLINE( 316)			 ::flixel::math::FlxRect viewMargins = camera->getViewMarginRect(null());
+HXLINE( 317)			 ::flixel::math::FlxRect bounds = this->getScreenBounds(null(),camera);
+HXLINE( 318)			int this2 = this->repeatAxes;
+HXDLIN( 318)			bool _hx_tmp2;
+HXDLIN( 318)			if ((this2 != 1)) {
+HXLINE( 318)				_hx_tmp2 = (this2 == 17);
             			}
             			else {
-HXLINE( 316)				_hx_tmp2 = true;
+HXLINE( 318)				_hx_tmp2 = true;
             			}
-HXDLIN( 316)			if (_hx_tmp2) {
-HXLINE( 318)				Float origTileSizeX = ((this->frameWidth + this->spacing->x) * this->scale->x);
-HXLINE( 319)				Float left = this->modMin((bounds->x + bounds->width),origTileSizeX,view->x);
-HXDLIN( 319)				Float left1 = (left - bounds->width);
-HXLINE( 320)				Float right = (this->modMax(bounds->x,origTileSizeX,(view->x + view->width)) + origTileSizeX);
-HXLINE( 321)				tilesX = ::Math_obj::round(((right - left1) / tileSize->x));
-HXLINE( 322)				this->_point->set_x(((left1 + this->_point->x) - bounds->x));
+HXDLIN( 318)			if (_hx_tmp2) {
+HXLINE( 320)				Float origTileSizeX = ((this->frameWidth + this->spacing->x) * this->scale->x);
+HXLINE( 321)				Float left = this->modMin((bounds->x + bounds->width),origTileSizeX,viewMargins->x);
+HXDLIN( 321)				Float left1 = (left - bounds->width);
+HXLINE( 322)				Float right = (this->modMax(bounds->x,origTileSizeX,(viewMargins->x + viewMargins->width)) + origTileSizeX);
+HXLINE( 323)				tilesX = ::Math_obj::round(((right - left1) / tileSize->x));
+HXLINE( 324)				this->_point->set_x(((left1 + this->_point->x) - bounds->x));
             			}
-HXLINE( 325)			int this3 = this->repeatAxes;
-HXDLIN( 325)			bool _hx_tmp3;
-HXDLIN( 325)			if ((this3 != 16)) {
-HXLINE( 325)				_hx_tmp3 = (this3 == 17);
+HXLINE( 327)			int this3 = this->repeatAxes;
+HXDLIN( 327)			bool _hx_tmp3;
+HXDLIN( 327)			if ((this3 != 16)) {
+HXLINE( 327)				_hx_tmp3 = (this3 == 17);
             			}
             			else {
-HXLINE( 325)				_hx_tmp3 = true;
+HXLINE( 327)				_hx_tmp3 = true;
             			}
-HXDLIN( 325)			if (_hx_tmp3) {
-HXLINE( 327)				Float origTileSizeY = ((this->frameHeight + this->spacing->y) * this->scale->y);
-HXLINE( 328)				Float top = this->modMin((bounds->y + bounds->height),origTileSizeY,view->y);
-HXDLIN( 328)				Float top1 = (top - bounds->height);
-HXLINE( 329)				Float bottom = (this->modMax(bounds->y,origTileSizeY,(view->y + view->height)) + origTileSizeY);
-HXLINE( 330)				tilesY = ::Math_obj::round(((bottom - top1) / tileSize->y));
-HXLINE( 331)				this->_point->set_y(((top1 + this->_point->y) - bounds->y));
+HXDLIN( 327)			if (_hx_tmp3) {
+HXLINE( 329)				Float origTileSizeY = ((this->frameHeight + this->spacing->y) * this->scale->y);
+HXLINE( 330)				Float top = this->modMin((bounds->y + bounds->height),origTileSizeY,viewMargins->y);
+HXDLIN( 330)				Float top1 = (top - bounds->height);
+HXLINE( 331)				Float bottom = (this->modMax(bounds->y,origTileSizeY,(viewMargins->y + viewMargins->height)) + origTileSizeY);
+HXLINE( 332)				tilesY = ::Math_obj::round(((bottom - top1) / tileSize->y));
+HXLINE( 333)				this->_point->set_y(((top1 + this->_point->y) - bounds->y));
             			}
-HXLINE( 333)			if (!(view->_inPool)) {
-HXLINE( 333)				view->_inPool = true;
-HXDLIN( 333)				view->_weak = false;
-HXDLIN( 333)				::flixel::math::FlxRect_obj::_pool->putUnsafe(view);
+HXLINE( 335)			if (!(viewMargins->_inPool)) {
+HXLINE( 335)				viewMargins->_inPool = true;
+HXDLIN( 335)				viewMargins->_weak = false;
+HXDLIN( 335)				::flixel::math::FlxRect_obj::_pool->putUnsafe(viewMargins);
             			}
-HXLINE( 334)			if (!(bounds->_inPool)) {
-HXLINE( 334)				bounds->_inPool = true;
-HXDLIN( 334)				bounds->_weak = false;
-HXDLIN( 334)				::flixel::math::FlxRect_obj::_pool->putUnsafe(bounds);
-            			}
-            		}
-HXLINE( 336)		{
-HXLINE( 336)			 ::flixel::math::FlxBasePoint this4 = this->_point;
-HXDLIN( 336)			 ::flixel::math::FlxBasePoint point2 = this->origin;
-HXDLIN( 336)			{
-HXLINE( 336)				Float y3 = point2->y;
-HXDLIN( 336)				this4->set_x((this4->x + point2->x));
-HXDLIN( 336)				this4->set_y((this4->y + y3));
-            			}
-HXDLIN( 336)			if (point2->_weak) {
-HXLINE( 336)				point2->put();
+HXLINE( 336)			if (!(bounds->_inPool)) {
+HXLINE( 336)				bounds->_inPool = true;
+HXDLIN( 336)				bounds->_weak = false;
+HXDLIN( 336)				::flixel::math::FlxRect_obj::_pool->putUnsafe(bounds);
             			}
             		}
-HXLINE( 337)		if (this->drawBlit) {
-HXLINE( 338)			 ::flixel::math::FlxBasePoint this5 = this->_point;
-HXDLIN( 338)			 ::flixel::math::FlxBasePoint point3 = this->_blitOffset;
+HXLINE( 338)		{
+HXLINE( 338)			 ::flixel::math::FlxBasePoint this4 = this->_point;
+HXDLIN( 338)			 ::flixel::math::FlxBasePoint point2 = this->origin;
 HXDLIN( 338)			{
-HXLINE( 338)				Float y4 = point3->y;
-HXDLIN( 338)				this5->set_x((this5->x + point3->x));
-HXDLIN( 338)				this5->set_y((this5->y + y4));
+HXLINE( 338)				Float y3 = point2->y;
+HXDLIN( 338)				this4->set_x((this4->x + point2->x));
+HXDLIN( 338)				this4->set_y((this4->y + y3));
             			}
-HXDLIN( 338)			if (point3->_weak) {
-HXLINE( 338)				point3->put();
+HXDLIN( 338)			if (point2->_weak) {
+HXLINE( 338)				point2->put();
             			}
             		}
-HXLINE( 340)		 ::flixel::math::FlxMatrix mat =  ::flixel::math::FlxMatrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 341)		{
-HXLINE( 341)			int _g = 0;
-HXDLIN( 341)			int _g1 = tilesX;
-HXDLIN( 341)			while((_g < _g1)){
-HXLINE( 341)				_g = (_g + 1);
-HXDLIN( 341)				int tileX = (_g - 1);
-HXLINE( 343)				{
-HXLINE( 343)					int _g2 = 0;
-HXDLIN( 343)					int _g3 = tilesY;
-HXDLIN( 343)					while((_g2 < _g3)){
-HXLINE( 343)						_g2 = (_g2 + 1);
-HXDLIN( 343)						int tileY = (_g2 - 1);
-HXLINE( 345)						mat->copyFrom(this->_matrix);
-HXLINE( 347)						mat->translate((this->_point->x + (tileSize->x * ( (Float)(tileX) ))),(this->_point->y + (tileSize->y * ( (Float)(tileY) ))));
-HXLINE( 349)						if (this->isPixelPerfectRender(camera)) {
-HXLINE( 351)							mat->tx = ( (Float)(::Math_obj::floor(mat->tx)) );
-HXLINE( 352)							mat->ty = ( (Float)(::Math_obj::floor(mat->ty)) );
+HXLINE( 339)		if (this->drawBlit) {
+HXLINE( 340)			 ::flixel::math::FlxBasePoint this5 = this->_point;
+HXDLIN( 340)			 ::flixel::math::FlxBasePoint point3 = this->_blitOffset;
+HXDLIN( 340)			{
+HXLINE( 340)				Float y4 = point3->y;
+HXDLIN( 340)				this5->set_x((this5->x + point3->x));
+HXDLIN( 340)				this5->set_y((this5->y + y4));
+            			}
+HXDLIN( 340)			if (point3->_weak) {
+HXLINE( 340)				point3->put();
+            			}
+            		}
+HXLINE( 342)		 ::flixel::math::FlxMatrix mat =  ::flixel::math::FlxMatrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE( 343)		{
+HXLINE( 343)			int _g = 0;
+HXDLIN( 343)			int _g1 = tilesX;
+HXDLIN( 343)			while((_g < _g1)){
+HXLINE( 343)				_g = (_g + 1);
+HXDLIN( 343)				int tileX = (_g - 1);
+HXLINE( 345)				{
+HXLINE( 345)					int _g2 = 0;
+HXDLIN( 345)					int _g3 = tilesY;
+HXDLIN( 345)					while((_g2 < _g3)){
+HXLINE( 345)						_g2 = (_g2 + 1);
+HXDLIN( 345)						int tileY = (_g2 - 1);
+HXLINE( 347)						mat->copyFrom(this->_matrix);
+HXLINE( 349)						mat->translate((this->_point->x + (tileSize->x * ( (Float)(tileX) ))),(this->_point->y + (tileSize->y * ( (Float)(tileY) ))));
+HXLINE( 351)						if (this->isPixelPerfectRender(camera)) {
+HXLINE( 353)							mat->tx = ( (Float)(::Math_obj::floor(mat->tx)) );
+HXLINE( 354)							mat->ty = ( (Float)(::Math_obj::floor(mat->ty)) );
             						}
-HXLINE( 355)						if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 357)							 ::openfl::display::BitmapData pixels;
-HXDLIN( 357)							if (this->drawBlit) {
-HXLINE( 357)								pixels = this->_blitGraphic->bitmap;
+HXLINE( 357)						if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 359)							 ::openfl::display::BitmapData pixels;
+HXDLIN( 359)							if (this->drawBlit) {
+HXLINE( 359)								pixels = this->_blitGraphic->bitmap;
             							}
             							else {
-HXLINE( 357)								pixels = this->framePixels;
+HXLINE( 359)								pixels = this->framePixels;
             							}
-HXLINE( 358)							camera->drawPixels(frame,pixels,mat,this->colorTransform,this->blend,this->antialiasing,this->shader);
+HXLINE( 360)							camera->drawPixels(frame,pixels,mat,this->colorTransform,this->blend,this->antialiasing,this->shader);
             						}
             						else {
-HXLINE( 362)							drawItem->addQuad(frame,mat,this->colorTransform);
+HXLINE( 364)							drawItem->addQuad(frame,mat,this->colorTransform);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 367)		if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 368)			camera->buffer->unlock(null());
+HXLINE( 369)		if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 370)			camera->buffer->unlock(null());
             		}
             	}
 
 
  ::flixel::math::FlxRect FlxBackdrop_obj::getFrameScreenBounds( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_372_getFrameScreenBounds)
-HXLINE( 373)		if (this->drawBlit) {
-HXLINE( 375)			 ::flixel::math::FlxRect frame = this->_blitGraphic->get_imageFrame()->get_frame()->frame;
-HXLINE( 376)			Float X = this->x;
-HXDLIN( 376)			Float Y = this->y;
-HXDLIN( 376)			Float Width = frame->width;
-HXDLIN( 376)			Float Height = frame->height;
-HXDLIN( 376)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 376)			_this->x = X;
-HXDLIN( 376)			_this->y = Y;
-HXDLIN( 376)			_this->width = Width;
-HXDLIN( 376)			_this->height = Height;
-HXDLIN( 376)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 376)			rect->_inPool = false;
-HXDLIN( 376)			return rect;
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_374_getFrameScreenBounds)
+HXLINE( 375)		if (this->drawBlit) {
+HXLINE( 377)			 ::flixel::math::FlxRect frame = this->_blitGraphic->get_imageFrame()->get_frame()->frame;
+HXLINE( 378)			Float X = this->x;
+HXDLIN( 378)			Float Y = this->y;
+HXDLIN( 378)			Float Width = frame->width;
+HXDLIN( 378)			Float Height = frame->height;
+HXDLIN( 378)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 378)			_this->x = X;
+HXDLIN( 378)			_this->y = Y;
+HXDLIN( 378)			_this->width = Width;
+HXDLIN( 378)			_this->height = Height;
+HXDLIN( 378)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 378)			rect->_inPool = false;
+HXDLIN( 378)			return rect;
             		}
-HXLINE( 379)		Float X1 = this->x;
-HXDLIN( 379)		Float Y1 = this->y;
-HXDLIN( 379)		 ::flixel::math::FlxRect _this1 = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 379)		_this1->x = X1;
-HXDLIN( 379)		_this1->y = Y1;
-HXDLIN( 379)		_this1->width = ( (Float)(0) );
-HXDLIN( 379)		_this1->height = ( (Float)(0) );
-HXDLIN( 379)		 ::flixel::math::FlxRect rect1 = _this1;
-HXDLIN( 379)		rect1->_inPool = false;
-HXDLIN( 379)		 ::flixel::math::FlxRect newRect = rect1;
-HXLINE( 381)		if (this->pixelPerfectPosition) {
-HXLINE( 382)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
-HXDLIN( 382)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
-HXDLIN( 382)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
-HXDLIN( 382)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
+HXLINE( 381)		Float X1 = this->x;
+HXDLIN( 381)		Float Y1 = this->y;
+HXDLIN( 381)		 ::flixel::math::FlxRect _this1 = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 381)		_this1->x = X1;
+HXDLIN( 381)		_this1->y = Y1;
+HXDLIN( 381)		_this1->width = ( (Float)(0) );
+HXDLIN( 381)		_this1->height = ( (Float)(0) );
+HXDLIN( 381)		 ::flixel::math::FlxRect rect1 = _this1;
+HXDLIN( 381)		rect1->_inPool = false;
+HXDLIN( 381)		 ::flixel::math::FlxRect newRect = rect1;
+HXLINE( 383)		if (this->pixelPerfectPosition) {
+HXLINE( 384)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
+HXDLIN( 384)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
+HXDLIN( 384)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
+HXDLIN( 384)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
             		}
-HXLINE( 383)		Float x = (this->origin->x * this->scale->x);
-HXDLIN( 383)		Float y = (this->origin->y * this->scale->y);
-HXDLIN( 383)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
-HXDLIN( 383)		point->_inPool = false;
-HXDLIN( 383)		 ::flixel::math::FlxBasePoint point1 = point;
-HXDLIN( 383)		point1->_weak = true;
-HXDLIN( 383)		 ::flixel::math::FlxBasePoint scaledOrigin = point1;
-HXLINE( 384)		 ::flixel::math::FlxRect newRect1 = newRect;
-HXDLIN( 384)		Float newRect2 = newRect1->x;
-HXDLIN( 384)		Float _hx_tmp = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->x * this->scrollFactor->x)))) ) - this->offset->x);
-HXDLIN( 384)		newRect1->x = (newRect2 + ((_hx_tmp + this->origin->x) - scaledOrigin->x));
-HXLINE( 385)		 ::flixel::math::FlxRect newRect3 = newRect;
-HXDLIN( 385)		Float newRect4 = newRect3->y;
-HXDLIN( 385)		Float _hx_tmp1 = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->y * this->scrollFactor->y)))) ) - this->offset->y);
-HXDLIN( 385)		newRect3->y = (newRect4 + ((_hx_tmp1 + this->origin->y) - scaledOrigin->y));
-HXLINE( 386)		if (this->isPixelPerfectRender(camera)) {
-HXLINE( 387)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
-HXDLIN( 387)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
-HXDLIN( 387)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
-HXDLIN( 387)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
+HXLINE( 385)		Float x = (this->origin->x * this->scale->x);
+HXDLIN( 385)		Float y = (this->origin->y * this->scale->y);
+HXDLIN( 385)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
+HXDLIN( 385)		point->_inPool = false;
+HXDLIN( 385)		 ::flixel::math::FlxBasePoint point1 = point;
+HXDLIN( 385)		point1->_weak = true;
+HXDLIN( 385)		 ::flixel::math::FlxBasePoint scaledOrigin = point1;
+HXLINE( 386)		 ::flixel::math::FlxRect newRect1 = newRect;
+HXDLIN( 386)		Float newRect2 = newRect1->x;
+HXDLIN( 386)		Float _hx_tmp = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->x * this->scrollFactor->x)))) ) - this->offset->x);
+HXDLIN( 386)		newRect1->x = (newRect2 + ((_hx_tmp + this->origin->x) - scaledOrigin->x));
+HXLINE( 387)		 ::flixel::math::FlxRect newRect3 = newRect;
+HXDLIN( 387)		Float newRect4 = newRect3->y;
+HXDLIN( 387)		Float _hx_tmp1 = (( (Float)(-(::Std_obj::_hx_int((camera->scroll->y * this->scrollFactor->y)))) ) - this->offset->y);
+HXDLIN( 387)		newRect3->y = (newRect4 + ((_hx_tmp1 + this->origin->y) - scaledOrigin->y));
+HXLINE( 388)		if (this->isPixelPerfectRender(camera)) {
+HXLINE( 389)			newRect->x = ( (Float)(::Math_obj::floor(newRect->x)) );
+HXDLIN( 389)			newRect->y = ( (Float)(::Math_obj::floor(newRect->y)) );
+HXDLIN( 389)			newRect->width = ( (Float)(::Math_obj::floor(newRect->width)) );
+HXDLIN( 389)			newRect->height = ( (Float)(::Math_obj::floor(newRect->height)) );
             		}
-HXLINE( 388)		{
-HXLINE( 388)			Float Height1 = (( (Float)(this->frameHeight) ) * ::Math_obj::abs(this->scale->y));
-HXDLIN( 388)			newRect->width = (( (Float)(this->frameWidth) ) * ::Math_obj::abs(this->scale->x));
-HXDLIN( 388)			newRect->height = Height1;
+HXLINE( 390)		{
+HXLINE( 390)			Float Height1 = (( (Float)(this->frameHeight) ) * ::Math_obj::abs(this->scale->y));
+HXDLIN( 390)			newRect->width = (( (Float)(this->frameWidth) ) * ::Math_obj::abs(this->scale->x));
+HXDLIN( 390)			newRect->height = Height1;
             		}
-HXLINE( 389)		return newRect->getRotatedBounds(this->angle,scaledOrigin,newRect);
+HXLINE( 391)		return newRect->getRotatedBounds(this->angle,scaledOrigin,newRect);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxBackdrop_obj,getFrameScreenBounds,return )
 
 Float FlxBackdrop_obj::modMin(Float value,Float step,Float min){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_394_modMin)
-HXDLIN( 394)		return (value - (( (Float)(::Math_obj::floor(((value - min) / step))) ) * step));
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_396_modMin)
+HXDLIN( 396)		return (value - (( (Float)(::Math_obj::floor(((value - min) / step))) ) * step));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxBackdrop_obj,modMin,return )
 
 Float FlxBackdrop_obj::modMax(Float value,Float step,Float max){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_399_modMax)
-HXDLIN( 399)		return (value - (( (Float)(::Math_obj::ceil(((value - max) / step))) ) * step));
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_401_modMax)
+HXDLIN( 401)		return (value - (( (Float)(::Math_obj::ceil(((value - max) / step))) ) * step));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxBackdrop_obj,modMax,return )
 
 void FlxBackdrop_obj::regenGraphic( ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_403_regenGraphic)
-HXLINE( 405)		Float x = ((this->frameWidth + this->spacing->x) * this->scale->x);
-HXDLIN( 405)		Float y = ((this->frameHeight + this->spacing->y) * this->scale->y);
-HXDLIN( 405)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
-HXDLIN( 405)		point->_inPool = false;
-HXDLIN( 405)		 ::flixel::math::FlxBasePoint tileSize = point;
-HXLINE( 410)		 ::flixel::math::FlxRect view = camera->getViewRect(null());
-HXLINE( 411)		int tilesX = 1;
-HXLINE( 412)		int tilesY = 1;
-HXLINE( 413)		if ((this->repeatAxes != 0)) {
-HXLINE( 416)			 ::flixel::addons::display::BackdropBlitMode _g = this->blitMode;
-HXDLIN( 416)			switch((int)(_g->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_405_regenGraphic)
+HXLINE( 407)		Float x = ((this->frameWidth + this->spacing->x) * this->scale->x);
+HXDLIN( 407)		Float y = ((this->frameHeight + this->spacing->y) * this->scale->y);
+HXDLIN( 407)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
+HXDLIN( 407)		point->_inPool = false;
+HXDLIN( 407)		 ::flixel::math::FlxBasePoint tileSize = point;
+HXLINE( 412)		 ::flixel::math::FlxRect viewMargins = camera->getViewMarginRect(null());
+HXLINE( 413)		int tilesX = 1;
+HXLINE( 414)		int tilesY = 1;
+HXLINE( 415)		if ((this->repeatAxes != 0)) {
+HXLINE( 418)			 ::flixel::addons::display::BackdropBlitMode _g = this->blitMode;
+HXDLIN( 418)			switch((int)(_g->_hx_getIndex())){
             				case (int)0: {
-HXLINE( 419)					int this1 = this->repeatAxes;
-HXDLIN( 419)					bool _hx_tmp;
-HXDLIN( 419)					if ((this1 != 1)) {
-HXLINE( 419)						_hx_tmp = (this1 == 17);
+HXLINE( 421)					int this1 = this->repeatAxes;
+HXDLIN( 421)					bool _hx_tmp;
+HXDLIN( 421)					if ((this1 != 1)) {
+HXLINE( 421)						_hx_tmp = (this1 == 17);
             					}
             					else {
-HXLINE( 419)						_hx_tmp = true;
+HXLINE( 421)						_hx_tmp = true;
             					}
-HXDLIN( 419)					if (_hx_tmp) {
-HXLINE( 419)						tilesX = (::Math_obj::ceil((view->width / tileSize->x)) + 1);
+HXDLIN( 421)					if (_hx_tmp) {
+HXLINE( 421)						tilesX = (::Math_obj::ceil((viewMargins->width / tileSize->x)) + 1);
             					}
-HXLINE( 420)					int this2 = this->repeatAxes;
-HXDLIN( 420)					bool _hx_tmp1;
-HXDLIN( 420)					if ((this2 != 16)) {
-HXLINE( 420)						_hx_tmp1 = (this2 == 17);
+HXLINE( 422)					int this2 = this->repeatAxes;
+HXDLIN( 422)					bool _hx_tmp1;
+HXDLIN( 422)					if ((this2 != 16)) {
+HXLINE( 422)						_hx_tmp1 = (this2 == 17);
             					}
             					else {
-HXLINE( 420)						_hx_tmp1 = true;
+HXLINE( 422)						_hx_tmp1 = true;
             					}
-HXDLIN( 420)					if (_hx_tmp1) {
-HXLINE( 420)						tilesY = (::Math_obj::ceil((view->height / tileSize->y)) + 1);
+HXDLIN( 422)					if (_hx_tmp1) {
+HXLINE( 422)						tilesY = (::Math_obj::ceil((viewMargins->height / tileSize->y)) + 1);
             					}
             				}
             				break;
             				case (int)1: {
-HXLINE( 425)					int _g1 = _g->_hx_getInt(0);
-HXDLIN( 425)					int _g2 = _g->_hx_getInt(1);
-HXDLIN( 425)					if ((_g1 == 1)) {
-HXLINE( 425)						if ((_g2 != 1)) {
-HXLINE( 425)							int maxX = _g1;
-HXDLIN( 425)							int maxY = _g2;
-HXDLIN( 425)							{
-HXLINE( 426)								int this3 = this->repeatAxes;
-HXDLIN( 426)								bool _hx_tmp2;
-HXDLIN( 426)								if ((this3 != 1)) {
-HXLINE( 426)									_hx_tmp2 = (this3 == 17);
+HXLINE( 427)					int _g1 = _g->_hx_getInt(0);
+HXDLIN( 427)					int _g2 = _g->_hx_getInt(1);
+HXDLIN( 427)					if ((_g1 == 1)) {
+HXLINE( 427)						if ((_g2 != 1)) {
+HXLINE( 427)							int maxX = _g1;
+HXDLIN( 427)							int maxY = _g2;
+HXDLIN( 427)							{
+HXLINE( 428)								int this3 = this->repeatAxes;
+HXDLIN( 428)								bool _hx_tmp2;
+HXDLIN( 428)								if ((this3 != 1)) {
+HXLINE( 428)									_hx_tmp2 = (this3 == 17);
             								}
             								else {
-HXLINE( 426)									_hx_tmp2 = true;
+HXLINE( 428)									_hx_tmp2 = true;
             								}
-HXDLIN( 426)								if (_hx_tmp2) {
-HXLINE( 426)									int b = (::Math_obj::ceil((view->width / tileSize->x)) + 1);
-HXDLIN( 426)									if ((maxX < b)) {
-HXLINE( 426)										tilesX = maxX;
+HXDLIN( 428)								if (_hx_tmp2) {
+HXLINE( 428)									int b = (::Math_obj::ceil((viewMargins->width / tileSize->x)) + 1);
+HXDLIN( 428)									if ((maxX < b)) {
+HXLINE( 428)										tilesX = maxX;
             									}
             									else {
-HXLINE( 426)										tilesX = b;
+HXLINE( 428)										tilesX = b;
             									}
             								}
-HXLINE( 427)								int this4 = this->repeatAxes;
-HXDLIN( 427)								bool _hx_tmp3;
-HXDLIN( 427)								if ((this4 != 16)) {
-HXLINE( 427)									_hx_tmp3 = (this4 == 17);
+HXLINE( 429)								int this4 = this->repeatAxes;
+HXDLIN( 429)								bool _hx_tmp3;
+HXDLIN( 429)								if ((this4 != 16)) {
+HXLINE( 429)									_hx_tmp3 = (this4 == 17);
             								}
             								else {
-HXLINE( 427)									_hx_tmp3 = true;
+HXLINE( 429)									_hx_tmp3 = true;
             								}
-HXDLIN( 427)								if (_hx_tmp3) {
-HXLINE( 427)									int b1 = (::Math_obj::ceil((view->height / tileSize->y)) + 1);
-HXDLIN( 427)									if ((maxY < b1)) {
-HXLINE( 427)										tilesY = maxY;
+HXDLIN( 429)								if (_hx_tmp3) {
+HXLINE( 429)									int b1 = (::Math_obj::ceil((viewMargins->height / tileSize->y)) + 1);
+HXDLIN( 429)									if ((maxY < b1)) {
+HXLINE( 429)										tilesY = maxY;
             									}
             									else {
-HXLINE( 427)										tilesY = b1;
+HXLINE( 429)										tilesY = b1;
             									}
             								}
             							}
             						}
             					}
             					else {
-HXLINE( 425)						int maxX1 = _g1;
-HXDLIN( 425)						int maxY1 = _g2;
-HXDLIN( 425)						{
-HXLINE( 426)							int this5 = this->repeatAxes;
-HXDLIN( 426)							bool _hx_tmp4;
-HXDLIN( 426)							if ((this5 != 1)) {
-HXLINE( 426)								_hx_tmp4 = (this5 == 17);
+HXLINE( 427)						int maxX1 = _g1;
+HXDLIN( 427)						int maxY1 = _g2;
+HXDLIN( 427)						{
+HXLINE( 428)							int this5 = this->repeatAxes;
+HXDLIN( 428)							bool _hx_tmp4;
+HXDLIN( 428)							if ((this5 != 1)) {
+HXLINE( 428)								_hx_tmp4 = (this5 == 17);
             							}
             							else {
-HXLINE( 426)								_hx_tmp4 = true;
+HXLINE( 428)								_hx_tmp4 = true;
             							}
-HXDLIN( 426)							if (_hx_tmp4) {
-HXLINE( 426)								int b2 = (::Math_obj::ceil((view->width / tileSize->x)) + 1);
-HXDLIN( 426)								if ((maxX1 < b2)) {
-HXLINE( 426)									tilesX = maxX1;
+HXDLIN( 428)							if (_hx_tmp4) {
+HXLINE( 428)								int b2 = (::Math_obj::ceil((viewMargins->width / tileSize->x)) + 1);
+HXDLIN( 428)								if ((maxX1 < b2)) {
+HXLINE( 428)									tilesX = maxX1;
             								}
             								else {
-HXLINE( 426)									tilesX = b2;
+HXLINE( 428)									tilesX = b2;
             								}
             							}
-HXLINE( 427)							int this6 = this->repeatAxes;
-HXDLIN( 427)							bool _hx_tmp5;
-HXDLIN( 427)							if ((this6 != 16)) {
-HXLINE( 427)								_hx_tmp5 = (this6 == 17);
+HXLINE( 429)							int this6 = this->repeatAxes;
+HXDLIN( 429)							bool _hx_tmp5;
+HXDLIN( 429)							if ((this6 != 16)) {
+HXLINE( 429)								_hx_tmp5 = (this6 == 17);
             							}
             							else {
-HXLINE( 427)								_hx_tmp5 = true;
+HXLINE( 429)								_hx_tmp5 = true;
             							}
-HXDLIN( 427)							if (_hx_tmp5) {
-HXLINE( 427)								int b3 = (::Math_obj::ceil((view->height / tileSize->y)) + 1);
-HXDLIN( 427)								if ((maxY1 < b3)) {
-HXLINE( 427)									tilesY = maxY1;
+HXDLIN( 429)							if (_hx_tmp5) {
+HXLINE( 429)								int b3 = (::Math_obj::ceil((viewMargins->height / tileSize->y)) + 1);
+HXDLIN( 429)								if ((maxY1 < b3)) {
+HXLINE( 429)									tilesY = maxY1;
             								}
             								else {
-HXLINE( 427)									tilesY = b3;
+HXLINE( 429)									tilesY = b3;
             								}
             							}
             						}
@@ -992,42 +977,42 @@ HXLINE( 427)									tilesY = b3;
             				}
             				break;
             				case (int)2: {
-HXLINE( 422)					int _g3 = _g->_hx_getInt(0);
-HXDLIN( 422)					if ((_g3 != 1)) {
-HXLINE( 422)						int max = _g3;
-HXDLIN( 422)						{
-HXLINE( 423)							int this7 = this->repeatAxes;
-HXDLIN( 423)							bool _hx_tmp6;
-HXDLIN( 423)							if ((this7 != 1)) {
-HXLINE( 423)								_hx_tmp6 = (this7 == 17);
+HXLINE( 424)					int _g3 = _g->_hx_getInt(0);
+HXDLIN( 424)					if ((_g3 != 1)) {
+HXLINE( 424)						int max = _g3;
+HXDLIN( 424)						{
+HXLINE( 425)							int this7 = this->repeatAxes;
+HXDLIN( 425)							bool _hx_tmp6;
+HXDLIN( 425)							if ((this7 != 1)) {
+HXLINE( 425)								_hx_tmp6 = (this7 == 17);
             							}
             							else {
-HXLINE( 423)								_hx_tmp6 = true;
+HXLINE( 425)								_hx_tmp6 = true;
             							}
-HXDLIN( 423)							if (_hx_tmp6) {
-HXLINE( 423)								int b4 = (::Math_obj::ceil((view->width / tileSize->x)) + 1);
-HXDLIN( 423)								if ((max < b4)) {
-HXLINE( 423)									tilesX = max;
+HXDLIN( 425)							if (_hx_tmp6) {
+HXLINE( 425)								int b4 = (::Math_obj::ceil((viewMargins->width / tileSize->x)) + 1);
+HXDLIN( 425)								if ((max < b4)) {
+HXLINE( 425)									tilesX = max;
             								}
             								else {
-HXLINE( 423)									tilesX = b4;
+HXLINE( 425)									tilesX = b4;
             								}
             							}
-HXLINE( 424)							int this8 = this->repeatAxes;
-HXDLIN( 424)							bool _hx_tmp7;
-HXDLIN( 424)							if ((this8 != 16)) {
-HXLINE( 424)								_hx_tmp7 = (this8 == 17);
+HXLINE( 426)							int this8 = this->repeatAxes;
+HXDLIN( 426)							bool _hx_tmp7;
+HXDLIN( 426)							if ((this8 != 16)) {
+HXLINE( 426)								_hx_tmp7 = (this8 == 17);
             							}
             							else {
-HXLINE( 424)								_hx_tmp7 = true;
+HXLINE( 426)								_hx_tmp7 = true;
             							}
-HXDLIN( 424)							if (_hx_tmp7) {
-HXLINE( 424)								int b5 = (::Math_obj::ceil((view->height / tileSize->y)) + 1);
-HXDLIN( 424)								if ((max < b5)) {
-HXLINE( 424)									tilesY = max;
+HXDLIN( 426)							if (_hx_tmp7) {
+HXLINE( 426)								int b5 = (::Math_obj::ceil((viewMargins->height / tileSize->y)) + 1);
+HXDLIN( 426)								if ((max < b5)) {
+HXLINE( 426)									tilesY = max;
             								}
             								else {
-HXLINE( 424)									tilesY = b5;
+HXLINE( 426)									tilesY = b5;
             								}
             							}
             						}
@@ -1035,80 +1020,80 @@ HXLINE( 424)									tilesY = b5;
             				}
             				break;
             				case (int)3: {
-HXLINE( 428)					int _g4 = _g->_hx_getInt(0);
-HXDLIN( 428)					if ((_g4 == 1)) {
-HXLINE( 419)						int this9 = this->repeatAxes;
-HXDLIN( 419)						bool _hx_tmp8;
-HXDLIN( 419)						if ((this9 != 1)) {
-HXLINE( 419)							_hx_tmp8 = (this9 == 17);
+HXLINE( 430)					int _g4 = _g->_hx_getInt(0);
+HXDLIN( 430)					if ((_g4 == 1)) {
+HXLINE( 421)						int this9 = this->repeatAxes;
+HXDLIN( 421)						bool _hx_tmp8;
+HXDLIN( 421)						if ((this9 != 1)) {
+HXLINE( 421)							_hx_tmp8 = (this9 == 17);
             						}
             						else {
-HXLINE( 419)							_hx_tmp8 = true;
+HXLINE( 421)							_hx_tmp8 = true;
             						}
-HXDLIN( 419)						if (_hx_tmp8) {
-HXLINE( 419)							tilesX = (::Math_obj::ceil((view->width / tileSize->x)) + 1);
+HXDLIN( 421)						if (_hx_tmp8) {
+HXLINE( 421)							tilesX = (::Math_obj::ceil((viewMargins->width / tileSize->x)) + 1);
             						}
-HXLINE( 420)						int this10 = this->repeatAxes;
-HXDLIN( 420)						bool _hx_tmp9;
-HXDLIN( 420)						if ((this10 != 16)) {
-HXLINE( 420)							_hx_tmp9 = (this10 == 17);
+HXLINE( 422)						int this10 = this->repeatAxes;
+HXDLIN( 422)						bool _hx_tmp9;
+HXDLIN( 422)						if ((this10 != 16)) {
+HXLINE( 422)							_hx_tmp9 = (this10 == 17);
             						}
             						else {
-HXLINE( 420)							_hx_tmp9 = true;
+HXLINE( 422)							_hx_tmp9 = true;
             						}
-HXDLIN( 420)						if (_hx_tmp9) {
-HXLINE( 420)							tilesY = (::Math_obj::ceil((view->height / tileSize->y)) + 1);
+HXDLIN( 422)						if (_hx_tmp9) {
+HXLINE( 422)							tilesY = (::Math_obj::ceil((viewMargins->height / tileSize->y)) + 1);
             						}
             					}
             					else {
-HXLINE( 428)						int portions = _g4;
-HXDLIN( 428)						{
-HXLINE( 429)							int this11 = this->repeatAxes;
-HXDLIN( 429)							bool _hx_tmp10;
-HXDLIN( 429)							if ((this11 != 1)) {
-HXLINE( 429)								_hx_tmp10 = (this11 == 17);
+HXLINE( 430)						int portions = _g4;
+HXDLIN( 430)						{
+HXLINE( 431)							int this11 = this->repeatAxes;
+HXDLIN( 431)							bool _hx_tmp10;
+HXDLIN( 431)							if ((this11 != 1)) {
+HXLINE( 431)								_hx_tmp10 = (this11 == 17);
             							}
             							else {
-HXLINE( 429)								_hx_tmp10 = true;
+HXLINE( 431)								_hx_tmp10 = true;
             							}
-HXDLIN( 429)							if (_hx_tmp10) {
-HXLINE( 429)								int this12 = this->repeatAxes;
-HXDLIN( 429)								bool tilesX1;
-HXDLIN( 429)								if ((this12 != 1)) {
-HXLINE( 429)									tilesX1 = (this12 == 17);
+HXDLIN( 431)							if (_hx_tmp10) {
+HXLINE( 431)								int this12 = this->repeatAxes;
+HXDLIN( 431)								bool tilesX1;
+HXDLIN( 431)								if ((this12 != 1)) {
+HXLINE( 431)									tilesX1 = (this12 == 17);
             								}
             								else {
-HXLINE( 429)									tilesX1 = true;
+HXLINE( 431)									tilesX1 = true;
             								}
-HXDLIN( 429)								if (tilesX1) {
-HXLINE( 429)									tilesX = ::Math_obj::ceil((((view->width / tileSize->x) / ( (Float)(portions) )) + 1));
+HXDLIN( 431)								if (tilesX1) {
+HXLINE( 431)									tilesX = ::Math_obj::ceil((((viewMargins->width / tileSize->x) / ( (Float)(portions) )) + 1));
             								}
             								else {
-HXLINE( 429)									tilesX = 1;
+HXLINE( 431)									tilesX = 1;
             								}
             							}
-HXLINE( 430)							int this13 = this->repeatAxes;
-HXDLIN( 430)							bool _hx_tmp11;
-HXDLIN( 430)							if ((this13 != 16)) {
-HXLINE( 430)								_hx_tmp11 = (this13 == 17);
+HXLINE( 432)							int this13 = this->repeatAxes;
+HXDLIN( 432)							bool _hx_tmp11;
+HXDLIN( 432)							if ((this13 != 16)) {
+HXLINE( 432)								_hx_tmp11 = (this13 == 17);
             							}
             							else {
-HXLINE( 430)								_hx_tmp11 = true;
+HXLINE( 432)								_hx_tmp11 = true;
             							}
-HXDLIN( 430)							if (_hx_tmp11) {
-HXLINE( 430)								int this14 = this->repeatAxes;
-HXDLIN( 430)								bool tilesY1;
-HXDLIN( 430)								if ((this14 != 16)) {
-HXLINE( 430)									tilesY1 = (this14 == 17);
+HXDLIN( 432)							if (_hx_tmp11) {
+HXLINE( 432)								int this14 = this->repeatAxes;
+HXDLIN( 432)								bool tilesY1;
+HXDLIN( 432)								if ((this14 != 16)) {
+HXLINE( 432)									tilesY1 = (this14 == 17);
             								}
             								else {
-HXLINE( 430)									tilesY1 = true;
+HXLINE( 432)									tilesY1 = true;
             								}
-HXDLIN( 430)								if (tilesY1) {
-HXLINE( 430)									tilesY = ::Math_obj::ceil((((view->height / tileSize->y) / ( (Float)(portions) )) + 1));
+HXDLIN( 432)								if (tilesY1) {
+HXLINE( 432)									tilesY = ::Math_obj::ceil((((viewMargins->height / tileSize->y) / ( (Float)(portions) )) + 1));
             								}
             								else {
-HXLINE( 430)									tilesY = 1;
+HXLINE( 432)									tilesY = 1;
             								}
             							}
             						}
@@ -1117,320 +1102,320 @@ HXLINE( 430)									tilesY = 1;
             				break;
             			}
             		}
-HXLINE( 434)		if (!(view->_inPool)) {
-HXLINE( 434)			view->_inPool = true;
-HXDLIN( 434)			view->_weak = false;
-HXDLIN( 434)			::flixel::math::FlxRect_obj::_pool->putUnsafe(view);
+HXLINE( 436)		if (!(viewMargins->_inPool)) {
+HXLINE( 436)			viewMargins->_inPool = true;
+HXDLIN( 436)			viewMargins->_weak = false;
+HXDLIN( 436)			::flixel::math::FlxRect_obj::_pool->putUnsafe(viewMargins);
             		}
-HXLINE( 436)		bool _hx_tmp12;
-HXDLIN( 436)		bool _hx_tmp13;
-HXDLIN( 436)		bool _hx_tmp14;
-HXDLIN( 436)		bool _hx_tmp15;
-HXDLIN( 436)		bool _hx_tmp16;
-HXDLIN( 436)		bool _hx_tmp17;
-HXDLIN( 436)		bool _hx_tmp18;
-HXDLIN( 436)		bool _hx_tmp19;
-HXDLIN( 436)		if (::hx::IsEq( this->_prevDrawParams->__Field(HX_("graphicKey",d7,ff,d1,76),::hx::paccDynamic),this->graphic->key )) {
-HXLINE( 436)			_hx_tmp19 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesX",33,d7,28,1e),::hx::paccDynamic),tilesX );
-            		}
-            		else {
-HXLINE( 436)			_hx_tmp19 = false;
-            		}
-HXDLIN( 436)		if (_hx_tmp19) {
-HXLINE( 436)			_hx_tmp18 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesY",34,d7,28,1e),::hx::paccDynamic),tilesY );
+HXLINE( 438)		bool _hx_tmp12;
+HXDLIN( 438)		bool _hx_tmp13;
+HXDLIN( 438)		bool _hx_tmp14;
+HXDLIN( 438)		bool _hx_tmp15;
+HXDLIN( 438)		bool _hx_tmp16;
+HXDLIN( 438)		bool _hx_tmp17;
+HXDLIN( 438)		bool _hx_tmp18;
+HXDLIN( 438)		bool _hx_tmp19;
+HXDLIN( 438)		if (::hx::IsEq( this->_prevDrawParams->__Field(HX_("graphicKey",d7,ff,d1,76),::hx::paccDynamic),this->graphic->key )) {
+HXLINE( 438)			_hx_tmp19 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesX",33,d7,28,1e),::hx::paccDynamic),tilesX );
             		}
             		else {
-HXLINE( 436)			_hx_tmp18 = false;
+HXLINE( 438)			_hx_tmp19 = false;
             		}
-HXDLIN( 436)		if (_hx_tmp18) {
-HXLINE( 436)			_hx_tmp17 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleX",8e,ea,25,3c),::hx::paccDynamic),this->scale->x );
-            		}
-            		else {
-HXLINE( 436)			_hx_tmp17 = false;
-            		}
-HXDLIN( 436)		if (_hx_tmp17) {
-HXLINE( 436)			_hx_tmp16 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleY",8f,ea,25,3c),::hx::paccDynamic),this->scale->y );
+HXDLIN( 438)		if (_hx_tmp19) {
+HXLINE( 438)			_hx_tmp18 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesY",34,d7,28,1e),::hx::paccDynamic),tilesY );
             		}
             		else {
-HXLINE( 436)			_hx_tmp16 = false;
+HXLINE( 438)			_hx_tmp18 = false;
             		}
-HXDLIN( 436)		if (_hx_tmp16) {
-HXLINE( 436)			_hx_tmp15 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingX",75,df,11,f2),::hx::paccDynamic),this->spacing->x );
-            		}
-            		else {
-HXLINE( 436)			_hx_tmp15 = false;
-            		}
-HXDLIN( 436)		if (_hx_tmp15) {
-HXLINE( 436)			_hx_tmp14 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingY",76,df,11,f2),::hx::paccDynamic),this->spacing->y );
+HXDLIN( 438)		if (_hx_tmp18) {
+HXLINE( 438)			_hx_tmp17 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleX",8e,ea,25,3c),::hx::paccDynamic),this->scale->x );
             		}
             		else {
-HXLINE( 436)			_hx_tmp14 = false;
+HXLINE( 438)			_hx_tmp17 = false;
             		}
-HXDLIN( 436)		if (_hx_tmp14) {
-HXLINE( 436)			_hx_tmp13 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("repeatAxes",20,26,dd,06),::hx::paccDynamic),this->repeatAxes );
-            		}
-            		else {
-HXLINE( 436)			_hx_tmp13 = false;
-            		}
-HXDLIN( 436)		if (_hx_tmp13) {
-HXLINE( 436)			_hx_tmp12 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("angle",d3,43,e2,22),::hx::paccDynamic),this->angle );
+HXDLIN( 438)		if (_hx_tmp17) {
+HXLINE( 438)			_hx_tmp16 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleY",8f,ea,25,3c),::hx::paccDynamic),this->scale->y );
             		}
             		else {
-HXLINE( 436)			_hx_tmp12 = false;
+HXLINE( 438)			_hx_tmp16 = false;
             		}
-HXDLIN( 436)		if (_hx_tmp12) {
-HXLINE( 438)			tileSize->put();
-HXLINE( 439)			return;
+HXDLIN( 438)		if (_hx_tmp16) {
+HXLINE( 438)			_hx_tmp15 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingX",75,df,11,f2),::hx::paccDynamic),this->spacing->x );
             		}
-HXLINE( 441)		{
-HXLINE( 441)			this->_prevDrawParams->__SetField(HX_("graphicKey",d7,ff,d1,76),this->graphic->key,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("tilesX",33,d7,28,1e),tilesX,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("tilesY",34,d7,28,1e),tilesY,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("scaleX",8e,ea,25,3c),this->scale->x,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("scaleY",8f,ea,25,3c),this->scale->y,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("spacingX",75,df,11,f2),this->spacing->x,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("spacingY",76,df,11,f2),this->spacing->y,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("repeatAxes",20,26,dd,06),this->repeatAxes,::hx::paccDynamic);
-HXDLIN( 441)			this->_prevDrawParams->__SetField(HX_("angle",d3,43,e2,22),this->angle,::hx::paccDynamic);
+            		else {
+HXLINE( 438)			_hx_tmp15 = false;
+            		}
+HXDLIN( 438)		if (_hx_tmp15) {
+HXLINE( 438)			_hx_tmp14 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingY",76,df,11,f2),::hx::paccDynamic),this->spacing->y );
+            		}
+            		else {
+HXLINE( 438)			_hx_tmp14 = false;
+            		}
+HXDLIN( 438)		if (_hx_tmp14) {
+HXLINE( 438)			_hx_tmp13 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("repeatAxes",20,26,dd,06),::hx::paccDynamic),this->repeatAxes );
+            		}
+            		else {
+HXLINE( 438)			_hx_tmp13 = false;
+            		}
+HXDLIN( 438)		if (_hx_tmp13) {
+HXLINE( 438)			_hx_tmp12 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("angle",d3,43,e2,22),::hx::paccDynamic),this->angle );
+            		}
+            		else {
+HXLINE( 438)			_hx_tmp12 = false;
+            		}
+HXDLIN( 438)		if (_hx_tmp12) {
+HXLINE( 440)			tileSize->put();
+HXLINE( 441)			return;
             		}
 HXLINE( 443)		{
-HXLINE( 443)			 ::flixel::math::FlxBasePoint this15 = this->_blitOffset;
-HXDLIN( 443)			this15->set_x(( (Float)(0) ));
-HXDLIN( 443)			this15->set_y(( (Float)(0) ));
+HXLINE( 443)			this->_prevDrawParams->__SetField(HX_("graphicKey",d7,ff,d1,76),this->graphic->key,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("tilesX",33,d7,28,1e),tilesX,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("tilesY",34,d7,28,1e),tilesY,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("scaleX",8e,ea,25,3c),this->scale->x,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("scaleY",8f,ea,25,3c),this->scale->y,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("spacingX",75,df,11,f2),this->spacing->x,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("spacingY",76,df,11,f2),this->spacing->y,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("repeatAxes",20,26,dd,06),this->repeatAxes,::hx::paccDynamic);
+HXDLIN( 443)			this->_prevDrawParams->__SetField(HX_("angle",d3,43,e2,22),this->angle,::hx::paccDynamic);
             		}
-HXLINE( 444)		int graphicSizeX = ::Math_obj::ceil((( (Float)(tilesX) ) * tileSize->x));
-HXLINE( 445)		int graphicSizeY = ::Math_obj::ceil((( (Float)(tilesY) ) * tileSize->y));
-HXLINE( 446)		if ((this->repeatAxes != 17)) {
-HXLINE( 448)			 ::flixel::math::FlxRect screenBounds = this->getScreenBounds(null(),null());
-HXLINE( 449)			 ::flixel::math::FlxBasePoint screenPos = this->getScreenPosition(null(),null());
-HXLINE( 450)			int this16 = this->repeatAxes;
-HXDLIN( 450)			bool _hx_tmp20;
-HXDLIN( 450)			if ((this16 != 1)) {
-HXLINE( 450)				_hx_tmp20 = (this16 == 17);
+HXLINE( 445)		{
+HXLINE( 445)			 ::flixel::math::FlxBasePoint this15 = this->_blitOffset;
+HXDLIN( 445)			this15->set_x(( (Float)(0) ));
+HXDLIN( 445)			this15->set_y(( (Float)(0) ));
+            		}
+HXLINE( 446)		int graphicSizeX = ::Math_obj::ceil((( (Float)(tilesX) ) * tileSize->x));
+HXLINE( 447)		int graphicSizeY = ::Math_obj::ceil((( (Float)(tilesY) ) * tileSize->y));
+HXLINE( 448)		if ((this->repeatAxes != 17)) {
+HXLINE( 450)			 ::flixel::math::FlxRect screenBounds = this->getScreenBounds(null(),null());
+HXLINE( 451)			 ::flixel::math::FlxBasePoint screenPos = this->getScreenPosition(null(),null());
+HXLINE( 452)			int this16 = this->repeatAxes;
+HXDLIN( 452)			bool _hx_tmp20;
+HXDLIN( 452)			if ((this16 != 1)) {
+HXLINE( 452)				_hx_tmp20 = (this16 == 17);
             			}
             			else {
-HXLINE( 450)				_hx_tmp20 = true;
+HXLINE( 452)				_hx_tmp20 = true;
             			}
-HXDLIN( 450)			if (!(_hx_tmp20)) {
-HXLINE( 452)				graphicSizeX = ::Math_obj::ceil(screenBounds->width);
-HXLINE( 453)				this->_blitOffset->set_x((screenBounds->x - screenPos->x));
+HXDLIN( 452)			if (!(_hx_tmp20)) {
+HXLINE( 454)				graphicSizeX = ::Math_obj::ceil(screenBounds->width);
+HXLINE( 455)				this->_blitOffset->set_x((screenBounds->x - screenPos->x));
             			}
-HXLINE( 456)			int this17 = this->repeatAxes;
-HXDLIN( 456)			bool _hx_tmp21;
-HXDLIN( 456)			if ((this17 != 16)) {
-HXLINE( 456)				_hx_tmp21 = (this17 == 17);
-            			}
-            			else {
-HXLINE( 456)				_hx_tmp21 = true;
-            			}
-HXDLIN( 456)			if (!(_hx_tmp21)) {
-HXLINE( 458)				graphicSizeY = ::Math_obj::ceil(screenBounds->height);
-HXLINE( 459)				this->_blitOffset->set_y((screenBounds->y - screenPos->y));
-            			}
-HXLINE( 461)			if (!(screenBounds->_inPool)) {
-HXLINE( 461)				screenBounds->_inPool = true;
-HXDLIN( 461)				screenBounds->_weak = false;
-HXDLIN( 461)				::flixel::math::FlxRect_obj::_pool->putUnsafe(screenBounds);
-            			}
-HXLINE( 462)			screenPos->put();
-            		}
-HXLINE( 465)		bool _hx_tmp22;
-HXDLIN( 465)		if (::hx::IsNotNull( this->_blitGraphic )) {
-HXLINE( 465)			if ((this->_blitGraphic->width == graphicSizeX)) {
-HXLINE( 465)				_hx_tmp22 = (this->_blitGraphic->height != graphicSizeY);
+HXLINE( 458)			int this17 = this->repeatAxes;
+HXDLIN( 458)			bool _hx_tmp21;
+HXDLIN( 458)			if ((this17 != 16)) {
+HXLINE( 458)				_hx_tmp21 = (this17 == 17);
             			}
             			else {
-HXLINE( 465)				_hx_tmp22 = true;
+HXLINE( 458)				_hx_tmp21 = true;
+            			}
+HXDLIN( 458)			if (!(_hx_tmp21)) {
+HXLINE( 460)				graphicSizeY = ::Math_obj::ceil(screenBounds->height);
+HXLINE( 461)				this->_blitOffset->set_y((screenBounds->y - screenPos->y));
+            			}
+HXLINE( 463)			if (!(screenBounds->_inPool)) {
+HXLINE( 463)				screenBounds->_inPool = true;
+HXDLIN( 463)				screenBounds->_weak = false;
+HXDLIN( 463)				::flixel::math::FlxRect_obj::_pool->putUnsafe(screenBounds);
+            			}
+HXLINE( 464)			screenPos->put();
+            		}
+HXLINE( 467)		bool _hx_tmp22;
+HXDLIN( 467)		if (::hx::IsNotNull( this->_blitGraphic )) {
+HXLINE( 467)			if ((this->_blitGraphic->width == graphicSizeX)) {
+HXLINE( 467)				_hx_tmp22 = (this->_blitGraphic->height != graphicSizeY);
+            			}
+            			else {
+HXLINE( 467)				_hx_tmp22 = true;
             			}
             		}
             		else {
-HXLINE( 465)			_hx_tmp22 = true;
+HXLINE( 467)			_hx_tmp22 = true;
             		}
-HXDLIN( 465)		if (_hx_tmp22) {
-HXLINE( 467)			this->_blitGraphic = ::flixel::FlxG_obj::bitmap->create(graphicSizeX,graphicSizeY,0,true,null());
+HXDLIN( 467)		if (_hx_tmp22) {
+HXLINE( 469)			this->_blitGraphic = ::flixel::FlxG_obj::bitmap->create(graphicSizeX,graphicSizeY,0,true,null());
             		}
-HXLINE( 470)		 ::openfl::display::BitmapData pixels = this->_blitGraphic->bitmap;
-HXLINE( 471)		pixels->lock();
-HXLINE( 473)		pixels->fillRect(pixels->rect,0);
-HXLINE( 474)		this->animation->set_frameIndex(0);
-HXLINE( 475)		this->calcFrame(true);
-HXLINE( 477)		this->_matrix->identity();
-HXLINE( 478)		this->_matrix->translate(-(this->origin->x),-(this->origin->y));
-HXLINE( 479)		this->_matrix->scale(this->scale->x,this->scale->y);
-HXLINE( 480)		if ((this->bakedRotationAngle <= 0)) {
-HXLINE( 482)			if (this->_angleChanged) {
-HXLINE( 482)				Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
-HXDLIN( 482)				this->_sinAngle = ::Math_obj::sin(radians);
-HXDLIN( 482)				this->_cosAngle = ::Math_obj::cos(radians);
-HXDLIN( 482)				this->_angleChanged = false;
+HXLINE( 472)		 ::openfl::display::BitmapData pixels = this->_blitGraphic->bitmap;
+HXLINE( 473)		pixels->lock();
+HXLINE( 475)		pixels->fillRect(pixels->rect,0);
+HXLINE( 476)		this->animation->set_frameIndex(0);
+HXLINE( 477)		this->calcFrame(true);
+HXLINE( 479)		this->_matrix->identity();
+HXLINE( 480)		this->_matrix->translate(-(this->origin->x),-(this->origin->y));
+HXLINE( 481)		this->_matrix->scale(this->scale->x,this->scale->y);
+HXLINE( 482)		if ((this->bakedRotationAngle <= 0)) {
+HXLINE( 484)			if (this->_angleChanged) {
+HXLINE( 484)				Float radians = (this->angle * (::Math_obj::PI / ( (Float)(180) )));
+HXDLIN( 484)				this->_sinAngle = ::Math_obj::sin(radians);
+HXDLIN( 484)				this->_cosAngle = ::Math_obj::cos(radians);
+HXDLIN( 484)				this->_angleChanged = false;
             			}
-HXLINE( 483)			if ((this->angle != 0)) {
-HXLINE( 484)				 ::flixel::math::FlxMatrix _this = this->_matrix;
-HXDLIN( 484)				Float cos = this->_cosAngle;
-HXDLIN( 484)				Float sin = this->_sinAngle;
-HXDLIN( 484)				Float a1 = ((_this->a * cos) - (_this->b * sin));
-HXDLIN( 484)				_this->b = ((_this->a * sin) + (_this->b * cos));
-HXDLIN( 484)				_this->a = a1;
-HXDLIN( 484)				Float c1 = ((_this->c * cos) - (_this->d * sin));
-HXDLIN( 484)				_this->d = ((_this->c * sin) + (_this->d * cos));
-HXDLIN( 484)				_this->c = c1;
-HXDLIN( 484)				Float tx1 = ((_this->tx * cos) - (_this->ty * sin));
-HXDLIN( 484)				_this->ty = ((_this->tx * sin) + (_this->ty * cos));
-HXDLIN( 484)				_this->tx = tx1;
+HXLINE( 485)			if ((this->angle != 0)) {
+HXLINE( 486)				 ::flixel::math::FlxMatrix _this = this->_matrix;
+HXDLIN( 486)				Float cos = this->_cosAngle;
+HXDLIN( 486)				Float sin = this->_sinAngle;
+HXDLIN( 486)				Float a1 = ((_this->a * cos) - (_this->b * sin));
+HXDLIN( 486)				_this->b = ((_this->a * sin) + (_this->b * cos));
+HXDLIN( 486)				_this->a = a1;
+HXDLIN( 486)				Float c1 = ((_this->c * cos) - (_this->d * sin));
+HXDLIN( 486)				_this->d = ((_this->c * sin) + (_this->d * cos));
+HXDLIN( 486)				_this->c = c1;
+HXDLIN( 486)				Float tx1 = ((_this->tx * cos) - (_this->ty * sin));
+HXDLIN( 486)				_this->ty = ((_this->tx * sin) + (_this->ty * cos));
+HXDLIN( 486)				_this->tx = tx1;
             			}
             		}
-HXLINE( 487)		this->_matrix->translate(this->origin->x,this->origin->y);
-HXLINE( 488)		this->_matrix->translate(-(this->_blitOffset->x),-(this->_blitOffset->y));
-HXLINE( 489)		{
-HXLINE( 489)			 ::flixel::math::FlxBasePoint this18 = this->_point;
-HXDLIN( 489)			Float y1 = this->_matrix->ty;
-HXDLIN( 489)			this18->set_x(this->_matrix->tx);
-HXDLIN( 489)			this18->set_y(y1);
+HXLINE( 489)		this->_matrix->translate(this->origin->x,this->origin->y);
+HXLINE( 490)		this->_matrix->translate(-(this->_blitOffset->x),-(this->_blitOffset->y));
+HXLINE( 491)		{
+HXLINE( 491)			 ::flixel::math::FlxBasePoint this18 = this->_point;
+HXDLIN( 491)			Float y1 = this->_matrix->ty;
+HXDLIN( 491)			this18->set_x(this->_matrix->tx);
+HXDLIN( 491)			this18->set_y(y1);
             		}
-HXLINE( 493)		int bufferX;
-HXDLIN( 493)		bool bufferX1;
-HXDLIN( 493)		int this19 = this->repeatAxes;
-HXDLIN( 493)		bool bufferX2;
-HXDLIN( 493)		if ((this19 != 1)) {
-HXLINE( 493)			bufferX2 = (this19 == 17);
-            		}
-            		else {
-HXLINE( 493)			bufferX2 = true;
-            		}
-HXDLIN( 493)		if (bufferX2) {
-HXLINE( 493)			bufferX1 = (this->angle != 0);
+HXLINE( 495)		int bufferX;
+HXDLIN( 495)		bool bufferX1;
+HXDLIN( 495)		int this19 = this->repeatAxes;
+HXDLIN( 495)		bool bufferX2;
+HXDLIN( 495)		if ((this19 != 1)) {
+HXLINE( 495)			bufferX2 = (this19 == 17);
             		}
             		else {
-HXLINE( 493)			bufferX1 = false;
+HXLINE( 495)			bufferX2 = true;
             		}
-HXDLIN( 493)		if (bufferX1) {
-HXLINE( 493)			bufferX = 1;
-            		}
-            		else {
-HXLINE( 493)			bufferX = 0;
-            		}
-HXLINE( 494)		int bufferY;
-HXDLIN( 494)		bool bufferY1;
-HXDLIN( 494)		int this20 = this->repeatAxes;
-HXDLIN( 494)		bool bufferY2;
-HXDLIN( 494)		if ((this20 != 16)) {
-HXLINE( 494)			bufferY2 = (this20 == 17);
+HXDLIN( 495)		if (bufferX2) {
+HXLINE( 495)			bufferX1 = (this->angle != 0);
             		}
             		else {
-HXLINE( 494)			bufferY2 = true;
+HXLINE( 495)			bufferX1 = false;
             		}
-HXDLIN( 494)		if (bufferY2) {
-HXLINE( 494)			bufferY1 = (this->angle != 0);
-            		}
-            		else {
-HXLINE( 494)			bufferY1 = false;
-            		}
-HXDLIN( 494)		if (bufferY1) {
-HXLINE( 494)			bufferY = 1;
+HXDLIN( 495)		if (bufferX1) {
+HXLINE( 495)			bufferX = 1;
             		}
             		else {
-HXLINE( 494)			bufferY = 0;
+HXLINE( 495)			bufferX = 0;
             		}
-HXLINE( 495)		{
-HXLINE( 495)			int _g5 = -(bufferX);
-HXDLIN( 495)			int _g6 = (tilesX + bufferX);
-HXDLIN( 495)			while((_g5 < _g6)){
-HXLINE( 495)				_g5 = (_g5 + 1);
-HXDLIN( 495)				int tileX = (_g5 - 1);
-HXLINE( 497)				{
-HXLINE( 497)					int _g7 = -(bufferY);
-HXDLIN( 497)					int _g8 = (tilesY + bufferY);
-HXDLIN( 497)					while((_g7 < _g8)){
-HXLINE( 497)						_g7 = (_g7 + 1);
-HXDLIN( 497)						int tileY = (_g7 - 1);
-HXLINE( 499)						this->_matrix->tx = (this->_point->x + (( (Float)(tileX) ) * tileSize->x));
-HXLINE( 500)						this->_matrix->ty = (this->_point->y + (( (Float)(tileY) ) * tileSize->y));
-HXLINE( 501)						pixels->draw(this->framePixels,this->_matrix,null(),null(),null(),null());
+HXLINE( 496)		int bufferY;
+HXDLIN( 496)		bool bufferY1;
+HXDLIN( 496)		int this20 = this->repeatAxes;
+HXDLIN( 496)		bool bufferY2;
+HXDLIN( 496)		if ((this20 != 16)) {
+HXLINE( 496)			bufferY2 = (this20 == 17);
+            		}
+            		else {
+HXLINE( 496)			bufferY2 = true;
+            		}
+HXDLIN( 496)		if (bufferY2) {
+HXLINE( 496)			bufferY1 = (this->angle != 0);
+            		}
+            		else {
+HXLINE( 496)			bufferY1 = false;
+            		}
+HXDLIN( 496)		if (bufferY1) {
+HXLINE( 496)			bufferY = 1;
+            		}
+            		else {
+HXLINE( 496)			bufferY = 0;
+            		}
+HXLINE( 497)		{
+HXLINE( 497)			int _g5 = -(bufferX);
+HXDLIN( 497)			int _g6 = (tilesX + bufferX);
+HXDLIN( 497)			while((_g5 < _g6)){
+HXLINE( 497)				_g5 = (_g5 + 1);
+HXDLIN( 497)				int tileX = (_g5 - 1);
+HXLINE( 499)				{
+HXLINE( 499)					int _g7 = -(bufferY);
+HXDLIN( 499)					int _g8 = (tilesY + bufferY);
+HXDLIN( 499)					while((_g7 < _g8)){
+HXLINE( 499)						_g7 = (_g7 + 1);
+HXDLIN( 499)						int tileY = (_g7 - 1);
+HXLINE( 501)						this->_matrix->tx = (this->_point->x + (( (Float)(tileX) ) * tileSize->x));
+HXLINE( 502)						this->_matrix->ty = (this->_point->y + (( (Float)(tileY) ) * tileSize->y));
+HXLINE( 503)						pixels->draw(this->framePixels,this->_matrix,null(),null(),null(),null());
             					}
             				}
             			}
             		}
-HXLINE( 505)		pixels->unlock(null());
-HXLINE( 507)		tileSize->put();
+HXLINE( 507)		pixels->unlock(null());
+HXLINE( 509)		tileSize->put();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxBackdrop_obj,regenGraphic,(void))
 
 bool FlxBackdrop_obj::matchPrevDrawParams(int tilesX,int tilesY){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_512_matchPrevDrawParams)
-HXDLIN( 512)		bool _hx_tmp;
-HXDLIN( 512)		bool _hx_tmp1;
-HXDLIN( 512)		bool _hx_tmp2;
-HXDLIN( 512)		bool _hx_tmp3;
-HXDLIN( 512)		bool _hx_tmp4;
-HXDLIN( 512)		bool _hx_tmp5;
-HXDLIN( 512)		bool _hx_tmp6;
-HXDLIN( 512)		if (::hx::IsEq( this->_prevDrawParams->__Field(HX_("graphicKey",d7,ff,d1,76),::hx::paccDynamic),this->graphic->key )) {
-HXDLIN( 512)			_hx_tmp6 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesX",33,d7,28,1e),::hx::paccDynamic),tilesX );
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_514_matchPrevDrawParams)
+HXDLIN( 514)		bool _hx_tmp;
+HXDLIN( 514)		bool _hx_tmp1;
+HXDLIN( 514)		bool _hx_tmp2;
+HXDLIN( 514)		bool _hx_tmp3;
+HXDLIN( 514)		bool _hx_tmp4;
+HXDLIN( 514)		bool _hx_tmp5;
+HXDLIN( 514)		bool _hx_tmp6;
+HXDLIN( 514)		if (::hx::IsEq( this->_prevDrawParams->__Field(HX_("graphicKey",d7,ff,d1,76),::hx::paccDynamic),this->graphic->key )) {
+HXDLIN( 514)			_hx_tmp6 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesX",33,d7,28,1e),::hx::paccDynamic),tilesX );
             		}
             		else {
-HXDLIN( 512)			_hx_tmp6 = false;
+HXDLIN( 514)			_hx_tmp6 = false;
             		}
-HXDLIN( 512)		if (_hx_tmp6) {
-HXDLIN( 512)			_hx_tmp5 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesY",34,d7,28,1e),::hx::paccDynamic),tilesY );
-            		}
-            		else {
-HXDLIN( 512)			_hx_tmp5 = false;
-            		}
-HXDLIN( 512)		if (_hx_tmp5) {
-HXDLIN( 512)			_hx_tmp4 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleX",8e,ea,25,3c),::hx::paccDynamic),this->scale->x );
+HXDLIN( 514)		if (_hx_tmp6) {
+HXDLIN( 514)			_hx_tmp5 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("tilesY",34,d7,28,1e),::hx::paccDynamic),tilesY );
             		}
             		else {
-HXDLIN( 512)			_hx_tmp4 = false;
+HXDLIN( 514)			_hx_tmp5 = false;
             		}
-HXDLIN( 512)		if (_hx_tmp4) {
-HXDLIN( 512)			_hx_tmp3 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleY",8f,ea,25,3c),::hx::paccDynamic),this->scale->y );
-            		}
-            		else {
-HXDLIN( 512)			_hx_tmp3 = false;
-            		}
-HXDLIN( 512)		if (_hx_tmp3) {
-HXDLIN( 512)			_hx_tmp2 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingX",75,df,11,f2),::hx::paccDynamic),this->spacing->x );
+HXDLIN( 514)		if (_hx_tmp5) {
+HXDLIN( 514)			_hx_tmp4 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleX",8e,ea,25,3c),::hx::paccDynamic),this->scale->x );
             		}
             		else {
-HXDLIN( 512)			_hx_tmp2 = false;
+HXDLIN( 514)			_hx_tmp4 = false;
             		}
-HXDLIN( 512)		if (_hx_tmp2) {
-HXDLIN( 512)			_hx_tmp1 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingY",76,df,11,f2),::hx::paccDynamic),this->spacing->y );
-            		}
-            		else {
-HXDLIN( 512)			_hx_tmp1 = false;
-            		}
-HXDLIN( 512)		if (_hx_tmp1) {
-HXDLIN( 512)			_hx_tmp = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("repeatAxes",20,26,dd,06),::hx::paccDynamic),this->repeatAxes );
+HXDLIN( 514)		if (_hx_tmp4) {
+HXDLIN( 514)			_hx_tmp3 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("scaleY",8f,ea,25,3c),::hx::paccDynamic),this->scale->y );
             		}
             		else {
-HXDLIN( 512)			_hx_tmp = false;
+HXDLIN( 514)			_hx_tmp3 = false;
             		}
-HXDLIN( 512)		if (_hx_tmp) {
-HXLINE( 520)			return ::hx::IsEq( this->_prevDrawParams->__Field(HX_("angle",d3,43,e2,22),::hx::paccDynamic),this->angle );
+HXDLIN( 514)		if (_hx_tmp3) {
+HXDLIN( 514)			_hx_tmp2 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingX",75,df,11,f2),::hx::paccDynamic),this->spacing->x );
             		}
             		else {
-HXDLIN( 512)			return false;
+HXDLIN( 514)			_hx_tmp2 = false;
             		}
-HXDLIN( 512)		return false;
+HXDLIN( 514)		if (_hx_tmp2) {
+HXDLIN( 514)			_hx_tmp1 = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("spacingY",76,df,11,f2),::hx::paccDynamic),this->spacing->y );
+            		}
+            		else {
+HXDLIN( 514)			_hx_tmp1 = false;
+            		}
+HXDLIN( 514)		if (_hx_tmp1) {
+HXDLIN( 514)			_hx_tmp = ::hx::IsEq( this->_prevDrawParams->__Field(HX_("repeatAxes",20,26,dd,06),::hx::paccDynamic),this->repeatAxes );
+            		}
+            		else {
+HXDLIN( 514)			_hx_tmp = false;
+            		}
+HXDLIN( 514)		if (_hx_tmp) {
+HXLINE( 522)			return ::hx::IsEq( this->_prevDrawParams->__Field(HX_("angle",d3,43,e2,22),::hx::paccDynamic),this->angle );
+            		}
+            		else {
+HXDLIN( 514)			return false;
+            		}
+HXDLIN( 514)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxBackdrop_obj,matchPrevDrawParams,return )
 
 void FlxBackdrop_obj::setDrawParams(int tilesX,int tilesY){
-            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_524_setDrawParams)
-HXLINE( 525)		this->_prevDrawParams->__SetField(HX_("graphicKey",d7,ff,d1,76),this->graphic->key,::hx::paccDynamic);
-HXLINE( 526)		this->_prevDrawParams->__SetField(HX_("tilesX",33,d7,28,1e),tilesX,::hx::paccDynamic);
-HXLINE( 527)		this->_prevDrawParams->__SetField(HX_("tilesY",34,d7,28,1e),tilesY,::hx::paccDynamic);
-HXLINE( 528)		this->_prevDrawParams->__SetField(HX_("scaleX",8e,ea,25,3c),this->scale->x,::hx::paccDynamic);
-HXLINE( 529)		this->_prevDrawParams->__SetField(HX_("scaleY",8f,ea,25,3c),this->scale->y,::hx::paccDynamic);
-HXLINE( 530)		this->_prevDrawParams->__SetField(HX_("spacingX",75,df,11,f2),this->spacing->x,::hx::paccDynamic);
-HXLINE( 531)		this->_prevDrawParams->__SetField(HX_("spacingY",76,df,11,f2),this->spacing->y,::hx::paccDynamic);
-HXLINE( 532)		this->_prevDrawParams->__SetField(HX_("repeatAxes",20,26,dd,06),this->repeatAxes,::hx::paccDynamic);
-HXLINE( 533)		this->_prevDrawParams->__SetField(HX_("angle",d3,43,e2,22),this->angle,::hx::paccDynamic);
+            	HX_STACKFRAME(&_hx_pos_3781a4bff19fd598_526_setDrawParams)
+HXLINE( 527)		this->_prevDrawParams->__SetField(HX_("graphicKey",d7,ff,d1,76),this->graphic->key,::hx::paccDynamic);
+HXLINE( 528)		this->_prevDrawParams->__SetField(HX_("tilesX",33,d7,28,1e),tilesX,::hx::paccDynamic);
+HXLINE( 529)		this->_prevDrawParams->__SetField(HX_("tilesY",34,d7,28,1e),tilesY,::hx::paccDynamic);
+HXLINE( 530)		this->_prevDrawParams->__SetField(HX_("scaleX",8e,ea,25,3c),this->scale->x,::hx::paccDynamic);
+HXLINE( 531)		this->_prevDrawParams->__SetField(HX_("scaleY",8f,ea,25,3c),this->scale->y,::hx::paccDynamic);
+HXLINE( 532)		this->_prevDrawParams->__SetField(HX_("spacingX",75,df,11,f2),this->spacing->x,::hx::paccDynamic);
+HXLINE( 533)		this->_prevDrawParams->__SetField(HX_("spacingY",76,df,11,f2),this->spacing->y,::hx::paccDynamic);
+HXLINE( 534)		this->_prevDrawParams->__SetField(HX_("repeatAxes",20,26,dd,06),this->repeatAxes,::hx::paccDynamic);
+HXLINE( 535)		this->_prevDrawParams->__SetField(HX_("angle",d3,43,e2,22),this->angle,::hx::paccDynamic);
             	}
 
 

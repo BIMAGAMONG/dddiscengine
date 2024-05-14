@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_32211c0ca20fb474_112_new,"flixel.system.VirtualInputData","new",0x4566b028,"flixel.system.VirtualInputData.new","lime/_internal/macros/AssetsMacro.hx",112,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_6b9577e8ff573e7e_32_boot,"flixel.system.VirtualInputData","boot",0x6c8c736a,"flixel.system.VirtualInputData.boot","flixel/system/FlxAssets.hx",32,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_6b9577e8ff573e7e_34_boot,"flixel.system.VirtualInputData","boot",0x6c8c736a,"flixel.system.VirtualInputData.boot","flixel/system/FlxAssets.hx",34,0xd3ac1356)
 namespace flixel{
 namespace _hx_system{
 
@@ -151,8 +151,8 @@ void VirtualInputData_obj::__register()
 void VirtualInputData_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_6b9577e8ff573e7e_32_boot)
-HXDLIN(  32)		resourceName = HX_("__ASSET__:file_flixel_system_VirtualInputData",cf,a9,c1,46);
+            	HX_STACKFRAME(&_hx_pos_6b9577e8ff573e7e_34_boot)
+HXDLIN(  34)		resourceName = HX_("__ASSET__:file_flixel_system_VirtualInputData",cf,a9,c1,46);
             	}
 }
 

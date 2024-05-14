@@ -33,7 +33,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_4bb38dd84953edb1_47_new,"flixel.system.GraphicVirtualInput","new",0xc675786c,"flixel.system.GraphicVirtualInput.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
-HX_LOCAL_STACK_FRAME(_hx_pos_d6a61b2b68d34437_29_boot,"flixel.system.GraphicVirtualInput","boot",0xd86ce6a6,"flixel.system.GraphicVirtualInput.boot","flixel/system/FlxAssets.hx",29,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_d6a61b2b68d34437_31_boot,"flixel.system.GraphicVirtualInput","boot",0xd86ce6a6,"flixel.system.GraphicVirtualInput.boot","flixel/system/FlxAssets.hx",31,0xd3ac1356)
 namespace flixel{
 namespace _hx_system{
 
@@ -168,8 +168,8 @@ void GraphicVirtualInput_obj::__register()
 void GraphicVirtualInput_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_d6a61b2b68d34437_29_boot)
-HXDLIN(  29)		resourceName = HX_("__ASSET__:bitmap_flixel_system_GraphicVirtualInput",34,a9,10,f7);
+            	HX_STACKFRAME(&_hx_pos_d6a61b2b68d34437_31_boot)
+HXDLIN(  31)		resourceName = HX_("__ASSET__:bitmap_flixel_system_GraphicVirtualInput",34,a9,10,f7);
             	}
 }
 
