@@ -43,10 +43,14 @@ class HXCPP_CLASS_ATTRIBUTES Main_obj : public  ::openfl::display::Sprite_obj
 		//~Main_obj();
 
 		HX_DO_RTTI_ALL;
+		::hx::Val __Field(const ::String &inString, ::hx::PropertyAccess inCallProp);
+		::hx::Val __SetField(const ::String &inString,const ::hx::Val &inValue, ::hx::PropertyAccess inCallProp);
+		void __GetFields(Array< ::String> &outFields);
 		static void __register();
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("Main",59,64,2f,33); }
 
+		int framerate;
 };
 
 

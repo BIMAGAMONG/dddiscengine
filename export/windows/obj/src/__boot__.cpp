@@ -1168,12 +1168,6 @@
 #ifndef INCLUDED_openfl_display_BitmapData
 #include <openfl/display/BitmapData.h>
 #endif
-#ifndef INCLUDED_flixel_FlxSprite
-#include <flixel/FlxSprite.h>
-#endif
-#ifndef INCLUDED_flixel_FlxObject
-#include <flixel/FlxObject.h>
-#endif
 #ifndef INCLUDED_flixel_system_FlxSplash
 #include <flixel/system/FlxSplash.h>
 #endif
@@ -1204,9 +1198,6 @@
 #ifndef INCLUDED_lime_math_Matrix3
 #include <lime/math/Matrix3.h>
 #endif
-#ifndef INCLUDED_flixel_math_FlxRect
-#include <flixel/math/FlxRect.h>
-#endif
 #ifndef INCLUDED_flixel_math_FlxBasePoint
 #include <flixel/math/FlxBasePoint.h>
 #endif
@@ -1218,9 +1209,6 @@
 #endif
 #ifndef INCLUDED_MenuState
 #include <MenuState.h>
-#endif
-#ifndef INCLUDED_flixel_FlxBasic
-#include <flixel/FlxBasic.h>
 #endif
 #ifndef INCLUDED_openfl_text_Font
 #include <openfl/text/Font.h>
@@ -1344,6 +1332,18 @@
 #endif
 #ifndef INCLUDED___ASSET__flixel_sounds_beep_ogg
 #include <__ASSET__flixel_sounds_beep_ogg.h>
+#endif
+#ifndef INCLUDED_flixel_FlxSprite
+#include <flixel/FlxSprite.h>
+#endif
+#ifndef INCLUDED_flixel_FlxObject
+#include <flixel/FlxObject.h>
+#endif
+#ifndef INCLUDED_flixel_math_FlxRect
+#include <flixel/math/FlxRect.h>
+#endif
+#ifndef INCLUDED_flixel_FlxBasic
+#include <flixel/FlxBasic.h>
 #endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
@@ -3184,15 +3184,6 @@
 #ifndef INCLUDED_flixel_system_frontEnds_BitmapFrontEnd
 #include <flixel/system/frontEnds/BitmapFrontEnd.h>
 #endif
-#ifndef INCLUDED_flixel_util_FlxPool
-#include <flixel/util/FlxPool.h>
-#endif
-#ifndef INCLUDED_flixel_util_IFlxPool
-#include <flixel/util/IFlxPool.h>
-#endif
-#ifndef INCLUDED_flixel_util_IFlxPooled
-#include <flixel/util/IFlxPooled.h>
-#endif
 #ifndef INCLUDED_flixel_IFlxBasic
 #include <flixel/IFlxBasic.h>
 #endif
@@ -3235,9 +3226,6 @@
 #ifndef INCLUDED_flixel_group_FlxTypedGroup
 #include <flixel/group/FlxTypedGroup.h>
 #endif
-#ifndef INCLUDED_flixel_util_IFlxDestroyable
-#include <flixel/util/IFlxDestroyable.h>
-#endif
 #ifndef INCLUDED___ASSET__OPENFL__flixel_fonts_monsterrat_ttf
 #include <__ASSET__OPENFL__flixel_fonts_monsterrat_ttf.h>
 #endif
@@ -3270,6 +3258,21 @@
 #endif
 #ifndef INCLUDED_EReg
 #include <EReg.h>
+#endif
+#ifndef INCLUDED_DokiChr
+#include <DokiChr.h>
+#endif
+#ifndef INCLUDED_flixel_util_FlxPool
+#include <flixel/util/FlxPool.h>
+#endif
+#ifndef INCLUDED_flixel_util_IFlxPool
+#include <flixel/util/IFlxPool.h>
+#endif
+#ifndef INCLUDED_flixel_util_IFlxPooled
+#include <flixel/util/IFlxPooled.h>
+#endif
+#ifndef INCLUDED_flixel_util_IFlxDestroyable
+#include <flixel/util/IFlxDestroyable.h>
 #endif
 #ifndef INCLUDED_Date
 #include <Date.h>
@@ -3715,8 +3718,6 @@ __files__boot();
 ::flixel::addons::transition::GraphicTransTileDiamond_obj::__register();
 ::flixel::addons::transition::GraphicTransTileCircle_obj::__register();
 ::openfl::display::BitmapData_obj::__register();
-::flixel::FlxSprite_obj::__register();
-::flixel::FlxObject_obj::__register();
 ::flixel::_hx_system::FlxSplash_obj::__register();
 ::flixel::FlxG_obj::__register();
 ::flixel::util::FlxSave_obj::__register();
@@ -3727,12 +3728,10 @@ __files__boot();
 ::openfl::geom::ColorTransform_obj::__register();
 ::openfl::geom::Matrix_obj::__register();
 ::lime::math::Matrix3_obj::__register();
-::flixel::math::FlxRect_obj::__register();
 ::flixel::math::FlxBasePoint_obj::__register();
 ::Xml_obj::__register();
 ::haxe::SysTools_obj::__register();
 ::MenuState_obj::__register();
-::flixel::FlxBasic_obj::__register();
 ::openfl::text::Font_obj::__register();
 ::__ASSET__flixel_flixel_ui_xml_default_popup_xml_obj::__register();
 ::__ASSET__flixel_flixel_ui_xml_default_loading_screen_xml_obj::__register();
@@ -3774,6 +3773,10 @@ __files__boot();
 ::__ASSET__flixel_fonts_nokiafc22_ttf_obj::__register();
 ::__ASSET__flixel_sounds_flixel_ogg_obj::__register();
 ::__ASSET__flixel_sounds_beep_ogg_obj::__register();
+::flixel::FlxSprite_obj::__register();
+::flixel::FlxObject_obj::__register();
+::flixel::math::FlxRect_obj::__register();
+::flixel::FlxBasic_obj::__register();
 ::openfl::display::DisplayObject_obj::__register();
 ::openfl::_Vector::Vector_Impl__obj::__register();
 ::ApplicationMain_obj::__register();
@@ -4387,9 +4390,6 @@ __files__boot();
 ::flixel::_hx_system::frontEnds::CameraFrontEnd_obj::__register();
 ::flixel::_hx_system::frontEnds::BitmapLogFrontEnd_obj::__register();
 ::flixel::_hx_system::frontEnds::BitmapFrontEnd_obj::__register();
-::flixel::util::FlxPool_obj::__register();
-::flixel::util::IFlxPool_obj::__register();
-::flixel::util::IFlxPooled_obj::__register();
 ::flixel::IFlxBasic_obj::__register();
 ::cpp::vm::WeakRef_obj::__register();
 ::cpp::Lib_obj::__register();
@@ -4404,7 +4404,6 @@ __files__boot();
 ::PlayState_obj::__register();
 ::flixel::FlxState_obj::__register();
 ::flixel::group::FlxTypedGroup_obj::__register();
-::flixel::util::IFlxDestroyable_obj::__register();
 ::__ASSET__OPENFL__flixel_fonts_monsterrat_ttf_obj::__register();
 ::__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf_obj::__register();
 ::__ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf_obj::__register();
@@ -4416,6 +4415,11 @@ __files__boot();
 ::Lambda_obj::__register();
 ::IntIterator_obj::__register();
 ::EReg_obj::__register();
+::DokiChr_obj::__register();
+::flixel::util::FlxPool_obj::__register();
+::flixel::util::IFlxPool_obj::__register();
+::flixel::util::IFlxPooled_obj::__register();
+::flixel::util::IFlxDestroyable_obj::__register();
 ::Date_obj::__register();
 ::DocumentClass_obj::__register();
 ::Main_obj::__register();
@@ -4498,6 +4502,10 @@ __files__boot();
 ::ApplicationMain_obj::__boot();
 ::openfl::_Vector::Vector_Impl__obj::__boot();
 ::openfl::display::DisplayObject_obj::__boot();
+::flixel::FlxBasic_obj::__boot();
+::flixel::math::FlxRect_obj::__boot();
+::flixel::FlxObject_obj::__boot();
+::flixel::FlxSprite_obj::__boot();
 ::__ASSET__flixel_sounds_beep_ogg_obj::__boot();
 ::__ASSET__flixel_sounds_flixel_ogg_obj::__boot();
 ::__ASSET__flixel_fonts_nokiafc22_ttf_obj::__boot();
@@ -4539,12 +4547,10 @@ __files__boot();
 ::__ASSET__flixel_flixel_ui_xml_default_loading_screen_xml_obj::__boot();
 ::__ASSET__flixel_flixel_ui_xml_default_popup_xml_obj::__boot();
 ::openfl::text::Font_obj::__boot();
-::flixel::FlxBasic_obj::__boot();
 ::MenuState_obj::__boot();
 ::haxe::SysTools_obj::__boot();
 ::Xml_obj::__boot();
 ::flixel::math::FlxBasePoint_obj::__boot();
-::flixel::math::FlxRect_obj::__boot();
 ::lime::math::Matrix3_obj::__boot();
 ::openfl::geom::Matrix_obj::__boot();
 ::openfl::geom::ColorTransform_obj::__boot();
@@ -4554,8 +4560,6 @@ __files__boot();
 ::flixel::util::FlxSave_obj::__boot();
 ::flixel::FlxG_obj::__boot();
 ::flixel::_hx_system::FlxSplash_obj::__boot();
-::flixel::FlxObject_obj::__boot();
-::flixel::FlxSprite_obj::__boot();
 ::openfl::display::BitmapData_obj::__boot();
 ::flixel::addons::transition::GraphicTransTileCircle_obj::__boot();
 ::flixel::addons::transition::GraphicTransTileDiamond_obj::__boot();

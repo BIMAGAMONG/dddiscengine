@@ -12,7 +12,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_0bb624e4e0669b45_34_new,"__ASSET__flixel_flixel_ui_xml_defaults_xml","new",0x9f4395df,"__ASSET__flixel_flixel_ui_xml_defaults_xml.new","lime/_internal/macros/AssetsMacro.hx",34,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_f4cb54353879e95e_195_boot,"__ASSET__flixel_flixel_ui_xml_defaults_xml","boot",0xb3f88dd3,"__ASSET__flixel_flixel_ui_xml_defaults_xml.boot","ManifestResources.hx",195,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_f4cb54353879e95e_199_boot,"__ASSET__flixel_flixel_ui_xml_defaults_xml","boot",0xb3f88dd3,"__ASSET__flixel_flixel_ui_xml_defaults_xml.boot","ManifestResources.hx",199,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_xml_defaults_xml_obj::__construct( ::Dynamic length,::Array< unsigned char > bytesData){
             	HX_STACKFRAME(&_hx_pos_0bb624e4e0669b45_34_new)
@@ -133,8 +133,8 @@ void __ASSET__flixel_flixel_ui_xml_defaults_xml_obj::__register()
 void __ASSET__flixel_flixel_ui_xml_defaults_xml_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_f4cb54353879e95e_195_boot)
-HXDLIN( 195)		resourceName = HX_("__ASSET__:file___ASSET__flixel_flixel_ui_xml_defaults_xml",66,61,52,48);
+            	HX_STACKFRAME(&_hx_pos_f4cb54353879e95e_199_boot)
+HXDLIN( 199)		resourceName = HX_("__ASSET__:file___ASSET__flixel_flixel_ui_xml_defaults_xml",66,61,52,48);
             	}
 }
 

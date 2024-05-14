@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_40ffa96498a046e3_219_new,"__ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf","new",0x4085fde9,"__ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf.new","ManifestResources.hx",219,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_40ffa96498a046e3_223_new,"__ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf","new",0x4085fde9,"__ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf.new","ManifestResources.hx",223,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_40ffa96498a046e3_219_new)
-HXDLIN( 219)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/RifficFree-Bold.ttf",96,5a,73,21));
-HXDLIN( 219)		this->name = HX_("Riffic Free Bold",0a,69,7d,a4);
-HXDLIN( 219)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_40ffa96498a046e3_223_new)
+HXDLIN( 223)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/RifficFree-Bold.ttf",96,5a,73,21));
+HXDLIN( 223)		this->name = HX_("Riffic Free Bold",0a,69,7d,a4);
+HXDLIN( 223)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_rifficfree_bold_ttf_obj; }

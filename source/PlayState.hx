@@ -19,16 +19,25 @@ class PlayState extends FlxState
 {
 	var bg:FlxSprite;
 
+	// each character is defined here
+	var character1:DokiChr;
+
 	override public function create()
 	{
 		bg = new FlxSprite(FlxG.width / 2, FlxG.height / 2).loadGraphic('assets/images/bg/school.png');
+		bg.screenCenter();
 		add(bg);
+
+	    // x position, y position, name of the character you want to load 
+		character1 = new DokiChr(FlxG.width / 2, FlxG.height / 2, "monika");
+		add(character1);
 		
 		super.create();
 	}
 
 	override public function update(elapsed:Float)
 	{
+		if (FlxG.keys.justPressed.BACK) {FlxG.switchState(new MenuState());}
 		super.update(elapsed);
 	}
 }

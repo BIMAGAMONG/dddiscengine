@@ -47,12 +47,13 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e47a9afac0942eb9_9_new,"Main","new",0x6616a5cb,"Main.new","Main.hx",9,0x087e5c05)
+HX_DEFINE_STACK_FRAME(_hx_pos_e47a9afac0942eb9_6_new,"Main","new",0x6616a5cb,"Main.new","Main.hx",6,0x087e5c05)
 
 void Main_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_e47a9afac0942eb9_9_new)
-HXLINE(  10)		super::__construct();
-HXLINE(  11)		this->addChild( ::flixel::FlxGame_obj::__alloc( HX_CTX ,0,0,::flixel::util::typeLimit::_NextState::InitialState_Impl__obj::fromType(::hx::ClassOf< ::MenuState >()),null(),null(),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_e47a9afac0942eb9_6_new)
+HXLINE(   8)		this->framerate = 60;
+HXLINE(  12)		super::__construct();
+HXLINE(  13)		this->addChild( ::flixel::FlxGame_obj::__alloc( HX_CTX ,1280,720,::flixel::util::typeLimit::_NextState::InitialState_Impl__obj::fromType(::hx::ClassOf< ::MenuState >()),this->framerate,this->framerate,true,false));
             	}
 
 Dynamic Main_obj::__CreateEmpty() { return new Main_obj; }
@@ -104,10 +105,41 @@ Main_obj::Main_obj()
 {
 }
 
+::hx::Val Main_obj::__Field(const ::String &inName,::hx::PropertyAccess inCallProp)
+{
+	switch(inName.length) {
+	case 9:
+		if (HX_FIELD_EQ(inName,"framerate") ) { return ::hx::Val( framerate ); }
+	}
+	return super::__Field(inName,inCallProp);
+}
+
+::hx::Val Main_obj::__SetField(const ::String &inName,const ::hx::Val &inValue,::hx::PropertyAccess inCallProp)
+{
+	switch(inName.length) {
+	case 9:
+		if (HX_FIELD_EQ(inName,"framerate") ) { framerate=inValue.Cast< int >(); return inValue; }
+	}
+	return super::__SetField(inName,inValue,inCallProp);
+}
+
+void Main_obj::__GetFields(Array< ::String> &outFields)
+{
+	outFields->push(HX_("framerate",8d,e5,4b,4e));
+	super::__GetFields(outFields);
+};
+
 #ifdef HXCPP_SCRIPTABLE
-static ::hx::StorageInfo *Main_obj_sMemberStorageInfo = 0;
+static ::hx::StorageInfo Main_obj_sMemberStorageInfo[] = {
+	{::hx::fsInt,(int)offsetof(Main_obj,framerate),HX_("framerate",8d,e5,4b,4e)},
+	{ ::hx::fsUnknown, 0, null()}
+};
 static ::hx::StaticInfo *Main_obj_sStaticStorageInfo = 0;
 #endif
+
+static ::String Main_obj_sMemberFields[] = {
+	HX_("framerate",8d,e5,4b,4e),
+	::String(null()) };
 
 ::hx::Class Main_obj::__mClass;
 
@@ -123,7 +155,7 @@ void Main_obj::__register()
 	__mClass->mGetStaticField = &::hx::Class_obj::GetNoStaticField;
 	__mClass->mSetStaticField = &::hx::Class_obj::SetNoStaticField;
 	__mClass->mStatics = ::hx::Class_obj::dupFunctions(0 /* sStaticFields */);
-	__mClass->mMembers = ::hx::Class_obj::dupFunctions(0 /* sMemberFields */);
+	__mClass->mMembers = ::hx::Class_obj::dupFunctions(Main_obj_sMemberFields);
 	__mClass->mCanCast = ::hx::TCanCast< Main_obj >;
 #ifdef HXCPP_SCRIPTABLE
 	__mClass->mMemberStorageInfo = Main_obj_sMemberStorageInfo;

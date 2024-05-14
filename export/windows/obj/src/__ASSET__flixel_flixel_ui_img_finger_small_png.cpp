@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_a8b28c08cd7936ec_346_new,"__ASSET__flixel_flixel_ui_img_finger_small_png","new",0x4e817064,"__ASSET__flixel_flixel_ui_img_finger_small_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_db845bbd0c26ed3d_184_boot,"__ASSET__flixel_flixel_ui_img_finger_small_png","boot",0x5ad9e7ae,"__ASSET__flixel_flixel_ui_img_finger_small_png.boot","ManifestResources.hx",184,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_db845bbd0c26ed3d_188_boot,"__ASSET__flixel_flixel_ui_img_finger_small_png","boot",0x5ad9e7ae,"__ASSET__flixel_flixel_ui_img_finger_small_png.boot","ManifestResources.hx",188,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_finger_small_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_a8b28c08cd7936ec_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_finger_small_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_finger_small_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_db845bbd0c26ed3d_184_boot)
-HXDLIN( 184)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_finger_small_png",80,fb,be,f7);
+            	HX_STACKFRAME(&_hx_pos_db845bbd0c26ed3d_188_boot)
+HXDLIN( 188)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_finger_small_png",80,fb,be,f7);
             	}
 }
 
