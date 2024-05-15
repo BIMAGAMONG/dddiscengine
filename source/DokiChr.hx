@@ -6,26 +6,31 @@ import flixel.animation.FlxBaseAnimation;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.system.FlxAssets;
 
+// wanted to make the process of adding a character the same as FNF.
+// i used the code from FNF as a reference so uh this is pretty much the same as Character.hx
 class DokiChr extends FlxSprite
 {
     var texture:FlxAtlasFrames;
+	public var character:String = '';
 
 	public function new(x:Float, y:Float, chr:String)
 	{
 		super(x, y);
 
-		switch (chr)
+		character = chr;
+
+		switch (character)
 		{
             case "monika":
-				texture = FlxAtlasFrames.fromSparrow('assets/images/characters/monika.png', 'assets/images/characters/monika.xml');
-				animation.addByPrefix("idle", "idle", 24, false);
+				texture = AssetPaths.getSpritesheet("monika");
+				frames = texture;
 
-				animation.play("idle");
+				animation.addByPrefix("happy", "idle", 24, false);
 			default:
-				texture = FlxAtlasFrames.fromSparrow('assets/images/characters/char_missing.png', 'assets/images/characters/char_missing.xml');
-				animation.addByPrefix("idle", "idle", 24, false);
+				texture = AssetPaths.getSpritesheet("char_missing");
+				frames = texture;
 
-				animation.play("idle");
+				animation.addByPrefix("idle", "idle", 24, false);
 		}
 
 	}
@@ -33,5 +38,10 @@ class DokiChr extends FlxSprite
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
+	}
+
+	public function playAnimation(name:String)
+	{
+		animation.play(name);
 	}
 }

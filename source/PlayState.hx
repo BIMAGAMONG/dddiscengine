@@ -17,6 +17,7 @@ import sys.FileSystem;
 
 class PlayState extends FlxState
 {
+	// note to self: center of the screen is 288, -112
 	var bg:FlxSprite;
 
 	// each character is defined here
@@ -24,12 +25,15 @@ class PlayState extends FlxState
 
 	override public function create()
 	{
-		bg = new FlxSprite(FlxG.width / 2, FlxG.height / 2).loadGraphic('assets/images/bg/school.png');
+		bg = new FlxSprite(FlxG.width / 2, FlxG.height / 2).loadGraphic(AssetPaths.dokiBG('school'));
 		bg.screenCenter();
 		add(bg);
 
 	    // x position, y position, name of the character you want to load 
-		character1 = new DokiChr(FlxG.width / 2, FlxG.height / 2, "monika");
+		character1 = new DokiChr(288, -112, "monika");
+		character1.scale.set(0.8, 0.8);
+		character1.screenCenter();
+		character1.playAnimation("happy");
 		add(character1);
 		
 		super.create();
@@ -37,7 +41,7 @@ class PlayState extends FlxState
 
 	override public function update(elapsed:Float)
 	{
-		if (FlxG.keys.justPressed.BACK) {FlxG.switchState(new MenuState());}
+		if (FlxG.keys.justPressed.BACKSPACE) {FlxG.switchState(new MenuState());}
 		super.update(elapsed);
 	}
 }

@@ -64,20 +64,6 @@ class MenuState extends FlxState
 
 	override public function create()
 	{
-		if (!initialized)
-			{
-				initialized = true;
-					
-				var diamond:FlxGraphic = FlxGraphic.fromClass(GraphicTransTileDiamond);
-				diamond.persist = true;
-				diamond.destroyOnNoUse = false;
-
-				FlxTransitionableState.defaultTransIn = new TransitionData(TILES, FlxColor.WHITE, 1, new FlxPoint(0, 1), {asset: diamond, width: 32, height: 32},
-				new FlxRect(-200, -200, FlxG.width * 1.4, FlxG.height * 1.4));
-				FlxTransitionableState.defaultTransOut = new TransitionData(TILES, FlxColor.WHITE, 1, new FlxPoint(0, 1), {asset: diamond, width: 32, height: 32},
-				new FlxRect(-200, -200, FlxG.width * 1.4, FlxG.height * 1.4));
-			}	
-
 		FlxG.mouse.visible = true;
 
 		if (FlxG.sound.music == null)
@@ -92,16 +78,16 @@ class MenuState extends FlxState
 		menuOptions.alpha = 1;
 
 		uparrow = new FlxSprite(menuOptions.x - 300, 200);
-		uparrow.loadGraphic('assets/images/main_menu/arrow.png');
+		uparrow.loadGraphic(AssetPaths.menuAsset('main_menu/arrow'));
 		uparrow.setGraphicSize(Std.int(uparrow.width / 7));
 
 		downarrow = new FlxSprite(menuOptions.x - 300, 260);
-		downarrow.loadGraphic('assets/images/main_menu/arrow.png');
+		downarrow.loadGraphic(AssetPaths.menuAsset('main_menu/arrow'));
 		downarrow.setGraphicSize(Std.int(downarrow.width / 7));
 		downarrow.angle = 180;
 
 		logo = new FlxSprite(-500, -100);
-		logo.loadGraphic('assets/images/main_menu/discEngineLogo.png');
+		logo.loadGraphic(AssetPaths.menuAsset('main_menu/discEngineLogo'));
 		logo.setGraphicSize(Std.int(logo.width * 0.5));
 
 		whiteBg = new FlxSprite(100, 100);
@@ -109,7 +95,7 @@ class MenuState extends FlxState
 		whiteBg.screenCenter();
 
 		circles = new FlxBackdrop(XY, 250, 250);
-		circles.loadGraphic('assets/images/main_menu/menu_circle.png');
+		circles.loadGraphic(AssetPaths.menuAsset('main_menu/menu_circle'));
 		circles.updateHitbox();
 		circles.alpha = 0;
 		circles.setGraphicSize(Std.int(circles.width * 0.2));
@@ -122,12 +108,12 @@ class MenuState extends FlxState
 		splashMessage.alpha = 0;
 
 		logoSplash = new FlxSprite(100, 100);
-		logoSplash.loadGraphic("assets/images/main_menu/splashLogo.png");
+		logoSplash.loadGraphic(AssetPaths.menuAsset('main_menu/splashLogo'));
 		logoSplash.screenCenter();
 		logoSplash.alpha = 0;
 
 		speen = new FlxSprite(100, 100);
-		speen.loadGraphic("assets/images/main_menu/selectionPlate.png");
+		speen.loadGraphic(AssetPaths.menuAsset('main_menu/selectionPlate'));
 		speen.screenCenter();
 		speen.x -= 1220;
 
@@ -203,12 +189,12 @@ class MenuState extends FlxState
 		circles.velocity.y = 25;
 
 		if (introFinished) {
-		    if (FlxG.keys.justPressed.UP || FlxG.mouse.wheel < 0)
+		    if (FlxG.keys.justPressed.UP || FlxG.mouse.wheel > 0)
 		    {
 			    curSelected -= 1;
 		    }
 
-		    if (FlxG.keys.justPressed.DOWN || FlxG.mouse.wheel > 0) 
+		    if (FlxG.keys.justPressed.DOWN || FlxG.mouse.wheel < 0) 
 		    {
 			    curSelected += 1;
 		    }

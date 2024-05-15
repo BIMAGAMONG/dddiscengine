@@ -99,13 +99,13 @@ import sys.FileSystem;
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_char_missing_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_monika_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_monika_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_credits_state_credits_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_images_go_here_txt extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_arrow_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_discenginelogo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_menu_circle_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_selectionplate_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_main_menu_splashlogo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menus_credits_menu_credits_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menus_main_menu_arrow_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menus_main_menu_discenginelogo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menus_main_menu_menu_circle_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menus_main_menu_selectionplate_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menus_main_menu_splashlogo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_templatepsds_creditstemplate_psd extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_templatepsds_textboxtemplate_psd extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ui_textboxes_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
