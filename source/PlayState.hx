@@ -35,7 +35,7 @@ class PlayState extends FlxState
 		monika.screenCenter();
 		add(monika);
 
-		missingchartest = new DokiChr(200, -70, "lol", false);
+		missingchartest = new DokiChr(600, -70, "lol", false);
 		missingchartest.scale.set(0.8, 0.8);
 		add(missingchartest);
 		
