@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c25769212c2e87ab_203_new,"__ASSET__assets_fonts_rifficfree_bold_ttf","new",0x03276f39,"__ASSET__assets_fonts_rifficfree_bold_ttf.new","ManifestResources.hx",203,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_c25769212c2e87ab_205_new,"__ASSET__assets_fonts_rifficfree_bold_ttf","new",0x03276f39,"__ASSET__assets_fonts_rifficfree_bold_ttf.new","ManifestResources.hx",205,0xf77aa668)
 
 void __ASSET__assets_fonts_rifficfree_bold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_c25769212c2e87ab_203_new)
-HXDLIN( 203)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/RifficFree-Bold.ttf",96,5a,73,21));
-HXDLIN( 203)		this->name = HX_("Riffic Free Bold",0a,69,7d,a4);
-HXDLIN( 203)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_c25769212c2e87ab_205_new)
+HXDLIN( 205)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/RifficFree-Bold.ttf",96,5a,73,21));
+HXDLIN( 205)		this->name = HX_("Riffic Free Bold",0a,69,7d,a4);
+HXDLIN( 205)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_rifficfree_bold_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_rifficfree_bold_ttf_obj; }

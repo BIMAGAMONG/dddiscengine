@@ -18,30 +18,34 @@ import sys.FileSystem;
 class PlayState extends FlxState
 {
 	// note to self: center of the screen is 288, -112
-	var bg:FlxSprite;
+	var bg:DokiBG;
 
 	// each character is defined here
-	var character1:DokiChr;
+	var monika:DokiChr;
+	var missingchartest:DokiChr;
 
 	override public function create()
 	{
-		bg = new FlxSprite(FlxG.width / 2, FlxG.height / 2).loadGraphic(AssetPaths.dokiBG('school'));
-		bg.screenCenter();
+		bg = new DokiBG('schoolglitch', true);
 		add(bg);
 
 	    // x position, y position, name of the character you want to load 
-		character1 = new DokiChr(288, -112, "monika");
-		character1.scale.set(0.8, 0.8);
-		character1.screenCenter();
-		character1.playAnimation("happy");
-		add(character1);
+		monika = new DokiChr(288, -112, "monika", true);
+		monika.scale.set(0.8, 0.8);
+		monika.screenCenter();
+		add(monika);
+
+		missingchartest = new DokiChr(200, -70, "lol", false);
+		missingchartest.scale.set(0.8, 0.8);
+		add(missingchartest);
 		
 		super.create();
 	}
 
 	override public function update(elapsed:Float)
 	{
-		if (FlxG.keys.justPressed.BACKSPACE) {FlxG.switchState(new MenuState());}
+		if (FlxG.keys.justPressed.BACKSPACE) {MenuState.doIntro = false; FlxG.switchState(new MenuState());}
+
 		super.update(elapsed);
 	}
 }

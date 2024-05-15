@@ -9532,7 +9532,7 @@
    <depend name="include/Reflect.h"/>
   </file>
   <file name="src/PlayState.cpp" >
-   <depend name="include/AssetPaths.h"/>
+   <depend name="include/DokiBG.h"/>
    <depend name="include/DokiChr.h"/>
    <depend name="include/MenuState.h"/>
    <depend name="include/PlayState.h"/>
@@ -10086,8 +10086,25 @@
    <depend name="include/haxe/ValueException.h"/>
   </file>
   <file name="src/DokiChr.cpp" >
+   <depend name="include/AssetPaths.h"/>
    <depend name="include/DokiChr.h"/>
    <depend name="include/flixel/FlxBasic.h"/>
+   <depend name="include/flixel/FlxObject.h"/>
+   <depend name="include/flixel/FlxSprite.h"/>
+   <depend name="include/flixel/animation/FlxAnimationController.h"/>
+   <depend name="include/flixel/graphics/frames/FlxAtlasFrames.h"/>
+   <depend name="include/flixel/graphics/frames/FlxFramesCollection.h"/>
+   <depend name="include/flixel/math/FlxBasePoint.h"/>
+   <depend name="include/flixel/util/IFlxDestroyable.h"/>
+   <depend name="include/flixel/util/IFlxPooled.h"/>
+   <depend name="include/haxe/IMap.h"/>
+   <depend name="include/haxe/ds/StringMap.h"/>
+  </file>
+  <file name="src/DokiBG.cpp" >
+   <depend name="include/AssetPaths.h"/>
+   <depend name="include/DokiBG.h"/>
+   <depend name="include/flixel/FlxBasic.h"/>
+   <depend name="include/flixel/FlxG.h"/>
    <depend name="include/flixel/FlxObject.h"/>
    <depend name="include/flixel/FlxSprite.h"/>
    <depend name="include/flixel/animation/FlxAnimationController.h"/>

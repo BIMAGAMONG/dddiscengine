@@ -57,10 +57,9 @@ class HXCPP_CLASS_ATTRIBUTES MenuState_obj : public  ::flixel::FlxState_obj
 
 		static void __boot();
 		static bool initialized;
-		int splashMessageRandomizer;
+		static bool doIntro;
 		 ::flixel::text::FlxText splashMessage;
 		 ::flixel::FlxSprite logoSplash;
-		 ::flixel::FlxSprite whiteBg;
 		 ::flixel::FlxSprite speen;
 		 ::flixel::addons::display::FlxBackdrop circles;
 		 ::flixel::FlxSprite logo;
@@ -69,9 +68,17 @@ class HXCPP_CLASS_ATTRIBUTES MenuState_obj : public  ::flixel::FlxState_obj
 		 ::flixel::FlxSprite uparrow;
 		 ::flixel::FlxSprite downarrow;
 		bool introFinished;
+		::Array< ::String > optionsArray;
+		::Array< ::String > splashTextArray;
 		void create();
 
 		void update(Float elapsed);
+
+		void startIntro();
+		::Dynamic startIntro_dyn();
+
+		void initiateMainMenu();
+		::Dynamic initiateMainMenu_dyn();
 
 };
 

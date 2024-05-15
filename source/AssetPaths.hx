@@ -23,11 +23,21 @@ class AssetPaths
         return FlxAtlasFrames.fromSparrow('assets/images/characters/$key.png', 'assets/images/characters/$key.xml');
     }
 
+	inline static public function getBGSpritesheet(key:String)
+    {
+         return FlxAtlasFrames.fromSparrow('assets/images/bg/$key.png', 'assets/images/bg/$key.xml');
+    }
+
     // loading a background
     inline static public function dokiBG(key:String)
 	{
 		return getPath('images/bg/$key.png');
 	}
+
+    inline static public function getStaticCharacter(key:String)
+    {
+        return getPath('images/characters/$key.png');
+    }
 
     // loading a general image
     inline static public function image(key:String)

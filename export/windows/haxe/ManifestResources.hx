@@ -94,9 +94,11 @@ import sys.FileSystem;
 
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_data_goes_here_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_fonts_rifficfree_bold_ttf extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_bg_bg_missing_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_bg_school_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_bg_schoolglitch_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_bg_schoolglitch_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_char_missing_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_char_missing_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_monika_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_monika_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_images_go_here_txt extends null { }

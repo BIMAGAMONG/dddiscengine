@@ -3265,6 +3265,9 @@
 #ifndef INCLUDED_DokiChr
 #include <DokiChr.h>
 #endif
+#ifndef INCLUDED_DokiBG
+#include <DokiBG.h>
+#endif
 #ifndef INCLUDED_flixel_util_FlxPool
 #include <flixel/util/FlxPool.h>
 #endif
@@ -4420,6 +4423,7 @@ __files__boot();
 ::IntIterator_obj::__register();
 ::EReg_obj::__register();
 ::DokiChr_obj::__register();
+::DokiBG_obj::__register();
 ::flixel::util::FlxPool_obj::__register();
 ::flixel::util::IFlxPool_obj::__register();
 ::flixel::util::IFlxPooled_obj::__register();
