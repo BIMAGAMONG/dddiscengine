@@ -35,7 +35,7 @@ class ApplicationMain
 		ManifestResources.init(config);
 		#end
 
-		app.meta["build"] = "7";
+		app.meta["build"] = "9";
 		app.meta["company"] = "bimagamongMOP";
 		app.meta["file"] = "DDDiscEngine";
 		app.meta["name"] = "Doki Doki Disc Engine!";
