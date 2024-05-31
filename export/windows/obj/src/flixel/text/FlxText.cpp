@@ -142,65 +142,61 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_7d9cf70d988be490_45_new,"flixel.text.FlxText","new",0x8fca03a2,"flixel.text.FlxText.new","flixel/text/FlxText.hx",45,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_251_destroy,"flixel.text.FlxText","destroy",0x1704293c,"flixel.text.FlxText.destroy","flixel/text/FlxText.hx",251,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_261_drawFrame,"flixel.text.FlxText","drawFrame",0xd9b5be4b,"flixel.text.FlxText.drawFrame","flixel/text/FlxText.hx",261,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_275_stampOnAtlas,"flixel.text.FlxText","stampOnAtlas",0x66244e67,"flixel.text.FlxText.stampOnAtlas","flixel/text/FlxText.hx",275,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_314_applyMarkup,"flixel.text.FlxText","applyMarkup",0x660988f8,"flixel.text.FlxText.applyMarkup","flixel/text/FlxText.hx",314,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_428_addFormat,"flixel.text.FlxText","addFormat",0xc0d9d4fa,"flixel.text.FlxText.addFormat","flixel/text/FlxText.hx",428,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_423_addFormat,"flixel.text.FlxText","addFormat",0xc0d9d4fa,"flixel.text.FlxText.addFormat","flixel/text/FlxText.hx",423,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_440_removeFormat,"flixel.text.FlxText","removeFormat",0xa79a7f19,"flixel.text.FlxText.removeFormat","flixel/text/FlxText.hx",440,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_486_clearFormats,"flixel.text.FlxText","clearFormats",0xf58bc7cd,"flixel.text.FlxText.clearFormats","flixel/text/FlxText.hx",486,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_507_setFormat,"flixel.text.FlxText","setFormat",0x685d153b,"flixel.text.FlxText.setFormat","flixel/text/FlxText.hx",507,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_539_setBorderStyle,"flixel.text.FlxText","setBorderStyle",0x26cf9c21,"flixel.text.FlxText.setBorderStyle","flixel/text/FlxText.hx",539,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_549_updateHitbox,"flixel.text.FlxText","updateHitbox",0x91c9e8ff,"flixel.text.FlxText.updateHitbox","flixel/text/FlxText.hx",549,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_555_getScreenBounds,"flixel.text.FlxText","getScreenBounds",0xa33cf2f9,"flixel.text.FlxText.getScreenBounds","flixel/text/FlxText.hx",555,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_561_set_fieldWidth,"flixel.text.FlxText","set_fieldWidth",0x9c758fa7,"flixel.text.FlxText.set_fieldWidth","flixel/text/FlxText.hx",561,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_585_get_fieldWidth,"flixel.text.FlxText","get_fieldWidth",0x7c55a733,"flixel.text.FlxText.get_fieldWidth","flixel/text/FlxText.hx",585,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_590_get_fieldHeight,"flixel.text.FlxText","get_fieldHeight",0x04ec1e1a,"flixel.text.FlxText.get_fieldHeight","flixel/text/FlxText.hx",590,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_594_set_fieldHeight,"flixel.text.FlxText","set_fieldHeight",0x00b79b26,"flixel.text.FlxText.set_fieldHeight","flixel/text/FlxText.hx",594,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_612_set_autoSize,"flixel.text.FlxText","set_autoSize",0x346abbcb,"flixel.text.FlxText.set_autoSize","flixel/text/FlxText.hx",612,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_624_get_autoSize,"flixel.text.FlxText","get_autoSize",0x1f719857,"flixel.text.FlxText.get_autoSize","flixel/text/FlxText.hx",624,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_628_set_text,"flixel.text.FlxText","set_text",0xb6d09f28,"flixel.text.FlxText.set_text","flixel/text/FlxText.hx",628,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_641_get_size,"flixel.text.FlxText","get_size",0x07cd19c8,"flixel.text.FlxText.get_size","flixel/text/FlxText.hx",641,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_645_set_size,"flixel.text.FlxText","set_size",0xb62a733c,"flixel.text.FlxText.set_size","flixel/text/FlxText.hx",645,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_653_get_letterSpacing,"flixel.text.FlxText","get_letterSpacing",0xf71c6556,"flixel.text.FlxText.get_letterSpacing","flixel/text/FlxText.hx",653,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_657_set_letterSpacing,"flixel.text.FlxText","set_letterSpacing",0x1a8a3d62,"flixel.text.FlxText.set_letterSpacing","flixel/text/FlxText.hx",657,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_664_set_color,"flixel.text.FlxText","set_color",0x7c7dca88,"flixel.text.FlxText.set_color","flixel/text/FlxText.hx",664,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_677_get_font,"flixel.text.FlxText","get_font",0xff39d6d6,"flixel.text.FlxText.get_font","flixel/text/FlxText.hx",677,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_681_set_font,"flixel.text.FlxText","set_font",0xad97304a,"flixel.text.FlxText.set_font","flixel/text/FlxText.hx",681,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_705_get_embedded,"flixel.text.FlxText","get_embedded",0xce5a2211,"flixel.text.FlxText.get_embedded","flixel/text/FlxText.hx",705,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_710_get_systemFont,"flixel.text.FlxText","get_systemFont",0xd6b43ca5,"flixel.text.FlxText.get_systemFont","flixel/text/FlxText.hx",710,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_714_set_systemFont,"flixel.text.FlxText","set_systemFont",0xf6d42519,"flixel.text.FlxText.set_systemFont","flixel/text/FlxText.hx",714,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_723_get_bold,"flixel.text.FlxText","get_bold",0xfc94fa8c,"flixel.text.FlxText.get_bold","flixel/text/FlxText.hx",723,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_727_set_bold,"flixel.text.FlxText","set_bold",0xaaf25400,"flixel.text.FlxText.set_bold","flixel/text/FlxText.hx",727,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_738_get_italic,"flixel.text.FlxText","get_italic",0xadf337b7,"flixel.text.FlxText.get_italic","flixel/text/FlxText.hx",738,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_742_set_italic,"flixel.text.FlxText","set_italic",0xb170d62b,"flixel.text.FlxText.set_italic","flixel/text/FlxText.hx",742,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_753_get_underline,"flixel.text.FlxText","get_underline",0x90e082a5,"flixel.text.FlxText.get_underline","flixel/text/FlxText.hx",753,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_757_set_underline,"flixel.text.FlxText","set_underline",0xd5e664b1,"flixel.text.FlxText.set_underline","flixel/text/FlxText.hx",757,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_768_get_wordWrap,"flixel.text.FlxText","get_wordWrap",0xf0d31d3b,"flixel.text.FlxText.get_wordWrap","flixel/text/FlxText.hx",768,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_772_set_wordWrap,"flixel.text.FlxText","set_wordWrap",0x05cc40af,"flixel.text.FlxText.set_wordWrap","flixel/text/FlxText.hx",772,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_783_get_alignment,"flixel.text.FlxText","get_alignment",0xf34d507c,"flixel.text.FlxText.get_alignment","flixel/text/FlxText.hx",783,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_787_set_alignment,"flixel.text.FlxText","set_alignment",0x38533288,"flixel.text.FlxText.set_alignment","flixel/text/FlxText.hx",787,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_794_set_borderStyle,"flixel.text.FlxText","set_borderStyle",0x0a5ab38a,"flixel.text.FlxText.set_borderStyle","flixel/text/FlxText.hx",794,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_802_set_borderColor,"flixel.text.FlxText","set_borderColor",0xd0997fbc,"flixel.text.FlxText.set_borderColor","flixel/text/FlxText.hx",802,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_810_set_borderSize,"flixel.text.FlxText","set_borderSize",0x0b7e6088,"flixel.text.FlxText.set_borderSize","flixel/text/FlxText.hx",810,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_818_set_borderQuality,"flixel.text.FlxText","set_borderQuality",0x9eac1b58,"flixel.text.FlxText.set_borderQuality","flixel/text/FlxText.hx",818,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_827_set_graphic,"flixel.text.FlxText","set_graphic",0x740d070d,"flixel.text.FlxText.set_graphic","flixel/text/FlxText.hx",827,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_835_get_width,"flixel.text.FlxText","get_width",0x1933231f,"flixel.text.FlxText.get_width","flixel/text/FlxText.hx",835,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_841_get_height,"flixel.text.FlxText","get_height",0xa9db10ae,"flixel.text.FlxText.get_height","flixel/text/FlxText.hx",841,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_847_updateColorTransform,"flixel.text.FlxText","updateColorTransform",0x81f611f0,"flixel.text.FlxText.updateColorTransform","flixel/text/FlxText.hx",847,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_866_regenGraphic,"flixel.text.FlxText","regenGraphic",0xc617a9e9,"flixel.text.FlxText.regenGraphic","flixel/text/FlxText.hx",866,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_942_drawTextFieldTo,"flixel.text.FlxText","drawTextFieldTo",0xda5cac46,"flixel.text.FlxText.drawTextFieldTo","flixel/text/FlxText.hx",942,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_998_draw,"flixel.text.FlxText","draw",0x3a66d282,"flixel.text.FlxText.draw","flixel/text/FlxText.hx",998,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1009_calcFrame,"flixel.text.FlxText","calcFrame",0x04b3a41a,"flixel.text.FlxText.calcFrame","flixel/text/FlxText.hx",1009,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1021_applyBorderStyle,"flixel.text.FlxText","applyBorderStyle",0x7fb82955,"flixel.text.FlxText.applyBorderStyle","flixel/text/FlxText.hx",1021,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1087_applyBorderTransparency,"flixel.text.FlxText","applyBorderTransparency",0x59c1b674,"flixel.text.FlxText.applyBorderTransparency","flixel/text/FlxText.hx",1087,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1103_copyTextWithOffset,"flixel.text.FlxText","copyTextWithOffset",0x8b535ed9,"flixel.text.FlxText.copyTextWithOffset","flixel/text/FlxText.hx",1103,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1110_applyFormats,"flixel.text.FlxText","applyFormats",0x597a620c,"flixel.text.FlxText.applyFormats","flixel/text/FlxText.hx",1110,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1136_copyTextFormat,"flixel.text.FlxText","copyTextFormat",0xce0953d7,"flixel.text.FlxText.copyTextFormat","flixel/text/FlxText.hx",1136,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1154_dtfCopy,"flixel.text.FlxText","dtfCopy",0x79c34ded,"flixel.text.FlxText.dtfCopy","flixel/text/FlxText.hx",1154,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1160_updateDefaultFormat,"flixel.text.FlxText","updateDefaultFormat",0x3cb6b251,"flixel.text.FlxText.updateDefaultFormat","flixel/text/FlxText.hx",1160,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1167_set_frames,"flixel.text.FlxText","set_frames",0x579256e1,"flixel.text.FlxText.set_frames","flixel/text/FlxText.hx",1167,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_238_destroy,"flixel.text.FlxText","destroy",0x1704293c,"flixel.text.FlxText.destroy","flixel/text/FlxText.hx",238,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_248_drawFrame,"flixel.text.FlxText","drawFrame",0xd9b5be4b,"flixel.text.FlxText.drawFrame","flixel/text/FlxText.hx",248,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_262_stampOnAtlas,"flixel.text.FlxText","stampOnAtlas",0x66244e67,"flixel.text.FlxText.stampOnAtlas","flixel/text/FlxText.hx",262,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_301_applyMarkup,"flixel.text.FlxText","applyMarkup",0x660988f8,"flixel.text.FlxText.applyMarkup","flixel/text/FlxText.hx",301,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_415_addFormat,"flixel.text.FlxText","addFormat",0xc0d9d4fa,"flixel.text.FlxText.addFormat","flixel/text/FlxText.hx",415,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_410_addFormat,"flixel.text.FlxText","addFormat",0xc0d9d4fa,"flixel.text.FlxText.addFormat","flixel/text/FlxText.hx",410,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_427_removeFormat,"flixel.text.FlxText","removeFormat",0xa79a7f19,"flixel.text.FlxText.removeFormat","flixel/text/FlxText.hx",427,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_473_clearFormats,"flixel.text.FlxText","clearFormats",0xf58bc7cd,"flixel.text.FlxText.clearFormats","flixel/text/FlxText.hx",473,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_494_setFormat,"flixel.text.FlxText","setFormat",0x685d153b,"flixel.text.FlxText.setFormat","flixel/text/FlxText.hx",494,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_526_setBorderStyle,"flixel.text.FlxText","setBorderStyle",0x26cf9c21,"flixel.text.FlxText.setBorderStyle","flixel/text/FlxText.hx",526,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_536_updateHitbox,"flixel.text.FlxText","updateHitbox",0x91c9e8ff,"flixel.text.FlxText.updateHitbox","flixel/text/FlxText.hx",536,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_542_getScreenBounds,"flixel.text.FlxText","getScreenBounds",0xa33cf2f9,"flixel.text.FlxText.getScreenBounds","flixel/text/FlxText.hx",542,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_548_set_fieldWidth,"flixel.text.FlxText","set_fieldWidth",0x9c758fa7,"flixel.text.FlxText.set_fieldWidth","flixel/text/FlxText.hx",548,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_572_get_fieldWidth,"flixel.text.FlxText","get_fieldWidth",0x7c55a733,"flixel.text.FlxText.get_fieldWidth","flixel/text/FlxText.hx",572,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_577_get_fieldHeight,"flixel.text.FlxText","get_fieldHeight",0x04ec1e1a,"flixel.text.FlxText.get_fieldHeight","flixel/text/FlxText.hx",577,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_581_set_fieldHeight,"flixel.text.FlxText","set_fieldHeight",0x00b79b26,"flixel.text.FlxText.set_fieldHeight","flixel/text/FlxText.hx",581,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_599_set_autoSize,"flixel.text.FlxText","set_autoSize",0x346abbcb,"flixel.text.FlxText.set_autoSize","flixel/text/FlxText.hx",599,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_611_get_autoSize,"flixel.text.FlxText","get_autoSize",0x1f719857,"flixel.text.FlxText.get_autoSize","flixel/text/FlxText.hx",611,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_615_set_text,"flixel.text.FlxText","set_text",0xb6d09f28,"flixel.text.FlxText.set_text","flixel/text/FlxText.hx",615,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_628_get_size,"flixel.text.FlxText","get_size",0x07cd19c8,"flixel.text.FlxText.get_size","flixel/text/FlxText.hx",628,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_632_set_size,"flixel.text.FlxText","set_size",0xb62a733c,"flixel.text.FlxText.set_size","flixel/text/FlxText.hx",632,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_639_set_color,"flixel.text.FlxText","set_color",0x7c7dca88,"flixel.text.FlxText.set_color","flixel/text/FlxText.hx",639,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_652_get_font,"flixel.text.FlxText","get_font",0xff39d6d6,"flixel.text.FlxText.get_font","flixel/text/FlxText.hx",652,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_656_set_font,"flixel.text.FlxText","set_font",0xad97304a,"flixel.text.FlxText.set_font","flixel/text/FlxText.hx",656,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_680_get_embedded,"flixel.text.FlxText","get_embedded",0xce5a2211,"flixel.text.FlxText.get_embedded","flixel/text/FlxText.hx",680,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_685_get_systemFont,"flixel.text.FlxText","get_systemFont",0xd6b43ca5,"flixel.text.FlxText.get_systemFont","flixel/text/FlxText.hx",685,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_689_set_systemFont,"flixel.text.FlxText","set_systemFont",0xf6d42519,"flixel.text.FlxText.set_systemFont","flixel/text/FlxText.hx",689,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_698_get_bold,"flixel.text.FlxText","get_bold",0xfc94fa8c,"flixel.text.FlxText.get_bold","flixel/text/FlxText.hx",698,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_702_set_bold,"flixel.text.FlxText","set_bold",0xaaf25400,"flixel.text.FlxText.set_bold","flixel/text/FlxText.hx",702,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_713_get_italic,"flixel.text.FlxText","get_italic",0xadf337b7,"flixel.text.FlxText.get_italic","flixel/text/FlxText.hx",713,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_717_set_italic,"flixel.text.FlxText","set_italic",0xb170d62b,"flixel.text.FlxText.set_italic","flixel/text/FlxText.hx",717,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_728_get_wordWrap,"flixel.text.FlxText","get_wordWrap",0xf0d31d3b,"flixel.text.FlxText.get_wordWrap","flixel/text/FlxText.hx",728,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_732_set_wordWrap,"flixel.text.FlxText","set_wordWrap",0x05cc40af,"flixel.text.FlxText.set_wordWrap","flixel/text/FlxText.hx",732,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_743_get_alignment,"flixel.text.FlxText","get_alignment",0xf34d507c,"flixel.text.FlxText.get_alignment","flixel/text/FlxText.hx",743,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_747_set_alignment,"flixel.text.FlxText","set_alignment",0x38533288,"flixel.text.FlxText.set_alignment","flixel/text/FlxText.hx",747,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_754_set_borderStyle,"flixel.text.FlxText","set_borderStyle",0x0a5ab38a,"flixel.text.FlxText.set_borderStyle","flixel/text/FlxText.hx",754,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_762_set_borderColor,"flixel.text.FlxText","set_borderColor",0xd0997fbc,"flixel.text.FlxText.set_borderColor","flixel/text/FlxText.hx",762,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_770_set_borderSize,"flixel.text.FlxText","set_borderSize",0x0b7e6088,"flixel.text.FlxText.set_borderSize","flixel/text/FlxText.hx",770,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_778_set_borderQuality,"flixel.text.FlxText","set_borderQuality",0x9eac1b58,"flixel.text.FlxText.set_borderQuality","flixel/text/FlxText.hx",778,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_787_set_graphic,"flixel.text.FlxText","set_graphic",0x740d070d,"flixel.text.FlxText.set_graphic","flixel/text/FlxText.hx",787,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_795_get_width,"flixel.text.FlxText","get_width",0x1933231f,"flixel.text.FlxText.get_width","flixel/text/FlxText.hx",795,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_801_get_height,"flixel.text.FlxText","get_height",0xa9db10ae,"flixel.text.FlxText.get_height","flixel/text/FlxText.hx",801,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_807_updateColorTransform,"flixel.text.FlxText","updateColorTransform",0x81f611f0,"flixel.text.FlxText.updateColorTransform","flixel/text/FlxText.hx",807,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_826_regenGraphic,"flixel.text.FlxText","regenGraphic",0xc617a9e9,"flixel.text.FlxText.regenGraphic","flixel/text/FlxText.hx",826,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_902_drawTextFieldTo,"flixel.text.FlxText","drawTextFieldTo",0xda5cac46,"flixel.text.FlxText.drawTextFieldTo","flixel/text/FlxText.hx",902,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_958_draw,"flixel.text.FlxText","draw",0x3a66d282,"flixel.text.FlxText.draw","flixel/text/FlxText.hx",958,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_969_calcFrame,"flixel.text.FlxText","calcFrame",0x04b3a41a,"flixel.text.FlxText.calcFrame","flixel/text/FlxText.hx",969,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_981_applyBorderStyle,"flixel.text.FlxText","applyBorderStyle",0x7fb82955,"flixel.text.FlxText.applyBorderStyle","flixel/text/FlxText.hx",981,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1047_applyBorderTransparency,"flixel.text.FlxText","applyBorderTransparency",0x59c1b674,"flixel.text.FlxText.applyBorderTransparency","flixel/text/FlxText.hx",1047,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1063_copyTextWithOffset,"flixel.text.FlxText","copyTextWithOffset",0x8b535ed9,"flixel.text.FlxText.copyTextWithOffset","flixel/text/FlxText.hx",1063,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1070_applyFormats,"flixel.text.FlxText","applyFormats",0x597a620c,"flixel.text.FlxText.applyFormats","flixel/text/FlxText.hx",1070,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1096_copyTextFormat,"flixel.text.FlxText","copyTextFormat",0xce0953d7,"flixel.text.FlxText.copyTextFormat","flixel/text/FlxText.hx",1096,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1113_dtfCopy,"flixel.text.FlxText","dtfCopy",0x79c34ded,"flixel.text.FlxText.dtfCopy","flixel/text/FlxText.hx",1113,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1119_updateDefaultFormat,"flixel.text.FlxText","updateDefaultFormat",0x3cb6b251,"flixel.text.FlxText.updateDefaultFormat","flixel/text/FlxText.hx",1119,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_1126_set_frames,"flixel.text.FlxText","set_frames",0x579256e1,"flixel.text.FlxText.set_frames","flixel/text/FlxText.hx",1126,0xdf165a6e)
 HX_LOCAL_STACK_FRAME(_hx_pos_7d9cf70d988be490_50_boot,"flixel.text.FlxText","boot",0x39122ab0,"flixel.text.FlxText.boot","flixel/text/FlxText.hx",50,0xdf165a6e)
 namespace flixel{
 namespace text{
@@ -212,57 +208,56 @@ void FlxText_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  __
             		int Size = __o_Size.Default(8);
             		bool EmbeddedFont = __o_EmbeddedFont.Default(true);
             	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_45_new)
-HXLINE( 188)		this->_hasBorderAlpha = false;
-HXLINE( 179)		this->_regen = true;
-HXLINE( 173)		this->_formatRanges = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 163)		this->_autoHeight = true;
-HXLINE( 132)		this->borderQuality = ((Float)1);
-HXLINE( 125)		this->borderSize = ((Float)1);
-HXLINE( 120)		this->borderColor = 0;
-HXLINE( 115)		this->borderStyle = ::flixel::text::FlxTextBorderStyle_obj::NONE_dyn();
+HXLINE( 176)		this->_hasBorderAlpha = false;
+HXLINE( 167)		this->_regen = true;
+HXLINE( 161)		this->_formatRanges = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 151)		this->_autoHeight = true;
+HXLINE( 120)		this->borderQuality = ((Float)1);
+HXLINE( 113)		this->borderSize = ((Float)1);
+HXLINE( 108)		this->borderColor = 0;
+HXLINE( 103)		this->borderStyle = ::flixel::text::FlxTextBorderStyle_obj::NONE_dyn();
 HXLINE(  55)		this->text = HX_("",00,00,00,00);
-HXLINE( 210)		super::__construct(X,Y,null());
-HXLINE( 212)		bool _hx_tmp;
-HXDLIN( 212)		if (::hx::IsNotNull( Text )) {
-HXLINE( 212)			_hx_tmp = (Text == HX_("",00,00,00,00));
+HXLINE( 198)		super::__construct(X,Y,null());
+HXLINE( 200)		bool _hx_tmp;
+HXDLIN( 200)		if (::hx::IsNotNull( Text )) {
+HXLINE( 200)			_hx_tmp = (Text == HX_("",00,00,00,00));
             		}
             		else {
-HXLINE( 212)			_hx_tmp = true;
+HXLINE( 200)			_hx_tmp = true;
             		}
-HXDLIN( 212)		if (_hx_tmp) {
-HXLINE( 216)			this->set_text(HX_("",00,00,00,00));
-HXLINE( 217)			Text = HX_(" ",20,00,00,00);
-            		}
-            		else {
-HXLINE( 221)			this->set_text(Text);
-            		}
-HXLINE( 224)		this->textField =  ::openfl::text::TextField_obj::__alloc( HX_CTX );
-HXLINE( 225)		this->textField->set_selectable(false);
-HXLINE( 226)		this->textField->set_multiline(true);
-HXLINE( 227)		this->textField->set_wordWrap(true);
-HXLINE( 228)		this->_defaultFormat =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),Size,16777215,null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 229)		this->set_letterSpacing(( (Float)(0) ));
-HXLINE( 230)		this->set_font(::flixel::_hx_system::FlxAssets_obj::FONT_DEFAULT);
-HXLINE( 231)		this->_formatAdjusted =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 232)		this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXLINE( 233)		this->textField->set_text(Text);
-HXLINE( 234)		this->set_fieldWidth(FieldWidth);
-HXLINE( 235)		this->textField->set_embedFonts(EmbeddedFont);
-HXLINE( 236)		this->textField->set_sharpness(( (Float)(100) ));
-HXLINE( 237)		Float _hx_tmp1;
-HXDLIN( 237)		if ((Text.length <= 0)) {
-HXLINE( 237)			_hx_tmp1 = ( (Float)(1) );
+HXDLIN( 200)		if (_hx_tmp) {
+HXLINE( 204)			this->set_text(HX_("",00,00,00,00));
+HXLINE( 205)			Text = HX_(" ",20,00,00,00);
             		}
             		else {
-HXLINE( 237)			_hx_tmp1 = ( (Float)(10) );
+HXLINE( 209)			this->set_text(Text);
             		}
-HXDLIN( 237)		this->textField->set_height(_hx_tmp1);
-HXLINE( 239)		this->set_allowCollisions(0);
-HXLINE( 240)		this->set_moves(false);
-HXLINE( 242)		this->drawFrame(null());
-HXLINE( 244)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(1,1);
-HXDLIN( 244)		point->_inPool = false;
-HXDLIN( 244)		this->shadowOffset = point;
+HXLINE( 212)		this->textField =  ::openfl::text::TextField_obj::__alloc( HX_CTX );
+HXLINE( 213)		this->textField->set_selectable(false);
+HXLINE( 214)		this->textField->set_multiline(true);
+HXLINE( 215)		this->textField->set_wordWrap(true);
+HXLINE( 216)		this->_defaultFormat =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),Size,16777215,null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE( 217)		this->set_font(::flixel::_hx_system::FlxAssets_obj::FONT_DEFAULT);
+HXLINE( 218)		this->_formatAdjusted =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE( 219)		this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXLINE( 220)		this->textField->set_text(Text);
+HXLINE( 221)		this->set_fieldWidth(FieldWidth);
+HXLINE( 222)		this->textField->set_embedFonts(EmbeddedFont);
+HXLINE( 223)		this->textField->set_sharpness(( (Float)(100) ));
+HXLINE( 224)		Float _hx_tmp1;
+HXDLIN( 224)		if ((Text.length <= 0)) {
+HXLINE( 224)			_hx_tmp1 = ( (Float)(1) );
+            		}
+            		else {
+HXLINE( 224)			_hx_tmp1 = ( (Float)(10) );
+            		}
+HXDLIN( 224)		this->textField->set_height(_hx_tmp1);
+HXLINE( 226)		this->set_allowCollisions(0);
+HXLINE( 227)		this->set_moves(false);
+HXLINE( 229)		this->drawFrame(null());
+HXLINE( 231)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(1,1);
+HXDLIN( 231)		point->_inPool = false;
+HXDLIN( 231)		this->shadowOffset = point;
             	}
 
 Dynamic FlxText_obj::__CreateEmpty() { return new FlxText_obj; }
@@ -289,175 +284,175 @@ bool FlxText_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxText_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_251_destroy)
-HXLINE( 252)		this->textField = null();
-HXLINE( 253)		this->_font = null();
-HXLINE( 254)		this->_defaultFormat = null();
-HXLINE( 255)		this->_formatAdjusted = null();
-HXLINE( 256)		this->shadowOffset = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->shadowOffset)) );
-HXLINE( 257)		this->super::destroy();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_238_destroy)
+HXLINE( 239)		this->textField = null();
+HXLINE( 240)		this->_font = null();
+HXLINE( 241)		this->_defaultFormat = null();
+HXLINE( 242)		this->_formatAdjusted = null();
+HXLINE( 243)		this->shadowOffset = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->shadowOffset)) );
+HXLINE( 244)		this->super::destroy();
             	}
 
 
 void FlxText_obj::drawFrame(::hx::Null< bool >  __o_Force){
             		bool Force = __o_Force.Default(false);
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_261_drawFrame)
-HXLINE( 262)		bool _hx_tmp;
-HXDLIN( 262)		if (!(this->_regen)) {
-HXLINE( 262)			_hx_tmp = Force;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_248_drawFrame)
+HXLINE( 249)		bool _hx_tmp;
+HXDLIN( 249)		if (!(this->_regen)) {
+HXLINE( 249)			_hx_tmp = Force;
             		}
             		else {
-HXLINE( 262)			_hx_tmp = true;
+HXLINE( 249)			_hx_tmp = true;
             		}
-HXDLIN( 262)		this->_regen = _hx_tmp;
-HXLINE( 263)		this->super::drawFrame(this->_regen);
+HXDLIN( 249)		this->_regen = _hx_tmp;
+HXLINE( 250)		this->super::drawFrame(this->_regen);
             	}
 
 
 bool FlxText_obj::stampOnAtlas( ::flixel::graphics::atlas::FlxAtlas atlas){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_275_stampOnAtlas)
-HXLINE( 276)		this->regenGraphic();
-HXLINE( 278)		 ::flixel::graphics::atlas::FlxNode node = atlas->addNode(this->graphic->bitmap,this->graphic->key);
-HXLINE( 279)		bool result = ::hx::IsNotNull( node );
-HXLINE( 281)		if (::hx::IsNotNull( node )) {
-HXLINE( 283)			this->set_frames(node->getImageFrame());
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_262_stampOnAtlas)
+HXLINE( 263)		this->regenGraphic();
+HXLINE( 265)		 ::flixel::graphics::atlas::FlxNode node = atlas->addNode(this->graphic->bitmap,this->graphic->key);
+HXLINE( 266)		bool result = ::hx::IsNotNull( node );
+HXLINE( 268)		if (::hx::IsNotNull( node )) {
+HXLINE( 270)			this->set_frames(node->getImageFrame());
             		}
-HXLINE( 286)		return result;
+HXLINE( 273)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,stampOnAtlas,return )
 
  ::flixel::text::FlxText FlxText_obj::applyMarkup(::String input,::Array< ::Dynamic> rules){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_314_applyMarkup)
-HXLINE( 315)		bool _hx_tmp;
-HXDLIN( 315)		if (::hx::IsNotNull( rules )) {
-HXLINE( 315)			_hx_tmp = (rules->length == 0);
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_301_applyMarkup)
+HXLINE( 302)		bool _hx_tmp;
+HXDLIN( 302)		if (::hx::IsNotNull( rules )) {
+HXLINE( 302)			_hx_tmp = (rules->length == 0);
             		}
             		else {
-HXLINE( 315)			_hx_tmp = true;
+HXLINE( 302)			_hx_tmp = true;
             		}
-HXDLIN( 315)		if (_hx_tmp) {
-HXLINE( 316)			return ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 302)		if (_hx_tmp) {
+HXLINE( 303)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 318)		this->clearFormats();
-HXLINE( 320)		::Array< int > rangeStarts = ::Array_obj< int >::__new(0);
-HXLINE( 321)		::Array< int > rangeEnds = ::Array_obj< int >::__new(0);
-HXLINE( 322)		::Array< ::Dynamic> rulesToApply = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 324)		int i = 0;
-HXLINE( 325)		{
-HXLINE( 325)			int _g = 0;
-HXDLIN( 325)			while((_g < rules->length)){
-HXLINE( 325)				 ::flixel::text::FlxTextFormatMarkerPair rule = rules->__get(_g).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >();
-HXDLIN( 325)				_g = (_g + 1);
-HXLINE( 327)				bool _hx_tmp1;
-HXDLIN( 327)				if (::hx::IsNotNull( rule->marker )) {
-HXLINE( 327)					_hx_tmp1 = ::hx::IsNull( rule->format );
+HXLINE( 305)		this->clearFormats();
+HXLINE( 307)		::Array< int > rangeStarts = ::Array_obj< int >::__new(0);
+HXLINE( 308)		::Array< int > rangeEnds = ::Array_obj< int >::__new(0);
+HXLINE( 309)		::Array< ::Dynamic> rulesToApply = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 311)		int i = 0;
+HXLINE( 312)		{
+HXLINE( 312)			int _g = 0;
+HXDLIN( 312)			while((_g < rules->length)){
+HXLINE( 312)				 ::flixel::text::FlxTextFormatMarkerPair rule = rules->__get(_g).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >();
+HXDLIN( 312)				_g = (_g + 1);
+HXLINE( 314)				bool _hx_tmp1;
+HXDLIN( 314)				if (::hx::IsNotNull( rule->marker )) {
+HXLINE( 314)					_hx_tmp1 = ::hx::IsNull( rule->format );
             				}
             				else {
-HXLINE( 327)					_hx_tmp1 = true;
+HXLINE( 314)					_hx_tmp1 = true;
             				}
-HXDLIN( 327)				if (_hx_tmp1) {
-HXLINE( 328)					continue;
+HXDLIN( 314)				if (_hx_tmp1) {
+HXLINE( 315)					continue;
             				}
-HXLINE( 330)				bool start = false;
-HXLINE( 331)				int markerLength = ::_UnicodeString::UnicodeString_Impl__obj::get_length(rule->marker);
-HXLINE( 333)				if ((input.indexOf(rule->marker,null()) == -1)) {
-HXLINE( 334)					continue;
+HXLINE( 317)				bool start = false;
+HXLINE( 318)				int markerLength = ::_UnicodeString::UnicodeString_Impl__obj::get_length(rule->marker);
+HXLINE( 320)				if ((input.indexOf(rule->marker,null()) == -1)) {
+HXLINE( 321)					continue;
             				}
-HXLINE( 337)				{
-HXLINE( 337)					int _g1 = 0;
-HXDLIN( 337)					int _g2 = ::_UnicodeString::UnicodeString_Impl__obj::get_length(input);
-HXDLIN( 337)					while((_g1 < _g2)){
-HXLINE( 337)						_g1 = (_g1 + 1);
-HXDLIN( 337)						int charIndex = (_g1 - 1);
-HXLINE( 339)						::String a = ::_UnicodeString::UnicodeString_Impl__obj::substr(input,charIndex,markerLength);
-HXDLIN( 339)						if ((a != rule->marker)) {
-HXLINE( 340)							continue;
+HXLINE( 324)				{
+HXLINE( 324)					int _g1 = 0;
+HXDLIN( 324)					int _g2 = ::_UnicodeString::UnicodeString_Impl__obj::get_length(input);
+HXDLIN( 324)					while((_g1 < _g2)){
+HXLINE( 324)						_g1 = (_g1 + 1);
+HXDLIN( 324)						int charIndex = (_g1 - 1);
+HXLINE( 326)						::String a = ::_UnicodeString::UnicodeString_Impl__obj::substr(input,charIndex,markerLength);
+HXDLIN( 326)						if ((a != rule->marker)) {
+HXLINE( 327)							continue;
             						}
-HXLINE( 342)						if (start) {
-HXLINE( 344)							start = false;
-HXLINE( 345)							rangeEnds->push(charIndex);
+HXLINE( 329)						if (start) {
+HXLINE( 331)							start = false;
+HXLINE( 332)							rangeEnds->push(charIndex);
             						}
             						else {
-HXLINE( 349)							start = true;
-HXLINE( 350)							rangeStarts->push(charIndex);
-HXLINE( 351)							rulesToApply->push(rule);
+HXLINE( 336)							start = true;
+HXLINE( 337)							rangeStarts->push(charIndex);
+HXLINE( 338)							rulesToApply->push(rule);
             						}
             					}
             				}
-HXLINE( 355)				if (start) {
-HXLINE( 358)					rangeEnds->push(-1);
+HXLINE( 342)				if (start) {
+HXLINE( 345)					rangeEnds->push(-1);
             				}
-HXLINE( 361)				i = (i + 1);
+HXLINE( 348)				i = (i + 1);
             			}
             		}
-HXLINE( 365)		{
-HXLINE( 365)			int _g3 = 0;
-HXDLIN( 365)			while((_g3 < rules->length)){
-HXLINE( 365)				 ::flixel::text::FlxTextFormatMarkerPair rule1 = rules->__get(_g3).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >();
-HXDLIN( 365)				_g3 = (_g3 + 1);
-HXLINE( 366)				input = ::StringTools_obj::replace(input,rule1->marker,HX_("",00,00,00,00));
+HXLINE( 352)		{
+HXLINE( 352)			int _g3 = 0;
+HXDLIN( 352)			while((_g3 < rules->length)){
+HXLINE( 352)				 ::flixel::text::FlxTextFormatMarkerPair rule1 = rules->__get(_g3).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >();
+HXDLIN( 352)				_g3 = (_g3 + 1);
+HXLINE( 353)				input = ::StringTools_obj::replace(input,rule1->marker,HX_("",00,00,00,00));
             			}
             		}
-HXLINE( 369)		{
-HXLINE( 369)			int _g4 = 0;
-HXDLIN( 369)			int _g5 = rangeStarts->length;
-HXDLIN( 369)			while((_g4 < _g5)){
-HXLINE( 369)				_g4 = (_g4 + 1);
-HXDLIN( 369)				int i1 = (_g4 - 1);
-HXLINE( 372)				int delIndex = rangeStarts->__get(i1);
-HXLINE( 373)				int markerLength1 = ::_UnicodeString::UnicodeString_Impl__obj::get_length(rulesToApply->__get(i1).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >()->marker);
-HXLINE( 376)				{
-HXLINE( 376)					int _g6 = 0;
-HXDLIN( 376)					int _g7 = rangeStarts->length;
-HXDLIN( 376)					while((_g6 < _g7)){
-HXLINE( 376)						_g6 = (_g6 + 1);
-HXDLIN( 376)						int j = (_g6 - 1);
-HXLINE( 378)						if ((rangeStarts->__get(j) > delIndex)) {
-HXLINE( 380)							::Array< int > rangeStarts1 = rangeStarts;
-HXDLIN( 380)							int j1 = j;
-HXDLIN( 380)							rangeStarts1[j1] = (rangeStarts1->__get(j1) - markerLength1);
+HXLINE( 356)		{
+HXLINE( 356)			int _g4 = 0;
+HXDLIN( 356)			int _g5 = rangeStarts->length;
+HXDLIN( 356)			while((_g4 < _g5)){
+HXLINE( 356)				_g4 = (_g4 + 1);
+HXDLIN( 356)				int i1 = (_g4 - 1);
+HXLINE( 359)				int delIndex = rangeStarts->__get(i1);
+HXLINE( 360)				int markerLength1 = ::_UnicodeString::UnicodeString_Impl__obj::get_length(rulesToApply->__get(i1).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >()->marker);
+HXLINE( 363)				{
+HXLINE( 363)					int _g6 = 0;
+HXDLIN( 363)					int _g7 = rangeStarts->length;
+HXDLIN( 363)					while((_g6 < _g7)){
+HXLINE( 363)						_g6 = (_g6 + 1);
+HXDLIN( 363)						int j = (_g6 - 1);
+HXLINE( 365)						if ((rangeStarts->__get(j) > delIndex)) {
+HXLINE( 367)							::Array< int > rangeStarts1 = rangeStarts;
+HXDLIN( 367)							int j1 = j;
+HXDLIN( 367)							rangeStarts1[j1] = (rangeStarts1->__get(j1) - markerLength1);
             						}
-HXLINE( 382)						if ((rangeEnds->__get(j) > delIndex)) {
-HXLINE( 384)							::Array< int > rangeEnds1 = rangeEnds;
-HXDLIN( 384)							int j2 = j;
-HXDLIN( 384)							rangeEnds1[j2] = (rangeEnds1->__get(j2) - markerLength1);
+HXLINE( 369)						if ((rangeEnds->__get(j) > delIndex)) {
+HXLINE( 371)							::Array< int > rangeEnds1 = rangeEnds;
+HXDLIN( 371)							int j2 = j;
+HXDLIN( 371)							rangeEnds1[j2] = (rangeEnds1->__get(j2) - markerLength1);
             						}
             					}
             				}
-HXLINE( 389)				delIndex = rangeEnds->__get(i1);
-HXLINE( 392)				{
-HXLINE( 392)					int _g8 = 0;
-HXDLIN( 392)					int _g9 = rangeStarts->length;
-HXDLIN( 392)					while((_g8 < _g9)){
-HXLINE( 392)						_g8 = (_g8 + 1);
-HXDLIN( 392)						int j3 = (_g8 - 1);
-HXLINE( 394)						if ((rangeStarts->__get(j3) > delIndex)) {
-HXLINE( 396)							::Array< int > rangeStarts2 = rangeStarts;
-HXDLIN( 396)							int j4 = j3;
-HXDLIN( 396)							rangeStarts2[j4] = (rangeStarts2->__get(j4) - markerLength1);
+HXLINE( 376)				delIndex = rangeEnds->__get(i1);
+HXLINE( 379)				{
+HXLINE( 379)					int _g8 = 0;
+HXDLIN( 379)					int _g9 = rangeStarts->length;
+HXDLIN( 379)					while((_g8 < _g9)){
+HXLINE( 379)						_g8 = (_g8 + 1);
+HXDLIN( 379)						int j3 = (_g8 - 1);
+HXLINE( 381)						if ((rangeStarts->__get(j3) > delIndex)) {
+HXLINE( 383)							::Array< int > rangeStarts2 = rangeStarts;
+HXDLIN( 383)							int j4 = j3;
+HXDLIN( 383)							rangeStarts2[j4] = (rangeStarts2->__get(j4) - markerLength1);
             						}
-HXLINE( 398)						if ((rangeEnds->__get(j3) > delIndex)) {
-HXLINE( 400)							::Array< int > rangeEnds2 = rangeEnds;
-HXDLIN( 400)							int j5 = j3;
-HXDLIN( 400)							rangeEnds2[j5] = (rangeEnds2->__get(j5) - markerLength1);
+HXLINE( 385)						if ((rangeEnds->__get(j3) > delIndex)) {
+HXLINE( 387)							::Array< int > rangeEnds2 = rangeEnds;
+HXDLIN( 387)							int j5 = j3;
+HXDLIN( 387)							rangeEnds2[j5] = (rangeEnds2->__get(j5) - markerLength1);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 406)		this->set_text(input);
-HXLINE( 409)		{
-HXLINE( 409)			int _g10 = 0;
-HXDLIN( 409)			int _g11 = rangeStarts->length;
-HXDLIN( 409)			while((_g10 < _g11)){
-HXLINE( 409)				_g10 = (_g10 + 1);
-HXDLIN( 409)				int i2 = (_g10 - 1);
-HXLINE( 410)				this->addFormat(rulesToApply->__get(i2).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >()->format,rangeStarts->__get(i2),rangeEnds->__get(i2));
+HXLINE( 393)		this->set_text(input);
+HXLINE( 396)		{
+HXLINE( 396)			int _g10 = 0;
+HXDLIN( 396)			int _g11 = rangeStarts->length;
+HXDLIN( 396)			while((_g10 < _g11)){
+HXLINE( 396)				_g10 = (_g10 + 1);
+HXDLIN( 396)				int i2 = (_g10 - 1);
+HXLINE( 397)				this->addFormat(rulesToApply->__get(i2).StaticCast<  ::flixel::text::FlxTextFormatMarkerPair >()->format,rangeStarts->__get(i2),rangeEnds->__get(i2));
             			}
             		}
-HXLINE( 412)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 399)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -466,115 +461,115 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxText_obj,applyMarkup,return )
  ::flixel::text::FlxText FlxText_obj::addFormat( ::flixel::text::FlxTextFormat Format,::hx::Null< int >  __o_Start,::hx::Null< int >  __o_End){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(2)
             		int _hx_run( ::flixel::text::_FlxText::FlxTextFormatRange left, ::flixel::text::_FlxText::FlxTextFormatRange right){
-            			HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_428_addFormat)
-HXLINE( 428)			if (::hx::IsLess( left->range->start,right->range->start )) {
-HXLINE( 428)				return -1;
+            			HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_415_addFormat)
+HXLINE( 415)			if (::hx::IsLess( left->range->start,right->range->start )) {
+HXLINE( 415)				return -1;
             			}
             			else {
-HXLINE( 428)				return 1;
+HXLINE( 415)				return 1;
             			}
-HXDLIN( 428)			return 0;
+HXDLIN( 415)			return 0;
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		int Start = __o_Start.Default(-1);
             		int End = __o_End.Default(-1);
-            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_423_addFormat)
-HXLINE( 424)		::Array< ::Dynamic> _hx_tmp = this->_formatRanges;
-HXDLIN( 424)		_hx_tmp->push( ::flixel::text::_FlxText::FlxTextFormatRange_obj::__alloc( HX_CTX ,Format,Start,End));
-HXLINE( 426)		this->_formatRanges->sort( ::Dynamic(new _hx_Closure_0()));
-HXLINE( 430)		this->_regen = true;
-HXLINE( 432)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_410_addFormat)
+HXLINE( 411)		::Array< ::Dynamic> _hx_tmp = this->_formatRanges;
+HXDLIN( 411)		_hx_tmp->push( ::flixel::text::_FlxText::FlxTextFormatRange_obj::__alloc( HX_CTX ,Format,Start,End));
+HXLINE( 413)		this->_formatRanges->sort( ::Dynamic(new _hx_Closure_0()));
+HXLINE( 417)		this->_regen = true;
+HXLINE( 419)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxText_obj,addFormat,return )
 
  ::flixel::text::FlxText FlxText_obj::removeFormat( ::flixel::text::FlxTextFormat Format, ::Dynamic Start, ::Dynamic End){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_440_removeFormat)
-HXLINE( 441)		int i = this->_formatRanges->length;
-HXLINE( 442)		while(true){
-HXLINE( 442)			i = (i - 1);
-HXDLIN( 442)			if (!(((i + 1) > 0))) {
-HXLINE( 442)				goto _hx_goto_14;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_427_removeFormat)
+HXLINE( 428)		int i = this->_formatRanges->length;
+HXLINE( 429)		while(true){
+HXLINE( 429)			i = (i - 1);
+HXDLIN( 429)			if (!(((i + 1) > 0))) {
+HXLINE( 429)				goto _hx_goto_14;
             			}
-HXLINE( 444)			 ::flixel::text::_FlxText::FlxTextFormatRange formatRange = this->_formatRanges->__get(i).StaticCast<  ::flixel::text::_FlxText::FlxTextFormatRange >();
-HXLINE( 445)			if (::hx::IsInstanceNotEq( formatRange->format,Format )) {
-HXLINE( 446)				continue;
+HXLINE( 431)			 ::flixel::text::_FlxText::FlxTextFormatRange formatRange = this->_formatRanges->__get(i).StaticCast<  ::flixel::text::_FlxText::FlxTextFormatRange >();
+HXLINE( 432)			if (::hx::IsInstanceNotEq( formatRange->format,Format )) {
+HXLINE( 433)				continue;
             			}
-HXLINE( 448)			bool _hx_tmp;
-HXDLIN( 448)			if (::hx::IsNotNull( Start )) {
-HXLINE( 448)				_hx_tmp = ::hx::IsNotNull( End );
+HXLINE( 435)			bool _hx_tmp;
+HXDLIN( 435)			if (::hx::IsNotNull( Start )) {
+HXLINE( 435)				_hx_tmp = ::hx::IsNotNull( End );
             			}
             			else {
-HXLINE( 448)				_hx_tmp = false;
+HXLINE( 435)				_hx_tmp = false;
             			}
-HXDLIN( 448)			if (_hx_tmp) {
-HXLINE( 450)				 ::flixel::util::helpers::FlxRange range = formatRange->range;
-HXLINE( 451)				bool _hx_tmp1;
-HXDLIN( 451)				if (::hx::IsLess( Start,range->end )) {
-HXLINE( 451)					_hx_tmp1 = ::hx::IsLessEq( End,range->start );
+HXDLIN( 435)			if (_hx_tmp) {
+HXLINE( 437)				 ::flixel::util::helpers::FlxRange range = formatRange->range;
+HXLINE( 438)				bool _hx_tmp1;
+HXDLIN( 438)				if (::hx::IsLess( Start,range->end )) {
+HXLINE( 438)					_hx_tmp1 = ::hx::IsLessEq( End,range->start );
             				}
             				else {
-HXLINE( 451)					_hx_tmp1 = true;
+HXLINE( 438)					_hx_tmp1 = true;
             				}
-HXDLIN( 451)				if (_hx_tmp1) {
-HXLINE( 452)					continue;
+HXDLIN( 438)				if (_hx_tmp1) {
+HXLINE( 439)					continue;
             				}
-HXLINE( 454)				bool _hx_tmp2;
+HXLINE( 441)				bool _hx_tmp2;
+HXDLIN( 441)				if (::hx::IsGreater( Start,range->start )) {
+HXLINE( 441)					_hx_tmp2 = ::hx::IsLess( End,range->end );
+            				}
+            				else {
+HXLINE( 441)					_hx_tmp2 = false;
+            				}
+HXDLIN( 441)				if (_hx_tmp2) {
+HXLINE( 443)					this->addFormat(formatRange->format,(End + 1),range->end);
+HXLINE( 444)					range->end = Start;
+HXLINE( 445)					continue;
+            				}
+HXLINE( 448)				bool _hx_tmp3;
+HXDLIN( 448)				if (::hx::IsLessEq( Start,range->start )) {
+HXLINE( 448)					_hx_tmp3 = ::hx::IsLess( End,range->end );
+            				}
+            				else {
+HXLINE( 448)					_hx_tmp3 = false;
+            				}
+HXDLIN( 448)				if (_hx_tmp3) {
+HXLINE( 450)					range->start = End;
+HXLINE( 451)					continue;
+            				}
+HXLINE( 454)				bool _hx_tmp4;
 HXDLIN( 454)				if (::hx::IsGreater( Start,range->start )) {
-HXLINE( 454)					_hx_tmp2 = ::hx::IsLess( End,range->end );
+HXLINE( 454)					_hx_tmp4 = ::hx::IsGreaterEq( End,range->end );
             				}
             				else {
-HXLINE( 454)					_hx_tmp2 = false;
+HXLINE( 454)					_hx_tmp4 = false;
             				}
-HXDLIN( 454)				if (_hx_tmp2) {
-HXLINE( 456)					this->addFormat(formatRange->format,(End + 1),range->end);
-HXLINE( 457)					range->end = Start;
-HXLINE( 458)					continue;
-            				}
-HXLINE( 461)				bool _hx_tmp3;
-HXDLIN( 461)				if (::hx::IsLessEq( Start,range->start )) {
-HXLINE( 461)					_hx_tmp3 = ::hx::IsLess( End,range->end );
-            				}
-            				else {
-HXLINE( 461)					_hx_tmp3 = false;
-            				}
-HXDLIN( 461)				if (_hx_tmp3) {
-HXLINE( 463)					range->start = End;
-HXLINE( 464)					continue;
-            				}
-HXLINE( 467)				bool _hx_tmp4;
-HXDLIN( 467)				if (::hx::IsGreater( Start,range->start )) {
-HXLINE( 467)					_hx_tmp4 = ::hx::IsGreaterEq( End,range->end );
-            				}
-            				else {
-HXLINE( 467)					_hx_tmp4 = false;
-            				}
-HXDLIN( 467)				if (_hx_tmp4) {
-HXLINE( 469)					range->end = Start;
-HXLINE( 470)					continue;
+HXDLIN( 454)				if (_hx_tmp4) {
+HXLINE( 456)					range->end = Start;
+HXLINE( 457)					continue;
             				}
             			}
-HXLINE( 474)			this->_formatRanges->remove(formatRange);
+HXLINE( 461)			this->_formatRanges->remove(formatRange);
             		}
             		_hx_goto_14:;
-HXLINE( 477)		this->_regen = true;
-HXLINE( 479)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 464)		this->_regen = true;
+HXLINE( 466)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxText_obj,removeFormat,return )
 
  ::flixel::text::FlxText FlxText_obj::clearFormats(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_486_clearFormats)
-HXLINE( 487)		this->_formatRanges = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 488)		{
-HXLINE( 488)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 488)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 488)			this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_473_clearFormats)
+HXLINE( 474)		this->_formatRanges = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 475)		{
+HXLINE( 475)			this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 475)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 475)			this->_regen = true;
             		}
-HXLINE( 490)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 477)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -585,35 +580,35 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,clearFormats,return )
             		int Color = __o_Color.Default(-1);
             		int BorderColor = __o_BorderColor.Default(0);
             		bool EmbeddedFont = __o_EmbeddedFont.Default(true);
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_507_setFormat)
-HXLINE( 508)		if (::hx::IsNull( BorderStyle )) {
-HXLINE( 508)			BorderStyle = ::flixel::text::FlxTextBorderStyle_obj::NONE_dyn();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_494_setFormat)
+HXLINE( 495)		if (::hx::IsNull( BorderStyle )) {
+HXLINE( 495)			BorderStyle = ::flixel::text::FlxTextBorderStyle_obj::NONE_dyn();
             		}
-HXLINE( 510)		if (EmbeddedFont) {
-HXLINE( 512)			this->set_font(Font);
+HXLINE( 497)		if (EmbeddedFont) {
+HXLINE( 499)			this->set_font(Font);
             		}
             		else {
-HXLINE( 514)			if (::hx::IsNotNull( Font )) {
-HXLINE( 516)				this->set_systemFont(Font);
+HXLINE( 501)			if (::hx::IsNotNull( Font )) {
+HXLINE( 503)				this->set_systemFont(Font);
             			}
             		}
-HXLINE( 519)		this->set_size(Size);
-HXLINE( 520)		this->set_color(Color);
-HXLINE( 521)		if (::hx::IsNotNull( Alignment )) {
-HXLINE( 522)			this->set_alignment(Alignment);
+HXLINE( 506)		this->set_size(Size);
+HXLINE( 507)		this->set_color(Color);
+HXLINE( 508)		if (::hx::IsNotNull( Alignment )) {
+HXLINE( 509)			this->set_alignment(Alignment);
             		}
-HXLINE( 523)		{
-HXLINE( 523)			this->set_borderStyle(BorderStyle);
-HXDLIN( 523)			this->set_borderColor(BorderColor);
-HXDLIN( 523)			this->set_borderSize(( (Float)(1) ));
-HXDLIN( 523)			this->set_borderQuality(( (Float)(1) ));
+HXLINE( 510)		{
+HXLINE( 510)			this->set_borderStyle(BorderStyle);
+HXDLIN( 510)			this->set_borderColor(BorderColor);
+HXDLIN( 510)			this->set_borderSize(( (Float)(1) ));
+HXDLIN( 510)			this->set_borderQuality(( (Float)(1) ));
             		}
-HXLINE( 525)		{
-HXLINE( 525)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 525)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 525)			this->_regen = true;
+HXLINE( 512)		{
+HXLINE( 512)			this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 512)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 512)			this->_regen = true;
             		}
-HXLINE( 527)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 514)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -623,839 +618,793 @@ HX_DEFINE_DYNAMIC_FUNC7(FlxText_obj,setFormat,return )
             		int Color = __o_Color.Default(0);
             		Float Size = __o_Size.Default(1);
             		Float Quality = __o_Quality.Default(1);
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_539_setBorderStyle)
-HXLINE( 540)		this->set_borderStyle(Style);
-HXLINE( 541)		this->set_borderColor(Color);
-HXLINE( 542)		this->set_borderSize(Size);
-HXLINE( 543)		this->set_borderQuality(Quality);
-HXLINE( 545)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_526_setBorderStyle)
+HXLINE( 527)		this->set_borderStyle(Style);
+HXLINE( 528)		this->set_borderColor(Color);
+HXLINE( 529)		this->set_borderSize(Size);
+HXLINE( 530)		this->set_borderQuality(Quality);
+HXLINE( 532)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(FlxText_obj,setBorderStyle,return )
 
 void FlxText_obj::updateHitbox(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_549_updateHitbox)
-HXLINE( 550)		this->regenGraphic();
-HXLINE( 551)		this->super::updateHitbox();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_536_updateHitbox)
+HXLINE( 537)		this->regenGraphic();
+HXLINE( 538)		this->super::updateHitbox();
             	}
 
 
  ::flixel::math::FlxRect FlxText_obj::getScreenBounds( ::flixel::math::FlxRect newRect, ::flixel::FlxCamera camera){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_555_getScreenBounds)
-HXLINE( 556)		this->regenGraphic();
-HXLINE( 557)		return this->super::getScreenBounds(newRect,camera);
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_542_getScreenBounds)
+HXLINE( 543)		this->regenGraphic();
+HXLINE( 544)		return this->super::getScreenBounds(newRect,camera);
             	}
 
 
 Float FlxText_obj::set_fieldWidth(Float value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_561_set_fieldWidth)
-HXLINE( 562)		if (::hx::IsNull( this->textField )) {
-HXLINE( 563)			return value;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_548_set_fieldWidth)
+HXLINE( 549)		if (::hx::IsNull( this->textField )) {
+HXLINE( 550)			return value;
             		}
-HXLINE( 565)		if ((value <= 0)) {
-HXLINE( 567)			this->set_wordWrap(false);
-HXLINE( 568)			this->set_autoSize(true);
-HXLINE( 570)			this->_autoHeight = true;
+HXLINE( 552)		if ((value <= 0)) {
+HXLINE( 554)			this->set_wordWrap(false);
+HXLINE( 555)			this->set_autoSize(true);
+HXLINE( 557)			this->_autoHeight = true;
             		}
             		else {
-HXLINE( 574)			this->set_autoSize(false);
-HXLINE( 575)			this->set_wordWrap(true);
-HXLINE( 576)			this->textField->set_width(value);
+HXLINE( 561)			this->set_autoSize(false);
+HXLINE( 562)			this->set_wordWrap(true);
+HXLINE( 563)			this->textField->set_width(value);
             		}
-HXLINE( 579)		this->_regen = true;
-HXLINE( 580)		return value;
+HXLINE( 566)		this->_regen = true;
+HXLINE( 567)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_fieldWidth,return )
 
 Float FlxText_obj::get_fieldWidth(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_585_get_fieldWidth)
-HXDLIN( 585)		if (::hx::IsNotNull( this->textField )) {
-HXDLIN( 585)			return this->textField->get_width();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_572_get_fieldWidth)
+HXDLIN( 572)		if (::hx::IsNotNull( this->textField )) {
+HXDLIN( 572)			return this->textField->get_width();
             		}
             		else {
-HXDLIN( 585)			return ( (Float)(0) );
+HXDLIN( 572)			return ( (Float)(0) );
             		}
-HXDLIN( 585)		return ((Float)0.);
+HXDLIN( 572)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_fieldWidth,return )
 
 Float FlxText_obj::get_fieldHeight(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_590_get_fieldHeight)
-HXDLIN( 590)		if (::hx::IsNotNull( this->textField )) {
-HXDLIN( 590)			return this->textField->get_height();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_577_get_fieldHeight)
+HXDLIN( 577)		if (::hx::IsNotNull( this->textField )) {
+HXDLIN( 577)			return this->textField->get_height();
             		}
             		else {
-HXDLIN( 590)			return ( (Float)(0) );
+HXDLIN( 577)			return ( (Float)(0) );
             		}
-HXDLIN( 590)		return ((Float)0.);
+HXDLIN( 577)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_fieldHeight,return )
 
 Float FlxText_obj::set_fieldHeight(Float value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_594_set_fieldHeight)
-HXLINE( 595)		if (::hx::IsNull( this->textField )) {
-HXLINE( 596)			return value;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_581_set_fieldHeight)
+HXLINE( 582)		if (::hx::IsNull( this->textField )) {
+HXLINE( 583)			return value;
             		}
-HXLINE( 598)		if ((value <= 0)) {
-HXLINE( 600)			this->_autoHeight = true;
+HXLINE( 585)		if ((value <= 0)) {
+HXLINE( 587)			this->_autoHeight = true;
             		}
             		else {
-HXLINE( 604)			this->_autoHeight = false;
-HXLINE( 605)			this->textField->set_height(value);
+HXLINE( 591)			this->_autoHeight = false;
+HXLINE( 592)			this->textField->set_height(value);
             		}
-HXLINE( 607)		this->_regen = true;
-HXLINE( 608)		return value;
+HXLINE( 594)		this->_regen = true;
+HXLINE( 595)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_fieldHeight,return )
 
 bool FlxText_obj::set_autoSize(bool value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_612_set_autoSize)
-HXLINE( 613)		if (::hx::IsNotNull( this->textField )) {
-HXLINE( 615)			 ::Dynamic _hx_tmp;
-HXDLIN( 615)			if (value) {
-HXLINE( 615)				_hx_tmp = 1;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_599_set_autoSize)
+HXLINE( 600)		if (::hx::IsNotNull( this->textField )) {
+HXLINE( 602)			 ::Dynamic _hx_tmp;
+HXDLIN( 602)			if (value) {
+HXLINE( 602)				_hx_tmp = 1;
             			}
             			else {
-HXLINE( 615)				_hx_tmp = 2;
+HXLINE( 602)				_hx_tmp = 2;
             			}
-HXDLIN( 615)			this->textField->set_autoSize(_hx_tmp);
-HXLINE( 616)			this->_regen = true;
+HXDLIN( 602)			this->textField->set_autoSize(_hx_tmp);
+HXLINE( 603)			this->_regen = true;
             		}
-HXLINE( 619)		return value;
+HXLINE( 606)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_autoSize,return )
 
 bool FlxText_obj::get_autoSize(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_624_get_autoSize)
-HXDLIN( 624)		if (::hx::IsNotNull( this->textField )) {
-HXDLIN( 624)			return ::hx::IsNotEq( this->textField->get_autoSize(),2 );
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_611_get_autoSize)
+HXDLIN( 611)		if (::hx::IsNotNull( this->textField )) {
+HXDLIN( 611)			return ::hx::IsNotEq( this->textField->get_autoSize(),2 );
             		}
             		else {
-HXDLIN( 624)			return false;
+HXDLIN( 611)			return false;
             		}
-HXDLIN( 624)		return false;
+HXDLIN( 611)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_autoSize,return )
 
 ::String FlxText_obj::set_text(::String Text){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_628_set_text)
-HXLINE( 629)		this->text = Text;
-HXLINE( 630)		if (::hx::IsNotNull( this->textField )) {
-HXLINE( 632)			::String ot = this->textField->get_text();
-HXLINE( 633)			this->textField->set_text(Text);
-HXLINE( 634)			bool _hx_tmp;
-HXDLIN( 634)			if ((this->textField->get_text() == ot)) {
-HXLINE( 634)				_hx_tmp = this->_regen;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_615_set_text)
+HXLINE( 616)		this->text = Text;
+HXLINE( 617)		if (::hx::IsNotNull( this->textField )) {
+HXLINE( 619)			::String ot = this->textField->get_text();
+HXLINE( 620)			this->textField->set_text(Text);
+HXLINE( 621)			bool _hx_tmp;
+HXDLIN( 621)			if ((this->textField->get_text() == ot)) {
+HXLINE( 621)				_hx_tmp = this->_regen;
             			}
             			else {
-HXLINE( 634)				_hx_tmp = true;
+HXLINE( 621)				_hx_tmp = true;
             			}
-HXDLIN( 634)			this->_regen = _hx_tmp;
+HXDLIN( 621)			this->_regen = _hx_tmp;
             		}
-HXLINE( 636)		return Text;
+HXLINE( 623)		return Text;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_text,return )
 
 int FlxText_obj::get_size(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_641_get_size)
-HXDLIN( 641)		return ::Std_obj::_hx_int(( (Float)(this->_defaultFormat->size) ));
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_628_get_size)
+HXDLIN( 628)		return ::Std_obj::_hx_int(( (Float)(this->_defaultFormat->size) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_size,return )
 
 int FlxText_obj::set_size(int Size){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_645_set_size)
-HXLINE( 646)		this->_defaultFormat->size = Size;
-HXLINE( 647)		{
-HXLINE( 647)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 647)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 647)			this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_632_set_size)
+HXLINE( 633)		this->_defaultFormat->size = Size;
+HXLINE( 634)		{
+HXLINE( 634)			this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 634)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 634)			this->_regen = true;
             		}
-HXLINE( 648)		return Size;
+HXLINE( 635)		return Size;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_size,return )
 
-Float FlxText_obj::get_letterSpacing(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_653_get_letterSpacing)
-HXDLIN( 653)		return ( (Float)(this->_defaultFormat->letterSpacing) );
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_letterSpacing,return )
-
-Float FlxText_obj::set_letterSpacing(Float LetterSpacing){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_657_set_letterSpacing)
-HXLINE( 658)		this->_defaultFormat->letterSpacing = LetterSpacing;
-HXLINE( 659)		{
-HXLINE( 659)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 659)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 659)			this->_regen = true;
-            		}
-HXLINE( 660)		return LetterSpacing;
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_letterSpacing,return )
-
 int FlxText_obj::set_color(int Color){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_664_set_color)
-HXLINE( 665)		if (::hx::IsEq( this->_defaultFormat->color,(Color & 16777215) )) {
-HXLINE( 667)			return Color;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_639_set_color)
+HXLINE( 640)		if (::hx::IsEq( this->_defaultFormat->color,(Color & 16777215) )) {
+HXLINE( 642)			return Color;
             		}
-HXLINE( 669)		this->_defaultFormat->color = (Color & 16777215);
-HXLINE( 670)		this->color = Color;
-HXLINE( 671)		{
-HXLINE( 671)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 671)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 671)			this->_regen = true;
+HXLINE( 644)		this->_defaultFormat->color = (Color & 16777215);
+HXLINE( 645)		this->color = Color;
+HXLINE( 646)		{
+HXLINE( 646)			this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 646)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 646)			this->_regen = true;
             		}
-HXLINE( 672)		return Color;
+HXLINE( 647)		return Color;
             	}
 
 
 ::String FlxText_obj::get_font(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_677_get_font)
-HXDLIN( 677)		return this->_font;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_652_get_font)
+HXDLIN( 652)		return this->_font;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_font,return )
 
 ::String FlxText_obj::set_font(::String Font){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_681_set_font)
-HXLINE( 682)		this->textField->set_embedFonts(true);
-HXLINE( 684)		if (::hx::IsNotNull( Font )) {
-HXLINE( 686)			::String newFontName = Font;
-HXLINE( 687)			if (::openfl::utils::Assets_obj::exists(Font,HX_("FONT",cf,25,81,2e))) {
-HXLINE( 689)				newFontName = ::openfl::utils::Assets_obj::getFont(Font,null())->name;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_656_set_font)
+HXLINE( 657)		this->textField->set_embedFonts(true);
+HXLINE( 659)		if (::hx::IsNotNull( Font )) {
+HXLINE( 661)			::String newFontName = Font;
+HXLINE( 662)			if (::openfl::utils::Assets_obj::exists(Font,HX_("FONT",cf,25,81,2e))) {
+HXLINE( 664)				newFontName = ::openfl::utils::Assets_obj::getFont(Font,null())->name;
             			}
-HXLINE( 692)			this->_defaultFormat->font = newFontName;
+HXLINE( 667)			this->_defaultFormat->font = newFontName;
             		}
             		else {
-HXLINE( 696)			this->_defaultFormat->font = ::flixel::_hx_system::FlxAssets_obj::FONT_DEFAULT;
+HXLINE( 671)			this->_defaultFormat->font = ::flixel::_hx_system::FlxAssets_obj::FONT_DEFAULT;
             		}
-HXLINE( 699)		{
-HXLINE( 699)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 699)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 699)			this->_regen = true;
+HXLINE( 674)		{
+HXLINE( 674)			this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 674)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 674)			this->_regen = true;
             		}
-HXLINE( 700)		return (this->_font = this->_defaultFormat->font);
+HXLINE( 675)		return (this->_font = this->_defaultFormat->font);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_font,return )
 
 bool FlxText_obj::get_embedded(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_705_get_embedded)
-HXDLIN( 705)		return this->textField->get_embedFonts();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_680_get_embedded)
+HXDLIN( 680)		return this->textField->get_embedFonts();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_embedded,return )
 
 ::String FlxText_obj::get_systemFont(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_710_get_systemFont)
-HXDLIN( 710)		return this->_defaultFormat->font;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_685_get_systemFont)
+HXDLIN( 685)		return this->_defaultFormat->font;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_systemFont,return )
 
 ::String FlxText_obj::set_systemFont(::String Font){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_714_set_systemFont)
-HXLINE( 715)		this->textField->set_embedFonts(false);
-HXLINE( 716)		this->_defaultFormat->font = Font;
-HXLINE( 717)		{
-HXLINE( 717)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 717)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 717)			this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_689_set_systemFont)
+HXLINE( 690)		this->textField->set_embedFonts(false);
+HXLINE( 691)		this->_defaultFormat->font = Font;
+HXLINE( 692)		{
+HXLINE( 692)			this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 692)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 692)			this->_regen = true;
             		}
-HXLINE( 718)		return Font;
+HXLINE( 693)		return Font;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_systemFont,return )
 
 bool FlxText_obj::get_bold(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_723_get_bold)
-HXDLIN( 723)		return ( (bool)(this->_defaultFormat->bold) );
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_698_get_bold)
+HXDLIN( 698)		return ( (bool)(this->_defaultFormat->bold) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_bold,return )
 
 bool FlxText_obj::set_bold(bool value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_727_set_bold)
-HXLINE( 728)		if (::hx::IsNotEq( this->_defaultFormat->bold,value )) {
-HXLINE( 730)			this->_defaultFormat->bold = value;
-HXLINE( 731)			{
-HXLINE( 731)				this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 731)				this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 731)				this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_702_set_bold)
+HXLINE( 703)		if (::hx::IsNotEq( this->_defaultFormat->bold,value )) {
+HXLINE( 705)			this->_defaultFormat->bold = value;
+HXLINE( 706)			{
+HXLINE( 706)				this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 706)				this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 706)				this->_regen = true;
             			}
             		}
-HXLINE( 733)		return value;
+HXLINE( 708)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_bold,return )
 
 bool FlxText_obj::get_italic(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_738_get_italic)
-HXDLIN( 738)		return ( (bool)(this->_defaultFormat->italic) );
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_713_get_italic)
+HXDLIN( 713)		return ( (bool)(this->_defaultFormat->italic) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_italic,return )
 
 bool FlxText_obj::set_italic(bool value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_742_set_italic)
-HXLINE( 743)		if (::hx::IsNotEq( this->_defaultFormat->italic,value )) {
-HXLINE( 745)			this->_defaultFormat->italic = value;
-HXLINE( 746)			{
-HXLINE( 746)				this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 746)				this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 746)				this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_717_set_italic)
+HXLINE( 718)		if (::hx::IsNotEq( this->_defaultFormat->italic,value )) {
+HXLINE( 720)			this->_defaultFormat->italic = value;
+HXLINE( 721)			{
+HXLINE( 721)				this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 721)				this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 721)				this->_regen = true;
             			}
             		}
-HXLINE( 748)		return value;
+HXLINE( 723)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_italic,return )
 
-bool FlxText_obj::get_underline(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_753_get_underline)
-HXDLIN( 753)		return ( (bool)(this->_defaultFormat->underline) );
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_underline,return )
-
-bool FlxText_obj::set_underline(bool value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_757_set_underline)
-HXLINE( 758)		if (::hx::IsNotEq( this->_defaultFormat->underline,value )) {
-HXLINE( 760)			this->_defaultFormat->underline = value;
-HXLINE( 761)			{
-HXLINE( 761)				this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 761)				this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 761)				this->_regen = true;
-            			}
-            		}
-HXLINE( 763)		return value;
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_underline,return )
-
 bool FlxText_obj::get_wordWrap(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_768_get_wordWrap)
-HXDLIN( 768)		return this->textField->get_wordWrap();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_728_get_wordWrap)
+HXDLIN( 728)		return this->textField->get_wordWrap();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_wordWrap,return )
 
 bool FlxText_obj::set_wordWrap(bool value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_772_set_wordWrap)
-HXLINE( 773)		if ((this->textField->get_wordWrap() != value)) {
-HXLINE( 775)			this->textField->set_wordWrap(value);
-HXLINE( 776)			this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_732_set_wordWrap)
+HXLINE( 733)		if ((this->textField->get_wordWrap() != value)) {
+HXLINE( 735)			this->textField->set_wordWrap(value);
+HXLINE( 736)			this->_regen = true;
             		}
-HXLINE( 778)		return value;
+HXLINE( 738)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_wordWrap,return )
 
 ::String FlxText_obj::get_alignment(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_783_get_alignment)
-HXDLIN( 783)		return ::flixel::text::_FlxText::FlxTextAlign_Impl__obj::fromOpenFL(this->_defaultFormat->align);
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_743_get_alignment)
+HXDLIN( 743)		return ::flixel::text::_FlxText::FlxTextAlign_Impl__obj::fromOpenFL(this->_defaultFormat->align);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,get_alignment,return )
 
 ::String FlxText_obj::set_alignment(::String Alignment){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_787_set_alignment)
-HXLINE( 788)		this->_defaultFormat->align = ::flixel::text::_FlxText::FlxTextAlign_Impl__obj::toOpenFL(Alignment);
-HXLINE( 789)		{
-HXLINE( 789)			this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXDLIN( 789)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXDLIN( 789)			this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_747_set_alignment)
+HXLINE( 748)		this->_defaultFormat->align = ::flixel::text::_FlxText::FlxTextAlign_Impl__obj::toOpenFL(Alignment);
+HXLINE( 749)		{
+HXLINE( 749)			this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXDLIN( 749)			this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXDLIN( 749)			this->_regen = true;
             		}
-HXLINE( 790)		return Alignment;
+HXLINE( 750)		return Alignment;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_alignment,return )
 
  ::flixel::text::FlxTextBorderStyle FlxText_obj::set_borderStyle( ::flixel::text::FlxTextBorderStyle style){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_794_set_borderStyle)
-HXLINE( 795)		if (::hx::IsPointerNotEq( style,this->borderStyle )) {
-HXLINE( 796)			this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_754_set_borderStyle)
+HXLINE( 755)		if (::hx::IsPointerNotEq( style,this->borderStyle )) {
+HXLINE( 756)			this->_regen = true;
             		}
-HXLINE( 798)		return (this->borderStyle = style);
+HXLINE( 758)		return (this->borderStyle = style);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_borderStyle,return )
 
 int FlxText_obj::set_borderColor(int Color){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_802_set_borderColor)
-HXLINE( 803)		bool _hx_tmp;
-HXDLIN( 803)		if ((this->borderColor != Color)) {
-HXLINE( 803)			_hx_tmp = ::hx::IsPointerNotEq( this->borderStyle,::flixel::text::FlxTextBorderStyle_obj::NONE_dyn() );
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_762_set_borderColor)
+HXLINE( 763)		bool _hx_tmp;
+HXDLIN( 763)		if ((this->borderColor != Color)) {
+HXLINE( 763)			_hx_tmp = ::hx::IsPointerNotEq( this->borderStyle,::flixel::text::FlxTextBorderStyle_obj::NONE_dyn() );
             		}
             		else {
-HXLINE( 803)			_hx_tmp = false;
+HXLINE( 763)			_hx_tmp = false;
             		}
-HXDLIN( 803)		if (_hx_tmp) {
-HXLINE( 804)			this->_regen = true;
+HXDLIN( 763)		if (_hx_tmp) {
+HXLINE( 764)			this->_regen = true;
             		}
-HXLINE( 805)		this->_hasBorderAlpha = ((( (Float)(((Color >> 24) & 255)) ) / ( (Float)(255) )) < 1);
-HXLINE( 806)		return (this->borderColor = Color);
+HXLINE( 765)		this->_hasBorderAlpha = ((( (Float)(((Color >> 24) & 255)) ) / ( (Float)(255) )) < 1);
+HXLINE( 766)		return (this->borderColor = Color);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_borderColor,return )
 
 Float FlxText_obj::set_borderSize(Float Value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_810_set_borderSize)
-HXLINE( 811)		bool _hx_tmp;
-HXDLIN( 811)		if ((Value != this->borderSize)) {
-HXLINE( 811)			_hx_tmp = ::hx::IsPointerNotEq( this->borderStyle,::flixel::text::FlxTextBorderStyle_obj::NONE_dyn() );
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_770_set_borderSize)
+HXLINE( 771)		bool _hx_tmp;
+HXDLIN( 771)		if ((Value != this->borderSize)) {
+HXLINE( 771)			_hx_tmp = ::hx::IsPointerNotEq( this->borderStyle,::flixel::text::FlxTextBorderStyle_obj::NONE_dyn() );
             		}
             		else {
-HXLINE( 811)			_hx_tmp = false;
+HXLINE( 771)			_hx_tmp = false;
             		}
-HXDLIN( 811)		if (_hx_tmp) {
-HXLINE( 812)			this->_regen = true;
+HXDLIN( 771)		if (_hx_tmp) {
+HXLINE( 772)			this->_regen = true;
             		}
-HXLINE( 814)		return (this->borderSize = Value);
+HXLINE( 774)		return (this->borderSize = Value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_borderSize,return )
 
 Float FlxText_obj::set_borderQuality(Float Value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_818_set_borderQuality)
-HXLINE( 819)		Float lowerBound;
-HXDLIN( 819)		if ((Value < 0)) {
-HXLINE( 819)			lowerBound = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_778_set_borderQuality)
+HXLINE( 779)		Float lowerBound;
+HXDLIN( 779)		if ((Value < 0)) {
+HXLINE( 779)			lowerBound = ( (Float)(0) );
             		}
             		else {
-HXLINE( 819)			lowerBound = Value;
+HXLINE( 779)			lowerBound = Value;
             		}
-HXDLIN( 819)		if ((lowerBound > 1)) {
-HXLINE( 819)			Value = ( (Float)(1) );
-            		}
-            		else {
-HXLINE( 819)			Value = lowerBound;
-            		}
-HXLINE( 820)		bool _hx_tmp;
-HXDLIN( 820)		if ((Value != this->borderQuality)) {
-HXLINE( 820)			_hx_tmp = ::hx::IsPointerNotEq( this->borderStyle,::flixel::text::FlxTextBorderStyle_obj::NONE_dyn() );
+HXDLIN( 779)		if ((lowerBound > 1)) {
+HXLINE( 779)			Value = ( (Float)(1) );
             		}
             		else {
-HXLINE( 820)			_hx_tmp = false;
+HXLINE( 779)			Value = lowerBound;
             		}
-HXDLIN( 820)		if (_hx_tmp) {
-HXLINE( 821)			this->_regen = true;
+HXLINE( 780)		bool _hx_tmp;
+HXDLIN( 780)		if ((Value != this->borderQuality)) {
+HXLINE( 780)			_hx_tmp = ::hx::IsPointerNotEq( this->borderStyle,::flixel::text::FlxTextBorderStyle_obj::NONE_dyn() );
             		}
-HXLINE( 823)		return (this->borderQuality = Value);
+            		else {
+HXLINE( 780)			_hx_tmp = false;
+            		}
+HXDLIN( 780)		if (_hx_tmp) {
+HXLINE( 781)			this->_regen = true;
+            		}
+HXLINE( 783)		return (this->borderQuality = Value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,set_borderQuality,return )
 
  ::flixel::graphics::FlxGraphic FlxText_obj::set_graphic( ::flixel::graphics::FlxGraphic Value){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_827_set_graphic)
-HXLINE( 828)		 ::flixel::graphics::FlxGraphic oldGraphic = this->graphic;
-HXLINE( 829)		 ::flixel::graphics::FlxGraphic graph = this->super::set_graphic(Value);
-HXLINE( 830)		::flixel::FlxG_obj::bitmap->removeIfNoUse(oldGraphic);
-HXLINE( 831)		return graph;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_787_set_graphic)
+HXLINE( 788)		 ::flixel::graphics::FlxGraphic oldGraphic = this->graphic;
+HXLINE( 789)		 ::flixel::graphics::FlxGraphic graph = this->super::set_graphic(Value);
+HXLINE( 790)		::flixel::FlxG_obj::bitmap->removeIfNoUse(oldGraphic);
+HXLINE( 791)		return graph;
             	}
 
 
 Float FlxText_obj::get_width(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_835_get_width)
-HXLINE( 836)		this->regenGraphic();
-HXLINE( 837)		return this->super::get_width();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_795_get_width)
+HXLINE( 796)		this->regenGraphic();
+HXLINE( 797)		return this->super::get_width();
             	}
 
 
 Float FlxText_obj::get_height(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_841_get_height)
-HXLINE( 842)		this->regenGraphic();
-HXLINE( 843)		return this->super::get_height();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_801_get_height)
+HXLINE( 802)		this->regenGraphic();
+HXLINE( 803)		return this->super::get_height();
             	}
 
 
 void FlxText_obj::updateColorTransform(){
-            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_847_updateColorTransform)
-HXLINE( 848)		if (::hx::IsNull( this->colorTransform )) {
-HXLINE( 849)			this->colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_807_updateColorTransform)
+HXLINE( 808)		if (::hx::IsNull( this->colorTransform )) {
+HXLINE( 809)			this->colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
             		}
-HXLINE( 851)		if ((this->alpha != 1)) {
-HXLINE( 853)			this->colorTransform->alphaMultiplier = this->alpha;
-HXLINE( 854)			this->useColorTransform = true;
+HXLINE( 811)		if ((this->alpha != 1)) {
+HXLINE( 813)			this->colorTransform->alphaMultiplier = this->alpha;
+HXLINE( 814)			this->useColorTransform = true;
             		}
             		else {
-HXLINE( 858)			this->colorTransform->alphaMultiplier = ( (Float)(1) );
-HXLINE( 859)			this->useColorTransform = false;
+HXLINE( 818)			this->colorTransform->alphaMultiplier = ( (Float)(1) );
+HXLINE( 819)			this->useColorTransform = false;
             		}
-HXLINE( 862)		this->dirty = true;
+HXLINE( 822)		this->dirty = true;
             	}
 
 
 void FlxText_obj::regenGraphic(){
-            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_866_regenGraphic)
-HXLINE( 867)		bool _hx_tmp;
-HXDLIN( 867)		if (::hx::IsNotNull( this->textField )) {
-HXLINE( 867)			_hx_tmp = !(this->_regen);
+            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_826_regenGraphic)
+HXLINE( 827)		bool _hx_tmp;
+HXDLIN( 827)		if (::hx::IsNotNull( this->textField )) {
+HXLINE( 827)			_hx_tmp = !(this->_regen);
             		}
             		else {
-HXLINE( 867)			_hx_tmp = true;
+HXLINE( 827)			_hx_tmp = true;
             		}
-HXDLIN( 867)		if (_hx_tmp) {
-HXLINE( 868)			return;
+HXDLIN( 827)		if (_hx_tmp) {
+HXLINE( 828)			return;
             		}
-HXLINE( 870)		int oldWidth = 0;
-HXLINE( 871)		int oldHeight = 4;
-HXLINE( 873)		if (::hx::IsNotNull( this->graphic )) {
-HXLINE( 875)			oldWidth = this->graphic->width;
-HXLINE( 876)			oldHeight = this->graphic->height;
+HXLINE( 830)		int oldWidth = 0;
+HXLINE( 831)		int oldHeight = 4;
+HXLINE( 833)		if (::hx::IsNotNull( this->graphic )) {
+HXLINE( 835)			oldWidth = this->graphic->width;
+HXLINE( 836)			oldHeight = this->graphic->height;
             		}
-HXLINE( 879)		int newWidth = ::Math_obj::ceil(this->textField->get_width());
-HXLINE( 880)		Float textfieldHeight;
-HXDLIN( 880)		if (this->_autoHeight) {
-HXLINE( 880)			textfieldHeight = this->textField->get_textHeight();
-            		}
-            		else {
-HXLINE( 880)			textfieldHeight = this->textField->get_height();
-            		}
-HXLINE( 881)		int vertGutter;
-HXDLIN( 881)		if (this->_autoHeight) {
-HXLINE( 881)			vertGutter = 4;
+HXLINE( 839)		int newWidth = ::Math_obj::ceil(this->textField->get_width());
+HXLINE( 840)		Float textfieldHeight;
+HXDLIN( 840)		if (this->_autoHeight) {
+HXLINE( 840)			textfieldHeight = this->textField->get_textHeight();
             		}
             		else {
-HXLINE( 881)			vertGutter = 0;
+HXLINE( 840)			textfieldHeight = this->textField->get_height();
             		}
-HXLINE( 883)		int newHeight = (::Math_obj::ceil(textfieldHeight) + vertGutter);
-HXLINE( 886)		if ((this->textField->get_textHeight() == 0)) {
-HXLINE( 888)			newHeight = oldHeight;
-            		}
-HXLINE( 891)		bool _hx_tmp1;
-HXDLIN( 891)		if ((oldWidth == newWidth)) {
-HXLINE( 891)			_hx_tmp1 = (oldHeight != newHeight);
+HXLINE( 841)		int vertGutter;
+HXDLIN( 841)		if (this->_autoHeight) {
+HXLINE( 841)			vertGutter = 4;
             		}
             		else {
-HXLINE( 891)			_hx_tmp1 = true;
+HXLINE( 841)			vertGutter = 0;
             		}
-HXDLIN( 891)		if (_hx_tmp1) {
-HXLINE( 894)			::String key = ::flixel::FlxG_obj::bitmap->getUniqueKey(HX_("text",ad,cc,f9,4c));
-HXLINE( 895)			this->makeGraphic(newWidth,newHeight,0,false,key);
-HXLINE( 897)			if (this->_hasBorderAlpha) {
-HXLINE( 898)				this->_borderPixels = this->graphic->bitmap->clone();
+HXLINE( 843)		int newHeight = (::Math_obj::ceil(textfieldHeight) + vertGutter);
+HXLINE( 846)		if ((this->textField->get_textHeight() == 0)) {
+HXLINE( 848)			newHeight = oldHeight;
+            		}
+HXLINE( 851)		bool _hx_tmp1;
+HXDLIN( 851)		if ((oldWidth == newWidth)) {
+HXLINE( 851)			_hx_tmp1 = (oldHeight != newHeight);
+            		}
+            		else {
+HXLINE( 851)			_hx_tmp1 = true;
+            		}
+HXDLIN( 851)		if (_hx_tmp1) {
+HXLINE( 854)			::String key = ::flixel::FlxG_obj::bitmap->getUniqueKey(HX_("text",ad,cc,f9,4c));
+HXLINE( 855)			this->makeGraphic(newWidth,newHeight,0,false,key);
+HXLINE( 857)			if (this->_hasBorderAlpha) {
+HXLINE( 858)				this->_borderPixels = this->graphic->bitmap->clone();
             			}
-HXLINE( 900)			if (this->_autoHeight) {
-HXLINE( 901)				this->textField->set_height(( (Float)(newHeight) ));
+HXLINE( 860)			if (this->_autoHeight) {
+HXLINE( 861)				this->textField->set_height(( (Float)(newHeight) ));
             			}
-HXLINE( 903)			this->_flashRect->x = ( (Float)(0) );
-HXLINE( 904)			this->_flashRect->y = ( (Float)(0) );
-HXLINE( 905)			this->_flashRect->width = ( (Float)(newWidth) );
-HXLINE( 906)			this->_flashRect->height = ( (Float)(newHeight) );
+HXLINE( 863)			this->_flashRect->x = ( (Float)(0) );
+HXLINE( 864)			this->_flashRect->y = ( (Float)(0) );
+HXLINE( 865)			this->_flashRect->width = ( (Float)(newWidth) );
+HXLINE( 866)			this->_flashRect->height = ( (Float)(newHeight) );
             		}
             		else {
-HXLINE( 910)			this->graphic->bitmap->fillRect(this->_flashRect,0);
-HXLINE( 911)			if (this->_hasBorderAlpha) {
-HXLINE( 913)				if (::hx::IsNull( this->_borderPixels )) {
-HXLINE( 914)					this->_borderPixels =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->frameWidth,this->frameHeight,true,null());
+HXLINE( 870)			this->graphic->bitmap->fillRect(this->_flashRect,0);
+HXLINE( 871)			if (this->_hasBorderAlpha) {
+HXLINE( 873)				if (::hx::IsNull( this->_borderPixels )) {
+HXLINE( 874)					this->_borderPixels =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->frameWidth,this->frameHeight,true,null());
             				}
             				else {
-HXLINE( 916)					this->_borderPixels->fillRect(this->_flashRect,0);
+HXLINE( 876)					this->_borderPixels->fillRect(this->_flashRect,0);
             				}
             			}
             		}
-HXLINE( 920)		bool _hx_tmp2;
-HXDLIN( 920)		if (::hx::IsNotNull( this->textField )) {
-HXLINE( 920)			_hx_tmp2 = ::hx::IsNotNull( this->textField->get_text() );
+HXLINE( 880)		bool _hx_tmp2;
+HXDLIN( 880)		if (::hx::IsNotNull( this->textField )) {
+HXLINE( 880)			_hx_tmp2 = ::hx::IsNotNull( this->textField->get_text() );
             		}
             		else {
-HXLINE( 920)			_hx_tmp2 = false;
+HXLINE( 880)			_hx_tmp2 = false;
             		}
-HXDLIN( 920)		if (_hx_tmp2) {
-HXLINE( 923)			this->copyTextFormat(this->_defaultFormat,this->_formatAdjusted,null());
-HXLINE( 925)			this->_matrix->identity();
-HXLINE( 927)			this->applyBorderStyle();
-HXLINE( 928)			if (this->_hasBorderAlpha) {
-HXLINE( 928)				if (::hx::IsNull( this->_borderColorTransform )) {
-HXLINE( 928)					this->_borderColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+HXDLIN( 880)		if (_hx_tmp2) {
+HXLINE( 883)			this->copyTextFormat(this->_defaultFormat,this->_formatAdjusted,null());
+HXLINE( 885)			this->_matrix->identity();
+HXLINE( 887)			this->applyBorderStyle();
+HXLINE( 888)			if (this->_hasBorderAlpha) {
+HXLINE( 888)				if (::hx::IsNull( this->_borderColorTransform )) {
+HXLINE( 888)					this->_borderColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
             				}
-HXDLIN( 928)				this->_borderColorTransform->alphaMultiplier = (( (Float)(((this->borderColor >> 24) & 255)) ) / ( (Float)(255) ));
-HXDLIN( 928)				this->_borderPixels->colorTransform(this->_borderPixels->rect,this->_borderColorTransform);
-HXDLIN( 928)				this->graphic->bitmap->draw(this->_borderPixels,null(),null(),null(),null(),null());
+HXDLIN( 888)				this->_borderColorTransform->alphaMultiplier = (( (Float)(((this->borderColor >> 24) & 255)) ) / ( (Float)(255) ));
+HXDLIN( 888)				this->_borderPixels->colorTransform(this->_borderPixels->rect,this->_borderColorTransform);
+HXDLIN( 888)				this->graphic->bitmap->draw(this->_borderPixels,null(),null(),null(),null(),null());
             			}
-HXLINE( 929)			this->applyFormats(this->_formatAdjusted,false);
-HXLINE( 931)			this->drawTextFieldTo(this->graphic->bitmap);
+HXLINE( 889)			this->applyFormats(this->_formatAdjusted,false);
+HXLINE( 891)			this->drawTextFieldTo(this->graphic->bitmap);
             		}
-HXLINE( 934)		this->_regen = false;
-HXLINE( 935)		this->set_frame(this->frame);
+HXLINE( 894)		this->_regen = false;
+HXLINE( 895)		this->set_frame(this->frame);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,regenGraphic,(void))
 
 void FlxText_obj::drawTextFieldTo( ::openfl::display::BitmapData graphic){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_942_drawTextFieldTo)
-HXLINE( 970)		this->_matrix->translate(( (Float)(-1) ),( (Float)(-1) ));
-HXLINE( 971)		graphic->draw(this->textField,this->_matrix,null(),null(),null(),null());
-HXLINE( 972)		this->_matrix->translate(( (Float)(1) ),( (Float)(1) ));
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_902_drawTextFieldTo)
+HXLINE( 930)		this->_matrix->translate(( (Float)(-1) ),( (Float)(-1) ));
+HXLINE( 931)		graphic->draw(this->textField,this->_matrix,null(),null(),null(),null());
+HXLINE( 932)		this->_matrix->translate(( (Float)(1) ),( (Float)(1) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxText_obj,drawTextFieldTo,(void))
 
 void FlxText_obj::draw(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_998_draw)
-HXLINE( 999)		this->regenGraphic();
-HXLINE(1000)		this->super::draw();
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_958_draw)
+HXLINE( 959)		this->regenGraphic();
+HXLINE( 960)		this->super::draw();
             	}
 
 
 void FlxText_obj::calcFrame(::hx::Null< bool >  __o_RunOnCpp){
             		bool RunOnCpp = __o_RunOnCpp.Default(false);
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1009_calcFrame)
-HXLINE(1010)		if (::hx::IsNull( this->textField )) {
-HXLINE(1011)			return;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_969_calcFrame)
+HXLINE( 970)		if (::hx::IsNull( this->textField )) {
+HXLINE( 971)			return;
             		}
-HXLINE(1013)		bool _hx_tmp;
-HXDLIN(1013)		if (::flixel::FlxG_obj::renderTile) {
-HXLINE(1013)			_hx_tmp = !(RunOnCpp);
+HXLINE( 973)		bool _hx_tmp;
+HXDLIN( 973)		if (::flixel::FlxG_obj::renderTile) {
+HXLINE( 973)			_hx_tmp = !(RunOnCpp);
             		}
             		else {
-HXLINE(1013)			_hx_tmp = false;
+HXLINE( 973)			_hx_tmp = false;
             		}
-HXDLIN(1013)		if (_hx_tmp) {
-HXLINE(1014)			return;
+HXDLIN( 973)		if (_hx_tmp) {
+HXLINE( 974)			return;
             		}
-HXLINE(1016)		this->regenGraphic();
-HXLINE(1017)		this->super::calcFrame(RunOnCpp);
+HXLINE( 976)		this->regenGraphic();
+HXLINE( 977)		this->super::calcFrame(RunOnCpp);
             	}
 
 
 void FlxText_obj::applyBorderStyle(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1021_applyBorderStyle)
-HXLINE(1022)		int iterations = ::Std_obj::_hx_int((this->borderSize * this->borderQuality));
-HXLINE(1023)		if ((iterations <= 0)) {
-HXLINE(1025)			iterations = 1;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_981_applyBorderStyle)
+HXLINE( 982)		int iterations = ::Std_obj::_hx_int((this->borderSize * this->borderQuality));
+HXLINE( 983)		if ((iterations <= 0)) {
+HXLINE( 985)			iterations = 1;
             		}
-HXLINE(1027)		Float delta = (this->borderSize / ( (Float)(iterations) ));
-HXLINE(1029)		switch((int)(this->borderStyle->_hx_getIndex())){
+HXLINE( 987)		Float delta = (this->borderSize / ( (Float)(iterations) ));
+HXLINE( 989)		switch((int)(this->borderStyle->_hx_getIndex())){
             			case (int)0: {
             			}
             			break;
             			case (int)1: {
-HXLINE(1034)				this->applyFormats(this->_formatAdjusted,true);
-HXLINE(1036)				{
-HXLINE(1036)					int _g = 0;
-HXDLIN(1036)					int _g1 = iterations;
-HXDLIN(1036)					while((_g < _g1)){
-HXLINE(1036)						_g = (_g + 1);
-HXDLIN(1036)						int i = (_g - 1);
-HXLINE(1038)						{
-HXLINE(1038)							 ::openfl::display::BitmapData graphic;
-HXDLIN(1038)							if (this->_hasBorderAlpha) {
-HXLINE(1038)								graphic = this->_borderPixels;
+HXLINE( 994)				this->applyFormats(this->_formatAdjusted,true);
+HXLINE( 996)				{
+HXLINE( 996)					int _g = 0;
+HXDLIN( 996)					int _g1 = iterations;
+HXDLIN( 996)					while((_g < _g1)){
+HXLINE( 996)						_g = (_g + 1);
+HXDLIN( 996)						int i = (_g - 1);
+HXLINE( 998)						{
+HXLINE( 998)							 ::openfl::display::BitmapData graphic;
+HXDLIN( 998)							if (this->_hasBorderAlpha) {
+HXLINE( 998)								graphic = this->_borderPixels;
             							}
             							else {
-HXLINE(1038)								graphic = this->graphic->bitmap;
+HXLINE( 998)								graphic = this->graphic->bitmap;
             							}
-HXDLIN(1038)							this->_matrix->translate(delta,delta);
-HXDLIN(1038)							this->drawTextFieldTo(graphic);
+HXDLIN( 998)							this->_matrix->translate(delta,delta);
+HXDLIN( 998)							this->drawTextFieldTo(graphic);
             						}
             					}
             				}
-HXLINE(1041)				this->_matrix->translate((-(this->shadowOffset->x) * this->borderSize),(-(this->shadowOffset->y) * this->borderSize));
+HXLINE(1001)				this->_matrix->translate((-(this->shadowOffset->x) * this->borderSize),(-(this->shadowOffset->y) * this->borderSize));
             			}
             			break;
             			case (int)2: {
-HXLINE(1046)				this->applyFormats(this->_formatAdjusted,true);
-HXLINE(1048)				Float curDelta = delta;
-HXLINE(1049)				{
-HXLINE(1049)					int _g2 = 0;
-HXDLIN(1049)					int _g3 = iterations;
-HXDLIN(1049)					while((_g2 < _g3)){
-HXLINE(1049)						_g2 = (_g2 + 1);
-HXDLIN(1049)						int i1 = (_g2 - 1);
-HXLINE(1051)						{
-HXLINE(1051)							 ::openfl::display::BitmapData graphic1;
-HXDLIN(1051)							if (this->_hasBorderAlpha) {
-HXLINE(1051)								graphic1 = this->_borderPixels;
+HXLINE(1006)				this->applyFormats(this->_formatAdjusted,true);
+HXLINE(1008)				Float curDelta = delta;
+HXLINE(1009)				{
+HXLINE(1009)					int _g2 = 0;
+HXDLIN(1009)					int _g3 = iterations;
+HXDLIN(1009)					while((_g2 < _g3)){
+HXLINE(1009)						_g2 = (_g2 + 1);
+HXDLIN(1009)						int i1 = (_g2 - 1);
+HXLINE(1011)						{
+HXLINE(1011)							 ::openfl::display::BitmapData graphic1;
+HXDLIN(1011)							if (this->_hasBorderAlpha) {
+HXLINE(1011)								graphic1 = this->_borderPixels;
             							}
             							else {
-HXLINE(1051)								graphic1 = this->graphic->bitmap;
+HXLINE(1011)								graphic1 = this->graphic->bitmap;
             							}
-HXDLIN(1051)							this->_matrix->translate(-(curDelta),-(curDelta));
-HXDLIN(1051)							this->drawTextFieldTo(graphic1);
+HXDLIN(1011)							this->_matrix->translate(-(curDelta),-(curDelta));
+HXDLIN(1011)							this->drawTextFieldTo(graphic1);
             						}
-HXLINE(1052)						{
-HXLINE(1052)							 ::openfl::display::BitmapData graphic2;
-HXDLIN(1052)							if (this->_hasBorderAlpha) {
-HXLINE(1052)								graphic2 = this->_borderPixels;
+HXLINE(1012)						{
+HXLINE(1012)							 ::openfl::display::BitmapData graphic2;
+HXDLIN(1012)							if (this->_hasBorderAlpha) {
+HXLINE(1012)								graphic2 = this->_borderPixels;
             							}
             							else {
-HXLINE(1052)								graphic2 = this->graphic->bitmap;
+HXLINE(1012)								graphic2 = this->graphic->bitmap;
             							}
-HXDLIN(1052)							this->_matrix->translate(curDelta,( (Float)(0) ));
-HXDLIN(1052)							this->drawTextFieldTo(graphic2);
+HXDLIN(1012)							this->_matrix->translate(curDelta,( (Float)(0) ));
+HXDLIN(1012)							this->drawTextFieldTo(graphic2);
             						}
-HXLINE(1053)						{
-HXLINE(1053)							 ::openfl::display::BitmapData graphic3;
-HXDLIN(1053)							if (this->_hasBorderAlpha) {
-HXLINE(1053)								graphic3 = this->_borderPixels;
+HXLINE(1013)						{
+HXLINE(1013)							 ::openfl::display::BitmapData graphic3;
+HXDLIN(1013)							if (this->_hasBorderAlpha) {
+HXLINE(1013)								graphic3 = this->_borderPixels;
             							}
             							else {
-HXLINE(1053)								graphic3 = this->graphic->bitmap;
+HXLINE(1013)								graphic3 = this->graphic->bitmap;
             							}
-HXDLIN(1053)							this->_matrix->translate(curDelta,( (Float)(0) ));
-HXDLIN(1053)							this->drawTextFieldTo(graphic3);
+HXDLIN(1013)							this->_matrix->translate(curDelta,( (Float)(0) ));
+HXDLIN(1013)							this->drawTextFieldTo(graphic3);
             						}
-HXLINE(1054)						{
-HXLINE(1054)							 ::openfl::display::BitmapData graphic4;
-HXDLIN(1054)							if (this->_hasBorderAlpha) {
-HXLINE(1054)								graphic4 = this->_borderPixels;
+HXLINE(1014)						{
+HXLINE(1014)							 ::openfl::display::BitmapData graphic4;
+HXDLIN(1014)							if (this->_hasBorderAlpha) {
+HXLINE(1014)								graphic4 = this->_borderPixels;
             							}
             							else {
-HXLINE(1054)								graphic4 = this->graphic->bitmap;
+HXLINE(1014)								graphic4 = this->graphic->bitmap;
             							}
-HXDLIN(1054)							this->_matrix->translate(( (Float)(0) ),curDelta);
-HXDLIN(1054)							this->drawTextFieldTo(graphic4);
+HXDLIN(1014)							this->_matrix->translate(( (Float)(0) ),curDelta);
+HXDLIN(1014)							this->drawTextFieldTo(graphic4);
             						}
-HXLINE(1055)						{
-HXLINE(1055)							 ::openfl::display::BitmapData graphic5;
-HXDLIN(1055)							if (this->_hasBorderAlpha) {
-HXLINE(1055)								graphic5 = this->_borderPixels;
+HXLINE(1015)						{
+HXLINE(1015)							 ::openfl::display::BitmapData graphic5;
+HXDLIN(1015)							if (this->_hasBorderAlpha) {
+HXLINE(1015)								graphic5 = this->_borderPixels;
             							}
             							else {
-HXLINE(1055)								graphic5 = this->graphic->bitmap;
+HXLINE(1015)								graphic5 = this->graphic->bitmap;
             							}
-HXDLIN(1055)							this->_matrix->translate(( (Float)(0) ),curDelta);
-HXDLIN(1055)							this->drawTextFieldTo(graphic5);
+HXDLIN(1015)							this->_matrix->translate(( (Float)(0) ),curDelta);
+HXDLIN(1015)							this->drawTextFieldTo(graphic5);
             						}
-HXLINE(1056)						{
-HXLINE(1056)							 ::openfl::display::BitmapData graphic6;
-HXDLIN(1056)							if (this->_hasBorderAlpha) {
-HXLINE(1056)								graphic6 = this->_borderPixels;
+HXLINE(1016)						{
+HXLINE(1016)							 ::openfl::display::BitmapData graphic6;
+HXDLIN(1016)							if (this->_hasBorderAlpha) {
+HXLINE(1016)								graphic6 = this->_borderPixels;
             							}
             							else {
-HXLINE(1056)								graphic6 = this->graphic->bitmap;
+HXLINE(1016)								graphic6 = this->graphic->bitmap;
             							}
-HXDLIN(1056)							this->_matrix->translate(-(curDelta),( (Float)(0) ));
-HXDLIN(1056)							this->drawTextFieldTo(graphic6);
+HXDLIN(1016)							this->_matrix->translate(-(curDelta),( (Float)(0) ));
+HXDLIN(1016)							this->drawTextFieldTo(graphic6);
             						}
-HXLINE(1057)						{
-HXLINE(1057)							 ::openfl::display::BitmapData graphic7;
-HXDLIN(1057)							if (this->_hasBorderAlpha) {
-HXLINE(1057)								graphic7 = this->_borderPixels;
+HXLINE(1017)						{
+HXLINE(1017)							 ::openfl::display::BitmapData graphic7;
+HXDLIN(1017)							if (this->_hasBorderAlpha) {
+HXLINE(1017)								graphic7 = this->_borderPixels;
             							}
             							else {
-HXLINE(1057)								graphic7 = this->graphic->bitmap;
+HXLINE(1017)								graphic7 = this->graphic->bitmap;
             							}
-HXDLIN(1057)							this->_matrix->translate(-(curDelta),( (Float)(0) ));
-HXDLIN(1057)							this->drawTextFieldTo(graphic7);
+HXDLIN(1017)							this->_matrix->translate(-(curDelta),( (Float)(0) ));
+HXDLIN(1017)							this->drawTextFieldTo(graphic7);
             						}
-HXLINE(1058)						{
-HXLINE(1058)							 ::openfl::display::BitmapData graphic8;
-HXDLIN(1058)							if (this->_hasBorderAlpha) {
-HXLINE(1058)								graphic8 = this->_borderPixels;
+HXLINE(1018)						{
+HXLINE(1018)							 ::openfl::display::BitmapData graphic8;
+HXDLIN(1018)							if (this->_hasBorderAlpha) {
+HXLINE(1018)								graphic8 = this->_borderPixels;
             							}
             							else {
-HXLINE(1058)								graphic8 = this->graphic->bitmap;
+HXLINE(1018)								graphic8 = this->graphic->bitmap;
             							}
-HXDLIN(1058)							this->_matrix->translate(( (Float)(0) ),-(curDelta));
-HXDLIN(1058)							this->drawTextFieldTo(graphic8);
+HXDLIN(1018)							this->_matrix->translate(( (Float)(0) ),-(curDelta));
+HXDLIN(1018)							this->drawTextFieldTo(graphic8);
             						}
-HXLINE(1060)						this->_matrix->translate(curDelta,( (Float)(0) ));
-HXLINE(1061)						curDelta = (curDelta + delta);
+HXLINE(1020)						this->_matrix->translate(curDelta,( (Float)(0) ));
+HXLINE(1021)						curDelta = (curDelta + delta);
             					}
             				}
             			}
             			break;
             			case (int)3: {
-HXLINE(1068)				this->applyFormats(this->_formatAdjusted,true);
-HXLINE(1070)				Float curDelta1 = delta;
-HXLINE(1071)				{
-HXLINE(1071)					int _g4 = 0;
-HXDLIN(1071)					int _g5 = iterations;
-HXDLIN(1071)					while((_g4 < _g5)){
-HXLINE(1071)						_g4 = (_g4 + 1);
-HXDLIN(1071)						int i2 = (_g4 - 1);
-HXLINE(1073)						{
-HXLINE(1073)							 ::openfl::display::BitmapData graphic9;
-HXDLIN(1073)							if (this->_hasBorderAlpha) {
-HXLINE(1073)								graphic9 = this->_borderPixels;
+HXLINE(1028)				this->applyFormats(this->_formatAdjusted,true);
+HXLINE(1030)				Float curDelta1 = delta;
+HXLINE(1031)				{
+HXLINE(1031)					int _g4 = 0;
+HXDLIN(1031)					int _g5 = iterations;
+HXDLIN(1031)					while((_g4 < _g5)){
+HXLINE(1031)						_g4 = (_g4 + 1);
+HXDLIN(1031)						int i2 = (_g4 - 1);
+HXLINE(1033)						{
+HXLINE(1033)							 ::openfl::display::BitmapData graphic9;
+HXDLIN(1033)							if (this->_hasBorderAlpha) {
+HXLINE(1033)								graphic9 = this->_borderPixels;
             							}
             							else {
-HXLINE(1073)								graphic9 = this->graphic->bitmap;
+HXLINE(1033)								graphic9 = this->graphic->bitmap;
             							}
-HXDLIN(1073)							this->_matrix->translate(-(curDelta1),-(curDelta1));
-HXDLIN(1073)							this->drawTextFieldTo(graphic9);
+HXDLIN(1033)							this->_matrix->translate(-(curDelta1),-(curDelta1));
+HXDLIN(1033)							this->drawTextFieldTo(graphic9);
             						}
-HXLINE(1074)						{
-HXLINE(1074)							 ::openfl::display::BitmapData graphic10;
-HXDLIN(1074)							if (this->_hasBorderAlpha) {
-HXLINE(1074)								graphic10 = this->_borderPixels;
+HXLINE(1034)						{
+HXLINE(1034)							 ::openfl::display::BitmapData graphic10;
+HXDLIN(1034)							if (this->_hasBorderAlpha) {
+HXLINE(1034)								graphic10 = this->_borderPixels;
             							}
             							else {
-HXLINE(1074)								graphic10 = this->graphic->bitmap;
+HXLINE(1034)								graphic10 = this->graphic->bitmap;
             							}
-HXDLIN(1074)							this->_matrix->translate((curDelta1 * ( (Float)(2) )),( (Float)(0) ));
-HXDLIN(1074)							this->drawTextFieldTo(graphic10);
+HXDLIN(1034)							this->_matrix->translate((curDelta1 * ( (Float)(2) )),( (Float)(0) ));
+HXDLIN(1034)							this->drawTextFieldTo(graphic10);
             						}
-HXLINE(1075)						{
-HXLINE(1075)							 ::openfl::display::BitmapData graphic11;
-HXDLIN(1075)							if (this->_hasBorderAlpha) {
-HXLINE(1075)								graphic11 = this->_borderPixels;
+HXLINE(1035)						{
+HXLINE(1035)							 ::openfl::display::BitmapData graphic11;
+HXDLIN(1035)							if (this->_hasBorderAlpha) {
+HXLINE(1035)								graphic11 = this->_borderPixels;
             							}
             							else {
-HXLINE(1075)								graphic11 = this->graphic->bitmap;
+HXLINE(1035)								graphic11 = this->graphic->bitmap;
             							}
-HXDLIN(1075)							this->_matrix->translate(( (Float)(0) ),(curDelta1 * ( (Float)(2) )));
-HXDLIN(1075)							this->drawTextFieldTo(graphic11);
+HXDLIN(1035)							this->_matrix->translate(( (Float)(0) ),(curDelta1 * ( (Float)(2) )));
+HXDLIN(1035)							this->drawTextFieldTo(graphic11);
             						}
-HXLINE(1076)						{
-HXLINE(1076)							 ::openfl::display::BitmapData graphic12;
-HXDLIN(1076)							if (this->_hasBorderAlpha) {
-HXLINE(1076)								graphic12 = this->_borderPixels;
+HXLINE(1036)						{
+HXLINE(1036)							 ::openfl::display::BitmapData graphic12;
+HXDLIN(1036)							if (this->_hasBorderAlpha) {
+HXLINE(1036)								graphic12 = this->_borderPixels;
             							}
             							else {
-HXLINE(1076)								graphic12 = this->graphic->bitmap;
+HXLINE(1036)								graphic12 = this->graphic->bitmap;
             							}
-HXDLIN(1076)							this->_matrix->translate((-(curDelta1) * ( (Float)(2) )),( (Float)(0) ));
-HXDLIN(1076)							this->drawTextFieldTo(graphic12);
+HXDLIN(1036)							this->_matrix->translate((-(curDelta1) * ( (Float)(2) )),( (Float)(0) ));
+HXDLIN(1036)							this->drawTextFieldTo(graphic12);
             						}
-HXLINE(1078)						this->_matrix->translate(curDelta1,-(curDelta1));
-HXLINE(1079)						curDelta1 = (curDelta1 + delta);
+HXLINE(1038)						this->_matrix->translate(curDelta1,-(curDelta1));
+HXLINE(1039)						curDelta1 = (curDelta1 + delta);
             					}
             				}
             			}
@@ -1467,32 +1416,32 @@ HXLINE(1079)						curDelta1 = (curDelta1 + delta);
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,applyBorderStyle,(void))
 
 void FlxText_obj::applyBorderTransparency(){
-            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_1087_applyBorderTransparency)
-HXLINE(1088)		if (!(this->_hasBorderAlpha)) {
-HXLINE(1089)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_1047_applyBorderTransparency)
+HXLINE(1048)		if (!(this->_hasBorderAlpha)) {
+HXLINE(1049)			return;
             		}
-HXLINE(1091)		if (::hx::IsNull( this->_borderColorTransform )) {
-HXLINE(1092)			this->_borderColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE(1051)		if (::hx::IsNull( this->_borderColorTransform )) {
+HXLINE(1052)			this->_borderColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
             		}
-HXLINE(1094)		this->_borderColorTransform->alphaMultiplier = (( (Float)(((this->borderColor >> 24) & 255)) ) / ( (Float)(255) ));
-HXLINE(1095)		this->_borderPixels->colorTransform(this->_borderPixels->rect,this->_borderColorTransform);
-HXLINE(1096)		this->graphic->bitmap->draw(this->_borderPixels,null(),null(),null(),null(),null());
+HXLINE(1054)		this->_borderColorTransform->alphaMultiplier = (( (Float)(((this->borderColor >> 24) & 255)) ) / ( (Float)(255) ));
+HXLINE(1055)		this->_borderPixels->colorTransform(this->_borderPixels->rect,this->_borderColorTransform);
+HXLINE(1056)		this->graphic->bitmap->draw(this->_borderPixels,null(),null(),null(),null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,applyBorderTransparency,(void))
 
 void FlxText_obj::copyTextWithOffset(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1103_copyTextWithOffset)
-HXLINE(1104)		 ::openfl::display::BitmapData graphic;
-HXDLIN(1104)		if (this->_hasBorderAlpha) {
-HXLINE(1104)			graphic = this->_borderPixels;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1063_copyTextWithOffset)
+HXLINE(1064)		 ::openfl::display::BitmapData graphic;
+HXDLIN(1064)		if (this->_hasBorderAlpha) {
+HXLINE(1064)			graphic = this->_borderPixels;
             		}
             		else {
-HXLINE(1104)			graphic = this->graphic->bitmap;
+HXLINE(1064)			graphic = this->graphic->bitmap;
             		}
-HXLINE(1105)		this->_matrix->translate(x,y);
-HXLINE(1106)		this->drawTextFieldTo(graphic);
+HXLINE(1065)		this->_matrix->translate(x,y);
+HXLINE(1066)		this->drawTextFieldTo(graphic);
             	}
 
 
@@ -1500,45 +1449,45 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxText_obj,copyTextWithOffset,(void))
 
 void FlxText_obj::applyFormats( ::openfl::text::TextFormat FormatAdjusted,::hx::Null< bool >  __o_UseBorderColor){
             		bool UseBorderColor = __o_UseBorderColor.Default(false);
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1110_applyFormats)
-HXLINE(1112)		this->copyTextFormat(this->_defaultFormat,FormatAdjusted,false);
-HXLINE(1113)		 ::Dynamic _hx_tmp;
-HXDLIN(1113)		if (UseBorderColor) {
-HXLINE(1113)			_hx_tmp = (this->borderColor & 16777215);
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1070_applyFormats)
+HXLINE(1072)		this->copyTextFormat(this->_defaultFormat,FormatAdjusted,false);
+HXLINE(1073)		 ::Dynamic _hx_tmp;
+HXDLIN(1073)		if (UseBorderColor) {
+HXLINE(1073)			_hx_tmp = (this->borderColor & 16777215);
             		}
             		else {
-HXLINE(1113)			_hx_tmp = this->_defaultFormat->color;
+HXLINE(1073)			_hx_tmp = this->_defaultFormat->color;
             		}
-HXDLIN(1113)		FormatAdjusted->color = _hx_tmp;
-HXLINE(1114)		this->textField->setTextFormat(FormatAdjusted,null(),null());
-HXLINE(1117)		{
-HXLINE(1117)			int _g = 0;
-HXDLIN(1117)			::Array< ::Dynamic> _g1 = this->_formatRanges;
-HXDLIN(1117)			while((_g < _g1->length)){
-HXLINE(1117)				 ::flixel::text::_FlxText::FlxTextFormatRange formatRange = _g1->__get(_g).StaticCast<  ::flixel::text::_FlxText::FlxTextFormatRange >();
-HXDLIN(1117)				_g = (_g + 1);
-HXLINE(1119)				int _hx_tmp1 = (this->textField->get_text().length - 1);
-HXDLIN(1119)				if (::hx::IsLess( _hx_tmp1,formatRange->range->start )) {
-HXLINE(1122)					goto _hx_goto_66;
+HXDLIN(1073)		FormatAdjusted->color = _hx_tmp;
+HXLINE(1074)		this->textField->setTextFormat(FormatAdjusted,null(),null());
+HXLINE(1077)		{
+HXLINE(1077)			int _g = 0;
+HXDLIN(1077)			::Array< ::Dynamic> _g1 = this->_formatRanges;
+HXDLIN(1077)			while((_g < _g1->length)){
+HXLINE(1077)				 ::flixel::text::_FlxText::FlxTextFormatRange formatRange = _g1->__get(_g).StaticCast<  ::flixel::text::_FlxText::FlxTextFormatRange >();
+HXDLIN(1077)				_g = (_g + 1);
+HXLINE(1079)				int _hx_tmp1 = (this->textField->get_text().length - 1);
+HXDLIN(1079)				if (::hx::IsLess( _hx_tmp1,formatRange->range->start )) {
+HXLINE(1082)					goto _hx_goto_62;
             				}
             				else {
-HXLINE(1126)					 ::openfl::text::TextFormat textFormat = formatRange->format->format;
-HXLINE(1127)					this->copyTextFormat(textFormat,FormatAdjusted,false);
-HXLINE(1128)					 ::Dynamic _hx_tmp2;
-HXDLIN(1128)					if (UseBorderColor) {
-HXLINE(1128)						_hx_tmp2 = (formatRange->format->borderColor & 16777215);
+HXLINE(1086)					 ::openfl::text::TextFormat textFormat = formatRange->format->format;
+HXLINE(1087)					this->copyTextFormat(textFormat,FormatAdjusted,false);
+HXLINE(1088)					 ::Dynamic _hx_tmp2;
+HXDLIN(1088)					if (UseBorderColor) {
+HXLINE(1088)						_hx_tmp2 = (formatRange->format->borderColor & 16777215);
             					}
             					else {
-HXLINE(1128)						_hx_tmp2 = textFormat->color;
+HXLINE(1088)						_hx_tmp2 = textFormat->color;
             					}
-HXDLIN(1128)					FormatAdjusted->color = _hx_tmp2;
+HXDLIN(1088)					FormatAdjusted->color = _hx_tmp2;
             				}
-HXLINE(1131)				 ::openfl::text::TextField _hx_tmp3 = this->textField;
-HXDLIN(1131)				int formatRange1 = ( (int)(formatRange->range->start) );
-HXDLIN(1131)				int formatRange2 = ( (int)(formatRange->range->end) );
-HXDLIN(1131)				_hx_tmp3->setTextFormat(FormatAdjusted,formatRange1,::Std_obj::_hx_int(::Math_obj::min(( (Float)(formatRange2) ),( (Float)(this->textField->get_text().length) ))));
+HXLINE(1091)				 ::openfl::text::TextField _hx_tmp3 = this->textField;
+HXDLIN(1091)				int formatRange1 = ( (int)(formatRange->range->start) );
+HXDLIN(1091)				int formatRange2 = ( (int)(formatRange->range->end) );
+HXDLIN(1091)				_hx_tmp3->setTextFormat(FormatAdjusted,formatRange1,::Std_obj::_hx_int(::Math_obj::min(( (Float)(formatRange2) ),( (Float)(this->textField->get_text().length) ))));
             			}
-            			_hx_goto_66:;
+            			_hx_goto_62:;
             		}
             	}
 
@@ -1547,16 +1496,15 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxText_obj,applyFormats,(void))
 
 void FlxText_obj::copyTextFormat( ::openfl::text::TextFormat from, ::openfl::text::TextFormat to,::hx::Null< bool >  __o_withAlign){
             		bool withAlign = __o_withAlign.Default(true);
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1136_copyTextFormat)
-HXLINE(1137)		to->font = from->font;
-HXLINE(1138)		to->bold = from->bold;
-HXLINE(1139)		to->italic = from->italic;
-HXLINE(1140)		to->underline = from->underline;
-HXLINE(1141)		to->size = from->size;
-HXLINE(1142)		to->color = from->color;
-HXLINE(1143)		to->leading = from->leading;
-HXLINE(1144)		if (withAlign) {
-HXLINE(1145)			to->align = from->align;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1096_copyTextFormat)
+HXLINE(1097)		to->font = from->font;
+HXLINE(1098)		to->bold = from->bold;
+HXLINE(1099)		to->italic = from->italic;
+HXLINE(1100)		to->size = from->size;
+HXLINE(1101)		to->color = from->color;
+HXLINE(1102)		to->leading = from->leading;
+HXLINE(1103)		if (withAlign) {
+HXLINE(1104)			to->align = from->align;
             		}
             	}
 
@@ -1564,29 +1512,29 @@ HXLINE(1145)			to->align = from->align;
 HX_DEFINE_DYNAMIC_FUNC3(FlxText_obj,copyTextFormat,(void))
 
  ::openfl::text::TextFormat FlxText_obj::dtfCopy(){
-            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_1154_dtfCopy)
-HXLINE(1155)		 ::openfl::text::TextFormat dtf = this->textField->get_defaultTextFormat();
-HXLINE(1156)		return  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,dtf->font,dtf->size,dtf->color,dtf->bold,dtf->italic,dtf->underline,dtf->url,dtf->target,dtf->align,null(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_7d9cf70d988be490_1113_dtfCopy)
+HXLINE(1114)		 ::openfl::text::TextFormat dtf = this->textField->get_defaultTextFormat();
+HXLINE(1115)		return  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,dtf->font,dtf->size,dtf->color,dtf->bold,dtf->italic,dtf->underline,dtf->url,dtf->target,dtf->align,null(),null(),null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,dtfCopy,return )
 
 void FlxText_obj::updateDefaultFormat(){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1160_updateDefaultFormat)
-HXLINE(1161)		this->textField->set_defaultTextFormat(this->_defaultFormat);
-HXLINE(1162)		this->textField->setTextFormat(this->_defaultFormat,null(),null());
-HXLINE(1163)		this->_regen = true;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1119_updateDefaultFormat)
+HXLINE(1120)		this->textField->set_defaultTextFormat(this->_defaultFormat);
+HXLINE(1121)		this->textField->setTextFormat(this->_defaultFormat,null(),null());
+HXLINE(1122)		this->_regen = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxText_obj,updateDefaultFormat,(void))
 
  ::flixel::graphics::frames::FlxFramesCollection FlxText_obj::set_frames( ::flixel::graphics::frames::FlxFramesCollection Frames){
-            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1167_set_frames)
-HXLINE(1168)		this->super::set_frames(Frames);
-HXLINE(1169)		this->_regen = false;
-HXLINE(1170)		return Frames;
+            	HX_STACKFRAME(&_hx_pos_7d9cf70d988be490_1126_set_frames)
+HXLINE(1127)		this->super::set_frames(Frames);
+HXLINE(1128)		this->_regen = false;
+HXLINE(1129)		return Frames;
             	}
 
 
@@ -1688,7 +1636,6 @@ void FlxText_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"set_bold") ) { return ::hx::Val( set_bold_dyn() ); }
 		break;
 	case 9:
-		if (HX_FIELD_EQ(inName,"underline") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_underline() ); }
 		if (HX_FIELD_EQ(inName,"alignment") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_alignment() ); }
 		if (HX_FIELD_EQ(inName,"textField") ) { return ::hx::Val( textField ); }
 		if (HX_FIELD_EQ(inName,"drawFrame") ) { return ::hx::Val( drawFrame_dyn() ); }
@@ -1730,12 +1677,9 @@ void FlxText_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"applyFormats") ) { return ::hx::Val( applyFormats_dyn() ); }
 		break;
 	case 13:
-		if (HX_FIELD_EQ(inName,"letterSpacing") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_letterSpacing() ); }
 		if (HX_FIELD_EQ(inName,"borderQuality") ) { return ::hx::Val( borderQuality ); }
 		if (HX_FIELD_EQ(inName,"_formatRanges") ) { return ::hx::Val( _formatRanges ); }
 		if (HX_FIELD_EQ(inName,"_borderPixels") ) { return ::hx::Val( _borderPixels ); }
-		if (HX_FIELD_EQ(inName,"get_underline") ) { return ::hx::Val( get_underline_dyn() ); }
-		if (HX_FIELD_EQ(inName,"set_underline") ) { return ::hx::Val( set_underline_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_alignment") ) { return ::hx::Val( get_alignment_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_alignment") ) { return ::hx::Val( set_alignment_dyn() ); }
 		break;
@@ -1763,8 +1707,6 @@ void FlxText_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"applyBorderStyle") ) { return ::hx::Val( applyBorderStyle_dyn() ); }
 		break;
 	case 17:
-		if (HX_FIELD_EQ(inName,"get_letterSpacing") ) { return ::hx::Val( get_letterSpacing_dyn() ); }
-		if (HX_FIELD_EQ(inName,"set_letterSpacing") ) { return ::hx::Val( set_letterSpacing_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_borderQuality") ) { return ::hx::Val( set_borderQuality_dyn() ); }
 		break;
 	case 18:
@@ -1806,7 +1748,6 @@ void FlxText_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"autoSize") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_autoSize(inValue.Cast< bool >()) ); }
 		break;
 	case 9:
-		if (HX_FIELD_EQ(inName,"underline") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_underline(inValue.Cast< bool >()) ); }
 		if (HX_FIELD_EQ(inName,"alignment") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_alignment(inValue.Cast< ::String >()) ); }
 		if (HX_FIELD_EQ(inName,"textField") ) { textField=inValue.Cast<  ::openfl::text::TextField >(); return inValue; }
 		break;
@@ -1825,7 +1766,6 @@ void FlxText_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"shadowOffset") ) { shadowOffset=inValue.Cast<  ::flixel::math::FlxBasePoint >(); return inValue; }
 		break;
 	case 13:
-		if (HX_FIELD_EQ(inName,"letterSpacing") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_letterSpacing(inValue.Cast< Float >()) ); }
 		if (HX_FIELD_EQ(inName,"borderQuality") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_borderQuality(inValue.Cast< Float >()) );borderQuality=inValue.Cast< Float >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"_formatRanges") ) { _formatRanges=inValue.Cast< ::Array< ::Dynamic> >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"_borderPixels") ) { _borderPixels=inValue.Cast<  ::openfl::display::BitmapData >(); return inValue; }
@@ -1847,13 +1787,11 @@ void FlxText_obj::__GetFields(Array< ::String> &outFields)
 {
 	outFields->push(HX_("text",ad,cc,f9,4c));
 	outFields->push(HX_("size",c1,a0,53,4c));
-	outFields->push(HX_("letterSpacing",3d,b7,03,f5));
 	outFields->push(HX_("font",cf,5d,c0,43));
 	outFields->push(HX_("embedded",8a,19,62,de));
 	outFields->push(HX_("systemFont",5e,c4,43,f2));
 	outFields->push(HX_("bold",85,81,1b,41));
 	outFields->push(HX_("italic",f0,2e,64,06));
-	outFields->push(HX_("underline",0c,15,d1,87));
 	outFields->push(HX_("wordWrap",b4,14,db,00));
 	outFields->push(HX_("alignment",e3,e2,3d,ea));
 	outFields->push(HX_("borderStyle",a5,70,96,10));
@@ -1940,8 +1878,6 @@ static ::String FlxText_obj_sMemberFields[] = {
 	HX_("set_text",aa,e1,11,7b),
 	HX_("get_size",4a,5c,0e,cc),
 	HX_("set_size",be,b5,6b,7a),
-	HX_("get_letterSpacing",94,c2,73,fb),
-	HX_("set_letterSpacing",a0,9a,e1,1e),
 	HX_("set_color",c6,b9,56,71),
 	HX_("get_font",58,19,7b,c3),
 	HX_("set_font",cc,72,d8,71),
@@ -1952,8 +1888,6 @@ static ::String FlxText_obj_sMemberFields[] = {
 	HX_("set_bold",82,96,33,6f),
 	HX_("get_italic",b9,9e,eb,f6),
 	HX_("set_italic",2d,3d,69,fa),
-	HX_("get_underline",e3,e8,34,49),
-	HX_("set_underline",ef,ca,3a,8e),
 	HX_("get_wordWrap",bd,c8,f4,b5),
 	HX_("set_wordWrap",31,ec,ed,ca),
 	HX_("get_alignment",ba,b6,a1,ab),

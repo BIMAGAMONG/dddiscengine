@@ -8,22 +8,22 @@
 #include <openfl/text/TextFormat.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a69907c6a733237a_1198_new,"flixel.text.FlxTextFormat","new",0x67be2279,"flixel.text.FlxTextFormat.new","flixel/text/FlxText.hx",1198,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_a69907c6a733237a_1204_set_leading,"flixel.text.FlxTextFormat","set_leading",0x68682d02,"flixel.text.FlxTextFormat.set_leading","flixel/text/FlxText.hx",1204,0xdf165a6e)
+HX_DEFINE_STACK_FRAME(_hx_pos_a69907c6a733237a_1156_new,"flixel.text.FlxTextFormat","new",0x67be2279,"flixel.text.FlxTextFormat.new","flixel/text/FlxText.hx",1156,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_a69907c6a733237a_1162_set_leading,"flixel.text.FlxTextFormat","set_leading",0x68682d02,"flixel.text.FlxTextFormat.set_leading","flixel/text/FlxText.hx",1162,0xdf165a6e)
 namespace flixel{
 namespace text{
 
-void FlxTextFormat_obj::__construct( ::Dynamic fontColor, ::Dynamic bold, ::Dynamic italic, ::Dynamic borderColor, ::Dynamic underline){
-            	HX_GC_STACKFRAME(&_hx_pos_a69907c6a733237a_1198_new)
-HXLINE(1199)		this->format =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),fontColor,bold,italic,underline,null(),null(),null(),null(),null(),null(),null());
-HXLINE(1200)		int _hx_tmp;
-HXDLIN(1200)		if (::hx::IsNull( borderColor )) {
-HXLINE(1200)			_hx_tmp = 0;
+void FlxTextFormat_obj::__construct( ::Dynamic FontColor, ::Dynamic Bold, ::Dynamic Italic, ::Dynamic BorderColor){
+            	HX_GC_STACKFRAME(&_hx_pos_a69907c6a733237a_1156_new)
+HXLINE(1157)		this->format =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),FontColor,Bold,Italic,null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE(1158)		int _hx_tmp;
+HXDLIN(1158)		if (::hx::IsNull( BorderColor )) {
+HXLINE(1158)			_hx_tmp = 0;
             		}
             		else {
-HXLINE(1200)			_hx_tmp = ( (int)(borderColor) );
+HXLINE(1158)			_hx_tmp = ( (int)(BorderColor) );
             		}
-HXDLIN(1200)		this->borderColor = _hx_tmp;
+HXDLIN(1158)		this->borderColor = _hx_tmp;
             	}
 
 Dynamic FlxTextFormat_obj::__CreateEmpty() { return new FlxTextFormat_obj; }
@@ -33,7 +33,7 @@ void *FlxTextFormat_obj::_hx_vtable = 0;
 Dynamic FlxTextFormat_obj::__Create(::hx::DynamicArray inArgs)
 {
 	::hx::ObjectPtr< FlxTextFormat_obj > _hx_result = new FlxTextFormat_obj();
-	_hx_result->__construct(inArgs[0],inArgs[1],inArgs[2],inArgs[3],inArgs[4]);
+	_hx_result->__construct(inArgs[0],inArgs[1],inArgs[2],inArgs[3]);
 	return _hx_result;
 }
 
@@ -42,25 +42,25 @@ bool FlxTextFormat_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 int FlxTextFormat_obj::set_leading(int value){
-            	HX_STACKFRAME(&_hx_pos_a69907c6a733237a_1204_set_leading)
-HXLINE(1205)		this->format->leading = value;
-HXLINE(1206)		return value;
+            	HX_STACKFRAME(&_hx_pos_a69907c6a733237a_1162_set_leading)
+HXLINE(1163)		this->format->leading = value;
+HXLINE(1164)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTextFormat_obj,set_leading,return )
 
 
-::hx::ObjectPtr< FlxTextFormat_obj > FlxTextFormat_obj::__new( ::Dynamic fontColor, ::Dynamic bold, ::Dynamic italic, ::Dynamic borderColor, ::Dynamic underline) {
+::hx::ObjectPtr< FlxTextFormat_obj > FlxTextFormat_obj::__new( ::Dynamic FontColor, ::Dynamic Bold, ::Dynamic Italic, ::Dynamic BorderColor) {
 	::hx::ObjectPtr< FlxTextFormat_obj > __this = new FlxTextFormat_obj();
-	__this->__construct(fontColor,bold,italic,borderColor,underline);
+	__this->__construct(FontColor,Bold,Italic,BorderColor);
 	return __this;
 }
 
-::hx::ObjectPtr< FlxTextFormat_obj > FlxTextFormat_obj::__alloc(::hx::Ctx *_hx_ctx, ::Dynamic fontColor, ::Dynamic bold, ::Dynamic italic, ::Dynamic borderColor, ::Dynamic underline) {
+::hx::ObjectPtr< FlxTextFormat_obj > FlxTextFormat_obj::__alloc(::hx::Ctx *_hx_ctx, ::Dynamic FontColor, ::Dynamic Bold, ::Dynamic Italic, ::Dynamic BorderColor) {
 	FlxTextFormat_obj *__this = (FlxTextFormat_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(FlxTextFormat_obj), true, "flixel.text.FlxTextFormat"));
 	*(void **)__this = FlxTextFormat_obj::_hx_vtable;
-	__this->__construct(fontColor,bold,italic,borderColor,underline);
+	__this->__construct(FontColor,Bold,Italic,BorderColor);
 	return __this;
 }
 

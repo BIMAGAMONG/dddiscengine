@@ -13,6 +13,7 @@ HX_DECLARE_CLASS1(flixel,FlxBasic)
 HX_DECLARE_CLASS1(flixel,FlxState)
 HX_DECLARE_CLASS2(flixel,group,FlxTypedGroup)
 HX_DECLARE_CLASS2(flixel,_hx_system,FlxSplash)
+HX_DECLARE_CLASS2(flixel,tweens,FlxTween)
 HX_DECLARE_CLASS2(flixel,util,FlxTimer)
 HX_DECLARE_CLASS2(flixel,util,IFlxDestroyable)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
@@ -39,13 +40,13 @@ class HXCPP_CLASS_ATTRIBUTES FlxSplash_obj : public  ::flixel::FlxState_obj
 	public:
 		enum { _hx_ClassId = 0x607fd7e6 };
 
-		void __construct( ::Dynamic nextState);
+		void __construct( ::Dynamic MaxSize);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="flixel.system.FlxSplash")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"flixel.system.FlxSplash"); }
-		static ::hx::ObjectPtr< FlxSplash_obj > __new( ::Dynamic nextState);
-		static ::hx::ObjectPtr< FlxSplash_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic nextState);
+		static ::hx::ObjectPtr< FlxSplash_obj > __new( ::Dynamic MaxSize);
+		static ::hx::ObjectPtr< FlxSplash_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic MaxSize);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);
@@ -64,6 +65,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxSplash_obj : public  ::flixel::FlxState_obj
 		::String __ToString() const { return HX_("FlxSplash",59,7b,87,41); }
 
 		static void __boot();
+		static ::hx::Class nextState;
 		static bool muted;
 		 ::openfl::display::Sprite _sprite;
 		 ::openfl::display::Graphics _gfx;
@@ -75,13 +77,9 @@ class HXCPP_CLASS_ATTRIBUTES FlxSplash_obj : public  ::flixel::FlxState_obj
 		int _cachedBgColor;
 		bool _cachedTimestep;
 		bool _cachedAutoPause;
-		 ::Dynamic nextState;
 		void create();
 
 		void destroy();
-
-		void complete();
-		::Dynamic complete_dyn();
 
 		void onResize(int Width,int Height);
 
@@ -103,7 +101,8 @@ class HXCPP_CLASS_ATTRIBUTES FlxSplash_obj : public  ::flixel::FlxState_obj
 		void drawLightBlue();
 		::Dynamic drawLightBlue_dyn();
 
-		virtual void startOutro( ::Dynamic onOutroComplete);
+		void onComplete( ::flixel::tweens::FlxTween Tween);
+		::Dynamic onComplete_dyn();
 
 };
 

@@ -31,13 +31,13 @@ class HXCPP_CLASS_ATTRIBUTES MenuState_obj : public  ::flixel::FlxState_obj
 	public:
 		enum { _hx_ClassId = 0x32c1072e };
 
-		void __construct();
+		void __construct( ::Dynamic MaxSize);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="MenuState")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"MenuState"); }
-		static ::hx::ObjectPtr< MenuState_obj > __new();
-		static ::hx::ObjectPtr< MenuState_obj > __alloc(::hx::Ctx *_hx_ctx);
+		static ::hx::ObjectPtr< MenuState_obj > __new( ::Dynamic MaxSize);
+		static ::hx::ObjectPtr< MenuState_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic MaxSize);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);

@@ -5,12 +5,12 @@
 #include <flixel/text/_FlxText/FlxTextAlign_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1271_fromOpenFL,"flixel.text._FlxText.FlxTextAlign_Impl_","fromOpenFL",0xc584ea03,"flixel.text._FlxText.FlxTextAlign_Impl_.fromOpenFL","flixel/text/FlxText.hx",1271,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1283_toOpenFL,"flixel.text._FlxText.FlxTextAlign_Impl_","toOpenFL",0xa34e3094,"flixel.text._FlxText.FlxTextAlign_Impl_.toOpenFL","flixel/text/FlxText.hx",1283,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1257_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1257,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1264_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1264,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1266_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1266,0xdf165a6e)
-HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1267_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1267,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1229_fromOpenFL,"flixel.text._FlxText.FlxTextAlign_Impl_","fromOpenFL",0xc584ea03,"flixel.text._FlxText.FlxTextAlign_Impl_.fromOpenFL","flixel/text/FlxText.hx",1229,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1241_toOpenFL,"flixel.text._FlxText.FlxTextAlign_Impl_","toOpenFL",0xa34e3094,"flixel.text._FlxText.FlxTextAlign_Impl_.toOpenFL","flixel/text/FlxText.hx",1241,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1215_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1215,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1222_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1222,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1224_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1224,0xdf165a6e)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1c62838e0cb70a0_1225_boot,"flixel.text._FlxText.FlxTextAlign_Impl_","boot",0xece2bcdb,"flixel.text._FlxText.FlxTextAlign_Impl_.boot","flixel/text/FlxText.hx",1225,0xdf165a6e)
 namespace flixel{
 namespace text{
 namespace _FlxText{
@@ -41,58 +41,58 @@ bool FlxTextAlign_Impl__obj::_hx_isInstanceOf(int inClassId) {
 ::String FlxTextAlign_Impl__obj::JUSTIFY;
 
 ::String FlxTextAlign_Impl__obj::fromOpenFL( ::Dynamic align){
-            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1271_fromOpenFL)
-HXDLIN(1271)		 ::Dynamic _hx_switch_0 = align;
+            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1229_fromOpenFL)
+HXDLIN(1229)		 ::Dynamic _hx_switch_0 = align;
             		if (  (_hx_switch_0==0) ){
-HXLINE(1274)			return HX_("center",d5,25,db,05);
-HXDLIN(1274)			goto _hx_goto_0;
+HXLINE(1232)			return HX_("center",d5,25,db,05);
+HXDLIN(1232)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(1276)			return HX_("justify",50,df,b5,83);
-HXDLIN(1276)			goto _hx_goto_0;
+HXLINE(1234)			return HX_("justify",50,df,b5,83);
+HXDLIN(1234)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==3) ){
-HXLINE(1273)			return HX_("left",07,08,b0,47);
-HXDLIN(1273)			goto _hx_goto_0;
+HXLINE(1231)			return HX_("left",07,08,b0,47);
+HXDLIN(1231)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==4) ){
-HXLINE(1275)			return HX_("right",dc,0b,64,e9);
-HXDLIN(1275)			goto _hx_goto_0;
+HXLINE(1233)			return HX_("right",dc,0b,64,e9);
+HXDLIN(1233)			goto _hx_goto_0;
             		}
             		/* default */{
-HXLINE(1277)			return HX_("left",07,08,b0,47);
+HXLINE(1235)			return HX_("left",07,08,b0,47);
             		}
             		_hx_goto_0:;
-HXLINE(1271)		return null();
+HXLINE(1229)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxTextAlign_Impl__obj,fromOpenFL,return )
 
  ::Dynamic FlxTextAlign_Impl__obj::toOpenFL(::String align){
-            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1283_toOpenFL)
-HXDLIN(1283)		::String _hx_switch_0 = align;
+            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1241_toOpenFL)
+HXDLIN(1241)		::String _hx_switch_0 = align;
             		if (  (_hx_switch_0==HX_("center",d5,25,db,05)) ){
-HXLINE(1286)			return 0;
-HXDLIN(1286)			goto _hx_goto_2;
+HXLINE(1244)			return 0;
+HXDLIN(1244)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==HX_("justify",50,df,b5,83)) ){
-HXLINE(1288)			return 2;
-HXDLIN(1288)			goto _hx_goto_2;
+HXLINE(1246)			return 2;
+HXDLIN(1246)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==HX_("left",07,08,b0,47)) ){
-HXLINE(1285)			return 3;
-HXDLIN(1285)			goto _hx_goto_2;
+HXLINE(1243)			return 3;
+HXDLIN(1243)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==HX_("right",dc,0b,64,e9)) ){
-HXLINE(1287)			return 4;
-HXDLIN(1287)			goto _hx_goto_2;
+HXLINE(1245)			return 4;
+HXDLIN(1245)			goto _hx_goto_2;
             		}
             		/* default */{
-HXLINE(1289)			return 3;
+HXLINE(1247)			return 3;
             		}
             		_hx_goto_2:;
-HXLINE(1283)		return null();
+HXLINE(1241)		return null();
             	}
 
 
@@ -185,20 +185,20 @@ void FlxTextAlign_Impl__obj::__register()
 void FlxTextAlign_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1257_boot)
-HXDLIN(1257)		LEFT = HX_("left",07,08,b0,47);
+            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1215_boot)
+HXDLIN(1215)		LEFT = HX_("left",07,08,b0,47);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1264_boot)
-HXDLIN(1264)		CENTER = HX_("center",d5,25,db,05);
+            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1222_boot)
+HXDLIN(1222)		CENTER = HX_("center",d5,25,db,05);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1266_boot)
-HXDLIN(1266)		RIGHT = HX_("right",dc,0b,64,e9);
+            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1224_boot)
+HXDLIN(1224)		RIGHT = HX_("right",dc,0b,64,e9);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1267_boot)
-HXDLIN(1267)		JUSTIFY = HX_("justify",50,df,b5,83);
+            	HX_STACKFRAME(&_hx_pos_b1c62838e0cb70a0_1225_boot)
+HXDLIN(1225)		JUSTIFY = HX_("justify",50,df,b5,83);
             	}
 }
 

@@ -41,9 +41,6 @@
 #ifndef INCLUDED_flixel_math_FlxRect
 #include <flixel/math/FlxRect.h>
 #endif
-#ifndef INCLUDED_flixel_path_FlxPath
-#include <flixel/path/FlxPath.h>
-#endif
 #ifndef INCLUDED_flixel_util_FlxDestroyUtil
 #include <flixel/util/FlxDestroyUtil.h>
 #endif
@@ -67,15 +64,15 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_30_new,"flixel.group.FlxTypedSpriteGroup","new",0x9fa77753,"flixel.group.FlxTypedSpriteGroup.new","flixel/group/FlxSpriteGroup.hx",30,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_flixel_math_FlxRect,"flixel.group.FlxTypedSpriteGroup","transformChildren_flixel_math_FlxRect",0x5a9c13e1,"flixel.group.FlxTypedSpriteGroup.transformChildren_flixel_math_FlxRect","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_openfl_display_BlendMode,"flixel.group.FlxTypedSpriteGroup","transformChildren_openfl_display_BlendMode",0x546b9da9,"flixel.group.FlxTypedSpriteGroup.transformChildren_openfl_display_BlendMode","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_Int,"flixel.group.FlxTypedSpriteGroup","transformChildren_Int",0x8f3579ce,"flixel.group.FlxTypedSpriteGroup.transformChildren_Int","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_Bool,"flixel.group.FlxTypedSpriteGroup","transformChildren_Bool",0xbaf55a6b,"flixel.group.FlxTypedSpriteGroup.transformChildren_Bool","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_Array_flixel_FlxCamera,"flixel.group.FlxTypedSpriteGroup","transformChildren_Array_flixel_FlxCamera",0x8df728db,"flixel.group.FlxTypedSpriteGroup.transformChildren_Array_flixel_FlxCamera","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_642_multiTransformChildren_Float,"flixel.group.FlxTypedSpriteGroup","multiTransformChildren_Float",0x31c44efc,"flixel.group.FlxTypedSpriteGroup.multiTransformChildren_Float","flixel/group/FlxSpriteGroup.hx",642,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_Float,"flixel.group.FlxTypedSpriteGroup","transformChildren_Float",0x2758683b,"flixel.group.FlxTypedSpriteGroup.transformChildren_Float","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_flixel_math_FlxPoint,"flixel.group.FlxTypedSpriteGroup","transformChildren_flixel_math_FlxPoint",0xcdc8d2f3,"flixel.group.FlxTypedSpriteGroup.transformChildren_flixel_math_FlxPoint","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_623_transformChildren_flixel_FlxCamera,"flixel.group.FlxTypedSpriteGroup","transformChildren_flixel_FlxCamera",0x864ae155,"flixel.group.FlxTypedSpriteGroup.transformChildren_flixel_FlxCamera","flixel/group/FlxSpriteGroup.hx",623,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_flixel_math_FlxRect,"flixel.group.FlxTypedSpriteGroup","transformChildren_flixel_math_FlxRect",0x5a9c13e1,"flixel.group.FlxTypedSpriteGroup.transformChildren_flixel_math_FlxRect","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_openfl_display_BlendMode,"flixel.group.FlxTypedSpriteGroup","transformChildren_openfl_display_BlendMode",0x546b9da9,"flixel.group.FlxTypedSpriteGroup.transformChildren_openfl_display_BlendMode","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_Int,"flixel.group.FlxTypedSpriteGroup","transformChildren_Int",0x8f3579ce,"flixel.group.FlxTypedSpriteGroup.transformChildren_Int","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_Bool,"flixel.group.FlxTypedSpriteGroup","transformChildren_Bool",0xbaf55a6b,"flixel.group.FlxTypedSpriteGroup.transformChildren_Bool","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_Array_flixel_FlxCamera,"flixel.group.FlxTypedSpriteGroup","transformChildren_Array_flixel_FlxCamera",0x8df728db,"flixel.group.FlxTypedSpriteGroup.transformChildren_Array_flixel_FlxCamera","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_639_multiTransformChildren_Float,"flixel.group.FlxTypedSpriteGroup","multiTransformChildren_Float",0x31c44efc,"flixel.group.FlxTypedSpriteGroup.multiTransformChildren_Float","flixel/group/FlxSpriteGroup.hx",639,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_Float,"flixel.group.FlxTypedSpriteGroup","transformChildren_Float",0x2758683b,"flixel.group.FlxTypedSpriteGroup.transformChildren_Float","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_flixel_math_FlxPoint,"flixel.group.FlxTypedSpriteGroup","transformChildren_flixel_math_FlxPoint",0xcdc8d2f3,"flixel.group.FlxTypedSpriteGroup.transformChildren_flixel_math_FlxPoint","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_620_transformChildren_flixel_FlxCamera,"flixel.group.FlxTypedSpriteGroup","transformChildren_flixel_FlxCamera",0x864ae155,"flixel.group.FlxTypedSpriteGroup.transformChildren_flixel_FlxCamera","flixel/group/FlxSpriteGroup.hx",620,0xeb1fa7f3)
 HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_89_initVars,"flixel.group.FlxTypedSpriteGroup","initVars",0xad6ba309,"flixel.group.FlxTypedSpriteGroup.initVars","flixel/group/FlxSpriteGroup.hx",89,0xeb1fa7f3)
 HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_114_destroy,"flixel.group.FlxTypedSpriteGroup","destroy",0xd803c96d,"flixel.group.FlxTypedSpriteGroup.destroy","flixel/group/FlxSpriteGroup.hx",114,0xeb1fa7f3)
 HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_133_clone,"flixel.group.FlxTypedSpriteGroup","clone",0x21249d10,"flixel.group.FlxTypedSpriteGroup.clone","flixel/group/FlxSpriteGroup.hx",133,0xeb1fa7f3)
@@ -83,111 +80,111 @@ HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_152_isOnScreen,"flixel.group.FlxTy
 HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_171_overlapsPoint,"flixel.group.FlxTypedSpriteGroup","overlapsPoint",0xe77cba57,"flixel.group.FlxTypedSpriteGroup.overlapsPoint","flixel/group/FlxSpriteGroup.hx",171,0xeb1fa7f3)
 HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_194_pixelsOverlapPoint,"flixel.group.FlxTypedSpriteGroup","pixelsOverlapPoint",0xc3b2a483,"flixel.group.FlxTypedSpriteGroup.pixelsOverlapPoint","flixel/group/FlxSpriteGroup.hx",194,0xeb1fa7f3)
 HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_208_update,"flixel.group.FlxTypedSpriteGroup","update",0x579c78f6,"flixel.group.FlxTypedSpriteGroup.update","flixel/group/FlxSpriteGroup.hx",208,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_220_draw,"flixel.group.FlxTypedSpriteGroup","draw",0x0c4e99b1,"flixel.group.FlxTypedSpriteGroup.draw","flixel/group/FlxSpriteGroup.hx",220,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_238_replaceColor,"flixel.group.FlxTypedSpriteGroup","replaceColor",0x6ca2bf3c,"flixel.group.FlxTypedSpriteGroup.replaceColor","flixel/group/FlxSpriteGroup.hx",238,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_268_add,"flixel.group.FlxTypedSpriteGroup","add",0x9f9d9914,"flixel.group.FlxTypedSpriteGroup.add","flixel/group/FlxSpriteGroup.hx",268,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_283_insert,"flixel.group.FlxTypedSpriteGroup","insert",0x6e743626,"flixel.group.FlxTypedSpriteGroup.insert","flixel/group/FlxSpriteGroup.hx",283,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_295_preAdd,"flixel.group.FlxTypedSpriteGroup","preAdd",0x7f31b4ab,"flixel.group.FlxTypedSpriteGroup.preAdd","flixel/group/FlxSpriteGroup.hx",295,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_334_recycle,"flixel.group.FlxTypedSpriteGroup","recycle",0xeb09ac86,"flixel.group.FlxTypedSpriteGroup.recycle","flixel/group/FlxSpriteGroup.hx",334,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_345_remove,"flixel.group.FlxTypedSpriteGroup","remove",0xd51f8f31,"flixel.group.FlxTypedSpriteGroup.remove","flixel/group/FlxSpriteGroup.hx",345,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_363_replace,"flixel.group.FlxTypedSpriteGroup","replace",0x5ea5e4a7,"flixel.group.FlxTypedSpriteGroup.replace","flixel/group/FlxSpriteGroup.hx",363,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_378_sort,"flixel.group.FlxTypedSpriteGroup","sort",0x1636950b,"flixel.group.FlxTypedSpriteGroup.sort","flixel/group/FlxSpriteGroup.hx",378,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_392_getFirstAvailable,"flixel.group.FlxTypedSpriteGroup","getFirstAvailable",0x44b6b4e2,"flixel.group.FlxTypedSpriteGroup.getFirstAvailable","flixel/group/FlxSpriteGroup.hx",392,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_403_getFirstNull,"flixel.group.FlxTypedSpriteGroup","getFirstNull",0x3deb1a0e,"flixel.group.FlxTypedSpriteGroup.getFirstNull","flixel/group/FlxSpriteGroup.hx",403,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_414_getFirstExisting,"flixel.group.FlxTypedSpriteGroup","getFirstExisting",0x25cf6192,"flixel.group.FlxTypedSpriteGroup.getFirstExisting","flixel/group/FlxSpriteGroup.hx",414,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_425_getFirstAlive,"flixel.group.FlxTypedSpriteGroup","getFirstAlive",0x6da0fe66,"flixel.group.FlxTypedSpriteGroup.getFirstAlive","flixel/group/FlxSpriteGroup.hx",425,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_436_getFirstDead,"flixel.group.FlxTypedSpriteGroup","getFirstDead",0x3742ca2b,"flixel.group.FlxTypedSpriteGroup.getFirstDead","flixel/group/FlxSpriteGroup.hx",436,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_446_countLiving,"flixel.group.FlxTypedSpriteGroup","countLiving",0xa01b2b4b,"flixel.group.FlxTypedSpriteGroup.countLiving","flixel/group/FlxSpriteGroup.hx",446,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_456_countDead,"flixel.group.FlxTypedSpriteGroup","countDead",0x17fab246,"flixel.group.FlxTypedSpriteGroup.countDead","flixel/group/FlxSpriteGroup.hx",456,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_469_getRandom,"flixel.group.FlxTypedSpriteGroup","getRandom",0xf7598a6c,"flixel.group.FlxTypedSpriteGroup.getRandom","flixel/group/FlxSpriteGroup.hx",469,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_479_iterator,"flixel.group.FlxTypedSpriteGroup","iterator",0xee05921b,"flixel.group.FlxTypedSpriteGroup.iterator","flixel/group/FlxSpriteGroup.hx",479,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_490_forEach,"flixel.group.FlxTypedSpriteGroup","forEach",0x783bc61d,"flixel.group.FlxTypedSpriteGroup.forEach","flixel/group/FlxSpriteGroup.hx",490,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_501_forEachAlive,"flixel.group.FlxTypedSpriteGroup","forEachAlive",0xc86ec470,"flixel.group.FlxTypedSpriteGroup.forEachAlive","flixel/group/FlxSpriteGroup.hx",501,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_512_forEachDead,"flixel.group.FlxTypedSpriteGroup","forEachDead",0xe8751361,"flixel.group.FlxTypedSpriteGroup.forEachDead","flixel/group/FlxSpriteGroup.hx",512,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_523_forEachExists,"flixel.group.FlxTypedSpriteGroup","forEachExists",0x1ab74bd9,"flixel.group.FlxTypedSpriteGroup.forEachExists","flixel/group/FlxSpriteGroup.hx",523,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_535_forEachOfType,"flixel.group.FlxTypedSpriteGroup","forEachOfType",0xaf35856e,"flixel.group.FlxTypedSpriteGroup.forEachOfType","flixel/group/FlxSpriteGroup.hx",535,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_544_clear,"flixel.group.FlxTypedSpriteGroup","clear",0x211cfb40,"flixel.group.FlxTypedSpriteGroup.clear","flixel/group/FlxSpriteGroup.hx",544,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_552_kill,"flixel.group.FlxTypedSpriteGroup","kill",0x10e84d4b,"flixel.group.FlxTypedSpriteGroup.kill","flixel/group/FlxSpriteGroup.hx",552,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_563_revive,"flixel.group.FlxTypedSpriteGroup","revive",0xdb0ded42,"flixel.group.FlxTypedSpriteGroup.revive","flixel/group/FlxSpriteGroup.hx",563,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_571_reset,"flixel.group.FlxTypedSpriteGroup","reset",0xbf89d382,"flixel.group.FlxTypedSpriteGroup.reset","flixel/group/FlxSpriteGroup.hx",571,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_601_setPosition,"flixel.group.FlxTypedSpriteGroup","setPosition",0x6aebbc5e,"flixel.group.FlxTypedSpriteGroup.setPosition","flixel/group/FlxSpriteGroup.hx",601,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_667_set_camera,"flixel.group.FlxTypedSpriteGroup","set_camera",0xed80c24f,"flixel.group.FlxTypedSpriteGroup.set_camera","flixel/group/FlxSpriteGroup.hx",667,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_674_set_cameras,"flixel.group.FlxTypedSpriteGroup","set_cameras",0xe3294344,"flixel.group.FlxTypedSpriteGroup.set_cameras","flixel/group/FlxSpriteGroup.hx",674,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_681_set_exists,"flixel.group.FlxTypedSpriteGroup","set_exists",0xf5d49986,"flixel.group.FlxTypedSpriteGroup.set_exists","flixel/group/FlxSpriteGroup.hx",681,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_688_set_visible,"flixel.group.FlxTypedSpriteGroup","set_visible",0xa31c3188,"flixel.group.FlxTypedSpriteGroup.set_visible","flixel/group/FlxSpriteGroup.hx",688,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_695_set_active,"flixel.group.FlxTypedSpriteGroup","set_active",0x4c3abd70,"flixel.group.FlxTypedSpriteGroup.set_active","flixel/group/FlxSpriteGroup.hx",695,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_702_set_alive,"flixel.group.FlxTypedSpriteGroup","set_alive",0x0bff8b63,"flixel.group.FlxTypedSpriteGroup.set_alive","flixel/group/FlxSpriteGroup.hx",702,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_709_set_x,"flixel.group.FlxTypedSpriteGroup","set_x",0x52f1250e,"flixel.group.FlxTypedSpriteGroup.set_x","flixel/group/FlxSpriteGroup.hx",709,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_716_set_y,"flixel.group.FlxTypedSpriteGroup","set_y",0x52f1250f,"flixel.group.FlxTypedSpriteGroup.set_y","flixel/group/FlxSpriteGroup.hx",716,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_723_set_angle,"flixel.group.FlxTypedSpriteGroup","set_angle",0x0d506b69,"flixel.group.FlxTypedSpriteGroup.set_angle","flixel/group/FlxSpriteGroup.hx",723,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_730_set_alpha,"flixel.group.FlxTypedSpriteGroup","set_alpha",0x0c04cef4,"flixel.group.FlxTypedSpriteGroup.set_alpha","flixel/group/FlxSpriteGroup.hx",730,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_745_set_facing,"flixel.group.FlxTypedSpriteGroup","set_facing",0x19f9bac4,"flixel.group.FlxTypedSpriteGroup.set_facing","flixel/group/FlxSpriteGroup.hx",745,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_752_set_flipX,"flixel.group.FlxTypedSpriteGroup","set_flipX",0xed006ca1,"flixel.group.FlxTypedSpriteGroup.set_flipX","flixel/group/FlxSpriteGroup.hx",752,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_759_set_flipY,"flixel.group.FlxTypedSpriteGroup","set_flipY",0xed006ca2,"flixel.group.FlxTypedSpriteGroup.set_flipY","flixel/group/FlxSpriteGroup.hx",759,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_766_set_moves,"flixel.group.FlxTypedSpriteGroup","set_moves",0xf6d3f3d8,"flixel.group.FlxTypedSpriteGroup.set_moves","flixel/group/FlxSpriteGroup.hx",766,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_773_set_immovable,"flixel.group.FlxTypedSpriteGroup","set_immovable",0xdf98d1a0,"flixel.group.FlxTypedSpriteGroup.set_immovable","flixel/group/FlxSpriteGroup.hx",773,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_780_set_solid,"flixel.group.FlxTypedSpriteGroup","set_solid",0x6b33dbc1,"flixel.group.FlxTypedSpriteGroup.set_solid","flixel/group/FlxSpriteGroup.hx",780,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_787_set_color,"flixel.group.FlxTypedSpriteGroup","set_color",0x34ca98f9,"flixel.group.FlxTypedSpriteGroup.set_color","flixel/group/FlxSpriteGroup.hx",787,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_794_set_blend,"flixel.group.FlxTypedSpriteGroup","set_blend",0x9f630fe7,"flixel.group.FlxTypedSpriteGroup.set_blend","flixel/group/FlxSpriteGroup.hx",794,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_801_set_clipRect,"flixel.group.FlxTypedSpriteGroup","set_clipRect",0x5134ca3e,"flixel.group.FlxTypedSpriteGroup.set_clipRect","flixel/group/FlxSpriteGroup.hx",801,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_808_set_pixelPerfectRender,"flixel.group.FlxTypedSpriteGroup","set_pixelPerfectRender",0x5163ac87,"flixel.group.FlxTypedSpriteGroup.set_pixelPerfectRender","flixel/group/FlxSpriteGroup.hx",808,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_819_set_width,"flixel.group.FlxTypedSpriteGroup","set_width",0xb4d0dd9c,"flixel.group.FlxTypedSpriteGroup.set_width","flixel/group/FlxSpriteGroup.hx",819,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_823_get_width,"flixel.group.FlxTypedSpriteGroup","get_width",0xd17ff190,"flixel.group.FlxTypedSpriteGroup.get_width","flixel/group/FlxSpriteGroup.hx",823,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_838_findMinX,"flixel.group.FlxTypedSpriteGroup","findMinX",0xf55ba38c,"flixel.group.FlxTypedSpriteGroup.findMinX","flixel/group/FlxSpriteGroup.hx",838,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_842_findMinXHelper,"flixel.group.FlxTypedSpriteGroup","findMinXHelper",0x0cd7c61a,"flixel.group.FlxTypedSpriteGroup.findMinXHelper","flixel/group/FlxSpriteGroup.hx",842,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_869_findMaxX,"flixel.group.FlxTypedSpriteGroup","findMaxX",0xf5559a3a,"flixel.group.FlxTypedSpriteGroup.findMaxX","flixel/group/FlxSpriteGroup.hx",869,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_873_findMaxXHelper,"flixel.group.FlxTypedSpriteGroup","findMaxXHelper",0xb144f348,"flixel.group.FlxTypedSpriteGroup.findMaxXHelper","flixel/group/FlxSpriteGroup.hx",873,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_897_set_height,"flixel.group.FlxTypedSpriteGroup","set_height",0x38408391,"flixel.group.FlxTypedSpriteGroup.set_height","flixel/group/FlxSpriteGroup.hx",897,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_901_get_height,"flixel.group.FlxTypedSpriteGroup","get_height",0x34c2e51d,"flixel.group.FlxTypedSpriteGroup.get_height","flixel/group/FlxSpriteGroup.hx",901,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_916_findMinY,"flixel.group.FlxTypedSpriteGroup","findMinY",0xf55ba38d,"flixel.group.FlxTypedSpriteGroup.findMinY","flixel/group/FlxSpriteGroup.hx",916,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_920_findMinYHelper,"flixel.group.FlxTypedSpriteGroup","findMinYHelper",0x366d3cdb,"flixel.group.FlxTypedSpriteGroup.findMinYHelper","flixel/group/FlxSpriteGroup.hx",920,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_947_findMaxY,"flixel.group.FlxTypedSpriteGroup","findMaxY",0xf5559a3b,"flixel.group.FlxTypedSpriteGroup.findMaxY","flixel/group/FlxSpriteGroup.hx",947,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_951_findMaxYHelper,"flixel.group.FlxTypedSpriteGroup","findMaxYHelper",0xdada6a09,"flixel.group.FlxTypedSpriteGroup.findMaxYHelper","flixel/group/FlxSpriteGroup.hx",951,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_974_get_length,"flixel.group.FlxTypedSpriteGroup","get_length",0xd17e721c,"flixel.group.FlxTypedSpriteGroup.get_length","flixel/group/FlxSpriteGroup.hx",974,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_979_get_maxSize,"flixel.group.FlxTypedSpriteGroup","get_maxSize",0xc20eab8f,"flixel.group.FlxTypedSpriteGroup.get_maxSize","flixel/group/FlxSpriteGroup.hx",979,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_984_set_maxSize,"flixel.group.FlxTypedSpriteGroup","set_maxSize",0xcc7bb29b,"flixel.group.FlxTypedSpriteGroup.set_maxSize","flixel/group/FlxSpriteGroup.hx",984,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_989_get_members,"flixel.group.FlxTypedSpriteGroup","get_members",0x0ffadee3,"flixel.group.FlxTypedSpriteGroup.get_members","flixel/group/FlxSpriteGroup.hx",989,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_995_xTransform,"flixel.group.FlxTypedSpriteGroup","xTransform",0x4c3dab41,"flixel.group.FlxTypedSpriteGroup.xTransform","flixel/group/FlxSpriteGroup.hx",995,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_998_yTransform,"flixel.group.FlxTypedSpriteGroup","yTransform",0x0c882320,"flixel.group.FlxTypedSpriteGroup.yTransform","flixel/group/FlxSpriteGroup.hx",998,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1001_angleTransform,"flixel.group.FlxTypedSpriteGroup","angleTransform",0x285b5f06,"flixel.group.FlxTypedSpriteGroup.angleTransform","flixel/group/FlxSpriteGroup.hx",1001,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1005_alphaTransform,"flixel.group.FlxTypedSpriteGroup","alphaTransform",0xe7f1b21b,"flixel.group.FlxTypedSpriteGroup.alphaTransform","flixel/group/FlxSpriteGroup.hx",1005,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1012_directAlphaTransform,"flixel.group.FlxTypedSpriteGroup","directAlphaTransform",0x680196e4,"flixel.group.FlxTypedSpriteGroup.directAlphaTransform","flixel/group/FlxSpriteGroup.hx",1012,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1015_facingTransform,"flixel.group.FlxTypedSpriteGroup","facingTransform",0x8cbce265,"flixel.group.FlxTypedSpriteGroup.facingTransform","flixel/group/FlxSpriteGroup.hx",1015,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1018_flipXTransform,"flixel.group.FlxTypedSpriteGroup","flipXTransform",0x2d6d76ce,"flixel.group.FlxTypedSpriteGroup.flipXTransform","flixel/group/FlxSpriteGroup.hx",1018,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1021_flipYTransform,"flixel.group.FlxTypedSpriteGroup","flipYTransform",0xedb7eead,"flixel.group.FlxTypedSpriteGroup.flipYTransform","flixel/group/FlxSpriteGroup.hx",1021,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1024_movesTransform,"flixel.group.FlxTypedSpriteGroup","movesTransform",0x6670d0b7,"flixel.group.FlxTypedSpriteGroup.movesTransform","flixel/group/FlxSpriteGroup.hx",1024,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1027_pixelPerfectTransform,"flixel.group.FlxTypedSpriteGroup","pixelPerfectTransform",0x21312cf8,"flixel.group.FlxTypedSpriteGroup.pixelPerfectTransform","flixel/group/FlxSpriteGroup.hx",1027,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1030_gColorTransform,"flixel.group.FlxTypedSpriteGroup","gColorTransform",0x1fbe79c3,"flixel.group.FlxTypedSpriteGroup.gColorTransform","flixel/group/FlxSpriteGroup.hx",1030,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1033_blendTransform,"flixel.group.FlxTypedSpriteGroup","blendTransform",0x1d7b3ac8,"flixel.group.FlxTypedSpriteGroup.blendTransform","flixel/group/FlxSpriteGroup.hx",1033,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1036_immovableTransform,"flixel.group.FlxTypedSpriteGroup","immovableTransform",0x108fd76f,"flixel.group.FlxTypedSpriteGroup.immovableTransform","flixel/group/FlxSpriteGroup.hx",1036,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1039_visibleTransform,"flixel.group.FlxTypedSpriteGroup","visibleTransform",0x807eb3c7,"flixel.group.FlxTypedSpriteGroup.visibleTransform","flixel/group/FlxSpriteGroup.hx",1039,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1042_activeTransform,"flixel.group.FlxTypedSpriteGroup","activeTransform",0x51542a39,"flixel.group.FlxTypedSpriteGroup.activeTransform","flixel/group/FlxSpriteGroup.hx",1042,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1045_solidTransform,"flixel.group.FlxTypedSpriteGroup","solidTransform",0x242323ae,"flixel.group.FlxTypedSpriteGroup.solidTransform","flixel/group/FlxSpriteGroup.hx",1045,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1048_aliveTransform,"flixel.group.FlxTypedSpriteGroup","aliveTransform",0x29096fcc,"flixel.group.FlxTypedSpriteGroup.aliveTransform","flixel/group/FlxSpriteGroup.hx",1048,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1051_existsTransform,"flixel.group.FlxTypedSpriteGroup","existsTransform",0xb2051b63,"flixel.group.FlxTypedSpriteGroup.existsTransform","flixel/group/FlxSpriteGroup.hx",1051,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1054_cameraTransform,"flixel.group.FlxTypedSpriteGroup","cameraTransform",0x020c117a,"flixel.group.FlxTypedSpriteGroup.cameraTransform","flixel/group/FlxSpriteGroup.hx",1054,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1057_camerasTransform,"flixel.group.FlxTypedSpriteGroup","camerasTransform",0x7f778a8b,"flixel.group.FlxTypedSpriteGroup.camerasTransform","flixel/group/FlxSpriteGroup.hx",1057,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1060_offsetTransform,"flixel.group.FlxTypedSpriteGroup","offsetTransform",0x35aa32cc,"flixel.group.FlxTypedSpriteGroup.offsetTransform","flixel/group/FlxSpriteGroup.hx",1060,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1063_originTransform,"flixel.group.FlxTypedSpriteGroup","originTransform",0x93cd4e19,"flixel.group.FlxTypedSpriteGroup.originTransform","flixel/group/FlxSpriteGroup.hx",1063,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1066_scaleTransform,"flixel.group.FlxTypedSpriteGroup","scaleTransform",0x4ec9456f,"flixel.group.FlxTypedSpriteGroup.scaleTransform","flixel/group/FlxSpriteGroup.hx",1066,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1069_scrollFactorTransform,"flixel.group.FlxTypedSpriteGroup","scrollFactorTransform",0x4d8808c3,"flixel.group.FlxTypedSpriteGroup.scrollFactorTransform","flixel/group/FlxSpriteGroup.hx",1069,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1073_clipRectTransform,"flixel.group.FlxTypedSpriteGroup","clipRectTransform",0x59fda4eb,"flixel.group.FlxTypedSpriteGroup.clipRectTransform","flixel/group/FlxSpriteGroup.hx",1073,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1081_offsetCallback,"flixel.group.FlxTypedSpriteGroup","offsetCallback",0xeadd6065,"flixel.group.FlxTypedSpriteGroup.offsetCallback","flixel/group/FlxSpriteGroup.hx",1081,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1084_originCallback,"flixel.group.FlxTypedSpriteGroup","originCallback",0xfa35edb8,"flixel.group.FlxTypedSpriteGroup.originCallback","flixel/group/FlxSpriteGroup.hx",1084,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1087_scaleCallback,"flixel.group.FlxTypedSpriteGroup","scaleCallback",0xf9e6b322,"flixel.group.FlxTypedSpriteGroup.scaleCallback","flixel/group/FlxSpriteGroup.hx",1087,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1090_scrollFactorCallback,"flixel.group.FlxTypedSpriteGroup","scrollFactorCallback",0x26aab64e,"flixel.group.FlxTypedSpriteGroup.scrollFactorCallback","flixel/group/FlxSpriteGroup.hx",1090,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1104_loadGraphicFromSprite,"flixel.group.FlxTypedSpriteGroup","loadGraphicFromSprite",0x6f12dc84,"flixel.group.FlxTypedSpriteGroup.loadGraphicFromSprite","flixel/group/FlxSpriteGroup.hx",1104,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1114_loadGraphic,"flixel.group.FlxTypedSpriteGroup","loadGraphic",0xb4356b15,"flixel.group.FlxTypedSpriteGroup.loadGraphic","flixel/group/FlxSpriteGroup.hx",1114,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1127_loadRotatedGraphic,"flixel.group.FlxTypedSpriteGroup","loadRotatedGraphic",0x45e23732,"flixel.group.FlxTypedSpriteGroup.loadRotatedGraphic","flixel/group/FlxSpriteGroup.hx",1127,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1139_makeGraphic,"flixel.group.FlxTypedSpriteGroup","makeGraphic",0x27a1d44d,"flixel.group.FlxTypedSpriteGroup.makeGraphic","flixel/group/FlxSpriteGroup.hx",1139,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1144_set_pixels,"flixel.group.FlxTypedSpriteGroup","set_pixels",0xc29e6ad7,"flixel.group.FlxTypedSpriteGroup.set_pixels","flixel/group/FlxSpriteGroup.hx",1144,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1149_set_frame,"flixel.group.FlxTypedSpriteGroup","set_frame",0xf0f19fc3,"flixel.group.FlxTypedSpriteGroup.set_frame","flixel/group/FlxSpriteGroup.hx",1149,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1154_get_pixels,"flixel.group.FlxTypedSpriteGroup","get_pixels",0xbf20cc63,"flixel.group.FlxTypedSpriteGroup.get_pixels","flixel/group/FlxSpriteGroup.hx",1154,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1163_calcFrame,"flixel.group.FlxTypedSpriteGroup","calcFrame",0xbd00728b,"flixel.group.FlxTypedSpriteGroup.calcFrame","flixel/group/FlxSpriteGroup.hx",1163,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1170_resetHelpers,"flixel.group.FlxTypedSpriteGroup","resetHelpers",0x60f4ebe3,"flixel.group.FlxTypedSpriteGroup.resetHelpers","flixel/group/FlxSpriteGroup.hx",1170,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1175_stamp,"flixel.group.FlxTypedSpriteGroup","stamp",0x5cccf9b6,"flixel.group.FlxTypedSpriteGroup.stamp","flixel/group/FlxSpriteGroup.hx",1175,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1179_set_frames,"flixel.group.FlxTypedSpriteGroup","set_frames",0xe27a2b50,"flixel.group.FlxTypedSpriteGroup.set_frames","flixel/group/FlxSpriteGroup.hx",1179,0xeb1fa7f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1185_updateColorTransform,"flixel.group.FlxTypedSpriteGroup","updateColorTransform",0x64df671f,"flixel.group.FlxTypedSpriteGroup.updateColorTransform","flixel/group/FlxSpriteGroup.hx",1185,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_217_draw,"flixel.group.FlxTypedSpriteGroup","draw",0x0c4e99b1,"flixel.group.FlxTypedSpriteGroup.draw","flixel/group/FlxSpriteGroup.hx",217,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_235_replaceColor,"flixel.group.FlxTypedSpriteGroup","replaceColor",0x6ca2bf3c,"flixel.group.FlxTypedSpriteGroup.replaceColor","flixel/group/FlxSpriteGroup.hx",235,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_265_add,"flixel.group.FlxTypedSpriteGroup","add",0x9f9d9914,"flixel.group.FlxTypedSpriteGroup.add","flixel/group/FlxSpriteGroup.hx",265,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_280_insert,"flixel.group.FlxTypedSpriteGroup","insert",0x6e743626,"flixel.group.FlxTypedSpriteGroup.insert","flixel/group/FlxSpriteGroup.hx",280,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_292_preAdd,"flixel.group.FlxTypedSpriteGroup","preAdd",0x7f31b4ab,"flixel.group.FlxTypedSpriteGroup.preAdd","flixel/group/FlxSpriteGroup.hx",292,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_331_recycle,"flixel.group.FlxTypedSpriteGroup","recycle",0xeb09ac86,"flixel.group.FlxTypedSpriteGroup.recycle","flixel/group/FlxSpriteGroup.hx",331,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_342_remove,"flixel.group.FlxTypedSpriteGroup","remove",0xd51f8f31,"flixel.group.FlxTypedSpriteGroup.remove","flixel/group/FlxSpriteGroup.hx",342,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_360_replace,"flixel.group.FlxTypedSpriteGroup","replace",0x5ea5e4a7,"flixel.group.FlxTypedSpriteGroup.replace","flixel/group/FlxSpriteGroup.hx",360,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_375_sort,"flixel.group.FlxTypedSpriteGroup","sort",0x1636950b,"flixel.group.FlxTypedSpriteGroup.sort","flixel/group/FlxSpriteGroup.hx",375,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_389_getFirstAvailable,"flixel.group.FlxTypedSpriteGroup","getFirstAvailable",0x44b6b4e2,"flixel.group.FlxTypedSpriteGroup.getFirstAvailable","flixel/group/FlxSpriteGroup.hx",389,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_400_getFirstNull,"flixel.group.FlxTypedSpriteGroup","getFirstNull",0x3deb1a0e,"flixel.group.FlxTypedSpriteGroup.getFirstNull","flixel/group/FlxSpriteGroup.hx",400,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_411_getFirstExisting,"flixel.group.FlxTypedSpriteGroup","getFirstExisting",0x25cf6192,"flixel.group.FlxTypedSpriteGroup.getFirstExisting","flixel/group/FlxSpriteGroup.hx",411,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_422_getFirstAlive,"flixel.group.FlxTypedSpriteGroup","getFirstAlive",0x6da0fe66,"flixel.group.FlxTypedSpriteGroup.getFirstAlive","flixel/group/FlxSpriteGroup.hx",422,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_433_getFirstDead,"flixel.group.FlxTypedSpriteGroup","getFirstDead",0x3742ca2b,"flixel.group.FlxTypedSpriteGroup.getFirstDead","flixel/group/FlxSpriteGroup.hx",433,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_443_countLiving,"flixel.group.FlxTypedSpriteGroup","countLiving",0xa01b2b4b,"flixel.group.FlxTypedSpriteGroup.countLiving","flixel/group/FlxSpriteGroup.hx",443,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_453_countDead,"flixel.group.FlxTypedSpriteGroup","countDead",0x17fab246,"flixel.group.FlxTypedSpriteGroup.countDead","flixel/group/FlxSpriteGroup.hx",453,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_466_getRandom,"flixel.group.FlxTypedSpriteGroup","getRandom",0xf7598a6c,"flixel.group.FlxTypedSpriteGroup.getRandom","flixel/group/FlxSpriteGroup.hx",466,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_476_iterator,"flixel.group.FlxTypedSpriteGroup","iterator",0xee05921b,"flixel.group.FlxTypedSpriteGroup.iterator","flixel/group/FlxSpriteGroup.hx",476,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_487_forEach,"flixel.group.FlxTypedSpriteGroup","forEach",0x783bc61d,"flixel.group.FlxTypedSpriteGroup.forEach","flixel/group/FlxSpriteGroup.hx",487,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_498_forEachAlive,"flixel.group.FlxTypedSpriteGroup","forEachAlive",0xc86ec470,"flixel.group.FlxTypedSpriteGroup.forEachAlive","flixel/group/FlxSpriteGroup.hx",498,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_509_forEachDead,"flixel.group.FlxTypedSpriteGroup","forEachDead",0xe8751361,"flixel.group.FlxTypedSpriteGroup.forEachDead","flixel/group/FlxSpriteGroup.hx",509,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_520_forEachExists,"flixel.group.FlxTypedSpriteGroup","forEachExists",0x1ab74bd9,"flixel.group.FlxTypedSpriteGroup.forEachExists","flixel/group/FlxSpriteGroup.hx",520,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_532_forEachOfType,"flixel.group.FlxTypedSpriteGroup","forEachOfType",0xaf35856e,"flixel.group.FlxTypedSpriteGroup.forEachOfType","flixel/group/FlxSpriteGroup.hx",532,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_541_clear,"flixel.group.FlxTypedSpriteGroup","clear",0x211cfb40,"flixel.group.FlxTypedSpriteGroup.clear","flixel/group/FlxSpriteGroup.hx",541,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_549_kill,"flixel.group.FlxTypedSpriteGroup","kill",0x10e84d4b,"flixel.group.FlxTypedSpriteGroup.kill","flixel/group/FlxSpriteGroup.hx",549,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_560_revive,"flixel.group.FlxTypedSpriteGroup","revive",0xdb0ded42,"flixel.group.FlxTypedSpriteGroup.revive","flixel/group/FlxSpriteGroup.hx",560,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_568_reset,"flixel.group.FlxTypedSpriteGroup","reset",0xbf89d382,"flixel.group.FlxTypedSpriteGroup.reset","flixel/group/FlxSpriteGroup.hx",568,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_598_setPosition,"flixel.group.FlxTypedSpriteGroup","setPosition",0x6aebbc5e,"flixel.group.FlxTypedSpriteGroup.setPosition","flixel/group/FlxSpriteGroup.hx",598,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_664_set_camera,"flixel.group.FlxTypedSpriteGroup","set_camera",0xed80c24f,"flixel.group.FlxTypedSpriteGroup.set_camera","flixel/group/FlxSpriteGroup.hx",664,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_671_set_cameras,"flixel.group.FlxTypedSpriteGroup","set_cameras",0xe3294344,"flixel.group.FlxTypedSpriteGroup.set_cameras","flixel/group/FlxSpriteGroup.hx",671,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_678_set_exists,"flixel.group.FlxTypedSpriteGroup","set_exists",0xf5d49986,"flixel.group.FlxTypedSpriteGroup.set_exists","flixel/group/FlxSpriteGroup.hx",678,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_685_set_visible,"flixel.group.FlxTypedSpriteGroup","set_visible",0xa31c3188,"flixel.group.FlxTypedSpriteGroup.set_visible","flixel/group/FlxSpriteGroup.hx",685,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_692_set_active,"flixel.group.FlxTypedSpriteGroup","set_active",0x4c3abd70,"flixel.group.FlxTypedSpriteGroup.set_active","flixel/group/FlxSpriteGroup.hx",692,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_699_set_alive,"flixel.group.FlxTypedSpriteGroup","set_alive",0x0bff8b63,"flixel.group.FlxTypedSpriteGroup.set_alive","flixel/group/FlxSpriteGroup.hx",699,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_706_set_x,"flixel.group.FlxTypedSpriteGroup","set_x",0x52f1250e,"flixel.group.FlxTypedSpriteGroup.set_x","flixel/group/FlxSpriteGroup.hx",706,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_713_set_y,"flixel.group.FlxTypedSpriteGroup","set_y",0x52f1250f,"flixel.group.FlxTypedSpriteGroup.set_y","flixel/group/FlxSpriteGroup.hx",713,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_720_set_angle,"flixel.group.FlxTypedSpriteGroup","set_angle",0x0d506b69,"flixel.group.FlxTypedSpriteGroup.set_angle","flixel/group/FlxSpriteGroup.hx",720,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_727_set_alpha,"flixel.group.FlxTypedSpriteGroup","set_alpha",0x0c04cef4,"flixel.group.FlxTypedSpriteGroup.set_alpha","flixel/group/FlxSpriteGroup.hx",727,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_742_set_facing,"flixel.group.FlxTypedSpriteGroup","set_facing",0x19f9bac4,"flixel.group.FlxTypedSpriteGroup.set_facing","flixel/group/FlxSpriteGroup.hx",742,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_749_set_flipX,"flixel.group.FlxTypedSpriteGroup","set_flipX",0xed006ca1,"flixel.group.FlxTypedSpriteGroup.set_flipX","flixel/group/FlxSpriteGroup.hx",749,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_756_set_flipY,"flixel.group.FlxTypedSpriteGroup","set_flipY",0xed006ca2,"flixel.group.FlxTypedSpriteGroup.set_flipY","flixel/group/FlxSpriteGroup.hx",756,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_763_set_moves,"flixel.group.FlxTypedSpriteGroup","set_moves",0xf6d3f3d8,"flixel.group.FlxTypedSpriteGroup.set_moves","flixel/group/FlxSpriteGroup.hx",763,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_770_set_immovable,"flixel.group.FlxTypedSpriteGroup","set_immovable",0xdf98d1a0,"flixel.group.FlxTypedSpriteGroup.set_immovable","flixel/group/FlxSpriteGroup.hx",770,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_777_set_solid,"flixel.group.FlxTypedSpriteGroup","set_solid",0x6b33dbc1,"flixel.group.FlxTypedSpriteGroup.set_solid","flixel/group/FlxSpriteGroup.hx",777,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_784_set_color,"flixel.group.FlxTypedSpriteGroup","set_color",0x34ca98f9,"flixel.group.FlxTypedSpriteGroup.set_color","flixel/group/FlxSpriteGroup.hx",784,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_791_set_blend,"flixel.group.FlxTypedSpriteGroup","set_blend",0x9f630fe7,"flixel.group.FlxTypedSpriteGroup.set_blend","flixel/group/FlxSpriteGroup.hx",791,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_798_set_clipRect,"flixel.group.FlxTypedSpriteGroup","set_clipRect",0x5134ca3e,"flixel.group.FlxTypedSpriteGroup.set_clipRect","flixel/group/FlxSpriteGroup.hx",798,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_805_set_pixelPerfectRender,"flixel.group.FlxTypedSpriteGroup","set_pixelPerfectRender",0x5163ac87,"flixel.group.FlxTypedSpriteGroup.set_pixelPerfectRender","flixel/group/FlxSpriteGroup.hx",805,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_816_set_width,"flixel.group.FlxTypedSpriteGroup","set_width",0xb4d0dd9c,"flixel.group.FlxTypedSpriteGroup.set_width","flixel/group/FlxSpriteGroup.hx",816,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_820_get_width,"flixel.group.FlxTypedSpriteGroup","get_width",0xd17ff190,"flixel.group.FlxTypedSpriteGroup.get_width","flixel/group/FlxSpriteGroup.hx",820,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_835_findMinX,"flixel.group.FlxTypedSpriteGroup","findMinX",0xf55ba38c,"flixel.group.FlxTypedSpriteGroup.findMinX","flixel/group/FlxSpriteGroup.hx",835,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_839_findMinXHelper,"flixel.group.FlxTypedSpriteGroup","findMinXHelper",0x0cd7c61a,"flixel.group.FlxTypedSpriteGroup.findMinXHelper","flixel/group/FlxSpriteGroup.hx",839,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_866_findMaxX,"flixel.group.FlxTypedSpriteGroup","findMaxX",0xf5559a3a,"flixel.group.FlxTypedSpriteGroup.findMaxX","flixel/group/FlxSpriteGroup.hx",866,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_870_findMaxXHelper,"flixel.group.FlxTypedSpriteGroup","findMaxXHelper",0xb144f348,"flixel.group.FlxTypedSpriteGroup.findMaxXHelper","flixel/group/FlxSpriteGroup.hx",870,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_894_set_height,"flixel.group.FlxTypedSpriteGroup","set_height",0x38408391,"flixel.group.FlxTypedSpriteGroup.set_height","flixel/group/FlxSpriteGroup.hx",894,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_898_get_height,"flixel.group.FlxTypedSpriteGroup","get_height",0x34c2e51d,"flixel.group.FlxTypedSpriteGroup.get_height","flixel/group/FlxSpriteGroup.hx",898,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_913_findMinY,"flixel.group.FlxTypedSpriteGroup","findMinY",0xf55ba38d,"flixel.group.FlxTypedSpriteGroup.findMinY","flixel/group/FlxSpriteGroup.hx",913,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_917_findMinYHelper,"flixel.group.FlxTypedSpriteGroup","findMinYHelper",0x366d3cdb,"flixel.group.FlxTypedSpriteGroup.findMinYHelper","flixel/group/FlxSpriteGroup.hx",917,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_944_findMaxY,"flixel.group.FlxTypedSpriteGroup","findMaxY",0xf5559a3b,"flixel.group.FlxTypedSpriteGroup.findMaxY","flixel/group/FlxSpriteGroup.hx",944,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_948_findMaxYHelper,"flixel.group.FlxTypedSpriteGroup","findMaxYHelper",0xdada6a09,"flixel.group.FlxTypedSpriteGroup.findMaxYHelper","flixel/group/FlxSpriteGroup.hx",948,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_971_get_length,"flixel.group.FlxTypedSpriteGroup","get_length",0xd17e721c,"flixel.group.FlxTypedSpriteGroup.get_length","flixel/group/FlxSpriteGroup.hx",971,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_976_get_maxSize,"flixel.group.FlxTypedSpriteGroup","get_maxSize",0xc20eab8f,"flixel.group.FlxTypedSpriteGroup.get_maxSize","flixel/group/FlxSpriteGroup.hx",976,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_981_set_maxSize,"flixel.group.FlxTypedSpriteGroup","set_maxSize",0xcc7bb29b,"flixel.group.FlxTypedSpriteGroup.set_maxSize","flixel/group/FlxSpriteGroup.hx",981,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_986_get_members,"flixel.group.FlxTypedSpriteGroup","get_members",0x0ffadee3,"flixel.group.FlxTypedSpriteGroup.get_members","flixel/group/FlxSpriteGroup.hx",986,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_992_xTransform,"flixel.group.FlxTypedSpriteGroup","xTransform",0x4c3dab41,"flixel.group.FlxTypedSpriteGroup.xTransform","flixel/group/FlxSpriteGroup.hx",992,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_995_yTransform,"flixel.group.FlxTypedSpriteGroup","yTransform",0x0c882320,"flixel.group.FlxTypedSpriteGroup.yTransform","flixel/group/FlxSpriteGroup.hx",995,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_998_angleTransform,"flixel.group.FlxTypedSpriteGroup","angleTransform",0x285b5f06,"flixel.group.FlxTypedSpriteGroup.angleTransform","flixel/group/FlxSpriteGroup.hx",998,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1002_alphaTransform,"flixel.group.FlxTypedSpriteGroup","alphaTransform",0xe7f1b21b,"flixel.group.FlxTypedSpriteGroup.alphaTransform","flixel/group/FlxSpriteGroup.hx",1002,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1009_directAlphaTransform,"flixel.group.FlxTypedSpriteGroup","directAlphaTransform",0x680196e4,"flixel.group.FlxTypedSpriteGroup.directAlphaTransform","flixel/group/FlxSpriteGroup.hx",1009,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1012_facingTransform,"flixel.group.FlxTypedSpriteGroup","facingTransform",0x8cbce265,"flixel.group.FlxTypedSpriteGroup.facingTransform","flixel/group/FlxSpriteGroup.hx",1012,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1015_flipXTransform,"flixel.group.FlxTypedSpriteGroup","flipXTransform",0x2d6d76ce,"flixel.group.FlxTypedSpriteGroup.flipXTransform","flixel/group/FlxSpriteGroup.hx",1015,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1018_flipYTransform,"flixel.group.FlxTypedSpriteGroup","flipYTransform",0xedb7eead,"flixel.group.FlxTypedSpriteGroup.flipYTransform","flixel/group/FlxSpriteGroup.hx",1018,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1021_movesTransform,"flixel.group.FlxTypedSpriteGroup","movesTransform",0x6670d0b7,"flixel.group.FlxTypedSpriteGroup.movesTransform","flixel/group/FlxSpriteGroup.hx",1021,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1024_pixelPerfectTransform,"flixel.group.FlxTypedSpriteGroup","pixelPerfectTransform",0x21312cf8,"flixel.group.FlxTypedSpriteGroup.pixelPerfectTransform","flixel/group/FlxSpriteGroup.hx",1024,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1027_gColorTransform,"flixel.group.FlxTypedSpriteGroup","gColorTransform",0x1fbe79c3,"flixel.group.FlxTypedSpriteGroup.gColorTransform","flixel/group/FlxSpriteGroup.hx",1027,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1030_blendTransform,"flixel.group.FlxTypedSpriteGroup","blendTransform",0x1d7b3ac8,"flixel.group.FlxTypedSpriteGroup.blendTransform","flixel/group/FlxSpriteGroup.hx",1030,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1033_immovableTransform,"flixel.group.FlxTypedSpriteGroup","immovableTransform",0x108fd76f,"flixel.group.FlxTypedSpriteGroup.immovableTransform","flixel/group/FlxSpriteGroup.hx",1033,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1036_visibleTransform,"flixel.group.FlxTypedSpriteGroup","visibleTransform",0x807eb3c7,"flixel.group.FlxTypedSpriteGroup.visibleTransform","flixel/group/FlxSpriteGroup.hx",1036,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1039_activeTransform,"flixel.group.FlxTypedSpriteGroup","activeTransform",0x51542a39,"flixel.group.FlxTypedSpriteGroup.activeTransform","flixel/group/FlxSpriteGroup.hx",1039,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1042_solidTransform,"flixel.group.FlxTypedSpriteGroup","solidTransform",0x242323ae,"flixel.group.FlxTypedSpriteGroup.solidTransform","flixel/group/FlxSpriteGroup.hx",1042,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1045_aliveTransform,"flixel.group.FlxTypedSpriteGroup","aliveTransform",0x29096fcc,"flixel.group.FlxTypedSpriteGroup.aliveTransform","flixel/group/FlxSpriteGroup.hx",1045,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1048_existsTransform,"flixel.group.FlxTypedSpriteGroup","existsTransform",0xb2051b63,"flixel.group.FlxTypedSpriteGroup.existsTransform","flixel/group/FlxSpriteGroup.hx",1048,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1051_cameraTransform,"flixel.group.FlxTypedSpriteGroup","cameraTransform",0x020c117a,"flixel.group.FlxTypedSpriteGroup.cameraTransform","flixel/group/FlxSpriteGroup.hx",1051,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1054_camerasTransform,"flixel.group.FlxTypedSpriteGroup","camerasTransform",0x7f778a8b,"flixel.group.FlxTypedSpriteGroup.camerasTransform","flixel/group/FlxSpriteGroup.hx",1054,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1057_offsetTransform,"flixel.group.FlxTypedSpriteGroup","offsetTransform",0x35aa32cc,"flixel.group.FlxTypedSpriteGroup.offsetTransform","flixel/group/FlxSpriteGroup.hx",1057,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1060_originTransform,"flixel.group.FlxTypedSpriteGroup","originTransform",0x93cd4e19,"flixel.group.FlxTypedSpriteGroup.originTransform","flixel/group/FlxSpriteGroup.hx",1060,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1063_scaleTransform,"flixel.group.FlxTypedSpriteGroup","scaleTransform",0x4ec9456f,"flixel.group.FlxTypedSpriteGroup.scaleTransform","flixel/group/FlxSpriteGroup.hx",1063,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1066_scrollFactorTransform,"flixel.group.FlxTypedSpriteGroup","scrollFactorTransform",0x4d8808c3,"flixel.group.FlxTypedSpriteGroup.scrollFactorTransform","flixel/group/FlxSpriteGroup.hx",1066,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1070_clipRectTransform,"flixel.group.FlxTypedSpriteGroup","clipRectTransform",0x59fda4eb,"flixel.group.FlxTypedSpriteGroup.clipRectTransform","flixel/group/FlxSpriteGroup.hx",1070,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1078_offsetCallback,"flixel.group.FlxTypedSpriteGroup","offsetCallback",0xeadd6065,"flixel.group.FlxTypedSpriteGroup.offsetCallback","flixel/group/FlxSpriteGroup.hx",1078,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1081_originCallback,"flixel.group.FlxTypedSpriteGroup","originCallback",0xfa35edb8,"flixel.group.FlxTypedSpriteGroup.originCallback","flixel/group/FlxSpriteGroup.hx",1081,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1084_scaleCallback,"flixel.group.FlxTypedSpriteGroup","scaleCallback",0xf9e6b322,"flixel.group.FlxTypedSpriteGroup.scaleCallback","flixel/group/FlxSpriteGroup.hx",1084,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1087_scrollFactorCallback,"flixel.group.FlxTypedSpriteGroup","scrollFactorCallback",0x26aab64e,"flixel.group.FlxTypedSpriteGroup.scrollFactorCallback","flixel/group/FlxSpriteGroup.hx",1087,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1101_loadGraphicFromSprite,"flixel.group.FlxTypedSpriteGroup","loadGraphicFromSprite",0x6f12dc84,"flixel.group.FlxTypedSpriteGroup.loadGraphicFromSprite","flixel/group/FlxSpriteGroup.hx",1101,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1111_loadGraphic,"flixel.group.FlxTypedSpriteGroup","loadGraphic",0xb4356b15,"flixel.group.FlxTypedSpriteGroup.loadGraphic","flixel/group/FlxSpriteGroup.hx",1111,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1124_loadRotatedGraphic,"flixel.group.FlxTypedSpriteGroup","loadRotatedGraphic",0x45e23732,"flixel.group.FlxTypedSpriteGroup.loadRotatedGraphic","flixel/group/FlxSpriteGroup.hx",1124,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1136_makeGraphic,"flixel.group.FlxTypedSpriteGroup","makeGraphic",0x27a1d44d,"flixel.group.FlxTypedSpriteGroup.makeGraphic","flixel/group/FlxSpriteGroup.hx",1136,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1141_set_pixels,"flixel.group.FlxTypedSpriteGroup","set_pixels",0xc29e6ad7,"flixel.group.FlxTypedSpriteGroup.set_pixels","flixel/group/FlxSpriteGroup.hx",1141,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1146_set_frame,"flixel.group.FlxTypedSpriteGroup","set_frame",0xf0f19fc3,"flixel.group.FlxTypedSpriteGroup.set_frame","flixel/group/FlxSpriteGroup.hx",1146,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1151_get_pixels,"flixel.group.FlxTypedSpriteGroup","get_pixels",0xbf20cc63,"flixel.group.FlxTypedSpriteGroup.get_pixels","flixel/group/FlxSpriteGroup.hx",1151,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1160_calcFrame,"flixel.group.FlxTypedSpriteGroup","calcFrame",0xbd00728b,"flixel.group.FlxTypedSpriteGroup.calcFrame","flixel/group/FlxSpriteGroup.hx",1160,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1167_resetHelpers,"flixel.group.FlxTypedSpriteGroup","resetHelpers",0x60f4ebe3,"flixel.group.FlxTypedSpriteGroup.resetHelpers","flixel/group/FlxSpriteGroup.hx",1167,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1172_stamp,"flixel.group.FlxTypedSpriteGroup","stamp",0x5cccf9b6,"flixel.group.FlxTypedSpriteGroup.stamp","flixel/group/FlxSpriteGroup.hx",1172,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1176_set_frames,"flixel.group.FlxTypedSpriteGroup","set_frames",0xe27a2b50,"flixel.group.FlxTypedSpriteGroup.set_frames","flixel/group/FlxSpriteGroup.hx",1176,0xeb1fa7f3)
+HX_LOCAL_STACK_FRAME(_hx_pos_790ec110ce1e7f7f_1182_updateColorTransform,"flixel.group.FlxTypedSpriteGroup","updateColorTransform",0x64df671f,"flixel.group.FlxTypedSpriteGroup.updateColorTransform","flixel/group/FlxSpriteGroup.hx",1182,0xeb1fa7f3)
 namespace flixel{
 namespace group{
 
@@ -227,25 +224,25 @@ bool FlxTypedSpriteGroup_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxTypedSpriteGroup_obj::transformChildren_flixel_math_FlxRect( ::Dynamic Function, ::flixel::math::FlxRect Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_flixel_math_FlxRect)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_flixel_math_FlxRect)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -255,25 +252,25 @@ HXLINE( 630)					Function(sprite,Value);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,transformChildren_flixel_math_FlxRect,(void))
 
 void FlxTypedSpriteGroup_obj::transformChildren_openfl_display_BlendMode( ::Dynamic Function, ::Dynamic Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_openfl_display_BlendMode)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_openfl_display_BlendMode)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -283,25 +280,25 @@ HXLINE( 630)					Function(sprite,Value);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,transformChildren_openfl_display_BlendMode,(void))
 
 void FlxTypedSpriteGroup_obj::transformChildren_Int( ::Dynamic Function,int Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_Int)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_Int)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -311,25 +308,25 @@ HXLINE( 630)					Function(sprite,Value);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,transformChildren_Int,(void))
 
 void FlxTypedSpriteGroup_obj::transformChildren_Bool( ::Dynamic Function,bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_Bool)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_Bool)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -339,25 +336,25 @@ HXLINE( 630)					Function(sprite,Value);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,transformChildren_Bool,(void))
 
 void FlxTypedSpriteGroup_obj::transformChildren_Array_flixel_FlxCamera( ::Dynamic Function,::Array< ::Dynamic> Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_Array_flixel_FlxCamera)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_Array_flixel_FlxCamera)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -367,43 +364,43 @@ HXLINE( 630)					Function(sprite,Value);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,transformChildren_Array_flixel_FlxCamera,(void))
 
 void FlxTypedSpriteGroup_obj::multiTransformChildren_Float(::Array< ::Dynamic> FunctionArray,::Array< Float > ValueArray){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_642_multiTransformChildren_Float)
-HXLINE( 643)		bool _hx_tmp;
-HXDLIN( 643)		if (!(this->_skipTransformChildren)) {
-HXLINE( 643)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_639_multiTransformChildren_Float)
+HXLINE( 640)		bool _hx_tmp;
+HXDLIN( 640)		if (!(this->_skipTransformChildren)) {
+HXLINE( 640)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 643)			_hx_tmp = true;
+HXLINE( 640)			_hx_tmp = true;
             		}
-HXDLIN( 643)		if (_hx_tmp) {
-HXLINE( 644)			return;
+HXDLIN( 640)		if (_hx_tmp) {
+HXLINE( 641)			return;
             		}
-HXLINE( 646)		int numProps = FunctionArray->length;
-HXLINE( 647)		if ((numProps > ValueArray->length)) {
-HXLINE( 648)			return;
+HXLINE( 643)		int numProps = FunctionArray->length;
+HXLINE( 644)		if ((numProps > ValueArray->length)) {
+HXLINE( 645)			return;
             		}
-HXLINE( 650)		 ::Dynamic lambda;
-HXLINE( 651)		{
-HXLINE( 651)			int _g = 0;
-HXDLIN( 651)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 651)			while((_g < _g1->length)){
-HXLINE( 651)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 651)				_g = (_g + 1);
-HXLINE( 653)				bool _hx_tmp1;
-HXDLIN( 653)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 653)					_hx_tmp1 = sprite->exists;
+HXLINE( 647)		 ::Dynamic lambda;
+HXLINE( 648)		{
+HXLINE( 648)			int _g = 0;
+HXDLIN( 648)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 648)			while((_g < _g1->length)){
+HXLINE( 648)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 648)				_g = (_g + 1);
+HXLINE( 650)				bool _hx_tmp1;
+HXDLIN( 650)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 650)					_hx_tmp1 = sprite->exists;
             				}
             				else {
-HXLINE( 653)					_hx_tmp1 = false;
+HXLINE( 650)					_hx_tmp1 = false;
             				}
-HXDLIN( 653)				if (_hx_tmp1) {
-HXLINE( 655)					int _g2 = 0;
-HXDLIN( 655)					int _g3 = numProps;
-HXDLIN( 655)					while((_g2 < _g3)){
-HXLINE( 655)						_g2 = (_g2 + 1);
-HXDLIN( 655)						int i = (_g2 - 1);
-HXLINE( 657)						lambda = FunctionArray->__get(i);
-HXLINE( 658)						lambda(sprite,ValueArray->__get(i));
+HXDLIN( 650)				if (_hx_tmp1) {
+HXLINE( 652)					int _g2 = 0;
+HXDLIN( 652)					int _g3 = numProps;
+HXDLIN( 652)					while((_g2 < _g3)){
+HXLINE( 652)						_g2 = (_g2 + 1);
+HXDLIN( 652)						int i = (_g2 - 1);
+HXLINE( 654)						lambda = FunctionArray->__get(i);
+HXLINE( 655)						lambda(sprite,ValueArray->__get(i));
             					}
             				}
             			}
@@ -414,25 +411,25 @@ HXLINE( 658)						lambda(sprite,ValueArray->__get(i));
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,multiTransformChildren_Float,(void))
 
 void FlxTypedSpriteGroup_obj::transformChildren_Float( ::Dynamic Function,Float Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_Float)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_Float)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -442,25 +439,25 @@ HXLINE( 630)					Function(sprite,Value);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,transformChildren_Float,(void))
 
 void FlxTypedSpriteGroup_obj::transformChildren_flixel_math_FlxPoint( ::Dynamic Function, ::flixel::math::FlxBasePoint Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_flixel_math_FlxPoint)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_flixel_math_FlxPoint)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -470,25 +467,25 @@ HXLINE( 630)					Function(sprite,Value);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,transformChildren_flixel_math_FlxPoint,(void))
 
 void FlxTypedSpriteGroup_obj::transformChildren_flixel_FlxCamera( ::Dynamic Function, ::flixel::FlxCamera Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_623_transformChildren_flixel_FlxCamera)
-HXLINE( 624)		bool _hx_tmp;
-HXDLIN( 624)		if (!(this->_skipTransformChildren)) {
-HXLINE( 624)			_hx_tmp = ::hx::IsNull( this->group );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_620_transformChildren_flixel_FlxCamera)
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		if (!(this->_skipTransformChildren)) {
+HXLINE( 621)			_hx_tmp = ::hx::IsNull( this->group );
             		}
             		else {
-HXLINE( 624)			_hx_tmp = true;
+HXLINE( 621)			_hx_tmp = true;
             		}
-HXDLIN( 624)		if (_hx_tmp) {
-HXLINE( 625)			return;
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 622)			return;
             		}
-HXLINE( 627)		{
-HXLINE( 627)			int _g = 0;
-HXDLIN( 627)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 627)			while((_g < _g1->length)){
-HXLINE( 627)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 627)				_g = (_g + 1);
-HXLINE( 629)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 630)					Function(sprite,Value);
+HXLINE( 624)		{
+HXLINE( 624)			int _g = 0;
+HXDLIN( 624)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 624)			while((_g < _g1->length)){
+HXLINE( 624)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 624)				_g = (_g + 1);
+HXLINE( 626)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 627)					Function(sprite,Value);
             				}
             			}
             		}
@@ -678,111 +675,101 @@ HXLINE( 204)		return result;
 void FlxTypedSpriteGroup_obj::update(Float elapsed){
             	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_208_update)
 HXLINE( 209)		this->group->update(elapsed);
-HXLINE( 211)		bool _hx_tmp;
-HXDLIN( 211)		if (::hx::IsNotNull( this->path )) {
-HXLINE( 211)			_hx_tmp = this->path->active;
-            		}
-            		else {
-HXLINE( 211)			_hx_tmp = false;
-            		}
-HXDLIN( 211)		if (_hx_tmp) {
-HXLINE( 212)			this->path->update(elapsed);
-            		}
-HXLINE( 214)		if (this->moves) {
-HXLINE( 215)			this->updateMotion(elapsed);
+HXLINE( 211)		if (this->moves) {
+HXLINE( 212)			this->updateMotion(elapsed);
             		}
             	}
 
 
 void FlxTypedSpriteGroup_obj::draw(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_220_draw)
-HXDLIN( 220)		this->group->draw();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_217_draw)
+HXDLIN( 217)		this->group->draw();
             	}
 
 
 ::Array< ::Dynamic> FlxTypedSpriteGroup_obj::replaceColor(int _tmp_Color,int _tmp_NewColor,::hx::Null< bool >  __o_FetchPositions){
             		bool FetchPositions = __o_FetchPositions.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_238_replaceColor)
-HXLINE( 239)		int Color = _tmp_Color;
-HXDLIN( 239)		int NewColor = _tmp_NewColor;
-HXDLIN( 239)		::Array< ::Dynamic> positions = null();
-HXLINE( 240)		if (FetchPositions) {
-HXLINE( 242)			positions = ::Array_obj< ::Dynamic>::__new();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_235_replaceColor)
+HXLINE( 236)		int Color = _tmp_Color;
+HXDLIN( 236)		int NewColor = _tmp_NewColor;
+HXDLIN( 236)		::Array< ::Dynamic> positions = null();
+HXLINE( 237)		if (FetchPositions) {
+HXLINE( 239)			positions = ::Array_obj< ::Dynamic>::__new();
             		}
-HXLINE( 245)		::Array< ::Dynamic> spritePositions;
-HXLINE( 246)		{
-HXLINE( 246)			int _g = 0;
-HXDLIN( 246)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 246)			while((_g < _g1->length)){
-HXLINE( 246)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 246)				_g = (_g + 1);
-HXLINE( 248)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 250)					spritePositions = sprite->replaceColor(Color,NewColor,FetchPositions);
-HXLINE( 251)					if (FetchPositions) {
-HXLINE( 253)						positions = positions->concat(spritePositions);
+HXLINE( 242)		::Array< ::Dynamic> spritePositions;
+HXLINE( 243)		{
+HXLINE( 243)			int _g = 0;
+HXDLIN( 243)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 243)			while((_g < _g1->length)){
+HXLINE( 243)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 243)				_g = (_g + 1);
+HXLINE( 245)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 247)					spritePositions = sprite->replaceColor(Color,NewColor,FetchPositions);
+HXLINE( 248)					if (FetchPositions) {
+HXLINE( 250)						positions = positions->concat(spritePositions);
             					}
             				}
             			}
             		}
-HXLINE( 258)		return positions;
+HXLINE( 255)		return positions;
             	}
 
 
  ::Dynamic FlxTypedSpriteGroup_obj::add( ::Dynamic Sprite){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_268_add)
-HXLINE( 269)		this->preAdd(Sprite);
-HXLINE( 270)		return this->group->add(Sprite);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_265_add)
+HXLINE( 266)		this->preAdd(Sprite);
+HXLINE( 267)		return this->group->add(Sprite);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,add,return )
 
  ::Dynamic FlxTypedSpriteGroup_obj::insert(int Position, ::Dynamic Sprite){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_283_insert)
-HXLINE( 284)		this->preAdd(Sprite);
-HXLINE( 285)		return this->group->insert(Position,Sprite);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_280_insert)
+HXLINE( 281)		this->preAdd(Sprite);
+HXLINE( 282)		return this->group->insert(Position,Sprite);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,insert,return )
 
 void FlxTypedSpriteGroup_obj::preAdd( ::Dynamic Sprite){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_295_preAdd)
-HXLINE( 296)		 ::flixel::FlxSprite sprite = ( ( ::flixel::FlxSprite)(Sprite) );
-HXLINE( 297)		sprite->set_x((sprite->x + this->x));
-HXLINE( 298)		sprite->set_y((sprite->y + this->y));
-HXLINE( 299)		sprite->set_alpha((sprite->alpha * this->alpha));
-HXLINE( 300)		{
-HXLINE( 300)			 ::flixel::math::FlxBasePoint this1 = sprite->scrollFactor;
-HXDLIN( 300)			 ::flixel::math::FlxBasePoint p = this->scrollFactor;
-HXDLIN( 300)			{
-HXLINE( 300)				Float y = p->y;
-HXDLIN( 300)				this1->set_x(p->x);
-HXDLIN( 300)				this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_292_preAdd)
+HXLINE( 293)		 ::flixel::FlxSprite sprite = ( ( ::flixel::FlxSprite)(Sprite) );
+HXLINE( 294)		sprite->set_x((sprite->x + this->x));
+HXLINE( 295)		sprite->set_y((sprite->y + this->y));
+HXLINE( 296)		sprite->set_alpha((sprite->alpha * this->alpha));
+HXLINE( 297)		{
+HXLINE( 297)			 ::flixel::math::FlxBasePoint this1 = sprite->scrollFactor;
+HXDLIN( 297)			 ::flixel::math::FlxBasePoint p = this->scrollFactor;
+HXDLIN( 297)			{
+HXLINE( 297)				Float y = p->y;
+HXDLIN( 297)				this1->set_x(p->x);
+HXDLIN( 297)				this1->set_y(y);
             			}
-HXDLIN( 300)			if (p->_weak) {
-HXLINE( 300)				p->put();
+HXDLIN( 297)			if (p->_weak) {
+HXLINE( 297)				p->put();
             			}
             		}
-HXLINE( 301)		sprite->set_cameras(this->_cameras);
-HXLINE( 303)		if (::hx::IsNotNull( this->clipRect )) {
-HXLINE( 304)			 ::flixel::math::FlxRect ClipRect = this->clipRect;
-HXDLIN( 304)			if (::hx::IsNull( ClipRect )) {
-HXLINE( 304)				sprite->set_clipRect(null());
+HXLINE( 298)		sprite->set_cameras(this->_cameras);
+HXLINE( 300)		if (::hx::IsNotNull( this->clipRect )) {
+HXLINE( 301)			 ::flixel::math::FlxRect ClipRect = this->clipRect;
+HXDLIN( 301)			if (::hx::IsNull( ClipRect )) {
+HXLINE( 301)				sprite->set_clipRect(null());
             			}
             			else {
-HXLINE( 304)				Float X = ((ClipRect->x - sprite->x) + this->x);
-HXDLIN( 304)				Float Y = ((ClipRect->y - sprite->y) + this->y);
-HXDLIN( 304)				Float Width = ClipRect->width;
-HXDLIN( 304)				Float Height = ClipRect->height;
-HXDLIN( 304)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN( 304)				_this->x = X;
-HXDLIN( 304)				_this->y = Y;
-HXDLIN( 304)				_this->width = Width;
-HXDLIN( 304)				_this->height = Height;
-HXDLIN( 304)				 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 304)				rect->_inPool = false;
-HXDLIN( 304)				sprite->set_clipRect(rect);
+HXLINE( 301)				Float X = ((ClipRect->x - sprite->x) + this->x);
+HXDLIN( 301)				Float Y = ((ClipRect->y - sprite->y) + this->y);
+HXDLIN( 301)				Float Width = ClipRect->width;
+HXDLIN( 301)				Float Height = ClipRect->height;
+HXDLIN( 301)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN( 301)				_this->x = X;
+HXDLIN( 301)				_this->y = Y;
+HXDLIN( 301)				_this->width = Width;
+HXDLIN( 301)				_this->height = Height;
+HXDLIN( 301)				 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 301)				rect->_inPool = false;
+HXDLIN( 301)				sprite->set_clipRect(rect);
             			}
             		}
             	}
@@ -793,8 +780,8 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,preAdd,(void))
  ::Dynamic FlxTypedSpriteGroup_obj::recycle(::hx::Class ObjectClass, ::Dynamic ObjectFactory,::hx::Null< bool >  __o_Force,::hx::Null< bool >  __o_Revive){
             		bool Force = __o_Force.Default(false);
             		bool Revive = __o_Revive.Default(true);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_334_recycle)
-HXDLIN( 334)		return this->group->recycle(ObjectClass,ObjectFactory,Force,Revive);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_331_recycle)
+HXDLIN( 331)		return this->group->recycle(ObjectClass,ObjectFactory,Force,Revive);
             	}
 
 
@@ -802,20 +789,20 @@ HX_DEFINE_DYNAMIC_FUNC4(FlxTypedSpriteGroup_obj,recycle,return )
 
  ::Dynamic FlxTypedSpriteGroup_obj::remove( ::Dynamic Sprite,::hx::Null< bool >  __o_Splice){
             		bool Splice = __o_Splice.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_345_remove)
-HXLINE( 346)		 ::flixel::FlxSprite sprite = ( ( ::flixel::FlxSprite)(Sprite) );
-HXLINE( 347)		sprite->set_x((sprite->x - this->x));
-HXLINE( 348)		sprite->set_y((sprite->y - this->y));
-HXLINE( 350)		sprite->set_cameras(null());
-HXLINE( 351)		return this->group->remove(Sprite,Splice);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_342_remove)
+HXLINE( 343)		 ::flixel::FlxSprite sprite = ( ( ::flixel::FlxSprite)(Sprite) );
+HXLINE( 344)		sprite->set_x((sprite->x - this->x));
+HXLINE( 345)		sprite->set_y((sprite->y - this->y));
+HXLINE( 347)		sprite->set_cameras(null());
+HXLINE( 348)		return this->group->remove(Sprite,Splice);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,remove,return )
 
  ::Dynamic FlxTypedSpriteGroup_obj::replace( ::Dynamic OldObject, ::Dynamic NewObject){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_363_replace)
-HXDLIN( 363)		return this->group->replace(OldObject,NewObject);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_360_replace)
+HXDLIN( 360)		return this->group->replace(OldObject,NewObject);
             	}
 
 
@@ -824,17 +811,17 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,replace,return )
 void FlxTypedSpriteGroup_obj::sort( ::Dynamic Function,::hx::Null< int >  __o_Order){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0,int,a1, ::Dynamic,_g) HXARGC(2)
             		int _hx_run( ::Dynamic a2, ::Dynamic a3){
-            			HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_378_sort)
-HXDLIN( 378)			return ( (int)(_g(a1,a2,a3)) );
+            			HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_375_sort)
+HXDLIN( 375)			return ( (int)(_g(a1,a2,a3)) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		int Order = __o_Order.Default(-1);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_378_sort)
-HXDLIN( 378)		 ::Dynamic _g = Function;
-HXDLIN( 378)		int a1 = Order;
-HXDLIN( 378)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(a1,_g));
-HXDLIN( 378)		this->group->members->sort(_hx_tmp);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_375_sort)
+HXDLIN( 375)		 ::Dynamic _g = Function;
+HXDLIN( 375)		int a1 = Order;
+HXDLIN( 375)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(a1,_g));
+HXDLIN( 375)		this->group->members->sort(_hx_tmp);
             	}
 
 
@@ -842,56 +829,56 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,sort,(void))
 
  ::Dynamic FlxTypedSpriteGroup_obj::getFirstAvailable(::hx::Class ObjectClass,::hx::Null< bool >  __o_Force){
             		bool Force = __o_Force.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_392_getFirstAvailable)
-HXDLIN( 392)		return this->group->getFirstAvailable(ObjectClass,Force);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_389_getFirstAvailable)
+HXDLIN( 389)		return this->group->getFirstAvailable(ObjectClass,Force);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,getFirstAvailable,return )
 
 int FlxTypedSpriteGroup_obj::getFirstNull(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_403_getFirstNull)
-HXDLIN( 403)		return this->group->getFirstNull();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_400_getFirstNull)
+HXDLIN( 400)		return this->group->getFirstNull();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,getFirstNull,return )
 
  ::Dynamic FlxTypedSpriteGroup_obj::getFirstExisting(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_414_getFirstExisting)
-HXDLIN( 414)		return this->group->getFirstExisting();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_411_getFirstExisting)
+HXDLIN( 411)		return this->group->getFirstExisting();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,getFirstExisting,return )
 
  ::Dynamic FlxTypedSpriteGroup_obj::getFirstAlive(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_425_getFirstAlive)
-HXDLIN( 425)		return this->group->getFirstAlive();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_422_getFirstAlive)
+HXDLIN( 422)		return this->group->getFirstAlive();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,getFirstAlive,return )
 
  ::Dynamic FlxTypedSpriteGroup_obj::getFirstDead(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_436_getFirstDead)
-HXDLIN( 436)		return this->group->getFirstDead();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_433_getFirstDead)
+HXDLIN( 433)		return this->group->getFirstDead();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,getFirstDead,return )
 
 int FlxTypedSpriteGroup_obj::countLiving(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_446_countLiving)
-HXDLIN( 446)		return this->group->countLiving();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_443_countLiving)
+HXDLIN( 443)		return this->group->countLiving();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,countLiving,return )
 
 int FlxTypedSpriteGroup_obj::countDead(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_456_countDead)
-HXDLIN( 456)		return this->group->countDead();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_453_countDead)
+HXDLIN( 453)		return this->group->countDead();
             	}
 
 
@@ -900,16 +887,16 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,countDead,return )
  ::Dynamic FlxTypedSpriteGroup_obj::getRandom(::hx::Null< int >  __o_StartIndex,::hx::Null< int >  __o_Length){
             		int StartIndex = __o_StartIndex.Default(0);
             		int Length = __o_Length.Default(0);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_469_getRandom)
-HXDLIN( 469)		return this->group->getRandom(StartIndex,Length);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_466_getRandom)
+HXDLIN( 466)		return this->group->getRandom(StartIndex,Length);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,getRandom,return )
 
  ::flixel::group::FlxTypedGroupIterator FlxTypedSpriteGroup_obj::iterator( ::Dynamic filter){
-            	HX_GC_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_479_iterator)
-HXDLIN( 479)		return  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->group->members,filter);
+            	HX_GC_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_476_iterator)
+HXDLIN( 476)		return  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->group->members,filter);
             	}
 
 
@@ -917,8 +904,8 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,iterator,return )
 
 void FlxTypedSpriteGroup_obj::forEach( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_490_forEach)
-HXDLIN( 490)		this->group->forEach(Function,Recurse);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_487_forEach)
+HXDLIN( 487)		this->group->forEach(Function,Recurse);
             	}
 
 
@@ -926,8 +913,8 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,forEach,(void))
 
 void FlxTypedSpriteGroup_obj::forEachAlive( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_501_forEachAlive)
-HXDLIN( 501)		this->group->forEachAlive(Function,Recurse);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_498_forEachAlive)
+HXDLIN( 498)		this->group->forEachAlive(Function,Recurse);
             	}
 
 
@@ -935,8 +922,8 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,forEachAlive,(void))
 
 void FlxTypedSpriteGroup_obj::forEachDead( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_512_forEachDead)
-HXDLIN( 512)		this->group->forEachDead(Function,Recurse);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_509_forEachDead)
+HXDLIN( 509)		this->group->forEachDead(Function,Recurse);
             	}
 
 
@@ -944,8 +931,8 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,forEachDead,(void))
 
 void FlxTypedSpriteGroup_obj::forEachExists( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_523_forEachExists)
-HXDLIN( 523)		this->group->forEachExists(Function,Recurse);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_520_forEachExists)
+HXDLIN( 520)		this->group->forEachExists(Function,Recurse);
             	}
 
 
@@ -953,680 +940,680 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,forEachExists,(void))
 
 void FlxTypedSpriteGroup_obj::forEachOfType(::hx::Class ObjectClass, ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_535_forEachOfType)
-HXDLIN( 535)		this->group->forEachOfType(ObjectClass,Function,Recurse);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_532_forEachOfType)
+HXDLIN( 532)		this->group->forEachOfType(ObjectClass,Function,Recurse);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxTypedSpriteGroup_obj,forEachOfType,(void))
 
 void FlxTypedSpriteGroup_obj::clear(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_544_clear)
-HXDLIN( 544)		this->group->clear();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_541_clear)
+HXDLIN( 541)		this->group->clear();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,clear,(void))
 
 void FlxTypedSpriteGroup_obj::kill(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_552_kill)
-HXLINE( 553)		this->_skipTransformChildren = true;
-HXLINE( 554)		this->super::kill();
-HXLINE( 555)		this->_skipTransformChildren = false;
-HXLINE( 556)		this->group->kill();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_549_kill)
+HXLINE( 550)		this->_skipTransformChildren = true;
+HXLINE( 551)		this->super::kill();
+HXLINE( 552)		this->_skipTransformChildren = false;
+HXLINE( 553)		this->group->kill();
             	}
 
 
 void FlxTypedSpriteGroup_obj::revive(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_563_revive)
-HXLINE( 564)		this->_skipTransformChildren = true;
-HXLINE( 565)		this->super::revive();
-HXLINE( 566)		this->_skipTransformChildren = false;
-HXLINE( 567)		this->group->revive();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_560_revive)
+HXLINE( 561)		this->_skipTransformChildren = true;
+HXLINE( 562)		this->super::revive();
+HXLINE( 563)		this->_skipTransformChildren = false;
+HXLINE( 564)		this->group->revive();
             	}
 
 
 void FlxTypedSpriteGroup_obj::reset(Float X,Float Y){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_571_reset)
-HXLINE( 572)		{
-HXLINE( 572)			int _g = 0;
-HXDLIN( 572)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 572)			while((_g < _g1->length)){
-HXLINE( 572)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 572)				_g = (_g + 1);
-HXLINE( 574)				if (::hx::IsNotNull( sprite )) {
-HXLINE( 575)					sprite->reset(((sprite->x + X) - this->x),((sprite->y + Y) - this->y));
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_568_reset)
+HXLINE( 569)		{
+HXLINE( 569)			int _g = 0;
+HXDLIN( 569)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 569)			while((_g < _g1->length)){
+HXLINE( 569)				 ::flixel::FlxSprite sprite = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 569)				_g = (_g + 1);
+HXLINE( 571)				if (::hx::IsNotNull( sprite )) {
+HXLINE( 572)					sprite->reset(((sprite->x + X) - this->x),((sprite->y + Y) - this->y));
             				}
             			}
             		}
-HXLINE( 579)		this->_skipTransformChildren = true;
-HXLINE( 582)		this->touching = 0;
-HXLINE( 583)		this->wasTouching = 0;
-HXLINE( 584)		this->set_x(X);
-HXLINE( 585)		this->set_y(Y);
-HXLINE( 587)		{
-HXLINE( 587)			 ::flixel::math::FlxBasePoint this1 = this->velocity;
-HXDLIN( 587)			this1->set_x(( (Float)(0) ));
-HXDLIN( 587)			this1->set_y(( (Float)(0) ));
+HXLINE( 576)		this->_skipTransformChildren = true;
+HXLINE( 579)		this->touching = 0;
+HXLINE( 580)		this->wasTouching = 0;
+HXLINE( 581)		this->set_x(X);
+HXLINE( 582)		this->set_y(Y);
+HXLINE( 584)		{
+HXLINE( 584)			 ::flixel::math::FlxBasePoint this1 = this->velocity;
+HXDLIN( 584)			this1->set_x(( (Float)(0) ));
+HXDLIN( 584)			this1->set_y(( (Float)(0) ));
             		}
-HXLINE( 588)		this->super::revive();
-HXLINE( 590)		this->_skipTransformChildren = false;
+HXLINE( 585)		this->super::revive();
+HXLINE( 587)		this->_skipTransformChildren = false;
             	}
 
 
 void FlxTypedSpriteGroup_obj::setPosition(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y){
             		Float X = __o_X.Default(0);
             		Float Y = __o_Y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_601_setPosition)
-HXLINE( 603)		Float dx = (X - this->x);
-HXLINE( 604)		Float dy = (Y - this->y);
-HXLINE( 605)		this->multiTransformChildren_Float(::Array_obj< ::Dynamic>::__new(2)->init(0,this->xTransform_dyn())->init(1,this->yTransform_dyn()),::Array_obj< Float >::__new(2)->init(0,dx)->init(1,dy));
-HXLINE( 608)		this->_skipTransformChildren = true;
-HXLINE( 609)		this->set_x(X);
-HXLINE( 610)		this->set_y(Y);
-HXLINE( 611)		this->_skipTransformChildren = false;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_598_setPosition)
+HXLINE( 600)		Float dx = (X - this->x);
+HXLINE( 601)		Float dy = (Y - this->y);
+HXLINE( 602)		this->multiTransformChildren_Float(::Array_obj< ::Dynamic>::__new(2)->init(0,this->xTransform_dyn())->init(1,this->yTransform_dyn()),::Array_obj< Float >::__new(2)->init(0,dx)->init(1,dy));
+HXLINE( 605)		this->_skipTransformChildren = true;
+HXLINE( 606)		this->set_x(X);
+HXLINE( 607)		this->set_y(Y);
+HXLINE( 608)		this->_skipTransformChildren = false;
             	}
 
 
  ::flixel::FlxCamera FlxTypedSpriteGroup_obj::set_camera( ::flixel::FlxCamera Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_667_set_camera)
-HXLINE( 668)		if (::hx::IsInstanceNotEq( this->get_camera(),Value )) {
-HXLINE( 669)			this->transformChildren_flixel_FlxCamera(this->cameraTransform_dyn(),Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_664_set_camera)
+HXLINE( 665)		if (::hx::IsInstanceNotEq( this->get_camera(),Value )) {
+HXLINE( 666)			this->transformChildren_flixel_FlxCamera(this->cameraTransform_dyn(),Value);
             		}
-HXLINE( 670)		return this->super::set_camera(Value);
+HXLINE( 667)		return this->super::set_camera(Value);
             	}
 
 
 ::Array< ::Dynamic> FlxTypedSpriteGroup_obj::set_cameras(::Array< ::Dynamic> Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_674_set_cameras)
-HXLINE( 675)		if (::hx::IsPointerNotEq( this->get_cameras(),Value )) {
-HXLINE( 676)			this->transformChildren_Array_flixel_FlxCamera(this->camerasTransform_dyn(),Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_671_set_cameras)
+HXLINE( 672)		if (::hx::IsPointerNotEq( this->get_cameras(),Value )) {
+HXLINE( 673)			this->transformChildren_Array_flixel_FlxCamera(this->camerasTransform_dyn(),Value);
             		}
-HXLINE( 677)		return this->super::set_cameras(Value);
+HXLINE( 674)		return this->super::set_cameras(Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_exists(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_681_set_exists)
-HXLINE( 682)		if ((this->exists != Value)) {
-HXLINE( 683)			this->transformChildren_Bool(this->existsTransform_dyn(),Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_678_set_exists)
+HXLINE( 679)		if ((this->exists != Value)) {
+HXLINE( 680)			this->transformChildren_Bool(this->existsTransform_dyn(),Value);
             		}
-HXLINE( 684)		return this->super::set_exists(Value);
+HXLINE( 681)		return this->super::set_exists(Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_visible(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_688_set_visible)
-HXLINE( 689)		bool _hx_tmp;
-HXDLIN( 689)		if (this->exists) {
-HXLINE( 689)			_hx_tmp = (this->visible != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_685_set_visible)
+HXLINE( 686)		bool _hx_tmp;
+HXDLIN( 686)		if (this->exists) {
+HXLINE( 686)			_hx_tmp = (this->visible != Value);
             		}
             		else {
-HXLINE( 689)			_hx_tmp = false;
+HXLINE( 686)			_hx_tmp = false;
             		}
-HXDLIN( 689)		if (_hx_tmp) {
-HXLINE( 690)			this->transformChildren_Bool(this->visibleTransform_dyn(),Value);
+HXDLIN( 686)		if (_hx_tmp) {
+HXLINE( 687)			this->transformChildren_Bool(this->visibleTransform_dyn(),Value);
             		}
-HXLINE( 691)		return this->super::set_visible(Value);
+HXLINE( 688)		return this->super::set_visible(Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_active(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_695_set_active)
-HXLINE( 696)		bool _hx_tmp;
-HXDLIN( 696)		if (this->exists) {
-HXLINE( 696)			_hx_tmp = (this->active != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_692_set_active)
+HXLINE( 693)		bool _hx_tmp;
+HXDLIN( 693)		if (this->exists) {
+HXLINE( 693)			_hx_tmp = (this->active != Value);
             		}
             		else {
-HXLINE( 696)			_hx_tmp = false;
+HXLINE( 693)			_hx_tmp = false;
             		}
-HXDLIN( 696)		if (_hx_tmp) {
-HXLINE( 697)			this->transformChildren_Bool(this->activeTransform_dyn(),Value);
+HXDLIN( 693)		if (_hx_tmp) {
+HXLINE( 694)			this->transformChildren_Bool(this->activeTransform_dyn(),Value);
             		}
-HXLINE( 698)		return this->super::set_active(Value);
+HXLINE( 695)		return this->super::set_active(Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_alive(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_702_set_alive)
-HXLINE( 703)		if ((this->alive != Value)) {
-HXLINE( 704)			this->transformChildren_Bool(this->aliveTransform_dyn(),Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_699_set_alive)
+HXLINE( 700)		if ((this->alive != Value)) {
+HXLINE( 701)			this->transformChildren_Bool(this->aliveTransform_dyn(),Value);
             		}
-HXLINE( 705)		return this->super::set_alive(Value);
+HXLINE( 702)		return this->super::set_alive(Value);
             	}
 
 
 Float FlxTypedSpriteGroup_obj::set_x(Float Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_709_set_x)
-HXLINE( 710)		bool _hx_tmp;
-HXDLIN( 710)		if (this->exists) {
-HXLINE( 710)			_hx_tmp = (this->x != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_706_set_x)
+HXLINE( 707)		bool _hx_tmp;
+HXDLIN( 707)		if (this->exists) {
+HXLINE( 707)			_hx_tmp = (this->x != Value);
             		}
             		else {
-HXLINE( 710)			_hx_tmp = false;
+HXLINE( 707)			_hx_tmp = false;
             		}
-HXDLIN( 710)		if (_hx_tmp) {
-HXLINE( 711)			this->transformChildren_Float(this->xTransform_dyn(),(Value - this->x));
+HXDLIN( 707)		if (_hx_tmp) {
+HXLINE( 708)			this->transformChildren_Float(this->xTransform_dyn(),(Value - this->x));
             		}
-HXLINE( 712)		return (this->x = Value);
+HXLINE( 709)		return (this->x = Value);
             	}
 
 
 Float FlxTypedSpriteGroup_obj::set_y(Float Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_716_set_y)
-HXLINE( 717)		bool _hx_tmp;
-HXDLIN( 717)		if (this->exists) {
-HXLINE( 717)			_hx_tmp = (this->y != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_713_set_y)
+HXLINE( 714)		bool _hx_tmp;
+HXDLIN( 714)		if (this->exists) {
+HXLINE( 714)			_hx_tmp = (this->y != Value);
             		}
             		else {
-HXLINE( 717)			_hx_tmp = false;
+HXLINE( 714)			_hx_tmp = false;
             		}
-HXDLIN( 717)		if (_hx_tmp) {
-HXLINE( 718)			this->transformChildren_Float(this->yTransform_dyn(),(Value - this->y));
+HXDLIN( 714)		if (_hx_tmp) {
+HXLINE( 715)			this->transformChildren_Float(this->yTransform_dyn(),(Value - this->y));
             		}
-HXLINE( 719)		return (this->y = Value);
+HXLINE( 716)		return (this->y = Value);
             	}
 
 
 Float FlxTypedSpriteGroup_obj::set_angle(Float Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_723_set_angle)
-HXLINE( 724)		bool _hx_tmp;
-HXDLIN( 724)		if (this->exists) {
-HXLINE( 724)			_hx_tmp = (this->angle != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_720_set_angle)
+HXLINE( 721)		bool _hx_tmp;
+HXDLIN( 721)		if (this->exists) {
+HXLINE( 721)			_hx_tmp = (this->angle != Value);
             		}
             		else {
-HXLINE( 724)			_hx_tmp = false;
+HXLINE( 721)			_hx_tmp = false;
             		}
-HXDLIN( 724)		if (_hx_tmp) {
-HXLINE( 725)			this->transformChildren_Float(this->angleTransform_dyn(),(Value - this->angle));
+HXDLIN( 721)		if (_hx_tmp) {
+HXLINE( 722)			this->transformChildren_Float(this->angleTransform_dyn(),(Value - this->angle));
             		}
-HXLINE( 726)		return (this->angle = Value);
+HXLINE( 723)		return (this->angle = Value);
             	}
 
 
 Float FlxTypedSpriteGroup_obj::set_alpha(Float Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_730_set_alpha)
-HXLINE( 731)		Float lowerBound;
-HXDLIN( 731)		if ((Value < 0)) {
-HXLINE( 731)			lowerBound = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_727_set_alpha)
+HXLINE( 728)		Float lowerBound;
+HXDLIN( 728)		if ((Value < 0)) {
+HXLINE( 728)			lowerBound = ( (Float)(0) );
             		}
             		else {
-HXLINE( 731)			lowerBound = Value;
+HXLINE( 728)			lowerBound = Value;
             		}
-HXDLIN( 731)		if ((lowerBound > 1)) {
-HXLINE( 731)			Value = ( (Float)(1) );
-            		}
-            		else {
-HXLINE( 731)			Value = lowerBound;
-            		}
-HXLINE( 733)		bool _hx_tmp;
-HXDLIN( 733)		if (this->exists) {
-HXLINE( 733)			_hx_tmp = (this->alpha != Value);
+HXDLIN( 728)		if ((lowerBound > 1)) {
+HXLINE( 728)			Value = ( (Float)(1) );
             		}
             		else {
-HXLINE( 733)			_hx_tmp = false;
+HXLINE( 728)			Value = lowerBound;
             		}
-HXDLIN( 733)		if (_hx_tmp) {
-HXLINE( 735)			Float factor;
-HXDLIN( 735)			if ((this->alpha > 0)) {
-HXLINE( 735)				factor = (Value / this->alpha);
+HXLINE( 730)		bool _hx_tmp;
+HXDLIN( 730)		if (this->exists) {
+HXLINE( 730)			_hx_tmp = (this->alpha != Value);
+            		}
+            		else {
+HXLINE( 730)			_hx_tmp = false;
+            		}
+HXDLIN( 730)		if (_hx_tmp) {
+HXLINE( 732)			Float factor;
+HXDLIN( 732)			if ((this->alpha > 0)) {
+HXLINE( 732)				factor = (Value / this->alpha);
             			}
             			else {
-HXLINE( 735)				factor = ( (Float)(0) );
+HXLINE( 732)				factor = ( (Float)(0) );
             			}
-HXLINE( 736)			bool _hx_tmp1;
-HXDLIN( 736)			if (!(this->directAlpha)) {
-HXLINE( 736)				_hx_tmp1 = (this->alpha != 0);
-            			}
-            			else {
-HXLINE( 736)				_hx_tmp1 = false;
-            			}
-HXDLIN( 736)			if (_hx_tmp1) {
-HXLINE( 737)				this->transformChildren_Float(this->alphaTransform_dyn(),factor);
+HXLINE( 733)			bool _hx_tmp1;
+HXDLIN( 733)			if (!(this->directAlpha)) {
+HXLINE( 733)				_hx_tmp1 = (this->alpha != 0);
             			}
             			else {
-HXLINE( 739)				this->transformChildren_Float(this->directAlphaTransform_dyn(),Value);
+HXLINE( 733)				_hx_tmp1 = false;
+            			}
+HXDLIN( 733)			if (_hx_tmp1) {
+HXLINE( 734)				this->transformChildren_Float(this->alphaTransform_dyn(),factor);
+            			}
+            			else {
+HXLINE( 736)				this->transformChildren_Float(this->directAlphaTransform_dyn(),Value);
             			}
             		}
-HXLINE( 741)		return (this->alpha = Value);
+HXLINE( 738)		return (this->alpha = Value);
             	}
 
 
 int FlxTypedSpriteGroup_obj::set_facing(int _tmp_Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_745_set_facing)
-HXLINE( 746)		int Value = _tmp_Value;
-HXDLIN( 746)		bool _hx_tmp;
-HXDLIN( 746)		if (this->exists) {
-HXLINE( 746)			_hx_tmp = (this->facing != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_742_set_facing)
+HXLINE( 743)		int Value = _tmp_Value;
+HXDLIN( 743)		bool _hx_tmp;
+HXDLIN( 743)		if (this->exists) {
+HXLINE( 743)			_hx_tmp = (this->facing != Value);
             		}
             		else {
-HXLINE( 746)			_hx_tmp = false;
+HXLINE( 743)			_hx_tmp = false;
             		}
-HXDLIN( 746)		if (_hx_tmp) {
-HXLINE( 747)			this->transformChildren_Int(this->facingTransform_dyn(),Value);
+HXDLIN( 743)		if (_hx_tmp) {
+HXLINE( 744)			this->transformChildren_Int(this->facingTransform_dyn(),Value);
             		}
-HXLINE( 748)		return (this->facing = Value);
+HXLINE( 745)		return (this->facing = Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_flipX(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_752_set_flipX)
-HXLINE( 753)		bool _hx_tmp;
-HXDLIN( 753)		if (this->exists) {
-HXLINE( 753)			_hx_tmp = (this->flipX != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_749_set_flipX)
+HXLINE( 750)		bool _hx_tmp;
+HXDLIN( 750)		if (this->exists) {
+HXLINE( 750)			_hx_tmp = (this->flipX != Value);
             		}
             		else {
-HXLINE( 753)			_hx_tmp = false;
+HXLINE( 750)			_hx_tmp = false;
             		}
-HXDLIN( 753)		if (_hx_tmp) {
-HXLINE( 754)			this->transformChildren_Bool(this->flipXTransform_dyn(),Value);
+HXDLIN( 750)		if (_hx_tmp) {
+HXLINE( 751)			this->transformChildren_Bool(this->flipXTransform_dyn(),Value);
             		}
-HXLINE( 755)		return (this->flipX = Value);
+HXLINE( 752)		return (this->flipX = Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_flipY(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_759_set_flipY)
-HXLINE( 760)		bool _hx_tmp;
-HXDLIN( 760)		if (this->exists) {
-HXLINE( 760)			_hx_tmp = (this->flipY != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_756_set_flipY)
+HXLINE( 757)		bool _hx_tmp;
+HXDLIN( 757)		if (this->exists) {
+HXLINE( 757)			_hx_tmp = (this->flipY != Value);
             		}
             		else {
-HXLINE( 760)			_hx_tmp = false;
+HXLINE( 757)			_hx_tmp = false;
             		}
-HXDLIN( 760)		if (_hx_tmp) {
-HXLINE( 761)			this->transformChildren_Bool(this->flipYTransform_dyn(),Value);
+HXDLIN( 757)		if (_hx_tmp) {
+HXLINE( 758)			this->transformChildren_Bool(this->flipYTransform_dyn(),Value);
             		}
-HXLINE( 762)		return (this->flipY = Value);
+HXLINE( 759)		return (this->flipY = Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_moves(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_766_set_moves)
-HXLINE( 767)		bool _hx_tmp;
-HXDLIN( 767)		if (this->exists) {
-HXLINE( 767)			_hx_tmp = (this->moves != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_763_set_moves)
+HXLINE( 764)		bool _hx_tmp;
+HXDLIN( 764)		if (this->exists) {
+HXLINE( 764)			_hx_tmp = (this->moves != Value);
             		}
             		else {
-HXLINE( 767)			_hx_tmp = false;
+HXLINE( 764)			_hx_tmp = false;
             		}
-HXDLIN( 767)		if (_hx_tmp) {
-HXLINE( 768)			this->transformChildren_Bool(this->movesTransform_dyn(),Value);
+HXDLIN( 764)		if (_hx_tmp) {
+HXLINE( 765)			this->transformChildren_Bool(this->movesTransform_dyn(),Value);
             		}
-HXLINE( 769)		return (this->moves = Value);
+HXLINE( 766)		return (this->moves = Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_immovable(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_773_set_immovable)
-HXLINE( 774)		bool _hx_tmp;
-HXDLIN( 774)		if (this->exists) {
-HXLINE( 774)			_hx_tmp = (this->immovable != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_770_set_immovable)
+HXLINE( 771)		bool _hx_tmp;
+HXDLIN( 771)		if (this->exists) {
+HXLINE( 771)			_hx_tmp = (this->immovable != Value);
             		}
             		else {
-HXLINE( 774)			_hx_tmp = false;
+HXLINE( 771)			_hx_tmp = false;
             		}
-HXDLIN( 774)		if (_hx_tmp) {
-HXLINE( 775)			this->transformChildren_Bool(this->immovableTransform_dyn(),Value);
+HXDLIN( 771)		if (_hx_tmp) {
+HXLINE( 772)			this->transformChildren_Bool(this->immovableTransform_dyn(),Value);
             		}
-HXLINE( 776)		return (this->immovable = Value);
+HXLINE( 773)		return (this->immovable = Value);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_solid(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_780_set_solid)
-HXLINE( 781)		bool _hx_tmp;
-HXDLIN( 781)		if (this->exists) {
-HXLINE( 781)			_hx_tmp = (((this->allowCollisions & 4369) > 0) != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_777_set_solid)
+HXLINE( 778)		bool _hx_tmp;
+HXDLIN( 778)		if (this->exists) {
+HXLINE( 778)			_hx_tmp = (((this->allowCollisions & 4369) > 0) != Value);
             		}
             		else {
-HXLINE( 781)			_hx_tmp = false;
+HXLINE( 778)			_hx_tmp = false;
             		}
-HXDLIN( 781)		if (_hx_tmp) {
-HXLINE( 782)			this->transformChildren_Bool(this->solidTransform_dyn(),Value);
+HXDLIN( 778)		if (_hx_tmp) {
+HXLINE( 779)			this->transformChildren_Bool(this->solidTransform_dyn(),Value);
             		}
-HXLINE( 783)		return this->super::set_solid(Value);
+HXLINE( 780)		return this->super::set_solid(Value);
             	}
 
 
 int FlxTypedSpriteGroup_obj::set_color(int _tmp_Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_787_set_color)
-HXLINE( 788)		int Value = _tmp_Value;
-HXDLIN( 788)		bool _hx_tmp;
-HXDLIN( 788)		if (this->exists) {
-HXLINE( 788)			_hx_tmp = (this->color != Value);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_784_set_color)
+HXLINE( 785)		int Value = _tmp_Value;
+HXDLIN( 785)		bool _hx_tmp;
+HXDLIN( 785)		if (this->exists) {
+HXLINE( 785)			_hx_tmp = (this->color != Value);
             		}
             		else {
-HXLINE( 788)			_hx_tmp = false;
+HXLINE( 785)			_hx_tmp = false;
             		}
-HXDLIN( 788)		if (_hx_tmp) {
-HXLINE( 789)			this->transformChildren_Int(this->gColorTransform_dyn(),Value);
+HXDLIN( 785)		if (_hx_tmp) {
+HXLINE( 786)			this->transformChildren_Int(this->gColorTransform_dyn(),Value);
             		}
-HXLINE( 790)		return (this->color = Value);
+HXLINE( 787)		return (this->color = Value);
             	}
 
 
  ::Dynamic FlxTypedSpriteGroup_obj::set_blend( ::Dynamic Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_794_set_blend)
-HXLINE( 795)		bool _hx_tmp;
-HXDLIN( 795)		if (this->exists) {
-HXLINE( 795)			_hx_tmp = ::hx::IsNotEq( this->blend,Value );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_791_set_blend)
+HXLINE( 792)		bool _hx_tmp;
+HXDLIN( 792)		if (this->exists) {
+HXLINE( 792)			_hx_tmp = ::hx::IsNotEq( this->blend,Value );
             		}
             		else {
-HXLINE( 795)			_hx_tmp = false;
+HXLINE( 792)			_hx_tmp = false;
             		}
-HXDLIN( 795)		if (_hx_tmp) {
-HXLINE( 796)			this->transformChildren_openfl_display_BlendMode(this->blendTransform_dyn(),Value);
+HXDLIN( 792)		if (_hx_tmp) {
+HXLINE( 793)			this->transformChildren_openfl_display_BlendMode(this->blendTransform_dyn(),Value);
             		}
-HXLINE( 797)		return (this->blend = Value);
+HXLINE( 794)		return (this->blend = Value);
             	}
 
 
  ::flixel::math::FlxRect FlxTypedSpriteGroup_obj::set_clipRect( ::flixel::math::FlxRect rect){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_801_set_clipRect)
-HXLINE( 802)		if (this->exists) {
-HXLINE( 803)			this->transformChildren_flixel_math_FlxRect(this->clipRectTransform_dyn(),rect);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_798_set_clipRect)
+HXLINE( 799)		if (this->exists) {
+HXLINE( 800)			this->transformChildren_flixel_math_FlxRect(this->clipRectTransform_dyn(),rect);
             		}
-HXLINE( 804)		return this->super::set_clipRect(rect);
+HXLINE( 801)		return this->super::set_clipRect(rect);
             	}
 
 
 bool FlxTypedSpriteGroup_obj::set_pixelPerfectRender(bool Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_808_set_pixelPerfectRender)
-HXLINE( 809)		bool _hx_tmp;
-HXDLIN( 809)		if (this->exists) {
-HXLINE( 809)			_hx_tmp = ::hx::IsNotEq( this->pixelPerfectRender,Value );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_805_set_pixelPerfectRender)
+HXLINE( 806)		bool _hx_tmp;
+HXDLIN( 806)		if (this->exists) {
+HXLINE( 806)			_hx_tmp = ::hx::IsNotEq( this->pixelPerfectRender,Value );
             		}
             		else {
-HXLINE( 809)			_hx_tmp = false;
+HXLINE( 806)			_hx_tmp = false;
             		}
-HXDLIN( 809)		if (_hx_tmp) {
-HXLINE( 810)			this->transformChildren_Bool(this->pixelPerfectTransform_dyn(),Value);
+HXDLIN( 806)		if (_hx_tmp) {
+HXLINE( 807)			this->transformChildren_Bool(this->pixelPerfectTransform_dyn(),Value);
             		}
-HXLINE( 811)		return this->super::set_pixelPerfectRender(Value);
+HXLINE( 808)		return this->super::set_pixelPerfectRender(Value);
             	}
 
 
 Float FlxTypedSpriteGroup_obj::set_width(Float Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_819_set_width)
-HXDLIN( 819)		return Value;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_816_set_width)
+HXDLIN( 816)		return Value;
             	}
 
 
 Float FlxTypedSpriteGroup_obj::get_width(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_823_get_width)
-HXLINE( 824)		if ((this->group->length == 0)) {
-HXLINE( 825)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_820_get_width)
+HXLINE( 821)		if ((this->group->length == 0)) {
+HXLINE( 822)			return ( (Float)(0) );
             		}
-HXLINE( 827)		Float _hx_tmp = this->findMaxXHelper();
-HXDLIN( 827)		return (_hx_tmp - this->findMinXHelper());
+HXLINE( 824)		Float _hx_tmp = this->findMaxXHelper();
+HXDLIN( 824)		return (_hx_tmp - this->findMinXHelper());
             	}
 
 
 Float FlxTypedSpriteGroup_obj::findMinX(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_838_findMinX)
-HXDLIN( 838)		if ((this->group->length == 0)) {
-HXDLIN( 838)			return this->x;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_835_findMinX)
+HXDLIN( 835)		if ((this->group->length == 0)) {
+HXDLIN( 835)			return this->x;
             		}
             		else {
-HXDLIN( 838)			return this->findMinXHelper();
+HXDLIN( 835)			return this->findMinXHelper();
             		}
-HXDLIN( 838)		return ((Float)0.);
+HXDLIN( 835)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMinX,return )
 
 Float FlxTypedSpriteGroup_obj::findMinXHelper(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_842_findMinXHelper)
-HXLINE( 843)		Float value = ::Math_obj::POSITIVE_INFINITY;
-HXLINE( 844)		{
-HXLINE( 844)			int _g = 0;
-HXDLIN( 844)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 844)			while((_g < _g1->length)){
-HXLINE( 844)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 844)				_g = (_g + 1);
-HXLINE( 846)				if (::hx::IsNull( member )) {
-HXLINE( 847)					continue;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_839_findMinXHelper)
+HXLINE( 840)		Float value = ::Math_obj::POSITIVE_INFINITY;
+HXLINE( 841)		{
+HXLINE( 841)			int _g = 0;
+HXDLIN( 841)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 841)			while((_g < _g1->length)){
+HXLINE( 841)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 841)				_g = (_g + 1);
+HXLINE( 843)				if (::hx::IsNull( member )) {
+HXLINE( 844)					continue;
             				}
-HXLINE( 849)				Float minX;
-HXLINE( 850)				if ((member->flixelType == 4)) {
-HXLINE( 851)					minX = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMinX();
+HXLINE( 846)				Float minX;
+HXLINE( 847)				if ((member->flixelType == 4)) {
+HXLINE( 848)					minX = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMinX();
             				}
             				else {
-HXLINE( 853)					minX = member->x;
+HXLINE( 850)					minX = member->x;
             				}
-HXLINE( 855)				if ((minX < value)) {
-HXLINE( 856)					value = minX;
+HXLINE( 852)				if ((minX < value)) {
+HXLINE( 853)					value = minX;
             				}
             			}
             		}
-HXLINE( 858)		return value;
+HXLINE( 855)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMinXHelper,return )
 
 Float FlxTypedSpriteGroup_obj::findMaxX(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_869_findMaxX)
-HXDLIN( 869)		if ((this->group->length == 0)) {
-HXDLIN( 869)			return this->x;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_866_findMaxX)
+HXDLIN( 866)		if ((this->group->length == 0)) {
+HXDLIN( 866)			return this->x;
             		}
             		else {
-HXDLIN( 869)			return this->findMaxXHelper();
+HXDLIN( 866)			return this->findMaxXHelper();
             		}
-HXDLIN( 869)		return ((Float)0.);
+HXDLIN( 866)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMaxX,return )
 
 Float FlxTypedSpriteGroup_obj::findMaxXHelper(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_873_findMaxXHelper)
-HXLINE( 874)		Float value = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE( 875)		{
-HXLINE( 875)			int _g = 0;
-HXDLIN( 875)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 875)			while((_g < _g1->length)){
-HXLINE( 875)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 875)				_g = (_g + 1);
-HXLINE( 877)				if (::hx::IsNull( member )) {
-HXLINE( 878)					continue;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_870_findMaxXHelper)
+HXLINE( 871)		Float value = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 872)		{
+HXLINE( 872)			int _g = 0;
+HXDLIN( 872)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 872)			while((_g < _g1->length)){
+HXLINE( 872)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 872)				_g = (_g + 1);
+HXLINE( 874)				if (::hx::IsNull( member )) {
+HXLINE( 875)					continue;
             				}
-HXLINE( 880)				Float maxX;
-HXLINE( 881)				if ((member->flixelType == 4)) {
-HXLINE( 882)					maxX = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMaxX();
+HXLINE( 877)				Float maxX;
+HXLINE( 878)				if ((member->flixelType == 4)) {
+HXLINE( 879)					maxX = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMaxX();
             				}
             				else {
-HXLINE( 884)					Float member1 = member->x;
-HXDLIN( 884)					maxX = (member1 + member->get_width());
+HXLINE( 881)					Float member1 = member->x;
+HXDLIN( 881)					maxX = (member1 + member->get_width());
             				}
-HXLINE( 886)				if ((maxX > value)) {
-HXLINE( 887)					value = maxX;
+HXLINE( 883)				if ((maxX > value)) {
+HXLINE( 884)					value = maxX;
             				}
             			}
             		}
-HXLINE( 889)		return value;
+HXLINE( 886)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMaxXHelper,return )
 
 Float FlxTypedSpriteGroup_obj::set_height(Float Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_897_set_height)
-HXDLIN( 897)		return Value;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_894_set_height)
+HXDLIN( 894)		return Value;
             	}
 
 
 Float FlxTypedSpriteGroup_obj::get_height(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_901_get_height)
-HXLINE( 902)		if ((this->group->length == 0)) {
-HXLINE( 903)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_898_get_height)
+HXLINE( 899)		if ((this->group->length == 0)) {
+HXLINE( 900)			return ( (Float)(0) );
             		}
-HXLINE( 905)		Float _hx_tmp = this->findMaxYHelper();
-HXDLIN( 905)		return (_hx_tmp - this->findMinYHelper());
+HXLINE( 902)		Float _hx_tmp = this->findMaxYHelper();
+HXDLIN( 902)		return (_hx_tmp - this->findMinYHelper());
             	}
 
 
 Float FlxTypedSpriteGroup_obj::findMinY(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_916_findMinY)
-HXDLIN( 916)		if ((this->group->length == 0)) {
-HXDLIN( 916)			return this->y;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_913_findMinY)
+HXDLIN( 913)		if ((this->group->length == 0)) {
+HXDLIN( 913)			return this->y;
             		}
             		else {
-HXDLIN( 916)			return this->findMinYHelper();
+HXDLIN( 913)			return this->findMinYHelper();
             		}
-HXDLIN( 916)		return ((Float)0.);
+HXDLIN( 913)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMinY,return )
 
 Float FlxTypedSpriteGroup_obj::findMinYHelper(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_920_findMinYHelper)
-HXLINE( 921)		Float value = ::Math_obj::POSITIVE_INFINITY;
-HXLINE( 922)		{
-HXLINE( 922)			int _g = 0;
-HXDLIN( 922)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 922)			while((_g < _g1->length)){
-HXLINE( 922)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 922)				_g = (_g + 1);
-HXLINE( 924)				if (::hx::IsNull( member )) {
-HXLINE( 925)					continue;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_917_findMinYHelper)
+HXLINE( 918)		Float value = ::Math_obj::POSITIVE_INFINITY;
+HXLINE( 919)		{
+HXLINE( 919)			int _g = 0;
+HXDLIN( 919)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 919)			while((_g < _g1->length)){
+HXLINE( 919)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 919)				_g = (_g + 1);
+HXLINE( 921)				if (::hx::IsNull( member )) {
+HXLINE( 922)					continue;
             				}
-HXLINE( 927)				Float minY;
-HXLINE( 928)				if ((member->flixelType == 4)) {
-HXLINE( 929)					minY = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMinY();
+HXLINE( 924)				Float minY;
+HXLINE( 925)				if ((member->flixelType == 4)) {
+HXLINE( 926)					minY = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMinY();
             				}
             				else {
-HXLINE( 931)					minY = member->y;
+HXLINE( 928)					minY = member->y;
             				}
-HXLINE( 933)				if ((minY < value)) {
-HXLINE( 934)					value = minY;
+HXLINE( 930)				if ((minY < value)) {
+HXLINE( 931)					value = minY;
             				}
             			}
             		}
-HXLINE( 936)		return value;
+HXLINE( 933)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMinYHelper,return )
 
 Float FlxTypedSpriteGroup_obj::findMaxY(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_947_findMaxY)
-HXDLIN( 947)		if ((this->group->length == 0)) {
-HXDLIN( 947)			return this->y;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_944_findMaxY)
+HXDLIN( 944)		if ((this->group->length == 0)) {
+HXDLIN( 944)			return this->y;
             		}
             		else {
-HXDLIN( 947)			return this->findMaxYHelper();
+HXDLIN( 944)			return this->findMaxYHelper();
             		}
-HXDLIN( 947)		return ((Float)0.);
+HXDLIN( 944)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMaxY,return )
 
 Float FlxTypedSpriteGroup_obj::findMaxYHelper(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_951_findMaxYHelper)
-HXLINE( 952)		Float value = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE( 953)		{
-HXLINE( 953)			int _g = 0;
-HXDLIN( 953)			::Array< ::Dynamic> _g1 = this->_sprites;
-HXDLIN( 953)			while((_g < _g1->length)){
-HXLINE( 953)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 953)				_g = (_g + 1);
-HXLINE( 955)				if (::hx::IsNull( member )) {
-HXLINE( 956)					continue;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_948_findMaxYHelper)
+HXLINE( 949)		Float value = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 950)		{
+HXLINE( 950)			int _g = 0;
+HXDLIN( 950)			::Array< ::Dynamic> _g1 = this->_sprites;
+HXDLIN( 950)			while((_g < _g1->length)){
+HXLINE( 950)				 ::flixel::FlxSprite member = _g1->__get(_g).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 950)				_g = (_g + 1);
+HXLINE( 952)				if (::hx::IsNull( member )) {
+HXLINE( 953)					continue;
             				}
-HXLINE( 958)				Float maxY;
-HXLINE( 959)				if ((member->flixelType == 4)) {
-HXLINE( 960)					maxY = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMaxY();
+HXLINE( 955)				Float maxY;
+HXLINE( 956)				if ((member->flixelType == 4)) {
+HXLINE( 957)					maxY = ( ( ::flixel::group::FlxTypedSpriteGroup)(member) )->findMaxY();
             				}
             				else {
-HXLINE( 962)					Float member1 = member->y;
-HXDLIN( 962)					maxY = (member1 + member->get_height());
+HXLINE( 959)					Float member1 = member->y;
+HXDLIN( 959)					maxY = (member1 + member->get_height());
             				}
-HXLINE( 964)				if ((maxY > value)) {
-HXLINE( 965)					value = maxY;
+HXLINE( 961)				if ((maxY > value)) {
+HXLINE( 962)					value = maxY;
             				}
             			}
             		}
-HXLINE( 967)		return value;
+HXLINE( 964)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,findMaxYHelper,return )
 
 int FlxTypedSpriteGroup_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_974_get_length)
-HXDLIN( 974)		return this->group->length;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_971_get_length)
+HXDLIN( 971)		return this->group->length;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,get_length,return )
 
 int FlxTypedSpriteGroup_obj::get_maxSize(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_979_get_maxSize)
-HXDLIN( 979)		return this->group->maxSize;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_976_get_maxSize)
+HXDLIN( 976)		return this->group->maxSize;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,get_maxSize,return )
 
 int FlxTypedSpriteGroup_obj::set_maxSize(int Size){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_984_set_maxSize)
-HXDLIN( 984)		return this->group->set_maxSize(Size);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_981_set_maxSize)
+HXDLIN( 981)		return this->group->set_maxSize(Size);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,set_maxSize,return )
 
 ::cpp::VirtualArray FlxTypedSpriteGroup_obj::get_members(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_989_get_members)
-HXDLIN( 989)		return this->group->members;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_986_get_members)
+HXDLIN( 986)		return this->group->members;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedSpriteGroup_obj,get_members,return )
 
 void FlxTypedSpriteGroup_obj::xTransform( ::flixel::FlxSprite Sprite,Float X){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_995_xTransform)
-HXDLIN( 995)		Sprite->set_x((Sprite->x + X));
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_992_xTransform)
+HXDLIN( 992)		Sprite->set_x((Sprite->x + X));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,xTransform,(void))
 
 void FlxTypedSpriteGroup_obj::yTransform( ::flixel::FlxSprite Sprite,Float Y){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_998_yTransform)
-HXDLIN( 998)		Sprite->set_y((Sprite->y + Y));
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_995_yTransform)
+HXDLIN( 995)		Sprite->set_y((Sprite->y + Y));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,yTransform,(void))
 
 void FlxTypedSpriteGroup_obj::angleTransform( ::flixel::FlxSprite Sprite,Float Angle){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1001_angleTransform)
-HXDLIN(1001)		Sprite->set_angle((Sprite->angle + Angle));
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_998_angleTransform)
+HXDLIN( 998)		Sprite->set_angle((Sprite->angle + Angle));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,angleTransform,(void))
 
 void FlxTypedSpriteGroup_obj::alphaTransform( ::flixel::FlxSprite Sprite,Float Alpha){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1005_alphaTransform)
-HXDLIN(1005)		bool _hx_tmp;
-HXDLIN(1005)		if ((Sprite->alpha == 0)) {
-HXDLIN(1005)			_hx_tmp = (Alpha == 0);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1002_alphaTransform)
+HXDLIN(1002)		bool _hx_tmp;
+HXDLIN(1002)		if ((Sprite->alpha == 0)) {
+HXDLIN(1002)			_hx_tmp = (Alpha == 0);
             		}
             		else {
-HXDLIN(1005)			_hx_tmp = true;
+HXDLIN(1002)			_hx_tmp = true;
             		}
-HXDLIN(1005)		if (_hx_tmp) {
-HXLINE(1006)			Sprite->set_alpha((Sprite->alpha * Alpha));
+HXDLIN(1002)		if (_hx_tmp) {
+HXLINE(1003)			Sprite->set_alpha((Sprite->alpha * Alpha));
             		}
             		else {
-HXLINE(1008)			Sprite->set_alpha((( (Float)(1) ) / Alpha));
+HXLINE(1005)			Sprite->set_alpha((( (Float)(1) ) / Alpha));
             		}
             	}
 
@@ -1634,143 +1621,143 @@ HXLINE(1008)			Sprite->set_alpha((( (Float)(1) ) / Alpha));
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,alphaTransform,(void))
 
 void FlxTypedSpriteGroup_obj::directAlphaTransform( ::flixel::FlxSprite Sprite,Float Alpha){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1012_directAlphaTransform)
-HXDLIN(1012)		Sprite->set_alpha(Alpha);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1009_directAlphaTransform)
+HXDLIN(1009)		Sprite->set_alpha(Alpha);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,directAlphaTransform,(void))
 
 void FlxTypedSpriteGroup_obj::facingTransform( ::flixel::FlxSprite Sprite,int Facing){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1015_facingTransform)
-HXDLIN(1015)		Sprite->set_facing(Facing);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1012_facingTransform)
+HXDLIN(1012)		Sprite->set_facing(Facing);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,facingTransform,(void))
 
 void FlxTypedSpriteGroup_obj::flipXTransform( ::flixel::FlxSprite Sprite,bool FlipX){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1018_flipXTransform)
-HXDLIN(1018)		Sprite->set_flipX(FlipX);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1015_flipXTransform)
+HXDLIN(1015)		Sprite->set_flipX(FlipX);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,flipXTransform,(void))
 
 void FlxTypedSpriteGroup_obj::flipYTransform( ::flixel::FlxSprite Sprite,bool FlipY){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1021_flipYTransform)
-HXDLIN(1021)		Sprite->set_flipY(FlipY);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1018_flipYTransform)
+HXDLIN(1018)		Sprite->set_flipY(FlipY);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,flipYTransform,(void))
 
 void FlxTypedSpriteGroup_obj::movesTransform( ::flixel::FlxSprite Sprite,bool Moves){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1024_movesTransform)
-HXDLIN(1024)		Sprite->set_moves(Moves);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1021_movesTransform)
+HXDLIN(1021)		Sprite->set_moves(Moves);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,movesTransform,(void))
 
 void FlxTypedSpriteGroup_obj::pixelPerfectTransform( ::flixel::FlxSprite Sprite,bool PixelPerfect){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1027_pixelPerfectTransform)
-HXDLIN(1027)		Sprite->set_pixelPerfectRender(PixelPerfect);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1024_pixelPerfectTransform)
+HXDLIN(1024)		Sprite->set_pixelPerfectRender(PixelPerfect);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,pixelPerfectTransform,(void))
 
 void FlxTypedSpriteGroup_obj::gColorTransform( ::flixel::FlxSprite Sprite,int Color){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1030_gColorTransform)
-HXDLIN(1030)		Sprite->set_color(Color);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1027_gColorTransform)
+HXDLIN(1027)		Sprite->set_color(Color);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,gColorTransform,(void))
 
 void FlxTypedSpriteGroup_obj::blendTransform( ::flixel::FlxSprite Sprite, ::Dynamic Blend){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1033_blendTransform)
-HXDLIN(1033)		Sprite->set_blend(Blend);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1030_blendTransform)
+HXDLIN(1030)		Sprite->set_blend(Blend);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,blendTransform,(void))
 
 void FlxTypedSpriteGroup_obj::immovableTransform( ::flixel::FlxSprite Sprite,bool Immovable){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1036_immovableTransform)
-HXDLIN(1036)		Sprite->set_immovable(Immovable);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1033_immovableTransform)
+HXDLIN(1033)		Sprite->set_immovable(Immovable);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,immovableTransform,(void))
 
 void FlxTypedSpriteGroup_obj::visibleTransform( ::flixel::FlxSprite Sprite,bool Visible){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1039_visibleTransform)
-HXDLIN(1039)		Sprite->set_visible(Visible);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1036_visibleTransform)
+HXDLIN(1036)		Sprite->set_visible(Visible);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,visibleTransform,(void))
 
 void FlxTypedSpriteGroup_obj::activeTransform( ::flixel::FlxSprite Sprite,bool Active){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1042_activeTransform)
-HXDLIN(1042)		Sprite->set_active(Active);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1039_activeTransform)
+HXDLIN(1039)		Sprite->set_active(Active);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,activeTransform,(void))
 
 void FlxTypedSpriteGroup_obj::solidTransform( ::flixel::FlxSprite Sprite,bool Solid){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1045_solidTransform)
-HXDLIN(1045)		Sprite->set_solid(Solid);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1042_solidTransform)
+HXDLIN(1042)		Sprite->set_solid(Solid);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,solidTransform,(void))
 
 void FlxTypedSpriteGroup_obj::aliveTransform( ::flixel::FlxSprite Sprite,bool Alive){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1048_aliveTransform)
-HXDLIN(1048)		Sprite->set_alive(Alive);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1045_aliveTransform)
+HXDLIN(1045)		Sprite->set_alive(Alive);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,aliveTransform,(void))
 
 void FlxTypedSpriteGroup_obj::existsTransform( ::flixel::FlxSprite Sprite,bool Exists){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1051_existsTransform)
-HXDLIN(1051)		Sprite->set_exists(Exists);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1048_existsTransform)
+HXDLIN(1048)		Sprite->set_exists(Exists);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,existsTransform,(void))
 
 void FlxTypedSpriteGroup_obj::cameraTransform( ::flixel::FlxSprite Sprite, ::flixel::FlxCamera Camera){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1054_cameraTransform)
-HXDLIN(1054)		Sprite->set_camera(Camera);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1051_cameraTransform)
+HXDLIN(1051)		Sprite->set_camera(Camera);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,cameraTransform,(void))
 
 void FlxTypedSpriteGroup_obj::camerasTransform( ::flixel::FlxSprite Sprite,::Array< ::Dynamic> Cameras){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1057_camerasTransform)
-HXDLIN(1057)		Sprite->set_cameras(Cameras);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1054_camerasTransform)
+HXDLIN(1054)		Sprite->set_cameras(Cameras);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,camerasTransform,(void))
 
 void FlxTypedSpriteGroup_obj::offsetTransform( ::flixel::FlxSprite Sprite, ::flixel::math::FlxBasePoint Offset){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1060_offsetTransform)
-HXDLIN(1060)		 ::flixel::math::FlxBasePoint this1 = Sprite->offset;
-HXDLIN(1060)		{
-HXDLIN(1060)			Float y = Offset->y;
-HXDLIN(1060)			this1->set_x(Offset->x);
-HXDLIN(1060)			this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1057_offsetTransform)
+HXDLIN(1057)		 ::flixel::math::FlxBasePoint this1 = Sprite->offset;
+HXDLIN(1057)		{
+HXDLIN(1057)			Float y = Offset->y;
+HXDLIN(1057)			this1->set_x(Offset->x);
+HXDLIN(1057)			this1->set_y(y);
             		}
-HXDLIN(1060)		if (Offset->_weak) {
-HXDLIN(1060)			Offset->put();
+HXDLIN(1057)		if (Offset->_weak) {
+HXDLIN(1057)			Offset->put();
             		}
             	}
 
@@ -1778,15 +1765,15 @@ HXDLIN(1060)			Offset->put();
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,offsetTransform,(void))
 
 void FlxTypedSpriteGroup_obj::originTransform( ::flixel::FlxSprite Sprite, ::flixel::math::FlxBasePoint Origin){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1063_originTransform)
-HXDLIN(1063)		 ::flixel::math::FlxBasePoint this1 = Sprite->origin;
-HXDLIN(1063)		{
-HXDLIN(1063)			Float y = Origin->y;
-HXDLIN(1063)			this1->set_x(Origin->x);
-HXDLIN(1063)			this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1060_originTransform)
+HXDLIN(1060)		 ::flixel::math::FlxBasePoint this1 = Sprite->origin;
+HXDLIN(1060)		{
+HXDLIN(1060)			Float y = Origin->y;
+HXDLIN(1060)			this1->set_x(Origin->x);
+HXDLIN(1060)			this1->set_y(y);
             		}
-HXDLIN(1063)		if (Origin->_weak) {
-HXDLIN(1063)			Origin->put();
+HXDLIN(1060)		if (Origin->_weak) {
+HXDLIN(1060)			Origin->put();
             		}
             	}
 
@@ -1794,15 +1781,15 @@ HXDLIN(1063)			Origin->put();
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,originTransform,(void))
 
 void FlxTypedSpriteGroup_obj::scaleTransform( ::flixel::FlxSprite Sprite, ::flixel::math::FlxBasePoint Scale){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1066_scaleTransform)
-HXDLIN(1066)		 ::flixel::math::FlxBasePoint this1 = Sprite->scale;
-HXDLIN(1066)		{
-HXDLIN(1066)			Float y = Scale->y;
-HXDLIN(1066)			this1->set_x(Scale->x);
-HXDLIN(1066)			this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1063_scaleTransform)
+HXDLIN(1063)		 ::flixel::math::FlxBasePoint this1 = Sprite->scale;
+HXDLIN(1063)		{
+HXDLIN(1063)			Float y = Scale->y;
+HXDLIN(1063)			this1->set_x(Scale->x);
+HXDLIN(1063)			this1->set_y(y);
             		}
-HXDLIN(1066)		if (Scale->_weak) {
-HXDLIN(1066)			Scale->put();
+HXDLIN(1063)		if (Scale->_weak) {
+HXDLIN(1063)			Scale->put();
             		}
             	}
 
@@ -1810,15 +1797,15 @@ HXDLIN(1066)			Scale->put();
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,scaleTransform,(void))
 
 void FlxTypedSpriteGroup_obj::scrollFactorTransform( ::flixel::FlxSprite Sprite, ::flixel::math::FlxBasePoint ScrollFactor){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1069_scrollFactorTransform)
-HXDLIN(1069)		 ::flixel::math::FlxBasePoint this1 = Sprite->scrollFactor;
-HXDLIN(1069)		{
-HXDLIN(1069)			Float y = ScrollFactor->y;
-HXDLIN(1069)			this1->set_x(ScrollFactor->x);
-HXDLIN(1069)			this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1066_scrollFactorTransform)
+HXDLIN(1066)		 ::flixel::math::FlxBasePoint this1 = Sprite->scrollFactor;
+HXDLIN(1066)		{
+HXDLIN(1066)			Float y = ScrollFactor->y;
+HXDLIN(1066)			this1->set_x(ScrollFactor->x);
+HXDLIN(1066)			this1->set_y(y);
             		}
-HXDLIN(1069)		if (ScrollFactor->_weak) {
-HXDLIN(1069)			ScrollFactor->put();
+HXDLIN(1066)		if (ScrollFactor->_weak) {
+HXDLIN(1066)			ScrollFactor->put();
             		}
             	}
 
@@ -1826,23 +1813,23 @@ HXDLIN(1069)			ScrollFactor->put();
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,scrollFactorTransform,(void))
 
 void FlxTypedSpriteGroup_obj::clipRectTransform( ::flixel::FlxSprite Sprite, ::flixel::math::FlxRect ClipRect){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1073_clipRectTransform)
-HXDLIN(1073)		if (::hx::IsNull( ClipRect )) {
-HXLINE(1074)			Sprite->set_clipRect(null());
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1070_clipRectTransform)
+HXDLIN(1070)		if (::hx::IsNull( ClipRect )) {
+HXLINE(1071)			Sprite->set_clipRect(null());
             		}
             		else {
-HXLINE(1076)			Float X = ((ClipRect->x - Sprite->x) + this->x);
-HXDLIN(1076)			Float Y = ((ClipRect->y - Sprite->y) + this->y);
-HXDLIN(1076)			Float Width = ClipRect->width;
-HXDLIN(1076)			Float Height = ClipRect->height;
-HXDLIN(1076)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
-HXDLIN(1076)			_this->x = X;
-HXDLIN(1076)			_this->y = Y;
-HXDLIN(1076)			_this->width = Width;
-HXDLIN(1076)			_this->height = Height;
-HXDLIN(1076)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN(1076)			rect->_inPool = false;
-HXDLIN(1076)			Sprite->set_clipRect(rect);
+HXLINE(1073)			Float X = ((ClipRect->x - Sprite->x) + this->x);
+HXDLIN(1073)			Float Y = ((ClipRect->y - Sprite->y) + this->y);
+HXDLIN(1073)			Float Width = ClipRect->width;
+HXDLIN(1073)			Float Height = ClipRect->height;
+HXDLIN(1073)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get().StaticCast<  ::flixel::math::FlxRect >();
+HXDLIN(1073)			_this->x = X;
+HXDLIN(1073)			_this->y = Y;
+HXDLIN(1073)			_this->width = Width;
+HXDLIN(1073)			_this->height = Height;
+HXDLIN(1073)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN(1073)			rect->_inPool = false;
+HXDLIN(1073)			Sprite->set_clipRect(rect);
             		}
             	}
 
@@ -1850,40 +1837,40 @@ HXDLIN(1076)			Sprite->set_clipRect(rect);
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedSpriteGroup_obj,clipRectTransform,(void))
 
 void FlxTypedSpriteGroup_obj::offsetCallback( ::flixel::math::FlxBasePoint Offset){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1081_offsetCallback)
-HXDLIN(1081)		this->transformChildren_flixel_math_FlxPoint(this->offsetTransform_dyn(),Offset);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1078_offsetCallback)
+HXDLIN(1078)		this->transformChildren_flixel_math_FlxPoint(this->offsetTransform_dyn(),Offset);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,offsetCallback,(void))
 
 void FlxTypedSpriteGroup_obj::originCallback( ::flixel::math::FlxBasePoint Origin){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1084_originCallback)
-HXDLIN(1084)		this->transformChildren_flixel_math_FlxPoint(this->originTransform_dyn(),Origin);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1081_originCallback)
+HXDLIN(1081)		this->transformChildren_flixel_math_FlxPoint(this->originTransform_dyn(),Origin);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,originCallback,(void))
 
 void FlxTypedSpriteGroup_obj::scaleCallback( ::flixel::math::FlxBasePoint Scale){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1087_scaleCallback)
-HXDLIN(1087)		this->transformChildren_flixel_math_FlxPoint(this->scaleTransform_dyn(),Scale);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1084_scaleCallback)
+HXDLIN(1084)		this->transformChildren_flixel_math_FlxPoint(this->scaleTransform_dyn(),Scale);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,scaleCallback,(void))
 
 void FlxTypedSpriteGroup_obj::scrollFactorCallback( ::flixel::math::FlxBasePoint ScrollFactor){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1090_scrollFactorCallback)
-HXDLIN(1090)		this->transformChildren_flixel_math_FlxPoint(this->scrollFactorTransform_dyn(),ScrollFactor);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1087_scrollFactorCallback)
+HXDLIN(1087)		this->transformChildren_flixel_math_FlxPoint(this->scrollFactorTransform_dyn(),ScrollFactor);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,scrollFactorCallback,(void))
 
  ::flixel::FlxSprite FlxTypedSpriteGroup_obj::loadGraphicFromSprite( ::flixel::FlxSprite Sprite){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1104_loadGraphicFromSprite)
-HXDLIN(1104)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1101_loadGraphicFromSprite)
+HXDLIN(1101)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -1892,8 +1879,8 @@ HXDLIN(1104)		return ::hx::ObjectPtr<OBJ_>(this);
             		int Width = __o_Width.Default(0);
             		int Height = __o_Height.Default(0);
             		bool Unique = __o_Unique.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1114_loadGraphic)
-HXDLIN(1114)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1111_loadGraphic)
+HXDLIN(1111)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -1902,64 +1889,64 @@ HXDLIN(1114)		return ::hx::ObjectPtr<OBJ_>(this);
             		int Frame = __o_Frame.Default(-1);
             		bool AntiAliasing = __o_AntiAliasing.Default(false);
             		bool AutoBuffer = __o_AutoBuffer.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1127_loadRotatedGraphic)
-HXDLIN(1127)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1124_loadRotatedGraphic)
+HXDLIN(1124)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
  ::flixel::FlxSprite FlxTypedSpriteGroup_obj::makeGraphic(int Width,int Height,::hx::Null< int >  __o__tmp_Color,::hx::Null< bool >  __o_Unique,::String Key){
             		int _tmp_Color = __o__tmp_Color.Default(-1);
             		bool Unique = __o_Unique.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1139_makeGraphic)
-HXDLIN(1139)		int Color = _tmp_Color;
-HXDLIN(1139)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1136_makeGraphic)
+HXDLIN(1136)		int Color = _tmp_Color;
+HXDLIN(1136)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
  ::openfl::display::BitmapData FlxTypedSpriteGroup_obj::set_pixels( ::openfl::display::BitmapData Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1144_set_pixels)
-HXDLIN(1144)		return Value;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1141_set_pixels)
+HXDLIN(1141)		return Value;
             	}
 
 
  ::flixel::graphics::frames::FlxFrame FlxTypedSpriteGroup_obj::set_frame( ::flixel::graphics::frames::FlxFrame Value){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1149_set_frame)
-HXDLIN(1149)		return Value;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1146_set_frame)
+HXDLIN(1146)		return Value;
             	}
 
 
  ::openfl::display::BitmapData FlxTypedSpriteGroup_obj::get_pixels(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1154_get_pixels)
-HXDLIN(1154)		return null();
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1151_get_pixels)
+HXDLIN(1151)		return null();
             	}
 
 
 void FlxTypedSpriteGroup_obj::calcFrame(::hx::Null< bool >  __o_RunOnCpp){
             		bool RunOnCpp = __o_RunOnCpp.Default(false);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1163_calcFrame)
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1160_calcFrame)
             	}
 
 
 void FlxTypedSpriteGroup_obj::resetHelpers(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1170_resetHelpers)
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1167_resetHelpers)
             	}
 
 
 void FlxTypedSpriteGroup_obj::stamp( ::flixel::FlxSprite Brush,::hx::Null< int >  __o_X,::hx::Null< int >  __o_Y){
             		int X = __o_X.Default(0);
             		int Y = __o_Y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1175_stamp)
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1172_stamp)
             	}
 
 
  ::flixel::graphics::frames::FlxFramesCollection FlxTypedSpriteGroup_obj::set_frames( ::flixel::graphics::frames::FlxFramesCollection Frames){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1179_set_frames)
-HXDLIN(1179)		return Frames;
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1176_set_frames)
+HXDLIN(1176)		return Frames;
             	}
 
 
 void FlxTypedSpriteGroup_obj::updateColorTransform(){
-            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1185_updateColorTransform)
+            	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_1182_updateColorTransform)
             	}
 
 

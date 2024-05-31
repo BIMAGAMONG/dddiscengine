@@ -96,7 +96,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxText_obj : public  ::flixel::FlxSprite_obj
 		bool stampOnAtlas( ::flixel::graphics::atlas::FlxAtlas atlas);
 		::Dynamic stampOnAtlas_dyn();
 
-		 ::flixel::text::FlxText applyMarkup(::String input,::Array< ::Dynamic> rules);
+		virtual  ::flixel::text::FlxText applyMarkup(::String input,::Array< ::Dynamic> rules);
 		::Dynamic applyMarkup_dyn();
 
 		 ::flixel::text::FlxText addFormat( ::flixel::text::FlxTextFormat Format,::hx::Null< int >  Start,::hx::Null< int >  End);
@@ -145,12 +145,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxText_obj : public  ::flixel::FlxSprite_obj
 		int set_size(int Size);
 		::Dynamic set_size_dyn();
 
-		Float get_letterSpacing();
-		::Dynamic get_letterSpacing_dyn();
-
-		Float set_letterSpacing(Float LetterSpacing);
-		::Dynamic set_letterSpacing_dyn();
-
 		int set_color(int Color);
 
 		::String get_font();
@@ -179,12 +173,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxText_obj : public  ::flixel::FlxSprite_obj
 
 		bool set_italic(bool value);
 		::Dynamic set_italic_dyn();
-
-		bool get_underline();
-		::Dynamic get_underline_dyn();
-
-		bool set_underline(bool value);
-		::Dynamic set_underline_dyn();
 
 		bool get_wordWrap();
 		::Dynamic get_wordWrap_dyn();

@@ -10,6 +10,9 @@
 #ifndef INCLUDED_PlayState
 #include <PlayState.h>
 #endif
+#ifndef INCLUDED_Reflect
+#include <Reflect.h>
+#endif
 #ifndef INCLUDED_Std
 #include <Std.h>
 #endif
@@ -118,9 +121,6 @@
 #ifndef INCLUDED_flixel_util_IFlxPooled
 #include <flixel/util/IFlxPooled.h>
 #endif
-#ifndef INCLUDED_flixel_util_typeLimit__NextState_NextState_Impl_
-#include <flixel/util/typeLimit/_NextState/NextState_Impl_.h>
-#endif
 #ifndef INCLUDED_haxe_Log
 #include <haxe/Log.h>
 #endif
@@ -169,13 +169,13 @@ HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_219_initiateMainMenu,"MenuState","
 HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_54_boot,"MenuState","boot",0xc9f0da4e,"MenuState.boot","MenuState.hx",54,0xdfbcb22c)
 HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_66_boot,"MenuState","boot",0xc9f0da4e,"MenuState.boot","MenuState.hx",66,0xdfbcb22c)
 
-void MenuState_obj::__construct(){
+void MenuState_obj::__construct( ::Dynamic MaxSize){
             	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_27_new)
 HXLINE(  60)		this->splashTextArray = ::Array_obj< ::String >::fromData( _hx_array_data_c0b6bfd2_1,3);
 HXLINE(  58)		this->optionsArray = ::Array_obj< ::String >::fromData( _hx_array_data_c0b6bfd2_2,5);
 HXLINE(  56)		this->introFinished = false;
 HXLINE(  47)		this->curSelected = 0;
-HXLINE(  27)		super::__construct();
+HXLINE(  27)		super::__construct(MaxSize);
             	}
 
 Dynamic MenuState_obj::__CreateEmpty() { return new MenuState_obj; }
@@ -185,7 +185,7 @@ void *MenuState_obj::_hx_vtable = 0;
 Dynamic MenuState_obj::__Create(::hx::DynamicArray inArgs)
 {
 	::hx::ObjectPtr< MenuState_obj > _hx_result = new MenuState_obj();
-	_hx_result->__construct();
+	_hx_result->__construct(inArgs[0]);
 	return _hx_result;
 }
 
@@ -448,21 +448,15 @@ HXLINE( 162)					::haxe::Log_obj::trace(HX_("SIDE STORIES",ea,4b,27,ea),::hx::So
 HXDLIN( 162)					goto _hx_goto_4;
             				}
             				if (  (_hx_switch_0==HX_("Start",42,e4,38,17)) ){
-HXLINE( 160)					 ::Dynamic nextState = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::fromState( ::PlayState_obj::__alloc( HX_CTX ));
+HXLINE( 160)					 ::flixel::FlxState nextState =  ::PlayState_obj::__alloc( HX_CTX ,null());
 HXDLIN( 160)					 ::flixel::FlxState stateOnCall = ::flixel::FlxG_obj::game->_state;
-HXDLIN( 160)					bool _hx_tmp10;
-HXDLIN( 160)					if (::Std_obj::isOfType(nextState,::hx::ClassOf< ::flixel::FlxState >())) {
-HXLINE( 160)						_hx_tmp10 = ::flixel::FlxG_obj::canSwitchTo(( ( ::flixel::FlxState)(nextState) ));
-            					}
-            					else {
-HXLINE( 160)						_hx_tmp10 = true;
-            					}
-HXDLIN( 160)					if (_hx_tmp10) {
-            						HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,nextState, ::flixel::FlxState,stateOnCall) HXARGC(0)
+HXDLIN( 160)					 ::Dynamic _hx_tmp10 = ::Reflect_obj::field(::flixel::FlxG_obj::game->_state,HX_("switchTo",8f,f8,d6,0d));
+HXDLIN( 160)					if (( (bool)(_hx_tmp10(nextState)) )) {
+            						HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxState,nextState, ::flixel::FlxState,stateOnCall) HXARGC(0)
             						void _hx_run(){
             							HX_GC_STACKFRAME(&_hx_pos_1f119275e66a7b90_160_update)
 HXLINE( 160)							if (::hx::IsInstanceEq( ::flixel::FlxG_obj::game->_state,stateOnCall )) {
-HXLINE( 160)								::flixel::FlxG_obj::game->_nextState = nextState;
+HXLINE( 160)								::flixel::FlxG_obj::game->_requestedState = nextState;
             							}
             							else {
 HXLINE( 160)								::flixel::FlxG_obj::log->advanced(HX_("`onOutroComplete` was called after the state was switched. This will be ignored",46,b2,58,c7),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
@@ -589,16 +583,16 @@ bool MenuState_obj::initialized;
 bool MenuState_obj::doIntro;
 
 
-::hx::ObjectPtr< MenuState_obj > MenuState_obj::__new() {
+::hx::ObjectPtr< MenuState_obj > MenuState_obj::__new( ::Dynamic MaxSize) {
 	::hx::ObjectPtr< MenuState_obj > __this = new MenuState_obj();
-	__this->__construct();
+	__this->__construct(MaxSize);
 	return __this;
 }
 
-::hx::ObjectPtr< MenuState_obj > MenuState_obj::__alloc(::hx::Ctx *_hx_ctx) {
+::hx::ObjectPtr< MenuState_obj > MenuState_obj::__alloc(::hx::Ctx *_hx_ctx, ::Dynamic MaxSize) {
 	MenuState_obj *__this = (MenuState_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(MenuState_obj), true, "MenuState"));
 	*(void **)__this = MenuState_obj::_hx_vtable;
-	__this->__construct();
+	__this->__construct(MaxSize);
 	return __this;
 }
 

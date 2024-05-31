@@ -58,7 +58,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxObject_obj : public  ::flixel::FlxBasic_obj
 		static void __boot();
 		static bool defaultPixelPerfectPosition;
 		static Float SEPARATE_BIAS;
-		static bool defaultMoves;
 		static int LEFT;
 		static int RIGHT;
 		static int UP;

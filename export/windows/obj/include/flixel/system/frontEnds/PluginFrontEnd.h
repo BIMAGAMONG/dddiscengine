@@ -7,7 +7,10 @@
 #endif
 
 HX_DECLARE_CLASS1(flixel,FlxBasic)
+HX_DECLARE_CLASS3(flixel,input,mouse,FlxMouseEventManager)
 HX_DECLARE_CLASS3(flixel,_hx_system,frontEnds,PluginFrontEnd)
+HX_DECLARE_CLASS2(flixel,tweens,FlxTweenManager)
+HX_DECLARE_CLASS2(flixel,util,FlxTimerManager)
 HX_DECLARE_CLASS2(flixel,util,IFlxDestroyable)
 
 namespace flixel{
@@ -47,24 +50,24 @@ class HXCPP_CLASS_ATTRIBUTES PluginFrontEnd_obj : public ::hx::Object
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("PluginFrontEnd",a5,f8,8b,d8); }
 
+		 ::flixel::input::mouse::FlxMouseEventManager add_flixel_input_mouse_FlxMouseEventManager( ::flixel::input::mouse::FlxMouseEventManager Plugin);
+		::Dynamic add_flixel_input_mouse_FlxMouseEventManager_dyn();
+
+		 ::flixel::tweens::FlxTweenManager add_flixel_tweens_FlxTweenManager( ::flixel::tweens::FlxTweenManager Plugin);
+		::Dynamic add_flixel_tweens_FlxTweenManager_dyn();
+
+		 ::flixel::util::FlxTimerManager add_flixel_util_FlxTimerManager( ::flixel::util::FlxTimerManager Plugin);
+		::Dynamic add_flixel_util_FlxTimerManager_dyn();
+
 		::Array< ::Dynamic> list;
-		 ::Dynamic addPlugin( ::Dynamic plugin);
-		::Dynamic addPlugin_dyn();
-
-		 ::Dynamic addIfUniqueType( ::Dynamic plugin);
-		::Dynamic addIfUniqueType_dyn();
-
-		 ::Dynamic get(::hx::Class type);
+		 ::Dynamic get(::hx::Class ClassType);
 		::Dynamic get_dyn();
 
-		 ::Dynamic remove( ::Dynamic plugin);
+		 ::Dynamic remove( ::Dynamic Plugin);
 		::Dynamic remove_dyn();
 
-		bool removeType(::hx::Class type);
+		bool removeType(::hx::Class ClassType);
 		::Dynamic removeType_dyn();
-
-		bool removeAllByType(::hx::Class type);
-		::Dynamic removeAllByType_dyn();
 
 		void update(Float elapsed);
 		::Dynamic update_dyn();

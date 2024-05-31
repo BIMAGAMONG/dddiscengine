@@ -41,13 +41,13 @@ class HXCPP_CLASS_ATTRIBUTES FlxGraphic_obj : public ::hx::Object
 	public:
 		enum { _hx_ClassId = 0x0b2fcf89 };
 
-		void __construct(::String key, ::openfl::display::BitmapData bitmap, ::Dynamic persist);
+		void __construct(::String Key, ::openfl::display::BitmapData Bitmap, ::Dynamic Persist);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="flixel.graphics.FlxGraphic")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"flixel.graphics.FlxGraphic"); }
-		static ::hx::ObjectPtr< FlxGraphic_obj > __new(::String key, ::openfl::display::BitmapData bitmap, ::Dynamic persist);
-		static ::hx::ObjectPtr< FlxGraphic_obj > __alloc(::hx::Ctx *_hx_ctx,::String key, ::openfl::display::BitmapData bitmap, ::Dynamic persist);
+		static ::hx::ObjectPtr< FlxGraphic_obj > __new(::String Key, ::openfl::display::BitmapData Bitmap, ::Dynamic Persist);
+		static ::hx::ObjectPtr< FlxGraphic_obj > __alloc(::hx::Ctx *_hx_ctx,::String Key, ::openfl::display::BitmapData Bitmap, ::Dynamic Persist);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);
@@ -157,9 +157,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxGraphic_obj : public ::hx::Object
 
 		bool get_isLoaded();
 		::Dynamic get_isLoaded_dyn();
-
-		bool get_isDestroyed();
-		::Dynamic get_isDestroyed_dyn();
 
 		bool get_canBeDumped();
 		::Dynamic get_canBeDumped_dyn();

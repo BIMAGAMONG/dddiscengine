@@ -17,21 +17,21 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_de32b167c7a26741_240_new,"flixel.effects.postprocess.PostProcess","new",0x00edfd24,"flixel.effects.postprocess.PostProcess.new","flixel/effects/postprocess/PostProcess.hx",240,0x6a90b60f)
-HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_243_enable,"flixel.effects.postprocess.PostProcess","enable",0x6b1ed43f,"flixel.effects.postprocess.PostProcess.enable","flixel/effects/postprocess/PostProcess.hx",243,0x6a90b60f)
-HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_245_capture,"flixel.effects.postprocess.PostProcess","capture",0x78fbaf4a,"flixel.effects.postprocess.PostProcess.capture","flixel/effects/postprocess/PostProcess.hx",245,0x6a90b60f)
-HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_247_rebuild,"flixel.effects.postprocess.PostProcess","rebuild",0x732f0d5f,"flixel.effects.postprocess.PostProcess.rebuild","flixel/effects/postprocess/PostProcess.hx",247,0x6a90b60f)
-HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_249_update,"flixel.effects.postprocess.PostProcess","update",0xf99cabc5,"flixel.effects.postprocess.PostProcess.update","flixel/effects/postprocess/PostProcess.hx",249,0x6a90b60f)
-HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_251_render,"flixel.effects.postprocess.PostProcess","render",0x77c09112,"flixel.effects.postprocess.PostProcess.render","flixel/effects/postprocess/PostProcess.hx",251,0x6a90b60f)
-HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_253_setUniform,"flixel.effects.postprocess.PostProcess","setUniform",0x2526196e,"flixel.effects.postprocess.PostProcess.setUniform","flixel/effects/postprocess/PostProcess.hx",253,0x6a90b60f)
-HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_258_set_to,"flixel.effects.postprocess.PostProcess","set_to",0xe20f76f4,"flixel.effects.postprocess.PostProcess.set_to","flixel/effects/postprocess/PostProcess.hx",258,0x6a90b60f)
+HX_DEFINE_STACK_FRAME(_hx_pos_de32b167c7a26741_292_new,"flixel.effects.postprocess.PostProcess","new",0x00edfd24,"flixel.effects.postprocess.PostProcess.new","flixel/effects/postprocess/PostProcess.hx",292,0x6a90b60f)
+HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_295_enable,"flixel.effects.postprocess.PostProcess","enable",0x6b1ed43f,"flixel.effects.postprocess.PostProcess.enable","flixel/effects/postprocess/PostProcess.hx",295,0x6a90b60f)
+HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_297_capture,"flixel.effects.postprocess.PostProcess","capture",0x78fbaf4a,"flixel.effects.postprocess.PostProcess.capture","flixel/effects/postprocess/PostProcess.hx",297,0x6a90b60f)
+HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_299_rebuild,"flixel.effects.postprocess.PostProcess","rebuild",0x732f0d5f,"flixel.effects.postprocess.PostProcess.rebuild","flixel/effects/postprocess/PostProcess.hx",299,0x6a90b60f)
+HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_301_update,"flixel.effects.postprocess.PostProcess","update",0xf99cabc5,"flixel.effects.postprocess.PostProcess.update","flixel/effects/postprocess/PostProcess.hx",301,0x6a90b60f)
+HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_303_render,"flixel.effects.postprocess.PostProcess","render",0x77c09112,"flixel.effects.postprocess.PostProcess.render","flixel/effects/postprocess/PostProcess.hx",303,0x6a90b60f)
+HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_305_setUniform,"flixel.effects.postprocess.PostProcess","setUniform",0x2526196e,"flixel.effects.postprocess.PostProcess.setUniform","flixel/effects/postprocess/PostProcess.hx",305,0x6a90b60f)
+HX_LOCAL_STACK_FRAME(_hx_pos_de32b167c7a26741_310_set_to,"flixel.effects.postprocess.PostProcess","set_to",0xe20f76f4,"flixel.effects.postprocess.PostProcess.set_to","flixel/effects/postprocess/PostProcess.hx",310,0x6a90b60f)
 namespace flixel{
 namespace effects{
 namespace postprocess{
 
 void PostProcess_obj::__construct(::String shader){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_240_new)
-HXDLIN( 240)		::flixel::FlxG_obj::log->advanced(HX_("Post processing is only supported on the CPP and Neko targets of OpenFL legacy - for newer OpenFL versions, please use shader filters.",9b,c9,c2,ac),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_292_new)
+HXDLIN( 292)		::flixel::FlxG_obj::log->advanced(HX_("Post processing is only supported on the CPP and Neko targets of OpenFL legacy - for newer OpenFL versions, please use shader filters.",9b,c9,c2,ac),::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
             	}
 
 Dynamic PostProcess_obj::__CreateEmpty() { return new PostProcess_obj; }
@@ -50,50 +50,50 @@ bool PostProcess_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void PostProcess_obj::enable( ::flixel::effects::postprocess::PostProcess to){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_243_enable)
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_295_enable)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PostProcess_obj,enable,(void))
 
 void PostProcess_obj::capture(){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_245_capture)
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_297_capture)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PostProcess_obj,capture,(void))
 
 void PostProcess_obj::rebuild(){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_247_rebuild)
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_299_rebuild)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PostProcess_obj,rebuild,(void))
 
 void PostProcess_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_249_update)
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_301_update)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PostProcess_obj,update,(void))
 
 void PostProcess_obj::render( ::openfl::geom::Rectangle rect){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_251_render)
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_303_render)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PostProcess_obj,render,(void))
 
 void PostProcess_obj::setUniform(::String uniform,Float value){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_253_setUniform)
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_305_setUniform)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(PostProcess_obj,setUniform,(void))
 
  ::flixel::effects::postprocess::PostProcess PostProcess_obj::set_to( ::flixel::effects::postprocess::PostProcess value){
-            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_258_set_to)
-HXDLIN( 258)		return null();
+            	HX_STACKFRAME(&_hx_pos_de32b167c7a26741_310_set_to)
+HXDLIN( 310)		return null();
             	}
 
 

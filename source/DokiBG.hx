@@ -33,7 +33,6 @@ class DokiBG extends FlxSprite
                 loadGraphic(AssetPaths.dokiBG("bg_missing"));
         }
 
-
         screenCenter();
 	}
 

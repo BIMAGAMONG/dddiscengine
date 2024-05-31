@@ -6,7 +6,10 @@
 #include <hxcpp.h>
 #endif
 
+HX_DECLARE_CLASS1(flixel,FlxBasic)
 HX_DECLARE_CLASS2(flixel,math,FlxRandom)
+HX_DECLARE_CLASS2(flixel,sound,FlxSound)
+HX_DECLARE_CLASS2(flixel,util,IFlxDestroyable)
 
 namespace flixel{
 namespace math{
@@ -53,6 +56,9 @@ class HXCPP_CLASS_ATTRIBUTES FlxRandom_obj : public ::hx::Object
 		static int MODULUS;
 		 ::Dynamic getObject_flixel_group_FlxTypedGroup_T(::cpp::VirtualArray Objects,::Array< Float > WeightsArray,::hx::Null< int >  StartIndex, ::Dynamic EndIndex);
 		::Dynamic getObject_flixel_group_FlxTypedGroup_T_dyn();
+
+		 ::flixel::sound::FlxSound getObject_flixel_sound_FlxSound(::Array< ::Dynamic> Objects,::Array< Float > WeightsArray,::hx::Null< int >  StartIndex, ::Dynamic EndIndex);
+		::Dynamic getObject_flixel_sound_FlxSound_dyn();
 
 		int initialSeed;
 		int resetInitialSeed();

@@ -31,6 +31,7 @@
 
 	<set name="BUILD_DIR" value="export" />
 	<source path="source" />
+        <source path="source/chapters" />
         <assets path="assets" />
 
         <assets path="assets/music" include="*.mp3" if="flash"/>

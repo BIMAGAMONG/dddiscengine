@@ -4,29 +4,33 @@ import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
 import flixel.FlxState;
-import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
-import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import lime.app.Application;
-import sys.FileSystem;
+import flixel.addons.text.FlxTypeText;
+
+import chapters.*;
 
 class PlayState extends FlxState
 {
-	// note to self: center of the screen is 288, -112
+    var curChapter:String = "chapter1";
+
 	var bg:DokiBG;
 
 	// each character is defined here
 	var monika:DokiChr;
 	var missingchartest:DokiChr;
 
+	// dialogue stuff
+	var text:FlxTypeText;
+
 	override public function create()
 	{
-		bg = new DokiBG('schoolglitch', true);
+		// the default bg
+		bg = new DokiBG('school', true);
 		add(bg);
 
 	    // x position, y position, name of the character you want to load 
@@ -38,6 +42,12 @@ class PlayState extends FlxState
 		missingchartest = new DokiChr(600, -70, "lol", false);
 		missingchartest.scale.set(0.8, 0.8);
 		add(missingchartest);
+
+		text = new FlxTypeText(240, 500, Std.int(FlxG.width * 0.5), "very big wip", 32);
+		text.font = 'Riffic Free Medium';
+		text.color = 0xFFFFFFFF;
+		text.start(0.03, true);
+		add(text);
 		
 		super.create();
 	}

@@ -56,7 +56,7 @@ void FlxSubState_obj::__construct(::hx::Null< int >  __o_BGColor){
             		int BGColor = __o_BGColor.Default(0);
             	HX_GC_STACKFRAME(&_hx_pos_4f421a3440b44d31_15_new)
 HXLINE(  45)		this->_created = false;
-HXLINE(  52)		super::__construct();
+HXLINE(  52)		super::__construct(null());
 HXLINE(  53)		this->closeCallback = null();
 HXLINE(  54)		this->openCallback = null();
 HXLINE(  56)		if (::flixel::FlxG_obj::renderTile) {

@@ -23,52 +23,52 @@
 #include <flixel/util/IFlxDestroyable.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_245_new,"flixel.input.mouse.FlxMouseEvent","new",0x01f3409a,"flixel.input.mouse.FlxMouseEvent.new","flixel/input/mouse/FlxMouseEvent.hx",245,0x79c53a59)
+HX_DEFINE_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_244_new,"flixel.input.mouse.FlxMouseEvent","new",0x01f3409a,"flixel.input.mouse.FlxMouseEvent.new","flixel/input/mouse/FlxMouseEvent.hx",244,0x79c53a59)
 static const int _hx_array_data_38b4aba8_1[] = {
 	(int)-1,
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_263_destroy,"flixel.input.mouse.FlxMouseEvent","destroy",0x27db4234,"flixel.input.mouse.FlxMouseEvent.destroy","flixel/input/mouse/FlxMouseEvent.hx",263,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_58_add,"flixel.input.mouse.FlxMouseEvent","add",0x01e9625b,"flixel.input.mouse.FlxMouseEvent.add","flixel/input/mouse/FlxMouseEvent.hx",58,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_67_remove,"flixel.input.mouse.FlxMouseEvent","remove",0xbe858c4a,"flixel.input.mouse.FlxMouseEvent.remove","flixel/input/mouse/FlxMouseEvent.hx",67,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_75_removeAll,"flixel.input.mouse.FlxMouseEvent","removeAll",0x1d956ef7,"flixel.input.mouse.FlxMouseEvent.removeAll","flixel/input/mouse/FlxMouseEvent.hx",75,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_87_reorder,"flixel.input.mouse.FlxMouseEvent","reorder",0x1f105935,"flixel.input.mouse.FlxMouseEvent.reorder","flixel/input/mouse/FlxMouseEvent.hx",87,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_98_setMouseDownCallback,"flixel.input.mouse.FlxMouseEvent","setMouseDownCallback",0xf8aea290,"flixel.input.mouse.FlxMouseEvent.setMouseDownCallback","flixel/input/mouse/FlxMouseEvent.hx",98,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_109_setMouseUpCallback,"flixel.input.mouse.FlxMouseEvent","setMouseUpCallback",0x00aedd49,"flixel.input.mouse.FlxMouseEvent.setMouseUpCallback","flixel/input/mouse/FlxMouseEvent.hx",109,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_121_setMouseClickCallback,"flixel.input.mouse.FlxMouseEvent","setMouseClickCallback",0x80d037c4,"flixel.input.mouse.FlxMouseEvent.setMouseClickCallback","flixel/input/mouse/FlxMouseEvent.hx",121,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_133_setMouseDoubleClickCallback,"flixel.input.mouse.FlxMouseEvent","setMouseDoubleClickCallback",0x1f85d133,"flixel.input.mouse.FlxMouseEvent.setMouseDoubleClickCallback","flixel/input/mouse/FlxMouseEvent.hx",133,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_144_setMouseOverCallback,"flixel.input.mouse.FlxMouseEvent","setMouseOverCallback",0x18867d82,"flixel.input.mouse.FlxMouseEvent.setMouseOverCallback","flixel/input/mouse/FlxMouseEvent.hx",144,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_155_setMouseOutCallback,"flixel.input.mouse.FlxMouseEvent","setMouseOutCallback",0xfa19ae4a,"flixel.input.mouse.FlxMouseEvent.setMouseOutCallback","flixel/input/mouse/FlxMouseEvent.hx",155,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_167_setMouseMoveCallback,"flixel.input.mouse.FlxMouseEvent","setMouseMoveCallback",0x1da2543f,"flixel.input.mouse.FlxMouseEvent.setMouseMoveCallback","flixel/input/mouse/FlxMouseEvent.hx",167,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_179_setMouseWheelCallback,"flixel.input.mouse.FlxMouseEvent","setMouseWheelCallback",0x3ce8fb17,"flixel.input.mouse.FlxMouseEvent.setMouseWheelCallback","flixel/input/mouse/FlxMouseEvent.hx",179,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_189_setObjectMouseEnabled,"flixel.input.mouse.FlxMouseEvent","setObjectMouseEnabled",0xce601937,"flixel.input.mouse.FlxMouseEvent.setObjectMouseEnabled","flixel/input/mouse/FlxMouseEvent.hx",189,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_197_isObjectMouseEnabled,"flixel.input.mouse.FlxMouseEvent","isObjectMouseEnabled",0x7e5b334b,"flixel.input.mouse.FlxMouseEvent.isObjectMouseEnabled","flixel/input/mouse/FlxMouseEvent.hx",197,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_207_setObjectMouseChildren,"flixel.input.mouse.FlxMouseEvent","setObjectMouseChildren",0x496d23c9,"flixel.input.mouse.FlxMouseEvent.setObjectMouseChildren","flixel/input/mouse/FlxMouseEvent.hx",207,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_215_isObjectMouseChildren,"flixel.input.mouse.FlxMouseEvent","isObjectMouseChildren",0x9528db35,"flixel.input.mouse.FlxMouseEvent.isObjectMouseChildren","flixel/input/mouse/FlxMouseEvent.hx",215,0x79c53a59)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_223_setObjectMouseButtons,"flixel.input.mouse.FlxMouseEvent","setObjectMouseButtons",0x1aa466f7,"flixel.input.mouse.FlxMouseEvent.setObjectMouseButtons","flixel/input/mouse/FlxMouseEvent.hx",223,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_262_destroy,"flixel.input.mouse.FlxMouseEvent","destroy",0x27db4234,"flixel.input.mouse.FlxMouseEvent.destroy","flixel/input/mouse/FlxMouseEvent.hx",262,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_57_add,"flixel.input.mouse.FlxMouseEvent","add",0x01e9625b,"flixel.input.mouse.FlxMouseEvent.add","flixel/input/mouse/FlxMouseEvent.hx",57,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_66_remove,"flixel.input.mouse.FlxMouseEvent","remove",0xbe858c4a,"flixel.input.mouse.FlxMouseEvent.remove","flixel/input/mouse/FlxMouseEvent.hx",66,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_74_removeAll,"flixel.input.mouse.FlxMouseEvent","removeAll",0x1d956ef7,"flixel.input.mouse.FlxMouseEvent.removeAll","flixel/input/mouse/FlxMouseEvent.hx",74,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_86_reorder,"flixel.input.mouse.FlxMouseEvent","reorder",0x1f105935,"flixel.input.mouse.FlxMouseEvent.reorder","flixel/input/mouse/FlxMouseEvent.hx",86,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_97_setMouseDownCallback,"flixel.input.mouse.FlxMouseEvent","setMouseDownCallback",0xf8aea290,"flixel.input.mouse.FlxMouseEvent.setMouseDownCallback","flixel/input/mouse/FlxMouseEvent.hx",97,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_108_setMouseUpCallback,"flixel.input.mouse.FlxMouseEvent","setMouseUpCallback",0x00aedd49,"flixel.input.mouse.FlxMouseEvent.setMouseUpCallback","flixel/input/mouse/FlxMouseEvent.hx",108,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_120_setMouseClickCallback,"flixel.input.mouse.FlxMouseEvent","setMouseClickCallback",0x80d037c4,"flixel.input.mouse.FlxMouseEvent.setMouseClickCallback","flixel/input/mouse/FlxMouseEvent.hx",120,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_132_setMouseDoubleClickCallback,"flixel.input.mouse.FlxMouseEvent","setMouseDoubleClickCallback",0x1f85d133,"flixel.input.mouse.FlxMouseEvent.setMouseDoubleClickCallback","flixel/input/mouse/FlxMouseEvent.hx",132,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_143_setMouseOverCallback,"flixel.input.mouse.FlxMouseEvent","setMouseOverCallback",0x18867d82,"flixel.input.mouse.FlxMouseEvent.setMouseOverCallback","flixel/input/mouse/FlxMouseEvent.hx",143,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_154_setMouseOutCallback,"flixel.input.mouse.FlxMouseEvent","setMouseOutCallback",0xfa19ae4a,"flixel.input.mouse.FlxMouseEvent.setMouseOutCallback","flixel/input/mouse/FlxMouseEvent.hx",154,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_166_setMouseMoveCallback,"flixel.input.mouse.FlxMouseEvent","setMouseMoveCallback",0x1da2543f,"flixel.input.mouse.FlxMouseEvent.setMouseMoveCallback","flixel/input/mouse/FlxMouseEvent.hx",166,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_178_setMouseWheelCallback,"flixel.input.mouse.FlxMouseEvent","setMouseWheelCallback",0x3ce8fb17,"flixel.input.mouse.FlxMouseEvent.setMouseWheelCallback","flixel/input/mouse/FlxMouseEvent.hx",178,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_188_setObjectMouseEnabled,"flixel.input.mouse.FlxMouseEvent","setObjectMouseEnabled",0xce601937,"flixel.input.mouse.FlxMouseEvent.setObjectMouseEnabled","flixel/input/mouse/FlxMouseEvent.hx",188,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_196_isObjectMouseEnabled,"flixel.input.mouse.FlxMouseEvent","isObjectMouseEnabled",0x7e5b334b,"flixel.input.mouse.FlxMouseEvent.isObjectMouseEnabled","flixel/input/mouse/FlxMouseEvent.hx",196,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_206_setObjectMouseChildren,"flixel.input.mouse.FlxMouseEvent","setObjectMouseChildren",0x496d23c9,"flixel.input.mouse.FlxMouseEvent.setObjectMouseChildren","flixel/input/mouse/FlxMouseEvent.hx",206,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_214_isObjectMouseChildren,"flixel.input.mouse.FlxMouseEvent","isObjectMouseChildren",0x9528db35,"flixel.input.mouse.FlxMouseEvent.isObjectMouseChildren","flixel/input/mouse/FlxMouseEvent.hx",214,0x79c53a59)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c0ea66f87a6cfc0_222_setObjectMouseButtons,"flixel.input.mouse.FlxMouseEvent","setObjectMouseButtons",0x1aa466f7,"flixel.input.mouse.FlxMouseEvent.setObjectMouseButtons","flixel/input/mouse/FlxMouseEvent.hx",222,0x79c53a59)
 namespace flixel{
 namespace input{
 namespace mouse{
 
 void FlxMouseEvent_obj::__construct( ::Dynamic object, ::Dynamic onMouseDown, ::Dynamic onMouseUp, ::Dynamic onMouseOver, ::Dynamic onMouseOut,bool mouseChildren,bool mouseEnabled,bool pixelPerfect,::Array< int > mouseButtons){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_245_new)
-HXLINE( 246)		this->object = ( ( ::flixel::FlxObject)(object) );
-HXLINE( 247)		this->onMouseDown = onMouseDown;
-HXLINE( 248)		this->onMouseUp = onMouseUp;
-HXLINE( 249)		this->onMouseOver = onMouseOver;
-HXLINE( 250)		this->onMouseOut = onMouseOut;
-HXLINE( 251)		this->mouseChildren = mouseChildren;
-HXLINE( 252)		this->mouseEnabled = mouseEnabled;
-HXLINE( 253)		this->pixelPerfect = pixelPerfect;
-HXLINE( 254)		::Array< int > _hx_tmp;
-HXDLIN( 254)		if (::hx::IsNull( mouseButtons )) {
-HXLINE( 254)			_hx_tmp = ::Array_obj< int >::fromData( _hx_array_data_38b4aba8_1,1);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_244_new)
+HXLINE( 245)		this->object = ( ( ::flixel::FlxObject)(object) );
+HXLINE( 246)		this->onMouseDown = onMouseDown;
+HXLINE( 247)		this->onMouseUp = onMouseUp;
+HXLINE( 248)		this->onMouseOver = onMouseOver;
+HXLINE( 249)		this->onMouseOut = onMouseOut;
+HXLINE( 250)		this->mouseChildren = mouseChildren;
+HXLINE( 251)		this->mouseEnabled = mouseEnabled;
+HXLINE( 252)		this->pixelPerfect = pixelPerfect;
+HXLINE( 253)		::Array< int > _hx_tmp;
+HXDLIN( 253)		if (::hx::IsNull( mouseButtons )) {
+HXLINE( 253)			_hx_tmp = ::Array_obj< int >::fromData( _hx_array_data_38b4aba8_1,1);
             		}
             		else {
-HXLINE( 254)			_hx_tmp = mouseButtons;
+HXLINE( 253)			_hx_tmp = mouseButtons;
             		}
-HXDLIN( 254)		this->mouseButtons = _hx_tmp;
-HXLINE( 256)		if (::Std_obj::isOfType(object,::hx::ClassOf< ::flixel::FlxSprite >())) {
-HXLINE( 258)			this->sprite = ( ( ::flixel::FlxSprite)(object) );
+HXDLIN( 253)		this->mouseButtons = _hx_tmp;
+HXLINE( 255)		if (::Std_obj::isOfType(object,::hx::ClassOf< ::flixel::FlxSprite >())) {
+HXLINE( 257)			this->sprite = ( ( ::flixel::FlxSprite)(object) );
             		}
             	}
 
@@ -103,18 +103,18 @@ void *FlxMouseEvent_obj::_hx_getInterface(int inHash) {
 }
 
 void FlxMouseEvent_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_263_destroy)
-HXLINE( 264)		this->object = null();
-HXLINE( 265)		this->sprite = null();
-HXLINE( 266)		this->onMouseDown = null();
-HXLINE( 267)		this->onMouseUp = null();
-HXLINE( 268)		this->onMouseClick = null();
-HXLINE( 269)		this->onMouseDoubleClick = null();
-HXLINE( 270)		this->onMouseOver = null();
-HXLINE( 271)		this->onMouseOut = null();
-HXLINE( 272)		this->onMouseMove = null();
-HXLINE( 273)		this->onMouseWheel = null();
-HXLINE( 274)		this->mouseButtons = null();
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_262_destroy)
+HXLINE( 263)		this->object = null();
+HXLINE( 264)		this->sprite = null();
+HXLINE( 265)		this->onMouseDown = null();
+HXLINE( 266)		this->onMouseUp = null();
+HXLINE( 267)		this->onMouseClick = null();
+HXLINE( 268)		this->onMouseDoubleClick = null();
+HXLINE( 269)		this->onMouseOver = null();
+HXLINE( 270)		this->onMouseOut = null();
+HXLINE( 271)		this->onMouseMove = null();
+HXLINE( 272)		this->onMouseWheel = null();
+HXLINE( 273)		this->mouseButtons = null();
             	}
 
 
@@ -126,136 +126,136 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxMouseEvent_obj,destroy,(void))
             		bool mouseChildren = __o_mouseChildren.Default(false);
             		bool mouseEnabled = __o_mouseEnabled.Default(true);
             		bool pixelPerfect = __o_pixelPerfect.Default(true);
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_58_add)
-HXDLIN(  58)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->add(object,onMouseDown,onMouseUp,onMouseOver,onMouseOut,mouseChildren,mouseEnabled,pixelPerfect,mouseButtons);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_57_add)
+HXDLIN(  57)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->add(object,onMouseDown,onMouseUp,onMouseOver,onMouseOut,mouseChildren,mouseEnabled,pixelPerfect,mouseButtons);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC9(FlxMouseEvent_obj,add,return )
 
  ::Dynamic FlxMouseEvent_obj::remove( ::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_67_remove)
-HXDLIN(  67)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->remove(object);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_66_remove)
+HXDLIN(  66)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->remove(object);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxMouseEvent_obj,remove,return )
 
 void FlxMouseEvent_obj::removeAll(){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_75_removeAll)
-HXDLIN(  75)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->removeAll();
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_74_removeAll)
+HXDLIN(  74)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->removeAll();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(FlxMouseEvent_obj,removeAll,(void))
 
 void FlxMouseEvent_obj::reorder(){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_87_reorder)
-HXDLIN(  87)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->reorder();
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_86_reorder)
+HXDLIN(  86)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->reorder();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(FlxMouseEvent_obj,reorder,(void))
 
 void FlxMouseEvent_obj::setMouseDownCallback( ::Dynamic object, ::Dynamic onMouseDown){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_98_setMouseDownCallback)
-HXDLIN(  98)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseDownCallback(object,onMouseDown);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_97_setMouseDownCallback)
+HXDLIN(  97)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseDownCallback(object,onMouseDown);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseDownCallback,(void))
 
 void FlxMouseEvent_obj::setMouseUpCallback( ::Dynamic object, ::Dynamic onMouseUp){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_109_setMouseUpCallback)
-HXDLIN( 109)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseUpCallback(object,onMouseUp);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_108_setMouseUpCallback)
+HXDLIN( 108)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseUpCallback(object,onMouseUp);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseUpCallback,(void))
 
 void FlxMouseEvent_obj::setMouseClickCallback( ::Dynamic object, ::Dynamic onMouseClick){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_121_setMouseClickCallback)
-HXDLIN( 121)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseClickCallback(object,onMouseClick);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_120_setMouseClickCallback)
+HXDLIN( 120)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseClickCallback(object,onMouseClick);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseClickCallback,(void))
 
 void FlxMouseEvent_obj::setMouseDoubleClickCallback( ::Dynamic object, ::Dynamic onMouseDoubleClick){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_133_setMouseDoubleClickCallback)
-HXDLIN( 133)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseDoubleClickCallback(object,onMouseDoubleClick);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_132_setMouseDoubleClickCallback)
+HXDLIN( 132)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseDoubleClickCallback(object,onMouseDoubleClick);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseDoubleClickCallback,(void))
 
 void FlxMouseEvent_obj::setMouseOverCallback( ::Dynamic object, ::Dynamic onMouseOver){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_144_setMouseOverCallback)
-HXDLIN( 144)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseOverCallback(object,onMouseOver);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_143_setMouseOverCallback)
+HXDLIN( 143)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseOverCallback(object,onMouseOver);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseOverCallback,(void))
 
 void FlxMouseEvent_obj::setMouseOutCallback( ::Dynamic object, ::Dynamic onMouseOut){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_155_setMouseOutCallback)
-HXDLIN( 155)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseOutCallback(object,onMouseOut);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_154_setMouseOutCallback)
+HXDLIN( 154)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseOutCallback(object,onMouseOut);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseOutCallback,(void))
 
 void FlxMouseEvent_obj::setMouseMoveCallback( ::Dynamic object, ::Dynamic onMouseMove){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_167_setMouseMoveCallback)
-HXDLIN( 167)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseMoveCallback(object,onMouseMove);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_166_setMouseMoveCallback)
+HXDLIN( 166)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseMoveCallback(object,onMouseMove);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseMoveCallback,(void))
 
 void FlxMouseEvent_obj::setMouseWheelCallback( ::Dynamic object, ::Dynamic onMouseWheel){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_179_setMouseWheelCallback)
-HXDLIN( 179)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseWheelCallback(object,onMouseWheel);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_178_setMouseWheelCallback)
+HXDLIN( 178)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setMouseWheelCallback(object,onMouseWheel);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setMouseWheelCallback,(void))
 
 void FlxMouseEvent_obj::setObjectMouseEnabled( ::Dynamic object,bool mouseEnabled){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_189_setObjectMouseEnabled)
-HXDLIN( 189)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setObjectMouseEnabled(object,mouseEnabled);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_188_setObjectMouseEnabled)
+HXDLIN( 188)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setObjectMouseEnabled(object,mouseEnabled);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setObjectMouseEnabled,(void))
 
 bool FlxMouseEvent_obj::isObjectMouseEnabled( ::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_197_isObjectMouseEnabled)
-HXDLIN( 197)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->isObjectMouseEnabled(object);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_196_isObjectMouseEnabled)
+HXDLIN( 196)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->isObjectMouseEnabled(object);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxMouseEvent_obj,isObjectMouseEnabled,return )
 
 void FlxMouseEvent_obj::setObjectMouseChildren( ::Dynamic object,bool mouseChildren){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_207_setObjectMouseChildren)
-HXDLIN( 207)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setObjectMouseChildren(object,mouseChildren);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_206_setObjectMouseChildren)
+HXDLIN( 206)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setObjectMouseChildren(object,mouseChildren);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxMouseEvent_obj,setObjectMouseChildren,(void))
 
 bool FlxMouseEvent_obj::isObjectMouseChildren( ::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_215_isObjectMouseChildren)
-HXDLIN( 215)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->isObjectMouseChildren(object);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_214_isObjectMouseChildren)
+HXDLIN( 214)		return ::flixel::input::mouse::FlxMouseEvent_obj::globalManager->isObjectMouseChildren(object);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxMouseEvent_obj,isObjectMouseChildren,return )
 
 void FlxMouseEvent_obj::setObjectMouseButtons( ::Dynamic object,::Array< int > mouseButtons){
-            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_223_setObjectMouseButtons)
-HXDLIN( 223)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setObjectMouseButtons(object,mouseButtons);
+            	HX_STACKFRAME(&_hx_pos_2c0ea66f87a6cfc0_222_setObjectMouseButtons)
+HXDLIN( 222)		::flixel::input::mouse::FlxMouseEvent_obj::globalManager->setObjectMouseButtons(object,mouseButtons);
             	}
 
 

@@ -23,17 +23,17 @@
 #include <openfl/ui/Mouse.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_9c3075758433de87_22_new,"flixel.system.frontEnds.VCRFrontEnd","new",0x9592d9ef,"flixel.system.frontEnds.VCRFrontEnd.new","flixel/system/frontEnds/VCRFrontEnd.hx",22,0xa1666a42)
-HX_LOCAL_STACK_FRAME(_hx_pos_9c3075758433de87_67_pause,"flixel.system.frontEnds.VCRFrontEnd","pause",0x6797a245,"flixel.system.frontEnds.VCRFrontEnd.pause","flixel/system/frontEnds/VCRFrontEnd.hx",67,0xa1666a42)
-HX_LOCAL_STACK_FRAME(_hx_pos_9c3075758433de87_87_resume,"flixel.system.frontEnds.VCRFrontEnd","resume",0x5616837e,"flixel.system.frontEnds.VCRFrontEnd.resume","flixel/system/frontEnds/VCRFrontEnd.hx",87,0xa1666a42)
+HX_DEFINE_STACK_FRAME(_hx_pos_9c3075758433de87_21_new,"flixel.system.frontEnds.VCRFrontEnd","new",0x9592d9ef,"flixel.system.frontEnds.VCRFrontEnd.new","flixel/system/frontEnds/VCRFrontEnd.hx",21,0xa1666a42)
+HX_LOCAL_STACK_FRAME(_hx_pos_9c3075758433de87_66_pause,"flixel.system.frontEnds.VCRFrontEnd","pause",0x6797a245,"flixel.system.frontEnds.VCRFrontEnd.pause","flixel/system/frontEnds/VCRFrontEnd.hx",66,0xa1666a42)
+HX_LOCAL_STACK_FRAME(_hx_pos_9c3075758433de87_86_resume,"flixel.system.frontEnds.VCRFrontEnd","resume",0x5616837e,"flixel.system.frontEnds.VCRFrontEnd.resume","flixel/system/frontEnds/VCRFrontEnd.hx",86,0xa1666a42)
 namespace flixel{
 namespace _hx_system{
 namespace frontEnds{
 
 void VCRFrontEnd_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_9c3075758433de87_22_new)
-HXLINE(  60)		this->stepRequested = false;
-HXLINE(  55)		this->paused = false;
+            	HX_STACKFRAME(&_hx_pos_9c3075758433de87_21_new)
+HXLINE(  59)		this->stepRequested = false;
+HXLINE(  54)		this->paused = false;
             	}
 
 Dynamic VCRFrontEnd_obj::__CreateEmpty() { return new VCRFrontEnd_obj; }
@@ -52,12 +52,12 @@ bool VCRFrontEnd_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void VCRFrontEnd_obj::pause(){
-            	HX_STACKFRAME(&_hx_pos_9c3075758433de87_67_pause)
-HXDLIN(  67)		if (!(this->paused)) {
-HXLINE(  70)			if (!(::flixel::FlxG_obj::mouse->useSystemCursor)) {
-HXLINE(  71)				::openfl::ui::Mouse_obj::show();
+            	HX_STACKFRAME(&_hx_pos_9c3075758433de87_66_pause)
+HXDLIN(  66)		if (!(this->paused)) {
+HXLINE(  69)			if (!(::flixel::FlxG_obj::mouse->useSystemCursor)) {
+HXLINE(  70)				::openfl::ui::Mouse_obj::show();
             			}
-HXLINE(  74)			this->paused = true;
+HXLINE(  73)			this->paused = true;
             		}
             	}
 
@@ -65,12 +65,12 @@ HXLINE(  74)			this->paused = true;
 HX_DEFINE_DYNAMIC_FUNC0(VCRFrontEnd_obj,pause,(void))
 
 void VCRFrontEnd_obj::resume(){
-            	HX_STACKFRAME(&_hx_pos_9c3075758433de87_87_resume)
-HXDLIN(  87)		if (this->paused) {
-HXLINE(  90)			if (!(::flixel::FlxG_obj::mouse->useSystemCursor)) {
-HXLINE(  91)				::openfl::ui::Mouse_obj::hide();
+            	HX_STACKFRAME(&_hx_pos_9c3075758433de87_86_resume)
+HXDLIN(  86)		if (this->paused) {
+HXLINE(  89)			if (!(::flixel::FlxG_obj::mouse->useSystemCursor)) {
+HXLINE(  90)				::openfl::ui::Mouse_obj::hide();
             			}
-HXLINE(  94)			this->paused = false;
+HXLINE(  93)			this->paused = false;
             		}
             	}
 

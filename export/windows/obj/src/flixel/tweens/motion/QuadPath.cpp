@@ -42,30 +42,30 @@
 #include <flixel/util/IFlxPooled.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_13_new,"flixel.tweens.motion.QuadPath","new",0x9e663362,"flixel.tweens.motion.QuadPath.new","flixel/tweens/motion/QuadPath.hx",13,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_42_destroy,"flixel.tweens.motion.QuadPath","destroy",0x05d338fc,"flixel.tweens.motion.QuadPath.destroy","flixel/tweens/motion/QuadPath.hx",42,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_61_setMotion,"flixel.tweens.motion.QuadPath","setMotion",0xc2ae8bfa,"flixel.tweens.motion.QuadPath.setMotion","flixel/tweens/motion/QuadPath.hx",61,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_83_addPoint,"flixel.tweens.motion.QuadPath","addPoint",0x820a502d,"flixel.tweens.motion.QuadPath.addPoint","flixel/tweens/motion/QuadPath.hx",83,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_93_getPoint,"flixel.tweens.motion.QuadPath","getPoint",0x68843998,"flixel.tweens.motion.QuadPath.getPoint","flixel/tweens/motion/QuadPath.hx",93,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_102_start,"flixel.tweens.motion.QuadPath","start",0x95be1be4,"flixel.tweens.motion.QuadPath.start","flixel/tweens/motion/QuadPath.hx",102,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_109_update,"flixel.tweens.motion.QuadPath","update",0xf1a57047,"flixel.tweens.motion.QuadPath.update","flixel/tweens/motion/QuadPath.hx",109,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_166_updatePath,"flixel.tweens.motion.QuadPath","updatePath",0x1fbbb18c,"flixel.tweens.motion.QuadPath.updatePath","flixel/tweens/motion/QuadPath.hx",166,0x562bb60d)
-HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_202_getCurveLength,"flixel.tweens.motion.QuadPath","getCurveLength",0x2a112e3d,"flixel.tweens.motion.QuadPath.getCurveLength","flixel/tweens/motion/QuadPath.hx",202,0x562bb60d)
+HX_DEFINE_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_12_new,"flixel.tweens.motion.QuadPath","new",0x9e663362,"flixel.tweens.motion.QuadPath.new","flixel/tweens/motion/QuadPath.hx",12,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_41_destroy,"flixel.tweens.motion.QuadPath","destroy",0x05d338fc,"flixel.tweens.motion.QuadPath.destroy","flixel/tweens/motion/QuadPath.hx",41,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_60_setMotion,"flixel.tweens.motion.QuadPath","setMotion",0xc2ae8bfa,"flixel.tweens.motion.QuadPath.setMotion","flixel/tweens/motion/QuadPath.hx",60,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_82_addPoint,"flixel.tweens.motion.QuadPath","addPoint",0x820a502d,"flixel.tweens.motion.QuadPath.addPoint","flixel/tweens/motion/QuadPath.hx",82,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_92_getPoint,"flixel.tweens.motion.QuadPath","getPoint",0x68843998,"flixel.tweens.motion.QuadPath.getPoint","flixel/tweens/motion/QuadPath.hx",92,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_101_start,"flixel.tweens.motion.QuadPath","start",0x95be1be4,"flixel.tweens.motion.QuadPath.start","flixel/tweens/motion/QuadPath.hx",101,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_108_update,"flixel.tweens.motion.QuadPath","update",0xf1a57047,"flixel.tweens.motion.QuadPath.update","flixel/tweens/motion/QuadPath.hx",108,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_165_updatePath,"flixel.tweens.motion.QuadPath","updatePath",0x1fbbb18c,"flixel.tweens.motion.QuadPath.updatePath","flixel/tweens/motion/QuadPath.hx",165,0x562bb60d)
+HX_LOCAL_STACK_FRAME(_hx_pos_c7e8b5180f8deff5_201_getCurveLength,"flixel.tweens.motion.QuadPath","getCurveLength",0x2a112e3d,"flixel.tweens.motion.QuadPath.getCurveLength","flixel/tweens/motion/QuadPath.hx",201,0x562bb60d)
 namespace flixel{
 namespace tweens{
 namespace motion{
 
 void QuadPath_obj::__construct( ::Dynamic Options, ::flixel::tweens::FlxTweenManager manager){
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_13_new)
-HXLINE(  23)		this->_updateCurve = true;
-HXLINE(  20)		this->_numSegs = 0;
-HXLINE(  19)		this->_index = 0;
-HXLINE(  18)		this->_speed = ((Float)0);
-HXLINE(  17)		this->_distance = ((Float)0);
-HXLINE(  34)		super::__construct(Options,manager);
-HXLINE(  36)		this->_points = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(  37)		this->_curveT = ::Array_obj< Float >::__new(0);
-HXLINE(  38)		this->_curveD = ::Array_obj< Float >::__new(0);
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_12_new)
+HXLINE(  22)		this->_updateCurve = true;
+HXLINE(  19)		this->_numSegs = 0;
+HXLINE(  18)		this->_index = 0;
+HXLINE(  17)		this->_speed = ((Float)0);
+HXLINE(  16)		this->_distance = ((Float)0);
+HXLINE(  33)		super::__construct(Options,manager);
+HXLINE(  35)		this->_points = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(  36)		this->_curveT = ::Array_obj< Float >::__new(0);
+HXLINE(  37)		this->_curveD = ::Array_obj< Float >::__new(0);
             	}
 
 Dynamic QuadPath_obj::__CreateEmpty() { return new QuadPath_obj; }
@@ -92,37 +92,37 @@ bool QuadPath_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void QuadPath_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_42_destroy)
-HXLINE(  43)		this->super::destroy();
-HXLINE(  45)		{
-HXLINE(  45)			int _g = 0;
-HXDLIN(  45)			::Array< ::Dynamic> _g1 = this->_points;
-HXDLIN(  45)			while((_g < _g1->length)){
-HXLINE(  45)				 ::flixel::math::FlxBasePoint point = _g1->__get(_g).StaticCast<  ::flixel::math::FlxBasePoint >();
-HXDLIN(  45)				_g = (_g + 1);
-HXLINE(  47)				point = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(point)) );
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_41_destroy)
+HXLINE(  42)		this->super::destroy();
+HXLINE(  44)		{
+HXLINE(  44)			int _g = 0;
+HXDLIN(  44)			::Array< ::Dynamic> _g1 = this->_points;
+HXDLIN(  44)			while((_g < _g1->length)){
+HXLINE(  44)				 ::flixel::math::FlxBasePoint point = _g1->__get(_g).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXDLIN(  44)				_g = (_g + 1);
+HXLINE(  46)				point = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(point)) );
             			}
             		}
-HXLINE(  49)		this->_a = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_a)) );
-HXLINE(  50)		this->_b = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_b)) );
-HXLINE(  51)		this->_c = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_c)) );
+HXLINE(  48)		this->_a = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_a)) );
+HXLINE(  49)		this->_b = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_b)) );
+HXLINE(  50)		this->_c = ( ( ::flixel::math::FlxBasePoint)(::flixel::util::FlxDestroyUtil_obj::put(this->_c)) );
             	}
 
 
  ::flixel::tweens::motion::QuadPath QuadPath_obj::setMotion(Float DurationOrSpeed,::hx::Null< bool >  __o_UseDuration){
             		bool UseDuration = __o_UseDuration.Default(true);
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_61_setMotion)
-HXLINE(  62)		this->updatePath();
-HXLINE(  64)		if (UseDuration) {
-HXLINE(  66)			this->duration = DurationOrSpeed;
-HXLINE(  67)			this->_speed = (this->_distance / DurationOrSpeed);
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_60_setMotion)
+HXLINE(  61)		this->updatePath();
+HXLINE(  63)		if (UseDuration) {
+HXLINE(  65)			this->duration = DurationOrSpeed;
+HXLINE(  66)			this->_speed = (this->_distance / DurationOrSpeed);
             		}
             		else {
-HXLINE(  71)			this->duration = (this->_distance / DurationOrSpeed);
-HXLINE(  72)			this->_speed = DurationOrSpeed;
+HXLINE(  70)			this->duration = (this->_distance / DurationOrSpeed);
+HXLINE(  71)			this->_speed = DurationOrSpeed;
             		}
-HXLINE(  75)		this->start();
-HXLINE(  76)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  74)		this->start();
+HXLINE(  75)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -131,13 +131,13 @@ HX_DEFINE_DYNAMIC_FUNC2(QuadPath_obj,setMotion,return )
  ::flixel::tweens::motion::QuadPath QuadPath_obj::addPoint(::hx::Null< Float >  __o_x,::hx::Null< Float >  __o_y){
             		Float x = __o_x.Default(0);
             		Float y = __o_y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_83_addPoint)
-HXLINE(  84)		this->_updateCurve = true;
-HXLINE(  85)		::Array< ::Dynamic> _hx_tmp = this->_points;
-HXDLIN(  85)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
-HXDLIN(  85)		point->_inPool = false;
-HXDLIN(  85)		_hx_tmp->push(point);
-HXLINE(  86)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_82_addPoint)
+HXLINE(  83)		this->_updateCurve = true;
+HXLINE(  84)		::Array< ::Dynamic> _hx_tmp = this->_points;
+HXDLIN(  84)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(x,y);
+HXDLIN(  84)		point->_inPool = false;
+HXDLIN(  84)		_hx_tmp->push(point);
+HXLINE(  85)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -145,191 +145,151 @@ HX_DEFINE_DYNAMIC_FUNC2(QuadPath_obj,addPoint,return )
 
  ::flixel::math::FlxBasePoint QuadPath_obj::getPoint(::hx::Null< int >  __o_index){
             		int index = __o_index.Default(0);
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_93_getPoint)
-HXLINE(  94)		if ((this->_points->length == 0)) {
-HXLINE(  96)			HX_STACK_DO_THROW(HX_("No points have been added to the path yet.",c7,a0,28,83));
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_92_getPoint)
+HXLINE(  93)		if ((this->_points->length == 0)) {
+HXLINE(  95)			HX_STACK_DO_THROW(HX_("No points have been added to the path yet.",c7,a0,28,83));
             		}
-HXLINE(  98)		return this->_points->__get(::hx::Mod(index,this->_points->length)).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXLINE(  97)		return this->_points->__get(::hx::Mod(index,this->_points->length)).StaticCast<  ::flixel::math::FlxBasePoint >();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(QuadPath_obj,getPoint,return )
 
  ::flixel::tweens::FlxTween QuadPath_obj::start(){
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_102_start)
-HXLINE( 103)		int _hx_tmp;
-HXDLIN( 103)		if (this->backward) {
-HXLINE( 103)			_hx_tmp = (this->_numSegs - 1);
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_101_start)
+HXLINE( 102)		int _hx_tmp;
+HXDLIN( 102)		if (this->backward) {
+HXLINE( 102)			_hx_tmp = (this->_numSegs - 1);
             		}
             		else {
-HXLINE( 103)			_hx_tmp = 0;
+HXLINE( 102)			_hx_tmp = 0;
             		}
-HXDLIN( 103)		this->_index = _hx_tmp;
-HXLINE( 104)		this->super::start();
-HXLINE( 105)		return ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 102)		this->_index = _hx_tmp;
+HXLINE( 103)		this->super::start();
+HXLINE( 104)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 void QuadPath_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_109_update)
-HXLINE( 110)		this->super::update(elapsed);
-HXLINE( 111)		Float td;
-HXLINE( 112)		Float tt;
-HXLINE( 114)		bool _hx_tmp;
-HXDLIN( 114)		if (!(this->backward)) {
-HXLINE( 114)			_hx_tmp = ::hx::IsNotNull( this->_points );
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_108_update)
+HXLINE( 109)		this->super::update(elapsed);
+HXLINE( 110)		Float td;
+HXLINE( 111)		Float tt;
+HXLINE( 113)		bool _hx_tmp;
+HXDLIN( 113)		if (!(this->backward)) {
+HXLINE( 113)			_hx_tmp = ::hx::IsNotNull( this->_points );
             		}
             		else {
-HXLINE( 114)			_hx_tmp = false;
+HXLINE( 113)			_hx_tmp = false;
             		}
-HXDLIN( 114)		if (_hx_tmp) {
-HXLINE( 116)			if ((this->_index < (this->_numSegs - 1))) {
-HXLINE( 118)				while((this->scale > this->_curveT->__get((this->_index + 1)))){
-HXLINE( 120)					this->_index++;
-HXLINE( 121)					if ((this->_index == (this->_numSegs - 1))) {
-HXLINE( 123)						goto _hx_goto_7;
+HXDLIN( 113)		if (_hx_tmp) {
+HXLINE( 115)			if ((this->_index < (this->_numSegs - 1))) {
+HXLINE( 117)				while((this->scale > this->_curveT->__get((this->_index + 1)))){
+HXLINE( 119)					this->_index++;
+HXLINE( 120)					if ((this->_index == (this->_numSegs - 1))) {
+HXLINE( 122)						goto _hx_goto_7;
             					}
             				}
             				_hx_goto_7:;
             			}
-HXLINE( 127)			td = this->_curveT->__get(this->_index);
-HXLINE( 128)			tt = (this->_curveT->__get((this->_index + 1)) - td);
-HXLINE( 129)			td = ((this->scale - td) / tt);
-HXLINE( 130)			this->_a = this->_points->__get((this->_index * 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
-HXLINE( 131)			this->_b = this->_points->__get(((this->_index * 2) + 1)).StaticCast<  ::flixel::math::FlxBasePoint >();
-HXLINE( 132)			this->_c = this->_points->__get(((this->_index * 2) + 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
-HXLINE( 134)			this->x = ((((this->_a->x * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->x * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->x * td) * td));
-HXLINE( 135)			this->y = ((((this->_a->y * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->y * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->y * td) * td));
+HXLINE( 126)			td = this->_curveT->__get(this->_index);
+HXLINE( 127)			tt = (this->_curveT->__get((this->_index + 1)) - td);
+HXLINE( 128)			td = ((this->scale - td) / tt);
+HXLINE( 129)			this->_a = this->_points->__get((this->_index * 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXLINE( 130)			this->_b = this->_points->__get(((this->_index * 2) + 1)).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXLINE( 131)			this->_c = this->_points->__get(((this->_index * 2) + 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXLINE( 133)			this->x = ((((this->_a->x * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->x * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->x * td) * td));
+HXLINE( 134)			this->y = ((((this->_a->y * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->y * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->y * td) * td));
             		}
             		else {
-HXLINE( 137)			if (::hx::IsNotNull( this->_points )) {
-HXLINE( 139)				if ((this->_index > 0)) {
-HXLINE( 141)					while((this->scale < this->_curveT->__get(this->_index))){
-HXLINE( 143)						this->_index--;
-HXLINE( 144)						if ((this->_index == 0)) {
-HXLINE( 146)							goto _hx_goto_8;
+HXLINE( 136)			if (::hx::IsNotNull( this->_points )) {
+HXLINE( 138)				if ((this->_index > 0)) {
+HXLINE( 140)					while((this->scale < this->_curveT->__get(this->_index))){
+HXLINE( 142)						this->_index--;
+HXLINE( 143)						if ((this->_index == 0)) {
+HXLINE( 145)							goto _hx_goto_8;
             						}
             					}
             					_hx_goto_8:;
             				}
-HXLINE( 151)				td = this->_curveT->__get((this->_index + 1));
-HXLINE( 152)				tt = (this->_curveT->__get(this->_index) - td);
-HXLINE( 153)				td = ((this->scale - td) / tt);
-HXLINE( 154)				this->_a = this->_points->__get(((this->_index * 2) + 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
-HXLINE( 155)				this->_b = this->_points->__get(((this->_index * 2) + 1)).StaticCast<  ::flixel::math::FlxBasePoint >();
-HXLINE( 156)				this->_c = this->_points->__get((this->_index * 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
-HXLINE( 158)				this->x = ((((this->_a->x * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->x * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->x * td) * td));
-HXLINE( 159)				this->y = ((((this->_a->y * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->y * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->y * td) * td));
+HXLINE( 150)				td = this->_curveT->__get((this->_index + 1));
+HXLINE( 151)				tt = (this->_curveT->__get(this->_index) - td);
+HXLINE( 152)				td = ((this->scale - td) / tt);
+HXLINE( 153)				this->_a = this->_points->__get(((this->_index * 2) + 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXLINE( 154)				this->_b = this->_points->__get(((this->_index * 2) + 1)).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXLINE( 155)				this->_c = this->_points->__get((this->_index * 2)).StaticCast<  ::flixel::math::FlxBasePoint >();
+HXLINE( 157)				this->x = ((((this->_a->x * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->x * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->x * td) * td));
+HXLINE( 158)				this->y = ((((this->_a->y * (( (Float)(1) ) - td)) * (( (Float)(1) ) - td)) + (((this->_b->y * ( (Float)(2) )) * (( (Float)(1) ) - td)) * td)) + ((this->_c->y * td) * td));
             			}
             		}
-HXLINE( 161)		this->super::postUpdate();
+HXLINE( 160)		this->super::postUpdate();
             	}
 
 
 void QuadPath_obj::updatePath(){
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_166_updatePath)
-HXLINE( 167)		bool _hx_tmp;
-HXDLIN( 167)		if ((::hx::Mod((this->_points->length - 1),2) == 0)) {
-HXLINE( 167)			_hx_tmp = (this->_points->length < 3);
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_165_updatePath)
+HXLINE( 166)		bool _hx_tmp;
+HXDLIN( 166)		if ((::hx::Mod((this->_points->length - 1),2) == 0)) {
+HXLINE( 166)			_hx_tmp = (this->_points->length < 3);
             		}
             		else {
-HXLINE( 167)			_hx_tmp = true;
+HXLINE( 166)			_hx_tmp = true;
             		}
-HXDLIN( 167)		if (_hx_tmp) {
-HXLINE( 169)			HX_STACK_DO_THROW(HX_("A QuadPath must have at least 3 points to operate and number of points must be a odd.",67,e3,16,ba));
+HXDLIN( 166)		if (_hx_tmp) {
+HXLINE( 168)			HX_STACK_DO_THROW(HX_("A QuadPath must have at least 3 points to operate and number of points must be a odd.",67,e3,16,ba));
             		}
-HXLINE( 171)		if (!(this->_updateCurve)) {
-HXLINE( 173)			return;
+HXLINE( 170)		if (!(this->_updateCurve)) {
+HXLINE( 172)			return;
             		}
-HXLINE( 175)		this->_updateCurve = false;
-HXLINE( 178)		int i = 0;
-HXLINE( 179)		int j = 0;
-HXLINE( 180)		this->_distance = ( (Float)(0) );
-HXLINE( 181)		this->_numSegs = ::Std_obj::_hx_int((( (Float)((this->_points->length - 1)) ) / ( (Float)(2) )));
-HXLINE( 182)		while((i < this->_numSegs)){
-HXLINE( 184)			j = (i * 2);
-HXLINE( 185)			this->_curveD[i] = this->getCurveLength(this->_points->__get(j).StaticCast<  ::flixel::math::FlxBasePoint >(),this->_points->__get((j + 1)).StaticCast<  ::flixel::math::FlxBasePoint >(),this->_points->__get((j + 2)).StaticCast<  ::flixel::math::FlxBasePoint >());
-HXLINE( 186)			 ::flixel::tweens::motion::QuadPath _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 186)			i = (i + 1);
-HXDLIN( 186)			_hx_tmp1->_distance = (_hx_tmp1->_distance + this->_curveD->__get((i - 1)));
+HXLINE( 174)		this->_updateCurve = false;
+HXLINE( 177)		int i = 0;
+HXLINE( 178)		int j = 0;
+HXLINE( 179)		this->_distance = ( (Float)(0) );
+HXLINE( 180)		this->_numSegs = ::Std_obj::_hx_int((( (Float)((this->_points->length - 1)) ) / ( (Float)(2) )));
+HXLINE( 181)		while((i < this->_numSegs)){
+HXLINE( 183)			j = (i * 2);
+HXLINE( 184)			this->_curveD[i] = this->getCurveLength(this->_points->__get(j).StaticCast<  ::flixel::math::FlxBasePoint >(),this->_points->__get((j + 1)).StaticCast<  ::flixel::math::FlxBasePoint >(),this->_points->__get((j + 2)).StaticCast<  ::flixel::math::FlxBasePoint >());
+HXLINE( 185)			 ::flixel::tweens::motion::QuadPath _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 185)			i = (i + 1);
+HXDLIN( 185)			_hx_tmp1->_distance = (_hx_tmp1->_distance + this->_curveD->__get((i - 1)));
             		}
-HXLINE( 190)		i = 0;
-HXLINE( 191)		Float d = ( (Float)(0) );
-HXLINE( 192)		while((i < this->_numSegs)){
-HXLINE( 194)			d = (d + this->_curveD->__get(i));
-HXLINE( 195)			i = (i + 1);
-HXDLIN( 195)			this->_curveT[(i - 1)] = (d / this->_distance);
+HXLINE( 189)		i = 0;
+HXLINE( 190)		Float d = ( (Float)(0) );
+HXLINE( 191)		while((i < this->_numSegs)){
+HXLINE( 193)			d = (d + this->_curveD->__get(i));
+HXLINE( 194)			i = (i + 1);
+HXDLIN( 194)			this->_curveT[(i - 1)] = (d / this->_distance);
             		}
-HXLINE( 197)		this->_curveT[(this->_numSegs - 1)] = ( (Float)(1) );
-HXLINE( 198)		this->_curveT->unshift(0);
+HXLINE( 196)		this->_curveT[(this->_numSegs - 1)] = ( (Float)(1) );
+HXLINE( 197)		this->_curveT->unshift(0);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(QuadPath_obj,updatePath,(void))
 
 Float QuadPath_obj::getCurveLength( ::flixel::math::FlxBasePoint start, ::flixel::math::FlxBasePoint control, ::flixel::math::FlxBasePoint finish){
-            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_202_getCurveLength)
-HXLINE( 203)		 ::flixel::math::FlxBasePoint p = null();
-HXDLIN( 203)		 ::flixel::math::FlxBasePoint p1 = p;
-HXDLIN( 203)		if (::hx::IsNull( p1 )) {
-HXLINE( 203)			 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 203)			point->_inPool = false;
-HXDLIN( 203)			p1 = point;
-            		}
-HXDLIN( 203)		Float y = control->y;
-HXDLIN( 203)		p1->set_x(control->x);
-HXDLIN( 203)		p1->set_y(y);
-HXDLIN( 203)		 ::flixel::math::FlxBasePoint safeControl = p1;
-HXLINE( 204)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 204)		point1->_inPool = false;
-HXDLIN( 204)		 ::flixel::math::FlxBasePoint p11 = point1;
-HXLINE( 205)		 ::flixel::math::FlxBasePoint point2 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 205)		point2->_inPool = false;
-HXDLIN( 205)		 ::flixel::math::FlxBasePoint p2 = point2;
-HXLINE( 209)		bool result;
-HXDLIN( 209)		if ((::Math_obj::abs((safeControl->x - start->x)) <= ((Float)0.0000001))) {
-HXLINE( 209)			result = (::Math_obj::abs((safeControl->y - start->y)) <= ((Float)0.0000001));
-            		}
-            		else {
-HXLINE( 209)			result = false;
-            		}
-HXDLIN( 209)		if (start->_weak) {
-HXLINE( 209)			start->put();
-            		}
-HXDLIN( 209)		if (result) {
-HXLINE( 210)			safeControl->set_x((safeControl->x + ((Float)0.0000001)));
-HXDLIN( 210)			safeControl->set_y((safeControl->y + ((Float)0.0000001)));
-            		}
-HXLINE( 212)		bool result1;
-HXDLIN( 212)		if ((::Math_obj::abs((safeControl->x - finish->x)) <= ((Float)0.0000001))) {
-HXLINE( 212)			result1 = (::Math_obj::abs((safeControl->y - finish->y)) <= ((Float)0.0000001));
-            		}
-            		else {
-HXLINE( 212)			result1 = false;
-            		}
-HXDLIN( 212)		if (finish->_weak) {
-HXLINE( 212)			finish->put();
-            		}
-HXDLIN( 212)		if (result1) {
-HXLINE( 213)			safeControl->set_x((safeControl->x + ((Float)0.0000001)));
-HXDLIN( 213)			safeControl->set_y((safeControl->y + ((Float)0.0000001)));
-            		}
-HXLINE( 215)		p11->set_x(((start->x - (( (Float)(2) ) * safeControl->x)) + finish->x));
-HXLINE( 216)		p11->set_y(((start->y - (( (Float)(2) ) * safeControl->y)) + finish->y));
-HXLINE( 217)		p2->set_x(((( (Float)(2) ) * safeControl->x) - (( (Float)(2) ) * start->x)));
-HXLINE( 218)		p2->set_y(((( (Float)(2) ) * safeControl->y) - (( (Float)(2) ) * start->y)));
-HXLINE( 219)		Float a = (( (Float)(4) ) * ((p11->x * p11->x) + (p11->y * p11->y)));
-HXDLIN( 219)		Float b = (( (Float)(4) ) * ((p11->x * p2->x) + (p11->y * p2->y)));
-HXDLIN( 219)		Float c = ((p2->x * p2->x) + (p2->y * p2->y));
-HXDLIN( 219)		Float abc = (( (Float)(2) ) * ::Math_obj::sqrt(((a + b) + c)));
-HXDLIN( 219)		Float a2 = ::Math_obj::sqrt(a);
-HXDLIN( 219)		Float a32 = ((( (Float)(2) ) * a) * a2);
-HXDLIN( 219)		Float c2 = (( (Float)(2) ) * ::Math_obj::sqrt(c));
-HXDLIN( 219)		Float ba = (b / a2);
-HXLINE( 228)		p11->put();
-HXLINE( 229)		p2->put();
-HXLINE( 230)		safeControl->put();
-HXLINE( 232)		return ((((a32 * abc) + ((a2 * b) * (abc - c2))) + ((((( (Float)(4) ) * c) * a) - (b * b)) * ::Math_obj::log(((((( (Float)(2) ) * a2) + ba) + abc) / (ba + c2))))) / (( (Float)(4) ) * a32));
+            	HX_STACKFRAME(&_hx_pos_c7e8b5180f8deff5_201_getCurveLength)
+HXLINE( 202)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 202)		point->_inPool = false;
+HXDLIN( 202)		 ::flixel::math::FlxBasePoint p1 = point;
+HXLINE( 203)		 ::flixel::math::FlxBasePoint point1 = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 203)		point1->_inPool = false;
+HXDLIN( 203)		 ::flixel::math::FlxBasePoint p2 = point1;
+HXLINE( 205)		p1->set_x(((start->x - (( (Float)(2) ) * control->x)) + finish->x));
+HXLINE( 206)		p1->set_y(((start->y - (( (Float)(2) ) * control->y)) + finish->y));
+HXLINE( 207)		p2->set_x(((( (Float)(2) ) * control->x) - (( (Float)(2) ) * start->x)));
+HXLINE( 208)		p2->set_y(((( (Float)(2) ) * control->y) - (( (Float)(2) ) * start->y)));
+HXLINE( 209)		Float a = (( (Float)(4) ) * ((p1->x * p1->x) + (p1->y * p1->y)));
+HXDLIN( 209)		Float b = (( (Float)(4) ) * ((p1->x * p2->x) + (p1->y * p2->y)));
+HXDLIN( 209)		Float c = ((p2->x * p2->x) + (p2->y * p2->y));
+HXDLIN( 209)		Float abc = (( (Float)(2) ) * ::Math_obj::sqrt(((a + b) + c)));
+HXDLIN( 209)		Float a2 = ::Math_obj::sqrt(a);
+HXDLIN( 209)		Float a32 = ((( (Float)(2) ) * a) * a2);
+HXDLIN( 209)		Float c2 = (( (Float)(2) ) * ::Math_obj::sqrt(c));
+HXDLIN( 209)		Float ba = (b / a2);
+HXLINE( 218)		p1->put();
+HXLINE( 219)		p2->put();
+HXLINE( 221)		return ((((a32 * abc) + ((a2 * b) * (abc - c2))) + ((((( (Float)(4) ) * c) * a) - (b * b)) * ::Math_obj::log(((((( (Float)(2) ) * a2) + ba) + abc) / (ba + c2))))) / (( (Float)(4) ) * a32));
             	}
 
 

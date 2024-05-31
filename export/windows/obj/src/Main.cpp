@@ -22,9 +22,6 @@
 #ifndef INCLUDED_flixel_util_IFlxDestroyable
 #include <flixel/util/IFlxDestroyable.h>
 #endif
-#ifndef INCLUDED_flixel_util_typeLimit__NextState_InitialState_Impl_
-#include <flixel/util/typeLimit/_NextState/InitialState_Impl_.h>
-#endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
@@ -53,7 +50,7 @@ void Main_obj::__construct(){
             	HX_GC_STACKFRAME(&_hx_pos_e47a9afac0942eb9_6_new)
 HXLINE(   8)		this->framerate = 60;
 HXLINE(  12)		super::__construct();
-HXLINE(  13)		this->addChild( ::flixel::FlxGame_obj::__alloc( HX_CTX ,1280,720,::flixel::util::typeLimit::_NextState::InitialState_Impl__obj::fromType(::hx::ClassOf< ::MenuState >()),this->framerate,this->framerate,true,false));
+HXLINE(  13)		this->addChild( ::flixel::FlxGame_obj::__alloc( HX_CTX ,1280,720,::hx::ClassOf< ::MenuState >(),this->framerate,this->framerate,true,false));
             	}
 
 Dynamic Main_obj::__CreateEmpty() { return new Main_obj; }

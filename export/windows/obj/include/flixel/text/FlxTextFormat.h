@@ -23,13 +23,13 @@ class HXCPP_CLASS_ATTRIBUTES FlxTextFormat_obj : public ::hx::Object
 	public:
 		enum { _hx_ClassId = 0x184412c5 };
 
-		void __construct( ::Dynamic fontColor, ::Dynamic bold, ::Dynamic italic, ::Dynamic borderColor, ::Dynamic underline);
+		void __construct( ::Dynamic FontColor, ::Dynamic Bold, ::Dynamic Italic, ::Dynamic BorderColor);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="flixel.text.FlxTextFormat")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"flixel.text.FlxTextFormat"); }
-		static ::hx::ObjectPtr< FlxTextFormat_obj > __new( ::Dynamic fontColor, ::Dynamic bold, ::Dynamic italic, ::Dynamic borderColor, ::Dynamic underline);
-		static ::hx::ObjectPtr< FlxTextFormat_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic fontColor, ::Dynamic bold, ::Dynamic italic, ::Dynamic borderColor, ::Dynamic underline);
+		static ::hx::ObjectPtr< FlxTextFormat_obj > __new( ::Dynamic FontColor, ::Dynamic Bold, ::Dynamic Italic, ::Dynamic BorderColor);
+		static ::hx::ObjectPtr< FlxTextFormat_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic FontColor, ::Dynamic Bold, ::Dynamic Italic, ::Dynamic BorderColor);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);

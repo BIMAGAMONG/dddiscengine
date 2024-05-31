@@ -45,6 +45,11 @@ class AssetPaths
         return getPath('images/$key.png');
     }
 
+    inline static public function dialogue(key:String)
+    {
+        return getPath('data/$key.txt');
+    }
+
     // loading an image from the 'menus' directory
     inline static public function menuAsset(key:String)
     {

@@ -75,12 +75,12 @@ class HXCPP_CLASS_ATTRIBUTES FlxMouse_obj : public  ::flixel::input::FlxPointer_
 		bool enabled;
 		int wheel;
 		 ::openfl::display::Sprite cursorContainer;
-		 ::openfl::display::Bitmap cursor;
 		bool visible;
 		bool useSystemCursor;
 		 ::flixel::input::mouse::FlxMouseButton _leftButton;
 		 ::flixel::input::mouse::FlxMouseButton _middleButton;
 		 ::flixel::input::mouse::FlxMouseButton _rightButton;
+		 ::openfl::display::Bitmap _cursor;
 		 ::openfl::display::BitmapData _cursorBitmapData;
 		bool _wheelUsed;
 		bool _visibleWhenFocusLost;
@@ -206,12 +206,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxMouse_obj : public  ::flixel::input::FlxPointer_
 
 		void playback( ::flixel::_hx_system::replay::MouseRecord record);
 		::Dynamic playback_dyn();
-
-		 ::openfl::display::Bitmap get__cursor();
-		::Dynamic get__cursor_dyn();
-
-		 ::openfl::display::Bitmap set__cursor( ::openfl::display::Bitmap value);
-		::Dynamic set__cursor_dyn();
 
 };
 

@@ -17,16 +17,16 @@
 #include <flixel/util/_FlxSignal/FlxSignalHandler.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_024ec818dae5a948_265_new,"flixel.util._FlxSignal.FlxSignal4","new",0xd1f9e1e5,"flixel.util._FlxSignal.FlxSignal4.new","flixel/util/FlxSignal.hx",265,0x3c758c5e)
-HX_LOCAL_STACK_FRAME(_hx_pos_024ec818dae5a948_293_dispatch4,"flixel.util._FlxSignal.FlxSignal4","dispatch4",0x92a0977f,"flixel.util._FlxSignal.FlxSignal4.dispatch4","flixel/util/FlxSignal.hx",293,0x3c758c5e)
+HX_DEFINE_STACK_FRAME(_hx_pos_024ec818dae5a948_260_new,"flixel.util._FlxSignal.FlxSignal4","new",0xd1f9e1e5,"flixel.util._FlxSignal.FlxSignal4.new","flixel/util/FlxSignal.hx",260,0x3c758c5e)
+HX_LOCAL_STACK_FRAME(_hx_pos_024ec818dae5a948_288_dispatch4,"flixel.util._FlxSignal.FlxSignal4","dispatch4",0x92a0977f,"flixel.util._FlxSignal.FlxSignal4.dispatch4","flixel/util/FlxSignal.hx",288,0x3c758c5e)
 namespace flixel{
 namespace util{
 namespace _FlxSignal{
 
 void FlxSignal4_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_024ec818dae5a948_265_new)
-HXLINE( 266)		super::__construct();
-HXLINE( 267)		this->dispatch = this->dispatch4_dyn();
+            	HX_STACKFRAME(&_hx_pos_024ec818dae5a948_260_new)
+HXLINE( 261)		super::__construct();
+HXLINE( 262)		this->dispatch = this->dispatch4_dyn();
             	}
 
 Dynamic FlxSignal4_obj::__CreateEmpty() { return new FlxSignal4_obj; }
@@ -49,44 +49,32 @@ bool FlxSignal4_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxSignal4_obj::dispatch4( ::Dynamic value1, ::Dynamic value2, ::Dynamic value3, ::Dynamic value4){
-            	HX_STACKFRAME(&_hx_pos_024ec818dae5a948_293_dispatch4)
-HXLINE( 294)		this->processingListeners = true;
-HXLINE( 295)		{
-HXLINE( 295)			int _g = 0;
-HXDLIN( 295)			::Array< ::Dynamic> _g1 = this->handlers;
-HXDLIN( 295)			while((_g < _g1->length)){
-HXLINE( 295)				 ::flixel::util::_FlxSignal::FlxSignalHandler handler = _g1->__get(_g).StaticCast<  ::flixel::util::_FlxSignal::FlxSignalHandler >();
-HXDLIN( 295)				_g = (_g + 1);
-HXLINE( 297)				handler->listener(value1,value2,value3,value4);
-HXLINE( 299)				if (handler->dispatchOnce) {
-HXLINE( 300)					if (this->processingListeners) {
-HXLINE( 300)						this->pendingRemove->push(handler);
-            					}
-            					else {
-HXLINE( 300)						this->handlers->remove(handler);
-HXDLIN( 300)						handler->destroy();
-            					}
+            	HX_STACKFRAME(&_hx_pos_024ec818dae5a948_288_dispatch4)
+HXLINE( 289)		this->processingListeners = true;
+HXLINE( 290)		{
+HXLINE( 290)			int _g = 0;
+HXDLIN( 290)			::Array< ::Dynamic> _g1 = this->handlers;
+HXDLIN( 290)			while((_g < _g1->length)){
+HXLINE( 290)				 ::flixel::util::_FlxSignal::FlxSignalHandler handler = _g1->__get(_g).StaticCast<  ::flixel::util::_FlxSignal::FlxSignalHandler >();
+HXDLIN( 290)				_g = (_g + 1);
+HXLINE( 292)				handler->listener(value1,value2,value3,value4);
+HXLINE( 294)				if (handler->dispatchOnce) {
+HXLINE( 295)					this->remove(handler->listener);
             				}
             			}
             		}
-HXLINE( 303)		this->processingListeners = false;
-HXLINE( 305)		{
-HXLINE( 305)			int _g2 = 0;
-HXDLIN( 305)			::Array< ::Dynamic> _g3 = this->pendingRemove;
-HXDLIN( 305)			while((_g2 < _g3->length)){
-HXLINE( 305)				 ::flixel::util::_FlxSignal::FlxSignalHandler handler1 = _g3->__get(_g2).StaticCast<  ::flixel::util::_FlxSignal::FlxSignalHandler >();
-HXDLIN( 305)				_g2 = (_g2 + 1);
-HXLINE( 307)				if (this->processingListeners) {
-HXLINE( 307)					this->pendingRemove->push(handler1);
-            				}
-            				else {
-HXLINE( 307)					this->handlers->remove(handler1);
-HXDLIN( 307)					handler1->destroy();
-            				}
+HXLINE( 298)		this->processingListeners = false;
+HXLINE( 300)		{
+HXLINE( 300)			int _g2 = 0;
+HXDLIN( 300)			::Array< ::Dynamic> _g3 = this->pendingRemove;
+HXDLIN( 300)			while((_g2 < _g3->length)){
+HXLINE( 300)				 ::flixel::util::_FlxSignal::FlxSignalHandler handler1 = _g3->__get(_g2).StaticCast<  ::flixel::util::_FlxSignal::FlxSignalHandler >();
+HXDLIN( 300)				_g2 = (_g2 + 1);
+HXLINE( 302)				this->remove(handler1->listener);
             			}
             		}
-HXLINE( 309)		if ((this->pendingRemove->length > 0)) {
-HXLINE( 310)			this->pendingRemove = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 304)		if ((this->pendingRemove->length > 0)) {
+HXLINE( 305)			this->pendingRemove = ::Array_obj< ::Dynamic>::__new(0);
             		}
             	}
 

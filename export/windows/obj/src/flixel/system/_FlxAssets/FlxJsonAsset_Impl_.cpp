@@ -14,9 +14,9 @@
 #include <openfl/utils/Assets.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_1a8263561f5674e9_92_getData,"flixel.system._FlxAssets.FlxJsonAsset_Impl_","getData",0x4df94853,"flixel.system._FlxAssets.FlxJsonAsset_Impl_.getData","flixel/system/FlxAssets.hx",92,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_1a8263561f5674e9_107_fromPath,"flixel.system._FlxAssets.FlxJsonAsset_Impl_","fromPath",0x5fe4965c,"flixel.system._FlxAssets.FlxJsonAsset_Impl_.fromPath","flixel/system/FlxAssets.hx",107,0xd3ac1356)
-HX_LOCAL_STACK_FRAME(_hx_pos_1a8263561f5674e9_112_fromDataString,"flixel.system._FlxAssets.FlxJsonAsset_Impl_","fromDataString",0x07608292,"flixel.system._FlxAssets.FlxJsonAsset_Impl_.fromDataString","flixel/system/FlxAssets.hx",112,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_1a8263561f5674e9_79_getData,"flixel.system._FlxAssets.FlxJsonAsset_Impl_","getData",0x4df94853,"flixel.system._FlxAssets.FlxJsonAsset_Impl_.getData","flixel/system/FlxAssets.hx",79,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_1a8263561f5674e9_94_fromPath,"flixel.system._FlxAssets.FlxJsonAsset_Impl_","fromPath",0x5fe4965c,"flixel.system._FlxAssets.FlxJsonAsset_Impl_.fromPath","flixel/system/FlxAssets.hx",94,0xd3ac1356)
+HX_LOCAL_STACK_FRAME(_hx_pos_1a8263561f5674e9_99_fromDataString,"flixel.system._FlxAssets.FlxJsonAsset_Impl_","fromDataString",0x07608292,"flixel.system._FlxAssets.FlxJsonAsset_Impl_.fromDataString","flixel/system/FlxAssets.hx",99,0xd3ac1356)
 namespace flixel{
 namespace _hx_system{
 namespace _FlxAssets{
@@ -39,31 +39,31 @@ bool FlxJsonAsset_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic FlxJsonAsset_Impl__obj::getData( ::Dynamic this1){
-            	HX_GC_STACKFRAME(&_hx_pos_1a8263561f5674e9_92_getData)
-HXLINE(  93)		if (::Std_obj::isOfType(this1,::hx::ClassOf< ::String >())) {
-HXLINE(  95)			::String str = ( (::String)(this1) );
-HXLINE(  96)			if (::openfl::utils::Assets_obj::exists(str,null())) {
-HXLINE(  97)				return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,::openfl::utils::Assets_obj::getText(str))->doParse();
+            	HX_GC_STACKFRAME(&_hx_pos_1a8263561f5674e9_79_getData)
+HXLINE(  80)		if (::Std_obj::isOfType(this1,::hx::ClassOf< ::String >())) {
+HXLINE(  82)			::String str = ( (::String)(this1) );
+HXLINE(  83)			if (::openfl::utils::Assets_obj::exists(str,null())) {
+HXLINE(  84)				return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,::openfl::utils::Assets_obj::getText(str))->doParse();
             			}
-HXLINE(  99)			return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,str)->doParse();
+HXLINE(  86)			return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,str)->doParse();
             		}
-HXLINE( 102)		return this1;
+HXLINE(  89)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxJsonAsset_Impl__obj,getData,return )
 
  ::Dynamic FlxJsonAsset_Impl__obj::fromPath(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_1a8263561f5674e9_107_fromPath)
-HXDLIN( 107)		return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,::openfl::utils::Assets_obj::getText(path))->doParse();
+            	HX_GC_STACKFRAME(&_hx_pos_1a8263561f5674e9_94_fromPath)
+HXDLIN(  94)		return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,::openfl::utils::Assets_obj::getText(path))->doParse();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxJsonAsset_Impl__obj,fromPath,return )
 
  ::Dynamic FlxJsonAsset_Impl__obj::fromDataString(::String data){
-            	HX_GC_STACKFRAME(&_hx_pos_1a8263561f5674e9_112_fromDataString)
-HXDLIN( 112)		return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,data)->doParse();
+            	HX_GC_STACKFRAME(&_hx_pos_1a8263561f5674e9_99_fromDataString)
+HXDLIN(  99)		return  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,data)->doParse();
             	}
 
 

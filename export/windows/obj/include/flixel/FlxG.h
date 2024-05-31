@@ -144,11 +144,8 @@ class HXCPP_CLASS_ATTRIBUTES FlxG_obj : public ::hx::Object
 		static void resetGame();
 		static ::Dynamic resetGame_dyn();
 
-		static void switchState( ::Dynamic nextState);
+		static void switchState( ::flixel::FlxState nextState);
 		static ::Dynamic switchState_dyn();
-
-		static bool canSwitchTo( ::flixel::FlxState nextState);
-		static ::Dynamic canSwitchTo_dyn();
 
 		static void resetState();
 		static ::Dynamic resetState_dyn();

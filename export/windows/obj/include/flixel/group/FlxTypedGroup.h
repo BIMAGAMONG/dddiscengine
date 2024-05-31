@@ -58,9 +58,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxTypedGroup_obj : public  ::flixel::FlxBasic_obj
 		static  ::flixel::group::FlxTypedGroup resolveGroup( ::flixel::FlxBasic basic);
 		static ::Dynamic resolveGroup_dyn();
 
-		static  ::flixel::group::FlxTypedGroup resolveSelectionGroup( ::flixel::FlxBasic basic);
-		static ::Dynamic resolveSelectionGroup_dyn();
-
 		::cpp::VirtualArray members;
 		int maxSize;
 		int length;

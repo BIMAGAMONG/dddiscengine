@@ -39,13 +39,13 @@ class HXCPP_CLASS_ATTRIBUTES FlxGame_obj : public  ::openfl::display::Sprite_obj
 	public:
 		enum { _hx_ClassId = 0x43384a08 };
 
-		void __construct(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight, ::Dynamic initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen);
+		void __construct(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight,::hx::Class initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="flixel.FlxGame")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"flixel.FlxGame"); }
-		static ::hx::ObjectPtr< FlxGame_obj > __new(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight, ::Dynamic initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen);
-		static ::hx::ObjectPtr< FlxGame_obj > __alloc(::hx::Ctx *_hx_ctx,::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight, ::Dynamic initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen);
+		static ::hx::ObjectPtr< FlxGame_obj > __new(::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight,::hx::Class initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen);
+		static ::hx::ObjectPtr< FlxGame_obj > __alloc(::hx::Ctx *_hx_ctx,::hx::Null< int >  __o_gameWidth,::hx::Null< int >  __o_gameHeight,::hx::Class initialState,::hx::Null< int >  __o_updateFramerate,::hx::Null< int >  __o_drawFramerate,::hx::Null< bool >  __o_skipSplash,::hx::Null< bool >  __o_startFullscreen);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);
@@ -67,7 +67,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxGame_obj : public  ::openfl::display::Sprite_obj
 		int ticks;
 		bool filtersEnabled;
 		bool _gameJustStarted;
-		 ::Dynamic _initialState;
+		::hx::Class _initialState;
 		 ::flixel::FlxState _state;
 		int _total;
 		int _startTime;
@@ -84,7 +84,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxGame_obj : public  ::openfl::display::Sprite_obj
 		::hx::Class _customFocusLostScreen;
 		bool _skipSplash;
 		bool _startFullscreen;
-		 ::Dynamic _nextState;
+		 ::flixel::FlxState _requestedState;
 		bool _resetGame;
 		void setFilters(::Array< ::Dynamic> filters);
 		::Dynamic setFilters_dyn();
