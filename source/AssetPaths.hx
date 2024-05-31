@@ -17,7 +17,17 @@ class AssetPaths
         return 'assets/$file';
     }
 
-    // loading the spritesheets
+    inline static public function getUISpritesheet(key:String)
+    {
+        return FlxAtlasFrames.fromSparrow('assets/images/ui/$key.png', 'assets/images/ui/$key.xml');
+    }
+
+    inline static public function getUIasset(key:String)
+    {
+        return getPath('images/ui/$key.png');
+    }
+
+    // loading the spritesheets (character and bgs)
 	inline static public function getSpritesheet(key:String)
     {
         return FlxAtlasFrames.fromSparrow('assets/images/characters/$key.png', 'assets/images/characters/$key.xml');

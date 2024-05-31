@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="textBoxes.png">
-<SubTexture name="s0000" x="0" y="0" width="816" height="146" frameX="0" frameY="0" frameWidth="816" frameHeight="146" />
-<SubTexture name="m0000" x="0" y="146" width="816" height="146" frameX="0" frameY="0" frameWidth="816" frameHeight="146" />
-<SubTexture name="n0000" x="0" y="292" width="816" height="146" frameX="0" frameY="0" frameWidth="816" frameHeight="146" />
-<SubTexture name="y0000" x="0" y="438" width="816" height="146" frameX="0" frameY="0" frameWidth="816" frameHeight="146" />
-</TextureAtlas>
