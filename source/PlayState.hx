@@ -11,26 +11,27 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.addons.text.FlxTypeText;
+import sys.FileSystem;
+import flixel.FlxSubState;
 
 import chapter.*;
 
 class PlayState extends FlxState
 {
-    var curChapter:Int = 1;
-	var curLine:Int = 0;
-
-	var end:Bool = false;
+	public static var curLine:Int = 0;
+	public static var curChapter:Int = 1;
 
 	// background
-	var bg:DokiBG;
+	public static var bg:DokiBG;
 
 	// each character is defined here
-	var monika:DokiChr;
-	var missingchartest:DokiChr;
+	public static var monika:DokiChr;
 
 	// dialogue stuff
-	var text:FlxTypeText;
-	var textBox:FlxSprite;
+	public static var text:FlxTypeText;
+	public static var textBox:FlxSprite;
+
+	var end:Bool = false;
 
 	override public function create()
 	{
@@ -44,41 +45,42 @@ class PlayState extends FlxState
 		monika.screenCenter();
 		add(monika);
 
-		missingchartest = new DokiChr(600, -70, "lol", false);
-		missingchartest.scale.set(0.8, 0.8);
-		add(missingchartest);
-
-		textBox = new FlxSprite().loadGraphic(AssetPaths.getUIasset("text" + chapter.ChapterOne.script[curLine][0]));
+		textBox = new FlxSprite().loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0)));
 		textBox.setGraphicSize(Std.int(textBox.width * 1.3));
 		textBox.screenCenter();
 		textBox.y += 250;
+		textBox.alpha = 0;
 		add(textBox);
 
-		text = new FlxTypeText(240, 500, Std.int(textBox.width), chapter.ChapterOne.script[curLine][1], 32);
-		text.setFormat("assets/fonts/RifficFree-Bold.ttf", FlxColor.WHITE, LEFT, OUTLINE, FlxColor.BLACK);
+		text = new FlxTypeText(125, 530, Std.int(FlxG.width * 0.8), AssetPaths.chapterDialogue(0, 1), 28, true);
+		text.font = "assets/fonts/RifficFree-Bold.ttf";
+		text.color = FlxColor.WHITE;
+		text.alignment = LEFT;
+		text.borderStyle = OUTLINE;
+		text.borderSize = 2;
+		text.alpha = 0;
 		text.start(0.03, true);
 		add(text);
+
+		new FlxTimer().start(1, function(timer:FlxTimer)
+		{
+			FlxTween.tween(textBox, {alpha: 1}, 0.5);
+			FlxTween.tween(text, {alpha: 1}, 0.5);
+		});
 		
 		super.create();
 	}
 
 	override public function update(elapsed:Float)
 	{
-
 		if ((FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE) && end == false) {
-			if (chapter.ChapterOne.script[curLine][1] == "end" && chapter.ChapterOne.script[curLine][0] == "end") {
-				end = true;
-				FlxG.switchState(new MenuState());
-			}
-			else {
-				text.resetText(chapter.ChapterOne.script[curLine][1]);
-				text.start(0.03);
-			}
-			
-			newLine();
+            newLine();
 		}
 		
-		if (FlxG.keys.justPressed.BACKSPACE && end == false) {MenuState.doIntro = false; FlxG.switchState(new MenuState());}
+		if (FlxG.keys.justPressed.BACKSPACE && end == false) {
+			MenuState.doIntro = false;
+			FlxG.switchState(new MenuState());
+		}
 
 		super.update(elapsed);
 	}
@@ -87,11 +89,27 @@ class PlayState extends FlxState
 	{
 		curLine += 1;
 
-		remove(textBox);
-		textBox.loadGraphic(AssetPaths.getUIasset("text" + chapter.ChapterOne.script[0][0]));
-		textBox.setGraphicSize(Std.int(textBox.width * 1.2));
-		textBox.screenCenter();
-		textBox.y += 250;
-		add(textBox);
+		text.resetText(AssetPaths.chapterDialogue(curLine, 1));
+		text.start(0.03);
+
+		if (AssetPaths.chapterDialogue(curLine, 0) == " " && AssetPaths.chapterDialogue(curLine, 1) == " ") {
+			end = true;
+			FlxTween.tween(textBox, {alpha: 0}, 0.5);
+			FlxTween.tween(text, {alpha: 0}, 0.5);
+
+			new FlxTimer().start(1, function(timer:FlxTimer)
+			{
+				FlxG.switchState(new MenuState());
+			});
+		}
+		else {
+			if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0))))
+			{
+				textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0)));
+			}
+			else {
+				textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
+			}
+		}
 	}
 }
