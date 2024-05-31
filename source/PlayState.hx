@@ -36,7 +36,7 @@ class PlayState extends FlxState
 	override public function create()
 	{
 		// the default bg
-		bg = new DokiBG('school', true);
+		bg = new DokiBG('school', false);
 		add(bg);
 
 	    // x position, y position, name of the character you want to load 
@@ -45,14 +45,14 @@ class PlayState extends FlxState
 		monika.screenCenter();
 		add(monika);
 
-		textBox = new FlxSprite().loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0)));
+		textBox = new FlxSprite().loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter)));
 		textBox.setGraphicSize(Std.int(textBox.width * 1.3));
 		textBox.screenCenter();
 		textBox.y += 250;
 		textBox.alpha = 0;
 		add(textBox);
 
-		text = new FlxTypeText(125, 530, Std.int(FlxG.width * 0.8), AssetPaths.chapterDialogue(0, 1), 28, true);
+		text = new FlxTypeText(125, 530, Std.int(FlxG.width * 0.8), AssetPaths.chapterDialogue(0, 1, curChapter), 28, true);
 		text.font = "assets/fonts/RifficFree-Bold.ttf";
 		text.color = FlxColor.WHITE;
 		text.alignment = LEFT;
@@ -75,6 +75,7 @@ class PlayState extends FlxState
 	{
 		if ((FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE) && end == false) {
             newLine();
+			checkLine();
 		}
 		
 		if (FlxG.keys.justPressed.BACKSPACE && end == false) {
@@ -89,10 +90,10 @@ class PlayState extends FlxState
 	{
 		curLine += 1;
 
-		text.resetText(AssetPaths.chapterDialogue(curLine, 1));
+		text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 		text.start(0.03);
 
-		if (AssetPaths.chapterDialogue(curLine, 0) == " " && AssetPaths.chapterDialogue(curLine, 1) == " ") {
+		if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ") {
 			end = true;
 			FlxTween.tween(textBox, {alpha: 0}, 0.5);
 			FlxTween.tween(text, {alpha: 0}, 0.5);
@@ -103,12 +104,27 @@ class PlayState extends FlxState
 			});
 		}
 		else {
-			if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0))))
+			if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter))))
 			{
-				textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0)));
+				textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter)));
 			}
 			else {
 				textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
+			}
+		}
+	}
+
+	public function checkLine()
+	{
+		// in charge of bg changes, also used to change expressions
+		if (curChapter == 1)
+		{
+			switch (curLine)
+		    {
+				case 8:
+					remove(bg);
+					bg = new DokiBG('schoolglitch', true);
+					add(bg);
 			}
 		}
 	}

@@ -76,12 +76,14 @@ class AssetPaths
         return getPath('music/$key.ogg');
     }
 
-    static public function chapterDialogue(lineNumber:Int, dialogueNumber:Int)
+    static public function chapterDialogue(lineNumber:Int, dialogueNumber:Int, chapterNo:Int)
     {
-        switch (PlayState.curChapter)
+        switch (chapterNo)
         {
             case 1:
                 return chapter.ChapterOne.script[lineNumber][dialogueNumber];
+            default:
+                return "Null";
         }            
     }
 }
