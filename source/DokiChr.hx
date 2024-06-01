@@ -33,8 +33,11 @@ class DokiChr extends FlxSprite
 				frames = texture;
 	
 				animation.addByPrefix("happy", "idle", 24, false);
+				animation.addByPrefix("sad", "joysad", 24, false);
 	
 				createOffset("happy");
+				createOffset("sad");
+				
 				curAnimation("happy");
 			default:
 				loadGraphic(AssetPaths.getStaticCharacter("char_missing"));

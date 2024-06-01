@@ -78,7 +78,7 @@ class MenuState extends FlxState
 
 		splashMessage = new FlxText(100, 330, 0, "");
 		splashMessage.setFormat("assets/fonts/RifficFree-Bold.ttf", FlxColor.WHITE, CENTER, OUTLINE, FlxColor.BLACK);
-		splashMessage.size = 25;
+		splashMessage.size = 27;
 		splashMessage.alpha = 0;
 		splashMessage.text = splashTextArray[number];
 

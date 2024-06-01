@@ -20,6 +20,7 @@ import chapter.*;
 // This state is in charge of everything going on with the BGs and Characters.
 // From backgrounds to Character emotions to transitions.
 // See function checkLine() to see how stuff works
+// RIP PERFORMANCE????
 class PlayState extends FlxState
 {
 	// bg and characters are defined here
@@ -46,7 +47,7 @@ class PlayState extends FlxState
 		add(bg);
 		
 		// x position, y position, name of the character you want to load, then whether the character is animated or not
-		monika = new DokiChr(288, -112, "monika", true);
+		monika = new DokiChr(100, -112, "monika", true);
 		monika.scale.set(0.8, 0.8);
 		monika.screenCenter();
 		add(monika);
@@ -58,7 +59,7 @@ class PlayState extends FlxState
         textBox.alpha = 0;
         add(textBox);
     
-        text = new FlxTypeText(125, 530, Std.int(FlxG.width * 0.8), AssetPaths.chapterDialogue(0, 1, curChapter), 28, true);
+        text = new FlxTypeText(130, 530, Std.int(FlxG.width * 0.8), AssetPaths.chapterDialogue(0, 1, curChapter), 28, true);
         text.font = "assets/fonts/RifficFree-Bold.ttf";
         text.color = FlxColor.WHITE;
         text.alignment = LEFT;
@@ -88,12 +89,6 @@ class PlayState extends FlxState
 				checkLine();
 			}
 		}	
-        else
-		{
-			MenuState.doIntro = true;
-			FlxG.switchState(new MenuState());
-		}
-
 		super.update(elapsed);
 	}
 
@@ -103,6 +98,14 @@ class PlayState extends FlxState
 		
 		text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 		text.start(0.03);
+
+		if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter))))
+		{
+			textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter)));
+		}
+		else {
+			textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
+		}
 		
 		if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ") {
 			end = true;
@@ -114,15 +117,6 @@ class PlayState extends FlxState
 				FlxG.switchState(new MenuState());
 			});
 		}
-		else {
-			if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter))))
-			{
-				textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter)));
-			}
-			else {
-				textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
-			}
-		}
 	}
 
 	public function checkLine()
@@ -131,7 +125,11 @@ class PlayState extends FlxState
 		{
 			switch (curLine)
 			{
-				case 8:
+				case 1:
+					monika.curAnimation("sad");
+				case 2:
+					monika.curAnimation("happy");
+				case 3:
 					remove(bg);
 					remove(monika);
 					bg = new DokiBG('schoolglitch', true);
