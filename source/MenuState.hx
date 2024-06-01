@@ -38,21 +38,21 @@ class MenuState extends FlxState
 	public var logoSplash:FlxSprite;
 
 	// the spinning thingy behind the options and the logo
-	public var speen:FlxSprite;
+	public static var speen:FlxSprite;
 
 	// scrolling circles yay
 	public var circles:FlxBackdrop;
 
 	// the logo of the engine :3
-	public var logo:FlxSprite;
+	public static var logo:FlxSprite;
 
 	// for the main menu selection
 	public var curSelected:Int = 0;
-	public var menuOptions:FlxText;
+	public static var menuOptions:FlxText;
 
 	// ARROWS
-	public var uparrow:FlxSprite;
-	public var downarrow:FlxSprite;
+	public static var uparrow:FlxSprite;
+	public static var downarrow:FlxSprite;
 
 	public static var introFinished:Bool = false;
 
@@ -68,8 +68,8 @@ class MenuState extends FlxState
 	
 	override public function create()
 	{
-		FlxG.mouse.visible = true;
 		persistentUpdate = true;
+		FlxG.mouse.visible = true;
 
 		var number:Int = FlxG.random.int(0, 2);
 
@@ -147,15 +147,15 @@ class MenuState extends FlxState
 
 	override public function update(elapsed:Float)
 	{
-		speen.screenCenter(Y);
-		speen.angle += elapsed * 15;
-
 		circles.velocity.x = 10;
 		circles.velocity.y = 25;
 
 		menuOptions.text = optionsArray[curSelected];
 
 		if (introFinished) {
+			speen.screenCenter(Y);
+			speen.angle += elapsed * 15;
+
 		    if (FlxG.keys.justPressed.UP || FlxG.mouse.wheel > 0) {curSelected -= 1;}
 
 		    if (FlxG.keys.justPressed.DOWN || FlxG.mouse.wheel < 0) {curSelected += 1;}
@@ -169,9 +169,11 @@ class MenuState extends FlxState
 				switch(menuOptions.text)
 				{
 					case 'Start':
-						triggerTransition("start");
+						ChapterSelect.typeOfShiz = "start";
+						transition();
 					case 'Side Stories':
-						triggerTransition("side-stories");
+						ChapterSelect.typeOfShiz = "side-stories";
+						transition();
 					case 'Gallery':
 						trace("SIDE STORIES");
 					case 'Settings':
@@ -247,13 +249,43 @@ class MenuState extends FlxState
 		});
 	}
 
-	public function triggerTransition(type:String)
+	public function transition()
 	{
-		/*PlayState.end = false;
-		PlayState.curChapter = 1;
-		FlxG.switchState(new PlayState());*/
-
 		introFinished = false;
-		openSubState(new ChapterSelect(type));
+		FlxTween.tween(speen, {x: FlxG.width / 2 - speen.width / 2, y: FlxG.height / 2 - speen.height / 2}, 2, {ease: FlxEase.circOut, onComplete:
+			function(twn:FlxTween)
+			{
+				FlxTween.tween(speen, {"scale.x": 1.6, "scale.y": 1.6}, 2, {ease: FlxEase.circOut});
+			}
+		});
+
+		FlxTween.tween(menuOptions, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
+		FlxTween.tween(logo, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
+		FlxTween.tween(uparrow, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
+		FlxTween.tween(downarrow, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
+
+		new FlxTimer().start(4, function(timer:FlxTimer)
+		{
+			openSubState(new ChapterSelect());
+		});
+	}
+
+	public static function undoTrans()
+	{
+		FlxTween.tween(speen, {x: -600, y: -100}, 2, {ease: FlxEase.circOut, onComplete:
+			function(twn:FlxTween)
+			{
+				FlxTween.tween(speen, {"scale.x": 0.9, "scale.y": 0.9}, 2, {ease: FlxEase.circOut});
+			}
+		});
+
+		new FlxTimer().start(2, function(timer:FlxTimer)
+		{
+			FlxTween.tween(menuOptions, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
+			FlxTween.tween(logo, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
+			FlxTween.tween(uparrow, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
+			FlxTween.tween(downarrow, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
+			introFinished = true;
+		});
 	}
 }
