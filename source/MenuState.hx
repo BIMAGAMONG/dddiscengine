@@ -157,6 +157,7 @@ class MenuState extends FlxState
 				switch(menuOptions.text)
 				{
 					case 'Start':
+						PlayState.end = false;
 						FlxG.switchState(new PlayState());
 					case 'Side Stories':
 						trace("SIDE STORIES");
@@ -165,7 +166,6 @@ class MenuState extends FlxState
 					case 'Credits':
 						trace("CREDITS");
 					case 'Quit':
-						trace("QUIT GAME");
 						System.exit(0);
 				}
 			}

@@ -83,7 +83,7 @@ class AssetPaths
             case 1:
                 return chapter.ChapterOne.script[lineNumber][dialogueNumber];
             default:
-                return "Null";
+                return "null";
         }            
     }
 }

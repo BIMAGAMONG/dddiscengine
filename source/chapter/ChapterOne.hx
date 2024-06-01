@@ -11,7 +11,7 @@ class ChapterOne
         ["m", "This engine is a big work in progress, this is a showcase of the stuff done so far."], // Line 5
         ["m", "In case you haven't noticed...."], // Line 6
         ["m", "Look at my beatuiful eyes, I'm finally blinking!"], // Line 7
-        ["m", "Oopsie! I messed up the background....."], // Line 8
+        ["s", "Oopsie! I messed up everything....."], // Line 8
         ["m", "Oh well, I need to pass this to the main coder."], // Line 9
         ["m", "That's all I have to show you."], // Line 10
         ["m", "See you later!"], // Line 11
