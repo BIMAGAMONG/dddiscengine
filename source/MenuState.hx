@@ -1,6 +1,5 @@
 package;
 
-import flash.system.System;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
@@ -8,14 +7,15 @@ import flixel.FlxState;
 import flixel.addons.display.FlxBackdrop;
 import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
-import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import lime.app.Application;
 import sys.FileSystem;
+import flixel.FlxSubState;
+import flash.system.System;
+import ChapterSelect;
 
 import flixel.addons.transition.FlxTransitionSprite.GraphicTransTileDiamond;
 import flixel.addons.transition.FlxTransitionableState;
@@ -26,10 +26,13 @@ import flixel.math.FlxRect;
 
 class MenuState extends FlxState
 {	
-	// WARNING: I SUCK AT CODING DON'T SCREAM AT ME ALRIGHT :(
+	// WARNING: IM DECENT AT CODING PLS DON'T SCREAM AT ME ALRIGHT :(
 
 	// this defines the splash messgae itself
 	var splashMessage:FlxText;
+
+	// warning screen (required by ip guidelines, do not remove)
+	public var warning:FlxSprite;
 
 	// this is the splash logo after you boot the game up
 	public var logoSplash:FlxSprite;
@@ -51,11 +54,9 @@ class MenuState extends FlxState
 	public var uparrow:FlxSprite;
 	public var downarrow:FlxSprite;
 
-	public static var initialized:Bool = false;
+	public static var introFinished:Bool = false;
 
-	var introFinished:Bool = false;
-
-	public var optionsArray:Array<String> = ['Start', 'Side Stories', 'Settings', 'Credits', 'Quit'];
+	public var optionsArray:Array<String> = ['Start', 'Side Stories', 'Gallery', 'Settings', 'Credits', 'Quit'];
 
 	public var splashTextArray:Array<String> = [
 		'Monika is not watching you code, thank me for your security.',
@@ -68,13 +69,14 @@ class MenuState extends FlxState
 	override public function create()
 	{
 		FlxG.mouse.visible = true;
-
-		if (FlxG.sound.music == null)
-		{
-			FlxG.sound.playMusic(AssetPaths.music("mainmenu"));
-		}
+		persistentUpdate = true;
 
 		var number:Int = FlxG.random.int(0, 2);
+
+		warning = new FlxSprite(FlxG.width / 2, FlxG.height / 2).loadGraphic(AssetPaths.menuAsset('main_menu/warning'));
+		warning.setGraphicSize(Std.int(warning.width * 0.9));
+		warning.alpha = 0;
+		warning.screenCenter();
 
 		splashMessage = new FlxText(100, 330, 0, "");
 		splashMessage.setFormat("assets/fonts/RifficFree-Bold.ttf", FlxColor.WHITE, CENTER, OUTLINE, FlxColor.BLACK);
@@ -122,11 +124,21 @@ class MenuState extends FlxState
 		add(downarrow);
 		add(splashMessage);
 		add(logoSplash);
+		add(warning);
 
 		super.create();
 
 		if (doIntro == true) {
-			startIntro();
+			FlxTween.tween(warning, {alpha: 1}, 3);
+			new FlxTimer().start(10, function(timer:FlxTimer)
+				{
+					remove(warning);
+					if (FlxG.sound.music == null)
+					{
+						FlxG.sound.playMusic(AssetPaths.music("mainmenu"));
+					}
+					startIntro();
+				});
 		}
 		else {
 			initiateMainMenu();
@@ -157,9 +169,10 @@ class MenuState extends FlxState
 				switch(menuOptions.text)
 				{
 					case 'Start':
-						PlayState.end = false;
-						FlxG.switchState(new PlayState());
+						triggerTransition("start");
 					case 'Side Stories':
+						triggerTransition("side-stories");
+					case 'Gallery':
 						trace("SIDE STORIES");
 					case 'Settings':
 						trace("OPTIONS");
@@ -174,7 +187,7 @@ class MenuState extends FlxState
 		    {
 			    case 0:
 				    uparrow.alpha = 0;
-			    case 4:
+			    case 5:
 				    downarrow.alpha = 0;
 				default:
 					uparrow.alpha = 1;
@@ -203,7 +216,6 @@ class MenuState extends FlxState
 			FlxTween.tween(logoSplash, {alpha: 0}, 1);
 		});
 
-		// then it fades out, when complete, the splash text fades in
 		new FlxTimer().start(3, function(timer:FlxTimer)
 		{
 			FlxTween.tween(splashMessage, {alpha: 1}, 1);
@@ -233,5 +245,15 @@ class MenuState extends FlxState
 			FlxTween.tween(uparrow, {x: -200, y: 200}, 4, {ease: FlxEase.circOut});
 			FlxTween.tween(downarrow, {x: -200, y: 260}, 4, {ease: FlxEase.circOut});
 		});
+	}
+
+	public function triggerTransition(type:String)
+	{
+		/*PlayState.end = false;
+		PlayState.curChapter = 1;
+		FlxG.switchState(new PlayState());*/
+
+		introFinished = false;
+		openSubState(new ChapterSelect(type));
 	}
 }

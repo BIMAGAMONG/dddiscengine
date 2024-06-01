@@ -33,7 +33,7 @@ class PlayState extends FlxState
 
 	// dialogue stuff
 	var curLine:Int = 0;
-	var curChapter:Int = 1;
+	public static var curChapter:Int = 1;
 
 	var text:FlxTypeText;
 	var textBox:FlxSprite;
