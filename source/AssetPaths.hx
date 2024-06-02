@@ -7,6 +7,18 @@ import flixel.graphics.frames.FlxAtlasFrames;
 
 class AssetPaths
 {
+    // add your chapter here!!!
+    static public function chapterDialogue(lineNumber:Int, dialogueNumber:Int, chapterNo:Int)
+    {
+        switch (chapterNo)
+        {
+            case 1:
+                return chapter.ChapterOne.script[lineNumber][dialogueNumber];
+            default:
+                return "null";
+        }            
+    }
+
     static function getPath(file:String)
     {        
         return getStuffFromPath(file);
@@ -17,17 +29,41 @@ class AssetPaths
         return 'assets/$file';
     }
 
-    inline static public function getUISpritesheet(key:String)
+    // loading general things
+    inline static public function getGeneralSpritesheet(key:String)
     {
-        return FlxAtlasFrames.fromSparrow('assets/images/ui/$key.png', 'assets/images/ui/$key.xml');
+        return FlxAtlasFrames.fromSparrow('assets/images/$key.png', 'assets/images/$key.xml');
     }
 
+    inline static public function image(key:String)
+    {
+        return getPath('images/$key.png');
+    }
+
+    // when you want to load an asset for a menu (animated)
+    inline static public function getMenusSpritesheet(key:String)
+    {
+        return FlxAtlasFrames.fromSparrow('assets/images/menus/$key.png', 'assets/images/menus/$key.xml');
+    }
+
+        // when you want to load an asset for a menu (normal)
+    inline static public function menuAsset(key:String)
+    {
+        return 'assets/images/menus/$key.png';
+    }
+
+    // these ones is for PlayState if you want to load a non-bg/character image    
     inline static public function getUIasset(key:String)
     {
         return getPath('images/ui/$key.png');
     }
 
-    // loading the spritesheets (character and bgs)
+    inline static public function getUISpritesheet(key:String)
+    {
+         return FlxAtlasFrames.fromSparrow('assets/images/ui/$key.png', 'assets/images/ui/$key.xml');
+    }
+        
+    // loading animated characters/backgrounds
 	inline static public function getSpritesheet(key:String)
     {
         return FlxAtlasFrames.fromSparrow('assets/images/characters/$key.png', 'assets/images/characters/$key.xml');
@@ -38,7 +74,7 @@ class AssetPaths
          return FlxAtlasFrames.fromSparrow('assets/images/bg/$key.png', 'assets/images/bg/$key.xml');
     }
 
-    // loading a background
+    // loading normal BGs and Characters
     inline static public function dokiBG(key:String)
 	{
 		return getPath('images/bg/$key.png');
@@ -49,18 +85,7 @@ class AssetPaths
         return getPath('images/characters/$key.png');
     }
 
-    // loading a general image
-    inline static public function image(key:String)
-    {
-        return getPath('images/$key.png');
-    }
-
-    // loading an image from the 'menus' directory
-    inline static public function menuAsset(key:String)
-    {
-        return 'assets/images/menus/$key.png';
-    }
-
+    // self explanatory
     inline static public function sounds(key:String)
     {
         return getPath('sounds/$key.ogg');
@@ -69,16 +94,5 @@ class AssetPaths
     inline static public function music(key:String)
     {
         return getPath('music/$key.ogg');
-    }
-
-    static public function chapterDialogue(lineNumber:Int, dialogueNumber:Int, chapterNo:Int)
-    {
-        switch (chapterNo)
-        {
-            case 1:
-                return chapter.ChapterOne.script[lineNumber][dialogueNumber];
-            default:
-                return "null";
-        }            
     }
 }
