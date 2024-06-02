@@ -151,7 +151,6 @@ class MenuState extends FlxState
 				FlxG.save.flush();
 				new FlxTimer().start(7, function(timer:FlxTimer)
 					{
-						remove(warning);
 						if (FlxG.sound.music == null)
 						{
 							FlxG.sound.playMusic(AssetPaths.music("mainmenu"));
@@ -232,6 +231,7 @@ class MenuState extends FlxState
 
 	public function startIntro()
 	{
+		remove(warning);
 		circles.alpha = 1;
 
 		// the logo fades in
