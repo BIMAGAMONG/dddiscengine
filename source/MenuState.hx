@@ -298,7 +298,10 @@ class MenuState extends FlxState
 		FlxTween.tween(menuOptions, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
 		FlxTween.tween(logo, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
 		FlxTween.tween(uparrow, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
-		FlxTween.tween(downarrow, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
-		introFinished = true;
+		FlxTween.tween(downarrow, {alpha: 1}, 0.2, {ease: FlxEase.circOut, onComplete: function(twn:FlxTween)
+			{
+				introFinished = true;
+			}
+		});
 	}
 }
