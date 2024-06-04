@@ -131,6 +131,18 @@ class ChapterSelect extends FlxSubState
                 close();
             });
         }
+
+        if (FlxG.keys.justPressed.ENTER) {
+            if (typeOfShiz == 'start')
+            {
+                PlayState.curChapter = chapterInfo[curSelected][3];
+            }
+            else {
+                PlayState.curChapter = sideStoriesInfo[curSelected][3];
+            }
+            
+            FlxG.switchState(new PlayState());
+        }
     
         super.update(elapsed);
     }

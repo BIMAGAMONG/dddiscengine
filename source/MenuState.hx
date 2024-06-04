@@ -188,6 +188,8 @@ class MenuState extends FlxState
 
 			if (FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed && FlxG.mouse.overlaps(menuOptions))
 			{
+				introFinished = false;
+				
 				switch(menuOptions.text)
 				{
 					case 'Start':

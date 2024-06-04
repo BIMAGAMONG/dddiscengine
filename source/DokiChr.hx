@@ -5,6 +5,8 @@ import flixel.FlxSprite;
 import flixel.animation.FlxBaseAnimation;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.system.FlxAssets;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 
 // wanted to make the process of adding a character the same as FNF
 // i used the code from FNF as a reference so uh this is pretty much the same as Character.hx
@@ -44,6 +46,56 @@ class DokiChr extends FlxSprite
 		}
 	}
 
+	public function moveTo(xPos:Float, yPos:Float, ?time:Float)
+	{
+		if (time == null)
+		{
+			time = 1;
+		}
+
+        FlxTween.tween(this, {x: xPos, y: yPos}, time);
+	}
+
+	public function moveX(xPos:Float, ?time:Float)
+	{
+		if (time == null)
+		{
+			time = 1;
+		}
+	
+		FlxTween.tween(this, {x: xPos}, time);
+	}
+
+	public function moveY(yPos:Float, ?time:Float)
+	{
+		if (time == null)
+		{
+			time = 1;
+		}
+		
+		FlxTween.tween(this, {x: yPos}, time);
+	}
+
+	public function opacity(opacity:Float, ?time:Float)
+	{
+		if (time == null)
+		{
+			time = 1;
+		}
+
+		FlxTween.tween(this, {alpha: opacity}, time);
+	}
+
+	public function rotate(toAngle:Float, ?time:Float)
+	{
+		if (time == null)
+		{
+			time = 1;
+		}
+
+		FlxTween.angle(this, this.angle, toAngle, time);
+	}
+	
 	public function curAnimation(Name:String):Void
 	{
 		if (hasanims) {

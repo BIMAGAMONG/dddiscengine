@@ -11,4 +11,15 @@ class ChapterOne
         ["s", "I am not Sayori!"], // Line 5
         [" ", " "] // ALWAYS HAVE THIS ARRAY EXACTLY LIKE IT IS HERE! THIS TELLS THE GAME THAT THIS IS THE END OF THE CHAPTER!
     ];
+
+    public static function checkLine()
+    {
+        // in charge of character stuff only
+        // it's best to do transitions and BG related things in PlayState.
+        switch (PlayState.curLine)
+        {
+            case 1:
+                PlayState.monika.rotate(180);
+        }
+    }
 }

@@ -26,13 +26,13 @@ class PlayState extends FlxState
 	// bg and characters are defined here
     var bg:DokiBG;
 
-    var monika:DokiChr;
-	var yuri:DokiChr;
-	var sayori:DokiChr;
-	var natsuki:DokiChr;
+    public static var monika:DokiChr;
+	public static var yuri:DokiChr;
+	public static var sayori:DokiChr;
+	public static var natsuki:DokiChr;
 
 	// dialogue stuff
-	var curLine:Int = 0;
+	public static var curLine:Int = 0;
 	public static var curChapter:Int = 1;
 
 	var text:FlxTypeText;
@@ -86,7 +86,7 @@ class PlayState extends FlxState
 
 			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE) {
 				newLine();
-				checkLine();
+				AssetPaths.chapterCheck(curChapter);
 			}
 		}	
 		super.update(elapsed);
@@ -121,24 +121,15 @@ class PlayState extends FlxState
 
 	public function checkLine()
 	{
-		if (curChapter == 1)
+		// BGs related things and shiz
+		// stuff related to characters can be done here, but i prefer you do
+		// character emotions and stuff in your chapter files.
+		switch (curLine)
 		{
-			switch (curLine)
-			{
-				case 1:
-					monika.curAnimation("sad");
-				case 2:
-					monika.curAnimation("happy");
-				case 3:
-					remove(bg);
-					remove(monika);
-					bg = new DokiBG('schoolglitch', true);
-					monika = new DokiChr(288, -112, "lol", false);
-					monika.scale.set(0.8, 0.8);
-					monika.screenCenter();
-					add(bg);
-					add(monika);
-			}
+			case 2:
+				remove(bg);
+				bg = new DokiBG('schoolglitch', true);
+				add(bg);
 		}
 	}
 }
