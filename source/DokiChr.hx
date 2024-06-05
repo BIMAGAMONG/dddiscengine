@@ -73,7 +73,7 @@ class DokiChr extends FlxSprite
 			time = 1;
 		}
 		
-		FlxTween.tween(this, {x: yPos}, time);
+		FlxTween.tween(this, {y: yPos}, time);
 	}
 
 	public function opacity(opacity:Float, ?time:Float)
@@ -95,7 +95,7 @@ class DokiChr extends FlxSprite
 
 		FlxTween.angle(this, this.angle, toAngle, time);
 	}
-	
+
 	public function curAnimation(Name:String):Void
 	{
 		if (hasanims) {

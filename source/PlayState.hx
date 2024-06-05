@@ -86,6 +86,7 @@ class PlayState extends FlxState
 
 			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE) {
 				newLine();
+				checkLine();
 				AssetPaths.chapterCheck(curChapter);
 			}
 		}	
