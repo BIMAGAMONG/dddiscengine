@@ -23,8 +23,9 @@ import chapter.*;
 // RIP PERFORMANCE????
 class PlayState extends FlxState
 {
-	// bg and characters are defined here
+	// bg and cg and characters are defined here
     var bg:DokiBG;
+	var cg:DokiBG;
 
     public static var monika:DokiChr;
 	public static var yuri:DokiChr;
@@ -43,8 +44,13 @@ class PlayState extends FlxState
 	override public function create()
 	{
 		// the default bg
-		bg = new DokiBG('school', false);
+		bg = new DokiBG('school');
 		add(bg);
+
+        // CGs woah!!!
+		cg = new DokiBG('school');
+		cg.alpha = 0;
+		add(cg);
 		
 		// x position, y position, name of the character you want to load, then whether the character is animated or not
 		monika = new DokiChr(100, -112, "monika", true);
@@ -86,7 +92,6 @@ class PlayState extends FlxState
 
 			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE) {
 				newLine();
-				checkLine();
 				AssetPaths.chapterCheck(curChapter);
 			}
 		}	
@@ -97,40 +102,129 @@ class PlayState extends FlxState
 	{
 		curLine += 1;
 		
-		text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
-		text.start(0.03);
-
-		if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter))))
+		if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ") {
+			endGame();
+		}
+		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "bgChange")
 		{
-			textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter)));
+			changeBG(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+		}
+		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "transition")
+		{
+			transition(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+		}
+		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "playsound")
+		{
+			startSound(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 		}
 		else {
-			textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
-		}
-		
-		if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ") {
-			end = true;
-			FlxTween.tween(textBox, {alpha: 0}, 0.5);
-			FlxTween.tween(text, {alpha: 0}, 0.5);
-		
-			new FlxTimer().start(1, function(timer:FlxTimer)
+			text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+			text.start(0.03);
+	
+			if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter))))
 			{
-				FlxG.switchState(new MenuState());
-			});
+				textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter)));
+			}
+			else {
+				textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
+			}	
 		}
 	}
 
-	public function checkLine()
+	public function changeBG(bgName:String)
 	{
-		// BGs related things and shiz
-		// stuff related to characters can be done here, but i prefer you do
-		// character emotions and stuff in your chapter files.
-		switch (curLine)
-		{
-			case 2:
-				remove(bg);
-				bg = new DokiBG('schoolglitch', true);
-				add(bg);
+		remove(bg);
+		bg = new DokiBG(bgName);
+		add(bg);
+		newLine();
+	}
+
+	public function startSound(name:String)
+	{
+		FlxG.sound.play(AssetPaths.sounds(name));
+		newLine();
+	}
+	
+	public function transition(type:String)
+	{
+		FlxTween.tween(text, {alpha: 0}, 0.5);
+		FlxTween.tween(textBox, {alpha: 0}, 0.5);
+
+        if (type == "wipeleft" || type == "wiperight")
+	    {
+            var blackWipe:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.getUIasset("wipe"));
+			blackWipe.screenCenter();
+			blackWipe.scale.set(1.3, 1);
+			add(blackWipe);
+
+			if (type == "wipeleft")
+			{
+				blackWipe.x -= 1500;
+				FlxTween.tween(blackWipe, {x: blackWipe.x + 3000}, 2, {onComplete: function(twn:FlxTween){
+					remove(blackWipe);
+					FlxTween.tween(text, {alpha: 1}, 0.5);
+					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+				}});
+			}
+			else {
+				blackWipe.x += 1500;
+				FlxTween.tween(blackWipe, {x: blackWipe.x - 3000}, 2, {onComplete: function(twn:FlxTween){
+					remove(blackWipe);
+					FlxTween.tween(text, {alpha: 1}, 0.5);
+					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+				}});	
+			}
 		}
+		else if (type == "wipeup" || type == "wipedown")
+		{
+			var blackWipe:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.getUIasset("wipe"));
+			blackWipe.screenCenter();
+			blackWipe.scale.set(1, 2);
+			blackWipe.angle -= 90;
+			add(blackWipe);
+
+			if (type == "wipeup")
+			{
+				blackWipe.y -= 900;
+				FlxTween.tween(blackWipe, {y: blackWipe.y + 1800}, 2, {onComplete: function(twn:FlxTween){
+					remove(blackWipe);
+					FlxTween.tween(text, {alpha: 1}, 0.5);
+					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+				}});
+			}
+			else {
+				blackWipe.x += 900;
+				FlxTween.tween(blackWipe, {y: blackWipe.y - 1800}, 2, {onComplete: function(twn:FlxTween){
+					remove(blackWipe);
+					FlxTween.tween(text, {alpha: 1}, 0.5);
+					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+				}});	
+			}
+		}
+
+		new FlxTimer().start(1, function(timer:FlxTimer)
+		{
+			newLine();
+		});
+	}
+
+	public function endGame()
+	{
+		end = true;
+		FlxTween.tween(textBox, {alpha: 0}, 0.5);
+		FlxTween.tween(text, {alpha: 0}, 0.5);
+
+		var endGraphic:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.getUIasset("endGraphic"));
+		endGraphic.screenCenter();
+		endGraphic.alpha = 0;
+		add(endGraphic);
+		FlxTween.tween(endGraphic, {alpha: 1}, 1);
+
+		new FlxTimer().start(3, function(timer:FlxTimer)
+		{
+			curChapter = 0;
+			curLine = 0;
+			FlxG.switchState(new MenuState());
+		});
 	}
 }

@@ -11,20 +11,20 @@ class DokiBG extends FlxSprite
 {
     var dokiBGNAME:String = "";
     var bgtex:FlxAtlasFrames;
-    var hasanims:Bool;
+    var hasanims:Bool = false;
     public var desiredAnimation:String = "";
 
-	public function new(name:String, isAnimated:Bool)
+	public function new(name:String)
 	{
 		super();
         dokiBGNAME = name;
-        hasanims = isAnimated;
 
         // only up to one animation
         switch (dokiBGNAME) {
             case 'school':
                 loadGraphic(AssetPaths.dokiBG(dokiBGNAME));
             case 'schoolglitch':
+                hasanims = true;
                 bgtex = AssetPaths.getBGSpritesheet(dokiBGNAME);
                 frames = bgtex;
                 animation.addByPrefix("schoolglitch", "schoolglitch", 16, false);

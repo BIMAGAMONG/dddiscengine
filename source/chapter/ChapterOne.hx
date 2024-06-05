@@ -2,20 +2,21 @@ package chapter;
 
 class ChapterOne
 {
-    public static var script:Array<Array<String>> = [
+    public static var script:Array<Array<Dynamic>> = [
         ["m", "Hello chat!"], // Line 0
-        ["m", "I'm sad now."], // Line 1
-        ["m", "I'm happy again."], // Line 2
-        ["m", "I messsed everything up now, not again!"], // Line 3
-        ["s", "Why did the dialogue box change?"], // Line 4
-        ["s", "I am not Sayori!"], // Line 5
+        ["m", "WOOOHOOOOOOOOO!!!!111"], // Line 1
+        ["m", "chat im upside down"], // Line 2
+        ["transition", "wipeup"], // Line 3
+        ["bgChange", "schoolglitch"], // Line 4
+        ["m", "woah a transition and a background change!!!"], // Line 5
+        ["m", "chat yall are not ready for this"], // Line 6
+        ["m", "bye chat"], // Line 7
         [" ", " "] // ALWAYS HAVE THIS ARRAY EXACTLY LIKE IT IS HERE! THIS TELLS THE GAME THAT THIS IS THE END OF THE CHAPTER!
     ];
 
     public static function checkLine()
     {
-        // in charge of character stuff only
-        // it's best to do transitions and BG related things in PlayState.
+        // this is only for character stuffs
         switch (PlayState.curLine)
         {
             case 1:
