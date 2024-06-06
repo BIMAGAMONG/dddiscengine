@@ -56,6 +56,7 @@ class PlayState extends FlxState
 		monika = new DokiChr(100, -112, "monika", true);
 		monika.scale.set(0.8, 0.8);
 		monika.screenCenter();
+		monika.alpha = 0;
 		add(monika);
 
 		textBox = new FlxSprite().loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter)));
@@ -94,6 +95,15 @@ class PlayState extends FlxState
 				newLine();
 				AssetPaths.chapterCheck(curChapter);
 			}
+
+			if (FlxG.keys.pressed.Z) {
+				textBox.alpha = 0;
+				text.alpha = 0;
+			}
+			else if (!FlxG.keys.pressed.Z) {
+				textBox.alpha = 1;
+				text.alpha = 1;
+			}
 		}	
 		super.update(elapsed);
 	}
@@ -105,7 +115,7 @@ class PlayState extends FlxState
 		if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ") {
 			endGame();
 		}
-		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "bgChange")
+		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "bgchange")
 		{
 			changeBG(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 		}
@@ -116,6 +126,10 @@ class PlayState extends FlxState
 		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "playsound")
 		{
 			startSound(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+		}
+		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "playmusic")
+		{
+			startMusic(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 		}
 		else {
 			text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
@@ -142,6 +156,12 @@ class PlayState extends FlxState
 	public function startSound(name:String)
 	{
 		FlxG.sound.play(AssetPaths.sounds(name));
+		newLine();
+	}
+
+	public function startMusic(name:String)
+	{
+		FlxG.sound.playMusic(AssetPaths.sounds(name));
 		newLine();
 	}
 	
@@ -193,7 +213,7 @@ class PlayState extends FlxState
 				}});
 			}
 			else {
-				blackWipe.x += 900;
+				blackWipe.y += 900;
 				FlxTween.tween(blackWipe, {y: blackWipe.y - 1800}, 2, {onComplete: function(twn:FlxTween){
 					remove(blackWipe);
 					FlxTween.tween(text, {alpha: 1}, 0.5);

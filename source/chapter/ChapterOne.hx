@@ -6,8 +6,8 @@ class ChapterOne
         ["m", "Hello chat!"], // Line 0
         ["m", "WOOOHOOOOOOOOO!!!!111"], // Line 1
         ["m", "chat im upside down"], // Line 2
-        ["transition", "wipeup"], // Line 3
-        ["bgChange", "schoolglitch"], // Line 4
+        ["transition", "wipedown"], // Line 3
+        ["bgchange", "schoolglitch"], // Line 4
         ["m", "woah a transition and a background change!!!"], // Line 5
         ["m", "chat yall are not ready for this"], // Line 6
         ["m", "bye chat"], // Line 7
@@ -16,9 +16,11 @@ class ChapterOne
 
     public static function checkLine()
     {
-        // this is only for character stuffs
+        // this is only for character emotions and other stuff related to characters
         switch (PlayState.curLine)
         {
+            case 0:
+                PlayState.monika.moveTo(100, 100);
             case 1:
                 PlayState.monika.rotate(180);
         }
