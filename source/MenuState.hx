@@ -258,6 +258,7 @@ class MenuState extends FlxState
 
 	public function initiateMainMenu()
 	{
+		circles.alpha = 1;
 		new FlxTimer().start(1, function(timer:FlxTimer)
 		{
 			remove(logoSplash);
@@ -288,7 +289,7 @@ class MenuState extends FlxState
 		FlxTween.tween(uparrow, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
 		FlxTween.tween(downarrow, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
 
-		new FlxTimer().start(4, function(timer:FlxTimer)
+		new FlxTimer().start(1, function(timer:FlxTimer)
 		{
 			openSubState(new ChapterSelect());
 		});

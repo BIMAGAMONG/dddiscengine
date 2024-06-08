@@ -17,15 +17,12 @@ import flixel.group.FlxGroup;
 
 import chapter.*;
 
-// This state is in charge of everything going on with the BGs and Characters.
-// From backgrounds to Character emotions to transitions.
-// See function checkLine() to see how stuff works
-// RIP PERFORMANCE????
+// this is in charge of the dialogue, to some extent - characters and backgrounds
+// PlayState.hx works together with your chapter file
 class PlayState extends FlxState
 {
-	// bg and cg and characters are defined here
+	// bg and cg
     var bg:DokiBG;
-	var cg:DokiBG;
 
     public static var monika:DokiChr;
 	public static var yuri:DokiChr;
@@ -43,14 +40,9 @@ class PlayState extends FlxState
 
 	override public function create()
 	{
-		// the default bg
+		// cgs and bgs in one
 		bg = new DokiBG('school');
 		add(bg);
-
-        // CGs woah!!!
-		cg = new DokiBG('school');
-		cg.alpha = 0;
-		add(cg);
 		
 		// x position, y position, name of the character you want to load, then whether the character is animated or not
 		monika = new DokiChr(100, -112, "monika", true);
@@ -78,6 +70,8 @@ class PlayState extends FlxState
     
         FlxTween.tween(textBox, {alpha: 1}, 0.5);
         FlxTween.tween(text, {alpha: 1}, 0.5);
+
+		AssetPaths.chapterCheck(curChapter);
 		
 		super.create();
 	}
@@ -86,7 +80,7 @@ class PlayState extends FlxState
 	{	
 		if (end == false)
 		{
-			if (FlxG.keys.justPressed.BACKSPACE) {
+			if (FlxG.keys.justPressed.BACKSPACE || FlxG.keys.justPressed.ESCAPE) {
 				MenuState.doIntro = false;
 				FlxG.switchState(new MenuState());
 			}
@@ -141,7 +135,7 @@ class PlayState extends FlxState
 			}
 			else {
 				textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
-			}	
+			}
 		}
 	}
 
@@ -233,6 +227,7 @@ class PlayState extends FlxState
 		end = true;
 		FlxTween.tween(textBox, {alpha: 0}, 0.5);
 		FlxTween.tween(text, {alpha: 0}, 0.5);
+		MenuState.doIntro = true;
 
 		var endGraphic:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.getUIasset("endGraphic"));
 		endGraphic.screenCenter();

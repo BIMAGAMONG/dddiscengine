@@ -20,9 +20,11 @@ class ChapterOne
         switch (PlayState.curLine)
         {
             case 0:
-                PlayState.monika.moveTo(100, 100);
-            case 1:
+                PlayState.monika.entranceType("swipeFromL");
+            case 2:
                 PlayState.monika.rotate(180);
+            case 4:
+                PlayState.monika.moveTo(100, 100);
         }
     }
 }

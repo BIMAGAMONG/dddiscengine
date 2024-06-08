@@ -5,6 +5,8 @@ import flixel.FlxG;
 import flixel.animation.FlxBaseAnimation;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.system.FlxAssets;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 
 // works exactly the same way as adding a character lol.
 class DokiBG extends FlxSprite
