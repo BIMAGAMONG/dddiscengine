@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Untitled-2.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="say0000" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0001" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0002" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0003" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0004" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0005" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0006" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0007" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0008" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0009" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0010" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0011" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0012" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0013" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0014" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0015" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0016" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0017" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0018" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0019" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0020" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0021" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0022" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0023" x="960" y="0" width="960" height="960"/>
+	<SubTexture name="say0024" x="960" y="0" width="960" height="960"/>
+	<SubTexture name="say0025" x="0" y="960" width="960" height="960"/>
+	<SubTexture name="say0026" x="0" y="960" width="960" height="960"/>
+	<SubTexture name="say0027" x="960" y="0" width="960" height="960"/>
+	<SubTexture name="say0028" x="960" y="0" width="960" height="960"/>
+	<SubTexture name="say0029" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0030" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0031" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0032" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0033" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0034" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0035" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0036" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0037" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0038" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0039" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0040" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0041" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0042" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0043" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0044" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0045" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0046" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0047" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0048" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0049" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0050" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0051" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0052" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0053" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0054" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0055" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0056" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0057" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0058" x="0" y="0" width="960" height="960"/>
+	<SubTexture name="say0059" x="0" y="0" width="960" height="960"/>
+</TextureAtlas>

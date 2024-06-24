@@ -16,7 +16,7 @@ class ChapterOne
 
     public static function checkLine()
     {
-        // this is only for character emotions and other stuff related to characters
+        // this is only for character stuff
         switch (PlayState.curLine)
         {
             case 0:

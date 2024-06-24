@@ -106,36 +106,34 @@ class PlayState extends FlxState
 	{
 		curLine += 1;
 		
-		if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ") {
-			endGame();
-		}
-		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "bgchange")
+		switch (AssetPaths.chapterDialogue(curLine, 0, curChapter))
 		{
-			changeBG(AssetPaths.chapterDialogue(curLine, 1, curChapter));
-		}
-		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "transition")
-		{
-			transition(AssetPaths.chapterDialogue(curLine, 1, curChapter));
-		}
-		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "playsound")
-		{
-			startSound(AssetPaths.chapterDialogue(curLine, 1, curChapter));
-		}
-		else if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == "playmusic")
-		{
-			startMusic(AssetPaths.chapterDialogue(curLine, 1, curChapter));
-		}
-		else {
-			text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
-			text.start(0.03);
-	
-			if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter))))
-			{
-				textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter)));
-			}
-			else {
-				textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
-			}
+            case 'bgchange':
+				changeBG(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+			case 'transition':
+				transition(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+			case 'playsound':
+				startSound(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+			case 'playmusic':
+				startMusic(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+			default:
+				if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ")
+				{
+					endGame();
+				}
+				else 
+				{
+					text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+					text.start(0.03);
+			
+					if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter))))
+					{
+						textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter)));
+					}
+					else {
+						textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
+					}
+				}
 		}
 	}
 

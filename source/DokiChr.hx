@@ -122,6 +122,32 @@ class DokiChr extends FlxSprite
 		}
 	}
 
+	public function exitType(type:String, ?time:Float)
+	{
+		if (time == null)
+		{
+			time = 0.5;
+		}
+	
+		FlxTween.tween(this, {alpha: 1}, time);
+	
+		switch (type)
+		{
+			case "swipeToL":
+				x -= 100;
+				FlxTween.tween(this, {x: x + 100}, time);
+			case "swipeToR":
+				x += 100;
+				FlxTween.tween(this, {x: x - 100}, time);
+			case "swipeToU":
+				y -= 100;
+				FlxTween.tween(this, {y: y + 100}, time);
+			case "swipeToD":
+				y += 100;
+				FlxTween.tween(this, {x: y - 100}, time);
+		}
+	}
+
 	public function curAnimation(Name:String):Void
 	{
 		if (hasanims) {
