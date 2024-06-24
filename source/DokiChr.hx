@@ -41,6 +41,16 @@ class DokiChr extends FlxSprite
 				createOffset("sad");
 				
 				curAnimation("happy");
+
+			case "sayori":
+				texture = AssetPaths.getSpritesheet("sayori_assets");
+				frames = texture;
+	
+				animation.addByPrefix("happy", "say", 24, false);
+	
+				createOffset("happy");
+				
+				curAnimation("happy");
 			default:
 				loadGraphic(AssetPaths.getStaticCharacter("char_missing"));
 		}
@@ -129,21 +139,17 @@ class DokiChr extends FlxSprite
 			time = 0.5;
 		}
 	
-		FlxTween.tween(this, {alpha: 1}, time);
+		FlxTween.tween(this, {alpha: 0}, time);
 	
 		switch (type)
 		{
 			case "swipeToL":
-				x -= 100;
 				FlxTween.tween(this, {x: x + 100}, time);
 			case "swipeToR":
-				x += 100;
 				FlxTween.tween(this, {x: x - 100}, time);
 			case "swipeToU":
-				y -= 100;
 				FlxTween.tween(this, {y: y + 100}, time);
 			case "swipeToD":
-				y += 100;
 				FlxTween.tween(this, {x: y - 100}, time);
 		}
 	}

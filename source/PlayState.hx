@@ -40,6 +40,8 @@ class PlayState extends FlxState
 
 	override public function create()
 	{
+		curLine = 0;
+
 		// cgs and bgs in one
 		bg = new DokiBG('school');
 		add(bg);
@@ -49,14 +51,17 @@ class PlayState extends FlxState
 		monika.scale.set(0.8, 0.8);
 		monika.screenCenter();
 		monika.alpha = 0;
-		add(monika);
+
+		sayori = new DokiChr(100, -112, "sayori", true);
+		sayori.scale.set(1, 1);
+		sayori.screenCenter();
+		sayori.alpha = 0;
 
 		textBox = new FlxSprite().loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter)));
         textBox.setGraphicSize(Std.int(textBox.width * 1.3));
         textBox.screenCenter();
         textBox.y += 250;
         textBox.alpha = 0;
-        add(textBox);
     
         text = new FlxTypeText(130, 530, Std.int(FlxG.width * 0.8), AssetPaths.chapterDialogue(0, 1, curChapter), 28, true);
         text.font = "assets/fonts/RifficFree-Bold.ttf";
@@ -66,9 +71,29 @@ class PlayState extends FlxState
         text.borderSize = 2;
         text.alpha = 0;
         text.start(0.03, true);
-        add(text);
-    
-        FlxTween.tween(textBox, {alpha: 1}, 0.5);
+
+		/* This is used for the multiple purposes, eg. adding only the characters that appear in a chapter.
+		*  Monika's Introduction has just Monika in it, so there is absolutely no point in adding the rest of the dokis.
+		*  OR maybe to start with a different background, OR make a character play a specific animation at the start.
+		*  (there's a lot of possibilities)!
+		* 
+		*  P E R F O R M A N C E
+		*/
+		switch (curChapter)
+		{
+			case 1:
+				monika.entranceType("swipeFromL");
+				add(monika);
+			case 2:
+				changeBG("schoolglitch", false);
+				sayori.entranceType("swipeFromD");
+				add(sayori);
+		}
+
+		add(textBox);
+		add(text);
+
+		FlxTween.tween(textBox, {alpha: 1}, 0.5);
         FlxTween.tween(text, {alpha: 1}, 0.5);
 
 		AssetPaths.chapterCheck(curChapter);
@@ -103,7 +128,7 @@ class PlayState extends FlxState
 	}
 
     public function newLine()
-	{
+	{	
 		curLine += 1;
 		
 		switch (AssetPaths.chapterDialogue(curLine, 0, curChapter))
@@ -137,24 +162,33 @@ class PlayState extends FlxState
 		}
 	}
 
-	public function changeBG(bgName:String)
+	public function changeBG(bgName:String, ?isFromStart:Bool)
 	{
 		remove(bg);
 		bg = new DokiBG(bgName);
 		add(bg);
-		newLine();
+		if (isFromStart)
+		{
+			newLine();
+		}
 	}
 
-	public function startSound(name:String)
+	public function startSound(name:String, ?isFromStart:Bool)
 	{
 		FlxG.sound.play(AssetPaths.sounds(name));
-		newLine();
+		if (isFromStart)
+		{
+			newLine();
+		}
 	}
 
-	public function startMusic(name:String)
+	public function startMusic(name:String, ?isFromStart:Bool)
 	{
 		FlxG.sound.playMusic(AssetPaths.sounds(name));
-		newLine();
+	    if (isFromStart)
+		{
+			newLine();
+		}
 	}
 	
 	public function transition(type:String)

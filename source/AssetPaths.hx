@@ -14,6 +14,8 @@ class AssetPaths
         {
             case 1:
                 return chapter.ChapterOne.script[lineNumber][dialogueNumber];
+            case 2:
+                return chapter.ChapterTwo.script[lineNumber][dialogueNumber];
             default:
                 return "null";
         }            
@@ -26,6 +28,8 @@ class AssetPaths
         {
             case 1:
                 return chapter.ChapterOne.checkLine();
+            case 2:
+                return chapter.ChapterTwo.checkLine();
         }     
     }
 
