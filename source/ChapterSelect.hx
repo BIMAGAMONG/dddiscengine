@@ -133,7 +133,6 @@ class ChapterSelect extends FlxSubState
         }
 
         if ((FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed) && stopSpamming == false) {
-            PlayState.end = false;
             if (typeOfShiz == 'start')
             {
                 PlayState.curChapter = chapterInfo[curSelected][3];

@@ -21,18 +21,6 @@ class AssetPaths
         }            
     }
 
-    // add your chapter here too!!!
-    static public function chapterCheck(chapterNo:Int)
-    {
-        switch (chapterNo)
-        {
-            case 1:
-                return chapter.ChapterOne.checkLine();
-            case 2:
-                return chapter.ChapterTwo.checkLine();
-        }     
-    }
-
     static function getPath(file:String)
     {        
         return getStuffFromPath(file);

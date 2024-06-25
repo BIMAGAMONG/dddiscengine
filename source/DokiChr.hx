@@ -19,6 +19,7 @@ class DokiChr extends FlxSprite
 	public var offsetone:Map<String, Array<Dynamic>>;
 	public var desiredAnimation:String = "";
 	public var hasanims:Bool;
+	public var identifier:String = "";
 
 	public function new(x:Float, y:Float, chr:String, isAnimated:Bool)
 	{
@@ -33,6 +34,7 @@ class DokiChr extends FlxSprite
 			case "monika":
 				texture = AssetPaths.getSpritesheet("monika");
 				frames = texture;
+				identifier = "m";
 	
 				animation.addByPrefix("happy", "idle", 24, false);
 				animation.addByPrefix("sad", "joysad", 24, false);
@@ -45,6 +47,7 @@ class DokiChr extends FlxSprite
 			case "sayori":
 				texture = AssetPaths.getSpritesheet("sayori_assets");
 				frames = texture;
+				identifier = "s";
 	
 				animation.addByPrefix("happy", "say", 24, false);
 	
@@ -58,56 +61,82 @@ class DokiChr extends FlxSprite
 
 	public function moveTo(xPos:Float, yPos:Float, ?time:Float)
 	{
+		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 
-        FlxTween.tween(this, {x: xPos, y: yPos}, time);
+        FlxTween.tween(this, {x: xPos, y: yPos}, time, {onComplete: function (twn:FlxTween)
+			{
+				PlayState.block = false;
+			}
+		});
 	}
 
 	public function moveX(xPos:Float, ?time:Float)
 	{
+		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 	
-		FlxTween.tween(this, {x: xPos}, time);
+		FlxTween.tween(this, {x: xPos}, time, {onComplete: function (twn:FlxTween)
+			{
+				PlayState.block = false;
+			}
+		});
 	}
 
 	public function moveY(yPos:Float, ?time:Float)
 	{
+		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 		
-		FlxTween.tween(this, {y: yPos}, time);
+		FlxTween.tween(this, {y: yPos}, time, {onComplete: function (twn:FlxTween)
+			{
+				PlayState.block = false;
+			}
+		});
 	}
 
 	public function opacity(opacity:Float, ?time:Float)
 	{
+		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 
-		FlxTween.tween(this, {alpha: opacity}, time);
+		FlxTween.tween(this, {alpha: opacity}, time, {onComplete: function (twn:FlxTween)
+			{
+				PlayState.block = false;
+			}
+		});
 	}
 
 	public function rotate(toAngle:Float, ?time:Float)
 	{
+		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 
-		FlxTween.angle(this, this.angle, toAngle, time);
+		FlxTween.angle(this, this.angle, toAngle, time, {onComplete: function (twn:FlxTween)
+			{
+				PlayState.block = false;
+			}
+		});
 	}
 
 	public function entranceType(type:String, ?time:Float)
 	{
+		PlayState.block = true;
 		if (time == null)
 		{
 			time = 0.5;
@@ -119,21 +148,38 @@ class DokiChr extends FlxSprite
 		{
 			case "swipeFromL":
 				x -= 100;
-				FlxTween.tween(this, {x: x + 100}, time);
+				FlxTween.tween(this, {x: x + 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 			case "swipeFromR":
 				x += 100;
-				FlxTween.tween(this, {x: x - 100}, time);
+				FlxTween.tween(this, {x: x - 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 			case "swipeFromU":
 				y -= 100;
-				FlxTween.tween(this, {y: y + 100}, time);
+				FlxTween.tween(this, {y: y + 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 			case "swipeFromD":
 				y += 100;
-				FlxTween.tween(this, {x: y - 100}, time);
+				FlxTween.tween(this, {x: y - 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 		}
 	}
 
 	public function exitType(type:String, ?time:Float)
 	{
+		PlayState.block = true;
 		if (time == null)
 		{
 			time = 0.5;
@@ -144,13 +190,29 @@ class DokiChr extends FlxSprite
 		switch (type)
 		{
 			case "swipeToL":
-				FlxTween.tween(this, {x: x + 100}, time);
+				FlxTween.tween(this, {x: x + 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 			case "swipeToR":
-				FlxTween.tween(this, {x: x - 100}, time);
+				FlxTween.tween(this, {x: x - 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 			case "swipeToU":
-				FlxTween.tween(this, {y: y + 100}, time);
+				FlxTween.tween(this, {y: y + 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 			case "swipeToD":
-				FlxTween.tween(this, {x: y - 100}, time);
+				FlxTween.tween(this, {x: y - 100}, time, {onComplete: function (twn:FlxTween)
+					{
+						PlayState.block = false;
+					}
+				});
 		}
 	}
 

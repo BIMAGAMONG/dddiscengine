@@ -13,7 +13,7 @@ import flixel.util.FlxTimer;
 import flixel.addons.text.FlxTypeText;
 import sys.FileSystem;
 import flixel.FlxSubState;
-import flixel.group.FlxGroup;
+import flixel.group.FlxGroup.FlxTypedGroup;
 
 import chapter.*;
 
@@ -24,6 +24,7 @@ class PlayState extends FlxState
 	// bg and cg
     var bg:DokiBG;
 
+	public var charGroup:FlxTypedGroup<DokiChr> = new FlxTypedGroup<DokiChr>();
     public static var monika:DokiChr;
 	public static var yuri:DokiChr;
 	public static var sayori:DokiChr;
@@ -37,10 +38,12 @@ class PlayState extends FlxState
 	var textBox:FlxSprite;
 
 	public static var end:Bool = false;
+	public static var block:Bool = false;
 
 	override public function create()
 	{
 		curLine = 0;
+		end = false;
 
 		// cgs and bgs in one
 		bg = new DokiBG('school');
@@ -51,11 +54,13 @@ class PlayState extends FlxState
 		monika.scale.set(0.8, 0.8);
 		monika.screenCenter();
 		monika.alpha = 0;
+		monika.identifier = "m";
 
-		sayori = new DokiChr(100, -112, "sayori", true);
-		sayori.scale.set(1, 1);
+		sayori = new DokiChr(100, 0, "sayori", true);
+		sayori.scale.set(0.8, 0.8);
 		sayori.screenCenter();
 		sayori.alpha = 0;
+		sayori.identifier = "s";
 
 		textBox = new FlxSprite().loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(0, 0, curChapter)));
         textBox.setGraphicSize(Std.int(textBox.width * 1.3));
@@ -83,36 +88,37 @@ class PlayState extends FlxState
 		{
 			case 1:
 				monika.entranceType("swipeFromL");
-				add(monika);
+				charGroup.add(monika);
 			case 2:
-				changeBG("schoolglitch", false);
+				changeBG("schoolglitch", true);
 				sayori.entranceType("swipeFromD");
-				add(sayori);
+				charGroup.add(sayori);
 		}
 
+		add(charGroup);
 		add(textBox);
 		add(text);
 
 		FlxTween.tween(textBox, {alpha: 1}, 0.5);
         FlxTween.tween(text, {alpha: 1}, 0.5);
-
-		AssetPaths.chapterCheck(curChapter);
 		
 		super.create();
 	}
 
 	override public function update(elapsed:Float)
 	{	
-		if (end == false)
+		if (!end)
 		{
 			if (FlxG.keys.justPressed.BACKSPACE || FlxG.keys.justPressed.ESCAPE) {
 				MenuState.doIntro = false;
 				FlxG.switchState(new MenuState());
 			}
 
-			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE) {
-				newLine();
-				AssetPaths.chapterCheck(curChapter);
+			if (block == false)
+		    {
+				if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE) {
+					newLine();
+				}
 			}
 
 			if (FlxG.keys.pressed.Z) {
@@ -124,40 +130,50 @@ class PlayState extends FlxState
 				text.alpha = 1;
 			}
 		}	
+
 		super.update(elapsed);
 	}
 
     public function newLine()
 	{	
 		curLine += 1;
-		
+
 		switch (AssetPaths.chapterDialogue(curLine, 0, curChapter))
 		{
+			// SHIT FOR CHARACTERS
+			case 'playAnim':
+				charAnim(AssetPaths.chapterDialogue(curLine, 1, curChapter), AssetPaths.chapterDialogue(curLine, 2, curChapter));
+			case 'rotate':
+				charRotate(Std.parseFloat(AssetPaths.chapterDialogue(curLine, 1, curChapter)), Std.parseFloat(AssetPaths.chapterDialogue(curLine, 2, curChapter)), AssetPaths.chapterDialogue(curLine, 3, curChapter));
+			case 'moveOnAxis':
+				charMoveOnAxis(AssetPaths.chapterDialogue(curLine, 1, curChapter), Std.parseFloat(AssetPaths.chapterDialogue(curLine, 2, curChapter)), Std.parseFloat(AssetPaths.chapterDialogue(curLine, 3, curChapter)), AssetPaths.chapterDialogue(curLine, 4, curChapter));
+				newLine();
+			case 'move':
+				charMove(Std.parseFloat(AssetPaths.chapterDialogue(curLine, 1, curChapter)), Std.parseFloat(AssetPaths.chapterDialogue(curLine, 2, curChapter)), Std.parseFloat(AssetPaths.chapterDialogue(curLine, 3, curChapter)), AssetPaths.chapterDialogue(curLine, 4, curChapter));
+
+			// other shit
             case 'bgchange':
 				changeBG(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 			case 'transition':
+				block = true;
 				transition(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 			case 'playsound':
 				startSound(AssetPaths.chapterDialogue(curLine, 1, curChapter));
 			case 'playmusic':
 				startMusic(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+			case 'end':
+				block = true;
+				endGame();
 			default:
-				if (AssetPaths.chapterDialogue(curLine, 0, curChapter) == " " && AssetPaths.chapterDialogue(curLine, 1, curChapter) == " ")
+				text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
+				text.start(0.03);
+		
+				if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter))))
 				{
-					endGame();
+					textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter)));
 				}
-				else 
-				{
-					text.resetText(AssetPaths.chapterDialogue(curLine, 1, curChapter));
-					text.start(0.03);
-			
-					if (sys.FileSystem.exists(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter))))
-					{
-						textBox.loadGraphic(AssetPaths.getUIasset("text" + AssetPaths.chapterDialogue(curLine, 0, curChapter)));
-					}
-					else {
-						textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
-					}
+				else {
+					textBox.loadGraphic(AssetPaths.getUIasset("textnull"));
 				}
 		}
 	}
@@ -167,7 +183,7 @@ class PlayState extends FlxState
 		remove(bg);
 		bg = new DokiBG(bgName);
 		add(bg);
-		if (isFromStart)
+		if (!isFromStart)
 		{
 			newLine();
 		}
@@ -176,7 +192,7 @@ class PlayState extends FlxState
 	public function startSound(name:String, ?isFromStart:Bool)
 	{
 		FlxG.sound.play(AssetPaths.sounds(name));
-		if (isFromStart)
+		if (!isFromStart)
 		{
 			newLine();
 		}
@@ -185,7 +201,7 @@ class PlayState extends FlxState
 	public function startMusic(name:String, ?isFromStart:Bool)
 	{
 		FlxG.sound.playMusic(AssetPaths.sounds(name));
-	    if (isFromStart)
+	    if (!isFromStart)
 		{
 			newLine();
 		}
@@ -210,6 +226,7 @@ class PlayState extends FlxState
 					remove(blackWipe);
 					FlxTween.tween(text, {alpha: 1}, 0.5);
 					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+					block = false;
 				}});
 			}
 			else {
@@ -218,6 +235,7 @@ class PlayState extends FlxState
 					remove(blackWipe);
 					FlxTween.tween(text, {alpha: 1}, 0.5);
 					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+					block = false;
 				}});	
 			}
 		}
@@ -236,6 +254,7 @@ class PlayState extends FlxState
 					remove(blackWipe);
 					FlxTween.tween(text, {alpha: 1}, 0.5);
 					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+					block = false;
 				}});
 			}
 			else {
@@ -244,6 +263,7 @@ class PlayState extends FlxState
 					remove(blackWipe);
 					FlxTween.tween(text, {alpha: 1}, 0.5);
 					FlxTween.tween(textBox, {alpha: 1}, 0.5);
+					block = false;
 				}});	
 			}
 		}
@@ -273,5 +293,57 @@ class PlayState extends FlxState
 			curLine = 0;
 			FlxG.switchState(new MenuState());
 		});
+	}
+
+	public function charAnim(animName:String, character:String)
+	{
+		for (item in charGroup.members)
+		{
+			if (character == item.identifier)
+			{
+				item.curAnimation(animName);
+			}
+		}
+		newLine();
+	}
+
+	public function charRotate(targetAngle:Float, timeTaken:Float, character:String)
+	{
+	    for (item in charGroup.members)
+		{
+			if (character == item.identifier)
+			{
+				item.rotate(targetAngle, timeTaken);
+			}
+		}
+		newLine();
+	}
+
+	public function charMoveOnAxis(axis:String, position:Float, time:Float, character:String)
+	{
+        for (item in charGroup.members)
+		{
+			if (character == item.identifier)
+			{
+				switch (axis)
+				{
+					case "x":
+						item.moveX(position, time);
+					case "y":
+						item.moveY(position, time);
+				}
+			}
+		}
+	}
+
+	public function charMove(positionX:Float, positionY:Float, time:Float, character:String)
+	{
+        for (item in charGroup.members)
+		{
+			if (character == item.identifier)
+			{
+				item.moveTo(positionX, positionY, time);
+			}
+		}
 	}
 }
