@@ -79,14 +79,13 @@ class PlayState extends FlxState
         text.alpha = 0;
         text.start(0.03, true);
 
-		pauseButton = new FlxSprite(1000, -200);
+		pauseButton = new FlxSprite(1170, 5);
 		pauseButton.frames = AssetPaths.getUISpritesheet('pause');
 		pauseButton.scale.set(0.2, 0.2);
 		pauseButton.animation.addByPrefix('idle', 'pause.png', 24, false);
 		pauseButton.animation.addByPrefix('sel', 'pauseSelected.png', 24, false);
 		pauseButton.animation.play('idle');
 		pauseButton.updateHitbox();
-		add(pauseButton);
 
 		/* This is used for the multiple purposes, eg. adding only the characters that appear in a chapter.
 		*  Monika's Introduction has just Monika in it, so there is absolutely no point in adding the rest of the dokis.
@@ -109,6 +108,7 @@ class PlayState extends FlxState
 		add(charGroup);
 		add(textBox);
 		add(text);
+		add(pauseButton);
 
 		FlxTween.tween(textBox, {alpha: 1}, 0.5);
         FlxTween.tween(text, {alpha: 1}, 0.5);
