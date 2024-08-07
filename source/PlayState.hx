@@ -14,6 +14,7 @@ import flixel.addons.text.FlxTypeText;
 import sys.FileSystem;
 import flixel.FlxSubState;
 import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.FlxCamera;
 
 import chapter.*;
 
@@ -36,6 +37,7 @@ class PlayState extends FlxState
 
 	var text:FlxTypeText;
 	var textBox:FlxSprite;
+	var pauseButton:FlxSprite;
 
 	public static var end:Bool = false;
 	public static var block:Bool = false;
@@ -76,6 +78,15 @@ class PlayState extends FlxState
         text.borderSize = 2;
         text.alpha = 0;
         text.start(0.03, true);
+
+		pauseButton = new FlxSprite(1000, -200);
+		pauseButton.frames = AssetPaths.getUISpritesheet('pause');
+		pauseButton.scale.set(0.2, 0.2);
+		pauseButton.animation.addByPrefix('idle', 'pause.png', 24, false);
+		pauseButton.animation.addByPrefix('sel', 'pauseSelected.png', 24, false);
+		pauseButton.animation.play('idle');
+		pauseButton.updateHitbox();
+		add(pauseButton);
 
 		/* This is used for the multiple purposes, eg. adding only the characters that appear in a chapter.
 		*  Monika's Introduction has just Monika in it, so there is absolutely no point in adding the rest of the dokis.
@@ -128,6 +139,15 @@ class PlayState extends FlxState
 			else if (!FlxG.keys.pressed.Z) {
 				textBox.alpha = 1;
 				text.alpha = 1;
+			}
+
+			if (FlxG.mouse.overlaps(pauseButton) || FlxG.keys.pressed.ESCAPE)
+			{
+                pauseButton.animation.play('sel');
+			}
+			else
+			{
+				pauseButton.animation.play('idle');
 			}
 		}	
 
