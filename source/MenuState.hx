@@ -84,8 +84,6 @@ class MenuState extends FlxState
 			}
 		}
 
-		var number:Int = FlxG.random.int(0, 2);
-
 		warning = new FlxSprite(FlxG.width / 2, FlxG.height / 2).loadGraphic(AssetPaths.menuAsset('main_menu/warning'));
 		warning.setGraphicSize(Std.int(warning.width * 0.9));
 		warning.alpha = 0;
@@ -95,7 +93,7 @@ class MenuState extends FlxState
 		splashMessage.setFormat("assets/fonts/RifficFree-Bold.ttf", FlxColor.WHITE, CENTER, OUTLINE, FlxColor.BLACK);
 		splashMessage.size = 27;
 		splashMessage.alpha = 0;
-		splashMessage.text = splashTextArray[number];
+		splashMessage.text = splashTextArray[FlxG.random.int(0, splashTextArray.length - 1)];
 
 		logoSplash = new FlxSprite(100, 100).loadGraphic(AssetPaths.menuAsset('main_menu/splashLogo'));
 		logoSplash.screenCenter();
@@ -209,7 +207,7 @@ class MenuState extends FlxState
 		    {
 			    case 0:
 				    uparrow.alpha = 0;
-			    case 5:
+			    case 4:
 				    downarrow.alpha = 0;
 				default:
 					uparrow.alpha = 1;

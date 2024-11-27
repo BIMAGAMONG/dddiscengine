@@ -46,6 +46,7 @@ class ChapterSelect extends FlxSubState
 
     override public function create():Void
     {
+        chapter = Json.parse(Assets.getText("assets/data/chapters.json"));
         chapterInfo = chapter.chapters;
 
         for (item in 0...chapterInfo.length)
