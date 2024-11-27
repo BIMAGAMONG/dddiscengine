@@ -32,6 +32,8 @@
 	<set name="BUILD_DIR" value="export" />
 	<source path="source" />
         <assets path="assets" />
+	<assets path="mods" />
+	<assets path="chapters.json" />
         <assets path="assets/data" />
 
         <assets path="assets/music" include="*.mp3" if="flash"/>
