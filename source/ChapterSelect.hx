@@ -50,12 +50,12 @@ class ChapterSelect extends FlxSubState
 
         for (item in 0...chapterInfo.length)
         {
-            var splitArray:Array<String> = chapterInfo[hell].splt(":");
+            var splitArray:Array<String> = chapterInfo[hell].split(":");
 
-            var frame:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.menuAsset('chapter_select/frame_' + chapterInfo[hell][2]));
-            if (sys.FileSystem.exists(AssetPaths.menuAsset('chapter_select/frame_' + chapterInfo[hell][2])))
+            var frame:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.menuAsset('chapter_select/frame_' + splitArray[2]));
+            if (sys.FileSystem.exists(AssetPaths.menuAsset('chapter_select/frame_' + splitArray[2])))
             {
-                frame.loadGraphic(AssetPaths.menuAsset('chapter_select/frame_' + chapterInfo[hell][2]));
+                frame.loadGraphic(AssetPaths.menuAsset('chapter_select/frame_' + splitArray[2]));
             }
             else {
                 frame.loadGraphic(AssetPaths.menuAsset('chapter_select/frame_null'));
@@ -114,9 +114,9 @@ class ChapterSelect extends FlxSubState
                 });
             }
     
-            if ((FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed)) {
+            if (FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed) {
                 stopSpamming = true;
-                var splitArray:Array<String> = chapterInfo[curSelected].splt(":");
+                var splitArray:Array<String> = chapterInfo[curSelected].split(":");
                 PlayState.textFileName = splitArray[3];
                 FlxG.switchState(new PlayState());
             }
@@ -131,9 +131,9 @@ class ChapterSelect extends FlxSubState
         if (curSelected < 0) {curSelected = 0;}
         else if (curSelected > chapterGRP.length - 1) {curSelected = chapterGRP.length - 1;}
 
-        var splitArray:Array<String> = chapterInfo[curSelected].splt(":");
-        chapterTitle.text = chapterInfo[curSelected][0];
-        chapterDesc.text = chapterInfo[curSelected][1];
+        var splitArray:Array<String> = chapterInfo[curSelected].split(":");
+        chapterTitle.text = chapterInfo[0];
+        chapterDesc.text = chapterInfo[1];
 
         FlxTween.tween(chapterGRP, {x: -(1900 * curSelected)}, 0.2, {ease: FlxEase.circOut});
     }
