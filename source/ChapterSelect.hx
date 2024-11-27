@@ -16,6 +16,7 @@ import flixel.util.FlxTimer;
 import openfl.Lib;
 import haxe.Json;
 import lime.utils.Assets;
+using StringTools;
 
 typedef ChapterData =
 {

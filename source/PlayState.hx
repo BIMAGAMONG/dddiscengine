@@ -16,7 +16,6 @@ import flixel.FlxSubState;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.FlxCamera;
 
-import chapter.*;
 using StringTools;
 // this is in charge of the dialogue, to some extent - characters and backgrounds
 // PlayState.hx works together with your chapter file
