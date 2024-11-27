@@ -46,20 +46,21 @@ class ChapterSelect extends FlxSubState
 
     override public function create():Void
     {
-        chapter = Json.parse(Assets.getText("assets/data/chapters.json"));
+        chapter = Json.parse(Assets.getText("chapters.json"));
         chapterInfo = chapter.chapters;
 
         for (item in 0...chapterInfo.length)
         {
             var splitArray:Array<String> = chapterInfo[hell].split(":");
+            PlayState.modPrefix = splitArray[4];
 
-            var frame:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.menuAsset('chapter_select/frame_' + splitArray[2]));
-            if (sys.FileSystem.exists(AssetPaths.menuAsset('chapter_select/frame_' + splitArray[2])))
+            var frame:FlxSprite = new FlxSprite().loadGraphic('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2]);
+            if (sys.FileSystem.exists('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2]))
             {
-                frame.loadGraphic(AssetPaths.menuAsset('chapter_select/frame_' + splitArray[2]));
+                frame.loadGraphic('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2]);
             }
             else {
-                frame.loadGraphic(AssetPaths.menuAsset('chapter_select/frame_null'));
+                frame.loadGraphic(AssetPaths.menuAsset('frame_null'));
             }
             frame.screenCenter();
             frame.x += hell * 1900;
@@ -73,7 +74,7 @@ class ChapterSelect extends FlxSubState
 
         chapterTitle = new FlxText(10, 10, 0, "");
 		chapterTitle.setFormat("assets/fonts/pixelFont.ttf", FlxColor.WHITE, CENTER, OUTLINE, FlxColor.MAGENTA);
-		chapterTitle.size = 60;
+		chapterTitle.size = 50;
         chapterTitle.screenCenter();
         chapterTitle.y -= 300;
         chapterTitle.alpha = 0;
@@ -81,7 +82,7 @@ class ChapterSelect extends FlxSubState
 
         chapterDesc = new FlxText(10, 10, 0, "");
 		chapterDesc.setFormat("assets/fonts/pixelFont.ttf", FlxColor.WHITE, CENTER, OUTLINE, FlxColor.MAGENTA);
-		chapterDesc.size = 60;
+		chapterDesc.size = 50;
         chapterDesc.screenCenter();
         chapterDesc.y += 300;
         chapterDesc.alpha = 0;
@@ -90,6 +91,7 @@ class ChapterSelect extends FlxSubState
         FlxTween.tween(chapterTitle, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
         FlxTween.tween(chapterDesc, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
         FlxTween.tween(chapterGRP, {"scale.x": 1.0, "scale.y": 1.0}, 0.5, {ease: FlxEase.circOut});
+        change(0);
 
         super.create();
     }
@@ -116,6 +118,7 @@ class ChapterSelect extends FlxSubState
                 stopSpamming = true;
                 var splitArray:Array<String> = chapterInfo[curSelected].split(":");
                 PlayState.textFileName = splitArray[3];
+                PlayState.modPrefix = splitArray[4];
                 FlxG.switchState(new PlayState());
             }
         }

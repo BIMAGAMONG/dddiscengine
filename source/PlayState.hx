@@ -41,14 +41,15 @@ class PlayState extends FlxState
 	public static var block:Bool = false;
 
 	public static var textFileName:String = "";
+	public static var modPrefix:String = "";
 	var script:Array<String> = [];
 
 	override public function create()
 	{
 		curLine = -1;
 		end = false;
-
-		script = sys.io.File.getContent("assets/data/file.txt").trim().split('\n');
+		
+		script = sys.io.File.getContent("mods/" + modPrefix + "/data/" + textFileName +".txt").trim().split('\n');
 		for (i in 0...script.length)
 		{
 			script[i] = script[i].trim();
