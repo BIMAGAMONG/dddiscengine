@@ -101,7 +101,6 @@ class DokiChr extends FlxSprite
 
 	public function rotate(toAngle:Float, ?time:Float)
 	{
-		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;

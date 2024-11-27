@@ -96,9 +96,6 @@ class ChapterSelect extends FlxSubState
 
     override public function update(elapsed:Float)
     {
-        chapterTitle.alignment = CENTER;
-        chapterTitle.screenCenter(X);
-
         if (!stopSpamming)
         {
             if (FlxG.keys.justPressed.LEFT) {change(-1);}
@@ -133,8 +130,13 @@ class ChapterSelect extends FlxSubState
         else if (curSelected > chapterGRP.length - 1) {curSelected = chapterGRP.length - 1;}
 
         var splitArray:Array<String> = chapterInfo[curSelected].split(":");
-        chapterTitle.text = chapterInfo[0];
-        chapterDesc.text = chapterInfo[1];
+        chapterTitle.text = splitArray[0];
+        chapterDesc.text = splitArray[1];
+
+        chapterTitle.alignment = CENTER;
+        chapterTitle.screenCenter(X);
+        chapterDesc.alignment = CENTER;
+        chapterDesc.screenCenter(X);
 
         FlxTween.tween(chapterGRP, {x: -(1900 * curSelected)}, 0.2, {ease: FlxEase.circOut});
     }

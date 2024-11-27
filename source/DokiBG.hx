@@ -25,12 +25,6 @@ class DokiBG extends FlxSprite
         switch (dokiBGNAME) {
             case 'school':
                 loadGraphic(AssetPaths.dokiBG(dokiBGNAME));
-            case 'schoolglitch':
-                hasanims = true;
-                bgtex = AssetPaths.getBGSpritesheet(dokiBGNAME);
-                frames = bgtex;
-                animation.addByPrefix("schoolglitch", "schoolglitch", 16, false);
-                curAnimation('schoolglitch');
             default:
                 loadGraphic(AssetPaths.dokiBG("bg_missing"));
         }
