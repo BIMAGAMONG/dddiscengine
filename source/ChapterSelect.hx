@@ -54,10 +54,10 @@ class ChapterSelect extends FlxSubState
             var splitArray:Array<String> = chapterInfo[hell].split(":");
             PlayState.modPrefix = splitArray[4];
 
-            var frame:FlxSprite = new FlxSprite().loadGraphic('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2]);
-            if (sys.FileSystem.exists('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2]))
+            var frame:FlxSprite = new FlxSprite();
+            if (sys.FileSystem.exists('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2] + '.png'))
             {
-                frame.loadGraphic('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2]);
+                frame.loadGraphic('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2] + '.png');
             }
             else {
                 frame.loadGraphic(AssetPaths.menuAsset('frame_null'));

@@ -49,7 +49,7 @@ class PlayState extends FlxState
 		curLine = -1;
 		end = false;
 		
-		script = sys.io.File.getContent("mods/" + modPrefix + "/data/" + textFileName +".txt").trim().split('\n');
+		script = sys.io.File.getContent("mods/" + modPrefix + "/data/" + textFileName + ".txt").trim().split('\n');
 		for (i in 0...script.length)
 		{
 			script[i] = script[i].trim();
@@ -147,7 +147,7 @@ class PlayState extends FlxState
 	{	
 		curLine += 1;
 
-		var daLine:Array<String> = script[curLine].split(":");
+		var daLine:Array<String> = script[curLine].split("*");
 
 		switch (daLine[0])
 		{
