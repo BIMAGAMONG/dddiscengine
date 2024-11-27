@@ -19,7 +19,7 @@ class DokiChr extends FlxSprite
 	public var offsetone:Map<String, Array<Dynamic>>;
 	public var desiredAnimation:String = "";
 	public var hasanims:Bool;
-	public var identifier:String = "";
+	public var identifier:String = "null";
 
 	public function new(x:Float, y:Float, chr:String, isAnimated:Bool)
 	{
@@ -61,62 +61,42 @@ class DokiChr extends FlxSprite
 
 	public function moveTo(xPos:Float, yPos:Float, ?time:Float)
 	{
-		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 
-        FlxTween.tween(this, {x: xPos, y: yPos}, time, {onComplete: function (twn:FlxTween)
-			{
-				PlayState.block = false;
-			}
-		});
+        FlxTween.tween(this, {x: xPos, y: yPos}, time);
 	}
 
 	public function moveX(xPos:Float, ?time:Float)
 	{
-		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 	
-		FlxTween.tween(this, {x: xPos}, time, {onComplete: function (twn:FlxTween)
-			{
-				PlayState.block = false;
-			}
-		});
+		FlxTween.tween(this, {x: xPos}, time);
 	}
 
 	public function moveY(yPos:Float, ?time:Float)
 	{
-		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 		
-		FlxTween.tween(this, {y: yPos}, time, {onComplete: function (twn:FlxTween)
-			{
-				PlayState.block = false;
-			}
-		});
+		FlxTween.tween(this, {y: yPos}, time);
 	}
 
 	public function opacity(opacity:Float, ?time:Float)
 	{
-		PlayState.block = true;
 		if (time == null)
 		{
 			time = 1;
 		}
 
-		FlxTween.tween(this, {alpha: opacity}, time, {onComplete: function (twn:FlxTween)
-			{
-				PlayState.block = false;
-			}
-		});
+		FlxTween.tween(this, {alpha: opacity}, time);
 	}
 
 	public function rotate(toAngle:Float, ?time:Float)
@@ -127,16 +107,11 @@ class DokiChr extends FlxSprite
 			time = 1;
 		}
 
-		FlxTween.angle(this, this.angle, toAngle, time, {onComplete: function (twn:FlxTween)
-			{
-				PlayState.block = false;
-			}
-		});
+		FlxTween.angle(this, this.angle, toAngle, time);
 	}
 
 	public function entranceType(type:String, ?time:Float)
 	{
-		PlayState.block = true;
 		if (time == null)
 		{
 			time = 0.5;
@@ -148,38 +123,21 @@ class DokiChr extends FlxSprite
 		{
 			case "swipeFromL":
 				x -= 100;
-				FlxTween.tween(this, {x: x + 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {x: x + 100}, time);
 			case "swipeFromR":
 				x += 100;
-				FlxTween.tween(this, {x: x - 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {x: x - 100}, time);
 			case "swipeFromU":
 				y -= 100;
-				FlxTween.tween(this, {y: y + 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {y: y + 100}, time);
 			case "swipeFromD":
 				y += 100;
-				FlxTween.tween(this, {x: y - 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {x: y - 100}, time);
 		}
 	}
 
 	public function exitType(type:String, ?time:Float)
 	{
-		PlayState.block = true;
 		if (time == null)
 		{
 			time = 0.5;
@@ -190,29 +148,13 @@ class DokiChr extends FlxSprite
 		switch (type)
 		{
 			case "swipeToL":
-				FlxTween.tween(this, {x: x + 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {x: x + 100}, time);
 			case "swipeToR":
-				FlxTween.tween(this, {x: x - 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {x: x - 100}, time);
 			case "swipeToU":
-				FlxTween.tween(this, {y: y + 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {y: y + 100}, time);
 			case "swipeToD":
-				FlxTween.tween(this, {x: y - 100}, time, {onComplete: function (twn:FlxTween)
-					{
-						PlayState.block = false;
-					}
-				});
+				FlxTween.tween(this, {x: y - 100}, time);
 		}
 	}
 

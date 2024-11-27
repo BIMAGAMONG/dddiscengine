@@ -56,7 +56,7 @@ class MenuState extends FlxState
 
 	public static var introFinished:Bool = false;
 
-	public var optionsArray:Array<String> = ['Start', 'Side Stories', 'Gallery', 'Settings', 'Credits', 'Quit'];
+	public var optionsArray:Array<String> = ['Start', 'Gallery', 'Settings', 'Credits', 'Quit'];
 
 	public var splashTextArray:Array<String> = [
 		'Monika is not watching you code, thank me for your security.',
@@ -193,13 +193,9 @@ class MenuState extends FlxState
 				switch(menuOptions.text)
 				{
 					case 'Start':
-						ChapterSelect.typeOfShiz = "start";
-						transition();
-					case 'Side Stories':
-						ChapterSelect.typeOfShiz = "side-stories";
 						transition();
 					case 'Gallery':
-						trace("SIDE STORIES");
+						trace("GALLERY");
 					case 'Settings':
 						trace("OPTIONS");
 					case 'Credits':

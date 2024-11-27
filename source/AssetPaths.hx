@@ -7,20 +7,6 @@ import flixel.graphics.frames.FlxAtlasFrames;
 
 class AssetPaths
 {
-    // add your chapter here!!!
-    static public function chapterDialogue(lineNumber:Int, dialogueNumber:Int, chapterNo:Int)
-    {
-        switch (chapterNo)
-        {
-            case 1:
-                return chapter.ChapterOne.script[lineNumber][dialogueNumber];
-            case 2:
-                return chapter.ChapterTwo.script[lineNumber][dialogueNumber];
-            default:
-                return "null";
-        }            
-    }
-
     static function getPath(file:String)
     {        
         return getStuffFromPath(file);
