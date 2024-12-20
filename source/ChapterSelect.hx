@@ -20,24 +20,22 @@ using StringTools;
 
 typedef ChapterData =
 {
-	chapters:Array<String>
+    modname:String,
+    chapters:Array<String>
 }
 
 class ChapterSelect extends FlxSubState
 {
-    
     public var chapterGRP:FlxTypedSpriteGroup<FlxSprite> = new FlxTypedSpriteGroup<FlxSprite>();
     public var stopSpamming:Bool = false;
-
-    // all data from chapters.json is pushed in here
-    var chapter:ChapterData;
-    var chapterInfo:Array<String> = [];
 
     var curSelected:Int = 0;
     var hell:Int = 0;
 
     var chapterTitle:FlxText;
     var chapterDesc:FlxText;
+    var curMod:ChapterData;
+    var chapterJson:Array<String>;
 
     public function new()
     {
@@ -46,18 +44,13 @@ class ChapterSelect extends FlxSubState
 
     override public function create():Void
     {
-        chapter = Json.parse(Assets.getText("chapters.json"));
-        chapterInfo = chapter.chapters;
-
-        for (item in 0...chapterInfo.length)
+        for (item in 0...Mods.folderList.length)
         {
-            var splitArray:Array<String> = chapterInfo[hell].split(":");
-            PlayState.modPrefix = splitArray[4];
-
+            curMod = Json.parse(Assets.getText("mods/" + folderList[item] + "/chapters.json"));
+            var splitArray:Array<String> = curMod.chapters[item].split(":");
             var frame:FlxSprite = new FlxSprite();
-            if (sys.FileSystem.exists('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2] + '.png'))
-            {
-                frame.loadGraphic('mods/' + PlayState.modPrefix + '/chapter_select/frame_' + splitArray[2] + '.png');
+            if (sys.FileSystem.exists('mods/' + curMod + '/images/chapter_select/frame_' + splitArray[2] + '.png')) {
+                frame.loadGraphic('mods/' + curMod + '/images/chapter_select/frame_' + splitArray[2] + '.png');
             }
             else {
                 frame.loadGraphic(AssetPaths.menuAsset('frame_null'));
@@ -66,9 +59,9 @@ class ChapterSelect extends FlxSubState
             frame.x += hell * 1900;
             frame.ID = hell;
             chapterGRP.add(frame);
-    
             hell += 1;
         }
+        
         chapterGRP.scale.set(1.6, 1.6);
         add(chapterGRP);
 
@@ -116,9 +109,22 @@ class ChapterSelect extends FlxSubState
     
             if (FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed) {
                 stopSpamming = true;
-                var splitArray:Array<String> = chapterInfo[curSelected].split(":");
-                PlayState.textFileName = splitArray[3];
-                PlayState.modPrefix = splitArray[4];
+                for (item in 0...Mods.chapterList.length)
+                {
+                    if (item == curSelected)
+                    {
+                        var splitArray:Array<String> = Mods.chapterList[item].split(":");
+                        PlayState.textFileName = splitArray[3];
+                    }
+                }
+                for (item in 0...Mods.folderList.length)
+                {
+                    if (item == curSelected)
+                    {
+                        var splitArray:Array<String> = Mods.folderList[item].split(":");
+                        PlayState.modPrefix = splitArray[item];
+                    }
+                }
                 FlxG.switchState(new PlayState());
             }
         }
@@ -132,9 +138,15 @@ class ChapterSelect extends FlxSubState
         if (curSelected < 0) {curSelected = 0;}
         else if (curSelected > chapterGRP.length - 1) {curSelected = chapterGRP.length - 1;}
 
-        var splitArray:Array<String> = chapterInfo[curSelected].split(":");
-        chapterTitle.text = splitArray[0];
-        chapterDesc.text = splitArray[1];
+        for (item in 0...Mods.chapterList.length)
+        {
+            if (item == curSelected)
+            {
+                var splitArray:Array<String> = Mods.chapterList[item].split(":");
+                chapterTitle.text = splitArray[0];
+                chapterDesc.text = splitArray[1];
+            }
+        }
 
         chapterTitle.alignment = CENTER;
         chapterTitle.screenCenter(X);

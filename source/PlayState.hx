@@ -50,6 +50,7 @@ class PlayState extends FlxState
 		end = false;
 		
 		script = sys.io.File.getContent("mods/" + modPrefix + "/data/" + textFileName + ".txt").trim().split('\n');
+		trace("Script Path: " + "mods/" + modPrefix + "/data/" + textFileName + ".txt");
 		for (i in 0...script.length)
 		{
 			script[i] = script[i].trim();

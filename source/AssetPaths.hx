@@ -48,7 +48,7 @@ class AssetPaths
 
     inline static public function getUISpritesheet(key:String)
     {
-         return FlxAtlasFrames.fromSparrow('assets/images/ui/$key.png', 'assets/images/ui/$key.xml');
+        return FlxAtlasFrames.fromSparrow('assets/images/ui/$key.png', 'assets/images/ui/$key.xml');
     }
         
     // loading animated characters/backgrounds
