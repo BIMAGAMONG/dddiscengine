@@ -12,21 +12,16 @@ import flixel.tweens.FlxTween;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-
+import Mods;
 import openfl.Lib;
 import haxe.Json;
 import lime.utils.Assets;
+import Frame;
 using StringTools;
-
-typedef ChapterData =
-{
-    modname:String,
-    chapters:Array<String>
-}
 
 class ChapterSelect extends FlxSubState
 {
-    public var chapterGRP:FlxTypedSpriteGroup<FlxSprite> = new FlxTypedSpriteGroup<FlxSprite>();
+    public var chapterGRP:FlxTypedSpriteGroup<Frame> = new FlxTypedSpriteGroup<Frame>();
     public var stopSpamming:Bool = false;
 
     var curSelected:Int = 0;
@@ -34,6 +29,8 @@ class ChapterSelect extends FlxSubState
 
     var chapterTitle:FlxText;
     var chapterDesc:FlxText;
+
+    // loading the mod folder shiz
     var curMod:ChapterData;
     var chapterJson:Array<String>;
 
@@ -44,22 +41,29 @@ class ChapterSelect extends FlxSubState
 
     override public function create():Void
     {
-        for (item in 0...Mods.folderList.length)
+        for (daMod in 0...Mods.folderList.length)
         {
-            curMod = Json.parse(Assets.getText("mods/" + folderList[item] + "/chapters.json"));
-            var splitArray:Array<String> = curMod.chapters[item].split(":");
-            var frame:FlxSprite = new FlxSprite();
-            if (sys.FileSystem.exists('mods/' + curMod + '/images/chapter_select/frame_' + splitArray[2] + '.png')) {
-                frame.loadGraphic('mods/' + curMod + '/images/chapter_select/frame_' + splitArray[2] + '.png');
+            curMod = Json.parse(Assets.getText("mods/" + Mods.folderList[daMod] + "/chapters.json"));
+            trace("CURRENT MOD LOADED: " + Mods.folderList[daMod]);
+
+            for (item in 0...curMod.chapters.length)
+            {
+                var splitArrayLoading:Array<String> = curMod.chapters[item].split(":");
+                var path:String = 'mods/' + Mods.folderList[daMod] + '/images/chapter_select/frame_' + splitArrayLoading[2] + '.png';
+
+                trace("CURRENT MOD CHAPTERS: " + curMod.chapters);
+                trace("LOADING FRAME: " + path);
+
+                var frame:Frame = new Frame();
+                if (sys.FileSystem.exists(path)) {frame.loadGraphic(path);}
+                else {frame.loadGraphic(AssetPaths.menuAsset('frame_null'));}
+                frame.screenCenter();
+                frame.x += hell * 1900;
+                frame.ID = hell;
+                frame.modOrigin = curMod.chapters[item] + ":" + Mods.folderList[daMod];
+                chapterGRP.add(frame);
+                hell += 1;
             }
-            else {
-                frame.loadGraphic(AssetPaths.menuAsset('frame_null'));
-            }
-            frame.screenCenter();
-            frame.x += hell * 1900;
-            frame.ID = hell;
-            chapterGRP.add(frame);
-            hell += 1;
         }
         
         chapterGRP.scale.set(1.6, 1.6);
@@ -99,8 +103,9 @@ class ChapterSelect extends FlxSubState
                 stopSpamming = true;
                 FlxTween.tween(chapterGRP, {"scale.x": 1.6, "scale.y": 1.6}, 0.5, {ease: FlxEase.circOut});
                 FlxTween.tween(chapterTitle, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
+                FlxTween.tween(chapterDesc, {alpha: 0}, 0.5, {ease: FlxEase.circOut});
     
-                new FlxTimer().start(4, function(timer:FlxTimer)
+                new FlxTimer().start(1, function(timer:FlxTimer)
                 {
                     MenuState.undoTrans();
                     close();
@@ -109,20 +114,13 @@ class ChapterSelect extends FlxSubState
     
             if (FlxG.keys.justPressed.ENTER || FlxG.mouse.pressed) {
                 stopSpamming = true;
-                for (item in 0...Mods.chapterList.length)
+                for (item in chapterGRP.members)
                 {
-                    if (item == curSelected)
+                    if (item.ID == curSelected)
                     {
-                        var splitArray:Array<String> = Mods.chapterList[item].split(":");
-                        PlayState.textFileName = splitArray[3];
-                    }
-                }
-                for (item in 0...Mods.folderList.length)
-                {
-                    if (item == curSelected)
-                    {
-                        var splitArray:Array<String> = Mods.folderList[item].split(":");
-                        PlayState.modPrefix = splitArray[item];
+                        var grabChapterData:Array<String> = item.modOrigin.split(":");
+                        PlayState.textFileName = grabChapterData[3]; 
+                        PlayState.modPrefix = grabChapterData[4];
                     }
                 }
                 FlxG.switchState(new PlayState());

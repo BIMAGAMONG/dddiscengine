@@ -57,8 +57,9 @@ class PlayState extends FlxState
 		}
 
 		// cgs and bgs in one
-		bg = new DokiBG('school');
+		bg = new DokiBG('sigma sigma boy sigma boy');
 		add(bg);
+		reloadBG();
 		
 		// x position, y position, name of the character you want to load, then whether the character is animated or not
 		monika = new DokiChr(100, -112, "monika", true);
@@ -148,17 +149,19 @@ class PlayState extends FlxState
 	{	
 		curLine += 1;
 
-		var daLine:Array<String> = script[curLine].split("*");
+		var daLine:Array<String> = script[curLine].split("::");
 
 		switch (daLine[0])
 		{
+			case 'loadBG':
+				reloadBG(daLine[1]);
 			// SHIT FOR CHARACTERS
-			/*case 'playAnim':
+			/*
+			case 'playAnim':
 				
 			case 'rotate':
 				
 			case 'move':
-				
 
 			// other shit
             case 'bgchange':
@@ -206,6 +209,11 @@ class PlayState extends FlxState
 			curLine = -1;
 			FlxG.switchState(new MenuState());
 		});
+	}
+
+	public function reloadBG(name:String)
+	{
+		bg.reloadShit();
 	}
 
 	/*public function changeBG(bgName:String, ?isFromStart:Bool)

@@ -63,11 +63,6 @@ class AssetPaths
     }
 
     // loading normal BGs and Characters
-    inline static public function dokiBG(key:String)
-	{
-		return getPath('images/bg/$key.png');
-	}
-
     inline static public function getStaticCharacter(key:String)
     {
         return getPath('images/characters/$key.png');

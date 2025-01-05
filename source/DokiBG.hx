@@ -20,77 +20,12 @@ class DokiBG extends FlxSprite
 	{
 		super();
         dokiBGNAME = name;
-
-        // only up to one animation
-        switch (dokiBGNAME) {
-            case 'school':
-                loadGraphic(AssetPaths.dokiBG(dokiBGNAME));
-            default:
-                loadGraphic(AssetPaths.dokiBG("bg_missing"));
-        }
-
         screenCenter();
+		reloadShit(name);
 	}
 
-	public function moveTo(xPos:Float, yPos:Float, ?time:Float)
+	public function reloadshit(name:String)
 	{
-		if (time == null)
-		{
-			time = 1;
-		}
-
-        FlxTween.tween(this, {x: xPos, y: yPos}, time);
+		loadGraphic("assets/images/bg_missing");
 	}
-
-	public function moveX(xPos:Float, ?time:Float)
-	{
-		if (time == null)
-		{
-			time = 1;
-		}
-	
-		FlxTween.tween(this, {x: xPos}, time);
-	}
-
-	public function moveY(yPos:Float, ?time:Float)
-	{
-		if (time == null)
-		{
-			time = 1;
-		}
-		
-		FlxTween.tween(this, {y: yPos}, time);
-	}
-
-	public function opacity(opacity:Float, ?time:Float)
-	{
-		if (time == null)
-		{
-			time = 1;
-		}
-
-		FlxTween.tween(this, {alpha: opacity}, time);
-	}
-
-	public function rotate(toAngle:Float, ?time:Float)
-	{
-		if (time == null)
-		{
-			time = 1;
-		}
-
-		FlxTween.angle(this, this.angle, toAngle, time);
-	}
-
-    public function curAnimation(Name:String):Void
-    {
-        if (hasanims) {desiredAnimation = Name;}
-    }
-    
-    override function update(elapsed:Float)
-    {
-        if (hasanims) {animation.play(desiredAnimation);}
-        super.update(elapsed);
-    }
-
 }

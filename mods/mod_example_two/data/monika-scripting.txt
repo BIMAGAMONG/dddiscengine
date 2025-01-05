@@ -1,3 +1,0 @@
-s*hello there
-s*how are u doing
-end

@@ -1,7 +1,6 @@
 {
     "modname": "EXAMPLE TWO",
     "chapters": [
-        "Sayori Introduction:Monika introduces you to Doki Doki Disc Engine:monika:sayori-intro",
-        "Scripting with Monika:Sayori explains how scripts work:sayori:monika-scripting"
+        "Scripting with Sayori:Sayori explains how scripts work:sayori:sayori-scripting"
     ]
 }
