@@ -139,7 +139,6 @@ class MenuState extends FlxState
 		add(logoSplash);
 		add(warning);
 
-		Mods.loadMods();
 		super.create();
 
 		if (doIntro == true) {

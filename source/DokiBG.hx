@@ -21,7 +21,7 @@ class DokiBG extends FlxSprite
 		super();
         dokiBGNAME = name;
         screenCenter();
-		reloadShit(name);
+		reloadshit(name);
 	}
 
 	public function reloadshit(name:String)

@@ -3,6 +3,7 @@ import Sys;
 import sys.FileSystem;
 import haxe.Json;
 import lime.utils.Assets;
+import flixel.util.FlxArrayUtil;
 
 typedef ChapterData =
 {
@@ -17,14 +18,18 @@ class Mods
 
     public static function loadMods()
     {
+        chapterList = [];
         folderList = sys.FileSystem.readDirectory("mods");
 
-        for (item in 0...folderList.length)
+        if (folderList != [])
         {
-            var jsonFile:ChapterData = Json.parse(Assets.getText("mods/" + folderList[item] + "/chapters.json"));
-            for (chapter in 0...jsonFile.chapters.length)
+            for (item in 0...folderList.length)
             {
-                chapterList.push(jsonFile.chapters[chapter]);
+                var jsonFile:ChapterData = Json.parse(Assets.getText("mods/" + folderList[item] + "/chapters.json"));
+                for (chapter in 0...jsonFile.chapters.length)
+                {
+                    chapterList.push(jsonFile.chapters[chapter]);
+                }
             }
         }
         trace("Mods loaded: " + folderList);

@@ -59,7 +59,6 @@ class PlayState extends FlxState
 		// cgs and bgs in one
 		bg = new DokiBG('sigma sigma boy sigma boy');
 		add(bg);
-		reloadBG();
 		
 		// x position, y position, name of the character you want to load, then whether the character is animated or not
 		monika = new DokiChr(100, -112, "monika", true);
@@ -213,7 +212,7 @@ class PlayState extends FlxState
 
 	public function reloadBG(name:String)
 	{
-		bg.reloadShit();
+		bg.reloadshit(name);
 	}
 
 	/*public function changeBG(bgName:String, ?isFromStart:Bool)
