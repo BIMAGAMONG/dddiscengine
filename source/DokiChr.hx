@@ -8,10 +8,8 @@ import flixel.system.FlxAssets;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 
-// wanted to make the process of adding a character the same as FNF
-// i used the code from FNF as a reference so uh this is pretty much the same as Character.hx
-// just with different variable and function names
 
+// this is the most horrible way to code characters
 class DokiChr extends FlxSprite
 {
     var texture:FlxAtlasFrames;
